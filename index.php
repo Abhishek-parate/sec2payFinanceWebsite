@@ -314,12 +314,12 @@
                 network that serves millions"</p>
         </div>
 
-        <!-- Service Cards Grid -->
+        <!-- Service Cards Grid - These are the tabs -->
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 max-w-full">
 
             <!-- Banking Card -->
             <div
-                class="bg-secondary-500 rounded-lg shadow-md px-6 py-4 flex flex-col items-center justify-center h-full text-white transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden">
+                class="product-tab bg-secondary-500 rounded-lg shadow-md px-6 py-4 flex flex-col items-center justify-center h-full text-white transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden cursor-pointer">
                 <div class="flex justify-center items-center mb-4">
                     <img src="assets/images/home/Vector (2).png" alt="Dashboard" class="h-6" />
                 </div>
@@ -328,7 +328,7 @@
 
             <!-- Travel Booking Card -->
             <div
-                class="bg-white rounded-lg shadow-sm border border-gray-200 px-6 py-4 flex flex-col items-center justify-center h-full transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden">
+                class="product-tab bg-white rounded-lg shadow-sm border border-gray-200 px-6 py-4 flex flex-col items-center justify-center h-full transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden cursor-pointer">
                 <div class="flex justify-center items-center mb-4">
                     <img src="assets/images/home/Vector (1).png" alt="Dashboard" class="h-6" />
                 </div>
@@ -337,7 +337,7 @@
 
             <!-- Utility Payment Card -->
             <div
-                class="bg-white rounded-lg shadow-sm border border-gray-200 px-6 py-4 flex flex-col items-center justify-center h-full transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden">
+                class="product-tab bg-white rounded-lg shadow-sm border border-gray-200 px-6 py-4 flex flex-col items-center justify-center h-full transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden cursor-pointer">
                 <div class="flex justify-center items-center mb-4">
                     <img src="assets/images/home/Vector (3).png" alt="Dashboard" class="h-6" />
                 </div>
@@ -346,7 +346,7 @@
 
             <!-- E-Governance Card -->
             <div
-                class="bg-white rounded-lg shadow-sm border border-gray-200 px-6 py-4 flex flex-col items-center justify-center h-full transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden">
+                class="product-tab bg-white rounded-lg shadow-sm border border-gray-200 px-6 py-4 flex flex-col items-center justify-center h-full transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden cursor-pointer">
 
                 <div class="flex justify-center items-center mb-4">
                     <img src="assets/images/home/XMLID_206_.png" alt="Dashboard" class="h-6" />
@@ -356,7 +356,7 @@
 
             <!-- Insurance Services Card -->
             <div
-                class="bg-white rounded-lg shadow-sm border border-gray-200 px-6 py-4 flex flex-col items-center justify-center h-full transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden">
+                class="product-tab bg-white rounded-lg shadow-sm border border-gray-200 px-6 py-4 flex flex-col items-center justify-center h-full transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden cursor-pointer">
                 <div class="flex justify-center items-center mb-4">
                     <img src="assets/images/home/Vector (4).png" alt="Dashboard" class="h-6" />
                 </div>
@@ -365,7 +365,7 @@
 
             <!-- ONDC Card -->
             <div
-                class="bg-white rounded-lg shadow-sm border border-gray-200 px-6 py-4 flex flex-col items-center justify-center h-full transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden">
+                class="product-tab bg-white rounded-lg shadow-sm border border-gray-200 px-6 py-4 flex flex-col items-center justify-center h-full transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden cursor-pointer">
                 <div class="flex justify-center items-center mb-4">
                     <img src="assets/images/home/Group 1000011145.png" alt="Dashboard" class="h-6" />
                 </div>
@@ -375,117 +375,227 @@
         </div>
     </div>
 
+    <!-- Content Sections - These will change when tabs are clicked -->
+    <div class="mt-8">
+        <!-- Banking Solutions Content -->
+        <div class="product-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="rounded-xl overflow-hidden bg-gradient-to-r from-red-50 to-red-100 shadow-md">
+                <div class="grid grid-cols-1 md:grid-cols-2">
+                    <!-- Left Content - Services List -->
+                    <div class="p-8 md:p-12">
+                        <h2 class="text-2xl font-bold text-gray-800 mb-4">Banking Solutions</h2>
+                        <p class="text-gray-700 mb-8">Expand your reach with AePS, UPI, and Micro ATM services.</p>
 
-    <!-- Banking Solutions Card -->
-    <!-- Banking Solutions Card -->
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12  ">
-        <div class="rounded-xl overflow-hidden bg-gradient-to-r from-red-50 to-red-100 shadow-md">
-            <div class="grid grid-cols-1 md:grid-cols-2 ">
-                <!-- Left Content - Services List -->
-                <div class="p-8 md:p-12">
-                    <h2 class="text-2xl font-bold text-gray-800 mb-4">Banking Solutions</h2>
-                    <p class="text-gray-700 mb-8">Expand your reach with AePS, UPI, and Micro ATM services.</p>
-
-                    <div class="space-y-4">
-                        <!-- Service Item -->
-                        <div class="flex items-start">
-                            <div class="flex-shrink-0 mt-1">
-                                <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M5 13l4 4L19 7" />
-                                    </svg>
+                        <div class="space-y-4">
+                            <!-- Service Items -->
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
                                 </div>
+                                <span class="ml-3 text-gray-700 font-medium">AePS</span>
                             </div>
-                            <span class="ml-3 text-gray-700 font-medium">AePS</span>
-                        </div>
-
-                        <!-- Service Item -->
-                        <div class="flex items-start">
-                            <div class="flex-shrink-0 mt-1">
-                                <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M5 13l4 4L19 7" />
-                                    </svg>
+                            <!-- More service items... (keep the rest of your banking services) -->
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
                                 </div>
+                                <span class="ml-3 text-gray-700 font-medium">DMT & DMT Channels</span>
                             </div>
-                            <span class="ml-3 text-gray-700 font-medium">DMT & DMT Channels</span>
-                        </div>
-
-                        <!-- Service Item -->
-                        <div class="flex items-start">
-                            <div class="flex-shrink-0 mt-1">
-                                <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M5 13l4 4L19 7" />
-                                    </svg>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
                                 </div>
+                                <span class="ml-3 text-gray-700 font-medium">MicroATM or Mini ATM</span>
                             </div>
-                            <span class="ml-3 text-gray-700 font-medium">MicroATM or Mini ATM</span>
-                        </div>
-
-                        <!-- Service Item -->
-                        <div class="flex items-start">
-                            <div class="flex-shrink-0 mt-1">
-                                <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M5 13l4 4L19 7" />
-                                    </svg>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
                                 </div>
+                                <span class="ml-3 text-gray-700 font-medium">Account Opening</span>
                             </div>
-                            <span class="ml-3 text-gray-700 font-medium">Account Opening</span>
-                        </div>
-
-                        <!-- Service Item -->
-                        <div class="flex items-start">
-                            <div class="flex-shrink-0 mt-1">
-                                <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M5 13l4 4L19 7" />
-                                    </svg>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
                                 </div>
+                                <span class="ml-3 text-gray-700 font-medium">Cash Management</span>
                             </div>
-                            <span class="ml-3 text-gray-700 font-medium">Cash Management</span>
-                        </div>
-
-                        <!-- Service Item -->
-                        <div class="flex items-start">
-                            <div class="flex-shrink-0 mt-1">
-                                <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
-                                        viewBox="0 0 24 24" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M5 13l4 4L19 7" />
-                                    </svg>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
                                 </div>
+                                <span class="ml-3 text-gray-700 font-medium">Indo-nepal Money Transfer</span>
                             </div>
-                            <span class="ml-3 text-gray-700 font-medium">Indo-nepal Money Tranfer</span>
                         </div>
                     </div>
-                </div>
 
-                <!-- Right Content - Image and Features -->
-                <div class="relative ">
-                    <!-- Diagonal Shapes for Design -->
-
-
-
-                    <!-- Person Image -->
-                    <div class="absolute bottom-0 right-0 h-full  flex items-end">
-                        <img src="assets/images/home/image.png" alt="Man using banking services on smartphone" />
+                    <!-- Right Content - Image -->
+                    <div class="relative">
+                        <div class="absolute bottom-0 right-0 h-full flex items-end">
+                            <img src="assets/images/home/image.png" alt="Man using banking services on smartphone" />
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- Travel Booking Content -->
+        <div class="product-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 hidden">
+            <div class="rounded-xl overflow-hidden bg-gradient-to-r from-blue-50 to-blue-100 shadow-md">
+                <div class="grid grid-cols-1 md:grid-cols-2">
+                    <!-- Left Content -->
+                    <div class="p-8 md:p-12">
+                        <h2 class="text-2xl font-bold text-gray-800 mb-4">Travel Booking Solutions</h2>
+                        <p class="text-gray-700 mb-8">Comprehensive travel solutions for your customers.</p>
+
+                        <div class="space-y-4">
+                            <!-- Service Items -->
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span class="ml-3 text-gray-700 font-medium">Flight Bookings</span>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span class="ml-3 text-gray-700 font-medium">Hotel Reservations</span>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span class="ml-3 text-gray-700 font-medium">Bus Tickets</span>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span class="ml-3 text-gray-700 font-medium">Train Reservations</span>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span class="ml-3 text-gray-700 font-medium">Holiday Packages</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Content - Image -->
+                    <div class="relative">
+                        <div class="absolute bottom-0 right-0 h-full flex items-end">
+                            <img src="assets/images/home/image.png" alt="Travel booking illustration" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Add remaining content sections for other tabs (Utility Payment, E-Governance, Insurance, ONDC) -->
+        <!-- Each section should have the class "product-content" and "hidden" except for the first one -->
+        
+        <!-- Utility Payment Content -->
+        <div class="product-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 hidden">
+            <div class="rounded-xl overflow-hidden bg-gradient-to-r from-green-50 to-green-100 shadow-md">
+                <!-- Similar structure as above, but with utility payment content -->
+                <div class="grid grid-cols-1 md:grid-cols-2">
+                    <div class="p-8 md:p-12">
+                        <h2 class="text-2xl font-bold text-gray-800 mb-4">Utility Payment Solutions</h2>
+                        <p class="text-gray-700 mb-8">Enable your customers to pay all bills in one place.</p>
+                        
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span class="ml-3 text-gray-700 font-medium">Electricity Bills</span>
+                            </div>
+                            <!-- Add more utility payment items here -->
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <div class="absolute bottom-0 right-0 h-full flex items-end">
+                            <img src="assets/images/home/image.png" alt="Utility payments illustration" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Continue with other sections... -->
     </div>
 </section>
 

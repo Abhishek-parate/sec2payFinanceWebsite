@@ -94,3 +94,100 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize header style on page load
     updateHeaderStyle();
   });
+
+
+
+  // Add this JavaScript to create the tabbed interface functionality with enhanced animations
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Get all tab cards
+    const tabCards = document.querySelectorAll('.product-tab');
+    
+    // Get all content sections
+    const contentSections = document.querySelectorAll('.product-content');
+    
+    // Initialize - show only the first tab's content
+    contentSections.forEach((section, index) => {
+      if (index === 0) {
+        section.classList.remove('hidden');
+        section.classList.add('animate-fade-in');
+      } else {
+        section.classList.add('hidden');
+      }
+    });
+    
+    // Set first tab as active
+    if (tabCards.length > 0) {
+      tabCards[0].classList.add('bg-secondary-500', 'text-white');
+      tabCards[0].classList.remove('bg-white', 'text-primary-600', 'border-gray-200');
+    }
+    
+    // Add click event to each tab
+    tabCards.forEach((tab, index) => {
+      tab.addEventListener('click', () => {
+        // Skip if clicking the already active tab
+        if (tab.classList.contains('bg-secondary-500')) {
+          return;
+        }
+        
+        // Reset all tabs to inactive state
+        tabCards.forEach(card => {
+          card.classList.remove('bg-secondary-500', 'text-white');
+          card.classList.add('bg-white', 'text-primary-600', 'border', 'border-gray-200');
+          
+          // Reset image and icon color
+          const iconImage = card.querySelector('img');
+          if (iconImage) {
+            // You could implement icon color changes here if needed
+          }
+        });
+        
+        // Set clicked tab to active state with animation
+        tab.classList.remove('bg-white', 'text-primary-600', 'border-gray-200');
+        tab.classList.add('bg-secondary-500', 'text-white', 'animate-bounce-once');
+        
+        // After bounce animation completes, remove the class
+        setTimeout(() => {
+          tab.classList.remove('animate-bounce-once');
+        }, 300);
+        
+        // Hide all content sections with animation
+        contentSections.forEach(section => {
+          if (!section.classList.contains('hidden')) {
+            // Add fade-out animation
+            section.classList.add('animate-fade-out');
+            
+            // After animation completes, hide the section
+            setTimeout(() => {
+              section.classList.add('hidden');
+              section.classList.remove('animate-fade-out');
+              
+              // Show the selected content section with slide-in animation
+              contentSections[index].classList.remove('hidden');
+              contentSections[index].classList.add('animate-slide-in');
+              
+              // Remove animation class after it completes
+              setTimeout(() => {
+                contentSections[index].classList.remove('animate-slide-in');
+              }, 400);
+            }, 300); // Duration matches the animation duration
+          }
+        });
+      });
+    });
+    
+    // Add hover effect to tabs
+    tabCards.forEach(tab => {
+      tab.addEventListener('mouseenter', () => {
+        if (!tab.classList.contains('bg-secondary-500')) {
+          tab.classList.add('shadow-md', 'scale-105');
+        }
+      });
+      
+      tab.addEventListener('mouseleave', () => {
+        if (!tab.classList.contains('bg-secondary-500')) {
+          tab.classList.remove('shadow-md', 'scale-105');
+        }
+      });
+    });
+  });
