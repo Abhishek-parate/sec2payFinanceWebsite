@@ -65,3 +65,32 @@ function initMobileMenu() {
     // Add initial transform class
     mobileMenuPanel.classList.add('translate-x-full');
 }
+
+
+
+
+
+// Add this script to your website's JavaScript file or include it in a script tag at the end of your body
+
+document.addEventListener('DOMContentLoaded', function() {
+    const header = document.getElementById('main-header');
+    
+    // Function to update header style based on scroll position
+    function updateHeaderStyle() {
+      if (window.scrollY > 50) {
+        // Add glass effect classes when scrolled down
+        header.classList.remove('bg-transparent');
+        header.classList.add('bg-white/10', 'backdrop-blur', 'shadow-md');
+      } else {
+        // Remove glass effect when at top
+        header.classList.add('bg-transparent');
+        header.classList.remove('bg-white/10', 'backdrop-blur', 'shadow-md');
+      }
+    }
+    
+    // Add scroll event listener
+    window.addEventListener('scroll', updateHeaderStyle);
+    
+    // Initialize header style on page load
+    updateHeaderStyle();
+  });

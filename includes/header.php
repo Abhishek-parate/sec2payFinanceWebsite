@@ -10,8 +10,8 @@
 
 </head>
 <body class="bg-white font-inter">
-    <header class="py-4 border-b border-gray-100 sticky top-0 z-50 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<header id="main-header" class="fixed top-0 left-0 right-0 z-50 bg-transparent transition-all duration-300 ease-in-out py-4">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <!-- Three-column flex layout with centered navigation -->
             <div class="flex items-center justify-between">
                 <!-- Logo Column -->
