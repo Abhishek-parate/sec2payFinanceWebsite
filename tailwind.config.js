@@ -1,8 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./**/*.{html,js,php}","./includes/**/*.php",
-    "./assets/js/**/*.js"
-],
+  content: ["./**/*.{html,js,php}","./includes/**/*.php", "./assets/js/**/*.js"],
   darkMode: "class", // Use class strategy for dark mode
   theme: {
     extend: {
@@ -70,6 +68,9 @@ export default {
         'fade-in': 'fadeIn 0.3s ease-in-out',
         'fade-out': 'fadeOut 0.3s ease-in-out',
         'slide-in': 'slideIn 0.4s ease-out',
+        'scroll': 'scroll 30s linear infinite',
+        'pulse-scale': 'pulseScale 0.4s ease-out', // New animation for tab selection
+        'bounce-once': 'bounceOnce 0.3s ease-out', // New animation for tab selection
       },
       keyframes: {
         fadeIn: {
@@ -84,6 +85,23 @@ export default {
           '0%': { transform: 'translateX(20px)', opacity: '0' },
           '100%': { transform: 'translateX(0)', opacity: '1' },
         },
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
+        pulseScale: {
+          '0%': { transform: 'scale(1)' },
+          '50%': { transform: 'scale(1.05)' },
+          '100%': { transform: 'scale(1)' },
+        },
+        bounceOnce: {
+          '0%': { transform: 'translateY(0)' },
+          '40%': { transform: 'translateY(-10px)' },
+          '70%': { transform: 'translateY(-4px)' },
+          '100%': { transform: 'translateY(0)' },
+        },
+       
+
       },
     },
     fontFamily: {

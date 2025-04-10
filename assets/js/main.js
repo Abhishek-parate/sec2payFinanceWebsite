@@ -72,122 +72,640 @@ function initMobileMenu() {
 
 // Add this script to your website's JavaScript file or include it in a script tag at the end of your body
 
+// Tabbed Interface with Bidirectional AOS Animation Refresh
 document.addEventListener('DOMContentLoaded', function() {
-    const header = document.getElementById('main-header');
-    
-    // Function to update header style based on scroll position
-    function updateHeaderStyle() {
-      if (window.scrollY > 50) {
-        // Add glass effect classes when scrolled down
-        header.classList.remove('bg-transparent');
-        header.classList.add('bg-white/10', 'backdrop-blur', 'shadow-md');
-      } else {
-        // Remove glass effect when at top
-        header.classList.add('bg-transparent');
-        header.classList.remove('bg-white/10', 'backdrop-blur', 'shadow-md');
-      }
+  // Get all tab cards
+  const tabCards = document.querySelectorAll('.product-tab');
+  
+  // Get all content sections
+  const contentSections = document.querySelectorAll('.product-content');
+  
+  // Initialize - show only the first tab's content
+  contentSections.forEach((section, index) => {
+    if (index === 0) {
+      section.classList.remove('hidden');
+      section.classList.add('animate-fade-in');
+    } else {
+      section.classList.add('hidden');
     }
-    
-    // Add scroll event listener
-    window.addEventListener('scroll', updateHeaderStyle);
-    
-    // Initialize header style on page load
-    updateHeaderStyle();
   });
-
-
-
-  // Add this JavaScript to create the tabbed interface functionality with enhanced animations
-
-document.addEventListener('DOMContentLoaded', function() {
-    // Get all tab cards
-    const tabCards = document.querySelectorAll('.product-tab');
+  
+  // Set first tab as active
+  if (tabCards.length > 0) {
+    tabCards[0].classList.add('bg-secondary-500');
+    tabCards[0].classList.remove('bg-white', 'text-primary-600', 'border-gray-200');
     
-    // Get all content sections
-    const contentSections = document.querySelectorAll('.product-content');
-    
-    // Initialize - show only the first tab's content
-    contentSections.forEach((section, index) => {
-      if (index === 0) {
-        section.classList.remove('hidden');
-        section.classList.add('animate-fade-in');
-      } else {
-        section.classList.add('hidden');
-      }
-    });
-    
-    // Set first tab as active
-    if (tabCards.length > 0) {
-      tabCards[0].classList.add('bg-secondary-500', 'text-white');
-      tabCards[0].classList.remove('bg-white', 'text-primary-600', 'border-gray-200');
+    // Ensure the icon has the active color for the first/active tab
+    const activeIcon = tabCards[0].querySelector('i');
+    if (activeIcon) {
+      activeIcon.classList.add('text-white');
+      activeIcon.classList.remove('text-primary-500');
     }
     
-    // Add click event to each tab
-    tabCards.forEach((tab, index) => {
-      tab.addEventListener('click', () => {
-        // Skip if clicking the already active tab
-        if (tab.classList.contains('bg-secondary-500')) {
-          return;
+    // Ensure the heading has the right color
+    const heading = tabCards[0].querySelector('h3');
+    if (heading) {
+      heading.classList.add('text-white');
+      heading.classList.remove('text-primary-600');
+    }
+  }
+  
+  // Function to scroll tab into view when selected (for mobile)
+  const scrollTabIntoView = (tab) => {
+    if (window.innerWidth < 1024) { // Only for screens smaller than lg breakpoint
+      tab.scrollIntoView({
+        behavior: 'smooth',
+        block: 'nearest',
+        inline: 'center'
+      });
+    }
+  };
+  
+  // Add click event to each tab
+  tabCards.forEach((tab, index) => {
+    tab.addEventListener('click', () => {
+      // Skip if clicking the already active tab
+      if (tab.classList.contains('bg-secondary-500')) {
+        return;
+      }
+      
+      // Scroll the tab into center view on mobile
+      scrollTabIntoView(tab);
+      
+      // Reset all tabs to inactive state
+      tabCards.forEach(card => {
+        card.classList.remove('bg-secondary-500', 'text-white');
+        card.classList.add('bg-white', 'text-primary-600', 'border', 'border-gray-200');
+        
+        // Reset icon color
+        const icon = card.querySelector('i');
+        if (icon) {
+          icon.classList.remove('text-white');
+          icon.classList.add('text-primary-500');
         }
         
-        // Reset all tabs to inactive state
-        tabCards.forEach(card => {
-          card.classList.remove('bg-secondary-500', 'text-white');
-          card.classList.add('bg-white', 'text-primary-600', 'border', 'border-gray-200');
-          
-          // Reset image and icon color
-          const iconImage = card.querySelector('img');
-          if (iconImage) {
-            // You could implement icon color changes here if needed
-          }
-        });
-        
-        // Set clicked tab to active state with animation
-        tab.classList.remove('bg-white', 'text-primary-600', 'border-gray-200');
-        tab.classList.add('bg-secondary-500', 'text-white', 'animate-bounce-once');
-        
-        // After bounce animation completes, remove the class
-        setTimeout(() => {
-          tab.classList.remove('animate-bounce-once');
-        }, 300);
-        
-        // Hide all content sections with animation
-        contentSections.forEach(section => {
-          if (!section.classList.contains('hidden')) {
-            // Add fade-out animation
-            section.classList.add('animate-fade-out');
-            
-            // After animation completes, hide the section
-            setTimeout(() => {
-              section.classList.add('hidden');
-              section.classList.remove('animate-fade-out');
-              
-              // Show the selected content section with slide-in animation
-              contentSections[index].classList.remove('hidden');
-              contentSections[index].classList.add('animate-slide-in');
-              
-              // Remove animation class after it completes
-              setTimeout(() => {
-                contentSections[index].classList.remove('animate-slide-in');
-              }, 400);
-            }, 300); // Duration matches the animation duration
-          }
-        });
-      });
-    });
-    
-    // Add hover effect to tabs
-    tabCards.forEach(tab => {
-      tab.addEventListener('mouseenter', () => {
-        if (!tab.classList.contains('bg-secondary-500')) {
-          tab.classList.add('shadow-md', 'scale-105');
+        // Reset text color for the heading
+        const heading = card.querySelector('h3');
+        if (heading) {
+          heading.classList.remove('text-white');
+          heading.classList.add('text-primary-600');
         }
       });
       
-      tab.addEventListener('mouseleave', () => {
-        if (!tab.classList.contains('bg-secondary-500')) {
-          tab.classList.remove('shadow-md', 'scale-105');
+      // Set clicked tab to active state with animation
+      tab.classList.remove('bg-white', 'text-primary-600', 'border-gray-200');
+      tab.classList.add('bg-secondary-500', 'animate-bounce-once');
+      
+      // Make icon a different color when tab is active
+      const activeIcon = tab.querySelector('i');
+      if (activeIcon) {
+        activeIcon.classList.remove('text-primary-500', 'text-primary-600');
+        activeIcon.classList.add('text-white');
+      }
+      
+      // Update text color for the heading
+      const heading = tab.querySelector('h3');
+      if (heading) {
+        heading.classList.remove('text-primary-600');
+        heading.classList.add('text-white');
+      }
+      
+      // After bounce animation completes, remove the class
+      setTimeout(() => {
+        tab.classList.remove('animate-bounce-once');
+      }, 300);
+      
+      // Hide all content sections with animation
+      contentSections.forEach(section => {
+        if (!section.classList.contains('hidden')) {
+          // Add fade-out animation
+          section.classList.add('animate-fade-out');
+          
+          // After animation completes, hide the section
+          setTimeout(() => {
+            section.classList.add('hidden');
+            section.classList.remove('animate-fade-out');
+            
+            // Show the selected content section with slide-in animation
+            contentSections[index].classList.remove('hidden');
+            contentSections[index].classList.add('animate-slide-in');
+            
+            // Refresh AOS animations for the newly visible content
+            if (typeof AOS !== 'undefined') {
+              // Short delay to ensure elements are visible first
+              setTimeout(() => {
+                // Reset data-aos-animate attribute on all elements in the new tab content
+                const aosElements = contentSections[index].querySelectorAll('[data-aos]');
+                aosElements.forEach(element => {
+                  element.classList.remove('aos-animate');
+                });
+                
+                // Refresh AOS to recalculate and apply animations
+                AOS.refresh();
+              }, 50);
+            }
+            
+            // Remove animation class after it completes
+            setTimeout(() => {
+              contentSections[index].classList.remove('animate-slide-in');
+            }, 400);
+          }, 300); // Duration matches the animation duration
         }
       });
     });
   });
+  
+  // Add hover effect to tabs
+  tabCards.forEach(tab => {
+    tab.addEventListener('mouseenter', () => {
+      if (!tab.classList.contains('bg-secondary-500')) {
+        tab.classList.add('shadow-md', 'scale-105');
+      }
+    });
+    
+    tab.addEventListener('mouseleave', () => {
+      if (!tab.classList.contains('bg-secondary-500')) {
+        tab.classList.remove('shadow-md', 'scale-105');
+      }
+    });
+  });
+  
+  // Add scroll listener to refresh AOS animations when scrolling near tabs section
+  window.addEventListener('scroll', function() {
+    if (typeof AOS === 'undefined') return;
+    
+    // Throttle the scroll event for better performance
+    if (!window.scrollThrottle) {
+      window.scrollThrottle = setTimeout(function() {
+        AOS.refresh();
+        window.scrollThrottle = null;
+      }, 200);
+    }
+  });
+});
+
+    document.addEventListener('DOMContentLoaded', function() {
+      AOS.init({
+        duration: 800,          // Animation duration in milliseconds
+        easing: 'ease-out',     // Default easing for AOS animations
+        once: false,            // Set to false to make animations work every time you scroll up/down
+        mirror: true,           // Enable mirroring effect so elements animate out when scrolling past them
+        offset: 120,            // Offset (in px) from the original trigger point
+        delay: 0,               // Default delay before animation starts
+        anchorPlacement: 'top-bottom', // Defines which position of the element regarding to window should trigger the animation
+      });
+    });
+
+
+
+     // This ensures the infinite scroll is perfectly seamless
+     document.addEventListener('DOMContentLoaded', function() {
+      const logosSlide = document.querySelector('.logos-slide');
+      
+      // Check if there are enough logos to cover the width of the container
+      // If not, clone more sets until there are enough
+      const ensureEnoughLogos = () => {
+          const containerWidth = document.querySelector('.logos-container').offsetWidth;
+          const slideWidth = logosSlide.offsetWidth;
+          
+          // If the slide is not at least twice as wide as the container, clone more logos
+          if (slideWidth < containerWidth * 2) {
+              const originalSet = logosSlide.innerHTML;
+              logosSlide.innerHTML = originalSet + originalSet;
+              
+              // Recursive check if we need even more copies
+              ensureEnoughLogos();
+          }
+      };
+      
+      // Run after images have loaded to get accurate widths
+      window.addEventListener('load', ensureEnoughLogos);
+      
+      // Also adjust if window is resized
+      window.addEventListener('resize', ensureEnoughLogos);
+  });
+
+  /**
+ * COMPLETE BLOG CAROUSEL SOLUTION
+ * - Fixed functionality issues
+ * - Fully responsive
+ * - Mobile swipe support
+ * - AOS animation integration
+ */
+
+document.addEventListener('DOMContentLoaded', function() {
+  // First check if carousel exists
+  const carousel = document.getElementById('blog-carousel');
+  if (!carousel) return;
+  
+  // Get all required elements
+  const prevBtn = document.getElementById('prev-btn');
+  const nextBtn = document.getElementById('next-btn');
+  const indicatorBtns = document.querySelectorAll('.indicator-btn');
+  const blogCards = carousel.querySelectorAll('.bg-gray-100');
+  
+  // Exit if no blog cards found
+  if (!blogCards.length) return;
+  
+  let currentIndex = 0;
+  let isAnimating = false;
+
+  // Make carousel responsive
+  // First ensure mobile scrolling works by making the carousel horizontally scrollable
+  carousel.classList.add('overflow-x-auto', 'md:overflow-hidden', 'scrollbar-hide', 'pb-4', 'md:pb-0');
+  
+  // Hide scrollbar for better appearance
+  if (!document.querySelector('style#scrollbar-hide-style')) {
+    const style = document.createElement('style');
+    style.id = 'scrollbar-hide-style';
+    style.textContent = `
+      .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+      }
+      .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    `;
+    document.head.appendChild(style);
+  }
+
+  // Add responsive classes to cards
+  blogCards.forEach(card => {
+    // Make cards responsive
+    card.classList.add('flex-shrink-0');
+    
+    // Ensure proper widths at different breakpoints
+    // This preserves your md:w-1/3 for desktop but adds responsive behavior for smaller screens
+    if (!card.classList.contains('md:w-1/3')) {
+      card.classList.add('md:w-1/3');
+    }
+    
+    // Set width for mobile and tablet
+    card.classList.add('w-4/5', 'sm:w-1/2');
+    
+    // Set min-width for mobile to prevent tiny cards
+    card.classList.add('min-w-[280px]', 'sm:min-w-0');
+    
+    // Add transitions and hover effects
+    card.classList.add('transition-all', 'duration-300', 'ease-in-out', 'hover:shadow-lg');
+    
+    // Add snap alignment for better mobile experience
+    card.classList.add('snap-start');
+  });
+  
+  // Add snap scrolling for touch devices
+  carousel.classList.add('snap-x', 'snap-mandatory', 'md:snap-none');
+
+  // Calculate the number of visible cards based on screen size
+  function getCardsPerView() {
+    if (window.innerWidth < 640) {
+      return 1; // Mobile: 1 card
+    } else if (window.innerWidth < 768) {
+      return 2; // Tablet: 2 cards
+    } else {
+      return 3; // Desktop: 3 cards
+    }
+  }
+  
+  // Update carousel position
+  function updateCarousel(animate = true) {
+    if (isAnimating) return;
+    isAnimating = true;
+    
+    // Calculate card width including gap
+    // Need to get actual computed width since cards may have different widths at different screen sizes
+    const cardStyles = window.getComputedStyle(blogCards[0]);
+    const cardWidth = blogCards[0].offsetWidth;
+    const marginRight = parseInt(cardStyles.marginRight, 10) || 0;
+    const gapWidth = marginRight || 24; // Default to 24px if no margin is detected (Tailwind's space-x-6)
+    
+    // Calculate exact scroll position
+    const scrollPosition = currentIndex * (cardWidth + gapWidth);
+    
+    // Scroll to position
+    if (animate) {
+      carousel.scrollTo({
+        left: scrollPosition,
+        behavior: 'smooth'
+      });
+      
+      // Reset animating flag after animation completes
+      setTimeout(() => {
+        isAnimating = false;
+        
+        // Refresh AOS animations
+        if (typeof AOS !== 'undefined') {
+          AOS.refresh();
+        }
+      }, 500);
+    } else {
+      carousel.scrollLeft = scrollPosition;
+      isAnimating = false;
+    }
+    
+    // Update indicators
+    updateIndicators();
+    
+    // Update navigation buttons
+    updateButtonStates();
+  }
+  
+  // Update indicator buttons
+  function updateIndicators() {
+    indicatorBtns.forEach((btn, index) => {
+      if (index === currentIndex) {
+        btn.classList.remove('w-2', 'h-2', 'bg-gray-300', 'rounded-full');
+        btn.classList.add('w-8', 'h-1', 'bg-secondary-500', 'rounded');
+      } else {
+        btn.classList.remove('w-8', 'h-1', 'bg-secondary-500', 'rounded');
+        btn.classList.add('w-2', 'h-2', 'bg-gray-300', 'rounded-full');
+      }
+    });
+  }
+  
+  // Update button states (disabled/enabled)
+  function updateButtonStates() {
+    // Prev button logic
+    if (currentIndex <= 0) {
+      prevBtn.setAttribute('disabled', 'true');
+      prevBtn.classList.add('opacity-50', 'cursor-not-allowed');
+    } else {
+      prevBtn.removeAttribute('disabled');
+      prevBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+    }
+    
+    // Next button logic - depend on visible cards
+    const maxIndex = Math.max(0, blogCards.length - getCardsPerView());
+    if (currentIndex >= maxIndex) {
+      nextBtn.setAttribute('disabled', 'true');
+      nextBtn.classList.add('opacity-50', 'cursor-not-allowed');
+    } else {
+      nextBtn.removeAttribute('disabled');
+      nextBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+    }
+  }
+  
+  // Set up previous button click handler
+  if (prevBtn) {
+    prevBtn.addEventListener('click', function() {
+      if (currentIndex > 0 && !isAnimating) {
+        currentIndex--;
+        updateCarousel();
+      }
+    });
+  }
+  
+  // Set up next button click handler
+  if (nextBtn) {
+    nextBtn.addEventListener('click', function() {
+      const maxIndex = Math.max(0, blogCards.length - getCardsPerView());
+      if (currentIndex < maxIndex && !isAnimating) {
+        currentIndex++;
+        updateCarousel();
+      }
+    });
+  }
+  
+  // Set up indicator buttons
+  indicatorBtns.forEach((btn, index) => {
+    // Only show indicators for available slides
+    if (index < blogCards.length) {
+      btn.addEventListener('click', function() {
+        if (currentIndex !== index && !isAnimating) {
+          currentIndex = index;
+          updateCarousel();
+        }
+      });
+    } else {
+      // Hide extra indicators
+      btn.style.display = 'none';
+    }
+  });
+  
+  // Handle window resize
+  let resizeTimer;
+  window.addEventListener('resize', function() {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function() {
+      // Adjust currentIndex if needed after resize
+      const maxIndex = Math.max(0, blogCards.length - getCardsPerView());
+      currentIndex = Math.min(currentIndex, maxIndex);
+      
+      // Update carousel without animation
+      updateCarousel(false);
+      
+      // Refresh AOS animations
+      if (typeof AOS !== 'undefined') {
+        AOS.refresh();
+      }
+    }, 200);
+  });
+  
+  // Touch swipe support for mobile
+  let touchStartX = 0;
+  let touchEndX = 0;
+  
+  carousel.addEventListener('touchstart', e => {
+    touchStartX = e.changedTouches[0].screenX;
+  }, { passive: true });
+  
+  carousel.addEventListener('touchend', e => {
+    touchEndX = e.changedTouches[0].screenX;
+    handleSwipe();
+  }, { passive: true });
+  
+  function handleSwipe() {
+    const swipeThreshold = 50;
+    if (touchEndX < touchStartX - swipeThreshold) {
+      // Swiped left - go to next slide
+      const maxIndex = Math.max(0, blogCards.length - getCardsPerView());
+      if (currentIndex < maxIndex && !isAnimating) {
+        currentIndex++;
+        updateCarousel();
+      }
+    }
+    if (touchEndX > touchStartX + swipeThreshold) {
+      // Swiped right - go to previous slide
+      if (currentIndex > 0 && !isAnimating) {
+        currentIndex--;
+        updateCarousel();
+      }
+    }
+  }
+  
+  // Handle manual scrolling
+  carousel.addEventListener('scroll', function() {
+    if (isAnimating) return;
+    
+    const cardWidth = blogCards[0].offsetWidth;
+    const cardStyles = window.getComputedStyle(blogCards[0]);
+    const marginRight = parseInt(cardStyles.marginRight, 10) || 0;
+    const gapWidth = marginRight || 24;
+    
+    // Calculate closest index based on scroll position
+    const scrollLeft = carousel.scrollLeft;
+    const newIndex = Math.round(scrollLeft / (cardWidth + gapWidth));
+    
+    // Update index and indicators if position changed
+    if (newIndex !== currentIndex && newIndex >= 0 && newIndex < blogCards.length) {
+      currentIndex = newIndex;
+      updateIndicators();
+      updateButtonStates();
+    }
+  });
+  
+  // Initialize carousel
+  updateCarousel(false);
+  
+  // Refresh AOS animations if available
+  if (typeof AOS !== 'undefined') {
+    setTimeout(() => {
+      AOS.refresh();
+    }, 100);
+  }
+});
+
+// Enhanced Tabbed Interface with Horizontal Scrolling
+document.addEventListener('DOMContentLoaded', function() {
+  // Get all tab cards
+  const tabCards = document.querySelectorAll('.product-tab');
+  
+  // Get all content sections
+  const contentSections = document.querySelectorAll('.product-content');
+  
+  // Initialize - show only the first tab's content
+  contentSections.forEach((section, index) => {
+    if (index === 0) {
+      section.classList.remove('hidden');
+      section.classList.add('animate-fade-in');
+    } else {
+      section.classList.add('hidden');
+    }
+  });
+  
+  // Set first tab as active
+  if (tabCards.length > 0) {
+    tabCards[0].classList.add('bg-secondary-500');
+    tabCards[0].classList.remove('bg-white', 'text-primary-600', 'border-gray-200');
+    
+    // Ensure the icon has the right color for the first/active tab
+    const activeIcon = tabCards[0].querySelector('i');
+    if (activeIcon) {
+      activeIcon.classList.add('text-white');
+      activeIcon.classList.remove('text-primary-500');
+    }
+    
+    // Ensure the heading has the right color
+    const heading = tabCards[0].querySelector('h3');
+    if (heading) {
+      heading.classList.add('text-white');
+      heading.classList.remove('text-primary-600');
+    }
+  }
+  
+  // Function to scroll tab into view when selected (for mobile)
+  const scrollTabIntoView = (tab) => {
+    if (window.innerWidth < 1024) { // Only for screens smaller than lg breakpoint
+      tab.scrollIntoView({
+        behavior: 'smooth',
+        block: 'nearest',
+        inline: 'center'
+      });
+    }
+  };
+  
+  // Add click event to each tab
+  tabCards.forEach((tab, index) => {
+    tab.addEventListener('click', () => {
+      // Skip if clicking the already active tab
+      if (tab.classList.contains('bg-secondary-500')) {
+        return;
+      }
+      
+      // Scroll the tab into center view on mobile
+      scrollTabIntoView(tab);
+      
+      // Reset all tabs to inactive state
+      tabCards.forEach(card => {
+        card.classList.remove('bg-secondary-500', 'text-white');
+        card.classList.add('bg-white', 'text-primary-600', 'border', 'border-gray-200');
+        
+        // Reset icon color
+        const icon = card.querySelector('i');
+        if (icon) {
+          icon.classList.remove('text-white');
+          icon.classList.add('text-primary-500');
+        }
+        
+        // Reset text color for the heading
+        const heading = card.querySelector('h3');
+        if (heading) {
+          heading.classList.remove('text-white');
+          heading.classList.add('text-primary-600');
+        }
+      });
+      
+      // Set clicked tab to active state with animation
+      tab.classList.remove('bg-white', 'text-primary-600', 'border-gray-200');
+      tab.classList.add('bg-secondary-500', 'animate-bounce-once');
+      
+      // Make icon white when tab is active
+      const activeIcon = tab.querySelector('i');
+      if (activeIcon) {
+        activeIcon.classList.remove('text-primary-500', 'text-primary-600');
+        activeIcon.classList.add('text-white');
+      }
+      
+      // Update text color for the heading
+      const heading = tab.querySelector('h3');
+      if (heading) {
+        heading.classList.remove('text-primary-600');
+        heading.classList.add('text-white');
+      }
+      
+      // After bounce animation completes, remove the class
+      setTimeout(() => {
+        tab.classList.remove('animate-bounce-once');
+      }, 300);
+      
+      // Hide all content sections with animation
+      contentSections.forEach(section => {
+        if (!section.classList.contains('hidden')) {
+          // Add fade-out animation
+          section.classList.add('animate-fade-out');
+          
+          // After animation completes, hide the section
+          setTimeout(() => {
+            section.classList.add('hidden');
+            section.classList.remove('animate-fade-out');
+            
+            // Show the selected content section with slide-in animation
+            contentSections[index].classList.remove('hidden');
+            contentSections[index].classList.add('animate-slide-in');
+            
+            // Remove animation class after it completes
+            setTimeout(() => {
+              contentSections[index].classList.remove('animate-slide-in');
+            }, 400);
+          }, 300); // Duration matches the animation duration
+        }
+      });
+    });
+  });
+  
+  // Add hover effect to tabs
+  tabCards.forEach(tab => {
+    tab.addEventListener('mouseenter', () => {
+      if (!tab.classList.contains('bg-secondary-500')) {
+        tab.classList.add('shadow-md', 'scale-105');
+      }
+    });
+    
+    tab.addEventListener('mouseleave', () => {
+      if (!tab.classList.contains('bg-secondary-500')) {
+        tab.classList.remove('shadow-md', 'scale-105');
+      }
+    });
+  });
+});
