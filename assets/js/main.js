@@ -873,6 +873,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+
+
+
  // Simple script to handle the testimonial navigation
  document.addEventListener('DOMContentLoaded', function() {
   // All testimonial data
