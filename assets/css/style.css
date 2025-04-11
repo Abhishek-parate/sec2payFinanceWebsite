@@ -899,10 +899,6 @@ body {
   margin-right: 0px;
 }
 
-.mx-1 {
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
-}
 
 .mx-4 {
   margin-left: 1rem;
@@ -1298,6 +1294,7 @@ body {
 .w-full {
   width: 100%;
 }
+
 
 .min-w-\[280px\] {
   min-width: 280px;
@@ -2574,6 +2571,11 @@ body {
 .border-secondary-500 {
   --tw-border-opacity: 1;
   border-color: rgb(241 87 68 / var(--tw-border-opacity, 1));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity, 1));
 }
 
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
@@ -4554,6 +4556,10 @@ body {
     height: auto;
   }
 
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
+
   .lg\:w-auto {
     width: auto;
   }
@@ -4604,6 +4610,11 @@ body {
   .lg\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+
+  .lg\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
   }
 
   .lg\:py-24 {

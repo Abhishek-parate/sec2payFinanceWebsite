@@ -475,6 +475,10 @@
         <!-- Continue with other sections... -->
     </div>
 </section>
+
+
+
+
 <section class="relative py-10 overflow-hidden bg-white">
     <!-- Pinkish Circular Gradient - Left on desktop, top on mobile -->
     <div class="absolute md:left-[-25%] md:w-[100%] md:h-[150%] md:top-[-25%] w-[150%] h-[100%] left-[-25%] top-[-25%] rounded-full opacity-40"
