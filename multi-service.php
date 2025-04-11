@@ -66,7 +66,7 @@
 <!-- Services Tabs Section -->
 <section class="py-5 relative z-10">
     <!-- AOS CSS -->
-=
+
     <div class="max-w-7xl mx-auto bg-gray-50 rounded-xl shadow-sm overflow-hidden" data-aos="fade-up" data-aos-duration="800">
         <div class="flex flex-col md:flex-row">
             <!-- Left Sidebar with Tabs -->
@@ -214,7 +214,7 @@
 
 
 <!-- Features Section -->
-<!-- Features Section -->
+
 <section class="bg-white py-16">
     <!-- AOS CSS -->
     
