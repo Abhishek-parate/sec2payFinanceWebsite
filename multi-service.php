@@ -65,16 +65,18 @@
 
 <!-- Services Tabs Section -->
 <section class="py-5 relative z-10">
-    <div class="max-w-7xl mx-auto bg-gray-50 rounded-xl shadow-sm overflow-hidden">
+    <!-- AOS CSS -->
+=
+    <div class="max-w-7xl mx-auto bg-gray-50 rounded-xl shadow-sm overflow-hidden" data-aos="fade-up" data-aos-duration="800">
         <div class="flex flex-col md:flex-row">
             <!-- Left Sidebar with Tabs -->
             <div class="bg-gray-50 w-full md:w-1/3 p-4 mt-4">
-                <div class="bg-white rounded-xl">
+                <div class="bg-white rounded-xl" data-aos="fade-right" data-aos-delay="200">
                     <!-- Tab items -->
                     <div class="space-y-4">
                         <button
-                            class="tab-button w-full flex items-center p-4 rounded-lg bg-red-100 text-gray-900 hover:bg-red-50 focus:outline-none transition-all duration-200"
-                            data-tab="banking">
+                            class="tab-button w-full flex items-center p-4 rounded-lg bg-red-100 text-gray-900 hover:bg-red-50 focus:outline-none transition-all duration-300 transform hover:scale-[1.02]"
+                            data-tab="banking" data-aos="fade-up" data-aos-delay="300">
                             <div class="flex-shrink-0 mr-3">
                                 <svg class="w-6 h-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
@@ -86,8 +88,8 @@
                         </button>
 
                         <button
-                            class="tab-button w-full flex items-center p-4 rounded-lg text-gray-700 hover:bg-gray-50 focus:outline-none transition-all duration-200 bg-transparent"
-                            data-tab="travel">
+                            class="tab-button w-full flex items-center p-4 rounded-lg text-gray-700 hover:bg-gray-50 focus:outline-none transition-all duration-300 transform hover:scale-[1.02] bg-transparent"
+                            data-tab="travel" data-aos="fade-up" data-aos-delay="400">
                             <div class="flex-shrink-0 mr-3">
                                 <svg class="w-6 h-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
@@ -99,8 +101,8 @@
                         </button>
 
                         <button
-                            class="tab-button w-full flex items-center p-4 rounded-lg text-gray-700 hover:bg-gray-50 focus:outline-none transition-all duration-200 bg-transparent"
-                            data-tab="utility">
+                            class="tab-button w-full flex items-center p-4 rounded-lg text-gray-700 hover:bg-gray-50 focus:outline-none transition-all duration-300 transform hover:scale-[1.02] bg-transparent"
+                            data-tab="utility" data-aos="fade-up" data-aos-delay="500">
                             <div class="flex-shrink-0 mr-3">
                                 <svg class="w-6 h-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
@@ -112,8 +114,8 @@
                         </button>
 
                         <button
-                            class="tab-button w-full flex items-center p-4 rounded-lg text-gray-700 hover:bg-gray-50 focus:outline-none transition-all duration-200 bg-transparent"
-                            data-tab="governance">
+                            class="tab-button w-full flex items-center p-4 rounded-lg text-gray-700 hover:bg-gray-50 focus:outline-none transition-all duration-300 transform hover:scale-[1.02] bg-transparent"
+                            data-tab="governance" data-aos="fade-up" data-aos-delay="600">
                             <div class="flex-shrink-0 mr-3">
                                 <svg class="w-6 h-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none"
                                     viewBox="0 0 24 24" stroke="currentColor">
@@ -127,9 +129,9 @@
                 </div>
 
                 <!-- Discover all services button -->
-                <div class="mt-6 flex justify-start">
+                <div class="mt-6 flex justify-start" data-aos="fade-up" data-aos-delay="700">
                     <button
-                        class="w-auto bg-secondary-500 hover:bg-secondary-600 text-white py-3 px-6 rounded-xl transition-all font-medium">
+                        class="w-auto bg-secondary-500 hover:bg-secondary-600 text-white py-3 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-md font-medium">
                         Discover All Services
                     </button>
                 </div>
@@ -138,8 +140,8 @@
             <!-- Right Content Area -->
             <div class="w-full md:w-2/3 p-0">
                 <!-- Banking Tab Content -->
-                <div id="banking-content" class="tab-content block">
-                    <div class="p-6 flex flex-col h-full">
+                <div id="banking-content" class="tab-content block transition-opacity duration-500 opacity-100">
+                    <div class="p-6 flex flex-col h-full" data-aos="fade-left" data-aos-delay="300">
                         <div class="mb-auto">
                             <h2 class="text-2xl font-bold text-gray-800 mb-3">Banking Solutions</h2>
                             <p class="text-gray-700 mb-6 max-w-md">Deliver core banking functionalities such as AePS,
@@ -147,60 +149,57 @@
                                 ATM services to enhance your network</p>
                         </div>
                         <!-- Image at end -->
-                        <div class="mt-auto md:place-items-end">
+                        <div class="mt-auto md:place-items-end" data-aos="zoom-in" data-aos-delay="500">
                             <img src="assets\images\multi-service\banking-sevices.png" alt="Banking Services"
-                                class="w-2/3 h-auto object-contain" />
+                                class="w-2/3 h-auto object-contain transform transition-transform duration-500 hover:scale-105" />
                         </div>
                     </div>
                 </div>
 
                 <!-- Travel Tab Content -->
-                <div id="travel-content" class="tab-content hidden">
+                <div id="travel-content" class="tab-content hidden transition-opacity duration-500 opacity-0">
                     <div class="p-6 flex flex-col h-full">
                         <div class="mb-auto">
                             <h2 class="text-2xl font-bold text-gray-800 mb-3">Travel Solutions</h2>
-                            <p class="text-gray-700 mb-6 max-w-md">Comprehensive travel booking services including
-                                flights,
+                            <p class="text-gray-700 mb-6 max-w-md">Comprehensive travel booking services including flights,
                                 trains, buses and hotels to expand your service offerings</p>
                         </div>
                         <!-- Image at end -->
                         <div class="mt-auto md:place-items-end">
                             <img src="assets\images\multi-service\travel-solution.png" alt="Travel Solutions"
-                                class="w-2/3 h-auto object-contain" />
+                                class="w-2/3 h-auto object-contain transform transition-transform duration-500 hover:scale-105" />
                         </div>
                     </div>
                 </div>
 
                 <!-- Utility Tab Content -->
-                <div id="utility-content" class="tab-content hidden">
+                <div id="utility-content" class="tab-content hidden transition-opacity duration-500 opacity-0">
                     <div class="p-6 flex flex-col h-full">
                         <div class="mb-auto">
                             <h2 class="text-2xl font-bold text-gray-800 mb-3">Utility & Bill Payments</h2>
-                            <p class="text-gray-700 mb-6 max-w-md">Simplify bill payments with our comprehensive
-                                platform
+                            <p class="text-gray-700 mb-6 max-w-md">Simplify bill payments with our comprehensive platform
                                 for electricity, water, gas, and more</p>
                         </div>
                         <!-- Image at end -->
                         <div class="mt-auto md:place-items-end">
                             <img src="assets\images\multi-service\bill-payments.png" alt="Utility Services"
-                                class="w-2/3 h-auto object-contain" />
+                                class="w-2/3 h-auto object-contain transform transition-transform duration-500 hover:scale-105" />
                         </div>
                     </div>
                 </div>
 
                 <!-- Governance Tab Content -->
-                <div id="governance-content" class="tab-content hidden">
+                <div id="governance-content" class="tab-content hidden transition-opacity duration-500 opacity-0">
                     <div class="p-6 flex flex-col h-full">
                         <div class="mb-auto">
                             <h2 class="text-2xl font-bold text-gray-800 mb-3">E-Governance Solutions</h2>
-                            <p class="text-gray-700 mb-6 max-w-md">Facilitate access to essential government services
-                                and
+                            <p class="text-gray-700 mb-6 max-w-md">Facilitate access to essential government services and
                                 digital document processing</p>
                         </div>
                         <!-- Image at end -->
                         <div class="mt-auto md:place-items-end">
                             <img src="assets\images\multi-service\e-governance.png" alt="E-Governance Services"
-                                class="w-2/3 h-auto object-contain" />
+                                class="w-2/3 h-auto object-contain transform transition-transform duration-500 hover:scale-105" />
                         </div>
                     </div>
                 </div>
@@ -211,39 +210,76 @@
 
 </section>
 
-<!-- Blogs & Article Section -->
+
+
+
 <!-- Features Section -->
-<section class="bg-white py-10">
+<!-- Features Section -->
+<section class="bg-white py-16">
+    <!-- AOS CSS -->
+    
     <div class="container mx-auto px-6">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        <!-- Section heading -->
+        <div class="text-center mb-12" data-aos="fade-up" data-aos-duration="800">
+            <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Key Features</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">We provide comprehensive solutions designed to streamline your business operations and enhance customer experience.</p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <!-- Feature Card 1 -->
-            <div class="rounded-lg overflow-hidden shadow-sm border border-gray-100 flex flex-col">
-                <div class="bg-red-200 h-32"></div>
+            <div class="rounded-xl overflow-hidden shadow-lg border border-gray-100 flex flex-col transform transition-all duration-300 hover:shadow-xl hover:-translate-y-2 bg-white" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
+                <div class="h-48 overflow-hidden relative">
+                    <img src="assets/images/multi-service/bg-secondary-card.png" alt="Integration" class="w-full h-full object-cover rounded-t-xl">
+                   =
+                </div>
                 <div class="p-6 text-left flex-grow">
-                    <h3 class="font-bold text-xl mb-2">Integration</h3>
-                    <p class="text-gray-600 text-sm">Simplified integration for a wide array of services</p>
+                    <h3 class="font-bold text-xl mb-3 flex items-center text-gray-800">
+                       
+                        Integration
+                    </h3>
+                    <p class="text-gray-600 mb-4">Simplified integration for a wide array of services with plug-and-play APIs and comprehensive documentation.</p>
+                    
                 </div>
             </div>
-
+            
             <!-- Feature Card 2 -->
-            <div class="rounded-lg overflow-hidden shadow-sm border border-gray-100 flex flex-col">
-                <div class="bg-red-200 h-32"></div>
+            <div class="rounded-xl overflow-hidden shadow-lg border border-gray-100 flex flex-col transform transition-all duration-300 hover:shadow-xl hover:-translate-y-2 bg-white" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
+                <div class="h-48 overflow-hidden relative">
+                    <img src="assets/images/multi-service/bg-secondary-card.png" alt="Solutions" class="w-full h-full object-cover rounded-t-xl">
+                
+                </div>
                 <div class="p-6 text-left flex-grow">
-                    <h3 class="font-bold text-xl mb-2">Solutions</h3>
-                    <p class="text-gray-600 text-sm">Scalable solutions for businesses of any size</p>
+                    <h3 class="font-bold text-xl mb-3 flex items-center text-gray-800">
+                        
+                        Solutions
+                    </h3>
+                    <p class="text-gray-600 mb-4">Scalable solutions that grow with your business needs, from startups to enterprise-level organizations.</p>
+                   
                 </div>
             </div>
 
             <!-- Feature Card 3 -->
-            <div class="rounded-lg overflow-hidden shadow-sm border border-gray-100 flex flex-col">
-                <div class="bg-red-200 h-32"></div>
+            <div class="rounded-xl overflow-hidden shadow-lg border border-gray-100 flex flex-col transform transition-all duration-300 hover:shadow-xl hover:-translate-y-2 bg-white" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
+                <div class="h-48 overflow-hidden relative">
+                    <img src="assets/images/multi-service/bg-secondary-card.png" alt="Operations" class="w-full h-full object-cover rounded-t-xl">
+                   
+                </div>
                 <div class="p-6 text-left flex-grow">
-                    <h3 class="font-bold text-xl mb-2">Operations</h3>
-                    <p class="text-gray-600 text-sm">Dedicated support to ensure seamless operations.</p>
+                    <h3 class="font-bold text-xl mb-3 flex items-center text-gray-800">
+                       
+                        Operations
+                    </h3>
+                    <p class="text-gray-600 mb-4">Dedicated support team ensures seamless operations with proactive monitoring and rapid response times.</p>
+                   
                 </div>
             </div>
         </div>
+
+    
     </div>
+
+    <!-- AOS JS -->
+ 
 </section>
 
 <!-- Join Section with Dark Blue Background -->
