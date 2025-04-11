@@ -1294,6 +1294,10 @@ body {
   width: 100%;
 }
 
+.w-96 {
+  width: 24rem;
+}
+
 .min-w-\[280px\] {
   min-width: 280px;
 }
