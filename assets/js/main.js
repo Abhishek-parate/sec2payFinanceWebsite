@@ -765,3 +765,220 @@ document.addEventListener('DOMContentLoaded', function() {
       });
   });
 });
+
+
+
+  // Toggle between monthly and annual pricing
+  const billingToggle = document.getElementById('billing-toggle');
+  const monthlyPrices = document.querySelectorAll('.monthly-price');
+  const annualPrices = document.querySelectorAll('.annual-price');
+  
+  billingToggle.addEventListener('change', function() {
+      if (this.checked) {
+          // Annual pricing
+          monthlyPrices.forEach(el => el.classList.add('hidden'));
+          annualPrices.forEach(el => el.classList.remove('hidden'));
+      } else {
+          // Monthly pricing
+          monthlyPrices.forEach(el => el.classList.remove('hidden'));
+          annualPrices.forEach(el => el.classList.add('hidden'));
+      }
+      
+      // Add pulse animation to prices
+      const visiblePrices = this.checked ? annualPrices : monthlyPrices;
+      visiblePrices.forEach(el => {
+          el.classList.add('animate-pulse-scale');
+          setTimeout(() => {
+              el.classList.remove('animate-pulse-scale');
+          }, 400);
+      });
+  });
+
+
+  document.addEventListener('DOMContentLoaded', function() {
+
+
+   // Tabs functionality
+   const tabButtons = document.querySelectorAll('.tab-btn');
+   const tabPanes = document.querySelectorAll('.tab-pane');
+   
+   // Function to activate tab
+   function activateTab(tabId) {
+       // Remove active class from all tab buttons
+       tabButtons.forEach(btn => {
+           btn.classList.remove('active');
+           btn.classList.remove('bg-secondary-500');
+           btn.classList.remove('border-secondary-500');
+           btn.classList.add('bg-transparent');
+           btn.classList.add('border-white/30');
+       });
+       
+       // Remove active class from all tab panes
+       tabPanes.forEach(pane => {
+           pane.classList.add('hidden');
+           pane.classList.remove('block');
+           pane.classList.add('opacity-0');
+           pane.classList.remove('opacity-100');
+       });
+       
+       // Add active class to the selected tab button and pane
+       const selectedButton = document.querySelector(`[data-tab="${tabId}"]`);
+       const selectedPane = document.getElementById(tabId);
+       
+       if (selectedButton && selectedPane) {
+           selectedButton.classList.add('active');
+           selectedButton.classList.add('bg-secondary-500');
+           selectedButton.classList.add('border-secondary-500');
+           selectedButton.classList.remove('bg-transparent');
+           selectedButton.classList.remove('border-white/30');
+           
+           selectedPane.classList.remove('hidden');
+           selectedPane.classList.add('block');
+           setTimeout(() => {
+               selectedPane.classList.remove('opacity-0');
+               selectedPane.classList.add('opacity-100');
+           }, 10);
+       }
+   }
+   
+   // Add click event listeners to all tab buttons
+   tabButtons.forEach(button => {
+       button.addEventListener('click', function() {
+           const tabId = this.getAttribute('data-tab');
+           activateTab(tabId);
+       });
+   });
+   
+   // Responsive handling - if viewport is small, make the active tab fully visible
+   function scrollToActiveTab() {
+       const activeButton = document.querySelector('.tab-btn.active');
+       if (activeButton && window.innerWidth < 768) {
+           activeButton.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+       }
+   }
+   
+   // Call scrollToActiveTab when a tab is clicked and on window resize
+   tabButtons.forEach(button => {
+       button.addEventListener('click', scrollToActiveTab);
+   });
+   
+   window.addEventListener('resize', scrollToActiveTab);
+   
+   // Check if there's a hash in the URL and activate that tab
+   if (window.location.hash) {
+       const tabId = window.location.hash.substring(1);
+       activateTab(tabId);
+   }
+});
+
+
+
+ // Simple script to handle the testimonial navigation
+ document.addEventListener('DOMContentLoaded', function() {
+  // All testimonial data
+  const testimonials = [
+      {
+          name: "Mike taylor",
+          location: "Lahore, Pakistan",
+          text: "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
+          profile: "https://randomuser.me/api/portraits/men/3.jpg"
+      },
+      {
+          name: "Chris Thomas",
+          location: "CEO of Red Button",
+          text: "Smart homes are the future. The integration of IoT devices has transformed how we interact with our living spaces.",
+          profile: "https://randomuser.me/api/portraits/women/3.jpg"
+      },
+      {
+          name: "Sarah Johnson",
+          location: "New York, USA",
+          text: "The customer service was exceptional. They went above and beyond to ensure everything was set up perfectly.",
+          profile: "https://randomuser.me/api/portraits/men/3.jpg"
+      }
+  ];
+  
+  // Elements
+  const dots = document.querySelectorAll('#dots-container button');
+  const profileImage = document.getElementById('profile-image');
+  const prevArrow = document.getElementById('prev-arrow');
+  const nextArrow = document.getElementById('next-arrow');
+  
+  let currentIndex = 0;
+  
+  // Function to update the active testimonial
+  function updateTestimonial(newIndex) {
+      // Ensure index is within bounds
+      newIndex = (newIndex + testimonials.length) % testimonials.length;
+      
+      // Store the previous index
+      const prevIndex = currentIndex;
+      currentIndex = newIndex;
+      
+      // Update dots
+      dots.forEach((dot, index) => {
+          if (index === currentIndex) {
+              dot.classList.remove('bg-gray-300');
+              dot.classList.add('bg-secondary-500');
+          } else {
+              dot.classList.remove('bg-secondary-500');
+              dot.classList.add('bg-gray-300');
+          }
+      });
+      
+      // Get all testimonial cards
+      const testimonialCards = [];
+      for (let i = 0; i < testimonials.length; i++) {
+          testimonialCards.push(document.getElementById(`testimonial-${i}`));
+      }
+      
+      // Hide previous active testimonial
+      const prevCard = testimonialCards[prevIndex];
+      prevCard.classList.remove('opacity-100', 'translate-y-0', 'z-20', 'bg-white', 'shadow-lg');
+      prevCard.classList.add('opacity-0', 'translate-y-16', 'bg-gray-100', 'shadow-md');
+      
+      // After a small delay, show the new one and hide the old one
+      setTimeout(() => {
+          // Hide all cards
+          testimonialCards.forEach(card => {
+              card.classList.add('hidden');
+          });
+          
+          // Show current card
+          const currentCard = testimonialCards[currentIndex];
+          currentCard.classList.remove('hidden', 'opacity-0', 'translate-y-16', 'bg-gray-100', 'shadow-md');
+          currentCard.classList.add('opacity-100', 'translate-y-0', 'z-20', 'bg-white', 'shadow-lg');
+          
+          // Show next card below the current one (if there is a next card)
+          const nextIndex = (currentIndex + 1) % testimonials.length;
+          const nextCard = testimonialCards[nextIndex];
+          if (nextCard) {
+              nextCard.classList.remove('hidden', 'opacity-0');
+              nextCard.classList.add('opacity-95', 'translate-y-16', 'z-10');
+          }
+          
+          // Update profile image
+          profileImage.src = testimonials[currentIndex].profile;
+          profileImage.alt = testimonials[currentIndex].name;
+      }, 300);
+  }
+  
+  // Add event listeners to dots
+  dots.forEach((dot, index) => {
+      dot.addEventListener('click', () => {
+          updateTestimonial(index);
+      });
+  });
+  
+  // Add event listeners to navigation arrows
+  nextArrow.addEventListener('click', function() {
+      updateTestimonial(currentIndex + 1);
+  });
+  
+  prevArrow.addEventListener('click', function() {
+      updateTestimonial(currentIndex - 1);
+  });
+  
+  // Show initial testimonial setup (second card visible but stacked)
+  const secondCard = document.getElementById('testimonial-1');
+  secondCard.classList.remove('hidden');
+});
