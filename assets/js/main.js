@@ -709,3 +709,38 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Get all tab buttons and content
+  const tabButtons = document.querySelectorAll('.tab-button');
+  const tabContents = document.querySelectorAll('.tab-content');
+
+  // Add click event to each tab button
+  tabButtons.forEach(button => {
+      button.addEventListener('click', () => {
+          // Remove active class and styles from all buttons
+          tabButtons.forEach(btn => {
+              btn.classList.remove('bg-red-100', 'text-gray-900');
+              btn.classList.add('bg-transparent', 'text-gray-700');
+          });
+
+          // Add active class and styles to clicked button
+          button.classList.add('bg-red-100', 'text-gray-900');
+          button.classList.remove('bg-transparent', 'text-gray-700');
+
+          // Hide all tab contents
+          tabContents.forEach(content => {
+              content.classList.remove('block');
+              content.classList.add('hidden');
+          });
+
+          // Show the corresponding tab content
+          const tabId = button.getAttribute('data-tab');
+          const activeContent = document.getElementById(`${tabId}-content`);
+          activeContent.classList.remove('hidden');
+          activeContent.classList.add('block');
+      });
+  });
+});

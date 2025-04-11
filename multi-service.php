@@ -34,19 +34,20 @@
                     View All Services
                 </a>
             </div>
-            <div class="flex justify-center w-full" data-aos="fade-up" data-aos-duration="900" data-aos-delay="300" data-aos-mirror="true">
+            <div class="flex justify-center w-full" data-aos="fade-up" data-aos-duration="900" data-aos-delay="300"
+                data-aos-mirror="true">
                 <div class="flex items-center mt-4">
                     <span class="text-gray-500 font-medium mr-2">Trusted by</span>
                     <div class="flex items-center mx-1 text-yellow-500">
 
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
 
-                    <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
 
-                    <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
 
-                    <i class="fa fa-star-half" aria-hidden="true"></i>
+                        <i class="fa fa-star-half" aria-hidden="true"></i>
 
 
                     </div>
@@ -55,10 +56,10 @@
             </div>
         </div>
 
-     
+
 
         <!-- Dashboard Image with AOS animation -->
-  
+
     </div>
 </section>
 
@@ -68,11 +69,11 @@
         <div class="flex flex-col md:flex-row">
             <!-- Left Sidebar with Tabs -->
             <div class="bg-gray-50 w-full md:w-1/3 p-4 mt-4">
-                <div class=" bg-white rounded-xl">
+                <div class="bg-white rounded-xl">
                     <!-- Tab items -->
                     <div class="space-y-4">
                         <button
-                            class="tab-button w-full flex items-center p-4 rounded-lg bg-red-100 text-gray-900 hover:bg-red-50 focus:outline-none transition duration-200 active"
+                            class="tab-button w-full flex items-center p-4 rounded-lg bg-red-100 text-gray-900 hover:bg-red-50 focus:outline-none transition-all duration-200"
                             data-tab="banking">
                             <div class="flex-shrink-0 mr-3">
                                 <svg class="w-6 h-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -85,7 +86,7 @@
                         </button>
 
                         <button
-                            class="tab-button w-full flex items-center p-4 rounded-lg text-gray-700 hover:bg-gray-50 focus:outline-none transition duration-200"
+                            class="tab-button w-full flex items-center p-4 rounded-lg text-gray-700 hover:bg-gray-50 focus:outline-none transition-all duration-200 bg-transparent"
                             data-tab="travel">
                             <div class="flex-shrink-0 mr-3">
                                 <svg class="w-6 h-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -98,7 +99,7 @@
                         </button>
 
                         <button
-                            class="tab-button w-full flex items-center p-4 rounded-lg text-gray-700 hover:bg-gray-50 focus:outline-none transition duration-200"
+                            class="tab-button w-full flex items-center p-4 rounded-lg text-gray-700 hover:bg-gray-50 focus:outline-none transition-all duration-200 bg-transparent"
                             data-tab="utility">
                             <div class="flex-shrink-0 mr-3">
                                 <svg class="w-6 h-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -111,7 +112,7 @@
                         </button>
 
                         <button
-                            class="tab-button w-full flex items-center p-4 rounded-lg text-gray-700 hover:bg-gray-50 focus:outline-none transition duration-200"
+                            class="tab-button w-full flex items-center p-4 rounded-lg text-gray-700 hover:bg-gray-50 focus:outline-none transition-all duration-200 bg-transparent"
                             data-tab="governance">
                             <div class="flex-shrink-0 mr-3">
                                 <svg class="w-6 h-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -137,15 +138,16 @@
             <!-- Right Content Area -->
             <div class="w-full md:w-2/3 p-0">
                 <!-- Banking Tab Content -->
-                <div id="banking-content" class="tab-content active">
+                <div id="banking-content" class="tab-content block">
                     <div class="p-6 flex flex-col h-full">
                         <div class="mb-auto">
                             <h2 class="text-2xl font-bold text-gray-800 mb-3">Banking Solutions</h2>
-                            <p class="text-gray-700 mb-6 max-w-md">Deliver core banking functionalities such as AePS, UPI, and Micro
+                            <p class="text-gray-700 mb-6 max-w-md">Deliver core banking functionalities such as AePS,
+                                UPI, and Micro
                                 ATM services to enhance your network</p>
                         </div>
                         <!-- Image at end -->
-                        <div class="mt-auto  md:place-items-end">
+                        <div class="mt-auto md:place-items-end">
                             <img src="assets\images\multi-service\banking-sevices.png" alt="Banking Services"
                                 class="w-2/3 h-auto object-contain" />
                         </div>
@@ -153,111 +155,60 @@
                 </div>
 
                 <!-- Travel Tab Content -->
-                <div id="travel-content" class="tab-content">
-                    <div class="p-6">
-                        <h2 class="text-2xl font-bold text-gray-800 mb-3">Travel Solutions</h2>
-                        <p class="text-gray-700 mb-6 max-w-md">Comprehensive travel booking services including flights, trains,
-                            buses and hotels to expand your service offerings</p>
-                        <!-- Person image -->
-                        <div class="mt-auto  md:place-items-end">
-
-                        <img src="assets\images\multi-service\travel-solution.png" alt="Travel Solutions"
-                        class="w-2/3 h-auto object-contain" />
+                <div id="travel-content" class="tab-content hidden">
+                    <div class="p-6 flex flex-col h-full">
+                        <div class="mb-auto">
+                            <h2 class="text-2xl font-bold text-gray-800 mb-3">Travel Solutions</h2>
+                            <p class="text-gray-700 mb-6 max-w-md">Comprehensive travel booking services including
+                                flights,
+                                trains, buses and hotels to expand your service offerings</p>
+                        </div>
+                        <!-- Image at end -->
+                        <div class="mt-auto md:place-items-end">
+                            <img src="assets\images\multi-service\travel-solution.png" alt="Travel Solutions"
+                                class="w-2/3 h-auto object-contain" />
                         </div>
                     </div>
                 </div>
 
                 <!-- Utility Tab Content -->
-                <div id="utility-content" class="tab-content">
-                    <div class="p-6">
-                        <h2 class="text-2xl font-bold text-gray-800 mb-3">Utility & Bill Payments</h2>
-                        <p class="text-gray-700 mb-6 max-w-md">Simplify bill payments with our comprehensive platform for
-                            electricity, water, gas, and more</p>
-                        <!-- Person image -->
-                        <div class="mt-auto  md:place-items-end">
-
-                        <img src="assets\images\multi-service\bill-payments.png" alt="Utility Services"
-                        class="w-2/3 h-auto object-contain" />
+                <div id="utility-content" class="tab-content hidden">
+                    <div class="p-6 flex flex-col h-full">
+                        <div class="mb-auto">
+                            <h2 class="text-2xl font-bold text-gray-800 mb-3">Utility & Bill Payments</h2>
+                            <p class="text-gray-700 mb-6 max-w-md">Simplify bill payments with our comprehensive
+                                platform
+                                for electricity, water, gas, and more</p>
                         </div>
-</div>
+                        <!-- Image at end -->
+                        <div class="mt-auto md:place-items-end">
+                            <img src="assets\images\multi-service\bill-payments.png" alt="Utility Services"
+                                class="w-2/3 h-auto object-contain" />
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Governance Tab Content -->
-                <div id="governance-content" class="tab-content">
-                    <div class="p-6">
-                        <h2 class="text-2xl font-bold text-gray-800 mb-3">E-Governance Solutions</h2>
-                        <p class="text-gray-700 mb-6 max-w-md">Facilitate access to essential government services and digital
-                            document processing</p>
-                        <!-- Person image -->
-                        <div class="mt-auto  md:place-items-end">
-
-                        <img src="assets\images\multi-service\e-governance.png" alt="E-Governance Services"
-                        class="w-2/3 h-auto object-contain" />
-</div>
+                <div id="governance-content" class="tab-content hidden">
+                    <div class="p-6 flex flex-col h-full">
+                        <div class="mb-auto">
+                            <h2 class="text-2xl font-bold text-gray-800 mb-3">E-Governance Solutions</h2>
+                            <p class="text-gray-700 mb-6 max-w-md">Facilitate access to essential government services
+                                and
+                                digital document processing</p>
                         </div>
+                        <!-- Image at end -->
+                        <div class="mt-auto md:place-items-end">
+                            <img src="assets\images\multi-service\e-governance.png" alt="E-Governance Services"
+                                class="w-2/3 h-auto object-contain" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <style>
-    .tab-content {
-        display: none;
-    }
 
-    .tab-content.active {
-        display: block;
-    }
-
-    .tab-button {
-        position: relative;
-        transition: all 0.3s ease;
-    }
-
-    .tab-button.active {
-        background-color: #fee2e2;
-        color: #111827;
-    }
-
-    .tab-button:not(.active) {
-        background-color: transparent;
-        color: #374151;
-    }
-    </style>
-
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        // Get all tab buttons and content
-        const tabButtons = document.querySelectorAll('.tab-button');
-        const tabContents = document.querySelectorAll('.tab-content');
-
-        // Add click event to each tab button
-        tabButtons.forEach(button => {
-            button.addEventListener('click', () => {
-                // Remove active class from all buttons
-                tabButtons.forEach(btn => {
-                    btn.classList.remove('active', 'bg-red-100');
-                    btn.classList.add('bg-transparent');
-                    btn.classList.add('text-gray-700');
-                });
-
-                // Add active class to clicked button
-                button.classList.add('active', 'bg-red-100');
-                button.classList.remove('bg-transparent');
-                button.classList.remove('text-gray-700');
-
-                // Hide all tab contents
-                tabContents.forEach(content => {
-                    content.classList.remove('active');
-                });
-
-                // Show the corresponding tab content
-                const tabId = button.getAttribute('data-tab');
-                document.getElementById(`${tabId}-content`).classList.add('active');
-            });
-        });
-    });
-    </script>
 </section>
 
 <!-- Blogs & Article Section -->
