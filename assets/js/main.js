@@ -985,3 +985,46 @@ document.addEventListener('DOMContentLoaded', function() {
   const secondCard = document.getElementById('testimonial-1');
   secondCard.classList.remove('hidden');
 });
+
+
+
+       // Tab functionality
+       document.addEventListener('DOMContentLoaded', function() {
+        const tabButtons = document.querySelectorAll('.tab-btn');
+        const tabPanes = document.querySelectorAll('.tab-pane');
+        
+        tabButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                // Remove active class from all buttons
+                tabButtons.forEach(btn => {
+                    btn.classList.remove('active-tab');
+                    btn.classList.add('bg-transparent', 'text-gray-700', 'border', 'border-gray-300');
+                });
+                
+                // Add active class to clicked button
+                this.classList.add('active-tab');
+                this.classList.remove('bg-transparent', 'text-gray-700', 'border', 'border-gray-300');
+                
+                // Hide all tab panes
+                tabPanes.forEach(pane => {
+                    pane.classList.add('hidden', 'opacity-0');
+                    pane.classList.remove('block', 'opacity-100');
+                });
+                
+                // Show the selected tab pane
+                const tabId = this.getAttribute('data-tab');
+                const selectedPane = document.getElementById(tabId);
+                selectedPane.classList.remove('hidden', 'opacity-0');
+                selectedPane.classList.add('block', 'opacity-100');
+            });
+        });
+    });
+
+    // Initialize AOS animation library (if available)
+    if (typeof AOS !== 'undefined') {
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+    }

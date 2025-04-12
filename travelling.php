@@ -1,7 +1,7 @@
 <?php include_once('includes/header.php'); ?>
 
+<!-- hero section -->
 
-<!-- Utility Services Section -->
 <section class=" bg-white">
 
     <div class="max-w-7xl mx-auto py-12  ">
@@ -9,12 +9,11 @@
             <div class="grid grid-cols-1 md:grid-cols-2 ">
                 <!-- Left Content - Services List -->
                 <div class="p-8 md:p-12">
-                    <p class="font-semi-bolder text-primary-600 font-bold">BANKING</p>
-                    <h1 class="text-4xl font-bold text-secondary-500 ">Turn Your Business Into</h1>
-                    <h1 class="text-4xl font-bold text-secondary-500 mb-4">a Banking Powerhouse</h1>
-                    <p class="text-gray-500 mb-8">Join 1 Lac+ retail partners offering essential banking services
-                        across
-                        India</p>
+                    <p class="font-semi-bolder text-primary-600 font-bold">Traveling Solutions</p>
+                    <h1 class="text-4xl font-bold text-secondary-500 ">Build Your</h1>
+                    <h1 class="text-4xl font-bold text-secondary-500 mb-4">Travel Business</h1>
+                    <p class="text-gray-500 mb-8">Join 20,000+ travel retailers earning through India's trusted B2B
+                        travel platform</p>
 
                     <a href="#"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
@@ -46,7 +45,7 @@
                 <div class="relative max-w-5xl mx-auto  ">
                     <!-- Main Dashboard Image -->
                     <div class="relative z-20">
-                        <img src="assets/images/banking/hero.png" alt="Dashboard" class=" h-auto" />
+                        <img src="assets/images/trevelling/hero.png" alt="Dashboard" class=" h-auto" />
                         <div class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
                         </div>
                     </div>
@@ -54,363 +53,203 @@
             </div>
 </section>
 
+<!-- hero section ends -->
 
 
-<section class=" bg-white">
 
-    <div class="max-w-7xl mx-auto py-12  ">
-
-        <div class="container mx-auto px-6 text-center">
-            <h2 class="text-3xl font-bold text-primary-700 mb-4">Features & Functions</h2>
-            <p class="text-gray-600 mb-12 max-w-2xl mx-auto">
-                Building trust through partnerships that last. Creating a network that serves millions.
-            </p>
-
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-                <!-- Feature Card 1 -->
-                <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                    <img src="assets/images/utility-servises/real-time.png" alt="Real-Time Payment"
-                        class="w-full object-contain rounded-t-lg">
-                    <div class="p-4 text-left">
-                        <h3 class="text-secondary-500 font-semibold text-xl mb-2">Real-Time Payment Status</h3>
-                        <p class="text-gray-600 text-sm">
-                            Track payments instantly with live status updates for electricity, gas, water, and internet
-                            bills.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Feature Card 2 -->
-                <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                    <img src="assets/images/utility-servises/multi-support.png" alt="Real-Time Payment"
-                        class="w-full object-contain rounded-t-lg">
-                    <div class="p-4 text-left">
-                        <h3 class="text-secondary-500 font-semibold text-xl mb-2">Multi-Operator Support</h3>
-                        <p class="text-gray-600 text-sm">
-                            Process payments for all major utility providers across India through a single dashboard.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Feature Card 3 -->
-                <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                    <img src="assets/images/utility-servises/auto.png" alt="Real-Time Payment"
-                        class="w-full object-contain rounded-t-lg">
-                    <div class="p-4 text-left">
-                        <h3 class="text-secondary-500 font-semibold text-xl mb-2">Auto Settlement System</h3>
-                        <p class="text-gray-600 text-sm">
-                            Get payments settled directly to your bank account with our reliable processing system.
-                        </p>
-                    </div>
-                </div>
-
-                <!-- Feature Card 4 -->
-                <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                    <img src="assets/images/utility-servises/smart.png" alt="Real-Time Payment"
-                        class="w-full object-contain rounded-t-lg">
-                    <div class="p-4 text-left">
-                        <h3 class="text-secondary-500 font-semibold text-xl mb-2">Smart Analytics Dashboard</h3>
-                        <p class="text-gray-600 text-sm">
-                            Monitor transactions and gain insights to grow your business.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+<section class=" bg-primary-800 py-16 px-6  md:px-24 mx-auto">
+    <!-- Section Header -->
+    <div class="max-w-md mb-10" data-aos="fade-up">
+        <h2 class="text-2xl md:text-3xl text-white font-bold mb-2">Why Choose Sec2pay Travel Platform?</h2>
+        <p class="text-white/80 text-sm">Enjoy different experiences in every place you visit and discover new and
+            affordable adventures of course.</p>
     </div>
-</section>
 
-
-<!-- Banking Services Section -->
-<section class="bg-primary-600 text-white py-20 min-h-[650px] flex items-center">
-    <div class="container mx-auto px-4 md:px-6">
-        <h1 class="text-4xl md:text-5xl font-bold mb-10 text-center" data-aos="fade-up" data-aos-duration="800">Built
-            for the Banking</h1>
-
-        <!-- Banking Services Tabs -->
-        <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-            <!-- Tab Buttons -->
-            <div class="flex flex-wrap justify-center mb-8 gap-2 md:gap-3">
-                <button
-                    class="tab-btn px-5 py-3 bg-transparent text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none active"
-                    data-tab="aeps">
-                    <span>AePS: Aadhaar enable payment system</span>
-                </button>
-                <button
-                    class="tab-btn px-5 py-3 bg-transparent text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
-                    data-tab="aadhaar-pay">
-                    <span>Aadhaar Pay</span>
-                </button>
-                <button
-                    class="tab-btn px-5 py-3 bg-transparent text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
-                    data-tab="micro-atm">
-                    <span>Micro ATM Services</span>
-                </button>
-                <button
-                    class="tab-btn px-5 py-3 bg-transparent text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
-                    data-tab="money-transfer">
-                    <span>Domestic Money Transfer</span>
-                </button>
-                <button
-                    class="tab-btn px-5 py-3 bg-transparent text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
-                    data-tab="business-banking">
-                    <span>Business Banking</span>
-                </button>
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+        <!-- Left Column - Features List -->
+        <div class="lg:col-span-7 space-y-5">
+            <!-- Flight Bookings -->
+            <div class="bg-white text-gray-800 rounded-lg p-4 flex" data-aos="fade-up" data-aos-delay="50">
+                <div class="flex-shrink-0 mr-4">
+                    <img src="assets/images/trevelling/svg/flight.svg" alt="Flight" class="w-12 h-12">
+                </div>
+                <div class="flex-grow">
+                    <h3 class="font-semibold text-base text-gray-800 mb-1">Flight Bookings</h3>
+                    <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-1 text-xs">
+                        <li class="flex items-start">
+                            <span class="text-gray-500 mr-1">•</span>
+                            <span>Domestic and int. flights</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-gray-500 mr-1">•</span>
+                            <span>Web check-in assistance</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-gray-500 mr-1">•</span>
+                            <span>Multi-city booking options</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-gray-500 mr-1">•</span>
+                            <span>Fare calendar view</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
-            <!-- Tab Content -->
-            <div class="relative min-h-[350px] overflow-hidden  md:pl-24">
-                <!-- AePS Tab Content -->
-                <div class="tab-pane block opacity-100 transition-opacity duration-300" id="aeps">
-                    <div class="flex flex-col md:flex-row items-center gap-8">
-                        <div class="w-full md:w-1/2">
-                            <h3 class="text-2xl md:text-3xl font-semibold mb-4">AePS</h3>
-                            <p class="text-white/80 mb-8 max-w-md">Expand your reach with AePS, UPI, and Micro ATM
-                                services.</p>
-
-                            <ul class="space-y-4">
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    Quick cash access
-                                </li>
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    Balance checks
-                                </li>
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    Simple money transfers
-                                </li>
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    Mini statements
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="w-full md:w-1/2 flex justify-center">
-                            <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
-                                <img src="assets/images/banking/aps.png" alt="AePS Banking"
-                                    class="max-w-full h-auto max-h-[400px]">
-                            </div>
-                        </div>
-                    </div>
+            <!-- Platform Features -->
+            <div class="flex" data-aos="fade-up" data-aos-delay="100">
+                <div class="flex-shrink-0 mr-4 bg-white rounded-lg p-2 self-start">
+                    <img src="assets/images/trevelling/svg/features.svg" alt="Platform" class="w-8 h-8">
                 </div>
-
-                <!-- Aadhaar Pay Tab Content -->
-                <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="aadhaar-pay">
-                    <div class="flex flex-col md:flex-row items-center gap-8">
-                        <div class="w-full md:w-1/2">
-                            <h3 class="text-2xl md:text-3xl font-semibold mb-4">Aadhaar Pay</h3>
-                            <p class="text-white/80 mb-8 max-w-md">Easy payments using Aadhaar biometric authentication.
-                            </p>
-
-                            <ul class="space-y-4">
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    Biometric verification
-                                </li>
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    Secure transactions
-                                </li>
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    No card required
-                                </li>
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    Instant confirmation
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="w-full md:w-1/2 flex justify-center">
-                            <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
-                                <img src="assets/images/banking/aps.png" alt="Aadhaar Pay"
-                                    class="max-w-full h-auto max-h-[400px]">
-                            </div>
-                        </div>
-                    </div>
+                <div class="flex-grow">
+                    <h3 class="font-semibold text-base mb-1">Platform Features</h3>
+                    <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-1 text-xs text-white/80">
+                        <li class="flex items-start">
+                            <span class="mr-1">•</span>
+                            <span>Train Tickets</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-1">•</span>
+                            <span>Tatkal booking enabled</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-1">•</span>
+                            <span>IRCTC authorized</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-1">•</span>
+                            <span>Alternative train suggestions</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-1">•</span>
+                            <span>Group booking support</span>
+                        </li>
+                    </ul>
                 </div>
+            </div>
 
-                <!-- Micro ATM Tab Content -->
-                <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="micro-atm">
-                    <div class="flex flex-col md:flex-row items-center gap-8">
-                        <div class="w-full md:w-1/2">
-                            <h3 class="text-2xl md:text-3xl font-semibold mb-4">Micro ATM Services</h3>
-                            <p class="text-white/80 mb-8 max-w-md">Banking services at your fingertips with our Micro
-                                ATM.</p>
-
-                            <ul class="space-y-4">
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    Cash withdrawals
-                                </li>
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    Balance inquiries
-                                </li>
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    Mini statements
-                                </li>
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    Fund transfers
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="w-full md:w-1/2 flex justify-center">
-                            <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
-                                <img src="assets/images/banking/aps.png" alt="Micro ATM Services"
-                                    class="max-w-full h-auto max-h-[400px]">
-                            </div>
-                        </div>
-                    </div>
+            <!-- Quick Payments -->
+            <div class="flex" data-aos="fade-up" data-aos-delay="150">
+                <div class="flex-shrink-0 mr-4 bg-white rounded-lg p-2 self-start">
+                    <img src="assets/images/trevelling/svg/quick.svg" alt="Payments" class="w-8 h-8">
                 </div>
-
-                <!-- Money Transfer Tab Content -->
-                <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="money-transfer">
-                    <div class="flex flex-col md:flex-row items-center gap-8">
-                        <div class="w-full md:w-1/2">
-                            <h3 class="text-2xl md:text-3xl font-semibold mb-4">Domestic Money Transfer</h3>
-                            <p class="text-white/80 mb-8 max-w-md">Send money anywhere in the country quickly and
-                                securely.</p>
-
-                            <ul class="space-y-4">
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    Instant transfers
-                                </li>
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    Multiple bank support
-                                </li>
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    Low transaction fees
-                                </li>
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    Transaction tracking
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="w-full md:w-1/2 flex justify-center">
-                            <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
-                                <img src="assets/images/banking/aps.png" alt="Domestic Money Transfer"
-                                    class="max-w-full h-auto max-h-[400px]">
-                            </div>
-                        </div>
-                    </div>
+                <div class="flex-grow">
+                    <h3 class="font-semibold text-base mb-1">Quick Payments</h3>
+                    <ul class="grid grid-cols-1 gap-y-1 text-xs text-white/80">
+                        <li class="flex items-start">
+                            <span class="mr-1">•</span>
+                            <span>Same-day settlement to your bank account</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-1">•</span>
+                            <span>Hassle-free cancellation and refunds</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-1">•</span>
+                            <span>Track earnings in real-time</span>
+                        </li>
+                    </ul>
                 </div>
+            </div>
 
-                <!-- Business Banking Tab Content -->
-                <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="business-banking">
-                    <div class="flex flex-col md:flex-row items-center ">
-                        <div class="w-full md:w-1/2">
-                            <h3 class="text-2xl md:text-3xl font-semibold mb-4">Business Banking</h3>
-                            <p class="text-white/80 mb-8 max-w-md">Comprehensive banking solutions for your business
-                                needs.</p>
-
-                            <ul class="space-y-4">
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    Business accounts
-                                </li>
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    Payment solutions
-                                </li>
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    Financial reporting
-                                </li>
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    Business loans
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="w-full md:w-1/2 flex justify-center">
-                            <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
-                                <img src="assets/images/banking/aps.png" alt="Business Banking"
-                                    class="max-w-full h-auto max-h-[400px]">
-                            </div>
-                        </div>
-                    </div>
+            <!-- Smart Booking Management -->
+            <div class="flex" data-aos="fade-up" data-aos-delay="200">
+                <div class="flex-shrink-0 mr-4 bg-white rounded-lg p-2 self-start">
+                    <img src="assets/images/trevelling/svg/smart.svg" alt="Booking" class="w-8 h-8">
                 </div>
+                <div class="flex-grow">
+                    <h3 class="font-semibold text-base mb-1">Smart Booking Management</h3>
+                    <ul class="grid grid-cols-1 gap-y-1 text-xs text-white/80">
+                        <li class="flex items-start">
+                            <span class="mr-1">•</span>
+                            <span>Direct integration with IRCTC and top travel providers</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-1">•</span>
+                            <span>Real-time ticket booking for trains, flights, and buses</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-1">•</span>
+                            <span>Instant hotel reservations across India</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bus Services -->
+            <div class="flex" data-aos="fade-up" data-aos-delay="250">
+                <div class="flex-shrink-0 mr-4 bg-white rounded-lg p-2 self-start">
+                    <img src="assets/images/trevelling/svg/bus.svg" alt="Bus" class="w-8 h-8">
+                </div>
+                <div class="flex-grow">
+                    <h3 class="font-semibold text-base mb-1">Bus Services</h3>
+                    <ul class="grid grid-cols-1 gap-y-1 text-xs text-white/80">
+                        <li class="flex items-start">
+                            <span class="mr-1">•</span>
+                            <span>Pan-India bus network</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-1">•</span>
+                            <span>Standard and AC buses</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-1">•</span>
+                            <span>Pick-up point selection</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-1">•</span>
+                            <span>Seat layout view</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Hotel & Accommodation -->
+            <div class="flex" data-aos="fade-up" data-aos-delay="300">
+                <div class="flex-shrink-0 mr-4 bg-white rounded-lg p-2 self-start">
+                    <img src="assets/images/trevelling/svg/hotel.svg" alt="Hotel" class="w-8 h-8">
+                </div>
+                <div class="flex-grow">
+                    <h3 class="font-semibold text-base mb-1">Hotel & Accommodation</h3>
+                    <ul class="grid grid-cols-1 gap-y-1 text-xs text-white/80">
+                        <li class="flex items-start">
+                            <span class="mr-1">•</span>
+                            <span>Properties across India</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-1">•</span>
+                            <span>Verified guest reviews</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-1">•</span>
+                            <span>Early check-in option</span>
+                        </li>
+                        <li class="flex items-start">
+                            <span class="mr-1">•</span>
+                            <span>Special corporate rates</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Column - Trip Card -->
+        <div class="lg:col-span-5 flex justify-center" data-aos="fade-left" data-aos-delay="150">
+            <div class="w-full max-w-sm">
+               <img src="assets/images/trevelling/travel-platform.png" alt="">
+               
             </div>
         </div>
     </div>
 </section>
 
 
+<!-- pricing -->
 <section class="py-16 px-4">
     <div class="max-w-6xl mx-auto">
         <!-- Header -->
         <div class="text-center mb-12">
-                        <p class="text-sm font-bold tracking-wider text-primary-800 uppercase mb-2">PRICING</p>
+            <p class="text-sm font-bold tracking-wider text-primary-800 uppercase mb-2">PRICING</p>
             <h2 class="text-3xl font-bold text-primary-700 mb-4">Simple, transparent pricing</h2>
             <p class="text-gray-600 max-w-xl mx-auto">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit dolor posuere vel venenatis eu sit massa
@@ -693,7 +532,13 @@
 
 </section>
 
-<section class="py-16 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto overflow-hidden">
+<!-- End of Pricing Section -->
+
+
+<!-- testimonials -->
+
+
+<section class="py-10 md:pb-24 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto overflow-hidden">
     <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 items-start">
         <!-- Left Column - Heading -->
         <div class="md:col-span-5 mb-10 md:mb-0">
@@ -797,6 +642,68 @@
     </div>
 </section>
 
+<!-- End of Testimonials Section -->
+
+
+<!-- Join India's Growing -->
+<section class="bg-primary-700 text-white min-h-[300px] md:min-h-[400px]">
+    <div class="container mx-auto px-4 md:px-24 py-16 lg:py-20">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <!-- Left Section - Heading and CTA -->
+            <div class="lg:col-span-4 space-y-6 animate-fade-in">
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight">Join India's Growing Travel Network</h1>
+                <p class="text-lg text-white/90">Sec2Pay Your Partner in Making Digital Business Growth Simple</p>
+                <div class="pt-4">
+                    <a href="#"
+                        class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-md transition duration-300">Begin
+                        Your Journey</a>
+                </div>
+            </div>
+
+            <!-- Right Section - Stats -->
+            <div class="lg:col-span-8 animate-fade-in" style="animation-delay: 0.2s;">
+                <div class="grid grid-cols-1 md:grid-cols-3 h-full">
+                    <!-- First Stat -->
+                    <div class="border-r border-white/20 flex flex-col items-center justify-center py-6 md:py-12">
+                        <div class="text-3xl md:text-4xl lg:text-5xl font-bold">20,000+</div>
+                        <div class="text-center text-sm md:text-base mt-2 text-white/80">
+                            Active travel<br>retailers
+                        </div>
+                    </div>
+
+                    <!-- Second Stat -->
+                    <div class="border-r border-white/20 flex flex-col items-center justify-center py-6 md:py-12">
+                        <div class="text-3xl md:text-4xl lg:text-5xl font-bold">50+</div>
+                        <div class="text-center text-sm md:text-base mt-2 text-white/80">
+                            Cities Pan-India<br>presence
+                        </div>
+                    </div>
+
+                    <!-- Third Stat -->
+                    <div class="flex flex-col">
+                        <!-- Top Section -->
+                        <div class="flex flex-col items-center justify-center py-6 md:py-12 border-b border-white/20">
+                            <div class="text-3xl md:text-4xl lg:text-5xl font-bold">1000+</div>
+                            <div class="text-center text-sm md:text-base mt-2 text-white/80">
+                                B2B partners<br>across India
+                            </div>
+                        </div>
+                        <!-- Bottom Section with Secondary Background -->
+                        <div class="bg-secondary-500 flex flex-col items-center justify-center py-6 md:py-12 flex-1">
+                            <div class="text-3xl md:text-4xl lg:text-5xl font-bold">24/7</div>
+                            <div class="text-center text-sm md:text-base mt-2">
+                                Customer Support<br>team
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Travel Network Section -->
 
 
 <!-- Join Section with Dark Blue Background -->
@@ -847,6 +754,8 @@
     </div>
 </section>
 
+<!-- End of Join Section -->
+<!-- Footer Section -->
 
 
 
