@@ -41,6 +41,8 @@
 
                 <!-- Person Image -->
 
+                
+
 
                 <div class="relative max-w-5xl mx-auto  ">
                     <!-- Main Dashboard Image -->
@@ -384,10 +386,10 @@
             <span class="mr-3 text-gray-700 font-medium">Monthly</span>
             <div class="relative inline-block w-12 align-middle select-none">
                 <input type="checkbox" id="billing-toggle"
-                    class="peer absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer checked:right-0 checked:border-secondary-500 border-gray-300"
+                    class="peer absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer checked:right-0 checked:border-primary-500 border-gray-300"
                     style="top: 0; bottom: 0; margin: auto 0; transition: right 0.2s ease-in-out, border-color 0.2s ease-in-out;">
                 <label for="billing-toggle"
-                    class="block h-6 overflow-hidden rounded-full bg-gray-300 cursor-pointer peer-checked:bg-secondary-400"
+                    class="block h-6 overflow-hidden rounded-full bg-gray-300 cursor-pointer peer-checked:bg-primary-400"
                     style="transition: background-color 0.2s ease-in-out;">
                 </label>
             </div>
@@ -405,10 +407,10 @@
                         <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
                             <div
                                 class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex">
-                                <img src="assets/images/banking/icon1.png" alt="Whitelabel Partner Icon">
+                                <img src="assets/images/utility-services-page/icon1.png" alt="Basic Partner Icon">
                             </div>
                         </div>
-                        <h3 class="text-3xl font-semibold text-gray-900">Whitelabel Partner</h3>
+                        <h3 class="text-3xl font-semibold text-gray-900">Basic Partner</h3>
                     </div>
 
                     <!-- Plan Details -->
@@ -419,47 +421,47 @@
                     <ul class="space-y-4 mb-6 flex-grow">
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-gray-700">Build your brand identity</span>
+                            <span class="ml-3 text-gray-700">BBPS Integration</span>
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-gray-700">Full banking suite access</span>
+                            <span class="ml-3 text-gray-700">Mobile Platform Acccess</span>
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-gray-700">Create agent networks</span>
+                            <span class="ml-3 text-gray-700">Automated Settlements</span>
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-gray-700">Mobile app included</span>
+                            <span class="ml-3 text-gray-700">Basic Support Services</span>
                         </li>
                     </ul>
 
@@ -467,11 +469,11 @@
                     <div class="mt-auto">
                         <p class="text-xl font-bold text-gray-700 mb-1">Starting at</p>
                         <div class="flex items-end mb-6">
-                            <span class="text-4xl font-bold text-gray-900 monthly-price">₹25,000</span>
+                            <span class="text-4xl font-bold text-gray-900 monthly-price">₹15,000</span>
                             <span class="text-4xl font-bold text-gray-900 annual-price hidden">₹20,000</span>
                         </div>
                         <a href="#"
-                            class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
+                            class="block w-full py-3 px-4 bg-primary-500 hover:bg-primary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>
                     </div>
@@ -480,7 +482,7 @@
 
             <!-- Plan 2 - Featured -->
             <div
-                class="bg-secondary-500 rounded-xl drop-shadow-xl overflow-hidden transform transition-all duration-300 hover:drop-shadow-2xl hover:-translate-y-1 relative md:-mt-8 md:mb-8 md:z-10">
+                class="bg-primary-500 rounded-xl drop-shadow-xl overflow-hidden transform transition-all duration-300 hover:drop-shadow-2xl hover:-translate-y-1 relative md:-mt-8 md:mb-8 md:z-10">
                 <!-- Popular Badge -->
                 <div class="absolute top-4 right-4">
                     <span
@@ -493,11 +495,12 @@
                     <!-- Plan Icon and Title -->
                     <div class="flex items-center mb-6">
                         <div class="w-16 h-16 bg-white rounded-lg flex items-center justify-center mr-4">
-                            <div class="w-10 h-10 bg-gradient-to-r from-white to-secondary-300 overflow-hidden flex">
-                                <img src="assets/images/banking/icon2.png" alt="Whitelabel Reseller Icon">
+                            <div class="w-10 h-10 bg-gradient-to-r from-white to-primary-300 overflow-hidden flex">
+                                <img src="assets/images/utility-services-page/icon2.png" alt="Primium partner Icon">
                             </div>
                         </div>
-                        <h3 class="text-3xl font-semibold  text-white">Whitelabel Reseller</h3>
+                        <h3 class="text-3xl font-semibold  text-white">Premium 
+                        Partner</h3>
                     </div>
 
                     <!-- Plan Details -->
@@ -508,7 +511,7 @@
                     <ul class="space-y-4 mb-6 flex-grow">
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-600 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-primary-600 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -519,7 +522,7 @@
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-600 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-primary-600 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -530,7 +533,7 @@
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-600 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-primary-600 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -541,7 +544,7 @@
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-600 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-primary-600 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -560,7 +563,7 @@
                             <span class="text-4xl font-bold text-white annual-price hidden">₹40,000</span>
                         </div>
                         <a href="#"
-                            class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-secondary-600 font-medium text-center rounded-full transition-colors duration-300">
+                            class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-primary-600 font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>
                     </div>
@@ -576,7 +579,7 @@
                         <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
                             <div
                                 class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex">
-                                <img src="assets/images/banking/icon1.png" alt="Enterprise Partner Icon">
+                                <img src="assets/images/utility-services-page/icon3.png" alt="Enterprise Partner Icon">
                             </div>
                         </div>
                         <h3 class="text-3xl font-semibold text-gray-900">Enterprise Partner</h3>
@@ -590,7 +593,7 @@
                     <ul class="space-y-4 mb-6 flex-grow">
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -601,7 +604,7 @@
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -612,7 +615,7 @@
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -623,7 +626,7 @@
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -642,7 +645,7 @@
                             <span class="text-4xl font-bold text-gray-900 annual-price hidden">₹80,000</span>
                         </div>
                         <a href="#"
-                            class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
+                            class="block w-full py-3 px-4 bg-primary-500 hover:bg-primary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>
                     </div>
@@ -768,15 +771,16 @@
 
 
 <!-- Join India's Growing -->
-<section class="bg-primary-700 text-white min-h-[300px] md:min-h-[400px]">
+<section class="bg-secondary-600 text-white min-h-[300px] md:min-h-[400px]">
         <div class="container mx-auto px-4 md:px-24 py-16 lg:py-20">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
                 <!-- Left Section - Heading and CTA -->
                 <div class="lg:col-span-4 space-y-6 animate-fade-in">
-                    <h1 class="text-4xl md:text-5xl font-bold leading-tight">Join India's Growing Travel Network</h1>
-                    <p class="text-lg text-white/90">Sec2Pay Your Partner in Making Digital Business Growth Simple</p>
+                    <h1 class="text-4xl md:text-5xl font-bold leading-tight">Why Partner
+                    With Sec2pay?</h1>
+                    <p class="text-lg text-white/90">Interested in Growing Your Business?</p>
                     <div class="pt-4">
-                        <a href="#" class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-md transition duration-300">Begin Your Journey</a>
+                        <a href="#" class="inline-block bg-white  text-secondary-600 font-medium py-3 px-8 rounded-md transition duration-300">Partner With Us</a>
                     </div>
                 </div>
 
@@ -784,38 +788,43 @@
                 <div class="lg:col-span-8 animate-fade-in" style="animation-delay: 0.2s;">
                     <div class="grid grid-cols-1 md:grid-cols-3 h-full">
                         <!-- First Stat -->
-                        <div class="border-r border-white/20 flex flex-col items-center justify-center py-6 md:py-12">
-                            <div class="text-3xl md:text-4xl lg:text-5xl font-bold">20,000+</div>
+
+                        <div class="flex flex-col">
+                        <div class="border-r  border-white/20 flex flex-col items-center justify-center py-6 md:py-12">
                             <div class="text-center text-sm md:text-base mt-2 text-white/80">
-                                Active travel<br>retailers
+                            Pan-India presence with 1 lakh+ active retailers
                             </div>
                         </div>
 
                         <!-- Second Stat -->
                         <div class="border-r border-white/20 flex flex-col items-center justify-center py-6 md:py-12">
-                            <div class="text-3xl md:text-4xl lg:text-5xl font-bold">50+</div>
+                            
                             <div class="text-center text-sm md:text-base mt-2 text-white/80">
-                                Cities Pan-India<br>presence
+                            Dedicated support team
                             </div>
                         </div>
+                        </div>
+                      
 
                         <!-- Third Stat -->
                         <div class="flex flex-col">
                             <!-- Top Section -->
                             <div class="flex flex-col items-center justify-center py-6 md:py-12 border-b border-white/20">
-                                <div class="text-3xl md:text-4xl lg:text-5xl font-bold">1000+</div>
+                                
                                 <div class="text-center text-sm md:text-base mt-2 text-white/80">
-                                    B2B partners<br>across India
+                                Multi-level commission structure
                                 </div>
                             </div>
                             <!-- Bottom Section with Secondary Background -->
                             <div class="bg-secondary-500 flex flex-col items-center justify-center py-6 md:py-12 flex-1">
-                                <div class="text-3xl md:text-4xl lg:text-5xl font-bold">24/7</div>
+                                
                                 <div class="text-center text-sm md:text-base mt-2">
-                                    Customer Support<br>team
-                                </div>
+                                24/7 Customer Support team
+                            </div>
                             </div>
                         </div>
+
+                        
                     </div>
                 </div>
             </div>
