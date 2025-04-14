@@ -364,7 +364,51 @@
     </section>
 
 
+<!-- Join India's Growing -->
+<section class="bg-primary-700 text-white min-h-[300px] md:min-h-[400px]">
+        <div class="container mx-auto px-4 md:px-24 py-16 lg:py-20">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                <!-- Left Section - Heading and CTA -->
+                <div class="lg:col-span-4 space-y-6 animate-fade-in">
+                    <h1 class="text-4xl md:text-5xl font-bold leading-tight">Join India's Growing Travel Network</h1>
+                    <p class="text-lg text-white/90">Sec2Pay Your Partner in Making Digital Business Growth Simple</p>
+                    <div class="pt-4">
+                        <a href="#" class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-md transition duration-300">Begin Your Journey</a>
+                    </div>
+                </div>
 
+             
+            <!-- Right Section - Stats -->
+            <div class="lg:col-span-8">
+                <div class="grid grid-cols-2 gap-2 h-full">
+                    <!-- Top-Left Stat -->
+                    <div class="bg-primary-700 p-6 flex flex-col items-center justify-center text-center">
+                        <div class="text-sm mb-2">Established network serving</div>
+                        <div class="text-xl font-bold">1 Lac+ retail merchants</div>
+                    </div>
+                    
+                    <!-- Top-Right Stat -->
+                    <div class="bg-gradient-to-br from-indigo-500 to-red-400 p-6 flex flex-col items-center justify-center text-center">
+                        <div class="text-sm mb-2">Partnerships with</div>
+                        <div class="text-xl font-bold">20+ government departments</div>
+                    </div>
+                    
+                    <!-- Bottom-Left Stat -->
+                    <div class="bg-primary-700 p-6 flex flex-col items-center justify-center text-center">
+                        <div class="text-sm mb-2">Quick settlement</div>
+                        <div class="text-xl font-bold">cycles</div>
+                    </div>
+                    
+                    <!-- Bottom-Right Stat -->
+                    <div class="bg-primary-700 p-6 flex flex-col items-center justify-center text-center">
+                        <div class="text-sm mb-2">24/7 Customer</div>
+                        <div class="text-xl font-bold">Support team</div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
 
 <!-- pricing -->
 <section class="py-10 px-4">
