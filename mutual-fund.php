@@ -9,14 +9,15 @@
             <div class="grid grid-cols-1 md:grid-cols-2 ">
                 <!-- Left Content - Services List -->
                 <div class="p-8 md:p-12">
-                    <p class="font-semi-bolder text-primary-600 font-bold">ONDC E-Commerce Seller Platform</p>
-                    <h1 class="text-4xl font-bold text-secondary-600 ">Help Sellers Reach</h1>
-                    <h1 class="text-4xl font-bold text-secondary-600 mb-4">New Markets</h1>
-                    <p class="text-gray-500 mb-8">Empower your business to support sellers in thriving on ONDC's digital network.</p>
+                    <p class="font-semi-bolder text-primary-600 font-bold">Utility Services</p>
+                    <h1 class="text-4xl font-bold text-secondary-600 ">Make Bill</h1>
+                    <h1 class="text-4xl font-bold text-secondary-600 mb-4">Payments Simple</h1>
+                    <p class="text-gray-500 mb-8">Join 1 lakh+ retailers offering instant
+                    utility payments</p>
 
                     <a href="#"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
-                        Get Started Today!
+                        Start Your Journey
 
                     </a>
 
@@ -44,7 +45,7 @@
                 <div class="relative max-w-5xl mx-auto  ">
                     <!-- Main Dashboard Image -->
                     <div class="relative z-20">
-                        <img src="assets/images/ondc-ecommerce/banner.png" alt="Dashboard" class=" h-auto" />
+                        <img src="assets/images/mutual-fund/banner.png" alt="Dashboard" class=" h-auto" />
                         <div class="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-white to-transparent">
                         </div>
                     </div>
@@ -55,101 +56,183 @@
 <!-- hero section ends -->
 
 
-<!-- E-Governance Platform Services Section -->
+
+
+<!-- Featuees & Function Section -->
 <section class="bg-white py-10 px-4 md:px-24">
-    <div class="container mx-auto px-6 ">
-        <h2 class="text-3xl font-bold text-primary-700 mb-8 text-center">Why Choose Sec2Pay?</h2>
+                <div class="container mx-auto px-6 text-center">
+                    <h2 class="text-3xl font-bold text-primary-700 mb-4">Features &
+                        Functions</h2>
+                    <p class="text-gray-600 mb-12 max-w-2xl mx-auto">
+                        Building trust through partnerships that last. Creating
+                        a network that serves millions.
+                    </p>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <!-- PAN Card Services -->
-            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
-                <!-- Icon and Title - Vertical Alignment -->
-                <div class="text-left mb-2">
-                    <div class="text-red-500">
-                    <img src="assets/images/ondc-ecommerce/icon1.svg" alt="Pan Image" class="mb-4">
-                    </div>
-                    <h2 class="text-xl font-semibold text-red-500">Quick Setup</h2>
-                </div>
-                <p>Seamlessly onboard sellers </br>and enable their growth.</p>
-            </div>
-            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
-                <!-- Icon and Title - Vertical Alignment -->
-                <div class="text-left mb-2">
-                    <div class="text-red-500">
-                    <img src="assets/images/ondc-ecommerce/icon2.svg" alt="Pan Image" class="mb-4">
-                    </div>
-                    <h2 class="text-xl font-semibold text-red-500">Simplified Management</h2>
-                </div>
-                <p>Access a centralized dashboard to</br>manage seller networks.</p>
-            </div>
-            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
-                <!-- Icon and Title - Vertical Alignment -->
-                <div class="text-left mb-2">
-                    <div class="text-red-500">
-                    <img src="assets/images/ondc-ecommerce/icon3.svg" alt="Pan Image" class="mb-4">
-                    </div>
-                    <h2 class="text-xl font-semibold text-red-500">Localized Tools</h2>
-                </div>
-                <p>Multi-language support</br>tailored for Tier 2 and 3 cities.</p>
-            </div>
-            
-        </div>
-    </div>
-</section>
+                    <div
+                        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
-<!-- Banking Services Section --> 
-<section class="bg-primary-600 text-white py-20 min-h-[650px] flex items-center">
-    <div class="container mx-auto px-4 md:px-6">
-        <!-- Banking Services Tabs -->
-        <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-            <!-- Tab Content -->
-            <div class="relative min-h-[350px] overflow-hidden md:pl-24">
-                <!-- AePS Tab Content -->
-                <div class="tab-pane block opacity-100 transition-opacity duration-300" id="aeps">
-                    <div class="flex flex-col md:flex-row items-center gap-8">
-                        <div class="w-full md:w-1/2 flex justify-center">
-                            <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
-                                <img src="assets/images/ondc-ecommerce/service.png" alt="AePS Banking"
-                                    class="max-w-full h-auto max-h-[400px]">
+
+                        <!-- Feature Card 3 -->
+                        <div
+                            class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                            <img src="assets/images/utility-servises/auto.png"
+                                alt="Real-Time Payment"
+                                class="w-full object-contain rounded-t-lg">
+                            <div class="p-6 text-left">
+                                <h3
+                                    class="text-secondary-600 font-semibold text-xl mb-2">Investment
+                                    Analysis Tools</h3>
+                                <p class="text-gray-600 text-sm">
+                                Provide data-driven fund recommendations to help </br>customers make informed decisions.
+                                </p>
                             </div>
                         </div>
-                        <div class="w-full md:w-1/2">
-                            <h3 class="text-2xl md:text-3xl font-semibold mb-8">Services</h3>
-                            <ul class="space-y-5 mb-8">
-                                <?php
-                                $lifePlans = [
-                                    'Catalog management tools',
-                                    'Order tracking and fulfillment systems',
-                                    'Secure payment integration',
-                                    'Business analytics dashboard'
-                                ];
-                                
-                                foreach ($lifePlans as $plan) :
-                                ?>
-                                <li class="flex items-start">
-                                    <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                        <!-- Feature Card 3 -->
+                        <div
+                            class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                            <img src="assets/images/utility-servises/auto.png"
+                                alt="Real-Time Payment"
+                                class="w-full object-contain rounded-t-lg">
+                            <div class="p-6 text-left">
+                                <h3
+                                    class="text-secondary-600 font-semibold text-xl mb-2">Quick Digital Onboarding</h3>
+                                <p class="text-gray-600 text-sm">
+                                Quick account setup with </br>paperless KYC for faster customer acquisition
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Feature Card 3 -->
+                        <div
+                            class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                            <img src="assets/images/utility-servises/auto.png"
+                                alt="Real-Time Payment"
+                                class="w-full object-contain rounded-t-lg">
+                            <div class="p-6 text-left">
+                                <h3
+                                    class="text-secondary-600 font-semibold text-xl mb-2">Multi-AMC Connect</h3>
+                                <p class="text-gray-600 text-sm">
+                                Direct integration with top</br> Asset Management Companies for smooth transactions
+                                </p>
+                            </div>
+                        </div>
+                        <!-- Feature Card 3 -->
+                        <div
+                            class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                            <img src="assets/images/utility-servises/auto.png"
+                                alt="Real-Time Payment"
+                                class="w-full object-contain rounded-t-lg">
+                            <div class="p-6 text-left">
+                                <h3
+                                    class="text-secondary-600 font-semibold text-xl mb-2">Goal Planning
+                                    Tools & Solutions</h3>
+                                <p class="text-gray-600 text-sm">
+                                Help customers plan their financial future with smart investment tracking
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+<!-- Platform Services Section -->
+<section class="py-16 px-4 bg-white">
+    <!-- Increased max-width from max-w-6xl to max-w-7xl -->
+    <div class="max-w-7xl mx-auto">
+        <!-- Container with light pink background -->
+        <div class="bg-secondary-100 rounded-xl p-8 md:p-12">
+            <div class="flex flex-col md:flex-row gap-8 items-center">
+                <!-- Left Column - Services List -->
+                <div class="w-full md:w-1/2">
+                    <h2 class="text-3xl md:text-4xl font-bold text-primary-800 mb-8">Platform Services</h2>
+                    <ul class="space-y-5">
+                        <!-- Service Item 1 -->
+                        <li class="flex items-center">
+                            <div class="flex-shrink-0 h-6 w-6 rounded-full border flex items-center justify-center">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
                                             <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
                                             <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                         </svg>
-                                    </div>
-                                    <span class="ml-3 text-white"><?php echo $plan; ?></span>
-                                </li>
-                                <?php endforeach; ?>
-                            </ul>
-                            <div>
-                                <a href="#" class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-md transition duration-300">Explore Credit Solutions</a>
                             </div>
-                        </div>
-                    </div>
+                            <span class="ml-3 text-gray-700 font-medium">SIP Management</span>
+                        </li>
+                        
+                        <!-- Service Item 2 -->
+                        <li class="flex items-center">
+                        <div class="flex-shrink-0 h-6 w-6 rounded-full border flex items-center justify-center">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
+                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                            </div>
+                            <span class="ml-3 text-gray-700 font-medium">Lumpsum Investments</span>
+                        </li>
+                        
+                        <!-- Service Item 3 -->
+                        <li class="flex items-center">
+                        <div class="flex-shrink-0 h-6 w-6 rounded-full border flex items-center justify-center">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
+                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                            </div>
+                            <span class="ml-3 text-gray-700 font-medium">Portfolio Tracking</span>
+                        </li>
+                        
+                        <!-- Service Item 4 -->
+                        <li class="flex items-center">
+                        <div class="flex-shrink-0 h-6 w-6 rounded-full border flex items-center justify-center">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
+                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                            </div>
+                            <span class="ml-3 text-gray-700 font-medium">NAV Updates</span>
+                        </li>
+                        
+                        <!-- Service Item 5 -->
+                        <li class="flex items-center">
+                        <div class="flex-shrink-0 h-6 w-6 rounded-full border flex items-center justify-center">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
+                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                            </div>
+                            <span class="ml-3 text-gray-700 font-medium">Goal Planning</span>
+                        </li>
+                        
+                        <!-- Service Item 6 -->
+                        <li class="flex items-center">
+                        <div class="flex-shrink-0 h-6 w-6 rounded-full border flex items-center justify-center">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
+                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                            </div>
+                            <span class="ml-3 text-gray-700 font-medium">Transaction History</span>
+                        </li>
+                        
+                        <!-- Service Item 7 -->
+                        <li class="flex items-center">
+                        <div class="flex-shrink-0 h-6 w-6 rounded-full border flex items-center justify-center">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
+                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                            </div>
+                            <span class="ml-3 text-gray-700 font-medium">Performance Reports</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Right Column - Investment Illustration -->
+                <div class="w-full md:w-1/2">
+                    <img src="assets/images/mutual-fund/service.png" alt="E-commerce services" class="w-full h-auto" onerror="this.onerror=null; this.src='/api/placeholder/550/350'; this.alt='E-commerce services placeholder'">
                 </div>
             </div>
         </div>
     </div>
 </section>
-
-
-
 
 
 <!-- pricing -->
@@ -194,12 +277,20 @@
                                 <img src="assets/images/banking/icon1.png" alt="Whitelabel Partner Icon">
                             </div>
                         </div>
-                        <h3 class="text-3xl font-semibold text-gray-900">Whitelabel Partner</h3>
+                        <div class="flex flex-col">
+                            <p class="text-sm text-gray-600">For individuals</p>
+                            <h3 class="text-3xl font-semibold text-gray-900">Basic</h3>
+                        </div>
                     </div>
 
                     <!-- Plan Details -->
-                    <p class="text-sm text-gray-600 mb-6">For New Entrepreneurs</p>
-
+                    <p class="text-sm text-gray-600 mb-6">Lorem ipsum dolor sit amet doloroli sitiol conse ctetur adipiscing elit. </p>
+                    <div class="mb-4">
+                    <div class="flex items-end">
+    <span class="text-navy-900 text-4xl font-bold">$99</span>
+    <span class="text-gray-500 text-sm ml-2">/monthly</span>
+</div>
+                </div>
                     <!-- Features -->
                     <h4 class="text-base font-semibold text-gray-800 mb-4">What's included</h4>
                     <ul class="space-y-4 mb-6 flex-grow">
@@ -212,7 +303,7 @@
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-gray-700">Build your brand identity</span>
+                            <span class="ml-3 text-gray-700">All analytics features</span>
                         </li>
                         <li class="flex items-start">
                             <div
@@ -223,7 +314,7 @@
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-gray-700">Full banking suite access</span>
+                            <span class="ml-3 text-gray-700">Up to 250,000 tracked visits</span>
                         </li>
                         <li class="flex items-start">
                             <div
@@ -234,7 +325,7 @@
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-gray-700">Create agent networks</span>
+                            <span class="ml-3 text-gray-700">Normal support</span>
                         </li>
                         <li class="flex items-start">
                             <div
@@ -245,17 +336,12 @@
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-gray-700">Mobile app included</span>
+                            <span class="ml-3 text-gray-700">Up to 3 team members</span>
                         </li>
                     </ul>
 
                     <!-- Price -->
                     <div class="mt-auto">
-                        <p class="text-xl font-bold text-gray-700 mb-1">Starting at</p>
-                        <div class="flex items-end mb-6">
-                            <span class="text-4xl font-bold text-gray-900 monthly-price">₹25,000</span>
-                            <span class="text-4xl font-bold text-gray-900 annual-price hidden">₹20,000</span>
-                        </div>
                         <a href="#"
                             class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                             Get started
@@ -283,11 +369,20 @@
                                 <img src="assets/images/banking/icon2.png" alt="Whitelabel Reseller Icon">
                             </div>
                         </div>
-                        <h3 class="text-3xl font-semibold  text-white">Whitelabel Reseller</h3>
-                    </div>
+                        <div class="flex flex-col">
+                            <p class="text-sm text-white">For startups</p>
+                            <h3 class="text-3xl font-semibold text-white">Pro</h3>
+                        </div>                   
+                     </div>
 
                     <!-- Plan Details -->
-                    <p class="text-sm text-white text-opacity-90 mb-6">For Growing Businesses</p>
+                    <p class="text-sm text-white mb-6">Lorem ipsum dolor sit amet doloroli sitiol conse ctetur adipiscing elit. </p>
+                    <div class="mb-4">
+                    <div class="flex items-end">
+    <span class="text-white text-4xl font-bold">$199</span>
+    <span class="text-white text-sm ml-2">/monthly</span>
+                    </div>
+                        </div>
 
                     <!-- Features -->
                     <h4 class="text-base font-semibold text-white mb-4">What's included</h4>
@@ -301,7 +396,7 @@
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-white">Handle multiple brands</span>
+                            <span class="ml-3 text-white">All analytics features</span>
                         </li>
                         <li class="flex items-start">
                             <div
@@ -312,7 +407,7 @@
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-white">Set custom commissions</span>
+                            <span class="ml-3 text-white">Up to 1,000,000 tracked visits</span>
                         </li>
                         <li class="flex items-start">
                             <div
@@ -323,7 +418,7 @@
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-white">API integration</span>
+                            <span class="ml-3 text-white">Premium support</span>
                         </li>
                         <li class="flex items-start">
                             <div
@@ -334,17 +429,12 @@
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-white">Business insights</span>
+                            <span class="ml-3 text-white">Up to 10 team members</span>
                         </li>
                     </ul>
 
                     <!-- Price -->
                     <div class="mt-auto">
-                        <p class="text-xl font-bold text-white text-opacity-90 mb-1">Starting at</p>
-                        <div class="flex items-end mb-6">
-                            <span class="text-4xl font-bold text-white monthly-price">₹50,000</span>
-                            <span class="text-4xl font-bold text-white annual-price hidden">₹40,000</span>
-                        </div>
                         <a href="#"
                             class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-secondary-600 font-medium text-center rounded-full transition-colors duration-300">
                             Get started
@@ -365,11 +455,20 @@
                                 <img src="assets/images/banking/icon1.png" alt="Enterprise Partner Icon">
                             </div>
                         </div>
-                        <h3 class="text-3xl font-semibold text-gray-900">Enterprise Partner</h3>
-                    </div>
+                        <div class="flex flex-col">
+                            <p class="text-sm text-gray-600">For big companies</p>
+                            <h3 class="text-3xl font-semibold text-gray-900">Enterprise</h3>
+                        </div>
+                                        </div>
 
                     <!-- Plan Details -->
-                    <p class="text-sm text-gray-600 mb-6">For Large Organizations</p>
+                    <p class="text-sm text-gray-600 mb-6">Lorem ipsum dolor sit amet doloroli sitiol conse ctetur adipiscing elit. </p>
+                    <div class="mb-4">
+                    <div class="flex items-end">
+    <span class="text-navy-900 text-4xl font-bold">$399</span>
+    <span class="text-gray-500 text-sm ml-2">/monthly</span>
+</div>
+                </div>
 
                     <!-- Features -->
                     <h4 class="text-base font-semibold text-gray-800 mb-4">What's included</h4>
@@ -383,7 +482,7 @@
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-gray-700">Tailored solutions</span>
+                            <span class="ml-3 text-gray-700">All analytics features</span>
                         </li>
                         <li class="flex items-start">
                             <div
@@ -394,7 +493,7 @@
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-gray-700">Priority support</span>
+                            <span class="ml-3 text-gray-700">Up to 5,000,000 tracked visits</span>
                         </li>
                         <li class="flex items-start">
                             <div
@@ -405,7 +504,7 @@
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-gray-700">API ecosystem</span>
+                            <span class="ml-3 text-gray-700">Dedicated support</span>
                         </li>
                         <li class="flex items-start">
                             <div
@@ -416,17 +515,12 @@
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-gray-700">Fund management system</span>
+                            <span class="ml-3 text-gray-700">Up to 50 team members</span>
                         </li>
                     </ul>
 
                     <!-- Price -->
                     <div class="mt-auto">
-                        <p class="text-xl font-bold text-gray-700 mb-1">Starting at</p>
-                        <div class="flex items-end mb-6">
-                            <span class="text-4xl font-bold text-gray-900 monthly-price">₹1,00,000</span>
-                            <span class="text-4xl font-bold text-gray-900 annual-price hidden">₹80,000</span>
-                        </div>
                         <a href="#"
                             class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                             Get started
@@ -439,6 +533,8 @@
 
 
 </section>
+
+<!-- End of Pricing Section -->
 
 
 <!-- testimonials -->
@@ -548,6 +644,12 @@
     </div>
 </section>
 
+<!-- End of Testimonials Section -->
+
+
+
+
+
 <!-- Join Section with Dark Blue Background -->
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
@@ -564,15 +666,21 @@
             <div class="max-w-4xl mx-auto text-center">
                 <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 relative z-10"
                     data-aos="fade-up" data-aos-delay="200">
-                     Join India's Digital Commerce Revolution
+                    Join Sec2pay today
                 </h1>
 
                 <p class="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 relative z-10" data-aos="fade-up"
                     data-aos-delay="300">
-                    "Ready to expand your local business? Partner with Sec2Pay's ONDC platform"
+                    Start for free — upgrade anytime.
                 </p>
 
                 <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
+                    <p class="text-gray-300 mb-4 sm:mb-6">
+                        <a href="#" class="underline hover:text-white transition">
+                            Joining as an organization? Contact Sales
+                        </a>
+                    </p>
+
                     <a href="#"
                         class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
                         data-aos="zoom-in" data-aos-delay="500">
