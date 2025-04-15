@@ -1,22 +1,22 @@
 <?php include_once('includes/header.php'); ?>
 
-<!-- hero section -->
 
+<!-- Utility Services Section -->
 <section class=" bg-white">
 
-    <div class="max-w-7xl mx-auto py-12  ">
+    <div class="max-w-7xl mx-auto ">
         <div class="rounded-xl overflow-hidden  ">
-            <div class="grid grid-cols-1 md:grid-cols-2 ">
+            <div class="grid grid-cols-1 md:grid-cols-2">
                 <!-- Left Content - Services List -->
-                <div class="p-8 md:p-12">
-                    <p class="font-semi-bolder text-primary-600 font-bold">ONDC E-Commerce Seller Platform</p>
-                    <h1 class="text-4xl font-bold text-secondary-600 ">Help Sellers Reach</h1>
-                    <h1 class="text-4xl font-bold text-secondary-600 mb-4">New Markets</h1>
-                    <p class="text-gray-500 mb-8">Empower your business to support sellers in thriving on ONDC's digital network.</p>
+                <div class="p-8 md:p-12 mt-12">
+                    <p class="font-semi-bolder text-primary-600 font-bold">AEPS</p>
+                    <h1 class="text-4xl font-bold text-secondary-500 ">Your local banking point for</h1>
+                    <h1 class="text-4xl font-bold text-secondary-500 mb-4">instant cash transactions</h1>
+                    <p class="text-gray-500 mb-8">Join Sec2Pay's AEPS network to provide secure Aadhaar-based banking services in your area. Help your community access their bank accounts easily through fingerprint verification.</p>
 
                     <a href="#"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
-                        Get Started Today!
+                        Start Your Banking Journey
 
                     </a>
 
@@ -44,104 +44,57 @@
                 <div class="relative max-w-5xl mx-auto  ">
                     <!-- Main Dashboard Image -->
                     <div class="relative z-20">
-                        <img src="assets/images/ondc-ecommerce/banner.png" alt="Dashboard" class=" h-auto" />
-                        <div class="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-white to-transparent">
+                        <img src="assets/images/aeps/banner.png" alt="Dashboard" class=" h-auto" />
+                        <div class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
                         </div>
                     </div>
                 </div>
             </div>
 </section>
 
-<!-- hero section ends -->
-
-
-<!-- E-Governance Platform Services Section -->
-<section class="bg-white py-10 px-4 md:px-24">
-    <div class="container mx-auto px-6 ">
-        <h2 class="text-3xl font-bold text-primary-700 mb-8 text-center">Why Choose Sec2Pay?</h2>
-
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <!-- PAN Card Services -->
-            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
-                <!-- Icon and Title - Vertical Alignment -->
-                <div class="text-left mb-2">
-                    <div class="text-red-500">
-                    <img src="assets/images/ondc-ecommerce/icon1.svg" alt="Pan Image" class="mb-4">
-                    </div>
-                    <h2 class="text-xl font-semibold text-red-500">Quick Setup</h2>
+<!-- Features & Functions Section -->
+<section class="bg-white px-4 md:px-24 mb-12">
+    <div class="container mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold text-primary-700 mb-12">AePS Core Features</h2>
+        
+        <!-- Updated grid with proper centering -->
+        <div class="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Feature Card 1 -->
+            <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <img src="assets/images/utility-servises/auto.png"
+                    alt="Real-Time Payment"
+                    class="w-full object-contain rounded-t-lg">
+                <div class="p-6 text-left">
+                    <h3 class="text-secondary-600 font-semibold text-xl mb-2">Cash Withdrawal</h3>
+                    <p class="text-gray-600 text-sm">
+                    Make banking accessible in areas without ATMs. Your customers can withdraw cash using just their Aadhaar and fingerprint - quick, simple, and secure.
+                    </p>
                 </div>
-                <p>Seamlessly onboard sellers </br>and enable their growth.</p>
-            </div>
-            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
-                <!-- Icon and Title - Vertical Alignment -->
-                <div class="text-left mb-2">
-                    <div class="text-red-500">
-                    <img src="assets/images/ondc-ecommerce/icon2.svg" alt="Pan Image" class="mb-4">
-                    </div>
-                    <h2 class="text-xl font-semibold text-red-500">Simplified Management</h2>
-                </div>
-                <p>Access a centralized dashboard to</br>manage seller networks.</p>
-            </div>
-            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
-                <!-- Icon and Title - Vertical Alignment -->
-                <div class="text-left mb-2">
-                    <div class="text-red-500">
-                    <img src="assets/images/ondc-ecommerce/icon3.svg" alt="Pan Image" class="mb-4">
-                    </div>
-                    <h2 class="text-xl font-semibold text-red-500">Localized Tools</h2>
-                </div>
-                <p>Multi-language support</br>tailored for Tier 2 and 3 cities.</p>
             </div>
             
-        </div>
-    </div>
-</section>
-
-<!-- Banking Services Section --> 
-<section class="bg-primary-600 text-white py-20 min-h-[650px] flex items-center">
-    <div class="container mx-auto px-4 md:px-6">
-        <!-- Banking Services Tabs -->
-        <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-            <!-- Tab Content -->
-            <div class="relative min-h-[350px] overflow-hidden md:pl-24">
-                <!-- AePS Tab Content -->
-                <div class="tab-pane block opacity-100 transition-opacity duration-300" id="aeps">
-                    <div class="flex flex-col md:flex-row items-center gap-8">
-                        <div class="w-full md:w-1/2 flex justify-center">
-                            <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
-                                <img src="assets/images/ondc-ecommerce/service.png" alt="AePS Banking"
-                                    class="max-w-full h-auto max-h-[400px]">
-                            </div>
-                        </div>
-                        <div class="w-full md:w-1/2">
-                            <h3 class="text-2xl md:text-3xl font-semibold mb-8">Services</h3>
-                            <ul class="space-y-5 mb-8">
-                                <?php
-                                $lifePlans = [
-                                    'Catalog management tools',
-                                    'Order tracking and fulfillment systems',
-                                    'Secure payment integration',
-                                    'Business analytics dashboard'
-                                ];
-                                
-                                foreach ($lifePlans as $plan) :
-                                ?>
-                                <li class="flex items-start">
-                                    <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
-                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                    </div>
-                                    <span class="ml-3 text-white"><?php echo $plan; ?></span>
-                                </li>
-                                <?php endforeach; ?>
-                            </ul>
-                            <div>
-                                <a href="#" class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-md transition duration-300">Explore Credit Solutions</a>
-                            </div>
-                        </div>
-                    </div>
+            <!-- Feature Card 2 -->
+            <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <img src="assets/images/utility-servises/auto.png"
+                    alt="Real-Time Payment"
+                    class="w-full object-contain rounded-t-lg">
+                <div class="p-6 text-left">
+                    <h3 class="text-secondary-600 font-semibold text-xl mb-2">Balance Check</h3>
+                    <p class="text-gray-600 text-sm">
+                    Help customers stay on top of their finances. Instant balance updates through secure Aadhaar verification.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Feature Card 3 -->
+            <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <img src="assets/images/utility-servises/auto.png"
+                    alt="Real-Time Payment"
+                    class="w-full object-contain rounded-t-lg">
+                <div class="p-6 text-left">
+                    <h3 class="text-secondary-600 font-semibold text-xl mb-2">Mini Statement</h3>
+                    <p class="text-gray-600 text-sm">
+                    Print recent transaction details instantly. Give your customers their banking history at their fingertips.
+                    </p>
                 </div>
             </div>
         </div>
@@ -150,10 +103,143 @@
 
 
 
+<!-- Life Insurance Solutions Section -->
+<section class="w-full py-12">
+    <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-bold text-primary-700 text-center">Benefits for AEPS Agents</h2>
+
+        <div class="flex flex-col md:flex-row items-center gap-8">
+            <!-- Left side with illustration -->
+            <div class="w-full md:w-1/2">
+            <img src="assets/images/aeps/smart-small.png" alt="Life Insurance">
+            </div>
+            
+            <!-- Right side with content -->
+            <div class="w-full md:w-1/2">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6">Start Small,
+                Grow Big</h2>
+                
+                <ul class="space-y-5 mb-8">
+                    <?php
+                    $lifePlans = [
+                        'Minimal setup cost',
+                        'High earning potential',
+                        'Regular commission payouts'
+                    ];
+                    
+                    foreach ($lifePlans as $plan) :
+                    ?>
+                    <li class="flex items-start">
+                        <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
+                                <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <span class="ml-3 text-gray-700"><?php echo $plan; ?></span>
+                    </li>
+                    <?php endforeach; ?>
+                </ul>
+                
+                <button class="bg-[#F15744] hover:bg-[#E04A38] text-white font-medium py-2.5 px-6 rounded-md transition duration-300">
+                Read More
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Health Insurance Solutions Section -->
+<section class="w-full py-12">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex flex-col md:flex-row items-center gap-8">
+            <!-- Left side with content -->
+            <div class="w-full md:w-1/2">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6">Simple & easy
+                Setup</h2>
+                
+                <ul class="space-y-5 mb-8">
+                    <?php
+                    $healthPlans = [
+                        'Basic smartphone or computer',
+                        'Bio-metric device',
+                        'Internet connection'
+                    ];
+                    
+                    foreach ($healthPlans as $plan) :
+                    ?>
+                    <li class="flex items-start">
+                        <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
+                                <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <span class="ml-3 text-gray-700"><?php echo $plan; ?></span>
+                    </li>
+                    <?php endforeach; ?>
+                </ul>
+                
+                <button class="bg-[#5271B6] hover:bg-[#4560A0] text-white font-medium py-2.5 px-6 rounded-md transition duration-300">
+                    Read More
+                </button>
+            </div>
+            
+            <!-- Right side with illustration -->
+            <div class="w-full md:w-1/2">
+            <img src="assets/images/aeps/simple-easy.png" alt="Life Insurance">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Life Insurance Solutions Section -->
+<section class="w-full py-12">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex flex-col md:flex-row items-center gap-8">
+            <!-- Left side with illustration -->
+            <div class="w-full md:w-1/2">
+            <img src="assets/images/aeps/daily-income.png" alt="Life Insurance">
+            </div>
+            
+            <!-- Right side with content -->
+            <div class="w-full md:w-1/2">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6">Daily assured
+                Income</h2>
+                
+                <ul class="space-y-5 mb-8">
+                    <?php
+                    $lifePlans = [
+                        'Fixed commission per transaction',
+                        'Additional incentives',
+                        'Quick settlements'
+                    ];
+                    
+                    foreach ($lifePlans as $plan) :
+                    ?>
+                    <li class="flex items-start">
+                        <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
+                                <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <span class="ml-3 text-gray-700"><?php echo $plan; ?></span>
+                    </li>
+                    <?php endforeach; ?>
+                </ul>
+                
+                <button class="bg-[#F15744] hover:bg-[#E04A38] text-white font-medium py-2.5 px-6 rounded-md transition duration-300">
+                    Read More
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
 
 
-<!-- pricing -->
-<section class="py-10 px-4">
+<section class="py-16 px-4">
     <div class="max-w-6xl mx-auto">
         <!-- Header -->
         <div class="text-center mb-12">
@@ -194,7 +280,8 @@
                                 <img src="assets/images/banking/icon1.png" alt="Whitelabel Partner Icon">
                             </div>
                         </div>
-                        <h3 class="text-3xl font-semibold text-gray-900">Whitelabel Partner</h3>
+                        <h3 class="text-3xl font-semibold text-gray-900">Basic</br>
+                        Partner</h3>
                     </div>
 
                     <!-- Plan Details -->
@@ -212,7 +299,7 @@
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-gray-700">Build your brand identity</span>
+                            <span class="ml-3 text-gray-700">BBPS Integration</span>
                         </li>
                         <li class="flex items-start">
                             <div
@@ -223,7 +310,7 @@
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-gray-700">Full banking suite access</span>
+                            <span class="ml-3 text-gray-700">Mobile Platform Access</span>
                         </li>
                         <li class="flex items-start">
                             <div
@@ -234,7 +321,7 @@
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-gray-700">Create agent networks</span>
+                            <span class="ml-3 text-gray-700">Automated Settlements</span>
                         </li>
                         <li class="flex items-start">
                             <div
@@ -245,7 +332,7 @@
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-gray-700">Mobile app included</span>
+                            <span class="ml-3 text-gray-700">Basic Support Services</span>
                         </li>
                     </ul>
 
@@ -253,7 +340,7 @@
                     <div class="mt-auto">
                         <p class="text-xl font-bold text-gray-700 mb-1">Starting at</p>
                         <div class="flex items-end mb-6">
-                            <span class="text-4xl font-bold text-gray-900 monthly-price">₹25,000</span>
+                            <span class="text-4xl font-bold text-gray-900 monthly-price">₹15,000</span>
                             <span class="text-4xl font-bold text-gray-900 annual-price hidden">₹20,000</span>
                         </div>
                         <a href="#"
@@ -283,7 +370,8 @@
                                 <img src="assets/images/banking/icon2.png" alt="Whitelabel Reseller Icon">
                             </div>
                         </div>
-                        <h3 class="text-3xl font-semibold  text-white">Whitelabel Reseller</h3>
+                        <h3 class="text-3xl font-semibold  text-white">Premium 
+                        Partner</h3>
                     </div>
 
                     <!-- Plan Details -->
@@ -294,7 +382,7 @@
                     <ul class="space-y-4 mb-6 flex-grow">
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-600 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-500 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -305,7 +393,7 @@
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-600 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-500 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -316,7 +404,7 @@
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-600 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-500 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -327,7 +415,7 @@
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-600 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-500 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -365,7 +453,8 @@
                                 <img src="assets/images/banking/icon1.png" alt="Enterprise Partner Icon">
                             </div>
                         </div>
-                        <h3 class="text-3xl font-semibold text-gray-900">Enterprise Partner</h3>
+                        <h3 class="text-3xl font-semibold text-gray-900">Enterprise
+                        Partner</h3>
                     </div>
 
                     <!-- Plan Details -->
@@ -441,118 +530,11 @@
 </section>
 
 
-<!-- testimonials -->
-
-
-<section class="py-10 md:pb-24 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto overflow-hidden">
-    <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 items-start">
-        <!-- Left Column - Heading -->
-        <div class="md:col-span-5 mb-10 md:mb-0">
-            <div class="uppercase text-sm font-medium text-gray-500 tracking-wider mb-2">TESTIMONIALS</div>
-            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-600 leading-tight">
-                What People Say<br>About Us.
-            </h2>
-
-            <!-- Navigation Dots (Mobile and Desktop) -->
-            <div class="flex space-x-2 mt-8" id="dots-container">
-                <button class="w-3 h-3 rounded-full bg-secondary-500 transition-all duration-300"
-                    data-index="0"></button>
-                <button class="w-3 h-3 rounded-full bg-gray-300 transition-all duration-300" data-index="1"></button>
-                <button class="w-3 h-3 rounded-full bg-gray-300 transition-all duration-300" data-index="2"></button>
-            </div>
-        </div>
-
-        <!-- Right Column - Testimonials -->
-        <div class="md:col-span-7 relative">
-            <!-- External Navigation Arrows -->
-            <div class="absolute right-0 -top-12 flex space-x-3 z-50">
-                <button id="prev-arrow"
-                    class="w-8 h-8 rounded-full bg-white shadow-md flex items-center justify-center text-gray-500 hover:text-primary-600 transition-all duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd"
-                            d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
-                            clip-rule="evenodd" />
-                    </svg>
-                </button>
-                <button id="next-arrow"
-                    class="w-8 h-8 rounded-full bg-white shadow-md flex items-center justify-center text-gray-500 hover:text-primary-600 transition-all duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd"
-                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                            clip-rule="evenodd" />
-                    </svg>
-                </button>
-            </div>
-
-            <div class="testimonials-container relative min-h-[200px]">
-                <!-- Profile Image (Absolute Positioned) -->
-                <div class="absolute left-0 top-10 md:-left-12 z-30 transition-all duration-500"
-                    id="profile-image-container">
-                    <img src="https://randomuser.me/api/portraits/men/3.jpg" alt="Profile"
-                        class="w-20 h-20 md:w-24 md:h-24 rounded-full border-4 border-white shadow-md object-cover transition-all duration-300"
-                        id="profile-image">
-                </div>
-
-                <!-- Active Testimonial Card -->
-                <div class="w-full bg-white p-6 md:p-8 rounded-lg shadow-lg opacity-100 mb-4 transition-all duration-500 transform translate-y-0"
-                    id="testimonial-0">
-                    <div class="ml-20 md:ml-10 pt-2">
-                        <p class="text-gray-700 leading-relaxed mb-6">
-                            "On the Windows talking painted pasture yet its express parties use. Sure last upon he same
-                            as knew next. Of believed or diverted no."
-                        </p>
-                        <div class="flex justify-between items-center">
-                            <div>
-                                <h4 class="font-semibold text-primary-600">Mike taylor</h4>
-                                <p class="text-sm text-gray-500">Lahore, Pakistan</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Second Testimonial Card (Initially Stacked) -->
-                <div class="w-full bg-gray-100 p-6 md:p-8 rounded-lg shadow-md opacity-95 absolute top-0 transform translate-y-16 transition-all duration-500 hidden"
-                    id="testimonial-1">
-                    <div class="ml-20 md:ml-10 pt-2">
-                        <p class="text-gray-700 leading-relaxed mb-6">
-                            "Smart homes are the future. The integration of IoT devices has transformed how we interact
-                            with our living spaces."
-                        </p>
-                        <div class="flex justify-between items-center">
-                            <div>
-                                <h4 class="font-semibold text-primary-600">Chris Thomas</h4>
-                                <p class="text-sm text-gray-500">CEO of Red Button</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Third Testimonial Card (Initially Hidden) -->
-                <div class="w-full bg-gray-100 p-6 md:p-8 rounded-lg shadow-md opacity-0 absolute top-0 transform translate-y-16 transition-all duration-500 hidden"
-                    id="testimonial-2">
-                    <div class="ml-20 md:ml-10 pt-2">
-                        <p class="text-gray-700 leading-relaxed mb-6">
-                            "The customer service was exceptional. They went above and beyond to ensure everything was
-                            set up perfectly."
-                        </p>
-                        <div class="flex justify-between items-center">
-                            <div>
-                                <h4 class="font-semibold text-primary-600">Sarah Johnson</h4>
-                                <p class="text-sm text-gray-500">New York, USA</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 <!-- Join Section with Dark Blue Background -->
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-primary-600 to-primary-500 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+        <div class="bg-gradient-to-br from-secondary-700 to-secondary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
             data-aos="fade-up" data-aos-duration="1000">
 
             <!-- Stars Background SVG -->
@@ -564,15 +546,21 @@
             <div class="max-w-4xl mx-auto text-center">
                 <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 relative z-10"
                     data-aos="fade-up" data-aos-delay="200">
-                     Join India's Digital Commerce Revolution
+                    Join Sec2pay today
                 </h1>
 
                 <p class="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 relative z-10" data-aos="fade-up"
                     data-aos-delay="300">
-                    "Ready to expand your local business? Partner with Sec2Pay's ONDC platform"
+                    Start for free — upgrade anytime.
                 </p>
 
                 <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
+                    <p class="text-gray-300 mb-4 sm:mb-6">
+                        <a href="#" class="underline hover:text-white transition">
+                            Joining as an organization? Contact Sales
+                        </a>
+                    </p>
+
                     <a href="#"
                         class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
                         data-aos="zoom-in" data-aos-delay="500">
@@ -590,8 +578,6 @@
     </div>
 </section>
 
-<!-- End of Join Section -->
-<!-- Footer Section -->
 
 
 

@@ -8,15 +8,15 @@
         <div class="rounded-xl overflow-hidden  ">
             <div class="grid grid-cols-1 md:grid-cols-2 ">
                 <!-- Left Content - Services List -->
-                <div class="p-8 md:p-12">
-                    <p class="font-semi-bolder text-primary-600 font-bold">ONDC E-Commerce Seller Platform</p>
-                    <h1 class="text-4xl font-bold text-secondary-600 ">Help Sellers Reach</h1>
-                    <h1 class="text-4xl font-bold text-secondary-600 mb-4">New Markets</h1>
-                    <p class="text-gray-500 mb-8">Empower your business to support sellers in thriving on ONDC's digital network.</p>
+                <div class="p-8 md:p-12 mt-12">
+                    <p class="font-semi-bolder text-primary-600 font-bold">ONDC E-Commerce Buyer Platform</p>
+                    <h1 class="text-4xl font-bold text-secondary-600 ">Bring Local Stores to</h1>
+                    <h1 class="text-4xl font-bold text-secondary-600 mb-4">Buyers Everywhere</h1>
+                    <p class="text-gray-500 mb-8">Empower your business to create seamless shopping experiences for buyers.</p>
 
                     <a href="#"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
-                        Get Started Today!
+                        Start Shopping Today!
 
                     </a>
 
@@ -44,7 +44,7 @@
                 <div class="relative max-w-5xl mx-auto  ">
                     <!-- Main Dashboard Image -->
                     <div class="relative z-20">
-                        <img src="assets/images/ondc-ecommerce/banner.png" alt="Dashboard" class=" h-auto" />
+                        <img src="assets/images/ondc-ecommerce-buyer/banner.png" alt="Dashboard" class=" h-auto" />
                         <div class="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-white to-transparent">
                         </div>
                     </div>
@@ -97,60 +97,75 @@
     </div>
 </section>
 
-<!-- Banking Services Section --> 
-<section class="bg-primary-600 text-white py-20 min-h-[650px] flex items-center">
-    <div class="container mx-auto px-4 md:px-6">
-        <!-- Banking Services Tabs -->
-        <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-            <!-- Tab Content -->
-            <div class="relative min-h-[350px] overflow-hidden md:pl-24">
-                <!-- AePS Tab Content -->
-                <div class="tab-pane block opacity-100 transition-opacity duration-300" id="aeps">
-                    <div class="flex flex-col md:flex-row items-center gap-8">
-                        <div class="w-full md:w-1/2 flex justify-center">
-                            <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
-                                <img src="assets/images/ondc-ecommerce/service.png" alt="AePS Banking"
-                                    class="max-w-full h-auto max-h-[400px]">
-                            </div>
-                        </div>
-                        <div class="w-full md:w-1/2">
-                            <h3 class="text-2xl md:text-3xl font-semibold mb-8">Services</h3>
-                            <ul class="space-y-5 mb-8">
-                                <?php
-                                $lifePlans = [
-                                    'Catalog management tools',
-                                    'Order tracking and fulfillment systems',
-                                    'Secure payment integration',
-                                    'Business analytics dashboard'
-                                ];
-                                
-                                foreach ($lifePlans as $plan) :
-                                ?>
-                                <li class="flex items-start">
-                                    <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+  <!-- Services Section with White Background -->
+  <section class="bg-white py-16 px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row">
+                <!-- Left Column - Services List -->
+                <div class="w-full md:w-1/2 pr-0 md:pr-8 mb-8 md:mb-0">
+                    <h2 class="text-4xl font-bold text-[#1F3262] mb-8">Services</h2>
+                    
+                    <ul class="space-y-4">
+                        <!-- Service Item 1 -->
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center mt-0.5">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
                                             <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
                                             <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                         </svg>
-                                    </div>
-                                    <span class="ml-3 text-white"><?php echo $plan; ?></span>
-                                </li>
-                                <?php endforeach; ?>
-                            </ul>
-                            <div>
-                                <a href="#" class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-md transition duration-300">Explore Credit Solutions</a>
                             </div>
-                        </div>
+                            <span class="ml-3 text-gray-700">Store and product discovery tools</span>
+                        </li>
+                        
+                        <!-- Service Item 2 -->
+                        <li class="flex items-start">
+                        <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center mt-0.5">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
+                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                            </div>
+                            <span class="ml-3 text-gray-700">Price comparison functionalities</span>
+                        </li>
+                        
+                        <!-- Service Item 3 -->
+                        <li class="flex items-start">
+                        <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center mt-0.5">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
+                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                            </div>
+                            <span class="ml-3 text-gray-700">Easy return and refund management</span>
+                        </li>
+                        
+                        <!-- Service Item 4 -->
+                        <li class="flex items-start">
+                        <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center mt-0.5">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
+                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                            </div>
+                            <span class="ml-3 text-gray-700">24/7 customer support</span>
+                        </li>
+                    </ul>
+                    
+                    <!-- CTA Button -->
+                    <div>
+                                <a href="#" class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 mt-6 rounded-md transition duration-300">Shop Now</a>
+                            </div>
+                </div>
+                
+                <!-- Right Column - Image -->
+                <div class="w-full md:w-1/2">
+                    <div class="bg-[#FFDAD7] p-8 rounded-xl">
+                        <img src="assets/images/ondc-ecommerce-buyer/service.png" alt="E-commerce services" class="w-full h-auto" onerror="this.onerror=null; this.src='/api/placeholder/550/350'; this.alt='E-commerce services placeholder'">
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
-
-
-
+    </section>
 
 <!-- pricing -->
 <section class="py-10 px-4">
@@ -440,7 +455,6 @@
 
 </section>
 
-
 <!-- testimonials -->
 
 
@@ -564,7 +578,7 @@
             <div class="max-w-4xl mx-auto text-center">
                 <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 relative z-10"
                     data-aos="fade-up" data-aos-delay="200">
-                     Join India's Digital Commerce Revolution
+                     Ready to transform your</br>shopping experience?
                 </h1>
 
                 <p class="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 relative z-10" data-aos="fade-up"
@@ -576,7 +590,7 @@
                     <a href="#"
                         class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
                         data-aos="zoom-in" data-aos-delay="500">
-                        Sign up free
+                        Partner with us
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2" viewBox="0 0 20 20"
                             fill="currentColor">
                             <path fill-rule="evenodd"
