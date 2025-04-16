@@ -239,295 +239,139 @@
 </section>
 
 
-<section class="py-16 px-4">
-    <div class="max-w-6xl mx-auto">
-        <!-- Header -->
-        <div class="text-center mb-12">
-                        <p class="text-sm font-bold tracking-wider text-primary-800 uppercase mb-2">PRICING</p>
-            <h2 class="text-3xl font-bold text-primary-700 mb-4">Simple, transparent pricing</h2>
-            <p class="text-gray-600 max-w-xl mx-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit dolor posuere vel venenatis eu sit massa
-                volutpat.
-            </p>
+<!-- Support Promise Banner -->
+<section>
+  <div class="w-full bg-primary-800 py-12">
+    <div
+      class="max-w-7xl mx-auto flex flex-row items-center justify-between text-white px-4"
+    >
+      <div class="font-medium text-sm md:text-base whitespace-nowrap">
+        Our Support Promise
+      </div>
+
+      <div class="hidden md:flex items-center justify-end space-x-6 text-sm">
+        <div class="flex items-center">
+          <span class="whitespace-nowrap">Training for new agents</span>
         </div>
-
-        <!-- Toggle Switch -->
-        <div class="flex items-center justify-center mb-12">
-            <span class="mr-3 text-gray-700 font-medium">Monthly</span>
-            <div class="relative inline-block w-12 align-middle select-none">
-                <input type="checkbox" id="billing-toggle"
-                    class="peer absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer checked:right-0 checked:border-secondary-500 border-gray-300"
-                    style="top: 0; bottom: 0; margin: auto 0; transition: right 0.2s ease-in-out, border-color 0.2s ease-in-out;">
-                <label for="billing-toggle"
-                    class="block h-6 overflow-hidden rounded-full bg-gray-300 cursor-pointer peer-checked:bg-secondary-400"
-                    style="transition: background-color 0.2s ease-in-out;">
-                </label>
-            </div>
-            <span class="ml-3 text-gray-700 font-medium">Annually</span>
+        <div class="text-white/50">|</div>
+        <div class="flex items-center">
+          <span class="whitespace-nowrap">Regular commission payments</span>
         </div>
-
-        <!-- Pricing Cards -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- Plan 1 -->
-            <div
-                class="bg-white rounded-xl border-1 border-gray-100 shadow-xl overflow-hidden transform transition-all duration-300 hover:drop-shadow-2xl hover:-translate-y-1">
-                <div class="p-8 flex flex-col h-full">
-                    <!-- Plan Icon and Title -->
-                    <div class="flex items-center mb-6">
-                        <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
-                            <div
-                                class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex">
-                                <img src="assets/images/banking/icon1.png" alt="Whitelabel Partner Icon">
-                            </div>
-                        </div>
-                        <h3 class="text-3xl font-semibold text-gray-900">Basic</br>
-                        Partner</h3>
-                    </div>
-
-                    <!-- Plan Details -->
-                    <p class="text-sm text-gray-600 mb-6">For New Entrepreneurs</p>
-
-                    <!-- Features -->
-                    <h4 class="text-base font-semibold text-gray-800 mb-4">What's included</h4>
-                    <ul class="space-y-4 mb-6 flex-grow">
-                        <li class="flex items-start">
-                            <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
-                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                            </div>
-                            <span class="ml-3 text-gray-700">BBPS Integration</span>
-                        </li>
-                        <li class="flex items-start">
-                            <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
-                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                            </div>
-                            <span class="ml-3 text-gray-700">Mobile Platform Access</span>
-                        </li>
-                        <li class="flex items-start">
-                            <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
-                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                            </div>
-                            <span class="ml-3 text-gray-700">Automated Settlements</span>
-                        </li>
-                        <li class="flex items-start">
-                            <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
-                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                            </div>
-                            <span class="ml-3 text-gray-700">Basic Support Services</span>
-                        </li>
-                    </ul>
-
-                    <!-- Price -->
-                    <div class="mt-auto">
-                        <p class="text-xl font-bold text-gray-700 mb-1">Starting at</p>
-                        <div class="flex items-end mb-6">
-                            <span class="text-4xl font-bold text-gray-900 monthly-price">₹15,000</span>
-                            <span class="text-4xl font-bold text-gray-900 annual-price hidden">₹20,000</span>
-                        </div>
-                        <a href="#"
-                            class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
-                            Get started
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Plan 2 - Featured -->
-            <div
-                class="bg-secondary-500 rounded-xl drop-shadow-xl overflow-hidden transform transition-all duration-300 hover:drop-shadow-2xl hover:-translate-y-1 relative md:-mt-8 md:mb-8 md:z-10">
-                <!-- Popular Badge -->
-                <div class="absolute top-4 right-4">
-                    <span
-                        class="inline-block bg-white bg-opacity-20 text-white text-xs font-semibold px-3 py-1 rounded-full">
-                        Popular
-                    </span>
-                </div>
-
-                <div class="p-8 flex flex-col h-full">
-                    <!-- Plan Icon and Title -->
-                    <div class="flex items-center mb-6">
-                        <div class="w-16 h-16 bg-white rounded-lg flex items-center justify-center mr-4">
-                            <div class="w-10 h-10 bg-gradient-to-r from-white to-secondary-300 overflow-hidden flex">
-                                <img src="assets/images/banking/icon2.png" alt="Whitelabel Reseller Icon">
-                            </div>
-                        </div>
-                        <h3 class="text-3xl font-semibold  text-white">Premium 
-                        Partner</h3>
-                    </div>
-
-                    <!-- Plan Details -->
-                    <p class="text-sm text-white text-opacity-90 mb-6">For Growing Businesses</p>
-
-                    <!-- Features -->
-                    <h4 class="text-base font-semibold text-white mb-4">What's included</h4>
-                    <ul class="space-y-4 mb-6 flex-grow">
-                        <li class="flex items-start">
-                            <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-500 mt-0.5">
-                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                            </div>
-                            <span class="ml-3 text-white">Handle multiple brands</span>
-                        </li>
-                        <li class="flex items-start">
-                            <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-500 mt-0.5">
-                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                            </div>
-                            <span class="ml-3 text-white">Set custom commissions</span>
-                        </li>
-                        <li class="flex items-start">
-                            <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-500 mt-0.5">
-                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                            </div>
-                            <span class="ml-3 text-white">API integration</span>
-                        </li>
-                        <li class="flex items-start">
-                            <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-500 mt-0.5">
-                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                            </div>
-                            <span class="ml-3 text-white">Business insights</span>
-                        </li>
-                    </ul>
-
-                    <!-- Price -->
-                    <div class="mt-auto">
-                        <p class="text-xl font-bold text-white text-opacity-90 mb-1">Starting at</p>
-                        <div class="flex items-end mb-6">
-                            <span class="text-4xl font-bold text-white monthly-price">₹50,000</span>
-                            <span class="text-4xl font-bold text-white annual-price hidden">₹40,000</span>
-                        </div>
-                        <a href="#"
-                            class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-secondary-600 font-medium text-center rounded-full transition-colors duration-300">
-                            Get started
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Plan 3 -->
-            <div
-                class="bg-white rounded-xl border-1 border-gray-100 shadow-xl overflow-hidden transform transition-all duration-300 hover:drop-shadow-2xl hover:-translate-y-1">
-                <div class="p-8 flex flex-col h-full">
-                    <!-- Plan Icon and Title -->
-                    <div class="flex items-center mb-6">
-                        <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
-                            <div
-                                class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex">
-                                <img src="assets/images/banking/icon1.png" alt="Enterprise Partner Icon">
-                            </div>
-                        </div>
-                        <h3 class="text-3xl font-semibold text-gray-900">Enterprise
-                        Partner</h3>
-                    </div>
-
-                    <!-- Plan Details -->
-                    <p class="text-sm text-gray-600 mb-6">For Large Organizations</p>
-
-                    <!-- Features -->
-                    <h4 class="text-base font-semibold text-gray-800 mb-4">What's included</h4>
-                    <ul class="space-y-4 mb-6 flex-grow">
-                        <li class="flex items-start">
-                            <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
-                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                            </div>
-                            <span class="ml-3 text-gray-700">Tailored solutions</span>
-                        </li>
-                        <li class="flex items-start">
-                            <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
-                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                            </div>
-                            <span class="ml-3 text-gray-700">Priority support</span>
-                        </li>
-                        <li class="flex items-start">
-                            <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
-                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                            </div>
-                            <span class="ml-3 text-gray-700">API ecosystem</span>
-                        </li>
-                        <li class="flex items-start">
-                            <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
-                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                            </div>
-                            <span class="ml-3 text-gray-700">Fund management system</span>
-                        </li>
-                    </ul>
-
-                    <!-- Price -->
-                    <div class="mt-auto">
-                        <p class="text-xl font-bold text-gray-700 mb-1">Starting at</p>
-                        <div class="flex items-end mb-6">
-                            <span class="text-4xl font-bold text-gray-900 monthly-price">₹1,00,000</span>
-                            <span class="text-4xl font-bold text-gray-900 annual-price hidden">₹80,000</span>
-                        </div>
-                        <a href="#"
-                            class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
-                            Get started
-                        </a>
-                    </div>
-                </div>
-            </div>
+        <div class="text-white/50">|</div>
+        <div class="flex items-center">
+          <span class="whitespace-nowrap">Dedicated relationship manager</span>
         </div>
+        <div class="text-white/50">|</div>
+        <div class="flex items-center">
+          <span class="whitespace-nowrap">24/7 Technical assistance</span>
+        </div>
+      </div>
+
+      <!-- Mobile version - scrollable -->
+      <div
+        class="md:hidden flex items-center overflow-x-auto whitespace-nowrap space-x-4 text-sm scrollbar-hide"
+      >
+        <span>Training for new agents</span>
+        <span class="text-white/50">|</span>
+        <span>Regular commission payments</span>
+        <span class="text-white/50">|</span>
+        <span>Dedicated relationship manager</span>
+        <span class="text-white/50">|</span>
+        <span>24/7 Technical assistance</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="py-16 max-w-3xl mx-auto px-4">
+    <!-- Section Title -->
+    <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold text-primary-800 mb-2">FAQ</h2>
+        <p class="text-gray-600">Using natural, conversational language appropriate for target audience</p>
     </div>
 
+    <!-- FAQ Accordion -->
+    <div class="space-y-4">
+        <?php
+        $faqItems = [
+            [
+                'question' => 'What exactly is AEPS?',
+                'answer' => 'It\'s a simple banking system that uses Aadhaar card and fingerprint to help customers withdraw cash, check balance, and get mini statements.',
+                'isOpen' => true
+            ],
+            [
+                'question' => 'When can I offer AEPS services?',
+                'answer' => 'You can offer AEPS services once you\'ve completed the registration process and have the necessary equipment set up. This typically includes having a biometric device and completing the verification process.',
+                'isOpen' => false
+            ],
+            [
+                'question' => 'What do I need to start?',
+                'answer' => 'To start offering AEPS services, you\'ll need a smartphone or computer, a biometric device for fingerprint authentication, a reliable internet connection, and valid documentation for registration.',
+                'isOpen' => false
+            ]
+        ];
 
+        foreach ($faqItems as $index => $item) :
+            $isOpen = $item['isOpen'];
+            $questionColor = $isOpen ? 'text-secondary-500' : 'text-primary-800';
+            $iconColor = $isOpen ? 'text-secondary-500' : 'text-primary-800';
+            $icon = $isOpen ? '−' : '+';
+            $contentClass = $isOpen ? '' : 'hidden';
+        ?>
+        <!-- FAQ Item -->
+        <div class="border-b border-gray-200 pb-4" id="faq-item-<?php echo $index; ?>">
+            <button class="flex justify-between items-center w-full text-left faq-toggle">
+                <h3 class="text-lg font-medium <?php echo $questionColor; ?>"><?php echo $item['question']; ?></h3>
+                <span class="<?php echo $iconColor; ?> text-2xl"><?php echo $icon; ?></span>
+            </button>
+            <div class="<?php echo $contentClass; ?> mt-3 text-gray-500 faq-content">
+                <p><?php echo $item['answer']; ?></p>
+            </div>
+        </div>
+        <?php endforeach; ?>
+    </div>
 </section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const accordionButtons = document.querySelectorAll('.faq-toggle');
+        
+        accordionButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const isHidden = content.classList.contains('hidden');
+                const plusMinus = button.querySelector('span');
+                const question = button.querySelector('h3');
+                
+                // Close all
+                document.querySelectorAll('.faq-content').forEach(div => {
+                    div.classList.add('hidden');
+                });
+                document.querySelectorAll('.faq-toggle span').forEach(span => {
+                    span.textContent = '+';
+                    span.classList.remove('text-secondary-500');
+                    span.classList.add('text-primary-800');
+                });
+                document.querySelectorAll('.faq-toggle h3').forEach(h3 => {
+                    h3.classList.remove('text-secondary-500');
+                    h3.classList.add('text-primary-800');
+                });
+                
+                // Open current if it was closed
+                if (isHidden) {
+                    content.classList.remove('hidden');
+                    plusMinus.textContent = '−';
+                    plusMinus.classList.remove('text-primary-800');
+                    plusMinus.classList.add('text-secondary-500');
+                    question.classList.remove('text-primary-800');
+                    question.classList.add('text-secondary-500');
+                }
+            });
+        });
+    });
+</script>
+
 
 
 <!-- Join Section with Dark Blue Background -->

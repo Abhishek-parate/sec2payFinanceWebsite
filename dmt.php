@@ -68,6 +68,8 @@
                             class="border border-gray-200  bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                             <img
                                 src="assets/images/dmt/quick-transfer1.png"
+
+
                                 alt="Real-Time Payment"
                                 class="w-full object-contain rounded-t-lg">
                             <div class="p-6 text-left">
@@ -82,12 +84,14 @@
 
                         <!-- Feature Card 2 -->
                         <div
+
                             class="border border-gray-200  bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                             <img
                                 src="assets/images/dmt/quick-transfer1.png"
                                 alt="Real-Time Payment"
                                 class="w-full object-contain rounded-t-lg">
                             <div class="p-6 text-left ">
+
                                 <h3
                                     class="text-secondary-600 font-semibold text-xl mb-2">Status
                                     Tracking</h3>
@@ -104,6 +108,7 @@
                                 alt="Real-Time Payment"
                                 class="w-full object-contain rounded-t-lg">
                             <div class="p-6 text-left ">
+
                                 <h3
                                     class="text-secondary-600 font-semibold text-xl mb-2">Commission Structure</h3>
                                 <p class="text-gray-600 text-sm">
@@ -119,6 +124,7 @@
                                 alt="Real-Time Payment"
                                 class="w-full object-contain rounded-t-lg">
                             <div class="p-6 text-left  ">
+
                                 <h3
                                     class="text-secondary-600 font-semibold text-xl mb-2">Settlement
                                     System</h3>
