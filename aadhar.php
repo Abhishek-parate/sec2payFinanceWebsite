@@ -44,7 +44,7 @@
                 <div class="relative max-w-5xl mx-auto  ">
                     <!-- Main Dashboard Image -->
                     <div class="relative z-20">
-                        <img src="assets/images/aeps/banner.png" alt="Dashboard" class=" h-auto" />
+                        <img src="assets/images/aadhar/aadhar-hero.png" alt="Dashboard" class=" h-auto" />
                         <div class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
                         </div>
                     </div>
@@ -55,18 +55,16 @@
 
 <!-- Support Promise Banner -->
 <section>
-  <div class="w-full bg-primary-800 py-12">
+  <div class="w-full bg-primary-500 py-12">
     <div
-      class="max-w-7xl mx-auto flex flex-row items-center justify-between text-white px-4"
+      class="max-w-7xl mx-auto flex flex-row items-center justify-evenly text-white px-4"
     >
-      <div class="font-medium text-sm md:text-base whitespace-nowrap">
-        Our Support Promise
+      <div class="font-semibold text-md md:text-base whitespace-nowrap">
+      Why choose us?
       </div>
 
       <div class="hidden md:flex items-center justify-end space-x-6 text-sm">
-        <div class="flex items-center">
-          <span class="whitespace-nowrap">Why choose us?</span>
-        </div>
+       
         <div class="text-white/50">|</div>
         <div class="flex items-center">
           <span class="whitespace-nowrap">Biometric Transactions</span>
@@ -318,7 +316,7 @@
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-secondary-700 to-secondary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+        <div class="bg-gradient-to-br from-primary-700 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
             data-aos="fade-up" data-aos-duration="1000">
 
             <!-- Stars Background SVG -->
