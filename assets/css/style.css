@@ -1264,6 +1264,18 @@ body {
   height: 100vh;
 }
 
+.h-96 {
+  height: 24rem;
+}
+
+.h-9 {
+  height: 2.25rem;
+}
+
+.h-80 {
+  height: 20rem;
+}
+
 .max-h-\[400px\] {
   max-height: 400px;
 }
@@ -3596,6 +3608,11 @@ body {
 
 .text-\[\#336699\]\/\[\.35\] {
   color: rgb(51 102 153 / .35);
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .text-blue-100 {

@@ -105,30 +105,36 @@
 
 
 <!-- Banking Services Section --> 
-<section class=" bg-white py-20 min-h-[650px] flex items-center">
+<section class="  py-10 px-4 md:px-24 flex items-center">
     <div class="container mx-auto px-4 md:px-6">
+    <h2 class="text-3xl font-bold text-primary-700 mb-8 text-center">Features & Functions</h2>
+
         <!-- Banking Services Tabs -->
         <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
             <!-- Tab Content -->
             <div class="relative min-h-[350px] overflow-hidden md:pl-24">
                 <!-- AePS Tab Content -->
                 <div class="tab-pane block opacity-100 transition-opacity duration-300" id="aeps">
+                <div>
+
+                        </div>
                     <div class="flex flex-col md:flex-row items-center gap-8 text-primary-600">
+                        
                        
                         <div class="w-full md:w-1/2 ">
                             <div class="p-10 bg-secondary-100 rounded-2xl w-4/5">
 
-                            <h3 class="text-2xl md:text-3xl font-semibold mb-8">Services</h3>
+                            <h3 class="text-2xl md:text-3xl font-semibold mb-8">For Merchants</h3>
                             <ul class="space-y-5 mb-8">
                                 <?php
-                                $lifePlans = [
-                                    'Store and product discovery tools',
-                                    'Order tracking and fulfillment systems',
-                                    'Secure payment integration',
-                                    'Business analytics dashboard'
+                                $Merchants = [
+                                    'Working capital loans',
+                                    'Stock purchase funding',
+                                    'Business expansion loans',
+                                    'All type of business loans'
                                 ];
                                 
-                                foreach ($lifePlans as $plan) :
+                                foreach ($Merchants as $Merchant) :
                                 ?>
                                 <li class="flex items-start">
                                     <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
@@ -137,24 +143,24 @@
                                             <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                         </svg>
                                     </div>
-                                    <span class="ml-3 "><?php echo $plan; ?></span>
+                                    <span class="ml-3 "><?php echo $Merchant; ?></span>
                                 </li>
                                 <?php endforeach; ?>
                             </ul>
                             </div>
                         </div>
                         <div class="w-full md:w-1/2">
-                            <h3 class="text-2xl md:text-3xl font-semibold mb-8">Services</h3>
+                            <h3 class="text-2xl md:text-3xl font-semibold mb-8">Consumer</h3>
                             <ul class="space-y-5 mb-8">
                                 <?php
-                                $lifePlans = [
+                                $services = [
                                     'Store and product discovery tools',
                                     'Order tracking and fulfillment systems',
                                     'Secure payment integration',
                                     'Business analytics dashboard'
                                 ];
                                 
-                                foreach ($lifePlans as $plan) :
+                                foreach ($services as $service) :
                                 ?>
                                 <li class="flex items-start">
                                     <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
@@ -163,7 +169,7 @@
                                             <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                         </svg>
                                     </div>
-                                    <span class="ml-3 "><?php echo $plan; ?></span>
+                                    <span class="ml-3 "><?php echo $service; ?></span>
                                 </li>
                                 <?php endforeach; ?>
                             </ul>
@@ -171,12 +177,79 @@
                         </div>
                     </div>
                 </div>
+
+                
+                <div class="relative z-10 flex justify-center items-center mt-3 " data-aos="fade-up" data-aos-delay="400">
+    <a href="#"
+        class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5  sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
+        data-aos="zoom-in" data-aos-delay="500">
+        Explore Credit Solutions
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2" viewBox="0 0 20 20"
+            fill="currentColor">
+            <path fill-rule="evenodd"
+                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                clip-rule="evenodd" />
+        </svg>
+    </a>
+</div>
+
             </div>
         </div>
     </div>
 </section>
 
 
+
+
+    <!--Why Choose Sec2Pay
+     ONDC Credit Platform-->
+
+     <section class="py-10 px-4">
+     <div class="tab-pane block opacity-100 transition-opacity duration-300" id="aeps">
+                    <div class="flex flex-col md:flex-row items-center gap-8">
+                        <div class="w-full md:w-1/2 flex justify-center">
+                            <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
+                                <img src="assets\images\ondc-credit-service-platform\ondc-credit-service.png" alt="AePS Banking"
+                                    class="max-w-full h-auto max-h-[400px]">
+                            </div>
+                        </div>
+                        <div class="w-full md:w-1/2">
+                            <h3 class="text-2xl md:text-3xl font-semibold mb-8">Why Choose Sec2Pay <br>
+                            ONDC Credit Platform</h3>
+                            <ul class="space-y-5 mb-8">
+                                <?php
+                                $lifePlans = [
+                                    '7-day merchant enrollment',
+                                    'Instant credit decisions',
+                                    'Multiple repayment plans',
+                                    'Digital documentation',
+                                    'Automated recovery system',
+                                    'Fraud detection tools',
+                                    'Multi-lender support',
+                                    'Performance tracking',
+];
+                                
+                                foreach ($lifePlans as $plan) :
+                                ?>
+                                <li class="flex items-start">
+                                    <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
+                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </div>
+                                    <span class="ml-3 text-black"><?php echo $plan; ?></span>
+                                </li>
+                                <?php endforeach; ?>
+                            </ul>
+                            <div>
+                                <a href="#" class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-md transition duration-300">Explore Credit Solutions</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                                </section>
 
 
 
