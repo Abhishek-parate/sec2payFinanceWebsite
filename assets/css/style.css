@@ -905,10 +905,6 @@ body {
   clear: none;
 }
 
-.m-10 {
-  margin: 2.5rem;
-}
-
 .-mx-4 {
   margin-left: -1rem;
   margin-right: -1rem;
@@ -942,16 +938,6 @@ body {
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-
-.my-48 {
-  margin-top: 12rem;
-  margin-bottom: 12rem;
-}
-
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
 }
 
 .my-8 {
@@ -1069,18 +1055,6 @@ body {
 
 .mt-auto {
   margin-top: auto;
-}
-
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.mb-32 {
-  margin-bottom: 8rem;
-}
-
-.mb-48 {
-  margin-bottom: 12rem;
 }
 
 .box-border {
@@ -3668,6 +3642,11 @@ body {
   color: rgb(249 115 22 / var(--tw-text-opacity, 1));
 }
 
+.text-primary-100 {
+  --tw-text-opacity: 1;
+  color: rgb(230 237 245 / var(--tw-text-opacity, 1));
+}
+
 .text-primary-500 {
   --tw-text-opacity: 1;
   color: rgb(51 113 177 / var(--tw-text-opacity, 1));
@@ -3729,16 +3708,6 @@ body {
 .text-yellow-500 {
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity, 1));
-}
-
-.text-secondary-800 {
-  --tw-text-opacity: 1;
-  color: rgb(140 47 37 / var(--tw-text-opacity, 1));
-}
-
-.text-secondary-700 {
-  --tw-text-opacity: 1;
-  color: rgb(178 60 47 / var(--tw-text-opacity, 1));
 }
 
 .text-opacity-90 {
@@ -5197,11 +5166,6 @@ body {
   .lg\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
-  }
-
-  .lg\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
   }
 
   .dark\:lg\:hover\:\[paint-order\:markers\]:hover:is(.dark *) {

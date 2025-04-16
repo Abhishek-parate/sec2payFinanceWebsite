@@ -1,22 +1,20 @@
 <?php include_once('includes/header.php'); ?>
-
-<!-- hero section -->
-
+<!-- Micro ATM Section -->
 <section class=" bg-white">
 
-    <div class="max-w-7xl mx-auto py-12  ">
+    <div class="max-w-7xl mx-auto ">
         <div class="rounded-xl overflow-hidden  ">
-            <div class="grid grid-cols-1 md:grid-cols-2 ">
+            <div class="grid grid-cols-1 md:grid-cols-2">
                 <!-- Left Content - Services List -->
-                <div class="p-8 md:p-12">
-                    <p class="font-semi-bolder text-primary-600 font-bold">ONDC E-COMMERCE LOGISTIC FRANCHISE PLATFORM</p>
-                    <h1 class="text-4xl font-bold text-secondary-500 ">Build a Reliable</h1>
-                    <h1 class="text-4xl font-bold text-secondary-500 mb-4">Delivery Network</h1>
-                    <p class="text-gray-500 mb-8">Enable your business to provide efficient logistics solutions on ONDC</p>
+                <div class="p-8 md:p-12 mt-12">
+                    <p class="font-semi-bolder text-secondary-600 font-bold">Micro ATM</p>
+                    <h1 class="text-4xl font-bold text-secondary-500 ">Turn Your Shop into a Bank</h1>
+                    <h1 class="text-4xl font-bold text-secondary-500 mb-4">Branch with MicroATM</h1>
+                    <p class="text-gray-500 mb-8">Offer instant cash withdrawals and basic banking to your customers with our MicroATM services.</p>
 
                     <a href="#"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
-                        Start Today
+                        Start Now
 
                     </a>
 
@@ -44,7 +42,7 @@
                 <div class="relative max-w-5xl mx-auto  ">
                     <!-- Main Dashboard Image -->
                     <div class="relative z-20">
-                        <img src="assets/images/odnc-e-commerce-lfp/odnc-e-com-lfp-hero.png" alt="Dashboard" class=" h-auto" />
+                        <img src="assets/images/micro-atm/micro-atm-hero.png" alt="Dashboard" class=" h-auto" />
                         <div class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
                         </div>
                     </div>
@@ -52,53 +50,8 @@
             </div>
 </section>
 
-<!-- hero section ends -->
-
-<!-- features & function  -->
-
-<section class="bg-primary-600 py-10 px-4 md:px-24">
-    <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-primary-100 my-8 text-center">Features & Functions</h2>
-
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
-            <!-- Feature: AI-Optimized Routes -->
-            <div>
-                <div class="text-left mb-2">
-                    <h2 class="text-xl font-semibold text-secondary-600">AI-Optimized Routes</h2>
-                </div>
-                <p class="text-primary-100 pt-2">
-                Save costs with intelligent route planning tools.
-                </p>
-            </div>
-
-            <!-- Feature: Real-Time Tracking -->
-            <div>
-                <div class="text-left mb-2">
-                    <h2 class="text-xl font-semibold text-secondary-600">Real-Time Tracking</h2>
-                </div>
-                <p class="text-primary-100 pt-2">
-                Offer live tracking for all deliveries
-                </p>
-            </div>
-
-            <!-- Feature: Seamless Integrations -->
-            <div>
-                <div class="text-left mb-2">
-                    <h2 class="text-xl font-semibold text-secondary-600">Seamless Integrations</h2>
-                </div>
-                <p class="text-primary-100 pt-2">
-                Connect directly with sellers and buyers for smooth operations.
-                </p>
-            </div>
-
-            
-        </div>
-    </div>
-</section>
-
-
- <!-- Join Section with Dark Blue Background -->
- <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
+<!-- Join Section with Dark Blue Background -->
+<section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
         <div class="bg-gradient-to-br from-primary-800 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
@@ -111,15 +64,25 @@
             </div>
 
             <div class="max-w-4xl mx-auto text-center">
-                <h1 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-3 sm:mb-4 relative z-10"
+                <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 relative z-10"
                     data-aos="fade-up" data-aos-delay="200">
-                    Ready to build your delivery network?
+                    Join Sec2pay today
                 </h1>
 
-                
+                <p class="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 relative z-10" data-aos="fade-up"
+                    data-aos-delay="300">
+                    Start for free — upgrade anytime.
+                </p>
+
+                <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
+                    <p class="text-gray-300 mb-4 sm:mb-6">
+                        <a href="#" class="underline hover:text-white transition">
+                            Joining as an organization? Contact Sales
+                        </a>
+                    </p>
 
                     <a href="#"
-                        class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 mt-10 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
+                        class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
                         data-aos="zoom-in" data-aos-delay="500">
                         Sign up free
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2" viewBox="0 0 20 20"
@@ -134,8 +97,6 @@
         </div>
     </div>
 </section>
-
-
 
 
 
