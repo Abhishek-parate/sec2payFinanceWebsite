@@ -50,6 +50,58 @@
             </div>
 </section>
 
+<!-- Life Insurance Solutions Section -->
+<section class="w-full py-12">
+    <div class="max-w-6xl mx-auto px-4">
+
+        <div class="flex flex-col md:flex-row items-center gap-8">
+            <!-- Left side with illustration -->
+            <div class="w-full md:w-1/2">
+            <img src="assets/images/micro-atm/microatm-balance.png" alt="Life Insurance">
+            </div>
+            
+            <!-- Right side with content -->
+            <div class="w-full md:w-1/2">
+                <h2 class="text-3xl font-bold text-primary-600 mb-6 mt-6">MicroATM Agents</h2>
+                
+                <ul class="space-y-5 mb-8">
+                    <?php
+                    $microatms = [
+                        'Daily earnings through commission',
+                        'Low setup investment',
+                        'Simple smartphone/computer operation',
+                        'Transaction completion under 1 minute',
+                        'Build customer trust as local banker',
+                        'Regular cash flow management',
+                    ];
+                    
+                    foreach ($microatms as $atm) :
+                    ?>
+                    <li class="flex items-start">
+                        <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                        <svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1700_1996)">
+<path d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z" fill="#e6edf5" stroke="#0e3163" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705" stroke="#0e3163" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_1700_1996">
+<rect width="19" height="19" fill="white" transform="translate(0 3)"/>
+</clipPath>
+</defs>
+</svg>
+
+                        </div>
+                        <span class="ml-3 text-gray-700"><?php echo $atm; ?></span>
+                    </li>
+                    <?php endforeach; ?>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- Join Section with Dark Blue Background -->
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
