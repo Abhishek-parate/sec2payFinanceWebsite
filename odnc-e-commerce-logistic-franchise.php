@@ -54,9 +54,11 @@
 
 <!-- hero section ends -->
 
+<!-- features & function  -->
+
 <section class="bg-primary-600 py-10 px-4 md:px-24">
     <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-primary-700 my-8 text-center">Features & Functions</h2>
+        <h2 class="text-3xl font-bold text-primary-100 my-8 text-center">Features & Functions</h2>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
             <!-- Feature: AI-Optimized Routes -->
@@ -64,7 +66,7 @@
                 <div class="text-left mb-2">
                     <h2 class="text-xl font-semibold text-secondary-600">AI-Optimized Routes</h2>
                 </div>
-                <p class="text-grey-500 pt-2">
+                <p class="text-primary-100 pt-2">
                 Save costs with intelligent route planning tools.
                 </p>
             </div>
@@ -74,7 +76,7 @@
                 <div class="text-left mb-2">
                     <h2 class="text-xl font-semibold text-secondary-600">Real-Time Tracking</h2>
                 </div>
-                <p class="text-grey-500 pt-2">
+                <p class="text-primary-100 pt-2">
                 Offer live tracking for all deliveries
                 </p>
             </div>
@@ -84,7 +86,7 @@
                 <div class="text-left mb-2">
                     <h2 class="text-xl font-semibold text-secondary-600">Seamless Integrations</h2>
                 </div>
-                <p class="text-grey-500 pt-2">
+                <p class="text-primary-100 pt-2">
                 Connect directly with sellers and buyers for smooth operations.
                 </p>
             </div>

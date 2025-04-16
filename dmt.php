@@ -65,9 +65,11 @@
                         class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
                         <!-- Feature Card 1 -->
                         <div
-                            class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                            class="border border-gray-200  bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                             <img
-                                src="assets/images/utility-servises/real-time.png"
+                                src="assets/images/dmt/quick-transfer1.png"
+
+
                                 alt="Real-Time Payment"
                                 class="w-full object-contain rounded-t-lg">
                             <div class="p-6 text-left">
@@ -82,12 +84,14 @@
 
                         <!-- Feature Card 2 -->
                         <div
-                            class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+
+                            class="border border-gray-200  bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
                             <img
-                                src="assets/images/utility-servises/multi-support.png"
+                                src="assets/images/dmt/quick-transfer1.png"
                                 alt="Real-Time Payment"
                                 class="w-full object-contain rounded-t-lg">
-                            <div class="p-6 text-left">
+                            <div class="p-6 text-left ">
+
                                 <h3
                                     class="text-secondary-600 font-semibold text-xl mb-2">Status
                                     Tracking</h3>
@@ -99,11 +103,12 @@
 
                         <!-- Feature Card 3 -->
                         <div
-                            class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                            <img src="assets/images/utility-servises/auto.png"
+                            class="border border-gray-200  bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                            <img src="assets/images/dmt/quick-transfer1.png"
                                 alt="Real-Time Payment"
                                 class="w-full object-contain rounded-t-lg">
-                            <div class="p-6 text-left">
+                            <div class="p-6 text-left ">
+
                                 <h3
                                     class="text-secondary-600 font-semibold text-xl mb-2">Commission Structure</h3>
                                 <p class="text-gray-600 text-sm">
@@ -114,11 +119,12 @@
 
                         <!-- Feature Card 4 -->
                         <div
-                            class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                            <img src="assets/images/utility-servises/smart.png"
+                            class="border border-gray-200 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                            <img src="assets/images/dmt/quick-transfer1.png"
                                 alt="Real-Time Payment"
                                 class="w-full object-contain rounded-t-lg">
-                            <div class="p-6 text-left">
+                            <div class="p-6 text-left  ">
+
                                 <h3
                                     class="text-secondary-600 font-semibold text-xl mb-2">Settlement
                                     System</h3>
