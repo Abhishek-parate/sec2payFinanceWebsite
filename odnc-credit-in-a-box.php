@@ -121,6 +121,7 @@
 
     
     </div>
+</section>
 
     <!-- AOS JS -->
 
