@@ -102,6 +102,57 @@
     </div>
 </section>
 
+
+<!-- FAQ Section -->
+<section class="py-16 max-w-3xl mx-auto px-4">
+    <!-- Section Title -->
+    <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold text-primary-800 mb-2">FAQ</h2>
+        <p class="text-gray-600">Using natural, conversational language appropriate for target audience</p>
+    </div>
+
+    <!-- FAQ Accordion -->
+    <div class="space-y-4">
+        <?php
+        $faqItems = [
+            [
+                'question' => 'What is Aadhar Pay?',
+                'answer' => 'Aadhar Pay lets merchants accept payments from customers using their Aadhar number and fingerprint verification.',
+                'isOpen' => true
+            ],
+            [
+                'question' => 'What do I need to start?',
+                'answer' => 'You can offer AEPS services once you\'ve completed the registration process and have the necessary equipment set up. This typically includes having a biometric device and completing the verification process.',
+                'isOpen' => false
+            ],
+            [
+                'question' => 'How secure are the transactions?',
+                'answer' => 'To start offering AEPS services, you\'ll need a smartphone or computer, a biometric device for fingerprint authentication, a reliable internet connection, and valid documentation for registration.',
+                'isOpen' => false
+            ]
+        ];
+
+        foreach ($faqItems as $index => $item) :
+            $isOpen = $item['isOpen'];
+            $questionColor = $isOpen ? 'text-secondary-500' : 'text-primary-800';
+            $iconColor = $isOpen ? 'text-secondary-500' : 'text-primary-800';
+            $icon = $isOpen ? '−' : '+';
+            $contentClass = $isOpen ? '' : 'hidden';
+        ?>
+        <!-- FAQ Item -->
+        <div class="border-b border-gray-200 pb-4" id="faq-item-<?php echo $index; ?>">
+            <button class="flex justify-between items-center w-full text-left faq-toggle">
+                <h3 class="text-lg font-medium <?php echo $questionColor; ?>"><?php echo $item['question']; ?></h3>
+                <span class="<?php echo $iconColor; ?> text-2xl"><?php echo $icon; ?></span>
+            </button>
+            <div class="<?php echo $contentClass; ?> mt-3 text-gray-500 faq-content">
+                <p><?php echo $item['answer']; ?></p>
+            </div>
+        </div>
+        <?php endforeach; ?>
+    </div>
+</section>
+
 <!-- Join Section with Dark Blue Background -->
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
