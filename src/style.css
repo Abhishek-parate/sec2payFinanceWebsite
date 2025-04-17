@@ -3687,6 +3687,11 @@ body {
   color: rgb(8 28 60 / var(--tw-text-opacity, 1));
 }
 
+.text-primary-900 {
+  --tw-text-opacity: 1;
+  color: rgb(5 17 40 / var(--tw-text-opacity, 1));
+}
+
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity, 1));
