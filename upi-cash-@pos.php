@@ -1,5 +1,4 @@
 <?php include_once('includes/header.php'); ?>
-
 <!-- hero section -->
 
 <section class=" bg-white">
@@ -8,15 +7,16 @@
         <div class="rounded-xl overflow-hidden  ">
             <div class="grid grid-cols-1 md:grid-cols-2 ">
                 <!-- Left Content - Services List -->
-                <div class="p-8 md:p-12 mt-12">
-                    <p class="font-semi-bolder text-primary-600 font-bold">Travel Platform Services</p>
-                    <h1 class="text-4xl font-bold text-secondary-600 ">Turn Your Business Into a</h1>
-                    <h1 class="text-4xl font-bold text-secondary-600 mb-4">Travel Booking Destination</h1>
-                    <p class="text-gray-500 mb-8">Enable your business to provide seamless travel booking services.</p>
+                <div class="p-8 md:p-12">
+                    <p class="font-semi-bolder text-primary-600 font-bold">UPI Cash @POS</p>
+                    <h1 class="text-4xl font-bold text-secondary-500 ">Transform Your POS</h1>
+                    <h1 class="text-4xl font-bold text-secondary-500 mb-4">into a Cash Point</h1>
+                    <p class="text-gray-500 mb-8">Smart copy that connects with target audience in tier 2-3 cities
+                    Let your customers withdraw cash while they shop. Add UPI Cash withdrawal service to your POS terminal.</p>
 
                     <a href="#"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
-                        Start Your Travel Business
+                        Start Now
 
                     </a>
 
@@ -44,8 +44,8 @@
                 <div class="relative max-w-5xl mx-auto  ">
                     <!-- Main Dashboard Image -->
                     <div class="relative z-20">
-                        <img src="assets/images/travel-platform-services/tps-hero.png" alt="Dashboard" class=" h-auto" />
-                        <div class="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-white to-transparent">
+                        <img src="assets/images/upi-cash/.png" alt="Dashboard" class=" h-auto" />
+                        <div class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
                         </div>
                     </div>
                 </div>
@@ -54,55 +54,64 @@
 
 <!-- hero section ends -->
 
-<!-- Banking Overview Section with Split Background -->
-<section class="relative py-16">
-    <!-- Top background - light blue -->
-    <div class="absolute top-0 left-0 right-0 h-[60%] bg-secondary-100"></div>
-    <!-- Bottom background - white -->
-    <div class="absolute bottom-0 left-0 right-0 h-[40%] bg-white"></div>
-    
-    <!-- Content -->
-    <div class="relative container mx-auto max-w-6xl px-4">
-        <!-- Section Header -->
-        <div class="text-center mb-12 z-10 relative">
-            <h2 class="text-4xl font-bold text-primary-800 mb-6">Overview</h2>
-            <p class="text-gray-600 max-w-4xl mx-auto text-center leading-relaxed">
-            Sec2Pay’s Travel Platform allows enterprises to incorporate travel booking solutions, including IRCTC train bookings, flight reservations, bus tickets, and hotel stays, into their services. With real-time booking capabilities and direct integrations, businesses can offer end-to-end travel solutions to their customers.
-            </p>
-        </div>
+
+<!-- FAQ Section -->
+<section class="py-16 max-w-3xl mx-auto px-4">
+    <!-- Section Title -->
+    <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold text-secondary-600 mb-2">FAQ</h2>
         
-        <!-- Feature Cards positioned to straddle the boundary -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 relative" style="top: calc(60% - 12rem);">
-            <!-- Feature 1 -->
-            <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-100">
-                <p class="text-gray-600 text-center">
-                Real-time ticketing for</br> trains, flights, and</br> buses.
-                </p>
-            </div>
-            
-            <!-- Feature 2 -->
-            <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-100">
-                <p class="text-gray-600 text-center">
-                Multi-operator</br> support for streamlined </br>bookings.
-                </p>
-            </div>
-            
-            <!-- Feature 3 -->
-            <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-100">
-                <p class="text-gray-600 text-center">
-                Analytics tools</br> to track bookings </br>and revenue
-                </p>
+    </div>
+
+    <!-- FAQ Accordion -->
+    <div class="space-y-4">
+        <?php
+        $faqItems = [
+            [
+                'question' => 'What is Aadhar Pay?',
+                'answer' => 'Aadhar Pay lets merchants accept payments from customers using their Aadhar number and fingerprint verification.',
+                'isOpen' => true
+            ],
+            [
+                'question' => 'What do I need to start?',
+                'answer' => 'You can offer AEPS services once you\'ve completed the registration process and have the necessary equipment set up. This typically includes having a biometric device and completing the verification process.',
+                'isOpen' => false
+            ],
+            [
+                'question' => 'How secure are the transactions?',
+                'answer' => 'To start offering AEPS services, you\'ll need a smartphone or computer, a biometric device for fingerprint authentication, a reliable internet connection, and valid documentation for registration.',
+                'isOpen' => false
+            ]
+        ];
+
+        foreach ($faqItems as $index => $item) :
+            $isOpen = $item['isOpen'];
+            $questionColor = $isOpen ? 'text-secondary-500' : 'text-primary-800';
+            $iconColor = $isOpen ? 'text-secondary-500' : 'text-primary-800';
+            $icon = $isOpen ? '−' : '+';
+            $contentClass = $isOpen ? '' : 'hidden';
+        ?>
+        <!-- FAQ Item -->
+        <div class="border-b border-gray-200 pb-4" id="faq-item-<?php echo $index; ?>">
+            <button class="flex justify-between items-center w-full text-left faq-toggle">
+                <h3 class="text-lg font-medium <?php echo $questionColor; ?>"><?php echo $item['question']; ?></h3>
+                <span class="<?php echo $iconColor; ?> text-2xl"><?php echo $icon; ?></span>
+            </button>
+            <div class="<?php echo $contentClass; ?> mt-3 text-gray-500 faq-content">
+                <p><?php echo $item['answer']; ?></p>
             </div>
         </div>
+        <?php endforeach; ?>
     </div>
 </section>
+
 
 
 <!-- Join Section with Dark Blue Background -->
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-primary-700 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+        <div class="bg-gradient-to-br from-secondary-600 to-secondary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
             data-aos="fade-up" data-aos-duration="1000">
 
             <!-- Stars Background SVG -->
@@ -145,10 +154,6 @@
         </div>
     </div>
 </section>
-
-<!-- End of Join Section -->
-<!-- Footer Section -->
-
 
 
 <?php include_once('includes/footer.php'); ?>
