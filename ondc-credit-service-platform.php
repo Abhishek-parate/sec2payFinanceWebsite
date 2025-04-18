@@ -63,7 +63,7 @@
             <!-- Feature: Data-Driven Lending -->
             <div>
                 <div class="text-left mb-2">
-                    <h2 class="text-xl font-semibold text-primary-600">Data-Driven <br>Lending</h2>
+                    <h2 class="text-xl font-semibold text-primary-500">Data-Driven <br>Lending</h2>
                 </div>
                 <p class="text-grey-500 pt-2">
                     Equip your business with tools to evaluate loans using advanced analytics.
@@ -73,7 +73,7 @@
             <!-- Feature: Pre-Integrated APIs -->
             <div>
                 <div class="text-left mb-2">
-                    <h2 class="text-xl font-semibold text-primary-600">Pre-Integrated <br>APIs</h2>
+                    <h2 class="text-xl font-semibold text-primary-500">Pre-Integrated <br>APIs</h2>
                 </div>
                 <p class="text-grey-500 pt-2">
                     Simplify launching ONDC credit services with our ready-to-use tools.
@@ -83,7 +83,7 @@
             <!-- Feature: End-to-End Management -->
             <div>
                 <div class="text-left mb-2">
-                    <h2 class="text-xl font-semibold text-primary-600">End-to-end <br>Management</h2>
+                    <h2 class="text-xl font-semibold text-primary-500">End-to-end <br>Management</h2>
                 </div>
                 <p class="text-grey-500 pt-2">
                     Manage applications, approvals, disbursements, and collections seamlessly.
@@ -93,7 +93,7 @@
             <!-- Feature: Regulatory Compliance -->
             <div>
                 <div class="text-left mb-2">
-                    <h2 class="text-xl font-semibold text-primary-600">Regulatory <br>Compliance</h2>
+                    <h2 class="text-xl font-semibold text-primary-500">Regulatory <br>Compliance</h2>
                 </div>
                 <p class="text-grey-500 pt-2">
                     Stay aligned with RBI and ONDC standards through automated checks.
@@ -653,7 +653,7 @@
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-primary-600 to-primary-500 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+        <div class="bg-gradient-to-br from-primary-700 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
             data-aos="fade-up" data-aos-duration="1000">
 
             <!-- Stars Background SVG -->

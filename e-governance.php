@@ -12,7 +12,8 @@
                     <p class="font-semi-bolder text-primary-600 font-bold">E- Governance services</p>
                     <h1 class="text-4xl font-bold text-secondary-600 ">Make Government Services</h1>
                     <h1 class="text-4xl font-bold text-secondary-600 mb-4">Simple for Your Community</h1>
-                    <p class="text-gray-500 mb-8">Join 20,000+ travel retailers earning through India's trusted B2B travel platform</p>
+                    <p class="text-gray-500 mb-8">Join 20,000+ travel retailers earning through India's trusted B2B
+                        travel platform</p>
 
                     <a href="#"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
@@ -57,8 +58,8 @@
 <!-- Banking Services Section -->
 <section class="bg-primary-600 text-white py-20 min-h-[650px] flex items-center">
     <div class="container mx-auto px-4 md:px-6">
-        <h1 class="text-4xl md:text-5xl font-bold mb-10 md:pl-24" data-aos="fade-up" data-aos-duration="800">Features 
-        of E-Governance</h1>
+        <h1 class="text-4xl md:text-5xl font-bold mb-10 md:pl-24" data-aos="fade-up" data-aos-duration="800">Features
+            of E-Governance</h1>
 
         <!-- Banking Services Tabs -->
         <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
@@ -93,8 +94,8 @@
                     <div class="flex flex-col md:flex-row items-center gap-8">
                         <div class="w-full md:w-1/2">
                             <h3 class="text-2xl md:text-3xl font-semibold mb-8">Bring essential government </br>
-services closer to citizens through
-</br>our secure platform</h3>
+                                services closer to citizens through
+                                </br>our secure platform</h3>
                             <ul class="space-y-4">
                                 <li class="flex items-center">
                                     <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
@@ -342,11 +343,11 @@ services closer to citizens through
                 <!-- Icon and Title - Vertical Alignment -->
                 <div class="text-left mb-4">
                     <div class="text-red-500 mb-4">
-                    <img src="assets/images/e-governance/pan-icon.svg" alt="Pan Image">
+                        <img src="assets/images/e-governance/pan-icon.svg" alt="Pan Image">
                     </div>
                     <h2 class="text-xl font-semibold text-red-500">PAN Card Services</h2>
                 </div>
-                
+
                 <!-- List -->
                 <ul class="space-y-2 text-left">
                     <li class="flex items-start">
@@ -367,17 +368,17 @@ services closer to citizens through
                     </li>
                 </ul>
             </div>
-            
+
             <!-- GST Services -->
             <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
                 <!-- Icon and Title - Vertical Alignment -->
                 <div class="text-left mb-4">
                     <div class="text-red-500 mb-4">
-                    <img src="assets/images/e-governance/gst-icon.svg" alt="Pan Image">
+                        <img src="assets/images/e-governance/gst-icon.svg" alt="Pan Image">
                     </div>
                     <h2 class="text-xl font-semibold text-red-500">GST Services</h2>
                 </div>
-                
+
                 <!-- List -->
                 <ul class="space-y-2 text-left">
                     <li class="flex items-start">
@@ -398,17 +399,17 @@ services closer to citizens through
                     </li>
                 </ul>
             </div>
-            
+
             <!-- Document Services -->
             <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
                 <!-- Icon and Title - Vertical Alignment -->
                 <div class="text-left mb-4">
                     <div class="text-red-500 mb-4">
-                    <img src="assets/images/e-governance/document-icon.svg" alt="Pan Image">
+                        <img src="assets/images/e-governance/document-icon.svg" alt="Pan Image">
                     </div>
                     <h2 class="text-xl font-semibold text-red-500">Document Services</h2>
                 </div>
-                
+
                 <!-- List -->
                 <ul class="space-y-2 text-left">
                     <li class="flex items-start">
@@ -433,13 +434,12 @@ services closer to citizens through
     </div>
 </section>
 
-
 <!-- pricing -->
 <section class="py-10 px-4">
     <div class="max-w-6xl mx-auto">
         <!-- Header -->
         <div class="text-center mb-12">
-                        <p class="text-sm font-bold tracking-wider text-primary-800 uppercase mb-2">PRICING</p>
+            <p class="text-sm font-bold tracking-wider text-primary-800 uppercase mb-2">PRICING</p>
             <h2 class="text-3xl font-bold text-primary-700 mb-4">Simple, transparent pricing</h2>
             <p class="text-gray-600 max-w-xl mx-auto">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit dolor posuere vel venenatis eu sit massa
@@ -452,10 +452,10 @@ services closer to citizens through
             <span class="mr-3 text-gray-700 font-medium">Monthly</span>
             <div class="relative inline-block w-12 align-middle select-none">
                 <input type="checkbox" id="billing-toggle"
-                    class="peer absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer checked:right-0 checked:border-secondary-500 border-gray-300"
+                    class="peer absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer checked:right-0 checked:border-primary-500 border-gray-300"
                     style="top: 0; bottom: 0; margin: auto 0; transition: right 0.2s ease-in-out, border-color 0.2s ease-in-out;">
                 <label for="billing-toggle"
-                    class="block h-6 overflow-hidden rounded-full bg-gray-300 cursor-pointer peer-checked:bg-secondary-400"
+                    class="block h-6 overflow-hidden rounded-full bg-gray-300 cursor-pointer peer-checked:bg-primary-400"
                     style="transition: background-color 0.2s ease-in-out;">
                 </label>
             </div>
@@ -473,10 +473,10 @@ services closer to citizens through
                         <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
                             <div
                                 class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex">
-                                <img src="assets/images/banking/icon1.png" alt="Whitelabel Partner Icon">
+                                <img src="assets/images/utility-services-page/icon1.png" alt="Basic Partner Icon">
                             </div>
                         </div>
-                        <h3 class="text-3xl font-semibold text-gray-900">Whitelabel Partner</h3>
+                        <h3 class="text-3xl font-semibold text-gray-900">Basic Partner</h3>
                     </div>
 
                     <!-- Plan Details -->
@@ -487,47 +487,47 @@ services closer to citizens through
                     <ul class="space-y-4 mb-6 flex-grow">
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-gray-700">Build your brand identity</span>
+                            <span class="ml-3 text-gray-700">BBPS Integration</span>
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-gray-700">Full banking suite access</span>
+                            <span class="ml-3 text-gray-700">Mobile Platform Acccess</span>
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-gray-700">Create agent networks</span>
+                            <span class="ml-3 text-gray-700">Automated Settlements</span>
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
                                         clip-rule="evenodd"></path>
                                 </svg>
                             </div>
-                            <span class="ml-3 text-gray-700">Mobile app included</span>
+                            <span class="ml-3 text-gray-700">Basic Support Services</span>
                         </li>
                     </ul>
 
@@ -535,11 +535,11 @@ services closer to citizens through
                     <div class="mt-auto">
                         <p class="text-xl font-bold text-gray-700 mb-1">Starting at</p>
                         <div class="flex items-end mb-6">
-                            <span class="text-4xl font-bold text-gray-900 monthly-price">₹25,000</span>
+                            <span class="text-4xl font-bold text-gray-900 monthly-price">₹15,000</span>
                             <span class="text-4xl font-bold text-gray-900 annual-price hidden">₹20,000</span>
                         </div>
                         <a href="#"
-                            class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
+                            class="block w-full py-3 px-4 bg-primary-500 hover:bg-primary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>
                     </div>
@@ -548,7 +548,7 @@ services closer to citizens through
 
             <!-- Plan 2 - Featured -->
             <div
-                class="bg-secondary-500 rounded-xl drop-shadow-xl overflow-hidden transform transition-all duration-300 hover:drop-shadow-2xl hover:-translate-y-1 relative md:-mt-8 md:mb-8 md:z-10">
+                class="bg-primary-500 rounded-xl drop-shadow-xl overflow-hidden transform transition-all duration-300 hover:drop-shadow-2xl hover:-translate-y-1 relative md:-mt-8 md:mb-8 md:z-10">
                 <!-- Popular Badge -->
                 <div class="absolute top-4 right-4">
                     <span
@@ -561,11 +561,12 @@ services closer to citizens through
                     <!-- Plan Icon and Title -->
                     <div class="flex items-center mb-6">
                         <div class="w-16 h-16 bg-white rounded-lg flex items-center justify-center mr-4">
-                            <div class="w-10 h-10 bg-gradient-to-r from-white to-secondary-300 overflow-hidden flex">
-                                <img src="assets/images/banking/icon2.png" alt="Whitelabel Reseller Icon">
+                            <div class="w-10 h-10 bg-gradient-to-r from-white to-primary-300 overflow-hidden flex">
+                                <img src="assets/images/utility-services-page/icon2.png" alt="Primium partner Icon">
                             </div>
                         </div>
-                        <h3 class="text-3xl font-semibold  text-white">Whitelabel Reseller</h3>
+                        <h3 class="text-3xl font-semibold  text-white">Premium
+                            Partner</h3>
                     </div>
 
                     <!-- Plan Details -->
@@ -576,7 +577,7 @@ services closer to citizens through
                     <ul class="space-y-4 mb-6 flex-grow">
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-600 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-primary-600 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -587,7 +588,7 @@ services closer to citizens through
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-600 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-primary-600 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -598,7 +599,7 @@ services closer to citizens through
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-600 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-primary-600 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -609,7 +610,7 @@ services closer to citizens through
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-600 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-primary-600 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -628,7 +629,7 @@ services closer to citizens through
                             <span class="text-4xl font-bold text-white annual-price hidden">₹40,000</span>
                         </div>
                         <a href="#"
-                            class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-secondary-600 font-medium text-center rounded-full transition-colors duration-300">
+                            class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-primary-600 font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>
                     </div>
@@ -644,7 +645,7 @@ services closer to citizens through
                         <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
                             <div
                                 class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex">
-                                <img src="assets/images/banking/icon1.png" alt="Enterprise Partner Icon">
+                                <img src="assets/images/utility-services-page/icon3.png" alt="Enterprise Partner Icon">
                             </div>
                         </div>
                         <h3 class="text-3xl font-semibold text-gray-900">Enterprise Partner</h3>
@@ -658,7 +659,7 @@ services closer to citizens through
                     <ul class="space-y-4 mb-6 flex-grow">
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -669,7 +670,7 @@ services closer to citizens through
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -680,7 +681,7 @@ services closer to citizens through
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -691,7 +692,7 @@ services closer to citizens through
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -710,7 +711,7 @@ services closer to citizens through
                             <span class="text-4xl font-bold text-gray-900 annual-price hidden">₹80,000</span>
                         </div>
                         <a href="#"
-                            class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
+                            class="block w-full py-3 px-4 bg-primary-500 hover:bg-primary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>
                     </div>
@@ -728,48 +729,51 @@ services closer to citizens through
 <!-- End of Testimonials Section -->
 
 
-<!-- Join India's Growing -->
-<section class="bg-primary-700 text-white min-h-[300px] md:min-h-[400px]">
+  <!-- Join India's Growing -->
+  <section class="bg-primary-700 text-white min-h-[300px] md:min-h-[400px]">
         <div class="container mx-auto px-4 md:px-24 py-16 lg:py-20">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
                 <!-- Left Section - Heading and CTA -->
-                <div class="lg:col-span-4 space-y-6 animate-fade-in">
-                    <h1 class="text-4xl md:text-5xl font-bold leading-tight">Join India's Growing Travel Network</h1>
+                 
+                <div class="lg:col-span-7 space-y-6 animate-fade-in">
+                    <h1 class="text-4xl md:text-5xl font-bold leading-tight">Join India's Growing E-Governace Network</h1>
                     <p class="text-lg text-white/90">Sec2Pay Your Partner in Making Digital Business Growth Simple</p>
                     <div class="pt-4">
-                        <a href="#" class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-md transition duration-300">Begin Your Journey</a>
+                        <a href="#"
+                            class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-md transition duration-300">Begin
+                            Your Journey</a>
                     </div>
                 </div>
 
-             
-            <!-- Right Section - Stats -->
-            <div class="lg:col-span-8">
-                <div class="grid grid-cols-2 gap-2 h-full">
-                    <!-- Top-Left Stat -->
-                    <div class="bg-primary-700 p-6 flex flex-col items-center justify-center text-center">
-                        <div class="text-sm mb-2">Established network serving</div>
-                        <div class="text-xl font-bold">1 Lac+ retail merchants</div>
-                    </div>
-                    
-                    <!-- Top-Right Stat -->
-                    <div class="bg-gradient-to-br from-indigo-500 to-red-400 p-6 flex flex-col items-center justify-center text-center">
-                        <div class="text-sm mb-2">Partnerships with</div>
-                        <div class="text-xl font-bold">20+ government departments</div>
-                    </div>
-                    
-                    <!-- Bottom-Left Stat -->
-                    <div class="bg-primary-700 p-6 flex flex-col items-center justify-center text-center">
-                        <div class="text-sm mb-2">Quick settlement</div>
-                        <div class="text-xl font-bold">cycles</div>
-                    </div>
-                    
-                    <!-- Bottom-Right Stat -->
-                    <div class="bg-primary-700 p-6 flex flex-col items-center justify-center text-center">
-                        <div class="text-sm mb-2">24/7 Customer</div>
-                        <div class="text-xl font-bold">Support team</div>
+                <!-- Right Section - Stats -->
+                <div class="lg:col-span-5">
+                    <div class="grid grid-cols-2 gap-2 h-full">
+                        <!-- Top-Left Stat -->
+                        <div class="bg-primary-700 p-6 flex flex-col items-center justify-center text-center border-l border-gray-700">
+                            <div class="text-sm mb-2">Established network serving</div>
+                            <div class="text-xl font-bold">1 Lac+ retail merchants</div>
+                        </div>
+
+                        <!-- Top-Right Stat -->
+                        <div
+                            class="bg-gradient-to-br from-indigo-500 to-red-400 p-6 flex flex-col items-center justify-center text-center">
+                            <div class="text-sm mb-2">Partnerships with</div>
+                            <div class="text-xl font-bold">20+ government departments</div>
+                        </div>
+
+                        <!-- Bottom-Left Stat -->
+                        <div class="bg-primary-700 p-6 flex flex-col items-center justify-center text-center border-l border-gray-700">
+                            <div class="text-sm mb-2">Quick settlement</div>
+                            <div class="text-xl font-bold">cycles</div>
+                        </div>
+
+                        <!-- Bottom-Right Stat -->
+                        <div class="bg-primary-700 p-6 flex flex-col items-center justify-center text-center border-l border-gray-700">
+                            <div class="text-sm mb-2">24/7 Customer</div>
+                            <div class="text-xl font-bold">Support team</div>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </div>
     </section>
@@ -778,12 +782,11 @@ services closer to citizens through
 <!-- Travel Network Section -->
 
 
-
 <!-- Join Section with Dark Blue Background -->
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-primary-600 to-primary-500 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+        <div class="bg-gradient-to-br from-secondary-700 to-secondary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
             data-aos="fade-up" data-aos-duration="1000">
 
             <!-- Stars Background SVG -->

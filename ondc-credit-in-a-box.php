@@ -58,6 +58,100 @@
             </div>
         </div>
 
+
+
+        <section class="min-h-screen py-12">
+        <div class="container mx-auto px-6 max-w-6xl">
+        <h2 class="text-3xl md:text-4xl font-bold text-center text-primary-800 mb-16">Key Features</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-20 gap-y-14">
+            <!-- Banking Services -->
+            <div>
+                <div class="flex items-start mb-3">
+                    <div class="w-14 h-14 bg-secondary-100 rounded-lg flex items-center justify-center mr-5">
+                        <i class="fa-solid fa-crown text-secondary-500 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-medium text-secondary-500 mt-1">Banking Services</h3>
+                </div>
+                <p class="text-gray-600 ml-[4.75rem]">
+                    Deliver core banking functionalities such as AePS, UPI, and Micro ATM services to enhance your network.
+                </p>
+            </div>
+            
+            <!-- Travel Solutions -->
+            <div>
+                <div class="flex items-start mb-3">
+                    <div class="w-14 h-14 bg-secondary-100 rounded-lg flex items-center justify-center mr-5">
+                        <i class="fa-solid fa-medal text-secondary-500 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-medium text-secondary-500 mt-1">Travel Solutions</h3>
+                </div>
+                <p class="text-gray-600 ml-[4.75rem]">
+                    Seamlessly enable travel bookings, including IRCTC tickets, flights, and buses for your customers.
+                </p>
+            </div>
+            
+            <!-- Bill Payment Hub -->
+            <div>
+                <div class="flex items-start mb-3">
+                    <div class="w-14 h-14 bg-secondary-100 rounded-lg flex items-center justify-center mr-5">
+                        <i class="fa-solid fa-crown text-secondary-500 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-medium text-secondary-500 mt-1">Bill Payment Hub</h3>
+                </div>
+                <p class="text-gray-600 ml-[4.75rem]">
+                    Offer a unified platform for mobile recharges, bill payments, and FASTag services.
+                </p>
+            </div>
+            
+            <!-- E-Governance Tools -->
+            <div>
+                <div class="flex items-start mb-3">
+                    <div class="w-14 h-14 bg-secondary-100 rounded-lg flex items-center justify-center mr-5">
+                        <i class="fa-solid fa-medal text-secondary-500 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-medium text-secondary-500 mt-1">E-Governance Tools</h3>
+                </div>
+                <p class="text-gray-600 ml-[4.75rem]">
+                    Provide access to PAN card services, GST filing, and more
+                </p>
+            </div>
+            
+            <!-- ONDC Services -->
+            <div>
+                <div class="flex items-start mb-3">
+                    <div class="w-14 h-14 bg-secondary-100 rounded-lg flex items-center justify-center mr-5">
+                        <i class="fa-solid fa-crown text-secondary-500 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-medium text-secondary-500 mt-1">ONDC Services</h3>
+                </div>
+                <p class="text-gray-600 ml-[4.75rem]">
+                    Integrate ONDC-enabled solutions for e-commerce, credit, and logistics into your business seamlessly.
+                </p>
+            </div>
+            
+            <!-- Wealth Management -->
+            <div>
+                <div class="flex items-start mb-3">
+                    <div class="w-14 h-14 bg-secondary-100 rounded-lg flex items-center justify-center mr-5">
+                        <i class="fa-solid fa-medal text-secondary-500 text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-medium text-secondary-500 mt-1">Wealth Management</h3>
+                </div>
+                <p class="text-gray-600 ml-[4.75rem]">
+                    Enable personalized investment tools and goal-based financial planning for your network.
+                </p>
+            </div>
+        </div>
+        
+        <div class="flex justify-center mt-16">
+            <a href="#" class="bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-10 rounded-md transition duration-300">
+                Discover All Services
+            </a>
+        </div>
+    </div>
+</section>
+
 <!-- Features Section -->
 
 <section class="bg-white py-16">
