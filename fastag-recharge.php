@@ -195,6 +195,46 @@
         </div>
     </div>
 </section>
+
+
+
+<!-- Service Coverage Section -->
+<section class="w-full py-16 bg-secondary-500">
+  <div class="max-w-6xl mx-auto px-4">
+    <!-- Section Title -->
+    <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-12">Service Coverage</h2>
+    
+    <!-- Stats Grid -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+      <!-- Stat 1 -->
+      <div class="flex flex-col items-center">
+        <p class="text-4xl md:text-5xl font-bold text-white mb-2">700+</p>
+        <p class="text-white text-sm md:text-base">Districts across India</p>
+      </div>
+      
+      <!-- Stat 2 -->
+      <div class="flex flex-col items-center">
+        <p class="text-4xl md:text-5xl font-bold text-white mb-2">5 Lakh+</p>
+        <p class="text-white text-sm md:text-base">Retail Points</p>
+      </div>
+      
+      <!-- Stat 3 -->
+      <div class="flex flex-col items-center">
+        <p class="text-4xl md:text-5xl font-bold text-white mb-2">40 Cr+</p>
+        <p class="text-white text-sm md:text-base">Daily Transactions</p>
+      </div>
+      
+      <!-- Stat 4 -->
+      <div class="flex flex-col items-center">
+        <p class="text-4xl md:text-5xl font-bold text-white mb-2">15 Lakh+</p>
+        <p class="text-white text-sm md:text-base">Monthly Customers</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 <section class="py-16 max-w-3xl mx-auto px-4">
     <!-- Section Title -->
     <div class="text-center mb-12">

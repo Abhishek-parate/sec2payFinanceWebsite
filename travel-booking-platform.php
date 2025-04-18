@@ -52,6 +52,108 @@
 
 
 
+<!-- Key Features Section with Split Background -->
+<section class="flex flex-col md:flex-row mt-12">
+  <!-- Left Side - Dark Blue Background with Title -->
+  <div class="bg-primary-800 text-white py-16 px-8 md:w-1/4 flex items-center">
+    <h2 class="text-4xl font-bold leading-tight">
+      Key<br>Features
+    </h2>
+  </div>
+  
+  <!-- Right Side - Red Background with Features -->
+  <div class="bg-secondary-500 text-white py-12 px-8 md:w-3/4">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Flight Bookings -->
+      <div>
+        <!-- Icon -->
+        <div class="mb-4">
+        <img src="assets/images/travel-booking-platform/icon1.svg" alt="Dashboard" class="mt-4 mb-2"/>
+        </div>
+        
+        <h3 class="text-xl font-bold mb-3">Flight Bookings</h3>
+        
+        <ul class="space-y-2">
+          <li class="flex items-start">
+            <span class="mr-2">•</span>
+            <span>Real-time flight availability</span>
+          </li>
+          <li class="flex items-start">
+            <span class="mr-2">•</span>
+            <span>Multi-airline options</span>
+          </li>
+          <li class="flex items-start">
+            <span class="mr-2">•</span>
+            <span>Instant ticket generation</span>
+          </li>
+          <li class="flex items-start">
+            <span class="mr-2">•</span>
+            <span>Commission on each booking</span>
+          </li>
+        </ul>
+      </div>
+      
+      <!-- Bus Booking -->
+      <div>
+        <!-- Icon -->
+        <div class="mb-4">
+        <img src="assets/images/travel-booking-platform/icon2.svg" alt="Dashboard"/>
+        </div>
+        
+        <h3 class="text-xl font-bold mb-3">Bus Booking</h3>
+        
+        <ul class="space-y-2">
+          <li class="flex items-start">
+            <span class="mr-2">•</span>
+            <span>Pan-India route coverage</span>
+          </li>
+          <li class="flex items-start">
+            <span class="mr-2">•</span>
+            <span>Live seat selection</span>
+          </li>
+          <li class="flex items-start">
+            <span class="mr-2">•</span>
+            <span>Multiple bus operators</span>
+          </li>
+          <li class="flex items-start">
+            <span class="mr-2">•</span>
+            <span>Secure payment processing</span>
+          </li>
+        </ul>
+      </div>
+      
+      <!-- Business Benefits -->
+      <div>
+        <!-- Icon -->
+        <div class="mb-4">
+        <img src="assets/images/travel-booking-platform/icon3.svg" alt="Dashboard"/>
+        </div>
+        
+        <h3 class="text-xl font-bold mb-3">Business Benefits</h3>
+        
+        <ul class="space-y-2">
+          <li class="flex items-start">
+            <span class="mr-2">•</span>
+            <span>Zero infrastructure cost</span>
+          </li>
+          <li class="flex items-start">
+            <span class="mr-2">•</span>
+            <span>Simple booking process</span>
+          </li>
+          <li class="flex items-start">
+            <span class="mr-2">•</span>
+            <span>Quick settlement cycles</span>
+          </li>
+          <li class="flex items-start">
+            <span class="mr-2">•</span>
+            <span>24/7 booking support</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 <!-- FAQ Section -->
 <section class="py-16 max-w-3xl mx-auto px-4">

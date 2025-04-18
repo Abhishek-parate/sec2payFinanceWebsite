@@ -50,6 +50,103 @@
             </div>
 </section>
 
+
+<!-- Key Features Section with Split Background -->
+<section class="flex flex-col md:flex-row mt-12">
+  <!-- Left Side - Dark Blue Background with Title -->
+  <div class="bg-primary-800 text-white py-16 px-8 md:w-1/4 flex flex-col items-start justify-center">
+  <h2 class="text-4xl font-bold leading-tight mb-6">
+  MicroATM<br>Platform
+  </h2>
+  
+  <a href="#" 
+     class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md">
+    Start Now
+  </a>
+</div>
+  
+  <!-- Right Side - Red Background with Features -->
+  <div class="bg-secondary-500 text-white py-12 px-8 md:w-3/4">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Flight Bookings -->
+      <div>
+        <!-- Icon -->
+        <div class="mb-4">
+        <img src="assets/images/micro-atm/icon1.svg" alt="Dashboard" class="mt-4 mb-2"/>
+        </div>
+        
+        <h3 class="text-xl font-bold mb-3">Card-based Transactions</h3>
+        
+        <ul class="space-y-2">
+          <li class="flex items-start">
+            <span class="mr-2">•</span>
+            <span>Accept debit cards for cash withdrawals</span>
+          </li>
+          <li class="flex items-start">
+            <span class="mr-2">•</span>
+            <span>Support for all major banks</span>
+          </li>
+          <li class="flex items-start">
+            <span class="mr-2">•</span>
+            <span> Real-time balance checks</span>
+          </li>
+        </ul>
+      </div>
+      
+      <!-- Bus Booking -->
+      <div>
+        <!-- Icon -->
+        <div class="mb-4">
+        <img src="assets/images/micro-atm/icon2.svg" alt="Dashboard" class="mt-4 mb-2"/>
+        </div>
+        
+        <h3 class="text-xl font-bold mb-3">Simple Operations</h3>
+        
+        <ul class="space-y-2">
+          <li class="flex items-start">
+            <span class="mr-2">•</span>
+            <span>Easy-to-use device interface</span>
+          </li>
+          <li class="flex items-start">
+            <span class="mr-2">•</span>
+            <span>Quick transaction processing</span>
+          </li>
+          <li class="flex items-start">
+            <span class="mr-2">•</span>
+            <span>Minimal training needed</span>
+          </li>
+        </ul>
+      </div>
+      
+      <!-- Business Benefits -->
+      <div>
+        <!-- Icon -->
+        <div class="mb-4">
+        <img src="assets/images/micro-atm/icon3.svg" alt="Dashboard" class="mt-4 mb-2"/>
+        </div>
+        
+        <h3 class="text-xl font-bold mb-3">Secure Payments</h3>
+        
+        <ul class="space-y-2">
+          <li class="flex items-start">
+            <span class="mr-2">•</span>
+            <span>PIN-based authentication</span>
+          </li>
+          <li class="flex items-start">
+            <span class="mr-2">•</span>
+            <span>End-to-end encryption</span>
+          </li>
+          <li class="flex items-start">
+            <span class="mr-2">•</span>
+            <span>Quick settlement cycles</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <!-- Life Insurance Solutions Section -->
 <section class="w-full py-12">
     <div class="max-w-6xl mx-auto px-4">
@@ -103,12 +200,158 @@
 </section>
 
 
+<!-- Platform Features Section -->
+<section class="max-w-7xl mx-auto my-12 px-4">
+    <div class="bg-primary-500 rounded-3xl overflow-hidden relative">
+        <!-- Content Container -->
+        <div class="flex flex-col md:flex-row">
+            <!-- Left side content -->
+            <div class="p-8 md:p-12 lg:p-16 md:w-1/2 z-10">
+                <!-- Section Heading -->
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-8 mt-12">
+                    Platform<br>Features
+                </h2>
+                
+                <!-- Features List - Two Column Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 mb-8">
+                    <!-- Feature 1 -->
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 h-6 w-6 rounded-full  flex items-center justify-center">
+                        <svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_335_5678)">
+<path d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z" fill="#24223E" fill-opacity="0.1" stroke="#EDF0F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705" stroke="#EDF0F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_335_5678">
+<rect width="19" height="19" fill="white" transform="translate(0 3)"/>
+</clipPath>
+</defs>
+</svg>
+
+                        </div>
+                        <span class="ml-3 text-white">Balance inquiry</span>
+                    </div>
+                    
+                    <!-- Feature 2 -->
+                    <div class="flex items-start">
+                    <div class="flex-shrink-0 h-6 w-6 rounded-full  flex items-center justify-center">
+                        <svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_335_5678)">
+<path d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z" fill="#24223E" fill-opacity="0.1" stroke="#EDF0F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705" stroke="#EDF0F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_335_5678">
+<rect width="19" height="19" fill="white" transform="translate(0 3)"/>
+</clipPath>
+</defs>
+</svg>
+
+                        </div>
+                        <span class="ml-3 text-white">Fund transfers</span>
+                    </div>
+                    
+                    <!-- Feature 3 -->
+                    <div class="flex items-start">
+                    <div class="flex-shrink-0 h-6 w-6 rounded-full  flex items-center justify-center">
+                        <svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_335_5678)">
+<path d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z" fill="#24223E" fill-opacity="0.1" stroke="#EDF0F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705" stroke="#EDF0F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_335_5678">
+<rect width="19" height="19" fill="white" transform="translate(0 3)"/>
+</clipPath>
+</defs>
+</svg>
+
+                        </div>
+                        <span class="ml-3 text-white">Cash withdrawals</span>
+                    </div>
+                    
+                    <!-- Feature 4 -->
+                    <div class="flex items-start">
+                    <div class="flex-shrink-0 h-6 w-6 rounded-full  flex items-center justify-center">
+                        <svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_335_5678)">
+<path d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z" fill="#24223E" fill-opacity="0.1" stroke="#EDF0F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705" stroke="#EDF0F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_335_5678">
+<rect width="19" height="19" fill="white" transform="translate(0 3)"/>
+</clipPath>
+</defs>
+</svg>
+
+                        </div>
+                        <span class="ml-3 text-white">Card payments</span>
+                    </div>
+                    
+                    <!-- Feature 5 -->
+                    <div class="flex items-start">
+                    <div class="flex-shrink-0 h-6 w-6 rounded-full  flex items-center justify-center">
+                        <svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_335_5678)">
+<path d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z" fill="#24223E" fill-opacity="0.1" stroke="#EDF0F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705" stroke="#EDF0F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_335_5678">
+<rect width="19" height="19" fill="white" transform="translate(0 3)"/>
+</clipPath>
+</defs>
+</svg>
+
+                        </div>
+                        <span class="ml-3 text-white">Mini statements</span>
+                    </div>
+                </div>
+                
+                <!-- CTA Button -->
+                <button class="w-full sm:w-auto bg-[#F15744] hover:bg-[#e04a38] text-white font-medium py-3 px-8 rounded-lg transition duration-300 mb-6">
+                    Get started
+                </button>
+                
+                <!-- Partners Badge -->
+                <div class="flex items-center bg-white rounded-full py-1 px-2 w-fit">
+                    <div class="flex -space-x-2 mr-2">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Partner" class="w-6 h-6 rounded-full border-2 border-white">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Partner" class="w-6 h-6 rounded-full border-2 border-white">
+                        <img src="https://randomuser.me/api/portraits/men/86.jpg" alt="Partner" class="w-6 h-6 rounded-full border-2 border-white">
+                    </div>
+                    <span class="text-xs text-gray-600">1 Lac+ Retail partners across India</span>
+                </div>
+            </div>
+            
+            <!-- Right side with POS machine illustration -->
+            <div class="md:w-1/2 relative">
+                <!-- Circular patterns -->
+                <div class="absolute inset-0 z-0">
+                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                        <div class="w-64 h-64 border border-blue-300 rounded-full opacity-20"></div>
+                        <div class="w-80 h-80 border border-blue-300 rounded-full opacity-20 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+                        <div class="w-96 h-96 border border-blue-300 rounded-full opacity-20 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+                    </div>
+                </div>
+                
+                <!-- POS Machine Image -->
+                <div class="relative flex justify-center items-center h-full p-8 z-10">
+                    <img src="assets/images/micro-atm/pos-machine.png" alt="POS Machine" class="max-w-xs md:max-w-sm lg:max-w-md mx-auto">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>  
+
+
 <!-- FAQ Section -->
 <section class="py-16 max-w-3xl mx-auto px-4">
     <!-- Section Title -->
     <div class="text-center mb-12">
         <h2 class="text-4xl font-bold text-primary-800 mb-2">FAQ</h2>
-        <p class="text-gray-600">Using natural, conversational language appropriate for target audience</p>
     </div>
 
     <!-- FAQ Accordion -->
@@ -116,17 +359,17 @@
         <?php
         $faqItems = [
             [
-                'question' => 'What is Aadhar Pay?',
-                'answer' => 'Aadhar Pay lets merchants accept payments from customers using their Aadhar number and fingerprint verification.',
+                'question' => 'What is MicroATM?',
+                'answer' => 'A MicroATM is a device that lets shop owners provide basic banking services like cash withdrawal and balance checks using customers debit cards.',
                 'isOpen' => true
             ],
             [
-                'question' => 'What do I need to start?',
+                'question' => 'How much can customers withdraw?',
                 'answer' => 'You can offer AEPS services once you\'ve completed the registration process and have the necessary equipment set up. This typically includes having a biometric device and completing the verification process.',
                 'isOpen' => false
             ],
             [
-                'question' => 'How secure are the transactions?',
+                'question' => 'What do I need to start?',
                 'answer' => 'To start offering AEPS services, you\'ll need a smartphone or computer, a biometric device for fingerprint authentication, a reliable internet connection, and valid documentation for registration.',
                 'isOpen' => false
             ]

@@ -66,7 +66,7 @@
             </div>
 
             <!-- Feature 2 - Simple Setup -->
-            <div class="rounded-lg border border-primary-500 p-6">
+            <div class="rounded-lg border p-6">
                 <h3 class="text-xl font-semibold text-gray-800 mb-3">Multi-Bank Support </h3>
                 <p class="text-gray-700">
                     Connect with 20+ banking partners for reliable transfers.
@@ -74,7 +74,7 @@
             </div>
 
             <!-- Feature 3 - Quick Settlements -->
-            <div class="rounded-lg border border-primary-500 p-6">
+            <div class="rounded-lg border p-6">
                 <h3 class="text-xl font-semibold text-gray-800 mb-3"> Real-Time Status</h3>
                 <p class="text-gray-700">
                     Track transfer status instantly through SMS alerts.
@@ -223,12 +223,76 @@
 </section>
 
 
+<!-- Our Other Services Section -->
+<section class="w-full bg-primary-600 py-16 px-4">
+    <div class="max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row items-start">
+            <!-- Section Title -->
+            <div class="text-white mb-10 md:mb-0 md:w-1/4 md:mr-8 md:pt-2">
+                <h2 class="text-3xl font-bold leading-tight uppercase">
+                    OUR OTHER SERVICES
+                </h2>
+            </div>
+            
+            <!-- Services Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-8 md:w-3/4 w-full">
+                <!-- AEPS -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-uti/icon1.svg" alt="AEPS" class="w-16 h-16">
+                    </div>
+                    <span class="text-white text-center font-medium">AEPS</span>
+                </div>
+                
+                <!-- DMT -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-uti/icon2.svg" alt="DMT" class="w-16 h-16">
+                    </div>
+                    <span class="text-white text-center font-medium">DMT</span>
+                </div>
+                
+                <!-- Micro ATM -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-uti/icon3.svg" alt="Micro ATM" class="w-16 h-16">
+                    </div>
+                    <span class="text-white text-center font-medium">Micro ATM</span>
+                </div>
+                
+                <!-- mPOS -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-uti/icon4.svg" alt="mPOS" class="w-16 h-16">
+                    </div>
+                    <span class="text-white text-center font-medium">mPOS</span>
+                </div>
+                
+                <!-- CMS -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-uti/icon5.svg" alt="CMS" class="w-16 h-16">
+                    </div>
+                    <span class="text-white text-center font-medium">CMS</span>
+                </div>
+                
+                <!-- UPI QR Code -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-uti/icon6.svg" alt="UPI QR Code" class="w-16 h-16">
+                    </div>
+                    <span class="text-white text-center font-medium">UPI QR Code</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!-- FAQ Section -->
 <section class="py-16 max-w-3xl mx-auto px-4">
     <!-- Section Title -->
     <div class="text-center mb-12">
         <h2 class="text-4xl font-bold text-primary-800 mb-2">FAQ</h2>
-        <p class="text-gray-600">Using natural, conversational language appropriate for target audience</p>
     </div>
 
     <!-- FAQ Accordion -->
@@ -236,17 +300,17 @@
         <?php
         $faqItems = [
             [
-                'question' => 'What is Aadhar Pay?',
-                'answer' => 'Aadhar Pay lets merchants accept payments from customers using their Aadhar number and fingerprint verification.',
+                'question' => 'What is DMT service?',
+                'answer' => 'DMT (Domestic Money Transfer) is a secure platform that enables money transfers between bank accounts within India. Its designed for retailers to offer quick transfer services to customers.',
                 'isOpen' => true
             ],
             [
-                'question' => 'What do I need to start?',
+                'question' => 'How long does a transfer take?',
                 'answer' => 'You can offer AEPS services once you\'ve completed the registration process and have the necessary equipment set up. This typically includes having a biometric device and completing the verification process.',
                 'isOpen' => false
             ],
             [
-                'question' => 'How secure are the transactions?',
+                'question' => 'What are the transfer limits?',
                 'answer' => 'To start offering AEPS services, you\'ll need a smartphone or computer, a biometric device for fingerprint authentication, a reliable internet connection, and valid documentation for registration.',
                 'isOpen' => false
             ]

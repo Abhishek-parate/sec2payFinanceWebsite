@@ -61,12 +61,8 @@
 <!-- Featuees & Function Section -->
 <section class="bg-white py-10 px-4 md:px-24">
                 <div class="container mx-auto px-6 text-center">
-                    <h2 class="text-3xl font-bold text-primary-700 mb-4">Features &
-                        Functions</h2>
-                    <p class="text-gray-600 mb-12 max-w-2xl mx-auto">
-                        Building trust through partnerships that last. Creating
-                        a network that serves millions.
-                    </p>
+                    <h2 class="text-3xl font-bold text-primary-700 mb-4"> Why Choose Sec2Pay Mutual Fund Platform?</h2>
+
 
                     <div
                         class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -296,45 +292,73 @@
                     <ul class="space-y-4 mb-6 flex-grow">
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
-                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
+                                class="flex-shrink-0 w-5 h-5 rounded-full 0 flex items-center justify-center text-white mt-0.5">
+                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2001_1795)">
+<path d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z" fill="#1B2E5A"/>
+<path d="M7.11719 13.8406L10.479 17.2024L18.8835 8.79785" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_2001_1795">
+<rect width="26" height="26" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
                             </div>
                             <span class="ml-3 text-gray-700">All analytics features</span>
                         </li>
                         <li class="flex items-start">
-                            <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
-                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
+                        <div
+                                class="flex-shrink-0 w-5 h-5 rounded-full 0 flex items-center justify-center text-white mt-0.5">
+                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2001_1795)">
+<path d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z" fill="#1B2E5A"/>
+<path d="M7.11719 13.8406L10.479 17.2024L18.8835 8.79785" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_2001_1795">
+<rect width="26" height="26" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
                             </div>
                             <span class="ml-3 text-gray-700">Up to 250,000 tracked visits</span>
                         </li>
                         <li class="flex items-start">
-                            <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
-                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
+                        <div
+                                class="flex-shrink-0 w-5 h-5 rounded-full 0 flex items-center justify-center text-white mt-0.5">
+                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2001_1795)">
+<path d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z" fill="#1B2E5A"/>
+<path d="M7.11719 13.8406L10.479 17.2024L18.8835 8.79785" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_2001_1795">
+<rect width="26" height="26" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
                             </div>
                             <span class="ml-3 text-gray-700">Normal support</span>
                         </li>
                         <li class="flex items-start">
-                            <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
-                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
+                        <div
+                                class="flex-shrink-0 w-5 h-5 rounded-full 0 flex items-center justify-center text-white mt-0.5">
+                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2001_1795)">
+<path d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z" fill="#1B2E5A"/>
+<path d="M7.11719 13.8406L10.479 17.2024L18.8835 8.79785" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_2001_1795">
+<rect width="26" height="26" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
                             </div>
                             <span class="ml-3 text-gray-700">Up to 3 team members</span>
                         </li>
@@ -343,7 +367,7 @@
                     <!-- Price -->
                     <div class="mt-auto">
                         <a href="#"
-                            class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
+                            class="block w-full py-3 px-4 bg-primary-600 hover:bg-primary-700 text-white font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>
                     </div>
@@ -352,7 +376,7 @@
 
             <!-- Plan 2 - Featured -->
             <div
-                class="bg-secondary-500 rounded-xl drop-shadow-xl overflow-hidden transform transition-all duration-300 hover:drop-shadow-2xl hover:-translate-y-1 relative md:-mt-8 md:mb-8 md:z-10">
+                class="bg-primary-600 rounded-xl drop-shadow-xl overflow-hidden transform transition-all duration-300 hover:drop-shadow-2xl hover:-translate-y-1 relative md:-mt-8 md:mb-8 md:z-10">
                 <!-- Popular Badge -->
                 <div class="absolute top-4 right-4">
                     <span
@@ -389,7 +413,7 @@
                     <ul class="space-y-4 mb-6 flex-grow">
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-600 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-primary-600 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -400,7 +424,7 @@
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-600 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-primary-600 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -411,7 +435,7 @@
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-600 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-primary-600 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -422,7 +446,7 @@
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-600 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-primary-600 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -436,7 +460,7 @@
                     <!-- Price -->
                     <div class="mt-auto">
                         <a href="#"
-                            class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-secondary-600 font-medium text-center rounded-full transition-colors duration-300">
+                            class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-primary-600 font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>
                     </div>
@@ -474,46 +498,74 @@
                     <h4 class="text-base font-semibold text-gray-800 mb-4">What's included</h4>
                     <ul class="space-y-4 mb-6 flex-grow">
                         <li class="flex items-start">
-                            <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
-                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
+                        <div
+                                class="flex-shrink-0 w-5 h-5 rounded-full 0 flex items-center justify-center text-white mt-0.5">
+                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2001_1795)">
+<path d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z" fill="#1B2E5A"/>
+<path d="M7.11719 13.8406L10.479 17.2024L18.8835 8.79785" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_2001_1795">
+<rect width="26" height="26" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
                             </div>
                             <span class="ml-3 text-gray-700">All analytics features</span>
                         </li>
                         <li class="flex items-start">
-                            <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
-                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
+                        <div
+                                class="flex-shrink-0 w-5 h-5 rounded-full 0 flex items-center justify-center text-white mt-0.5">
+                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2001_1795)">
+<path d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z" fill="#1B2E5A"/>
+<path d="M7.11719 13.8406L10.479 17.2024L18.8835 8.79785" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_2001_1795">
+<rect width="26" height="26" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
                             </div>
                             <span class="ml-3 text-gray-700">Up to 5,000,000 tracked visits</span>
                         </li>
                         <li class="flex items-start">
-                            <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
-                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
+                        <div
+                                class="flex-shrink-0 w-5 h-5 rounded-full 0 flex items-center justify-center text-white mt-0.5">
+                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2001_1795)">
+<path d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z" fill="#1B2E5A"/>
+<path d="M7.11719 13.8406L10.479 17.2024L18.8835 8.79785" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_2001_1795">
+<rect width="26" height="26" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
                             </div>
                             <span class="ml-3 text-gray-700">Dedicated support</span>
                         </li>
                         <li class="flex items-start">
-                            <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
-                                <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fill-rule="evenodd"
-                                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
+                        <div
+                                class="flex-shrink-0 w-5 h-5 rounded-full 0 flex items-center justify-center text-white mt-0.5">
+                                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2001_1795)">
+<path d="M13 26C20.1799 26 26 20.1799 26 13C26 5.8201 20.1799 0 13 0C5.8201 0 0 5.8201 0 13C0 20.1799 5.8201 26 13 26Z" fill="#1B2E5A"/>
+<path d="M7.11719 13.8406L10.479 17.2024L18.8835 8.79785" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_2001_1795">
+<rect width="26" height="26" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+
                             </div>
                             <span class="ml-3 text-gray-700">Up to 50 team members</span>
                         </li>
@@ -522,7 +574,7 @@
                     <!-- Price -->
                     <div class="mt-auto">
                         <a href="#"
-                            class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
+                            class="block w-full py-3 px-4 bg-primary-600 hover:bg-primary-700 text-white font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>
                     </div>

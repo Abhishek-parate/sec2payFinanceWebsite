@@ -55,47 +55,39 @@
 <!-- hero section ends -->
 
 
-<!-- E-Governance Platform Services Section -->
-<section class="bg-white py-10 px-4 md:px-24">
-    <div class="container mx-auto px-6 ">
-        <h2 class="text-3xl font-bold text-primary-700 mb-8 text-center">Why Choose Sec2Pay?</h2>
-
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <!-- PAN Card Services -->
-            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
-                <!-- Icon and Title - Vertical Alignment -->
-                <div class="text-left mb-2">
-                    <div class="text-red-500">
-                    <img src="assets/images/ondc-ecommerce/icon1.svg" alt="Pan Image" class="mb-4">
-                    </div>
-                    <h2 class="text-xl font-semibold text-red-500">Quick Setup</h2>
-                </div>
-                <p>Seamlessly onboard sellers </br>and enable their growth.</p>
-            </div>
-            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
-                <!-- Icon and Title - Vertical Alignment -->
-                <div class="text-left mb-2">
-                    <div class="text-red-500">
-                    <img src="assets/images/ondc-ecommerce/icon2.svg" alt="Pan Image" class="mb-4">
-                    </div>
-                    <h2 class="text-xl font-semibold text-red-500">Simplified Management</h2>
-                </div>
-                <p>Access a centralized dashboard to</br>manage seller networks.</p>
-            </div>
-            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
-                <!-- Icon and Title - Vertical Alignment -->
-                <div class="text-left mb-2">
-                    <div class="text-red-500">
-                    <img src="assets/images/ondc-ecommerce/icon3.svg" alt="Pan Image" class="mb-4">
-                    </div>
-                    <h2 class="text-xl font-semibold text-red-500">Localized Tools</h2>
-                </div>
-                <p>Multi-language support</br>tailored for Tier 2 and 3 cities.</p>
+<!-- Why Choose Sec2Pay Account Opening Platform Service -->
+<section class="py-12 mb-12 mt-6 bg-secondary-600">
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-primary-100 text-center mb-8">Features & Functions</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+            <!-- Feature 1 - Instant Account Creation -->
+            <div class="p-4">
+                <h3 class="text-xl font-semibold text-white mb-3">AI-Optimized Routes</h3>
+                <p class="text-white">
+                    Save costs with intelligent route planning tools.
+                </p>
             </div>
             
+            <!-- Feature 2 - Digital KYC Process -->
+            <div class="p-4">
+                <h3 class="text-xl font-semibold text-white mb-3">Real-Time Tracking</h3>
+                <p class="text-white">
+                    Offer live tracking for all deliveries
+                </p>
+            </div>
+            
+            <!-- Feature 3 - Multiple Bank Options -->
+            <div class="p-4">
+                <h3 class="text-xl font-semibold text-white mb-3">Seamless Integrations</h3>
+                <p class="text-white">
+                    Connect directly with sellers and buyers for smooth operations.
+                </p>
+            </div>
         </div>
     </div>
 </section>
+
 
   <!-- Services Section with White Background -->
   <section class="bg-white py-16 px-4">

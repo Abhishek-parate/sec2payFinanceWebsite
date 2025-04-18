@@ -54,14 +54,183 @@
 
 <!-- hero section ends -->
 
+<!-- Features & Functions Section -->
+<section class="bg-primary-100 px-4 md:px-24 mb-12 py-12">
+    <div class="container mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold text-primary-700 mb-12">Why Choose Sec2Pay UPI Cash @POS Platform</h2>
+        
+        <!-- Updated grid with proper centering -->
+        <div class="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Feature Card 1 -->
+            <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 bg-white">
+                <div class="p-6 text-left">
+                    <p class="text-gray-600 text-sm">
+                    Seamless tools for cash withdrawals, money transfers, and account management.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Feature Card 2 -->
+            <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 bg-white">
+                <div class="p-6 text-left">
+                    <p class="text-gray-600 text-sm">
+                    Flexible integration options with major banks for secure transactions.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Feature Card 3 -->
+            <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 bg-white">
+                <div class="p-6 text-left">
+                    <p class="text-gray-600 text-sm">
+                    Comprehensive dashboards for transaction tracking and reporting.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+
+
+<!-- Life Insurance Solutions Section -->
+<section class="w-full py-12">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex flex-col md:flex-row items-center gap-8">
+            <!-- Left side with illustration -->
+            <div class="w-full md:w-1/2">
+            <img src="assets/images/indo-nepal-dmt/smart-small.png" alt="Life Insurance">
+            </div>
+            
+            <!-- Right side with content -->
+            <div class="w-full md:w-1/2">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6">Start Small,
+                Grow Big</h2>
+                
+                <ul class="space-y-5 mb-8">
+                    <?php
+                    $lifePlans = [
+                        'Minimal setup cost',
+                        'High earning potential',
+                        'Regular commission payouts'
+                    ];
+                    
+                    foreach ($lifePlans as $plan) :
+                    ?>
+                    <li class="flex items-start">
+                        <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
+                                <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <span class="ml-3 text-gray-700"><?php echo $plan; ?></span>
+                    </li>
+                    <?php endforeach; ?>
+                </ul>
+                
+                <button class="bg-[#F15744] hover:bg-[#E04A38] text-white font-medium py-2.5 px-6 rounded-md transition duration-300">
+                Read More
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Health Insurance Solutions Section -->
+<section class="w-full py-12">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex flex-col md:flex-row items-center gap-8">
+            <!-- Left side with content -->
+            <div class="w-full md:w-1/2">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6">Simple & easy
+                Setup</h2>
+                
+                <ul class="space-y-5 mb-8">
+                    <?php
+                    $healthPlans = [
+                        'Basic smartphone or computer',
+                        'Bio-metric device',
+                        'Internet connection'
+                    ];
+                    
+                    foreach ($healthPlans as $plan) :
+                    ?>
+                    <li class="flex items-start">
+                        <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
+                                <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <span class="ml-3 text-gray-700"><?php echo $plan; ?></span>
+                    </li>
+                    <?php endforeach; ?>
+                </ul>
+                
+                <button class="bg-[#5271B6] hover:bg-[#4560A0] text-white font-medium py-2.5 px-6 rounded-md transition duration-300">
+                    Read More
+                </button>
+            </div>
+            
+            <!-- Right side with illustration -->
+            <div class="w-full md:w-1/2">
+            <img src="assets/images/indo-nepal-dmt/simple-easy.png" alt="Life Insurance">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Life Insurance Solutions Section -->
+<section class="w-full py-12">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex flex-col md:flex-row items-center gap-8">
+            <!-- Left side with illustration -->
+            <div class="w-full md:w-1/2">
+            <img src="assets/images/indo-nepal-dmt/daily-income.png" alt="Life Insurance">
+            </div>
+            
+            <!-- Right side with content -->
+            <div class="w-full md:w-1/2">
+                <h2 class="text-3xl font-bold text-gray-900 mb-6">Daily assured
+                Income</h2>
+                
+                <ul class="space-y-5 mb-8">
+                    <?php
+                    $lifePlans = [
+                        'Fixed commission per transaction',
+                        'Additional incentives',
+                        'Quick settlements'
+                    ];
+                    
+                    foreach ($lifePlans as $plan) :
+                    ?>
+                    <li class="flex items-start">
+                        <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
+                                <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <span class="ml-3 text-gray-700"><?php echo $plan; ?></span>
+                    </li>
+                    <?php endforeach; ?>
+                </ul>
+                
+                <button class="bg-[#F15744] hover:bg-[#E04A38] text-white font-medium py-2.5 px-6 rounded-md transition duration-300">
+                    Read More
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- FAQ Section -->
 <section class="py-16 max-w-3xl mx-auto px-4">
     <!-- Section Title -->
     <div class="text-center mb-12">
         <h2 class="text-4xl font-bold text-primary-800 mb-2">FAQ</h2>
-        <p class="text-gray-600">Using natural, conversational language appropriate for target audience</p>
     </div>
 
     <!-- FAQ Accordion -->
@@ -69,17 +238,17 @@
         <?php
         $faqItems = [
             [
-                'question' => 'What is Aadhar Pay?',
-                'answer' => 'Aadhar Pay lets merchants accept payments from customers using their Aadhar number and fingerprint verification.',
+                'question' => 'What is UPI Cash @POS service?',
+                'answer' => 'This service lets customers withdraw cash from merchant stores using UPI payments through POS terminals.',
                 'isOpen' => true
             ],
             [
-                'question' => 'What do I need to start?',
+                'question' => 'What are the transaction limits?',
                 'answer' => 'You can offer AEPS services once you\'ve completed the registration process and have the necessary equipment set up. This typically includes having a biometric device and completing the verification process.',
                 'isOpen' => false
             ],
             [
-                'question' => 'How secure are the transactions?',
+                'question' => 'How do merchants receive settlement?',
                 'answer' => 'To start offering AEPS services, you\'ll need a smartphone or computer, a biometric device for fingerprint authentication, a reliable internet connection, and valid documentation for registration.',
                 'isOpen' => false
             ]

@@ -366,51 +366,6 @@
     </section>
 
 
-<!-- Join India's Growing -->
-<section class="bg-primary-700 text-white min-h-[300px] md:min-h-[400px]">
-        <div class="container mx-auto px-4 md:px-24 py-16 lg:py-20">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-                <!-- Left Section - Heading and CTA -->
-                <div class="lg:col-span-4 space-y-6 animate-fade-in">
-                    <h1 class="text-4xl md:text-5xl font-bold leading-tight">Join India's Growing Travel Network</h1>
-                    <p class="text-lg text-white/90">Sec2Pay Your Partner in Making Digital Business Growth Simple</p>
-                    <div class="pt-4">
-                        <a href="#" class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-md transition duration-300">Begin Your Journey</a>
-                    </div>
-                </div>
-
-             
-            <!-- Right Section - Stats -->
-            <div class="lg:col-span-8">
-                <div class="grid grid-cols-2 gap-2 h-full">
-                    <!-- Top-Left Stat -->
-                    <div class="bg-primary-700 p-6 flex flex-col items-center justify-center text-center">
-                        <div class="text-sm mb-2">Established network serving</div>
-                        <div class="text-xl font-bold">1 Lac+ retail merchants</div>
-                    </div>
-                    
-                    <!-- Top-Right Stat -->
-                    <div class="bg-gradient-to-br from-indigo-500 to-red-400 p-6 flex flex-col items-center justify-center text-center">
-                        <div class="text-sm mb-2">Partnerships with</div>
-                        <div class="text-xl font-bold">20+ government departments</div>
-                    </div>
-                    
-                    <!-- Bottom-Left Stat -->
-                    <div class="bg-primary-700 p-6 flex flex-col items-center justify-center text-center">
-                        <div class="text-sm mb-2">Quick settlement</div>
-                        <div class="text-xl font-bold">cycles</div>
-                    </div>
-                    
-                    <!-- Bottom-Right Stat -->
-                    <div class="bg-primary-700 p-6 flex flex-col items-center justify-center text-center">
-                        <div class="text-sm mb-2">24/7 Customer</div>
-                        <div class="text-xl font-bold">Support team</div>
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </section>
 
 <!-- pricing -->
 <section class="py-10 px-4">
@@ -704,6 +659,120 @@
 <!-- End of Pricing Section -->
 
 
+
+
+<!-- End of Testimonials Section -->
+
+
+<!-- Join India's Growing -->
+<section class="bg-secondary-600 text-white min-h-[300px] md:min-h-[400px]">
+        <div class="container mx-auto px-4 md:px-24 py-16 lg:py-20">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                <!-- Left Section - Heading and CTA -->
+                <div class="lg:col-span-4 space-y-6 animate-fade-in">
+                    <h1 class="text-4xl md:text-5xl font-bold leading-tight">Why Partner
+                    With Sec2pay?</h1>
+                    <p class="text-lg text-white/90">Interested in Growing Your Business?</p>
+                    <div class="pt-4">
+                        <a href="#" class="inline-block bg-white  text-secondary-600 font-medium py-3 px-8 rounded-md transition duration-300">Partner With Us</a>
+                    </div>
+                </div>
+
+                <!-- Right Section - Stats -->
+                <div class="lg:col-span-8 animate-fade-in" style="animation-delay: 0.2s;">
+                    <div class="grid grid-cols-1 md:grid-cols-3 h-full">
+                        <!-- First Stat -->
+
+                        <div class="flex flex-col">
+                        <div class="border-r  border-white/20 flex flex-col items-center justify-center py-6 md:py-12">
+                            <div class="text-center text-sm md:text-base mt-2 text-white/80">
+                            Pan-India presence with 1 lakh+ active retailers
+                            </div>
+                        </div>
+
+                        <!-- Second Stat -->
+                        <div class="border-r border-white/20 flex flex-col items-center justify-center py-6 md:py-12">
+                            
+                            <div class="text-center text-sm md:text-base mt-2 text-white/80">
+                            Dedicated support team
+                            </div>
+                        </div>
+                        </div>
+                      
+
+                        <!-- Third Stat -->
+                        <div class="flex flex-col">
+                            <!-- Top Section -->
+                            <div class="flex flex-col items-center justify-center py-6 md:py-12 border-b border-white/20">
+                                
+                                <div class="text-center text-sm md:text-base mt-2 text-white/80">
+                                Multi-level commission structure
+                                </div>
+                            </div>
+                            <!-- Bottom Section with Secondary Background -->
+                            <div class="bg-secondary-500 flex flex-col items-center justify-center py-6 md:py-12 flex-1">
+                                
+                                <div class="text-center text-sm md:text-base mt-2">
+                                24/7 Customer Support team
+                            </div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Travel Network Section -->
+
+
+<!-- Support Promise Banner -->
+<section>
+  <div class="w-full bg-primary-500 py-12">
+    <div
+      class="max-w-7xl mx-auto flex flex-row items-center justify-between text-white px-4"
+    >
+      <div class="font-medium text-sm md:text-base whitespace-nowrap">
+      Explore Other Services
+      </div>
+
+      <div class="hidden md:flex items-center justify-end space-x-6 text-sm">
+        <div class="flex items-center">
+          <span class="whitespace-nowrap"> Banking Platform Services</span>
+        </div>
+        <div class="text-white/50">|</div>
+        <div class="flex items-center">
+          <span class="whitespace-nowrap">ONDC Platform</span>
+        </div>
+        <div class="text-white/50">|</div>
+        <div class="flex items-center">
+          <span class="whitespace-nowrap"> Insurance Platform</span>
+        </div>
+        <div class="text-white/50">|</div>
+        <div class="flex items-center">
+          <span class="whitespace-nowrap">E-Governance</span>
+        </div>
+      </div>
+
+      <!-- Mobile version - scrollable -->
+      <div
+        class="md:hidden flex items-center overflow-x-auto whitespace-nowrap space-x-4 text-sm scrollbar-hide"
+      >
+        <span>Training for new agents</span>
+        <span class="text-white/50">|</span>
+        <span>Regular commission payments</span>
+        <span class="text-white/50">|</span>
+        <span>Dedicated relationship manager</span>
+        <span class="text-white/50">|</span>
+        <span>24/7 Technical assistance</span>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- testimonials -->
 
 
@@ -810,74 +879,6 @@
         </div>
     </div>
 </section>
-
-<!-- End of Testimonials Section -->
-
-
-<!-- Join India's Growing -->
-<section class="bg-secondary-600 text-white min-h-[300px] md:min-h-[400px]">
-        <div class="container mx-auto px-4 md:px-24 py-16 lg:py-20">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-                <!-- Left Section - Heading and CTA -->
-                <div class="lg:col-span-4 space-y-6 animate-fade-in">
-                    <h1 class="text-4xl md:text-5xl font-bold leading-tight">Why Partner
-                    With Sec2pay?</h1>
-                    <p class="text-lg text-white/90">Interested in Growing Your Business?</p>
-                    <div class="pt-4">
-                        <a href="#" class="inline-block bg-white  text-secondary-600 font-medium py-3 px-8 rounded-md transition duration-300">Partner With Us</a>
-                    </div>
-                </div>
-
-                <!-- Right Section - Stats -->
-                <div class="lg:col-span-8 animate-fade-in" style="animation-delay: 0.2s;">
-                    <div class="grid grid-cols-1 md:grid-cols-3 h-full">
-                        <!-- First Stat -->
-
-                        <div class="flex flex-col">
-                        <div class="border-r  border-white/20 flex flex-col items-center justify-center py-6 md:py-12">
-                            <div class="text-center text-sm md:text-base mt-2 text-white/80">
-                            Pan-India presence with 1 lakh+ active retailers
-                            </div>
-                        </div>
-
-                        <!-- Second Stat -->
-                        <div class="border-r border-white/20 flex flex-col items-center justify-center py-6 md:py-12">
-                            
-                            <div class="text-center text-sm md:text-base mt-2 text-white/80">
-                            Dedicated support team
-                            </div>
-                        </div>
-                        </div>
-                      
-
-                        <!-- Third Stat -->
-                        <div class="flex flex-col">
-                            <!-- Top Section -->
-                            <div class="flex flex-col items-center justify-center py-6 md:py-12 border-b border-white/20">
-                                
-                                <div class="text-center text-sm md:text-base mt-2 text-white/80">
-                                Multi-level commission structure
-                                </div>
-                            </div>
-                            <!-- Bottom Section with Secondary Background -->
-                            <div class="bg-secondary-500 flex flex-col items-center justify-center py-6 md:py-12 flex-1">
-                                
-                                <div class="text-center text-sm md:text-base mt-2">
-                                24/7 Customer Support team
-                            </div>
-                            </div>
-                        </div>
-
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-<!-- Travel Network Section -->
-
 
 
 <!-- Join Section with Dark Blue Background -->

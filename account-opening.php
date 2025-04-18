@@ -155,6 +155,64 @@
             </div>
         </div>
     </div>
+    <div class="max-w-6xl mx-auto px-4 py-6">
+
+        <div class="flex flex-col md:flex-row items-center gap-8">
+            
+
+            <!-- Right side with content -->
+            <div class="w-full md:w-1/2">
+                <h2 class="text-3xl font-bold text-secondary-600  mt-6">Features</h2>
+                <p class="text-mid font-semibold text-primary-900 mb-6">Complete Account Opening Solution</p>
+
+                <ul class="space-y-5 mb-8">
+                    <?php
+                    $benefits = [
+                        'Video KYC enabled',
+                        'Digital document verification',
+                        'Multiple bank partnerships',
+                        'Real-time account status',
+                        'Instant debit card issuance',
+                        'Mobile banking activation',
+                    ];
+                    
+                    foreach ($benefits as $benefit) :
+                    ?>
+                    <li class="flex items-start">
+                        <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                            <svg width="19" height="25" viewBox="0 0 19 25" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1700_1996)">
+                                    <path
+                                        d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z"
+                                        fill="#FEEEEC" stroke="#F15744" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705"
+                                        stroke="#F15744" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1700_1996">
+                                        <rect width="19" height="19" fill="white" transform="translate(0 3)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+                        </div>
+                        <span class="ml-3 text-primary-500"><?php echo $benefit; ?></span>
+                    </li>
+                    <?php endforeach; ?>
+                </ul>
+
+            </div>
+
+            <!-- Left side with illustration -->
+            <div class="w-full md:w-1/2">
+                <img src="assets/images/account-opening/features.png" alt="Life Insurance">
+            </div>
+        </div>
+    </div>
 </section>
 
 
@@ -195,6 +253,71 @@
 </section>
 
 
+<!-- Our Other Services Section -->
+<section class="w-full bg-secondary-500 py-16 px-4">
+    <div class="max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row items-start">
+            <!-- Section Title -->
+            <div class="text-white mb-10 md:mb-0 md:w-1/4 md:mr-8 md:pt-2">
+                <h2 class="text-3xl font-bold leading-tight uppercase">
+                    OUR OTHER SERVICES
+                </h2>
+            </div>
+            
+            <!-- Services Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-8 md:w-3/4 w-full">
+                <!-- AEPS -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-uti/icon1.svg" alt="AEPS" class="w-16 h-16">
+                    </div>
+                    <span class="text-white text-center font-medium">AEPS</span>
+                </div>
+                
+                <!-- DMT -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-uti/icon2.svg" alt="DMT" class="w-16 h-16">
+                    </div>
+                    <span class="text-white text-center font-medium">DMT</span>
+                </div>
+                
+                <!-- Micro ATM -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-uti/icon3.svg" alt="Micro ATM" class="w-16 h-16">
+                    </div>
+                    <span class="text-white text-center font-medium">Micro ATM</span>
+                </div>
+                
+                <!-- mPOS -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-uti/icon4.svg" alt="mPOS" class="w-16 h-16">
+                    </div>
+                    <span class="text-white text-center font-medium">mPOS</span>
+                </div>
+                
+                <!-- CMS -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-uti/icon5.svg" alt="CMS" class="w-16 h-16">
+                    </div>
+                    <span class="text-white text-center font-medium">CMS</span>
+                </div>
+                
+                <!-- UPI QR Code -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-uti/icon6.svg" alt="UPI QR Code" class="w-16 h-16">
+                    </div>
+                    <span class="text-white text-center font-medium">UPI QR Code</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <!-- FAQ Section -->
 <section class="py-16 max-w-3xl mx-auto px-4">
@@ -210,16 +333,16 @@
         $faqItems = [
             [
                 'question' => 'What documents are needed for account opening?',
-                'answer' => 'Valid ID proof, address proof, and PAN card are required. Our platform guides customers through the documentation process..',
+                'answer' => 'Valid ID proof, address proof, and PAN card are required. Our platform guides customers through the documentation process.',
                 'isOpen' => true
             ],
             [
-                'question' => 'What do I need to start?',
+                'question' => 'How long does it take to open an account?',
                 'answer' => 'You can offer AEPS services once you\'ve completed the registration process and have the necessary equipment set up. This typically includes having a biometric device and completing the verification process.',
                 'isOpen' => false
             ],
             [
-                'question' => 'How secure are the transactions?',
+                'question' => 'Is there any investment required to start this service?',
                 'answer' => 'To start offering AEPS services, you\'ll need a smartphone or computer, a biometric device for fingerprint authentication, a reliable internet connection, and valid documentation for registration.',
                 'isOpen' => false
             ]
