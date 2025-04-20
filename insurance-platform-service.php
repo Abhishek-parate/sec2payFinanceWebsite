@@ -39,29 +39,16 @@
             Start Your Insurance Business
           </a>
           
-          <div
-            class="mt-8 flex items-center justify-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm mx-auto shadow-sm">
-            <div class="flex -space-x-2">
-              <img src="https://randomuser.me/api/portraits/men/1.jpg"
-                class="w-8 h-8 rounded-full border-2 border-white">
-              <img src="https://randomuser.me/api/portraits/women/2.jpg"
-                class="w-8 h-8 rounded-full border-2 border-white">
-              <img src="https://randomuser.me/api/portraits/men/3.jpg"
-                class="w-8 h-8 rounded-full border-2 border-white">
-              <img src="https://randomuser.me/api/portraits/women/4.jpg"
-                class="w-8 h-8 rounded-full border-2 border-white">
-            </div>
-            <span class="text-gray-600 text-sm">1 Lac+ Retail partners across India</span>
+          <div class="relative w-full max-w-4xl mx-auto ">
+          <div class="relative z-20">
+            <img src="assets/images/insurance-platform-service/banner.png" alt="Dashboard" />
+            <div class="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-primary-600 to-transparent"></div>
           </div>
+        </div>
         </div>
         
         <!-- Main Dashboard Image -->
-        <div class="relative w-full max-w-4xl mx-auto">
-          <div class="relative z-20">
-            <img src="assets/images/insurance-platform-service/banner.png" alt="Dashboard" class="w-full h-auto" />
-            <div class="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-white to-transparent"></div>
-          </div>
-        </div>
+       
       </div>
     </div>
   </div>
@@ -72,7 +59,7 @@
 <!-- Banking Overview Section with Split Background -->
 <section class="relative py-16">
     <!-- Top background - light blue -->
-    <div class="absolute top-0 left-0 right-0 h-[60%] bg-secondary-200"></div>
+    <div class="absolute top-0 left-0 right-0 h-[60%] bg-secondary-100"></div>
     <!-- Bottom background - white -->
     <div class="absolute bottom-0 left-0 right-0 h-[40%] bg-white"></div>
     
@@ -123,7 +110,7 @@
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-primary-600 to-primary-500 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+        <div class="bg-gradient-to-br from-secondary-600 to-secondary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
             data-aos="fade-up" data-aos-duration="1000">
 
             <!-- Stars Background SVG -->

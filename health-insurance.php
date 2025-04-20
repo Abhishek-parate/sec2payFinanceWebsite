@@ -32,13 +32,13 @@
                 <!-- Left Content - Services List -->
                 <div class="p-8 md:p-12 mt-12">
                     <p class="font-semi-bolder text-primary-600 font-bold">Health Insurance</p>
-                    <h1 class="text-4xl font-bold text-secondary-600 ">Health Insurance</h1>
-                    <h1 class="text-4xl font-bold text-secondary-600 mb-4">Platform</h1>
-                    <p class="text-gray-500 mb-8">Secure Your Customers' Future With Digital Health Insurance Solutions.</p>
+                    <h1 class="text-4xl font-bold text-secondary-600 ">Secure Your Customers' Future</h1>
+                    <h1 class="text-4xl font-bold text-secondary-600 mb-4">With Digital Health Insurance Solutions</h1>
+                    <p class="text-gray-500 mb-8">Transform your business into a health insurance hub. Our platform lets you offer comprehensive health coverage solutions to your customers.</p>
 
                     <a href="#"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
-                        Start Shopping Today!
+                        Start Your Insurance Journey
 
                     </a>
 
@@ -237,7 +237,7 @@
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-primary-600 to-primary-500 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+        <div class="bg-gradient-to-br from-secondary-700 to-secondary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
             data-aos="fade-up" data-aos-duration="1000">
 
             <!-- Stars Background SVG -->

@@ -391,15 +391,15 @@
                 </div>
             </div>
         </section>
-        </main>
+    </main>
 
-<!-- Main Header Banner -->
+    <!-- Main Header Banner -->
 
 
-<?php include_once('includes/footer.php'); ?>
+    <?php include_once('includes/footer.php'); ?>
 
-<script src="./assets/js/main.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </body>
 
 </html>
