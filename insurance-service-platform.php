@@ -337,10 +337,10 @@
             <span class="mr-3 text-gray-700 font-medium">Monthly</span>
             <div class="relative inline-block w-12 align-middle select-none">
                 <input type="checkbox" id="billing-toggle"
-                    class="peer absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer checked:right-0 checked:border-secondary-500 border-gray-300"
+                    class="peer absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer checked:right-0 checked:border-primary-500 border-gray-300"
                     style="top: 0; bottom: 0; margin: auto 0; transition: right 0.2s ease-in-out, border-color 0.2s ease-in-out;">
                 <label for="billing-toggle"
-                    class="block h-6 overflow-hidden rounded-full bg-gray-300 cursor-pointer peer-checked:bg-secondary-400"
+                    class="block h-6 overflow-hidden rounded-full bg-gray-300 cursor-pointer peer-checked:bg-primary-400"
                     style="transition: background-color 0.2s ease-in-out;">
                 </label>
             </div>
@@ -358,7 +358,7 @@
                         <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
                             <div
                                 class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex">
-                                <img src="assets/images/banking/icon1.png" alt="Whitelabel Partner Icon">
+                                <img src="assets/images/utility-services-page/icon1.png" alt="Whitelabel Partner Icon">
                             </div>
                         </div>
                         <h3 class="text-3xl font-semibold text-gray-900">Basic</br>
@@ -373,7 +373,7 @@
                     <ul class="space-y-4 mb-6 flex-grow">
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -384,7 +384,7 @@
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -395,7 +395,7 @@
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -406,7 +406,7 @@
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -425,7 +425,7 @@
                             <span class="text-4xl font-bold text-gray-900 annual-price hidden">₹20,000</span>
                         </div>
                         <a href="#"
-                            class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
+                            class="block w-full py-3 px-4 bg-primary-500 hover:bg-primary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>
                     </div>
@@ -434,7 +434,7 @@
 
             <!-- Plan 2 - Featured -->
             <div
-                class="bg-secondary-500 rounded-xl drop-shadow-xl overflow-hidden transform transition-all duration-300 hover:drop-shadow-2xl hover:-translate-y-1 relative md:-mt-8 md:mb-8 md:z-10">
+                class="bg-primary-500 rounded-xl drop-shadow-xl overflow-hidden transform transition-all duration-300 hover:drop-shadow-2xl hover:-translate-y-1 relative md:-mt-8 md:mb-8 md:z-10">
                 <!-- Popular Badge -->
                 <div class="absolute top-4 right-4">
                     <span
@@ -447,8 +447,8 @@
                     <!-- Plan Icon and Title -->
                     <div class="flex items-center mb-6">
                         <div class="w-16 h-16 bg-white rounded-lg flex items-center justify-center mr-4">
-                            <div class="w-10 h-10 bg-gradient-to-r from-white to-secondary-300 overflow-hidden flex">
-                                <img src="assets/images/banking/icon2.png" alt="Whitelabel Reseller Icon">
+                            <div class="w-10 h-10 bg-gradient-to-r from-white to-primary-300 overflow-hidden flex">
+                                <img src="assets/images/utility-services-page/icon2.png" alt="Whitelabel Reseller Icon">
                             </div>
                         </div>
                         <h3 class="text-3xl font-semibold  text-white">Premium 
@@ -463,7 +463,7 @@
                     <ul class="space-y-4 mb-6 flex-grow">
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-500 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-primary-500 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -474,7 +474,7 @@
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-500 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-primary-500 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -485,7 +485,7 @@
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-500 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-primary-500 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -496,7 +496,7 @@
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-500 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-primary-500 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -515,7 +515,7 @@
                             <span class="text-4xl font-bold text-white annual-price hidden">₹40,000</span>
                         </div>
                         <a href="#"
-                            class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-secondary-600 font-medium text-center rounded-full transition-colors duration-300">
+                            class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-primary-600 font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>
                     </div>
@@ -531,7 +531,7 @@
                         <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
                             <div
                                 class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex">
-                                <img src="assets/images/banking/icon1.png" alt="Enterprise Partner Icon">
+                                <img src="assets/images/utility-services-page/icon1.png" alt="Enterprise Partner Icon">
                             </div>
                         </div>
                         <h3 class="text-3xl font-semibold text-gray-900">Enterprise
@@ -546,7 +546,7 @@
                     <ul class="space-y-4 mb-6 flex-grow">
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -557,7 +557,7 @@
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -568,7 +568,7 @@
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -579,7 +579,7 @@
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -598,7 +598,7 @@
                             <span class="text-4xl font-bold text-gray-900 annual-price hidden">₹80,000</span>
                         </div>
                         <a href="#"
-                            class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
+                            class="block w-full py-3 px-4 bg-primary-500 hover:bg-primary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>
                     </div>
@@ -615,7 +615,7 @@
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-secondary-700 to-secondary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+        <div class="bg-gradient-to-br from-primary-700 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
             data-aos="fade-up" data-aos-duration="1000">
 
             <!-- Stars Background SVG -->
@@ -643,7 +643,7 @@
                     </p>
 
                     <a href="#"
-                        class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
+                        class="inline-flex items-center bg-primary-500 hover:bg-primary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
                         data-aos="zoom-in" data-aos-delay="500">
                         Sign up free
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2" viewBox="0 0 20 20"

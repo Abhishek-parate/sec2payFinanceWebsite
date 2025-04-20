@@ -83,7 +83,7 @@
         <div class="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Feature Card 1 -->
             <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/utility-servises/auto.png"
+                <img src="assets\images\aeps\cash.png"
                     alt="Real-Time Payment"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left">
@@ -96,7 +96,7 @@
             
             <!-- Feature Card 2 -->
             <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/utility-servises/auto.png"
+                <img src="assets\images\aeps\bank.png"
                     alt="Real-Time Payment"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left">
@@ -109,7 +109,7 @@
             
             <!-- Feature Card 3 -->
             <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/utility-servises/auto.png"
+                <img src="assets\images\aeps\mini-statement.png"
                     alt="Real-Time Payment"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left">
@@ -400,7 +400,7 @@
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-secondary-700 to-secondary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+        <div class="bg-gradient-to-br from-primary-700 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
             data-aos="fade-up" data-aos-duration="1000">
 
             <!-- Stars Background SVG -->

@@ -62,12 +62,11 @@
 
                 <!-- Person Image -->
 
-
-                <div class="relative max-w-5xl mx-auto  ">
+                <div class="relative flex items-center justify-center max-w-5xl mx-auto">
                     <!-- Main Dashboard Image -->
-                    <div class="relative z-20 ">
-                        <img src="assets\images\cash-management-system\table-tv.png" alt="Dashboard" class=" h-96" />
-                        <div class="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-white to-transparent">
+                    <div class="relative z-20">
+                        <img src="assets\images\cash-management-system\table-tv.png" alt="Dashboard" class="h-96 mx-auto" />
+                        <div class="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-t from-white to-transparent">
                         </div>
                     </div>
                 </div>

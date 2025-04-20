@@ -517,7 +517,7 @@
                     <div class="flex items-center mb-6">
                         <div class="w-16 h-16 bg-white rounded-lg flex items-center justify-center mr-4">
                             <div class="w-10 h-10 bg-gradient-to-r from-white to-primary-300 overflow-hidden flex">
-                                <img src="assets/images/utility-services-page/icon2.png" alt="Primium partner Icon">
+                                <img src="assets/images/banking/icon2.png" alt="Primium partner Icon">
                             </div>
                         </div>
                         <h3 class="text-3xl font-semibold  text-white">Premium 
@@ -600,7 +600,7 @@
                         <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
                             <div
                                 class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex">
-                                <img src="assets/images/utility-services-page/icon3.png" alt="Enterprise Partner Icon">
+                                <img src="assets/images/banking/icon1.png" alt="Enterprise Partner Icon">
                             </div>
                         </div>
                         <h3 class="text-3xl font-semibold text-gray-900">Enterprise Partner</h3>

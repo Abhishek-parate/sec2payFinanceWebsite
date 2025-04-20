@@ -63,16 +63,17 @@
                 <!-- Person Image -->
 
 
-                <div class="relative max-w-5xl mx-auto  ">
+                <div class="relative flex items-center justify-center max-w-5xl mx-auto">
                     <!-- Main Dashboard Image -->
                     <div class="relative z-20">
-                        <img src="assets/images/banking-platform-service/banner.png" alt="Dashboard" class=" h-auto" />
-                        <div class="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-white to-transparent">
+                        <img src="assets/images/banking-platform-service/banner.png" alt="Dashboard" class=" h-96 mx-auto" />
+                        <div class="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-t from-white to-transparent">
                         </div>
                     </div>
                 </div>
             </div>
 </section>
+
 
 <!-- hero section ends -->
 
