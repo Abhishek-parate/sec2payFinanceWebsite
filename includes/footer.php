@@ -1,6 +1,4 @@
-</main>
-    
- <!-- Main Header Banner -->
+
 
 <!-- Footer -->
 <footer class="bg-white py-4">
@@ -135,7 +133,3 @@
     </div>
 </footer>
 
-<script src="./assets/js/main.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-</body>
-</html>
