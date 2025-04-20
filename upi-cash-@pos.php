@@ -54,6 +54,39 @@
 
 <!-- hero section ends -->
 
+<!-- Why Choose Sec2Pay UPI Cash @POS Platform-->
+<section class="py-12 mb-12 mt-6 bg-primary-100">
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl text-center md:text-4xl font-bold  text-primary-700 mb-8">Why Choose Sec2Pay UPI Cash @POS Platform</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 relative" style="top: calc(60% - 12rem);">
+            <!-- Feature 1 -->
+            <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-300">
+            <h3 class="text-xl font-semibold text-secondary-600 mb-3">Cash Point</h3>
+                <p class="text-gray-600">
+                Turn your store into a neighborhood cash point. Let customers withdraw cash during regular purchases through UPI.
+                </p>
+            </div>
+            
+            <!-- Feature 2 -->
+            <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-300">
+            <h3 class="text-xl font-semibold text-secondary-600 mb-3">Simple Process </h3>
+                <p class="text-gray-600">
+                Quick cash withdrawals through existing POS terminals. Customers pay via UPI and receive cash instantly.
+                </p>
+            </div>
+            
+            <!-- Feature 3 -->
+            <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-300">
+            <h3 class="text-xl font-semibold text-secondary-600 mb-3">Additional Income</h3>
+                <p class="text-gray-600">
+                Earn commission on each withdrawal transaction while providing an essential service to your community.
+                </p>
+            </div>
+        </div>  
+    </div>
+</section>
+
 
 <!-- FAQ Section -->
 <section class="py-16 max-w-3xl mx-auto px-4">

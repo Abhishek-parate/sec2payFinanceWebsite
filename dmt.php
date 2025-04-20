@@ -66,7 +66,7 @@
             </div>
 
             <!-- Feature 2 - Simple Setup -->
-            <div class="rounded-lg border border-primary-500 p-6">
+            <div class="rounded-lg border  p-6">
                 <h3 class="text-xl font-semibold text-gray-800 mb-3">Multi-Bank Support </h3>
                 <p class="text-gray-700">
                     Connect with 20+ banking partners for reliable transfers.
@@ -74,7 +74,7 @@
             </div>
 
             <!-- Feature 3 - Quick Settlements -->
-            <div class="rounded-lg border border-primary-500 p-6">
+            <div class="rounded-lg border  p-6">
                 <h3 class="text-xl font-semibold text-gray-800 mb-3"> Real-Time Status</h3>
                 <p class="text-gray-700">
                     Track transfer status instantly through SMS alerts.
