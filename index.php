@@ -79,7 +79,7 @@
             <!-- Main Dashboard Image -->
             <div class="relative z-20">
                 <img src="./assets/images/home/dashboard.png" alt="Dashboard" class="w-full h-auto" />
-                <div class="absolute bottom-0 left-0 right-0 h-1/3 bg-gradient-to-t from-white to-transparent"></div>
+                <div class="absolute bottom-0 left-0 right-0 h-2/5 bg-gradient-to-t from-white to-transparent"></div>
             </div>
         </div>
 
@@ -303,7 +303,7 @@
                                         </svg>
                                     </div>
                                 </div>
-                                <span class="ml-3 text-gray-700 font-medium">AePS</span>
+                                <span class="ml-3 text-gray-700 font-medium">Aadhaar Banking (AePS)</span>
                             </div>
                             <!-- More service items... (keep the rest of your banking services) -->
                             <div class="flex items-start">
@@ -316,7 +316,7 @@
                                         </svg>
                                     </div>
                                 </div>
-                                <span class="ml-3 text-gray-700 font-medium">DMT & DMT Channels</span>
+                                <span class="ml-3 text-gray-700 font-medium">Money Transfer (DMT)</span>
                             </div>
                             <div class="flex items-start">
                                 <div class="flex-shrink-0 mt-1">
@@ -328,7 +328,19 @@
                                         </svg>
                                     </div>
                                 </div>
-                                <span class="ml-3 text-gray-700 font-medium">MicroATM or Mini ATM</span>
+                                <span class="ml-3 text-gray-700 font-medium">Micro ATM</span>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span class="ml-3 text-gray-700 font-medium">UPI Cash@POS</span>
                             </div>
                             <div class="flex items-start">
                                 <div class="flex-shrink-0 mt-1">
@@ -364,7 +376,7 @@
                                         </svg>
                                     </div>
                                 </div>
-                                <span class="ml-3 text-gray-700 font-medium">Indo-nepal Money Transfer</span>
+                                <span class="ml-3 text-gray-700 font-medium">Indo-Nepal Transfer</span>
                             </div>
                         </div>
                     </div>
@@ -543,7 +555,7 @@
                     <div class="mt-2 relative">
                         <div class="absolute top-2 right-2 w-3 h-3 bg-white rounded-full opacity-70" data-aos="fade-in"
                             data-aos-delay="200"></div>
-                        <img src="assets/images/home/dashboard-img.png" alt="Dashboard Interface"
+                        <img src="assets/images/home/partner1.png" alt="Dashboard Interface"
                             class="w-full h-auto rounded" />
                     </div>
                 </div>
@@ -552,14 +564,14 @@
                 <div class="bg-blue-900 rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105"
                     data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                     <div class="p-4 text-white">
-                        <h3 class="font-semibold text-xl mb-2 mt-2">Regular Updates</h3>
-                        <p class="text-sm">Quick setup for your financial services platform</p>
+                        <h3 class="font-semibold text-xl mb-2 mt-2">Complete support</h3>
+                        <p class="text-sm">Technical assistance whenever you need</p>
                     </div>
                     <div class="mt-2 relative">
-                        <div class="absolute top-2 right-2 w-3 h-3 bg-white rounded-full opacity-70" data-aos="fade-in"
+                        <div class="absolute top-2 right-2 w-1 h-1 bg-white rounded-full opacity-70" data-aos="fade-in"
                             data-aos-delay="300"></div>
-                        <img src="assets/images/home/img-home.png" alt="Dashboard Interface"
-                            class="w-full h-auto rounded" />
+                        <img src="assets/images/home/partner2.png" alt="Dashboard Interface"
+                            class=" h-48 rounded" />
                     </div>
                 </div>
 
@@ -567,13 +579,13 @@
                 <div class="bg-secondary-500 rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105"
                     data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
                     <div class="p-4 text-white">
-                        <h3 class="font-semibold text-xl mb-2 mt-2">Ready in 7 Days</h3>
-                        <p class="text-sm">Quick setup for your financial services platform</p>
+                        <h3 class="font-semibold text-xl mb-2 mt-2">Bank-Grade Security </h3>
+                        <p class="text-sm">Protected transactions</p>
                     </div>
                     <div class="mt-2 relative">
                         <div class="absolute top-2 right-2 w-3 h-3 bg-white rounded-full opacity-70" data-aos="fade-in"
                             data-aos-delay="400"></div>
-                        <img src="assets/images/home/dashboard-img.png" alt="Dashboard Interface"
+                        <img src="assets/images/home/partner3.png" alt="Dashboard Interface"
                             class="w-full h-auto rounded" />
                     </div>
                 </div>
@@ -583,12 +595,12 @@
                     data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
                     <div class="p-4 text-white">
                         <h3 class="font-semibold text-xl mb-2 mt-2">Regular Updates</h3>
-                        <p class="text-sm">Quick setup for your financial services platform</p>
+                        <p class="text-sm">New features to help you grow</p>
                     </div>
                     <div class="mt-2 relative">
                         <div class="absolute top-2 right-2 w-3 h-3 bg-white rounded-full opacity-70" data-aos="fade-in"
                             data-aos-delay="500"></div>
-                        <img src="assets/images/home/img-home.png" alt="Dashboard Interface"
+                        <img src="assets/images/home/partner4.png" alt="Dashboard Interface"
                             class="w-full h-auto rounded" />
                     </div>
                 </div>
@@ -694,20 +706,50 @@
             partners across India</p>
 
         <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
-            <div class="bg-white rounded-2xl shadow-lg overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden relative "  data-aos="fade-up" data-aos-delay="200">
+                
                 <img src="assets/images/home/test1.png" alt="Testimonial 1" class="w-full object-contain">
+
+    <div class="absolute bottom-0 items-center justify-center mx-4">
+        <h2 class="text-white text-3xl font-bold">FINASTRA</h2>
+        <p class=" text-white text-lg font-semibold">"It's a low-code platform that helps us automate
+        processes."</p>
+        <p class=" text-white text-xs my-4 font-semibold">Joerg Klueckmann <br>
+        VP of Marketing</p>
+    </div>
             </div>
 
+            
             <div class="bg-white rounded-2xl shadow-lg overflow-hidden" data-aos="fade-up" data-aos-delay="300">
                 <img src="assets/images/home/test2.png" alt="Testimonial 2" class="w-full object-contain">
+                <div class="absolute bottom-0 items-center justify-center mx-4">
+        <h2 class="text-white text-3xl font-bold">FINASTRA</h2>
+        <p class=" text-white text-lg font-semibold">"It's a low-code platform that helps us automate
+        processes."</p>
+        <p class=" text-white text-xs my-4 font-semibold">Joerg Klueckmann <br>
+        VP of Marketing</p>
+    </div>
             </div>
 
             <div class="bg-white rounded-2xl shadow-lg overflow-hidden" data-aos="fade-up" data-aos-delay="400">
                 <img src="assets/images/home/test3.png" alt="Testimonial 3" class="w-full object-contain">
+                <div class="absolute bottom-0 items-center justify-center mx-4">
+        <h2 class="text-white text-3xl font-bold">FINASTRA</h2>
+        <p class=" text-white text-lg font-semibold">"It's a low-code platform that helps us automate
+        processes."</p>
+        <p class=" text-white text-xs my-4 font-semibold">Joerg Klueckmann <br>
+        VP of Marketing</p>
+    </div>
             </div>
 
             <div class="bg-white rounded-2xl shadow-lg overflow-hidden" data-aos="fade-up" data-aos-delay="500">
-                <img src="assets/images/home/test4.png" alt="Testimonial 4" class="w-full object-contain">
+                <img src="assets/images/home/test4.png" alt="Testimonial 4" class="w-full object-contain"><div class="absolute bottom-0 items-center justify-center mx-4">
+        <h2 class="text-white text-3xl font-bold">FINASTRA</h2>
+        <p class=" text-white text-lg font-semibold">"It's a low-code platform that helps us automate
+        processes."</p>
+        <p class=" text-white text-xs my-4 font-semibold">Joerg Klueckmann <br>
+        VP of Marketing</p>
+    </div>
             </div>
         </div>
     </div>

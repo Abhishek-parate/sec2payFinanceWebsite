@@ -1285,6 +1285,18 @@ body {
   height: 100vh;
 }
 
+.h-2\/5 {
+  height: 40%;
+}
+
+.h-2\/4 {
+  height: 50%;
+}
+
+.h-2\/3 {
+  height: 66.666667%;
+}
+
 .max-h-\[400px\] {
   max-height: 400px;
 }
@@ -2974,11 +2986,6 @@ body {
   background-color: rgb(253 233 231 / var(--tw-bg-opacity, 1));
 }
 
-.bg-secondary-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(251 211 207 / var(--tw-bg-opacity, 1));
-}
-
 .bg-secondary-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(241 87 68 / var(--tw-bg-opacity, 1));
@@ -3847,16 +3854,6 @@ body {
 .text-yellow-500 {
   --tw-text-opacity: 1;
   color: rgb(234 179 8 / var(--tw-text-opacity, 1));
-}
-
-.text-secondary-800 {
-  --tw-text-opacity: 1;
-  color: rgb(140 47 37 / var(--tw-text-opacity, 1));
-}
-
-.text-secondary-700 {
-  --tw-text-opacity: 1;
-  color: rgb(178 60 47 / var(--tw-text-opacity, 1));
 }
 
 .text-opacity-90 {
