@@ -77,11 +77,7 @@
                 </div>
             </div>
         </div>
-
-
-
         <!-- Dashboard Image with AOS animation -->
-
     </div>
 </section>
 
@@ -241,11 +237,6 @@
     <!-- AOS CSS -->
     
     <div class="container mx-auto px-6">
-        <!-- Section heading -->
-        <div class="text-center mb-12" data-aos="fade-up" data-aos-duration="800">
-            <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Key Features</h2>
-            <p class="text-gray-600 max-w-2xl mx-auto">We provide comprehensive solutions designed to streamline your business operations and enhance customer experience.</p>
-        </div>
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <!-- Feature Card 1 -->
@@ -256,43 +247,37 @@
                 </div>
                 <div class="p-6 text-left flex-grow">
                     <h3 class="font-bold text-xl mb-3 flex items-center text-gray-800">
-                       
                         Integration
                     </h3>
-                    <p class="text-gray-600 mb-4">Simplified integration for a wide array of services with plug-and-play APIs and comprehensive documentation.</p>
-                    
+                    <p class="text-gray-600 mb-4">Simplified integration for a wide array of services</p>
                 </div>
             </div>
             
             <!-- Feature Card 2 -->
             <div class="rounded-xl overflow-hidden shadow-lg border border-gray-100 flex flex-col transform transition-all duration-300 hover:shadow-xl hover:-translate-y-2 bg-white" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
                 <div class="h-48 overflow-hidden relative">
-                    <img src="assets/images/multi-service/bg-secondary-card.png" alt="Solutions" class="w-full h-full object-cover rounded-t-xl">
+                    <img src="assets/images/multi-service/bg-secondary-card2.png" alt="Solutions" class="w-full h-full object-cover rounded-t-xl">
                 
                 </div>
                 <div class="p-6 text-left flex-grow">
                     <h3 class="font-bold text-xl mb-3 flex items-center text-gray-800">
-                        
                         Solutions
                     </h3>
-                    <p class="text-gray-600 mb-4">Scalable solutions that grow with your business needs, from startups to enterprise-level organizations.</p>
-                   
+                    <p class="text-gray-600 mb-4">Scalable solutions for businesses of any size</p>
                 </div>
             </div>
 
             <!-- Feature Card 3 -->
             <div class="rounded-xl overflow-hidden shadow-lg border border-gray-100 flex flex-col transform transition-all duration-300 hover:shadow-xl hover:-translate-y-2 bg-white" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
                 <div class="h-48 overflow-hidden relative">
-                    <img src="assets/images/multi-service/bg-secondary-card.png" alt="Operations" class="w-full h-full object-cover rounded-t-xl">
+                    <img src="assets/images/multi-service/bg-secondary-card3.png" alt="Operations" class="w-full h-full object-cover rounded-t-xl">
                    
                 </div>
                 <div class="p-6 text-left flex-grow">
                     <h3 class="font-bold text-xl mb-3 flex items-center text-gray-800">
-                       
                         Operations
                     </h3>
-                    <p class="text-gray-600 mb-4">Dedicated support team ensures seamless operations with proactive monitoring and rapid response times.</p>
-                   
+                    <p class="text-gray-600 mb-4">Dedicated support to ensure seamless operations.</p>
                 </div>
             </div>
         </div>

@@ -1029,3 +1029,88 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+      const tabButtons = document.querySelectorAll('.tab-btn');
+      const tabPanes = document.querySelectorAll('.tab-pane');
+      
+      // Function to switch tabs
+      function switchTab(tabId) {
+          // Hide all tab panes
+          tabPanes.forEach(pane => {
+              pane.classList.add('hidden', 'opacity-0');
+              pane.classList.remove('block', 'opacity-100');
+          });
+          
+          // Reset all tab buttons to default style
+          tabButtons.forEach(btn => {
+              btn.classList.remove('bg-secondary-600', 'text-white', 'active');
+              btn.classList.add('bg-white', 'text-gray-700');
+          });
+          
+          // Show the selected tab pane
+          const selectedPane = document.getElementById(tabId);
+          if (selectedPane) {
+              selectedPane.classList.remove('hidden', 'opacity-0');
+              selectedPane.classList.add('block', 'opacity-100');
+          }
+          
+          // Highlight the clicked button
+          const selectedButton = document.querySelector(`.tab-btn[data-tab="${tabId}"]`);
+          if (selectedButton) {
+              selectedButton.classList.remove('bg-white', 'text-gray-700');
+              selectedButton.classList.add('bg-secondary-600', 'text-white', 'active');
+          }
+      }
+      
+      // Add click event listeners to tab buttons
+      tabButtons.forEach(button => {
+          button.addEventListener('click', function() {
+              const tabId = this.getAttribute('data-tab');
+              switchTab(tabId);
+          });
+      });
+  });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    const tabPanes = document.querySelectorAll('.tab-pane');
+    
+    // Function to switch tabs
+    function switchTab(tabId) {
+        // Hide all tab panes
+        tabPanes.forEach(pane => {
+            pane.classList.add('hidden', 'opacity-0');
+            pane.classList.remove('block', 'opacity-100');
+        });
+        
+        // Reset all tab buttons to default style
+        tabButtons.forEach(btn => {
+            btn.classList.remove('bg-secondary-600', 'text-white', 'active');
+            btn.classList.add('bg-white', 'text-gray-700');
+        });
+        
+        // Show the selected tab pane
+        const selectedPane = document.getElementById(tabId);
+        if (selectedPane) {
+            selectedPane.classList.remove('hidden', 'opacity-0');
+            selectedPane.classList.add('block', 'opacity-100');
+        }
+        
+        // Highlight the clicked button
+        const selectedButton = document.querySelector(`.tab-btn[data-tab="${tabId}"]`);
+        if (selectedButton) {
+            selectedButton.classList.remove('bg-white', 'text-gray-700');
+            selectedButton.classList.add('bg-secondary-600', 'text-white', 'active');
+        }
+    }
+    
+    // Add click event listeners to tab buttons
+    tabButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const tabId = this.getAttribute('data-tab');
+            switchTab(tabId);
+        });
+    });
+});

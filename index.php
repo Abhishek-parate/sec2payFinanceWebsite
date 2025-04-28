@@ -389,15 +389,14 @@
                 </div>
             </div>
         </div>
-
-        <!-- Travel Booking Content -->
-        <div class="product-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 hidden">
-            <div class="rounded-xl overflow-hidden bg-gradient-to-r from-blue-50 to-blue-100 shadow-md">
+        <!-- Banking Solutions Content -->
+        <div class="product-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="rounded-xl overflow-hidden bg-gradient-to-r from-red-50 to-red-100 shadow-md">
                 <div class="grid grid-cols-1 md:grid-cols-2">
-                    <!-- Left Content -->
+                    <!-- Left Content - Services List -->
                     <div class="p-8 md:p-12">
-                        <h2 class="text-2xl font-bold text-gray-800 mb-4">Travel Booking Solutions</h2>
-                        <p class="text-gray-700 mb-8">Comprehensive travel solutions for your customers.</p>
+                        <h2 class="text-2xl font-bold text-gray-800 mb-4">Travel Solutions</h2>
+                        <p class="text-gray-700 mb-8">Simplify travel bookings with IRCTC, flights, and buses.</p>
 
                         <div class="space-y-4">
                             <!-- Service Items -->
@@ -411,8 +410,9 @@
                                         </svg>
                                     </div>
                                 </div>
-                                <span class="ml-3 text-gray-700 font-medium">Flight Bookings</span>
+                                <span class="ml-3 text-gray-700 font-medium">Train Ticket Bookings</span>
                             </div>
+                            <!-- More service items... (keep the rest of your banking services) -->
                             <div class="flex items-start">
                                 <div class="flex-shrink-0 mt-1">
                                     <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
@@ -423,7 +423,7 @@
                                         </svg>
                                     </div>
                                 </div>
-                                <span class="ml-3 text-gray-700 font-medium">Hotel Reservations</span>
+                                <span class="ml-3 text-gray-700 font-medium">Flight Reservations</span>
                             </div>
                             <div class="flex items-start">
                                 <div class="flex-shrink-0 mt-1">
@@ -447,45 +447,30 @@
                                         </svg>
                                     </div>
                                 </div>
-                                <span class="ml-3 text-gray-700 font-medium">Train Reservations</span>
-                            </div>
-                            <div class="flex items-start">
-                                <div class="flex-shrink-0 mt-1">
-                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
-                                            viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M5 13l4 4L19 7" />
-                                        </svg>
-                                    </div>
-                                </div>
-                                <span class="ml-3 text-gray-700 font-medium">Holiday Packages</span>
+                                <span class="ml-3 text-gray-700 font-medium">UPI Cash@POS</span>
                             </div>
                         </div>
                     </div>
 
                     <!-- Right Content - Image -->
                     <div class="relative h-48 sm:h-64 md:h-auto">
-                        <img src="assets/images/home/image.png" alt="Travel booking illustration"
+                        <img src="assets/images/home/image.png" alt="Man using banking services on smartphone"
                             class="w-full h-full object-cover md:object-contain md:absolute md:bottom-0 md:right-0" />
                     </div>
                 </div>
             </div>
         </div>
-
-        <!-- Add remaining content sections for other tabs (Utility Payment, E-Governance, Insurance, ONDC) -->
-        <!-- Each section should have the class "product-content" and "hidden" except for the first one -->
-
-        <!-- Utility Payment Content -->
-        <div class="product-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 hidden">
-            <div class="rounded-xl overflow-hidden bg-gradient-to-r from-green-50 to-green-100 shadow-md">
-                <!-- Similar structure as above, but with utility payment content -->
+        <!-- Banking Solutions Content -->
+        <div class="product-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="rounded-xl overflow-hidden bg-gradient-to-r from-red-50 to-red-100 shadow-md">
                 <div class="grid grid-cols-1 md:grid-cols-2">
+                    <!-- Left Content - Services List -->
                     <div class="p-8 md:p-12">
-                        <h2 class="text-2xl font-bold text-gray-800 mb-4">Utility Payment Solutions</h2>
-                        <p class="text-gray-700 mb-8">Enable your customers to pay all bills in one place.</p>
+                        <h2 class="text-2xl font-bold text-gray-800 mb-4">Utility Solutions</h2>
+                        <p class="text-gray-700 mb-8">Offer convenient bill payments and recharges</p>
 
                         <div class="space-y-4">
+                            <!-- Service Items -->
                             <div class="flex items-start">
                                 <div class="flex-shrink-0 mt-1">
                                     <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
@@ -496,18 +481,247 @@
                                         </svg>
                                     </div>
                                 </div>
-                                <span class="ml-3 text-gray-700 font-medium">Electricity Bills</span>
+                                <span class="ml-3 text-gray-700 font-medium">Mobile Recharge</span>
                             </div>
-                            <!-- Add more utility payment items here -->
+                            <!-- More service items... (keep the rest of your banking services) -->
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span class="ml-3 text-gray-700 font-medium">BBPS Services</span>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span class="ml-3 text-gray-700 font-medium">Credit Card Bills</span>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span class="ml-3 text-gray-700 font-medium">FASTag Recharge</span>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span class="ml-3 text-gray-700 font-medium">LIC Premium</span>
+                            </div>
                         </div>
                     </div>
+
+                    <!-- Right Content - Image -->
                     <div class="relative h-48 sm:h-64 md:h-auto">
-                        <img src="assets/images/home/image.png" alt="Utility payments illustration"
+                        <img src="assets/images/home/image.png" alt="Man using banking services on smartphone"
                             class="w-full h-full object-cover md:object-contain md:absolute md:bottom-0 md:right-0" />
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Banking Solutions Content -->
+        <div class="product-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="rounded-xl overflow-hidden bg-gradient-to-r from-red-50 to-red-100 shadow-md">
+                <div class="grid grid-cols-1 md:grid-cols-2">
+                    <!-- Left Content - Services List -->
+                    <div class="p-8 md:p-12">
+                        <h2 class="text-2xl font-bold text-gray-800 mb-4">E-Governance</h2>
+                        <p class="text-gray-700 mb-8">Provide essential document services</p>
+
+                        <div class="space-y-4">
+                            <!-- Service Items -->
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span class="ml-3 text-gray-700 font-medium">PAN Card (UTI)</span>
+                            </div>
+                            <!-- More service items... (keep the rest of your banking services) -->
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span class="ml-3 text-gray-700 font-medium">PAN Card (NSDL)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Content - Image -->
+                    <div class="relative h-48 sm:h-64 md:h-auto">
+                        <img src="assets/images/home/image.png" alt="Man using banking services on smartphone"
+                            class="w-full h-full object-cover md:object-contain md:absolute md:bottom-0 md:right-0" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Banking Solutions Content -->
+        <div class="product-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="rounded-xl overflow-hidden bg-gradient-to-r from-red-50 to-red-100 shadow-md">
+                <div class="grid grid-cols-1 md:grid-cols-2">
+                    <!-- Left Content - Services List -->
+                    <div class="p-8 md:p-12">
+                        <h2 class="text-2xl font-bold text-gray-800 mb-4">Insurance Services</h2>
+                        <p class="text-gray-700 mb-8">Help secure your customer's future</p>
+
+                        <div class="space-y-4">
+                            <!-- Service Items -->
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span class="ml-3 text-gray-700 font-medium">Motor Insurance</span>
+                            </div>
+                            <!-- More service items... (keep the rest of your banking services) -->
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span class="ml-3 text-gray-700 font-medium">Health Coverage</span>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span class="ml-3 text-gray-700 font-medium">Life Protection</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Content - Image -->
+                    <div class="relative h-48 sm:h-64 md:h-auto">
+                        <img src="assets/images/home/image.png" alt="Man using banking services on smartphone"
+                            class="w-full h-full object-cover md:object-contain md:absolute md:bottom-0 md:right-0" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Banking Solutions Content -->
+        <div class="product-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="rounded-xl overflow-hidden bg-gradient-to-r from-red-50 to-red-100 shadow-md">
+                <div class="grid grid-cols-1 md:grid-cols-2">
+                    <!-- Left Content - Services List -->
+                    <div class="p-8 md:p-12">
+                        <h2 class="text-2xl font-bold text-gray-800 mb-4">ONDC Platform</h2>
+                        <p class="text-gray-700 mb-8">Join India's Open Network</p>
+
+                        <div class="space-y-4">
+                            <!-- Service Items -->
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span class="ml-3 text-gray-700 font-medium">E-Commerce Solutions</span>
+                            </div>
+                            <!-- More service items... (keep the rest of your banking services) -->
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span class="ml-3 text-gray-700 font-medium">Buyer Programs</span>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span class="ml-3 text-gray-700 font-medium">Logistics Network</span>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
+                                            viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <span class="ml-3 text-gray-700 font-medium">Business Credit</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Content - Image -->
+                    <div class="relative h-48 sm:h-64 md:h-auto">
+                        <img src="assets/images/home/image.png" alt="Man using banking services on smartphone"
+                            class="w-full h-full object-cover md:object-contain md:absolute md:bottom-0 md:right-0" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+ 
 
         <!-- Continue with other sections... -->
     </div>
@@ -546,62 +760,70 @@
             <!-- Feature Cards Grid -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 pb-10 md:pb-20">
                 <!-- Card 1 -->
-                <div class="bg-secondary-500 rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105"
+                <div class="bg-secondary-500 rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105 flex flex-col"
                     data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                     <div class="p-4 text-white">
                         <h3 class="font-semibold text-xl mb-2 mt-2">Ready in 7 Days</h3>
                         <p class="text-sm">Quick setup for your financial services platform</p>
                     </div>
-                    <div class="mt-2 relative">
+                    <div class="mt-auto relative">
                         <div class="absolute top-2 right-2 w-3 h-3 bg-white rounded-full opacity-70" data-aos="fade-in"
                             data-aos-delay="200"></div>
-                        <img src="assets/images/home/partner1.png" alt="Dashboard Interface"
-                            class="w-full h-auto rounded" />
+                        <div class="h-48 overflow-hidden">
+                            <img src="assets/images/home/partner1.png" alt="Dashboard Interface"
+                                class="w-full object-cover" />
+                        </div>
                     </div>
                 </div>
 
                 <!-- Card 2 -->
-                <div class="bg-blue-900 rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105"
+                <div class="bg-blue-900 rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105 flex flex-col"
                     data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
                     <div class="p-4 text-white">
                         <h3 class="font-semibold text-xl mb-2 mt-2">Complete support</h3>
                         <p class="text-sm">Technical assistance whenever you need</p>
                     </div>
-                    <div class="mt-2 relative">
+                    <div class="mt-auto relative">
                         <div class="absolute top-2 right-2 w-1 h-1 bg-white rounded-full opacity-70" data-aos="fade-in"
                             data-aos-delay="300"></div>
-                        <img src="assets/images/home/partner2.png" alt="Dashboard Interface"
-                            class=" h-48 rounded" />
+                        <div class="h-48 overflow-hidden">
+                            <img src="assets/images/home/partner2.png" alt="Dashboard Interface"
+                                class="w-full object-cover" />
+                        </div>
                     </div>
                 </div>
 
                 <!-- Card 3 -->
-                <div class="bg-secondary-500 rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105"
+                <div class="bg-secondary-500 rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105 flex flex-col"
                     data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
                     <div class="p-4 text-white">
                         <h3 class="font-semibold text-xl mb-2 mt-2">Bank-Grade Security </h3>
                         <p class="text-sm">Protected transactions</p>
                     </div>
-                    <div class="mt-2 relative">
+                    <div class="mt-auto relative">
                         <div class="absolute top-2 right-2 w-3 h-3 bg-white rounded-full opacity-70" data-aos="fade-in"
                             data-aos-delay="400"></div>
-                        <img src="assets/images/home/partner3.png" alt="Dashboard Interface"
-                            class="w-full h-auto rounded" />
+                        <div class="h-48 overflow-hidden">
+                            <img src="assets/images/home/partner3.png" alt="Dashboard Interface"
+                                class="w-full object-cover" />
+                        </div>
                     </div>
                 </div>
 
                 <!-- Card 4 -->
-                <div class="bg-blue-900 rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105"
+                <div class="bg-blue-900 rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105 flex flex-col"
                     data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
                     <div class="p-4 text-white">
                         <h3 class="font-semibold text-xl mb-2 mt-2">Regular Updates</h3>
                         <p class="text-sm">New features to help you grow</p>
                     </div>
-                    <div class="mt-2 relative">
+                    <div class="mt-auto relative">
                         <div class="absolute top-2 right-2 w-3 h-3 bg-white rounded-full opacity-70" data-aos="fade-in"
                             data-aos-delay="500"></div>
-                        <img src="assets/images/home/partner4.png" alt="Dashboard Interface"
-                            class="w-full h-auto rounded" />
+                        <div class="h-48 overflow-hidden">
+                            <img src="assets/images/home/partner4.png" alt="Dashboard Interface"
+                                class="w-full object-cover" />
+                        </div>
                     </div>
                 </div>
             </div>

@@ -31,7 +31,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 ">
                 <!-- Left Content - Services List -->
                 <div class="p-8 md:p-12">
-                    <p class="font-semi-bolder text-primary-600 font-bold">Traveling Solutions</p>
+                    <p class="font-semi-bolder text-primary-900"><span class="text-primary-500">Home / Multi Services Platform /</span> Traveling Solutions</p>
                     <h1 class="text-4xl font-bold text-secondary-500 ">Build Your</h1>
                     <h1 class="text-4xl font-bold text-secondary-500 mb-4">Travel Business</h1>
                     <p class="text-gray-500 mb-8">Join 20,000+ travel retailers earning through India's trusted B2B
@@ -83,8 +83,6 @@
     <!-- Section Header -->
     <div class="max-w-md mb-10" data-aos="fade-up">
         <h2 class="text-2xl md:text-3xl text-white font-bold mb-2">Why Choose Sec2pay Travel Platform?</h2>
-        <p class="text-white/80 text-sm">Enjoy different experiences in every place you visit and discover new and
-            affordable adventures of course.</p>
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
@@ -93,7 +91,7 @@
             <!-- Flight Bookings -->
             <div class="bg-white text-gray-800 rounded-lg p-4 flex" data-aos="fade-up" data-aos-delay="50">
                 <div class="flex-shrink-0 mr-4">
-                    <img src="assets/images/trevelling/svg/flight.svg" alt="Flight" class="w-12 h-12">
+                    <img src="assets/images/trevelling/svg/flight.svg" alt="Flight" class="w-12 h-12 mt-3">
                 </div>
                 <div class="flex-grow">
                     <h3 class="font-semibold text-base text-gray-800 mb-1">Flight Bookings</h3>
@@ -120,11 +118,11 @@
 
             <!-- Platform Features -->
             <div class="flex" data-aos="fade-up" data-aos-delay="100">
-                <div class="flex-shrink-0 mr-4 bg-white rounded-lg p-2 self-start">
+                <div class="flex-shrink-0 mr-4 bg-white rounded-lg p-2 self-start mt-4">
                     <img src="assets/images/trevelling/svg/features.svg" alt="Platform" class="w-8 h-8">
                 </div>
                 <div class="flex-grow">
-                    <h3 class="font-semibold text-base mb-1">Platform Features</h3>
+                    <h3 class="font-semibold text-white mb-1">Platform Features</h3>
                     <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-4 gap-y-1 text-xs text-white/80">
                         <li class="flex items-start">
                             <span class="mr-1">•</span>
@@ -152,11 +150,11 @@
 
             <!-- Quick Payments -->
             <div class="flex" data-aos="fade-up" data-aos-delay="150">
-                <div class="flex-shrink-0 mr-4 bg-white rounded-lg p-2 self-start">
+                <div class="flex-shrink-0 mr-4 bg-white rounded-lg p-2 self-start mt-4">
                     <img src="assets/images/trevelling/svg/quick.svg" alt="Payments" class="w-8 h-8">
                 </div>
                 <div class="flex-grow">
-                    <h3 class="font-semibold text-base mb-1">Quick Payments</h3>
+                    <h3 class="font-semibold text-white mb-1">Quick Payments</h3>
                     <ul class="grid grid-cols-1 gap-y-1 text-xs text-white/80">
                         <li class="flex items-start">
                             <span class="mr-1">•</span>
@@ -176,11 +174,11 @@
 
             <!-- Smart Booking Management -->
             <div class="flex" data-aos="fade-up" data-aos-delay="200">
-                <div class="flex-shrink-0 mr-4 bg-white rounded-lg p-2 self-start">
+                <div class="flex-shrink-0 mr-4 bg-white rounded-lg p-2 self-start mt-4">
                     <img src="assets/images/trevelling/svg/smart.svg" alt="Booking" class="w-8 h-8">
                 </div>
                 <div class="flex-grow">
-                    <h3 class="font-semibold text-base mb-1">Smart Booking Management</h3>
+                    <h3 class="font-semibold text-white mb-1">Smart Booking Management</h3>
                     <ul class="grid grid-cols-1 gap-y-1 text-xs text-white/80">
                         <li class="flex items-start">
                             <span class="mr-1">•</span>
@@ -200,11 +198,11 @@
 
             <!-- Bus Services -->
             <div class="flex" data-aos="fade-up" data-aos-delay="250">
-                <div class="flex-shrink-0 mr-4 bg-white rounded-lg p-2 self-start">
+                <div class="flex-shrink-0 mr-4 bg-white rounded-lg p-2 self-start mt-4">
                     <img src="assets/images/trevelling/svg/bus.svg" alt="Bus" class="w-8 h-8">
                 </div>
                 <div class="flex-grow">
-                    <h3 class="font-semibold text-base mb-1">Bus Services</h3>
+                    <h3 class="font-semibold text-white mb-1">Bus Services</h3>
                     <ul class="grid grid-cols-1 gap-y-1 text-xs text-white/80">
                         <li class="flex items-start">
                             <span class="mr-1">•</span>
@@ -228,11 +226,11 @@
 
             <!-- Hotel & Accommodation -->
             <div class="flex" data-aos="fade-up" data-aos-delay="300">
-                <div class="flex-shrink-0 mr-4 bg-white rounded-lg p-2 self-start">
+                <div class="flex-shrink-0 mr-4 bg-white rounded-lg p-2 self-start mt-4">
                     <img src="assets/images/trevelling/svg/hotel.svg" alt="Hotel" class="w-8 h-8">
                 </div>
                 <div class="flex-grow">
-                    <h3 class="font-semibold text-base mb-1">Hotel & Accommodation</h3>
+                    <h3 class="font-semibold text-white mb-1">Hotel & Accommodation</h3>
                     <ul class="grid grid-cols-1 gap-y-1 text-xs text-white/80">
                         <li class="flex items-start">
                             <span class="mr-1">•</span>
@@ -273,10 +271,6 @@
         <div class="text-center mb-12">
             <p class="text-sm font-bold tracking-wider text-primary-800 uppercase mb-2">PRICING</p>
             <h2 class="text-3xl font-bold text-primary-700 mb-4">Simple, transparent pricing</h2>
-            <p class="text-gray-600 max-w-xl mx-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit dolor posuere vel venenatis eu sit massa
-                volutpat.
-            </p>
         </div>
 
         <!-- Toggle Switch -->
@@ -666,61 +660,54 @@
 
 <!-- End of Testimonials Section -->
 
-
 <!-- Join India's Growing -->
 <section class="bg-primary-700 text-white min-h-[300px] md:min-h-[400px]">
     <div class="container mx-auto px-4 md:px-24 py-16 lg:py-20">
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-            <!-- Left Section - Heading and CTA -->
-            <div class="lg:col-span-4 space-y-6 animate-fade-in">
-                <h1 class="text-4xl md:text-5xl font-bold leading-tight">Join India's Growing Travel Network</h1>
-                <p class="text-lg text-white/90">Sec2Pay Your Partner in Making Digital Business Growth Simple</p>
-                <div class="pt-4">
-                    <a href="#"
-                        class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-md transition duration-300">Begin
-                        Your Journey</a>
-                </div>
-            </div>
-
-            <!-- Right Section - Stats -->
-            <div class="lg:col-span-8 animate-fade-in" style="animation-delay: 0.2s;">
-                <div class="grid grid-cols-1 md:grid-cols-3 h-full">
-                    <!-- First Stat -->
-                    <div class="border-r border-white/20 flex flex-col items-center justify-center py-6 md:py-12">
-                        <div class="text-3xl md:text-4xl lg:text-5xl font-bold">20,000+</div>
-                        <div class="text-center text-sm md:text-base mt-2 text-white/80">
-                            Active travel<br>retailers
-                        </div>
-                    </div>
-
-                    <!-- Second Stat -->
-                    <div class="border-r border-white/20 flex flex-col items-center justify-center py-6 md:py-12">
-                        <div class="text-3xl md:text-4xl lg:text-5xl font-bold">50+</div>
-                        <div class="text-center text-sm md:text-base mt-2 text-white/80">
-                            Cities Pan-India<br>presence
-                        </div>
-                    </div>
-
-                    <!-- Third Stat -->
-                    <div class="flex flex-col">
-                        <!-- Top Section -->
-                        <div class="flex flex-col items-center justify-center py-6 md:py-12 border-b border-white/20">
-                            <div class="text-3xl md:text-4xl lg:text-5xl font-bold">1000+</div>
-                            <div class="text-center text-sm md:text-base mt-2 text-white/80">
-                                B2B partners<br>across India
-                            </div>
-                        </div>
-                        <!-- Bottom Section with Secondary Background -->
-                        <div class="bg-secondary-500 flex flex-col items-center justify-center py-6 md:py-12 flex-1">
-                            <div class="text-3xl md:text-4xl lg:text-5xl font-bold">24/7</div>
-                            <div class="text-center text-sm md:text-base mt-2">
-                                Customer Support<br>team
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="flex flex-col md:flex-row items-center">
+      <!-- Left Column - Text and CTA -->
+      <div class="w-full md:w-1/3 mb-10 md:mb-0">
+        <h2 class="text-4xl font-bold text-white leading-tight mb-4">Join India's Growing Travel Network</h2>
+        <p class="text-white text-lg mb-8">Sec2Pay Your Partner in Making Digital Business Growth Simple</p>
+        <a href="#" class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-lg transition duration-300">
+          Begin Your Journey
+        </a>
+      </div>
+      
+      <!-- Right Column - Stats Grid -->
+      <div class="w-full md:w-2/3 grid grid-cols-2 gap-0 border-l border-gray-500/30 ml-0 md:ml-10">
+        <!-- Stat Box 1 -->
+        <div class="border-r border-b border-gray-500/30 p-8">
+          <div class="text-center">
+            <p class="text-4xl font-bold text-white mb-3">20,000+</p>
+            <p class="text-white text-center">Active travel retailers</p>
+          </div>
         </div>
+        
+        <!-- Stat Box 2 -->
+        <div class="border-b border-gray-500/30 p-8">
+          <div class="text-center">
+            <p class="text-4xl font-bold text-white mb-3">1000+</p>
+            <p class="text-white text-center">B2B partners across india</p>
+          </div>
+        </div>
+        
+        <!-- Stat Box 3 -->
+        <div class="border-r border-gray-500/30 p-8">
+          <div class="text-center">
+            <p class="text-4xl font-bold text-white mb-3">50+</p>
+            <p class="text-white text-center">Cities Pan-India presence</p>
+          </div>
+        </div>
+        
+        <!-- Stat Box 4 (with orange background) -->
+        <div class="bg-secondary-500 p-8">
+          <div class="text-center">
+            <p class="text-4xl font-bold text-white mb-3">24/7</p>
+            <p class="text-white text-center">Customer Support team</p>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
 </section>
 

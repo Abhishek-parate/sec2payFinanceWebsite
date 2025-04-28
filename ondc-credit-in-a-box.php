@@ -40,14 +40,13 @@
     <div class="container mx-auto px-4 sm:px-6 relative z-20">
         <!-- Hero Text with AOS animations -->
         <div class="max-w-4xl mx-auto text-center  ">
-            <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold mb-4 md:mb-6 text-gray-900 leading-tight"
+            <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold mb-4 md:mb-6 text-gray-900 leading-tight mt-24"
                 data-aos="fade-up" data-aos-duration="800" data-aos-mirror="true">
-                <span class="text-secondary-500">Simplify your operations with a comprehensive platform offering essential financial, travel, and utility services tailored to your business needs.</span>
+                <span class="text-secondary-500">ONDC Credit</span>
             </h1>
             <p class="text-base sm:text-lg  text-gray-700 max-w-3xl mx-auto" data-aos="fade-up"
                 data-aos-duration="800" data-aos-delay="100" data-aos-mirror="true">
-                Integrate e-governance solutions to simplify services for citizens
-                
+                Simplify your operations with a comprehensive platform offering </br>essential financial, travel, and utility services tailored to your</br> business needs.  
             </p>
        
 
