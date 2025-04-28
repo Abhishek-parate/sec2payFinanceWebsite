@@ -1046,6 +1046,10 @@ body {
   margin-top: auto;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -3355,6 +3359,10 @@ body {
   padding-top: 1.5rem;
 }
 
+.pt-8 {
+  padding-top: 2rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -4921,6 +4929,10 @@ body {
     place-items: end;
   }
 
+  .md\:items-start {
+    align-items: flex-start;
+  }
+
   .md\:gap-10 {
     gap: 2.5rem;
   }
@@ -5110,6 +5122,14 @@ body {
     margin-top: 0px;
   }
 
+  .lg\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .lg\:mr-8 {
+    margin-right: 2rem;
+  }
+
   .lg\:grid {
     display: grid;
   }
@@ -5154,8 +5174,16 @@ body {
     justify-content: flex-start;
   }
 
+  .lg\:justify-end {
+    justify-content: flex-end;
+  }
+
   .lg\:gap-6 {
     gap: 1.5rem;
+  }
+
+  .lg\:gap-12 {
+    gap: 3rem;
   }
 
   .lg\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
