@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SecuPay - Banking Platform Services</title>
+    <title>Sec2Pay - Banking Platform Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
@@ -62,12 +62,11 @@
 
                 <!-- Person Image -->
 
-
-                <div class="relative max-w-5xl mx-auto  ">
+                <div class="relative flex items-center justify-center max-w-5xl mx-auto">
                     <!-- Main Dashboard Image -->
-                    <div class="relative z-20 ">
-                        <img src="assets\images\cash-management-system\table-tv.png" alt="Dashboard" class=" h-96" />
-                        <div class="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-white to-transparent">
+                    <div class="relative z-20">
+                        <img src="assets\images\cash-management-system\table-tv.png" alt="Dashboard" class="h-96 mx-auto" />
+                        <div class="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-t from-white to-transparent">
                         </div>
                     </div>
                 </div>

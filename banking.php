@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SecuPay - Banking Platform Services</title>
+    <title>Sec2Pay - Banking Platform Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
@@ -24,58 +24,53 @@
 
 
 <!-- Utility Services Section -->
-<section class=" bg-white">
-
-    <div class="max-w-7xl mx-auto py-12  ">
-        <div class="rounded-xl overflow-hidden  ">
-            <div class="grid grid-cols-1 md:grid-cols-2 ">
+<section class="bg-white px-4 sm:px-6 py-8 sm:py-12">
+    <div class="max-w-7xl mx-auto">
+        <div class="overflow-hidden ">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-0">
                 <!-- Left Content - Services List -->
-                <div class="p-8 md:p-12">
-                    <p class="font-semi-bolder text-primary-600 font-bold">BANKING</p>
-                    <h1 class="text-4xl font-bold text-secondary-500 ">Turn Your Business Into</h1>
-                    <h1 class="text-4xl font-bold text-secondary-500 mb-4">a Banking Powerhouse</h1>
-                    <p class="text-gray-500 mb-8">Join 1 Lac+ retail partners offering essential banking services
-                        across
-                        India</p>
+                <div class="p-6 sm:p-8 md:p-12 flex flex-col justify-center">
+                    <p class="font-bold text-primary-600 text-sm sm:text-base mb-2">BANKING</p>
+                    <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500 leading-tight">
+                        Turn Your Business Into<br class="hidden sm:block"> a Banking Powerhouse
+                    </h2>
+                    <p class="text-gray-500 my-4 sm:mb-6 md:mb-8 text-sm sm:text-base">
+                        Join 1 Lac+ retail partners offering essential banking services across India
+                    </p>
 
                     <a href="#"
-                        class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
+                        class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md w-full sm:w-auto sm:self-start">
                         Start Your Journey
-
                     </a>
 
                     <div
-                        class="mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm">
-                        <div class="flex -space-x-2 ">
+                        class="mt-6 sm:mt-8 flex flex-wrap sm:flex-nowrap items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm">
+                        <div class="flex -space-x-2 overflow-hidden ml-1">
                             <img src="https://randomuser.me/api/portraits/men/1.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
+                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white" alt="Partner">
                             <img src="https://randomuser.me/api/portraits/women/2.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
+                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white" alt="Partner">
                             <img src="https://randomuser.me/api/portraits/men/3.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
+                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white" alt="Partner">
                             <img src="https://randomuser.me/api/portraits/women/4.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
+                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white" alt="Partner">
                         </div>
-                        <span class="text-gray-600 text-sm">1 Lac+ Retail partners across India</span>
+                        <span class="text-gray-600 text-xs sm:text-sm ml-1">1 Lac+ Retail partners across India</span>
                     </div>
                 </div>
-                <!-- Right Content - Image and Features -->
-                <!-- Diagonal Shapes for Design -->
-
-                <!-- Person Image -->
-
-
-                <div class="relative max-w-5xl mx-auto  ">
-                    <!-- Main Dashboard Image -->
-                    <div class="relative z-20">
-                        <img src="assets/images/banking/hero.png" alt="Dashboard" class=" h-auto" />
-                        <div class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
-                        </div>
+                
+                <!-- Right Content - Image -->
+                <div class="relative h-full">
+                    <div class="relative h-64 sm:h-80 md:h-full">
+                        <img src="assets/images/banking/hero.png" alt="Banking Services" 
+                            class="w-full h-full object-cover object-center md:object-contain" />
+                        <div class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent"></div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 </section>
-
 
 
 <section class=" bg-white">

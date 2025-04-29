@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SecuPay - Banking Platform Services</title>
+    <title>Sec2Pay - Banking Platform Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
@@ -158,8 +158,9 @@
 
 
 <!-- Utility Services Section with Tab Switching -->
-<section class="bg-secondary-100 text-gray-800 py-20 min-h-[650px] flex items-center">
-    <div class="container mx-auto px-4 md:px-6">
+<section class="bg-secondary-100 text-gray-800 py-10 px-4 md:px-24 flex items-center">
+
+    <div class="container mx-auto">
         <h1 class="text-4xl md:text-5xl font-bold mb-10 text-primary-500" data-aos="fade-up" data-aos-duration="800">
             Explore Utility Platform Services
         </h1>
@@ -186,14 +187,14 @@
             </div>
 
             <!-- Tab Content -->
-            <div class="relative min-h-[350px] overflow-hidden">
+            <div class="relative  overflow-hidden">
                 <!-- Essential Bills Tab Content -->
                 <div class="tab-pane block opacity-100 transition-opacity duration-300" id="essential-bills">
                     <div class="flex flex-col md:flex-row items-center gap-8">
-                        <div class="w-full md:w-1/2 p-6">
+                        <div class="w-full md:w-1/3 p-6">
                             <h3 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-800">Utility & Essential Bills</h3>
                             <p class="text-gray-600 mb-8 max-w-md">Earn money by paying your customers </br>utility bill payments</p>
-                            <ul class="space-y-4">
+                            <ul class="space-y-1">
                                 <li class="flex items-center">
                                     <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -228,10 +229,11 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="w-full md:w-1/2 flex justify-center p-4">
+                        <div class="w-full md:w-2/3 flex justify-center p-4">
                             <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
                                 <!-- Image -->
                                 <img src="assets/images/utility-services-page/utility.png" alt="Utility Services Illustration" class="w-5/6">
+                                
                             </div>
                         </div>
                     </div>
@@ -484,7 +486,7 @@
                     <div class="flex items-center mb-6">
                         <div class="w-16 h-16 bg-white rounded-lg flex items-center justify-center mr-4">
                             <div class="w-10 h-10 bg-gradient-to-r from-white to-primary-300 overflow-hidden flex">
-                                <img src="assets/images/utility-services-page/icon2.png" alt="Primium partner Icon">
+                                <img src="assets/images/banking/icon2.png" alt="Primium partner Icon">
                             </div>
                         </div>
                         <h3 class="text-3xl font-semibold  text-white">Premium 
@@ -567,7 +569,7 @@
                         <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
                             <div
                                 class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex">
-                                <img src="assets/images/utility-services-page/icon3.png" alt="Enterprise Partner Icon">
+                                <img src="assets/images/banking/icon1.png" alt="Enterprise Partner Icon">
                             </div>
                         </div>
                         <h3 class="text-3xl font-semibold text-gray-900">Enterprise Partner</h3>

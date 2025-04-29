@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SecuPay - Banking Platform Services</title>
+    <title>Sec2Pay - Banking Platform Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
@@ -353,7 +353,7 @@
                         <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
                             <div
                                 class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex">
-                                <img src="assets/images/e-governance/icon1.png" alt="Whitelabel Partner Icon">
+                                <img src="assets/images/utility-services-page/icon1.png" alt="Whitelabel Partner Icon">
                             </div>
                         </div>
                         <h3 class="text-3xl font-semibold text-gray-900">Basic</br>
@@ -442,8 +442,8 @@
                     <!-- Plan Icon and Title -->
                     <div class="flex items-center mb-6">
                         <div class="w-16 h-16 bg-white rounded-lg flex items-center justify-center mr-4">
-                            <div class="w-10 h-10 bg-gradient-to-r from-white to-secondary-300 overflow-hidden flex">
-                                <img src="assets/images/e-governance/icon2.png" alt="Whitelabel Reseller Icon">
+                            <div class="w-10 h-10 bg-gradient-to-r from-white to-primary-300 overflow-hidden flex">
+                                <img src="assets/images/utility-services-page/icon2.png" alt="Whitelabel Reseller Icon">
                             </div>
                         </div>
                         <h3 class="text-3xl font-semibold  text-white">Premium 
@@ -526,7 +526,7 @@
                         <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
                             <div
                                 class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex">
-                                <img src="assets/images/e-governance/icon1.png" alt="Enterprise Partner Icon">
+                                <img src="assets/images/utility-services-page/icon1.png" alt="Enterprise Partner Icon">
                             </div>
                         </div>
                         <h3 class="text-3xl font-semibold text-gray-900">Enterprise
@@ -638,7 +638,7 @@
                     </p>
 
                     <a href="#"
-                        class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
+                        class="inline-flex items-center bg-primary-500 hover:bg-primary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
                         data-aos="zoom-in" data-aos-delay="500">
                         Sign up free
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2" viewBox="0 0 20 20"

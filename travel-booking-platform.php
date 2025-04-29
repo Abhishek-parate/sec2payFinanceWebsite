@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SecuPay - Banking Platform Services</title>
+    <title>Sec2Pay - Banking Platform Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
@@ -22,27 +22,25 @@
 
     <main>
 <!-- dmt Section -->
-<section class=" bg-white">
-
-    <div class="max-w-7xl mx-auto ">
-        <div class="rounded-xl overflow-hidden  ">
+<section class="bg-white">
+    <div class="max-w-7xl mx-auto">
+        <div class="rounded-xl overflow-hidden">
             <div class="grid grid-cols-1 md:grid-cols-2">
                 <!-- Left Content - Services List -->
                 <div class="p-8 md:p-12 mt-12">
                     <p class="font-semi-bolder text-primary-600 font-bold">Travel Booking Platform</p>
-                    <h1 class="text-4xl font-bold text-secondary-500 ">Turn Your Shop Into</h1>
+                    <h1 class="text-4xl font-bold text-secondary-500">Turn Your Shop Into</h1>
                     <h1 class="text-4xl font-bold text-secondary-500 mb-4">A Travel Counter</h1>
                     <p class="text-gray-500 mb-8">Join Sec2Pay's travel platform to offer flight and bus booking services. Help customers plan their journeys right from your store.</p>
 
                     <a href="#"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
                         Start Your Travel Business
-
                     </a>
 
                     <div
                         class="mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm">
-                        <div class="flex -space-x-2 ">
+                        <div class="flex -space-x-2">
                             <img src="https://randomuser.me/api/portraits/men/1.jpg"
                                 class="w-8 h-8 rounded-full border-2 border-white">
                             <img src="https://randomuser.me/api/portraits/women/2.jpg"
@@ -55,22 +53,20 @@
                         <span class="text-gray-600 text-sm">1 Lac+ Retail partners across India</span>
                     </div>
                 </div>
-                <!-- Right Content - Image and Features -->
-                <!-- Diagonal Shapes for Design -->
 
-                <!-- Person Image -->
-
-
-                <div class="relative max-w-5xl mx-auto  ">
+                <!-- Right Content - Image -->
+                <div class="relative flex items-center justify-center">
                     <!-- Main Dashboard Image -->
                     <div class="relative z-20">
-                        <img src="assets/images/travel-booking-platform/banner.png" alt="Dashboard" class=" h-auto" />
-                        <div class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
-                        </div>
+                        <img src="assets/images/travel-booking-platform/banner.png" alt="Dashboard" class="h-80    object-contain mx-auto" />
+                        <div class="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-t from-white to-transparent"></div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 </section>
+
 
 
 
