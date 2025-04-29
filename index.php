@@ -24,45 +24,46 @@
 
 <!-- Hero Section with Circular Corner Gradients -->
 <!-- Enhanced Hero Section with Bidirectional AOS Animations -->
-<section class="relative overflow-hidden py-10 pt-20 md:pt-24 md:py-10 bg-white">
-    <!-- Top-left Circular Gradient (Pinkish) - Exactly 50% visible -->
+<section class="relative overflow-hidden py-8 pt-16 sm:py-10 sm:pt-20 md:pt-24 md:py-10 bg-white">
+    <!-- Top-left Circular Gradient (Pinkish) -->
     <div class="absolute -top-[4%] -left-[23%] w-[50%] h-[50%] rounded-full"
-        style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 70%);">
+        style="background: radial-gradient(circle, rgba(230, 120, 120, 0.5) 0%, rgba(242, 219, 219, 0.4) 50%, rgba(255, 255, 255, 0) 70%);">
     </div>
 
-    <!-- Top-right Circular Gradient (Bluish) - Exactly 50% visible -->
+    <!-- Top-right Circular Gradient (Bluish) -->
     <div class="absolute -top-[4%] -right-[20%] w-[50%] h-[50%] rounded-full"
-        style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 70%);">
+        style="background: radial-gradient(circle, rgba(75, 104, 178, 0.5) 0%, rgba(222, 242, 255, 0.4) 50%, rgba(255, 255, 255, 0) 70%);">
     </div>
 
-    <!-- Decorative Shapes with AOS animations -->
-    <div class="absolute top-10 md:top-[10%] left-2 md:left-10 lg:left-24 opacity-80 w-24 md:w-32 lg:w-auto z-10"
+    <!-- Decorative Shapes with AOS animations - Improved responsiveness -->
+    <div class="absolute top-6 sm:top-8 md:top-10 lg:top-[10%] left-2 sm:left-4 md:left-10 lg:left-24 opacity-80 w-16 sm:w-20 md:w-24 lg:w-32 xl:w-auto z-10"
         data-aos="fade-right" data-aos-duration="800" data-aos-mirror="true">
         <img src="assets/images/home/svg/orange-icon.svg" alt="orange-icon" class="w-full h-auto">
     </div>
 
-    <div class="absolute top-10 md:top-[10%] right-2 md:right-10 lg:right-24 opacity-80 w-24 md:w-32 lg:w-auto z-10"
+    <div class="absolute top-6 sm:top-8 md:top-10 lg:top-[10%] right-2 sm:right-4 md:right-10 lg:right-24 opacity-80 w-16 sm:w-20 md:w-24 lg:w-32 xl:w-auto z-10"
         data-aos="fade-left" data-aos-duration="800" data-aos-mirror="true">
         <img src="assets/images/home/svg/blue-icon.svg" alt="blue-icon" class="w-full h-auto">
     </div>
 
     <!-- Main Content -->
     <div class="container mx-auto px-4 sm:px-6 relative z-20">
-        <!-- Hero Text with AOS animations -->
-        <div class="max-w-4xl mx-auto text-center mb-8 md:mb-12 lg:mb-16">
-            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 text-gray-900 leading-tight"
+        <!-- Hero Text with AOS animations - Improved text responsiveness -->
+        <div class="max-w-4xl mx-auto text-center mb-6 sm:mb-8 md:mb-12 lg:mb-16">
+            <h1 class="text-xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 md:mb-6 text-gray-900 leading-tight"
                 data-aos="fade-up" data-aos-duration="800" data-aos-mirror="true">
                 Empowering <span class="text-secondary-500">MSMEs</span> to Deliver
-                <br class="hidden sm:block"><span class="text-secondary-500">Financial</span> Freedom
+                <br class="hidden xs:block"><span class="text-secondary-500">Financial</span> Freedom
             </h1>
-            <p class="text-base sm:text-lg md:text-xl mb-6 md:mb-8 text-gray-700 max-w-3xl mx-auto" data-aos="fade-up"
+            <p class="text-sm xs:text-base sm:text-lg md:text-xl mb-4 sm:mb-6 md:mb-8 text-gray-700 max-w-3xl mx-auto" data-aos="fade-up"
                 data-aos-duration="800" data-aos-delay="100" data-aos-mirror="true">
                 Join 1000+ businesses providing essential financial
-                <br class="hidden sm:block">services to 1 lakh+ retailers across India
+                <br>services to 1 lakh+ retailers across India
             </p>
-            <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-mirror="true">
-                <a href="#"
-                    class="inline-block bg-secondary-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-md text-lg font-medium hover:bg-secondary-600 transition-all duration-300 hover:shadow-lg hover:scale-105 transform z-10">
+            <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-mirror="true" class="relative z-30">
+                <!-- Fixed clickable button -->
+                <a href="#" onclick="return true;"
+                class="bg-secondary-500 hover:bg-secondary-600 text-white px-6 sm:px-8 py-2 rounded-lg font-medium inline-flex items-center justify-center transition-all transform hover:scale-105 hover:shadow-lg cursor-pointer relative z-30">
                     Start Your Journey Today
                 </a>
             </div>
@@ -74,7 +75,7 @@
         </div>
 
         <!-- Dashboard Image with AOS animation -->
-        <div class="relative max-w-5xl mx-auto  overflow-hidden z-10" data-aos="zoom-in" data-aos-duration="1000"
+        <div class="relative max-w-5xl mx-auto overflow-hidden z-10" data-aos="zoom-in" data-aos-duration="1000"
             data-aos-delay="300" data-aos-mirror="true">
             <!-- Main Dashboard Image -->
             <div class="relative z-20">
@@ -84,45 +85,41 @@
         </div>
 
         <!-- Trusted By Section with Infinite Scroll -->
-        <div class="mt-12 md:mt-16 text-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400"
+        <div class="mt-8 sm:mt-10 md:mt-12 lg:mt-16 text-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400"
             data-aos-mirror="true">
-            <p class="text-gray-700 font-bold text-lg mb-6 md:mb-8">Trusted by India's Leading Banks</p>
+            <p class="text-gray-700 font-bold text-base sm:text-lg mb-4 sm:mb-6 md:mb-8">Trusted by India's Leading Banks</p>
 
             <!-- Infinite Scroll Container -->
-            <div class="relative overflow-hidden w-full ">
+            <div class="relative overflow-hidden w-full">
                 <div class="logos-container flex whitespace-nowrap">
                     <!-- First set of logos - will appear as one continuous stream -->
                     <div class="logos-slide animate-scroll inline-flex items-center">
-                        <img src="./assets/images/home/hdfc.png" alt="HDFC Bank" class="h-8 md:h-10 w-auto mx-8" />
-                        <img src="./assets/images/home/idfc.png" alt="IDFC Bank" class="h-8 md:h-10 w-auto mx-8" />
-                        <img src="./assets/images/home/bom.png" alt="Bank of Maharashtra"
-                            class="h-8 md:h-10 w-auto mx-8" />
-                        <img src="./assets/images/home/sbi.png" alt="SBI" class="h-8 md:h-10 w-auto mx-8" />
-                        <img src="./assets/images/home/ib.png" alt="Indian Bank" class="h-8 md:h-10 w-auto mx-8" />
-                        <img src="./assets/images/home/icici.png" alt="ICICI Bank" class="h-8 md:h-10 w-auto mx-8" />
-                        <img src="./assets/images/home/bob.png" alt="Bank of Baroda" class="h-8 md:h-10 w-auto mx-8" />
-                        <img src="./assets/images/home/sc.png" alt="Standard Chartered"
-                            class="h-8 md:h-10 w-auto mx-8" />
+                        <img src="./assets/images/home/hdfc.png" alt="HDFC Bank" class="h-6 sm:h-7 md:h-8 lg:h-10 w-auto mx-4 sm:mx-6 md:mx-8" />
+                        <img src="./assets/images/home/idfc.png" alt="IDFC Bank" class="h-6 sm:h-7 md:h-8 lg:h-10 w-auto mx-4 sm:mx-6 md:mx-8" />
+                        <img src="./assets/images/home/bom.png" alt="Bank of Maharashtra" class="h-6 sm:h-7 md:h-8 lg:h-10 w-auto mx-4 sm:mx-6 md:mx-8" />
+                        <img src="./assets/images/home/sbi.png" alt="SBI" class="h-6 sm:h-7 md:h-8 lg:h-10 w-auto mx-4 sm:mx-6 md:mx-8" />
+                        <img src="./assets/images/home/ib.png" alt="Indian Bank" class="h-6 sm:h-7 md:h-8 lg:h-10 w-auto mx-4 sm:mx-6 md:mx-8" />
+                        <img src="./assets/images/home/icici.png" alt="ICICI Bank" class="h-6 sm:h-7 md:h-8 lg:h-10 w-auto mx-4 sm:mx-6 md:mx-8" />
+                        <img src="./assets/images/home/bob.png" alt="Bank of Baroda" class="h-6 sm:h-7 md:h-8 lg:h-10 w-auto mx-4 sm:mx-6 md:mx-8" />
+                        <img src="./assets/images/home/sc.png" alt="Standard Chartered" class="h-6 sm:h-7 md:h-8 lg:h-10 w-auto mx-4 sm:mx-6 md:mx-8" />
 
                         <!-- Duplicated for seamless loop -->
-                        <img src="./assets/images/home/hdfc.png" alt="HDFC Bank" class="h-8 md:h-10 w-auto mx-8" />
-                        <img src="./assets/images/home/idfc.png" alt="IDFC Bank" class="h-8 md:h-10 w-auto mx-8" />
-                        <img src="./assets/images/home/bom.png" alt="Bank of Maharashtra"
-                            class="h-8 md:h-10 w-auto mx-8" />
-                        <img src="./assets/images/home/sbi.png" alt="SBI" class="h-8 md:h-10 w-auto mx-8" />
-                        <img src="./assets/images/home/ib.png" alt="Indian Bank" class="h-8 md:h-10 w-auto mx-8" />
-                        <img src="./assets/images/home/icici.png" alt="ICICI Bank" class="h-8 md:h-10 w-auto mx-8" />
-                        <img src="./assets/images/home/bob.png" alt="Bank of Baroda" class="h-8 md:h-10 w-auto mx-8" />
-                        <img src="./assets/images/home/sc.png" alt="Standard Chartered"
-                            class="h-8 md:h-10 w-auto mx-8" />
+                        <img src="./assets/images/home/hdfc.png" alt="HDFC Bank" class="h-6 sm:h-7 md:h-8 lg:h-10 w-auto mx-4 sm:mx-6 md:mx-8" />
+                        <img src="./assets/images/home/idfc.png" alt="IDFC Bank" class="h-6 sm:h-7 md:h-8 lg:h-10 w-auto mx-4 sm:mx-6 md:mx-8" />
+                        <img src="./assets/images/home/bom.png" alt="Bank of Maharashtra" class="h-6 sm:h-7 md:h-8 lg:h-10 w-auto mx-4 sm:mx-6 md:mx-8" />
+                        <img src="./assets/images/home/sbi.png" alt="SBI" class="h-6 sm:h-7 md:h-8 lg:h-10 w-auto mx-4 sm:mx-6 md:mx-8" />
+                        <img src="./assets/images/home/ib.png" alt="Indian Bank" class="h-6 sm:h-7 md:h-8 lg:h-10 w-auto mx-4 sm:mx-6 md:mx-8" />
+                        <img src="./assets/images/home/icici.png" alt="ICICI Bank" class="h-6 sm:h-7 md:h-8 lg:h-10 w-auto mx-4 sm:mx-6 md:mx-8" />
+                        <img src="./assets/images/home/bob.png" alt="Bank of Baroda" class="h-6 sm:h-7 md:h-8 lg:h-10 w-auto mx-4 sm:mx-6 md:mx-8" />
+                        <img src="./assets/images/home/sc.png" alt="Standard Chartered" class="h-6 sm:h-7 md:h-8 lg:h-10 w-auto mx-4 sm:mx-6 md:mx-8" />
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
 </section>
-
-
 
 
 <!-- Impact Section -->
