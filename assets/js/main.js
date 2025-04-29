@@ -1114,3 +1114,23 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const tabButtons = document.querySelectorAll('[data-tab]');
+        
+        tabButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                // Remove active class from all buttons
+                tabButtons.forEach(btn => {
+                    btn.classList.remove('bg-red-500', 'text-white');
+                    btn.classList.add('bg-white', 'text-blue-600', 'border', 'border-gray-200');
+                });
+                
+                // Add active class to clicked button
+                this.classList.remove('bg-white', 'text-blue-600', 'border', 'border-gray-200');
+                this.classList.add('bg-red-500', 'text-white');
+            });
+        });
+    });

@@ -30,16 +30,14 @@
         <div class="rounded-xl overflow-hidden  ">
             <div class="grid grid-cols-1 md:grid-cols-2 ">
                 <!-- Left Content - Services List -->
-                <div class="p-8 md:p-12 mt-12">
-                    <p class="font-semi-bolder text-primary-600 font-bold">ONDC E-Commerce Buyer Platform</p>
+                <div class="p-8 md:p-12 mt-24">
                     <h1 class="text-4xl font-bold text-secondary-600 ">Bring Local Stores to</h1>
                     <h1 class="text-4xl font-bold text-secondary-600 mb-4">Buyers Everywhere</h1>
-                    <p class="text-gray-500 mb-8">Empower your business to create seamless shopping experiences for buyers.</p>
+                    <p class="text-gray-500 mb-8">Empower your business to create seamless shopping </br>experiences for buyers.</p>
 
                     <a href="#"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
                         Start Shopping Today!
-
                     </a>
 
                     <div
@@ -173,7 +171,7 @@
                 
                 <!-- Right Column - Image -->
                 <div class="w-full md:w-1/2">
-                    <div class="bg-[#FFDAD7] p-8 rounded-xl">
+                    <div class="p-8 rounded-xl">
                         <img src="assets/images/ondc-ecommerce-buyer/service.png" alt="E-commerce services" class="w-full h-auto" onerror="this.onerror=null; this.src='/api/placeholder/550/350'; this.alt='E-commerce services placeholder'">
                     </div>
                 </div>
@@ -188,10 +186,6 @@
         <div class="text-center mb-12">
                         <p class="text-sm font-bold tracking-wider text-primary-800 uppercase mb-2">PRICING</p>
             <h2 class="text-3xl font-bold text-primary-700 mb-4">Simple, transparent pricing</h2>
-            <p class="text-gray-600 max-w-xl mx-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit dolor posuere vel venenatis eu sit massa
-                volutpat.
-            </p>
         </div>
 
         <!-- Toggle Switch -->
@@ -580,7 +574,7 @@
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-primary-600 to-primary-500 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+        <div class="bg-gradient-to-br bg-secondary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
             data-aos="fade-up" data-aos-duration="1000">
 
             <!-- Stars Background SVG -->
@@ -595,14 +589,9 @@
                      Ready to transform your</br>shopping experience?
                 </h1>
 
-                <p class="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 relative z-10" data-aos="fade-up"
-                    data-aos-delay="300">
-                    "Ready to expand your local business? Partner with Sec2Pay's ONDC platform"
-                </p>
-
                 <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
                     <a href="#"
-                        class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
+                        class="inline-flex items-center bg-white text-secondary-600 px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
                         data-aos="zoom-in" data-aos-delay="500">
                         Partner with us
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2" viewBox="0 0 20 20"
