@@ -161,7 +161,7 @@
                     <h4 class="text-xl font-semibold mb-6 md:mb-8" data-aos="fade-left" data-aos-delay="100">Making
                         Financial Services Accessible Since 2017</h4>
 
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 md:gap-2">
                         <!-- Stats Row 1 -->
                         <div data-aos="fade-up" data-aos-delay="200">
                             <p class="text-2xl md:text-3xl font-bold">1 Lacs+</p>
@@ -764,13 +764,12 @@
                         <p class="text-sm">Quick setup for your financial services platform</p>
                     </div>
                     <div class="mt-auto relative">
-                        <div class="absolute top-2 right-2 w-3 h-3 bg-white rounded-full opacity-70" data-aos="fade-in"
-                            data-aos-delay="200"></div>
-                        <div class="h-48 overflow-hidden">
-                            <img src="assets/images/home/partner1.png" alt="Dashboard Interface"
-                                class="w-full object-cover" />
-                        </div>
-                    </div>
+    <div class="absolute top-2 right-2 w-3 h-3 bg-white rounded-full opacity-70" data-aos="fade-in" data-aos-delay="200"></div>
+    <div class="h-48 overflow-hidden relative">
+        <img src="assets/images/home/partner1.png" alt="Dashboard Interface"
+            class="w-full h-full absolute bottom-0 object-cover object-bottom" />
+    </div>
+</div>
                 </div>
 
                 <!-- Card 2 -->
