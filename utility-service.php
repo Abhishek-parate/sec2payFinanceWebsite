@@ -1,4 +1,26 @@
-<?php include_once('includes/header.php'); ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sec2Pay - Banking Platform Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+</head>
+
+<body class="bg-white font-inter">
+
+    <?php include_once('includes/header.php'); ?>
+
+
+    <main>
 
 <!-- hero section -->
 
@@ -8,33 +30,17 @@
         <div class="rounded-xl overflow-hidden  ">
             <div class="grid grid-cols-1 md:grid-cols-2 ">
                 <!-- Left Content - Services List -->
-                <div class="p-8 md:p-12">
-                    <p class="font-semi-bolder text-primary-600 font-bold">Utility Services</p>
+                <div class="p-8 md:p-12 mt-24">
+                    <p class="font-semi-bolder text-primary-900 "><span class="text-primary-500">Home / Multi Services Platform /</span> Utility</p>
                     <h1 class="text-4xl font-bold text-secondary-600 ">Make Bill</h1>
                     <h1 class="text-4xl font-bold text-secondary-600 mb-4">Payments Simple</h1>
-                    <p class="text-gray-500 mb-8">Join 1 lakh+ retailers offering instant
+                    <p class="text-gray-500 mb-8">Join 1 lakh+ retailers offering instant</br>
                     utility payments</p>
-
                     <a href="#"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
                         Start Your Journey
 
                     </a>
-
-                    <div
-                        class="mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm">
-                        <div class="flex -space-x-2 ">
-                            <img src="https://randomuser.me/api/portraits/men/1.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
-                            <img src="https://randomuser.me/api/portraits/women/2.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
-                            <img src="https://randomuser.me/api/portraits/men/3.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
-                            <img src="https://randomuser.me/api/portraits/women/4.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
-                        </div>
-                        <span class="text-gray-600 text-sm">1 Lac+ Retail partners across India</span>
-                    </div>
                 </div>
                 <!-- Right Content - Image and Features -->
                 <!-- Diagonal Shapes for Design -->
@@ -61,7 +67,7 @@
 
 
 <!-- Featuees & Function Section -->
-<section class="bg-white py-10 py-10 px-4 md:px-24">
+<section class="bg-white py-10 px-4 md:px-24">
                 <div class="container mx-auto px-6 text-center">
                     <h2 class="text-3xl font-bold text-primary-700 mb-4">Features &
                         Functions</h2>
@@ -151,210 +157,199 @@
 <!-- Banking Services Section -->
 
 
-<section class="bg-secondary-100 text-gray-800 py-20 min-h-[650px] flex items-center">
-        <div class="container mx-auto px-4 md:px-6">
-            <h1 class="text-4xl md:text-5xl font-bold mb-10 text-center text-primary-700" data-aos="fade-up" data-aos-duration="800">
-                Explore Utility Platform Services
-            </h1>
+<!-- Utility Services Section with Tab Switching -->
+<section class="bg-secondary-100 text-gray-800 py-10 px-4 md:px-24 flex items-center">
 
-            <!-- Utility Services Tabs -->
-            <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-                <!-- Tab Buttons -->
-                <div class="flex flex-wrap justify-center mb-8 gap-2 md:gap-3">
-                    <button
-                        class="tab-btn active-tab px-5 py-3 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
-                        data-tab="essential-bills">
-                        <span>Essential Bills</span>
-                    </button>
-                    <button
-                        class="tab-btn px-5 py-3 bg-transparent text-gray-700 border border-gray-300 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
-                        data-tab="mobile-dth">
-                        <span>Mobile & DTH</span>
-                    </button>
-                    <button
-                        class="tab-btn px-5 py-3 bg-transparent text-gray-700 border border-gray-300 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
-                        data-tab="fastag">
-                        <span>FASTag Services</span>
-                    </button>
+    <div class="container mx-auto">
+        <h1 class="text-4xl md:text-5xl font-bold mb-10 text-primary-500" data-aos="fade-up" data-aos-duration="800">
+            Explore Utility Platform Services
+        </h1>
+
+        <!-- Utility Services Tabs -->
+        <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+            <!-- Tab Buttons -->
+            <div class="flex flex-wrap mb-8 gap-2 md:gap-3">
+                <button
+                    class="tab-btn px-5 py-3 bg-secondary-600 text-white border border-gray-300 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none active"
+                    data-tab="essential-bills">
+                    <span>Essential Bills</span>
+                </button>
+                <button
+                    class="tab-btn px-5 py-3 bg-white text-gray-700 border border-gray-300 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
+                    data-tab="mobile-dth">
+                    <span>Mobile & DTH</span>
+                </button>
+                <button
+                    class="tab-btn px-5 py-3 bg-white text-gray-700 border border-gray-300 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
+                    data-tab="fastag">
+                    <span>FASTag Services</span>
+                </button>
+            </div>
+
+            <!-- Tab Content -->
+            <div class="relative  overflow-hidden">
+                <!-- Essential Bills Tab Content -->
+                <div class="tab-pane block opacity-100 transition-opacity duration-300" id="essential-bills">
+                    <div class="flex flex-col md:flex-row items-center gap-8">
+                        <div class="w-full md:w-1/3 p-6">
+                            <h3 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-800">Utility & Essential Bills</h3>
+                            <p class="text-gray-600 mb-8 max-w-md">Earn money by paying your customers </br>utility bill payments</p>
+                            <ul class="space-y-1">
+                                <li class="flex items-center">
+                                    <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-gray-700">Electricity Bills</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-gray-700">Gas Payments</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-gray-700">Water Charges</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-gray-700">Internet Bills</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="w-full md:w-2/3 flex justify-center p-4">
+                            <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
+                                <!-- Image -->
+                                <img src="assets/images/utility-services-page/utility.png" alt="Utility Services Illustration" class="w-5/6">
+                                
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                <!-- Tab Content -->
-                <div class="relative min-h-[350px] overflow-hidden">
-                    <!-- Essential Bills Tab Content -->
-                    <div class="tab-pane block opacity-100 transition-opacity duration-300" id="essential-bills">
-                        <div class="flex flex-col md:flex-row items-center gap-8">
-                            <div class="w-full md:w-1/2 p-6">
-                                <h3 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-800">Utility & Essential Bills</h3>
-                                <p class="text-gray-600 mb-8 max-w-md">Earn money by paying your customers utility bill payments</p>
+                <!-- Mobile & DTH Tab Content -->
+                <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="mobile-dth">
+                    <div class="flex flex-col md:flex-row items-center gap-8">
+                        <div class="w-full md:w-1/2 p-6">
+                            <h3 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-800">Mobile & DTH Services</h3>
+                            <p class="text-gray-600 mb-8 max-w-md">Earn money by paying your customers</be>Mobile & DTH bill payments</p>
 
-                                <ul class="space-y-4">
-                                    <li class="flex items-center">
-                                        <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                            </svg>
-                                        </span>
-                                        <span class="text-gray-700">Electricity Bills</span>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                            </svg>
-                                        </span>
-                                        <span class="text-gray-700">Gas Payments</span>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                            </svg>
-                                        </span>
-                                        <span class="text-gray-700">Water Charges</span>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                            </svg>
-                                        </span>
-                                        <span class="text-gray-700">Internet Bills</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="w-full md:w-1/2 flex justify-center p-4">
-                                <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
-                                    <!-- Bills & Payments Card -->
-                                   
-                                    
-                                    <!-- Image -->
-                                    <img src="assets/images/utility-services-page/utility.png" alt="Utility Services Illustration" class="w-5/6">
-                                    
-                                    <!-- Center Icon -->
-                                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                                        <div class="bg-gradient-to-r from-secondary-500 to-accent-500 rounded-full p-6 shadow-lg">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                            </svg>
-                                        </div>
+                            <ul class="space-y-4">
+                                <li class="flex items-center">
+                                    <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-gray-700">All Mobile Operators</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-gray-700">DTH Recharge</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-gray-700">Prepaid Top-up</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-gray-700">Postpaid Bills</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="w-full md:w-1/2 flex justify-center p-4">
+                            <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
+                                <img src="assets/images/utility-services-page/mobile-dth.png" alt="Mobile & DTH Services" class="max-w-full h-auto rounded-lg shadow-xl">
+                                
+                                <!-- Center Icon -->
+                                <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                    <div class="bg-gradient-to-r from-secondary-500 to-accent-500 rounded-full p-6 shadow-lg">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                                        </svg>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <!-- Mobile & DTH Tab Content -->
-                    <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="mobile-dth">
-                        <div class="flex flex-col md:flex-row items-center gap-8">
-                            <div class="w-full md:w-1/2 p-6">
-                                <h3 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-800">Mobile & DTH Services</h3>
-                                <p class="text-gray-600 mb-8 max-w-md">Offer mobile recharge and DTH services to your customers</p>
+                <!-- FASTag Services Tab Content -->
+                <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="fastag">
+                    <div class="flex flex-col md:flex-row items-center gap-8">
+                        <div class="w-full md:w-1/2 p-6">
+                            <h3 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-800">FASTag Services</h3>
+                            <p class="text-gray-600 mb-8 max-w-md">Earn money by paying your customers</br>utility bill payments</p>
 
-                                <ul class="space-y-4">
-                                    <li class="flex items-center">
-                                        <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                            </svg>
-                                        </span>
-                                        <span class="text-gray-700">Prepaid Mobile Recharge</span>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                            </svg>
-                                        </span>
-                                        <span class="text-gray-700">Postpaid Bill Payments</span>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                            </svg>
-                                        </span>
-                                        <span class="text-gray-700">DTH Recharges</span>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                            </svg>
-                                        </span>
-                                        <span class="text-gray-700">Data Card Recharges</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="w-full md:w-1/2 flex justify-center p-4">
-                                <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
-                                    <img src="/api/placeholder/400/320" alt="Mobile & DTH Services" class="max-w-full h-auto rounded-lg shadow-xl">
-                                    
-                                    <!-- Center Icon -->
-                                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                                        <div class="bg-gradient-to-r from-secondary-500 to-accent-500 rounded-full p-6 shadow-lg">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                                            </svg>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <ul class="space-y-4">
+                                <li class="flex items-center">
+                                    <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-gray-700">Quick Recharge</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-gray-700">Balance Check</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-gray-700">Multiple Vehicals</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-gray-700">Transaction History</span>
+                                </li>
+                            </ul>
                         </div>
-                    </div>
-
-                    <!-- FASTag Services Tab Content -->
-                    <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="fastag">
-                        <div class="flex flex-col md:flex-row items-center gap-8">
-                            <div class="w-full md:w-1/2 p-6">
-                                <h3 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-800">FASTag Services</h3>
-                                <p class="text-gray-600 mb-8 max-w-md">Provide FASTag issuance and recharge services for seamless highway travel</p>
-
-                                <ul class="space-y-4">
-                                    <li class="flex items-center">
-                                        <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                            </svg>
-                                        </span>
-                                        <span class="text-gray-700">FASTag Issuance</span>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                            </svg>
-                                        </span>
-                                        <span class="text-gray-700">FASTag Recharge</span>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                            </svg>
-                                        </span>
-                                        <span class="text-gray-700">FASTag Balance Check</span>
-                                    </li>
-                                    <li class="flex items-center">
-                                        <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                            </svg>
-                                        </span>
-                                        <span class="text-gray-700">Transaction History</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="w-full md:w-1/2 flex justify-center p-4">
-                                <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
-                                    <img src="/api/placeholder/400/320" alt="FASTag Services" class="max-w-full h-auto rounded-lg shadow-xl">
-                                    
-                                    <!-- Center Icon -->
-                                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                                        <div class="bg-gradient-to-r from-secondary-500 to-accent-500 rounded-full p-6 shadow-lg">
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                                            </svg>
-                                        </div>
+                        <div class="w-full md:w-1/2 flex justify-center p-4">
+                            <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
+                                <img src="assets/images/utility-services-page/fastag.png" alt="FASTag Services" class="max-w-full h-auto rounded-lg shadow-xl">
+                                
+                                <!-- Center Icon -->
+                                <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                    <div class="bg-gradient-to-r from-secondary-500 to-accent-500 rounded-full p-6 shadow-lg">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                                        </svg>
                                     </div>
                                 </div>
                             </div>
@@ -363,9 +358,8 @@
                 </div>
             </div>
         </div>
-    </section>
-
-
+    </div>
+</section>
 
 
 <!-- pricing -->
@@ -375,10 +369,6 @@
         <div class="text-center mb-12">
                         <p class="text-sm font-bold tracking-wider text-primary-800 uppercase mb-2">PRICING</p>
             <h2 class="text-3xl font-bold text-primary-700 mb-4">Simple, transparent pricing</h2>
-            <p class="text-gray-600 max-w-xl mx-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit dolor posuere vel venenatis eu sit massa
-                volutpat.
-            </p>
         </div>
 
         <!-- Toggle Switch -->
@@ -496,7 +486,7 @@
                     <div class="flex items-center mb-6">
                         <div class="w-16 h-16 bg-white rounded-lg flex items-center justify-center mr-4">
                             <div class="w-10 h-10 bg-gradient-to-r from-white to-primary-300 overflow-hidden flex">
-                                <img src="assets/images/utility-services-page/icon2.png" alt="Primium partner Icon">
+                                <img src="assets/images/banking/icon2.png" alt="Primium partner Icon">
                             </div>
                         </div>
                         <h3 class="text-3xl font-semibold  text-white">Premium 
@@ -579,7 +569,7 @@
                         <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
                             <div
                                 class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex">
-                                <img src="assets/images/utility-services-page/icon3.png" alt="Enterprise Partner Icon">
+                                <img src="assets/images/banking/icon1.png" alt="Enterprise Partner Icon">
                             </div>
                         </div>
                         <h3 class="text-3xl font-semibold text-gray-900">Enterprise Partner</h3>
@@ -659,6 +649,114 @@
 
 <!-- End of Pricing Section -->
 
+
+
+
+<!-- End of Testimonials Section -->
+
+
+<!-- Join India's Growing --> 
+<section class="bg-secondary-600 text-white min-h-[300px] md:min-h-[400px]">
+    <div class="container mx-auto px-4 md:px-6 py-16 lg:py-20">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <!-- Left Section - Heading and CTA -->
+            <div class="lg:col-span-5 space-y-6 animate-fade-in">
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight">Why Partner</br>With Sec2pay?</h1>
+                <p class="text-lg text-white/90">Interested in Growing Your Business?</p>
+                <div class="pt-4">
+                    <a href="#" class="inline-block bg-white text-secondary-600 font-medium py-3 px-8 rounded-md transition duration-300">Partner With Us</a>
+                </div>
+            </div>
+            
+            <!-- Right Section - Stats -->
+            <div class="lg:col-span-7 animate-fade-in" style="animation-delay: 0.2s;">
+                <div class="grid grid-cols-2 h-full">
+                    <!-- Left Column Stats -->
+                    <div class="flex flex-col h-full">
+                        <!-- Top Stat -->
+                        <div class="border-r border-l border-b border-white flex flex-col items-center justify-center py-6 md:py-12">
+                            <div class="text-center text-sm md:text-base mt-2 text-white/80">
+                                Pan-India presence with 1 </br>lakh+ active retailers
+                            </div>
+                        </div>
+                        
+                        <!-- Bottom Stat -->
+                        <div class="border-r border-l border-white flex flex-col items-center justify-center py-6 md:py-12">
+                            <div class="text-center text-sm md:text-base mt-2 text-white/80">
+                                Dedicated support team
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Column Stats -->
+                    <div class="flex flex-col h-full">
+                        <!-- Top Stat - White Background -->
+                        <div class="border-r border-b border-white flex flex-col items-center justify-center py-6 md:py-12 bg-white">
+                            <div class="text-center text-sm md:text-base mt-2 text-primary-700">
+                                Multi-level commission structure
+                            </div>
+                        </div>
+                        
+                        <!-- Bottom Stat -->
+                        <div class="border-r border-t border-white flex flex-col items-center justify-center py-6 md:py-12">
+                            <div class="text-center text-sm md:text-base mt-2 text-white/80">
+                                24/7 Customer Support team
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Travel Network Section -->
+
+
+<!-- Support Promise Banner -->
+<section>
+  <div class="w-full bg-primary-500 py-12">
+    <div
+      class="max-w-7xl mx-auto flex flex-row items-center justify-between text-white px-4"
+    >
+      <div class="font-medium text-sm md:text-base whitespace-nowrap">
+      Explore Other Services
+      </div>
+
+      <div class="hidden md:flex items-center justify-end space-x-6 text-sm">
+        <div class="flex items-center">
+          <span class="whitespace-nowrap"> Banking Platform Services</span>
+        </div>
+        <div class="text-white/50">|</div>
+        <div class="flex items-center">
+          <span class="whitespace-nowrap">Travel Platform Services</span>
+        </div>
+        <div class="text-white/50">|</div>
+        <div class="flex items-center">
+          <span class="whitespace-nowrap"> Insurance Platform Services</span>
+        </div>
+        <div class="text-white/50">|</div>
+        <div class="flex items-center">
+          <span class="whitespace-nowrap">E-Governance Platform Services</span>
+        </div>
+      </div>
+
+      <!-- Mobile version - scrollable -->
+      <div
+        class="md:hidden flex items-center overflow-x-auto whitespace-nowrap space-x-4 text-sm scrollbar-hide"
+      >
+        <span>Training for new agents</span>
+        <span class="text-white/50">|</span>
+        <span>Regular commission payments</span>
+        <span class="text-white/50">|</span>
+        <span>Dedicated relationship manager</span>
+        <span class="text-white/50">|</span>
+        <span>24/7 Technical assistance</span>
+      </div>
+    </div>
+  </div>
+</section>
 
 <!-- testimonials -->
 
@@ -767,74 +865,6 @@
     </div>
 </section>
 
-<!-- End of Testimonials Section -->
-
-
-<!-- Join India's Growing -->
-<section class="bg-secondary-600 text-white min-h-[300px] md:min-h-[400px]">
-        <div class="container mx-auto px-4 md:px-24 py-16 lg:py-20">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-                <!-- Left Section - Heading and CTA -->
-                <div class="lg:col-span-4 space-y-6 animate-fade-in">
-                    <h1 class="text-4xl md:text-5xl font-bold leading-tight">Why Partner
-                    With Sec2pay?</h1>
-                    <p class="text-lg text-white/90">Interested in Growing Your Business?</p>
-                    <div class="pt-4">
-                        <a href="#" class="inline-block bg-white  text-secondary-600 font-medium py-3 px-8 rounded-md transition duration-300">Partner With Us</a>
-                    </div>
-                </div>
-
-                <!-- Right Section - Stats -->
-                <div class="lg:col-span-8 animate-fade-in" style="animation-delay: 0.2s;">
-                    <div class="grid grid-cols-1 md:grid-cols-3 h-full">
-                        <!-- First Stat -->
-
-                        <div class="flex flex-col">
-                        <div class="border-r  border-white/20 flex flex-col items-center justify-center py-6 md:py-12">
-                            <div class="text-center text-sm md:text-base mt-2 text-white/80">
-                            Pan-India presence with 1 lakh+ active retailers
-                            </div>
-                        </div>
-
-                        <!-- Second Stat -->
-                        <div class="border-r border-white/20 flex flex-col items-center justify-center py-6 md:py-12">
-                            
-                            <div class="text-center text-sm md:text-base mt-2 text-white/80">
-                            Dedicated support team
-                            </div>
-                        </div>
-                        </div>
-                      
-
-                        <!-- Third Stat -->
-                        <div class="flex flex-col">
-                            <!-- Top Section -->
-                            <div class="flex flex-col items-center justify-center py-6 md:py-12 border-b border-white/20">
-                                
-                                <div class="text-center text-sm md:text-base mt-2 text-white/80">
-                                Multi-level commission structure
-                                </div>
-                            </div>
-                            <!-- Bottom Section with Secondary Background -->
-                            <div class="bg-secondary-500 flex flex-col items-center justify-center py-6 md:py-12 flex-1">
-                                
-                                <div class="text-center text-sm md:text-base mt-2">
-                                24/7 Customer Support team
-                            </div>
-                            </div>
-                        </div>
-
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
-<!-- Travel Network Section -->
-
-
 
 <!-- Join Section with Dark Blue Background -->
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
@@ -889,4 +919,15 @@
 
 
 
-<?php include_once('includes/footer.php'); ?>
+ </main>
+
+    <!-- Main Header Banner -->
+
+
+    <?php include_once('includes/footer.php'); ?>
+
+    <script src="./assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</body>
+
+</html>

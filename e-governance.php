@@ -1,4 +1,26 @@
-<?php include_once('includes/header.php'); ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sec2Pay - Banking Platform Services</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+</head>
+
+<body class="bg-white font-inter">
+
+    <?php include_once('includes/header.php'); ?>
+
+
+    <main>
 
 <!-- hero section -->
 
@@ -17,7 +39,6 @@
                     <a href="#"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
                         Start Your Journey
-
                     </a>
 
                     <div
@@ -65,7 +86,7 @@
             <!-- Tab Buttons -->
             <div class="flex flex-wrap mb-8 gap-2 md:gap-3 md:pl-24">
                 <button
-                    class="tab-btn px-5 py-3 bg-transparent text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none active"
+                    class="tab-btn px-5 py-3 bg-secondary-600 text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none active"
                     data-tab="aeps">
                     <span>Digital Service Access</span>
                 </button>
@@ -139,38 +160,35 @@ services closer to citizens through
                 <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="aadhaar-pay">
                     <div class="flex flex-col md:flex-row items-center gap-8">
                         <div class="w-full md:w-1/2">
-                            <h3 class="text-2xl md:text-3xl font-semibold mb-4">Aadhaar Pay</h3>
-                            <p class="text-white/80 mb-8 max-w-md">Easy payments using Aadhaar biometric authentication.
-                            </p>
-
+                            <h3 class="text-2xl md:text-3xl font-semibold mb-4">Track application status instantly and</br>get updates at each processing stage</h3>
                             <ul class="space-y-4">
                                 <li class="flex items-center">
                                     <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
                                         <span
                                             class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
                                     </span>
-                                    Biometric verification
+                                    Status notification
                                 </li>
                                 <li class="flex items-center">
                                     <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
                                         <span
                                             class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
                                     </span>
-                                    Secure transactions
+                                    Document varification tracking
                                 </li>
                                 <li class="flex items-center">
                                     <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
                                         <span
                                             class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
                                     </span>
-                                    No card required
+                                    NApplication progress monitoring
                                 </li>
                                 <li class="flex items-center">
                                     <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
                                         <span
                                             class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
                                     </span>
-                                    Instant confirmation
+                                    Digital copy access
                                 </li>
                             </ul>
                         </div>
@@ -187,38 +205,35 @@ services closer to citizens through
                 <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="micro-atm">
                     <div class="flex flex-col md:flex-row items-center gap-8">
                         <div class="w-full md:w-1/2">
-                            <h3 class="text-2xl md:text-3xl font-semibold mb-4">Micro ATM Services</h3>
-                            <p class="text-white/80 mb-8 max-w-md">Banking services at your fingertips with our Micro
-                                ATM.</p>
-
+                            <h3 class="text-2xl md:text-3xl font-semibold mb-4">Manage document submissions and</br> verifications througn one platform</h3>
                             <ul class="space-y-4">
                                 <li class="flex items-center">
                                     <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
                                         <span
                                             class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
                                     </span>
-                                    Cash withdrawals
+                                    Digital form filling
                                 </li>
                                 <li class="flex items-center">
                                     <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
                                         <span
                                             class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
                                     </span>
-                                    Balance inquiries
+                                    Document Storage
                                 </li>
                                 <li class="flex items-center">
                                     <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
                                         <span
                                             class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
                                     </span>
-                                    Mini statements
+                                    Instant verification
                                 </li>
                                 <li class="flex items-center">
                                     <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
                                         <span
                                             class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
                                     </span>
-                                    Fund transfers
+                                    Secure submissions
                                 </li>
                             </ul>
                         </div>
@@ -235,38 +250,35 @@ services closer to citizens through
                 <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="money-transfer">
                     <div class="flex flex-col md:flex-row items-center gap-8">
                         <div class="w-full md:w-1/2">
-                            <h3 class="text-2xl md:text-3xl font-semibold mb-4">Domestic Money Transfer</h3>
-                            <p class="text-white/80 mb-8 max-w-md">Send money anywhere in the country quickly and
-                                securely.</p>
-
+                            <h3 class="text-2xl md:text-3xl font-semibold mb-4">Handle regulatory requirements </br>with built-in compilance tools</h3>
                             <ul class="space-y-4">
                                 <li class="flex items-center">
                                     <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
                                         <span
                                             class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
                                     </span>
-                                    Instant transfers
+                                    Automated validations
                                 </li>
                                 <li class="flex items-center">
                                     <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
                                         <span
                                             class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
                                     </span>
-                                    Multiple bank support
+                                    Document authenticity checks
                                 </li>
                                 <li class="flex items-center">
                                     <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
                                         <span
                                             class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
                                     </span>
-                                    Low transaction fees
+                                    Digital signature support
                                 </li>
                                 <li class="flex items-center">
                                     <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
                                         <span
                                             class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
                                     </span>
-                                    Transaction tracking
+                                    Regulatory updates integration
                                 </li>
                             </ul>
                         </div>
@@ -279,53 +291,6 @@ services closer to citizens through
                     </div>
                 </div>
 
-                <!-- Business Banking Tab Content -->
-                <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="business-banking">
-                    <div class="flex flex-col md:flex-row items-center ">
-                        <div class="w-full md:w-1/2">
-                            <h3 class="text-2xl md:text-3xl font-semibold mb-4">Business Banking</h3>
-                            <p class="text-white/80 mb-8 max-w-md">Comprehensive banking solutions for your business
-                                needs.</p>
-
-                            <ul class="space-y-4">
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    Business accounts
-                                </li>
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    Payment solutions
-                                </li>
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    Financial reporting
-                                </li>
-                                <li class="flex items-center">
-                                    <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                        <span
-                                            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                    </span>
-                                    Business loans
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="w-full md:w-1/2 flex justify-center">
-                            <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
-                                <img src="assets/images/banking/aps.png" alt="Business Banking"
-                                    class="max-w-full h-auto max-h-[400px]">
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
@@ -441,10 +406,6 @@ services closer to citizens through
         <div class="text-center mb-12">
                         <p class="text-sm font-bold tracking-wider text-primary-800 uppercase mb-2">PRICING</p>
             <h2 class="text-3xl font-bold text-primary-700 mb-4">Simple, transparent pricing</h2>
-            <p class="text-gray-600 max-w-xl mx-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit dolor posuere vel venenatis eu sit massa
-                volutpat.
-            </p>
         </div>
 
         <!-- Toggle Switch -->
@@ -452,10 +413,10 @@ services closer to citizens through
             <span class="mr-3 text-gray-700 font-medium">Monthly</span>
             <div class="relative inline-block w-12 align-middle select-none">
                 <input type="checkbox" id="billing-toggle"
-                    class="peer absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer checked:right-0 checked:border-secondary-500 border-gray-300"
+                    class="peer absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer checked:right-0 checked:border-primary-500 border-gray-300"
                     style="top: 0; bottom: 0; margin: auto 0; transition: right 0.2s ease-in-out, border-color 0.2s ease-in-out;">
                 <label for="billing-toggle"
-                    class="block h-6 overflow-hidden rounded-full bg-gray-300 cursor-pointer peer-checked:bg-secondary-400"
+                    class="block h-6 overflow-hidden rounded-full bg-gray-300 cursor-pointer peer-checked:bg-primary-400"
                     style="transition: background-color 0.2s ease-in-out;">
                 </label>
             </div>
@@ -473,7 +434,7 @@ services closer to citizens through
                         <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
                             <div
                                 class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex">
-                                <img src="assets/images/banking/icon1.png" alt="Whitelabel Partner Icon">
+                                <img src="assets/images/e-governance/icon1.png" alt="Whitelabel Partner Icon">
                             </div>
                         </div>
                         <h3 class="text-3xl font-semibold text-gray-900">Whitelabel Partner</h3>
@@ -487,7 +448,7 @@ services closer to citizens through
                     <ul class="space-y-4 mb-6 flex-grow">
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -498,7 +459,7 @@ services closer to citizens through
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -509,7 +470,7 @@ services closer to citizens through
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -520,7 +481,7 @@ services closer to citizens through
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -539,7 +500,7 @@ services closer to citizens through
                             <span class="text-4xl font-bold text-gray-900 annual-price hidden">₹20,000</span>
                         </div>
                         <a href="#"
-                            class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
+                            class="block w-full py-3 px-4 bg-primary-500 hover:bg-primary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>
                     </div>
@@ -548,7 +509,7 @@ services closer to citizens through
 
             <!-- Plan 2 - Featured -->
             <div
-                class="bg-secondary-500 rounded-xl drop-shadow-xl overflow-hidden transform transition-all duration-300 hover:drop-shadow-2xl hover:-translate-y-1 relative md:-mt-8 md:mb-8 md:z-10">
+                class="bg-primary-500 rounded-xl drop-shadow-xl overflow-hidden transform transition-all duration-300 hover:drop-shadow-2xl hover:-translate-y-1 relative md:-mt-8 md:mb-8 md:z-10">
                 <!-- Popular Badge -->
                 <div class="absolute top-4 right-4">
                     <span
@@ -561,8 +522,8 @@ services closer to citizens through
                     <!-- Plan Icon and Title -->
                     <div class="flex items-center mb-6">
                         <div class="w-16 h-16 bg-white rounded-lg flex items-center justify-center mr-4">
-                            <div class="w-10 h-10 bg-gradient-to-r from-white to-secondary-300 overflow-hidden flex">
-                                <img src="assets/images/banking/icon2.png" alt="Whitelabel Reseller Icon">
+                            <div class="w-10 h-10 bg-gradient-to-r from-white to-primary-300 overflow-hidden flex">
+                                <img src="assets/images/e-governance/icon2.png" alt="Whitelabel Reseller Icon">
                             </div>
                         </div>
                         <h3 class="text-3xl font-semibold  text-white">Whitelabel Reseller</h3>
@@ -576,7 +537,7 @@ services closer to citizens through
                     <ul class="space-y-4 mb-6 flex-grow">
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-600 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-primary-600 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -587,7 +548,7 @@ services closer to citizens through
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-600 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-primary-600 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -598,7 +559,7 @@ services closer to citizens through
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-600 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-primary-600 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -609,7 +570,7 @@ services closer to citizens through
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-secondary-600 mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-white flex items-center justify-center text-primary-600 mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -628,7 +589,7 @@ services closer to citizens through
                             <span class="text-4xl font-bold text-white annual-price hidden">₹40,000</span>
                         </div>
                         <a href="#"
-                            class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-secondary-600 font-medium text-center rounded-full transition-colors duration-300">
+                            class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-primary-600 font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>
                     </div>
@@ -644,7 +605,7 @@ services closer to citizens through
                         <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
                             <div
                                 class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex">
-                                <img src="assets/images/banking/icon1.png" alt="Enterprise Partner Icon">
+                                <img src="assets/images/e-governance/icon1.png" alt="Enterprise Partner Icon">
                             </div>
                         </div>
                         <h3 class="text-3xl font-semibold text-gray-900">Enterprise Partner</h3>
@@ -658,7 +619,7 @@ services closer to citizens through
                     <ul class="space-y-4 mb-6 flex-grow">
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -669,7 +630,7 @@ services closer to citizens through
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -680,7 +641,7 @@ services closer to citizens through
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -691,7 +652,7 @@ services closer to citizens through
                         </li>
                         <li class="flex items-start">
                             <div
-                                class="flex-shrink-0 w-5 h-5 rounded-full bg-secondary-500 flex items-center justify-center text-white mt-0.5">
+                                class="flex-shrink-0 w-5 h-5 rounded-full bg-primary-500 flex items-center justify-center text-white mt-0.5">
                                 <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                                     <path fill-rule="evenodd"
                                         d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
@@ -710,7 +671,7 @@ services closer to citizens through
                             <span class="text-4xl font-bold text-gray-900 annual-price hidden">₹80,000</span>
                         </div>
                         <a href="#"
-                            class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
+                            class="block w-full py-3 px-4 bg-primary-500 hover:bg-primary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>
                     </div>
@@ -722,60 +683,53 @@ services closer to citizens through
 
 </section>
 
-<!-- End of Pricing Section -->
-
-
-<!-- End of Testimonials Section -->
-
 
 <!-- Join India's Growing -->
 <section class="bg-primary-700 text-white min-h-[300px] md:min-h-[400px]">
-        <div class="container mx-auto px-4 md:px-24 py-16 lg:py-20">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-                <!-- Left Section - Heading and CTA -->
-                <div class="lg:col-span-4 space-y-6 animate-fade-in">
-                    <h1 class="text-4xl md:text-5xl font-bold leading-tight">Join India's Growing Travel Network</h1>
-                    <p class="text-lg text-white/90">Sec2Pay Your Partner in Making Digital Business Growth Simple</p>
-                    <div class="pt-4">
-                        <a href="#" class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-md transition duration-300">Begin Your Journey</a>
-                    </div>
-                </div>
-
-             
-            <!-- Right Section - Stats -->
-            <div class="lg:col-span-8">
-                <div class="grid grid-cols-2 gap-2 h-full">
-                    <!-- Top-Left Stat -->
-                    <div class="bg-primary-700 p-6 flex flex-col items-center justify-center text-center">
-                        <div class="text-sm mb-2">Established network serving</div>
-                        <div class="text-xl font-bold">1 Lac+ retail merchants</div>
-                    </div>
-                    
-                    <!-- Top-Right Stat -->
-                    <div class="bg-gradient-to-br from-indigo-500 to-red-400 p-6 flex flex-col items-center justify-center text-center">
-                        <div class="text-sm mb-2">Partnerships with</div>
-                        <div class="text-xl font-bold">20+ government departments</div>
-                    </div>
-                    
-                    <!-- Bottom-Left Stat -->
-                    <div class="bg-primary-700 p-6 flex flex-col items-center justify-center text-center">
-                        <div class="text-sm mb-2">Quick settlement</div>
-                        <div class="text-xl font-bold">cycles</div>
-                    </div>
-                    
-                    <!-- Bottom-Right Stat -->
-                    <div class="bg-primary-700 p-6 flex flex-col items-center justify-center text-center">
-                        <div class="text-sm mb-2">24/7 Customer</div>
-                        <div class="text-xl font-bold">Support team</div>
-                    </div>
-                </div>
-            </div>
-            </div>
+    <div class="container mx-auto px-4 md:px-24 py-16 lg:py-20">
+    <div class="flex flex-col md:flex-row items-center">
+      <!-- Left Column - Text and CTA -->
+      <div class="w-full md:w-1/3 mb-10 md:mb-0">
+        <h2 class="text-4xl font-bold text-white leading-tight mb-4">Join India's Growing Travel Network</h2>
+        <p class="text-white text-lg mb-8">Sec2Pay Your Partner in Making Digital Business Growth Simple</p>
+        <a href="#" class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-lg transition duration-300">
+          Begin Your Journey
+        </a>
+      </div>
+      
+      <!-- Right Column - Stats Grid -->
+      <div class="w-full md:w-2/3 grid grid-cols-2 gap-0 border-l border-gray-500/30 ml-0 md:ml-10">
+        <!-- Stat Box 1 -->
+        <div class="border-r border-b border-gray-500/30 p-8">
+          <div class="text-center">
+            <p class="text-white text-center"> Established network</br> serving 1 Lac+ retail </br>merchants</p>
+          </div>
         </div>
-    </section>
-
-
-<!-- Travel Network Section -->
+        
+        <!-- Stat Box 2 -->
+        <div class=" bg-gradient-to-br from-indigo-500 to-red-400  border-gray-500/30 p-8">
+          <div class="text-center">
+            <p class="text-white text-center"> Partnerships with 20+</br> government </br>departments</p>
+          </div>
+        </div>
+    
+        <!-- Stat Box 3 -->
+        <div class="border-r border-gray-500/30 p-8">
+          <div class="text-center">
+            <p class="text-white text-center"> Quick settlement</br> cycles</p>
+          </div>
+        </div>
+        <!-- Stat Box 3 -->
+        <div class="border-r border-gray-500/30 p-8">
+          <div class="text-center">
+            <p class="text-white text-center">24/7 Customer</br> Support team</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    </div>
+</section>
 
 
 
@@ -783,7 +737,7 @@ services closer to citizens through
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-primary-600 to-primary-500 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+        <div class="bg-gradient-to-br from-secondary-700 to-secondary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
             data-aos="fade-up" data-aos-duration="1000">
 
             <!-- Stars Background SVG -->
@@ -827,9 +781,21 @@ services closer to citizens through
     </div>
 </section>
 
+
 <!-- End of Join Section -->
 <!-- Footer Section -->
 
 
 
-<?php include_once('includes/footer.php'); ?>
+ </main>
+
+    <!-- Main Header Banner -->
+
+
+    <?php include_once('includes/footer.php'); ?>
+
+    <script src="./assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+</body>
+
+</html>

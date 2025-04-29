@@ -1,5 +1,5 @@
 /**
- * SecuPay - Banking Platform Services
+ * Sec2Pay - Banking Platform Services
  * Main JavaScript functionality
  */
 
@@ -1028,3 +1028,191 @@ document.addEventListener('DOMContentLoaded', function() {
             once: true
         });
     }
+    
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+      const tabButtons = document.querySelectorAll('.tab-btn');
+      const tabPanes = document.querySelectorAll('.tab-pane');
+      
+      // Function to switch tabs
+      function switchTab(tabId) {
+          // Hide all tab panes
+          tabPanes.forEach(pane => {
+              pane.classList.add('hidden', 'opacity-0');
+              pane.classList.remove('block', 'opacity-100');
+          });
+          
+          // Reset all tab buttons to default style
+          tabButtons.forEach(btn => {
+              btn.classList.remove('bg-secondary-600', 'text-white', 'active');
+              btn.classList.add('bg-white', 'text-gray-700');
+          });
+          
+          // Show the selected tab pane
+          const selectedPane = document.getElementById(tabId);
+          if (selectedPane) {
+              selectedPane.classList.remove('hidden', 'opacity-0');
+              selectedPane.classList.add('block', 'opacity-100');
+          }
+          
+          // Highlight the clicked button
+          const selectedButton = document.querySelector(`.tab-btn[data-tab="${tabId}"]`);
+          if (selectedButton) {
+              selectedButton.classList.remove('bg-white', 'text-gray-700');
+              selectedButton.classList.add('bg-secondary-600', 'text-white', 'active');
+          }
+      }
+      
+      // Add click event listeners to tab buttons
+      tabButtons.forEach(button => {
+          button.addEventListener('click', function() {
+              const tabId = this.getAttribute('data-tab');
+              switchTab(tabId);
+          });
+      });
+  });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    const tabPanes = document.querySelectorAll('.tab-pane');
+    
+    // Function to switch tabs
+    function switchTab(tabId) {
+        // Hide all tab panes
+        tabPanes.forEach(pane => {
+            pane.classList.add('hidden', 'opacity-0');
+            pane.classList.remove('block', 'opacity-100');
+        });
+        
+        // Reset all tab buttons to default style
+        tabButtons.forEach(btn => {
+            btn.classList.remove('bg-secondary-600', 'text-white', 'active');
+            btn.classList.add('bg-white', 'text-gray-700');
+        });
+        
+        // Show the selected tab pane
+        const selectedPane = document.getElementById(tabId);
+        if (selectedPane) {
+            selectedPane.classList.remove('hidden', 'opacity-0');
+            selectedPane.classList.add('block', 'opacity-100');
+        }
+        
+        // Highlight the clicked button
+        const selectedButton = document.querySelector(`.tab-btn[data-tab="${tabId}"]`);
+        if (selectedButton) {
+            selectedButton.classList.remove('bg-white', 'text-gray-700');
+            selectedButton.classList.add('bg-secondary-600', 'text-white', 'active');
+        }
+    }
+    
+    // Add click event listeners to tab buttons
+    tabButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            const tabId = this.getAttribute('data-tab');
+            switchTab(tabId);
+        });
+    });
+});
+
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const tabButtons = document.querySelectorAll('[data-tab]');
+        
+        tabButtons.forEach(button => {
+            button.addEventListener('click', function() {
+                // Remove active class from all buttons
+                tabButtons.forEach(btn => {
+                    btn.classList.remove('bg-red-500', 'text-white');
+                    btn.classList.add('bg-white', 'text-blue-600', 'border', 'border-gray-200');
+                });
+                
+                // Add active class to clicked button
+                this.classList.remove('bg-white', 'text-blue-600', 'border', 'border-gray-200');
+                this.classList.add('bg-red-500', 'text-white');
+            });
+        });
+    });
+
+
+
+
+     // Desktop Menu Functionality
+  document.querySelectorAll('.menu-item').forEach(item => {
+    item.addEventListener('click', () => {
+      document.querySelectorAll('.menu-item').forEach(i => {
+        i.classList.replace('text-red-600', 'text-gray-700');
+        i.classList.remove('font-semibold');
+      });
+      item.classList.replace('text-gray-700', 'text-red-600');
+      item.classList.add('font-semibold');
+      const target = item.dataset.target;
+      document.querySelectorAll('.content-panel').forEach(panel => {
+        panel.classList.toggle('hidden', panel.dataset.content !== target);
+      });
+    });
+  });
+
+  // Mobile Menu Toggle
+  const mobileToggle = document.getElementById('mobile-toggle');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const mobileClose = document.getElementById('mobile-close');
+  
+  mobileToggle.addEventListener('click', () => {
+    mobileMenu.classList.remove('translate-x-full');
+    document.body.style.overflow = 'hidden';
+  });
+  
+  mobileClose.addEventListener('click', () => {
+    mobileMenu.classList.add('translate-x-full');
+    document.body.style.overflow = '';
+  });
+
+  // Mobile Accordion Functionality
+  document.querySelectorAll('.mobile-menu-toggle').forEach(toggle => {
+    toggle.addEventListener('click', (e) => {
+      const parent = e.currentTarget.closest('.mobile-menu-group');
+      const submenu = parent.querySelector('.mobile-submenu');
+      const icon = parent.querySelector('i');
+      
+      submenu.classList.toggle('hidden');
+      icon.classList.toggle('rotate-180');
+      
+      // Close other main menus
+      document.querySelectorAll('.mobile-menu-group').forEach(group => {
+        if (group !== parent) {
+          group.querySelector('.mobile-submenu').classList.add('hidden');
+          group.querySelector('i').classList.remove('rotate-180');
+        }
+      });
+    });
+  });
+
+  // Mobile Submenu Accordion
+  document.querySelectorAll('.mobile-submenu-toggle').forEach(toggle => {
+    toggle.addEventListener('click', (e) => {
+      const parent = e.currentTarget.closest('.mobile-submenu-group');
+      const content = parent.querySelector('.mobile-submenu-content');
+      const icon = parent.querySelector('i');
+      
+      content.classList.toggle('hidden');
+      icon.classList.toggle('rotate-180');
+    });
+  });
+
+  // Close menu when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!mobileMenu.contains(e.target) && !mobileToggle.contains(e.target)) {
+      mobileMenu.classList.add('translate-x-full');
+      document.body.style.overflow = '';
+    }
+  });
+
+  // Close on escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      mobileMenu.classList.add('translate-x-full');
+      document.body.style.overflow = '';
+    }
+  });
