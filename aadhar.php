@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SecuPay - Banking Platform Services</title>
+    <title>Sec2Pay - Banking Platform Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
@@ -391,15 +391,15 @@
                 </div>
             </div>
         </section>
-        </main>
+    </main>
 
-<!-- Main Header Banner -->
+    <!-- Main Header Banner -->
 
 
-<?php include_once('includes/footer.php'); ?>
+    <?php include_once('includes/footer.php'); ?>
 
-<script src="./assets/js/main.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </body>
 
 </html>

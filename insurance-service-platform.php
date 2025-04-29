@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SecuPay - Banking Platform Services</title>
+    <title>Sec2Pay - Banking Platform Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
@@ -31,7 +31,6 @@
             <div class="grid grid-cols-1 md:grid-cols-2 ">
                 <!-- Left Content - Services List -->
                 <div class="p-8 md:p-12">
-                    <p class="font-semi-bolder text-primary-600 font-bold">Insurance services</p>
                     <h1 class="text-4xl font-bold text-secondary-500 ">Build Your Insurance</h1>
                     <h1 class="text-4xl font-bold text-secondary-500 mb-4">Business Portfolio</h1>
                     <p class="text-gray-500 mb-8">Join 10,000+ insurance partners offering</br>comprehensive coverage solutions.</p>
@@ -193,10 +192,10 @@
                 <ul class="space-y-5 mb-8">
                     <?php
                     $healthPlans = [
-                        'Term Plans that protect families',
-                        'Child Plans for future security',
-                        'Retirement Plans for golden years',
-                        'Savings Plans for wealth building'
+                        'Family Health coverage',
+                        'Personal Health plans',
+                        'Senior Care solutions',
+                        'Group Health benefits'
                     ];
                     
                     foreach ($healthPlans as $plan) :
@@ -244,10 +243,10 @@
                 <ul class="space-y-5 mb-8">
                     <?php
                     $lifePlans = [
-                        'Term Plans that protect families',
-                        'Child Plans for future security',
-                        'Retirement Plans for golden years',
-                        'Savings Plans for wealth building'
+                        'Two-wheeler protection',
+                        'Four-wheeler coverage',
+                        'Commercial vehicle plans',
+                        'Quick claim settlements'
                     ];
                     
                     foreach ($lifePlans as $plan) :
@@ -284,10 +283,10 @@
                 <ul class="space-y-5 mb-8">
                     <?php
                     $healthPlans = [
-                        'Term Plans that protect families',
-                        'Child Plans for future security',
-                        'Retirement Plans for golden years',
-                        'Savings Plans for wealth building'
+                        'Instant policy issuance',
+                        'Digital documentation',
+                        'Real-time tracking',
+                        'Quick claim support'
                     ];
                     
                     foreach ($healthPlans as $plan) :
@@ -326,10 +325,6 @@
         <div class="text-center mb-12">
                         <p class="text-sm font-bold tracking-wider text-primary-800 uppercase mb-2">PRICING</p>
             <h2 class="text-3xl font-bold text-primary-700 mb-4">Simple, transparent pricing</h2>
-            <p class="text-gray-600 max-w-xl mx-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit dolor posuere vel venenatis eu sit massa
-                volutpat.
-            </p>
         </div>
 
         <!-- Toggle Switch -->

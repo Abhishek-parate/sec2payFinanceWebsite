@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SecuPay - Banking Platform Services</title>
+    <title>Sec2Pay - Banking Platform Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
@@ -36,7 +36,7 @@
 
                     <a href="#"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
-                        Start Now
+                        Start Your Journey
 
                     </a>
 
@@ -78,15 +78,13 @@
 <section class="bg-primary-600 py-10 px-4 md:px-24">
     <div class="container mx-auto px-6">
         <h2 class="text-3xl font-bold text-primary-100 my-8 text-center">Features & Functions</h2>
-        <p class="text-primary-100 mb-12 max-w-2xl mx-auto">
-        Building trust through partnerships that last Creating a network that serves millions
-        </p>
+        
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <!-- Feature Card 1 -->
             <div
                 class="border border-gray-200  bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/dmt/quick-transfer1.png" alt="Real-Time Payment"
+                <img src="assets/images/pan-uti/digital.png" alt="Real-Time Payment"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left">
                     <h3 class="text-secondary-600 font-semibold text-xl mb-2">Digital PAN Applications</h3>
@@ -99,7 +97,7 @@
             <!-- Feature Card 2 -->
             <div
                 class="border border-gray-200  bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/dmt/quick-transfer1.png" alt="Real-Time Payment"
+                <img src="assets/images/pan-uti/pancard2.png" alt="Real-Time Payment"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left ">
 
@@ -114,7 +112,7 @@
             <!-- Feature Card 3 -->
             <div
                 class="border border-gray-200  bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/dmt/quick-transfer1.png" alt="Real-Time Payment"
+                <img src="assets/images/pan-uti/corrections.png" alt="Real-Time Payment"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left ">
 
@@ -128,7 +126,7 @@
             <!-- Feature Card 4 -->
             <div
                 class="border border-gray-200 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/dmt/quick-transfer1.png" alt="Real-Time Payment"
+                <img src="assets/images/pan-uti/linking.png" alt="Real-Time Payment"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left  ">
 
@@ -155,7 +153,7 @@
 
             <!-- Right side with content -->
             <div class="w-full md:w-1/2">
-                <h2 class="text-3xl font-bold text-secondary-600 mb-6 mt-6">Benefits to PAN UTI
+                <h2 class="text-3xl font-bold text-primary-600 mb-6 mt-6">Benefits to PAN UTI
                 Agents</h2>
 
                 <ul class="space-y-5 mb-12">
@@ -178,11 +176,11 @@
                                 <g clip-path="url(#clip0_1700_1996)">
                                     <path
                                         d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z"
-                                        fill="#FEEEEC" stroke="#F15744" stroke-width="2" stroke-linecap="round"
+                                        fill="#e6edf5" stroke="#0e3163" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                     <path
                                         d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705"
-                                        stroke="#F15744" stroke-width="2" stroke-linecap="round"
+                                        stroke="#0e3163" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" />
                                 </g>
                                 <defs>
@@ -325,7 +323,7 @@
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-primary-800 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+        <div class="bg-gradient-to-br from-secondary-600 to-secondary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
             data-aos="fade-up" data-aos-duration="1000">
 
             <!-- Stars Background SVG -->

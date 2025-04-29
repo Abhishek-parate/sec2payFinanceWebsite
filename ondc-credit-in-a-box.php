@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SecuPay - Banking Platform Services</title>
+    <title>Sec2Pay - Banking Platform Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
@@ -40,14 +40,13 @@
     <div class="container mx-auto px-4 sm:px-6 relative z-20">
         <!-- Hero Text with AOS animations -->
         <div class="max-w-4xl mx-auto text-center  ">
-            <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold mb-4 md:mb-6 text-gray-900 leading-tight"
+            <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold mb-4 md:mb-6 text-gray-900 leading-tight mt-24"
                 data-aos="fade-up" data-aos-duration="800" data-aos-mirror="true">
-                <span class="text-secondary-500">Simplify your operations with a comprehensive platform offering essential financial, travel, and utility services tailored to your business needs.</span>
+                <span class="text-secondary-500">ONDC Credit</span>
             </h1>
             <p class="text-base sm:text-lg  text-gray-700 max-w-3xl mx-auto" data-aos="fade-up"
                 data-aos-duration="800" data-aos-delay="100" data-aos-mirror="true">
-                Integrate e-governance solutions to simplify services for citizens
-                
+                Simplify your operations with a comprehensive platform offering </br>essential financial, travel, and utility services tailored to your</br> business needs.  
             </p>
        
 
@@ -80,70 +79,168 @@
             </div>
         </div>
 
+
+<!-- Key Features Section -->
+<section class="bg-white py-16">
+  <div class="container mx-auto px-4">
+    <!-- Section Heading -->
+    <h2 class="text-3xl md:text-4xl font-bold text-center text-navy-800 mb-16">Key Features</h2>
+    
+    <!-- Features Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16">
+      
+    <!-- Banking Services Card - Vertical Layout -->
+<div class="flex flex-col items-start">
+  <!-- Icon Section -->
+  <div class="bg-red-50 p-4 rounded-lg mb-4">
+    <img src="./assets/images/odnc-credit-box/icon1.svg" alt="Banking Services" class="h-10 w-10" />
+  </div>
+  
+  <!-- Content Section -->
+  <div>
+    <h3 class="text-xl font-semibold text-red-500 mb-2">Banking Services</h3>
+    <p class="text-gray-700">Deliver core banking functionalities such as AePS, UPI, </br> and Micro ATM services to enhance your network.</p>
+  </div>
+</div>
+
+<!-- Banking Services Card - Vertical Layout -->
+<div class="flex flex-col items-start">
+  <!-- Icon Section -->
+  <div class="bg-red-50 p-4 rounded-lg mb-4">
+    <img src="./assets/images/odnc-credit-box/icon2.svg" alt="Banking Services" class="h-10 w-10" />
+  </div>
+  
+  <!-- Content Section -->
+  <div>
+    <h3 class="text-xl font-semibold text-red-500 mb-2">Travel Solutions</h3>
+    <p class="text-gray-700">Seamlessly enable travel bookings, including IRCTC </br> tickets, flights, and buses for your customers.</p>
+  </div>
+</div>
+
+<!-- Banking Services Card - Vertical Layout -->
+<div class="flex flex-col items-start">
+  <!-- Icon Section -->
+  <div class="bg-red-50 p-4 rounded-lg mb-4">
+    <img src="./assets/images/odnc-credit-box/icon3.svg" alt="Banking Services" class="h-10 w-10" />
+  </div>
+  
+  <!-- Content Section -->
+  <div>
+    <h3 class="text-xl font-semibold text-red-500 mb-2">Bill Payment Hub</h3>
+    <p class="text-gray-700">Offer a unified platform for mobile recharges, bill </br> payments, and FASTag services.</p>
+  </div>
+</div>
+
+<!-- Banking Services Card - Vertical Layout -->
+<div class="flex flex-col items-start">
+  <!-- Icon Section -->
+  <div class="bg-red-50 p-4 rounded-lg mb-4">
+    <img src="./assets/images/odnc-credit-box/icon4.svg" alt="Banking Services" class="h-10 w-10" />
+  </div>
+  
+  <!-- Content Section -->
+  <div>
+    <h3 class="text-xl font-semibold text-red-500 mb-2">E-Governance Tools</h3>
+    <p class="text-gray-700">Provide access to PAN card services, GST filing, and</br> more</p>
+  </div>
+</div>
+
+<!-- Banking Services Card - Vertical Layout -->
+<div class="flex flex-col items-start">
+  <!-- Icon Section -->
+  <div class="bg-red-50 p-4 rounded-lg mb-4">
+    <img src="./assets/images/odnc-credit-box/icon5.svg" alt="Banking Services" class="h-10 w-10" />
+  </div>
+  
+  <!-- Content Section -->
+  <div>
+    <h3 class="text-xl font-semibold text-red-500 mb-2">ONDC Services</h3>
+    <p class="text-gray-700">Integrate ONDC-enabled solutions for e-commerce, </br> credit, and logistics into your business seamlessly.</p>
+  </div>
+</div>
+
+<!-- Banking Services Card - Vertical Layout -->
+<div class="flex flex-col items-start">
+  <!-- Icon Section -->
+  <div class="bg-red-50 p-4 rounded-lg mb-4">
+    <img src="./assets/images/odnc-credit-box/icon6.svg" alt="Banking Services" class="h-10 w-10" />
+  </div>
+  
+  <!-- Content Section -->
+  <div>
+    <h3 class="text-xl font-semibold text-red-500 mb-2">Wealth Management</h3>
+    <p class="text-gray-700">Enable personalized investment tools and goal-based </br> financial planning for your network.</p>
+  </div>
+</div>
+      
+    </div>
+    
+    <!-- CTA Button -->
+    <div class="flex justify-center mt-16">
+      <a href="#" class="bg-red-500 hover:bg-red-600 text-white font-medium py-3 px-8 rounded-md transition duration-300">
+        Discover All Services
+      </a>
+    </div>
+  </div>
+</section>
+
 <!-- Features Section -->
 
+<!-- Benefits Section with full-width red background -->
 <section class="bg-white py-16">
-    <!-- AOS CSS -->
-    
-    <div class="container ">
+    <!-- Full-width red background header -->
+    <div class="w-full bg-red-500 py-12 mb-24">
         <!-- Section heading -->
-        <div class="text-center  max-w-full bg-secondary-500 h-48 " data-aos="fade-up" data-aos-duration="800">
-            <h2 class="text-3xl font-bold text-white py-4">Benifits</h2>
+        <div class="container mx-auto text-center" data-aos="fade-up" data-aos-duration="800">
+            <h2 class="text-3xl font-bold text-white mb-24">Benifits</h2>
         </div>
-        
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto -mt-24">
+    </div>
+    
+    <div class="container mx-auto px-4">
+        <!-- Cards row -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto -mt-48">
             <!-- Feature Card 1 -->
             <div class="rounded-xl overflow-hidden shadow-lg border border-gray-100 flex flex-col transform transition-all duration-300 hover:shadow-xl hover:-translate-y-2 bg-white" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-                <div class="h-48 overflow-hidden relative">
+                <div class="h-48 overflow-hidden relative bg-red-50">
                     <img src="assets/images/odnc-credit-box/odncb1.png" alt="Integration" class="w-full h-full object-cover rounded-t-xl">
-                   =
                 </div>
                 <div class="p-6 text-left flex-grow">
                     <h3 class="font-bold text-xl mb-3 flex items-center text-gray-800">
-                       
                         Integration
                     </h3>
-                    <p class="text-gray-600 mb-4">Simplified integration for a wide array of services with plug-and-play APIs and comprehensive documentation.</p>
-                    
+                    <p class="text-gray-600 mb-4">Simplified integration for a wide array </br> of services</p>
                 </div>
             </div>
             
             <!-- Feature Card 2 -->
             <div class="rounded-xl overflow-hidden shadow-lg border border-gray-100 flex flex-col transform transition-all duration-300 hover:shadow-xl hover:-translate-y-2 bg-white" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
-                <div class="h-48 overflow-hidden relative">
+                <div class="h-48 overflow-hidden relative bg-red-50">
                     <img src="assets/images/odnc-credit-box/odncb2.png" alt="Solutions" class="w-full h-full object-cover rounded-t-xl">
-                
                 </div>
                 <div class="p-6 text-left flex-grow">
                     <h3 class="font-bold text-xl mb-3 flex items-center text-gray-800">
-                        
                         Solutions
                     </h3>
-                    <p class="text-gray-600 mb-4">Scalable solutions that grow with your business needs, from startups to enterprise-level organizations.</p>
-                   
+                    <p class="text-gray-600 mb-4">Scalable solutions for businesses of </br> any size</p>
                 </div>
             </div>
-
+            
             <!-- Feature Card 3 -->
             <div class="rounded-xl overflow-hidden shadow-lg border border-gray-100 flex flex-col transform transition-all duration-300 hover:shadow-xl hover:-translate-y-2 bg-white" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
-                <div class="h-48 overflow-hidden relative">
+                <div class="h-48 overflow-hidden relative bg-red-50">
                     <img src="assets/images/odnc-credit-box/odncb3.png" alt="Operations" class="w-full h-full object-cover rounded-t-xl">
-                   
                 </div>
                 <div class="p-6 text-left flex-grow">
                     <h3 class="font-bold text-xl mb-3 flex items-center text-gray-800">
-                       
                         Operations
                     </h3>
-                    <p class="text-gray-600 mb-4">Dedicated support team ensures seamless operations with proactive monitoring and rapid response times.</p>
-                   
+                    <p class="text-gray-600 mb-4">Dedicated support to ensure </br> seamless operations.</p>
                 </div>
             </div>
         </div>
-
-    
     </div>
 </section>
+
 
     <!-- AOS JS -->
 

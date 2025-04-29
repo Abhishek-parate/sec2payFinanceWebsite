@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SecuPay - Banking Platform Services</title>
+    <title>Sec2Pay - Banking Platform Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
@@ -31,15 +31,14 @@
             <div class="grid grid-cols-1 md:grid-cols-2 ">
                 <!-- Left Content - Services List -->
                 <div class="p-8 md:p-12">
-                    <p class="font-semi-bolder text-primary-600 font-bold">PAN NSDl</p>
+                    <p class="font-semi-bolder text-primary-600 font-bold">PAN NSDL</p>
                     <h1 class="text-4xl font-bold text-secondary-600 ">PAN Card Application</h1>
                     <h1 class="text-4xl font-bold text-secondary-600 mb-4">Made Simple</h1>
                     <p class="text-gray-500 mb-8">Get your PAN card through NSDL's authorized service center network. Start your application today.</p>
 
                     <a href="#"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
-                        Book A Demo
-
+                        Apply Now
                     </a>
 
                     <div
@@ -125,7 +124,7 @@
 
 <!-- Banking Services Section -->
 <section class=" text-white py-20 min-h-[650px] flex items-center">
-    <div class="container mx-auto px-4 md:px-6 bg-primary-500 py-12 rounded-lg">
+    <div class="container mx-auto px-4 md:px-6 bg-primary-600 py-12 rounded-lg">
         <h1 class="text-4xl md:text-5xl font-bold mb-10 md:pl-24" data-aos="fade-up" data-aos-duration="800">Built for the</h1>
 
         <!-- Banking Services Tabs -->
@@ -133,7 +132,7 @@
             <!-- Tab Buttons -->
             <div class="flex flex-wrap mb-8 gap-2 md:gap-3 md:pl-24">
                 <button
-                    class="tab-btn px-5 py-3 bg-transparent text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none active"
+                    class="tab-btn px-5 py-3 bg-secondary-600 text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none active"
                     data-tab="aeps">
                     <span>Fast Processing</span>
                 </button>
@@ -205,9 +204,7 @@
                             </div>
                         </div>
                     </div>
-                    <button class="bg-[#F15744] hover:bg-[#E04A38] text-white font-medium py-2.5 px-6 rounded-md transition duration-300">
-                Read More
-                </button>
+
                 </div>
 
                 <!-- Aadhaar Pay Tab Content -->
@@ -409,7 +406,7 @@
 
 
 <!-- Our Other Services Section -->
-<section class="w-full bg-primary-500 py-16 px-4">
+<section class="w-full bg-primary-600 py-16 px-4">
     <div class="max-w-6xl mx-auto">
         <div class="flex flex-col md:flex-row items-start">
             <!-- Section Title -->

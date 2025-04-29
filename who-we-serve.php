@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SecuPay - Banking Platform Services</title>
+    <title>Sec2Pay - Banking Platform Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
@@ -188,10 +188,10 @@
             <span class="mr-3 text-gray-700 font-medium">Monthly</span>
             <div class="relative inline-block w-12 align-middle select-none">
                 <input type="checkbox" id="billing-toggle"
-                    class="peer absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer checked:right-0 checked:border-secondary-500 border-gray-300"
+                    class="peer absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer checked:right-0 checked:border-primary-500 border-gray-300"
                     style="top: 0; bottom: 0; margin: auto 0; transition: right 0.2s ease-in-out, border-color 0.2s ease-in-out;">
                 <label for="billing-toggle"
-                    class="block h-6 overflow-hidden rounded-full bg-gray-300 cursor-pointer peer-checked:bg-secondary-400"
+                    class="block h-6 overflow-hidden rounded-full bg-gray-300 cursor-pointer peer-checked:bg-primary-500"
                     style="transition: background-color 0.2s ease-in-out;">
                 </label>
             </div>
@@ -209,7 +209,7 @@
                         <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
                             <div
                                 class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex">
-                                <img src="assets/images/banking/icon1.png" alt="Whitelabel Partner Icon">
+                                <img src="assets/images/who-we-serve/icon1.png" alt="Whitelabel Partner Icon">
                             </div>
                         </div>
                         <div class="flex flex-col">
@@ -329,7 +329,7 @@
                     <div class="flex items-center mb-6">
                         <div class="w-16 h-16 bg-white rounded-lg flex items-center justify-center mr-4">
                             <div class="w-10 h-10 bg-gradient-to-r from-white to-secondary-300 overflow-hidden flex">
-                                <img src="assets/images/banking/icon2.png" alt="Whitelabel Reseller Icon">
+                                <img src="assets/images/who-we-serve/icon2.png" alt="Whitelabel Reseller Icon">
                             </div>
                         </div>
                         <div class="flex flex-col">
@@ -415,7 +415,7 @@
                         <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
                             <div
                                 class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex">
-                                <img src="assets/images/banking/icon1.png" alt="Enterprise Partner Icon">
+                                <img src="assets/images/who-we-serve/icon3.png" alt="Enterprise Partner Icon">
                             </div>
                         </div>
                         <div class="flex flex-col">
@@ -531,7 +531,7 @@
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-primary-600 to-primary-500 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+        <div class="bg-gradient-to-br from-primary-600 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
             data-aos="fade-up" data-aos-duration="1000">
 
             <!-- Stars Background SVG -->

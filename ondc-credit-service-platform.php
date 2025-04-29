@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SecuPay - Banking Platform Services</title>
+    <title>Sec2Pay - Banking Platform Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
@@ -30,10 +30,9 @@
             <div class="grid grid-cols-1 md:grid-cols-2 ">
                 <!-- Left Content - Services List -->
                 <div class="p-8 md:p-12">
-                    <p class="font-semi-bolder text-primary-600 font-bold">ONDC CREDIT SERVICE PLATFORM</p>
                     <h1 class="text-4xl font-bold text-secondary-600 ">Fuel Business Growth</h1>
                     <h1 class="text-4xl font-bold text-secondary-600 mb-4">with Smart Credit Solutions</h1>
-                    <p class="text-gray-500 mb-8">Empowering your business to provide credit on the ONDC platform.</p>
+                    <p class="text-gray-500 mb-8">Empowering your business to provide credit on the </br>ONDC platform.</p>
 
                     <a href="#"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
@@ -129,7 +128,7 @@
 <!-- Banking Services Section --> 
 <section class="  py-10 px-4 md:px-24 flex items-center">
     <div class="container mx-auto px-4 md:px-6">
-    <h2 class="text-3xl font-bold text-primary-700 mb-8 text-center">Features & Functions</h2>
+    <h2 class="text-3xl font-bold text-primary-700 mb-8 text-center">Core Services</h2>
 
         <!-- Banking Services Tabs -->
         <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
@@ -153,7 +152,6 @@
                                     'Working capital loans',
                                     'Stock purchase funding',
                                     'Business expansion loans',
-                                    'All type of business loans'
                                 ];
                                 
                                 foreach ($Merchants as $Merchant) :
@@ -172,14 +170,13 @@
                             </div>
                         </div>
                         <div class="w-full md:w-1/2">
-                            <h3 class="text-2xl md:text-3xl font-semibold mb-8">Consumer</h3>
+                            <h3 class="text-2xl md:text-3xl font-semibold mb-8">For Consumers</h3>
                             <ul class="space-y-5 mb-8">
                                 <?php
                                 $services = [
-                                    'Store and product discovery tools',
-                                    'Order tracking and fulfillment systems',
-                                    'Secure payment integration',
-                                    'Business analytics dashboard'
+                                    'Flexible EMIs',
+                                    'Digital personal loans',
+                                    'Buy Now Pay Later options',
                                 ];
                                 
                                 foreach ($services as $service) :
@@ -282,10 +279,6 @@
         <div class="text-center mb-12">
                         <p class="text-sm font-bold tracking-wider text-primary-800 uppercase mb-2">PRICING</p>
             <h2 class="text-3xl font-bold text-primary-700 mb-4">Simple, transparent pricing</h2>
-            <p class="text-gray-600 max-w-xl mx-auto">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit dolor posuere vel venenatis eu sit massa
-                volutpat.
-            </p>
         </div>
 
         <!-- Toggle Switch -->
@@ -675,7 +668,7 @@
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-primary-600 to-primary-500 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+        <div class="bg-gradient-to-br from-primary-800 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
             data-aos="fade-up" data-aos-duration="1000">
 
             <!-- Stars Background SVG -->
