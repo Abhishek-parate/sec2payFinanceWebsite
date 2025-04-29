@@ -5546,18 +5546,3 @@ body {
     width: auto;
   }
 }
-
-.rotate-180 {
-  transform: rotate(180deg);
-}
-.mobile-submenu {
-  transition: all 0.3s ease;
-}
-.mobile-submenu-content {
-  transition: all 0.3s ease;
-}
-
-  div#platform-menu,
-  div#services-menu {
-    width: max-content;
-  }
