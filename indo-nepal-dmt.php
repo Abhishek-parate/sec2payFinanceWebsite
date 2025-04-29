@@ -30,7 +30,7 @@
         <div class="rounded-xl overflow-hidden  ">
             <div class="grid grid-cols-1 md:grid-cols-2 ">
                 <!-- Left Content - Services List -->
-                <div class="p-8 md:p-12">
+                <div class="p-8 md:p-12 mt-12">
                     <p class="font-semi-bolder text-primary-600 font-bold">Indo- Nepal DMT</p>
                     <h1 class="text-4xl font-bold text-secondary-500 ">Send Money to Nepal,</h1>
                     <h1 class="text-4xl font-bold text-secondary-500 mb-4">Simply & Securely</h1>
@@ -77,38 +77,38 @@
 <!-- hero section ends -->
 
 <!-- Features & Functions Section -->
-<section class="bg-primary-100 px-4 md:px-24 mb-12 py-12">
+<section class="bg-primary-100 px-4 md:px-24 mb-6 py-12">
     <div class="container mx-auto px-6 text-center">
-        <h2 class="text-3xl font-bold text-primary-700 mb-12">Why Choose Sec2Pay UPI Cash @POS Platform</h2>
+        <h2 class="text-3xl font-bold text-primary-700 mb-6"> Why Choose Sec2Pay <span class="text-secondary-500">Indo-Nepal DMT Platform</span></h2>
         
         <!-- Updated grid with proper centering -->
-        <div class="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <!-- Feature Card 1 -->
-            <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 bg-white">
                 <div class="p-6 text-left">
+                <h3 class="text-secondary-600 font-semibold text-xl mb-4">Real-Time Transfers</h3>
                     <p class="text-gray-600 text-sm">
-                    Seamless tools for cash withdrawals, money transfers, and account management.
-                    </p>
-                </div>
+                    Send money instantly to bank accounts across Nepal through our trusted banking network.</p>
             </div>
             
             <!-- Feature Card 2 -->
-            <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 bg-white">
                 <div class="p-6 text-left">
+                <h3 class="text-secondary-600 font-semibold text-xl mb-4">Multiple Bank Support </h3>
                     <p class="text-gray-600 text-sm">
-                    Flexible integration options with major banks for secure transactions.
-                    </p>
-                </div>
+                    Direct transfers to major Nepali banks including Nepal Bank, NIC Asia, Global IME Bank.</p>
             </div>
             
             <!-- Feature Card 3 -->
-            <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 bg-white">
                 <div class="p-6 text-left">
+                <h3 class="text-secondary-600 font-semibold text-xl mb-4">Simple Process</h3>
                     <p class="text-gray-600 text-sm">
-                    Comprehensive dashboards for transaction tracking and reporting.
-                    </p>
-                </div>
+                    Complete transfers in under 2 minutes with just basic sender and recipient details.</p>
             </div>
+            <!-- Feature Card 4 -->
+                <div class="p-6 text-left">
+                <h3 class="text-secondary-600 font-semibold text-xl mb-4">Simple Process</h3>
+                    <p class="text-gray-600 text-sm">
+                    Best-in-market exchange rates and minimal transfer fees.</p>
+                </div>
         </div>
     </div>
 </section>
@@ -126,21 +126,23 @@
             
             <!-- Right side with content -->
             <div class="w-full md:w-1/2">
-                <h2 class="text-3xl font-bold text-gray-900 mb-6">Start Small,
-                Grow Big</h2>
+                <h2 class="text-3xl font-bold text-gray-900 mb-6">Benefits for Partners</h2>
                 
                 <ul class="space-y-5 mb-8">
                     <?php
                     $lifePlans = [
-                        'Minimal setup cost',
-                        'High earning potential',
-                        'Regular commission payouts'
+                        'Build trust with Nepal-based customers',
+                        'Fixed commission per transaction',
+                        'No setup or maintenance costs',
+                        'Simple mobile/web interface',
+                        'Real-time transaction status',
+                        '24x7 support system',
                     ];
                     
                     foreach ($lifePlans as $plan) :
                     ?>
                     <li class="flex items-start">
-                        <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                        <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
                                 <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
                                 <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -150,14 +152,81 @@
                     </li>
                     <?php endforeach; ?>
                 </ul>
-                
-                <button class="bg-[#F15744] hover:bg-[#E04A38] text-white font-medium py-2.5 px-6 rounded-md transition duration-300">
-                Read More
-                </button>
             </div>
         </div>
     </div>
 </section>
+
+
+<!-- How It Works Section -->
+<section class="bg-secondary-600 py-16">
+  <div class="container mx-auto px-6">
+    <!-- Section Title -->
+    <h2 class="text-4xl font-bold text-white mb-16">How It Works:</h2>
+    
+    <!-- Steps Timeline -->
+    <div class="relative">
+      <!-- Timeline Line -->
+      <div class="hidden md:block absolute top-6 left-0 right-0 h-0.5 border-t-2 border-dashed border-white z-10"></div>
+      
+      <!-- Steps Container -->
+      <div class="flex flex-col md:flex-row md:justify-between items-start relative z-20">
+        <!-- Step 1 -->
+        <div class="flex flex-col items-start mb-8 md:mb-0 md:w-1/5 ">
+          <div class="bg-navy-800 border-2 border-white-500 rounded-full h-10 w-10 flex items-center justify-center text-white font-bold mb-4 bg-secondary-600">
+            1
+          </div>
+          <p class="text-white font-medium">Sender Authentication</p>
+          <p class="text-white/80">Verify sender through</br>
+          valid ID proof</p>
+        </div>
+        
+        <!-- Step 2 -->
+        <div class="flex flex-col items-start mb-8 md:mb-0 md:w-1/5">
+        <div class="bg-navy-800 border-2 border-white-500 rounded-full h-10 w-10 flex items-center justify-center text-white font-bold mb-4 bg-secondary-600">
+            2
+          </div>
+          <p class="text-white font-medium">Recipient Details</p>
+          <p class="text-white/80">Enter recipient's bank</br>
+          account information</p>
+        </div>
+        
+        <!-- Step 3 -->
+        <div class="flex flex-col items-start mb-8 md:mb-0 md:w-1/5">
+        <div class="bg-navy-800 border-2 border-white-500 rounded-full h-10 w-10 flex items-center justify-center text-white font-bold mb-4 bg-secondary-600">
+            3
+          </div>
+          <p class="text-white font-medium">Amount Selection</p>
+          <p class="text-white/80">Choose amount in INR,</br>
+          see NPR conversion</p>
+        </div>
+        
+        <!-- Step 4 -->
+        <div class="flex flex-col items-start mb-8 md:mb-0 md:w-1/5">
+        <div class="bg-navy-800 border-2 border-white-500 rounded-full h-10 w-10 flex items-center justify-center text-white font-bold mb-4 bg-secondary-600">
+            4
+          </div>
+          <p class="text-white font-medium">Transfer Confirmation</p>
+          <p class="text-white/80">Review and confirm</br>
+          transaction details</p>
+        </div>
+        
+        <!-- Step 5 -->
+        <div class="flex flex-col items-start md:w-1/5 bg-secondary-600">
+        <div class="bg-navy-800 border-2 border-white-500 rounded-full h-10 w-10 flex items-center justify-center text-white font-bold mb-4 bg-secondary-600">
+            5
+          </div>
+          <p class="text-white font-medium">Instant Processing</p>
+          <p class="text-white/80">Money transferred in </br>
+          real-time to recipient</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 
 <!-- Health Insurance Solutions Section -->
 <section class="w-full py-12">
@@ -165,15 +234,17 @@
         <div class="flex flex-col md:flex-row items-center gap-8">
             <!-- Left side with content -->
             <div class="w-full md:w-1/2">
-                <h2 class="text-3xl font-bold text-gray-900 mb-6">Simple & easy
-                Setup</h2>
+                <h2 class="text-3xl font-bold text-gray-900 mb-6 mt-6">Support for Partners</h2>
                 
                 <ul class="space-y-5 mb-8">
                     <?php
                     $healthPlans = [
-                        'Basic smartphone or computer',
-                        'Bio-metric device',
-                        'Internet connection'
+                        'Dedicated relationship manager',
+                        'Training on compliance requirements',
+                        'Marketing support materials',
+                        'Regular platform updates',
+                        'Multi-language support desk',
+                        '24x7 support system',
                     ];
                     
                     foreach ($healthPlans as $plan) :
@@ -189,10 +260,6 @@
                     </li>
                     <?php endforeach; ?>
                 </ul>
-                
-                <button class="bg-[#5271B6] hover:bg-[#4560A0] text-white font-medium py-2.5 px-6 rounded-md transition duration-300">
-                    Read More
-                </button>
             </div>
             
             <!-- Right side with illustration -->
@@ -204,45 +271,69 @@
         </div>
     </div>
 </section>
-<!-- Life Insurance Solutions Section -->
-<section class="w-full py-12">
-    <div class="max-w-6xl mx-auto px-4">
-        <div class="flex flex-col md:flex-row items-center gap-8">
-            <!-- Left side with illustration -->
-            <div class="w-full md:w-1/2">
-            <img src="assets/images/indo-nepal-dmt/daily-income.png" alt="Life Insurance">
+
+
+
+<!-- Our Other Services Section -->
+<section class="w-full bg-primary-100 py-16 px-4">
+    <div class="max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row items-start">
+            <!-- Section Title -->
+            <div class="text-primary-500 mb-10 md:mb-0 md:w-1/4 md:mr-8 md:pt-2">
+                <h2 class="text-3xl font-bold leading-tight uppercase">
+                    OUR OTHER SERVICES
+                </h2>
             </div>
             
-            <!-- Right side with content -->
-            <div class="w-full md:w-1/2">
-                <h2 class="text-3xl font-bold text-gray-900 mb-6">Daily assured
-                Income</h2>
+            <!-- Services Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-8 md:w-3/4 w-full">
+                <!-- AEPS -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-nsdl/icon1.svg" alt="AEPS" class="w-16 h-16">
+                    </div>
+                    <span class="text-primary-500 text-center font-medium">AEPS</span>
+                </div>
                 
-                <ul class="space-y-5 mb-8">
-                    <?php
-                    $lifePlans = [
-                        'Fixed commission per transaction',
-                        'Additional incentives',
-                        'Quick settlements'
-                    ];
-                    
-                    foreach ($lifePlans as $plan) :
-                    ?>
-                    <li class="flex items-start">
-                        <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
-                                <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </div>
-                        <span class="ml-3 text-gray-700"><?php echo $plan; ?></span>
-                    </li>
-                    <?php endforeach; ?>
-                </ul>
+                <!-- DMT -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-nsdl/icon2.svg" alt="DMT" class="w-16 h-16">
+                    </div>
+                    <span class="text-primary-500 text-center font-medium">DMT</span>
+                </div>
                 
-                <button class="bg-[#F15744] hover:bg-[#E04A38] text-white font-medium py-2.5 px-6 rounded-md transition duration-300">
-                    Read More
-                </button>
+                <!-- Micro ATM -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-nsdl/icon3.svg" alt="Micro ATM" class="w-16 h-16">
+                    </div>
+                    <span class="text-primary-500 text-center font-medium">Micro ATM</span>
+                </div>
+                
+                <!-- mPOS -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-nsdl/icon4.svg" alt="mPOS" class="w-16 h-16">
+                    </div>
+                    <span class="text-primary-500 text-center font-medium">mPOS</span>
+                </div>
+                
+                <!-- CMS -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-nsdl/icon5.svg" alt="CMS" class="w-16 h-16">
+                    </div>
+                    <span class="text-primary-500 text-center font-medium">CMS</span>
+                </div>
+                
+                <!-- UPI QR Code -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-nsdl/icon6.svg" alt="UPI QR Code" class="w-16 h-16">
+                    </div>
+                    <span class="text-primary-500 text-center font-medium">UPI QR Code</span>
+                </div>
             </div>
         </div>
     </div>
@@ -260,17 +351,17 @@
         <?php
         $faqItems = [
             [
-                'question' => 'What is UPI Cash @POS service?',
-                'answer' => 'This service lets customers withdraw cash from merchant stores using UPI payments through POS terminals.',
+                'question' => 'What are the transfer limits for Indo-Nepal remittance?',
+                'answer' => 'Daily limit of INR 50,000 per transaction with monthly cap of INR 2,00,000 per sender.',
                 'isOpen' => true
             ],
             [
-                'question' => 'What are the transaction limits?',
+                'question' => 'Which documents are needed for sending money?',
                 'answer' => 'You can offer AEPS services once you\'ve completed the registration process and have the necessary equipment set up. This typically includes having a biometric device and completing the verification process.',
                 'isOpen' => false
             ],
             [
-                'question' => 'How do merchants receive settlement?',
+                'question' => 'How long does the transfer take?',
                 'answer' => 'To start offering AEPS services, you\'ll need a smartphone or computer, a biometric device for fingerprint authentication, a reliable internet connection, and valid documentation for registration.',
                 'isOpen' => false
             ]

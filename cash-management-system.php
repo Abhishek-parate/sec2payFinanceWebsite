@@ -204,17 +204,7 @@
 
                 
                 <div class="relative z-10 flex justify-center items-center mt-3 " data-aos="fade-up" data-aos-delay="400">
-    <a href="#"
-        class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5  sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
-        data-aos="zoom-in" data-aos-delay="500">
-        Explore Credit Solutions
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2" viewBox="0 0 20 20"
-            fill="currentColor">
-            <path fill-rule="evenodd"
-                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                clip-rule="evenodd" />
-        </svg>
-    </a>
+
 </div>
 
             </div>
@@ -237,7 +227,7 @@
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-8 md:w-3/4 w-full">
                 <!-- AEPS -->
                 <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-primary-600/70 flex items-center justify-center mb-4">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
                         <img src="assets/images/pan-nsdl/icon1.svg" alt="AEPS" class="w-16 h-16">
                     </div>
                     <span class="text-primary-500 text-center font-medium">AEPS</span>
@@ -245,7 +235,7 @@
                 
                 <!-- DMT -->
                 <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-primary-600/70 flex items-center justify-center mb-4">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
                         <img src="assets/images/pan-nsdl/icon2.svg" alt="DMT" class="w-16 h-16">
                     </div>
                     <span class="text-primary-500 text-center font-medium">DMT</span>
@@ -253,7 +243,7 @@
                 
                 <!-- Micro ATM -->
                 <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-primary-600/70 flex items-center justify-center mb-4">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
                         <img src="assets/images/pan-nsdl/icon3.svg" alt="Micro ATM" class="w-16 h-16">
                     </div>
                     <span class="text-primary-500 text-center font-medium">Micro ATM</span>
@@ -261,7 +251,7 @@
                 
                 <!-- mPOS -->
                 <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-primary-600/70 flex items-center justify-center mb-4">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
                         <img src="assets/images/pan-nsdl/icon4.svg" alt="mPOS" class="w-16 h-16">
                     </div>
                     <span class="text-primary-500 text-center font-medium">mPOS</span>
@@ -269,7 +259,7 @@
                 
                 <!-- CMS -->
                 <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-primary-600/70 flex items-center justify-center mb-4">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
                         <img src="assets/images/pan-nsdl/icon5.svg" alt="CMS" class="w-16 h-16">
                     </div>
                     <span class="text-primary-500 text-center font-medium">CMS</span>
@@ -277,7 +267,7 @@
                 
                 <!-- UPI QR Code -->
                 <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-primary-600/70 flex items-center justify-center mb-4">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
                         <img src="assets/images/pan-nsdl/icon6.svg" alt="UPI QR Code" class="w-16 h-16">
                     </div>
                     <span class="text-primary-500 text-center font-medium">UPI QR Code</span>
@@ -353,7 +343,7 @@
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-primary-600 to-primary-500 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+        <div class="bg-gradient-to-br from-primary-700 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
             data-aos="fade-up" data-aos-duration="1000">
 
             <!-- Stars Background SVG -->
