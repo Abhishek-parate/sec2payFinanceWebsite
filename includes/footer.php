@@ -2,7 +2,7 @@
 <footer class="bg-white border-t border-gray-200 py-8">
     <div class="container mx-auto px-4">
         <!-- Top Section with Logo and Tagline -->
-        <div class="border-b border-gray-200 pb-4 mb-8">
+        <div class="border-b border-gray-200 pb-4 mb-8  px-2 lg:px-20">
             <div class="flex items-center">
                 <img src="assets/images/site/logo.png" alt="Sec2Pay" class="h-10">
                 <h2 class="ml-4 text-navy-800 text-xl">Sec2Pay Your Partner in Making Digital Business Growth Simple</h2>
@@ -10,7 +10,7 @@
         </div>
 
         <!-- Main Footer Content -->
-        <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-8  px-2 lg:px-20">
             <!-- Services Column -->
             <div>
                 <h3 class="text-gray-900 font-semibold mb-4">Services</h3>
@@ -26,7 +26,7 @@
 
             <!-- Products Column -->
             <div>
-                <h3 class="text-gray-900 font-semibold mb-4">Products</h3>
+                <h3 class="text-gray-900 font-semibold mb-4 ">Products</h3>
                 <ul class="space-y-3">
                     <li><a href="#" class="text-gray-700 hover:text-primary-600">Multi-Services Platform</a></li>
                     <li><a href="#" class="text-gray-700 hover:text-primary-600">ONDC Credit in a Box</a></li>
@@ -96,7 +96,7 @@
         </div>
 
         <!-- App Store Buttons & Copyright -->
-        <div class="mt-8 pt-8 border-t border-gray-200 flex flex-col lg:flex-row justify-between items-center">
+        <div class="mt-8 pt-8 border-t border-gray-200 flex flex-col lg:flex-row justify-between items-center  px-2 lg:px-20">
             <!-- App Store Buttons -->
             <div class="flex flex-wrap gap-4 mb-6 lg:mb-0">
                 <!-- iOS App Store -->

@@ -1,5 +1,5 @@
 /**
- * SecuPay - Banking Platform Services
+ * Sec2Pay - Banking Platform Services
  * Main JavaScript functionality
  */
 

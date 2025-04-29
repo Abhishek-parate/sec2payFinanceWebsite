@@ -6,7 +6,7 @@
                 <!-- Logo Column -->
                 <div class="w-2/7">
                     <a href="/">
-                        <img src="./assets/images/logo.png" alt="SecuPay Logo">
+                        <img src="./assets/images/logo.png" alt="Sec2Pay Logo">
                     </a>
                 </div>
                 

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SecuPay - Banking Platform Services</title>
+    <title>Sec2Pay - Banking Platform Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
@@ -213,7 +213,7 @@
 
 <!-- Product/Solutions Section -->
 <section class="py-10 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto px-4 ">
         <!-- Section Header -->
         <div class="text-center mb-12">
             <h2 class="text-4xl font-bold text-primary-800 mb-4">Our Product/Solutions</h2>
@@ -230,7 +230,7 @@
                 <div class="flex justify-center items-center mb-4">
                     <i class="fas fa-university text-2xl text-white"></i>
                 </div>
-                <h3 class="font-semibold text-lg text-white text-center truncate w-full">Banking</h3>
+                <h3 class="font-semibold text-sm text-white text-center truncate w-full">Banking</h3>
             </div>
 
             <!-- Travel Booking Card -->
@@ -239,7 +239,7 @@
                 <div class="flex justify-center items-center mb-4">
                     <i class="fas fa-plane text-2xl text-primary-500"></i>
                 </div>
-                <h3 class="font-semibold text-lg text-primary-600 text-center truncate w-full">Travel Booking</h3>
+                <h3 class="font-semibold text-sm text-primary-600 text-center truncate w-full">Travel Booking</h3>
             </div>
 
             <!-- Utility Payment Card -->
@@ -248,7 +248,7 @@
                 <div class="flex justify-center items-center mb-4">
                     <i class="fas fa-receipt text-2xl text-primary-500"></i>
                 </div>
-                <h3 class="font-semibold text-lg text-primary-600 text-center truncate w-full">Utility Payment</h3>
+                <h3 class="font-semibold text-sm text-primary-600 text-center truncate w-full">Utility Payment</h3>
             </div>
 
             <!-- E-Governance Card -->
@@ -257,7 +257,7 @@
                 <div class="flex justify-center items-center mb-4">
                     <i class="fas fa-landmark text-2xl text-primary-500"></i>
                 </div>
-                <h3 class="font-semibold text-lg text-primary-600 text-center truncate w-full">E-Governance</h3>
+                <h3 class="font-semibold text-sm text-primary-600 text-center truncate w-full">E-Governance</h3>
             </div>
 
             <!-- Insurance Services Card -->
@@ -266,7 +266,7 @@
                 <div class="flex justify-center items-center mb-4">
                     <i class="fas fa-shield-alt text-2xl text-primary-500"></i>
                 </div>
-                <h3 class="font-semibold text-lg text-primary-600 text-center truncate w-full">Insurance Services</h3>
+                <h3 class="font-semibold text-sm text-primary-600 text-center truncate w-full">Insurance Services</h3>
             </div>
 
             <!-- ONDC Card -->
@@ -275,7 +275,7 @@
                 <div class="flex justify-center items-center mb-4">
                     <i class="fas fa-shopping-cart text-2xl text-primary-500"></i>
                 </div>
-                <h3 class="font-semibold text-lg text-primary-600 text-center truncate w-full">ONDC</h3>
+                <h3 class="font-semibold text-sm text-primary-600 text-center truncate w-full">ONDC</h3>
             </div>
         </div>
     </div>
@@ -289,7 +289,7 @@
                     <!-- Left Content - Services List -->
                     <div class="p-8 md:p-12">
                         <h2 class="text-2xl font-bold text-gray-800 mb-4">Banking Solutions</h2>
-                        <p class="text-gray-700 mb-8">Expand your reach with AePS, UPI, and Micro ATM services.</p>
+                        <p class="text-gray-700 mb-4">Expand your reach with AePS, UPI, and Micro ATM services.</p>
 
                         <div class="space-y-4">
                             <!-- Service Items -->
@@ -396,7 +396,7 @@
                     <!-- Left Content - Services List -->
                     <div class="p-8 md:p-12">
                         <h2 class="text-2xl font-bold text-gray-800 mb-4">Travel Solutions</h2>
-                        <p class="text-gray-700 mb-8">Simplify travel bookings with IRCTC, flights, and buses.</p>
+                        <p class="text-gray-700 mb-4">Simplify travel bookings with IRCTC, flights, and buses.</p>
 
                         <div class="space-y-4">
                             <!-- Service Items -->
@@ -467,7 +467,7 @@
                     <!-- Left Content - Services List -->
                     <div class="p-8 md:p-12">
                         <h2 class="text-2xl font-bold text-gray-800 mb-4">Utility Solutions</h2>
-                        <p class="text-gray-700 mb-8">Offer convenient bill payments and recharges</p>
+                        <p class="text-gray-700 mb-4">Offer convenient bill payments and recharges</p>
 
                         <div class="space-y-4">
                             <!-- Service Items -->
@@ -550,7 +550,7 @@
                     <!-- Left Content - Services List -->
                     <div class="p-8 md:p-12">
                         <h2 class="text-2xl font-bold text-gray-800 mb-4">E-Governance</h2>
-                        <p class="text-gray-700 mb-8">Provide essential document services</p>
+                        <p class="text-gray-700 mb-4">Provide essential document services</p>
 
                         <div class="space-y-4">
                             <!-- Service Items -->
@@ -597,7 +597,7 @@
                     <!-- Left Content - Services List -->
                     <div class="p-8 md:p-12">
                         <h2 class="text-2xl font-bold text-gray-800 mb-4">Insurance Services</h2>
-                        <p class="text-gray-700 mb-8">Help secure your customer's future</p>
+                        <p class="text-gray-700 mb-4">Help secure your customer's future</p>
 
                         <div class="space-y-4">
                             <!-- Service Items -->
@@ -656,7 +656,7 @@
                     <!-- Left Content - Services List -->
                     <div class="p-8 md:p-12">
                         <h2 class="text-2xl font-bold text-gray-800 mb-4">ONDC Platform</h2>
-                        <p class="text-gray-700 mb-8">Join India's Open Network</p>
+                        <p class="text-gray-700 mb-4">Join India's Open Network</p>
 
                         <div class="space-y-4">
                             <!-- Service Items -->
