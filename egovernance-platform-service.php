@@ -56,12 +56,14 @@
         </div>
         
         <!-- Main Dashboard Image -->
-        <div class="relative w-full max-w-4xl mx-auto">
-          <div class="relative z-20">
-            <img src="assets/images/egovernance-platform-service/banner.png" alt="Dashboard" class="w-full h-auto" />
-            <div class="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-white to-transparent"></div>
-          </div>
-        </div>
+        <div class="relative flex items-center justify-center max-w-5xl mx-auto">
+                    <!-- Main Dashboard Image -->
+                    <div class="relative z-20">
+                        <img src="assets/images/egovernance-platform-service/banner.png" alt="Dashboard" class="h-96 mx-auto" />
+                        <div class="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-t from-white to-transparent">
+                        </div>
+                    </div>
+                </div>
       </div>
     </div>
   </div>
@@ -72,7 +74,7 @@
 <!-- Banking Overview Section with Split Background -->
 <section class="relative py-16">
     <!-- Top background - light blue -->
-    <div class="absolute top-0 left-0 right-0 h-[60%] bg-primary-200"></div>
+    <div class="absolute top-0 left-0 right-0 h-[60%] bg-primary-500"></div>
     <!-- Bottom background - white -->
     <div class="absolute bottom-0 left-0 right-0 h-[40%] bg-white"></div>
     
@@ -81,34 +83,35 @@
         <!-- Section Header -->
         <div class="text-center mb-12 z-10 relative">
             <h2 class="text-4xl font-bold text-primary-800 mb-6">Start Your E-Governance Journey</h2>
-            <p class="text-gray-600 max-w-4xl mx-auto text-center leading-relaxed">
-            Sec2Pay’s E-Governance Platform equips businesses to integrate critical government services, such as PAN card applications, Aadhaar updates, GST filings, and document verifications. With secure and scalable tools, enterprises can offer these essential services as part of their business operations.
+            <p class="text-white max-w-4xl mx-auto text-center leading-relaxed">
+            Sec2Pay's E-Governance Platform equips businesses to integrate critical government services, such as PAN card applications, Aadhaar updates, GST filings, and document verifications. With secure and scalable tools, enterprises can offer these essential services as part of their business operations.
             </p>
         </div>
         
         <!-- Feature Cards positioned to straddle the boundary -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 relative" style="top: calc(60% - 12rem);">
-            <!-- Feature 1 -->
-            <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-100">
-                <p class="text-gray-600">
-                Digital processing for government document applications.
-                </p>
-            </div>
-            
-            <!-- Feature 2 -->
-            <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-100">
-                <p class="text-gray-600">
-                Real-time tracking of service status.
-                </p>
-            </div>
-            
-            <!-- Feature 3 -->
-            <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-100">
-                <p class="text-gray-600">
-                Compliance tools for regulatory adherence.
-                </p>
-            </div>
-        </div>
+    <!-- Feature 1 -->
+    <div class="bg-white rounded-xl p-8 h-48 shadow-sm border border-gray-100  flex items-center justify-center text-center">
+        <p class="text-gray-600">
+            Digital processing for government document applications.
+        </p>
+    </div>
+    
+    <!-- Feature 2 -->
+    <div class="bg-white rounded-xl p-8 h-48 shadow-sm border border-gray-100 flex items-center justify-center text-center">
+        <p class="text-gray-600">
+            Real-time tracking of service status.
+        </p>
+    </div>
+    
+    <!-- Feature 3 -->
+    <div class="bg-white rounded-xl p-8 h-48 shadow-sm border border-gray-100 flex items-center justify-center text-center">
+        <p class="text-gray-600">
+            Compliance tools for regulatory adherence.
+        </p>
+    </div>
+</div>
+
         
         <!-- CTA Button -->
         <div class="text-center relative" style="top: calc(60% - 12rem);">
@@ -123,7 +126,7 @@
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-primary-600 to-primary-500 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+        <div class="bg-gradient-to-br from-primary-800 to-primary-700 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
             data-aos="fade-up" data-aos-duration="1000">
 
             <!-- Stars Background SVG -->

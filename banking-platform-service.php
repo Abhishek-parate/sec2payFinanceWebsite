@@ -70,20 +70,28 @@
                                 <span class="text-gray-600 text-xs sm:text-sm">1 Lac+ Retail partners across India</span>
                             </div>
                         </div>
-                        <!-- Right Content - Image -->
-                        <div class="relative flex items-center justify-center max-w-md mx-auto order-1 lg:order-2" 
-                            data-aos="fade-left" data-aos-duration="1200" data-aos-once="true">
-                            <!-- Main Dashboard Image -->
-                            <div class="relative z-10 w-full">
-                                <img src="assets/images/banking-platform-service/banner.png" alt="Dashboard" 
-                                    class="h-64 sm:h-80 md:h-96 mx-auto object-contain gradient-mask" />
-                            </div>
+                        <span class="text-gray-600 text-sm">1 Lac+ Retail partners across India</span>
+                    </div>
+                </div>
+                <!-- Right Content - Image and Features -->
+                <!-- Diagonal Shapes for Design -->
+
+                <!-- Person Image -->
+
+
+                <div class="relative flex items-center justify-center max-w-5xl mx-auto">
+                    <!-- Main Dashboard Image -->
+                    <div class="relative z-20">
+                        <img src="assets/images/banking-platform-service/banner.png" alt="Dashboard" class=" h-96 mx-auto" />
+                        <div class="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-t from-white to-transparent">
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- hero section ends -->
+</section>
+
+
+<!-- hero section ends -->
 
         <!-- Banking Overview Section with Split Background -->
         <section class="relative py-12 md:py-16">

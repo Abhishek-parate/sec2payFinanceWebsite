@@ -64,7 +64,7 @@
                 <div class="relative max-w-5xl mx-auto  ">
                     <!-- Main Dashboard Image -->
                     <div class="relative z-20">
-                        <img src="assets/images/ondc-credit-service-platform/banner.png" alt="Dashboard" class=" h-auto" />
+                        <img src=assets\images\ondc-credit-service-platform\hero.png alt="Dashboard" class=" h-auto" />
                         <div class="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-white to-transparent">
                         </div>
                     </div>
@@ -228,7 +228,7 @@
                     <div class="flex flex-col md:flex-row items-center gap-8">
                         <div class="w-full md:w-1/2 flex justify-center">
                             <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
-                                <img src="assets\images\ondc-credit-service-platform\ondc-credit-service.png" alt="AePS Banking"
+                                <img src=assets\images\ondc-credit-service-platform\image.png alt="AePS Banking"
                                     class="max-w-full h-auto max-h-[400px]">
                             </div>
                         </div>
