@@ -81,52 +81,53 @@
         <h2 class="text-3xl font-bold text-primary-700 mb-12">AePS Core Features</h2>
         
         <!-- Updated grid with proper centering -->
-        <div class="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            
             <!-- Feature Card 1 -->
             <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/utility-servises/auto.png"
-                    alt="Real-Time Payment"
+                <img src="assets/images/recharge-payment/recharge.png"
+                    alt="Mobile Recharge"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left">
-                    <h3 class="text-primary-600 font-semibold text-xl mb-2">Mobile Recharge</h3>
-                    <p class="text-gray-600 text-sm">
-                    All major telecom operators supported
-Prepaid and postpaid bill payments
-Special recharge options
-Quick transaction processing
-                    </p>
+                    <h3 class="text-primary-600 font-semibold text-xl mb-4">Mobile Recharge</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>All major telecom operators supported</li>
+                        <li>Prepaid and postpaid bill payments</li>
+                        <li>Special recharge options</li>
+                        <li>Quick transaction processing</li>
+                    </ul>
                 </div>
             </div>
             
             <!-- Feature Card 2 -->
             <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/utility-servises/auto.png"
-                    alt="Real-Time Payment"
+                <img src="assets/images/recharge-payment/tatasky.png"
+                    alt="DTH Recharge"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left">
-                    <h3 class="text-primary-600 font-semibold text-xl mb-2">DTH Recharge</h3>
-                    <p class="text-gray-600 text-sm">
-                    All major telecom operators supported
-Prepaid and postpaid bill payments
-Special recharge options
-Quick transaction processing
-                    </p>
+                    <h3 class="text-primary-600 font-semibold text-xl mb-4">DTH Recharge</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>Multiple DTH service providers</li>
+                        <li>Pay-as-you-go packages</li>
+                        <li>Easy renewal process</li>
+                        <li>Instant activation</li>
+                    </ul>
                 </div>
             </div>
             
             <!-- Feature Card 3 -->
             <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/utility-servises/auto.png"
-                    alt="Real-Time Payment"
+                <img src="assets/images/recharge-payment/airtel.png"
+                    alt="Data Card Recharge"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left">
-                    <h3 class="text-primary-600 font-semibold text-xl mb-2">Data Card Recharge</h3>
-                    <p class="text-gray-600 text-sm">
-                    All major telecom operators supported
-Prepaid and postpaid bill payments
-Special recharge options
-Quick transaction processing
-                    </p>
+                    <h3 class="text-primary-600 font-semibold text-xl mb-4">Data Card Recharge</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>All leading internet providers</li>
+                        <li>Flexible data plans</li>
+                        <li>Quick recharge confirmation</li>
+                        <li>Secure transactions</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -137,13 +138,13 @@ Quick transaction processing
 
 
 <!-- Life Insurance Solutions Section -->
-<section class="w-full py-12 mb-12">
+<section class="w-full py-12">
     <div class="max-w-6xl mx-auto px-4">
 
         <div class="flex flex-col md:flex-row items-center gap-8">
             <!-- Left side with illustration -->
             <div class="w-full md:w-1/2">
-            <img src="assets/images/aadhar/benefits.png" alt="Life Insurance">
+            <img src="assets/images/recharge-payment/aadhar.png" alt="Life Insurance">
             </div>
             
             <!-- Right side with content -->
@@ -188,54 +189,10 @@ Quick transaction processing
     </div>
 </section>
 
-<!-- Support Promise Banner -->
-<section>
-  <div class="w-full bg-primary-800 py-12">
-    <div
-      class="max-w-7xl mx-auto flex flex-row items-center justify-between text-white px-4"
-    >
-      <div class="font-medium text-sm md:text-base whitespace-nowrap">
-        Our Support Promise
-      </div>
-
-      <div class="hidden md:flex items-center justify-end space-x-6 text-sm">
-        <div class="flex items-center">
-          <span class="whitespace-nowrap">Training for new agents</span>
-        </div>
-        <div class="text-white/50">|</div>
-        <div class="flex items-center">
-          <span class="whitespace-nowrap">Regular commission payments</span>
-        </div>
-        <div class="text-white/50">|</div>
-        <div class="flex items-center">
-          <span class="whitespace-nowrap">Dedicated relationship manager</span>
-        </div>
-        <div class="text-white/50">|</div>
-        <div class="flex items-center">
-          <span class="whitespace-nowrap">24/7 Technical assistance</span>
-        </div>
-      </div>
-
-      <!-- Mobile version - scrollable -->
-      <div
-        class="md:hidden flex items-center overflow-x-auto whitespace-nowrap space-x-4 text-sm scrollbar-hide"
-      >
-        <span>Training for new agents</span>
-        <span class="text-white/50">|</span>
-        <span>Regular commission payments</span>
-        <span class="text-white/50">|</span>
-        <span>Dedicated relationship manager</span>
-        <span class="text-white/50">|</span>
-        <span>24/7 Technical assistance</span>
-      </div>
-    </div>
-  </div>
-</section>
-
 
 
 <!-- FAQ Section -->
-<section class="py-16 max-w-3xl mx-auto px-4">
+<section class="py-6 max-w-3xl mx-auto px-4">
     <!-- Section Title -->
     <div class="text-center mb-12">
         <h2 class="text-4xl font-bold text-primary-800 mb-2">FAQ</h2>

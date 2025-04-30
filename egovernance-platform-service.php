@@ -72,7 +72,7 @@
 <!-- Banking Overview Section with Split Background -->
 <section class="relative py-16">
     <!-- Top background - light blue -->
-    <div class="absolute top-0 left-0 right-0 h-[60%] bg-primary-200"></div>
+    <div class="absolute top-0 left-0 right-0 h-[60%] bg-primary-500"></div>
     <!-- Bottom background - white -->
     <div class="absolute bottom-0 left-0 right-0 h-[40%] bg-white"></div>
     
@@ -80,8 +80,8 @@
     <div class="relative container mx-auto max-w-6xl px-4">
         <!-- Section Header -->
         <div class="text-center mb-12 z-10 relative">
-            <h2 class="text-4xl font-bold text-primary-800 mb-6">Start Your E-Governance Journey</h2>
-            <p class="text-gray-600 max-w-4xl mx-auto text-center leading-relaxed">
+            <h2 class="text-4xl text-white font-bold mb-6">Start Your E-Governance Journey</h2>
+            <p class="max-w-4xl text-white mx-auto text-center leading-relaxed">
             Sec2Pay’s E-Governance Platform equips businesses to integrate critical government services, such as PAN card applications, Aadhaar updates, GST filings, and document verifications. With secure and scalable tools, enterprises can offer these essential services as part of their business operations.
             </p>
         </div>
@@ -123,7 +123,7 @@
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-primary-600 to-primary-500 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+        <div class="bg-gradient-to-br from-primary-700 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
             data-aos="fade-up" data-aos-duration="1000">
 
             <!-- Stars Background SVG -->
