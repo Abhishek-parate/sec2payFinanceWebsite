@@ -25,8 +25,9 @@
         <!-- hero section -->
 
         <section class="bg-white overflow-hidden">
-                   <section class="bg-white overflow-hidden">
-
+            <div class="max-w-7xl mx-auto py-8 md:py-12 px-4 sm:px-6 lg:px-8">
+                <div class="rounded-xl overflow-hidden">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                         <!-- Left Content - Services List -->
                         <div class="p-4 md:p-8 lg:p-12" data-aos="fade-right" data-aos-duration="1000"
                             data-aos-once="true">

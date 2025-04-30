@@ -24,63 +24,68 @@
     <main>
 
         <!-- hero section -->
+        <section class="relative overflow-hidden py-10 pt-16 sm:pt-20 md:pt-24 md:py-10 bg-white">
+    <!-- Background Gradient Overlays -->
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+        <!-- Top-left Circular Gradient (Bluish) -->
+        <div class="absolute top-[5%] -left-[25%] w-[50%] h-[100%] rounded-full opacity-50"
+            style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 10%, rgba(222, 242, 255, 0.4) 50%, rgba(255, 255, 255, 0) 60%);"
+            data-aos="fade" data-aos-duration="1500" data-aos-once="true">
+        </div>
 
-        <section class="bg-white overflow-hidden">
+        <!-- Top-right Circular Gradient (Pinkish) -->
+        <div class="absolute -top-[6%] -right-[25%] w-[50%] h-[100%] rounded-full opacity-50"
+            style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 10%, rgba(242, 219, 219, 0.4) 50%, rgba(255, 255, 255, 0) 60%);"
+            data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+        </div>
+    </div>
 
-        <div class="max-w-7xl mx-auto py-8 md:py-12 px-4 sm:px-6 lg:px-8">
-                <div class="rounded-xl overflow-hidden">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                        <!-- Left Content - Services List -->
-                        <div class="p-4 md:p-8 lg:p-12" data-aos="fade-right" data-aos-duration="1000"
-                        data-aos-once="true">                            
-                        <h1 class="text-4xl font-bold text-secondary-600 ">Help Sellers Reach</h1>
-                            <h1 class="text-4xl font-bold text-secondary-600 mb-4">New Markets</h1>
-                            <p class="text-gray-500 mb-8">Empower your business to support sellers in thriving </br> on
-                                ONDC's digital network.</p>
+    <div class="max-w-7xl mx-auto py-6 md:py-8 px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="rounded-xl overflow-hidden">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 items-center">
+                <!-- Left Content - Services List -->
+                <div class="p-4 md:p-8 lg:p-12" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+                    <h1 class="text-3xl sm:text-4xl font-bold text-secondary-600" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-once="true">Help Sellers Reach</h1>
+                    <h1 class="text-3xl sm:text-4xl font-bold text-secondary-600 mb-4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">New Markets</h1>
+                    <p class="text-gray-500 mb-6 md:mb-8" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">Empower your business to support sellers in thriving <br class="hidden sm:block"> on ONDC's digital network.</p>
 
-                            <a href="#"
-                                class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4"                               
-                                data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
-                            
-                                Get Started Today!
+                    <a href="#"
+                        class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4"
+                        data-aos="fade-up" data-aos-delay="400" data-aos-duration="800" data-aos-once="true">
+                        Get Started Today!
+                    </a>
 
-                            </a>
-
-                            <div
-                                class="mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
-                                data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
-
-                                
-                                <div class="flex -space-x-2 ">
-                                    <img src="https://randomuser.me/api/portraits/men/1.jpg"
-                                        class="w-8 h-8 rounded-full border-2 border-white">
-                                    <img src="https://randomuser.me/api/portraits/women/2.jpg"
-                                        class="w-8 h-8 rounded-full border-2 border-white">
-                                    <img src="https://randomuser.me/api/portraits/men/3.jpg"
-                                        class="w-8 h-8 rounded-full border-2 border-white">
-                                    <img src="https://randomuser.me/api/portraits/women/4.jpg"
-                                        class="w-8 h-8 rounded-full border-2 border-white">
-                                </div>
-                                <span class="text-gray-600 text-sm">1 Lac+ Retail partners across India</span>
-                            </div>
+                    <div class="mt-6 md:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                        data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
+                        <div class="flex -space-x-2">
+                            <img src="https://randomuser.me/api/portraits/men/1.jpg"
+                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
+                            <img src="https://randomuser.me/api/portraits/women/2.jpg"
+                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
+                            <img src="https://randomuser.me/api/portraits/men/3.jpg"
+                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
+                            <img src="https://randomuser.me/api/portraits/women/4.jpg"
+                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
                         </div>
-                        <!-- Right Content - Image and Features -->
-                        <!-- Diagonal Shapes for Design -->
-
-                        <!-- Person Image -->
-
-
-                        <div class="relative order-first md:order-last" data-aos="fade-left" data-aos-duration="1200"
-                        data-aos-once="true">                            <!-- Main Dashboard Image -->
-                            <div class="relative z-20">
-                                <img src="assets/images/ondc-ecommerce/banner.png" alt="Dashboard" class=" h-auto" />
-                                <div
-                                    class="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-white to-transparent">
-                                </div>
-                            </div>
+                        <span class="text-gray-600 text-xs sm:text-sm">1 Lac+ Retail partners across India</span>
+                    </div>
+                </div>
+                
+                <!-- Right Content - Image -->
+                <div class="relative order-first md:order-last" data-aos="fade-left" data-aos-duration="1200" data-aos-once="true">
+                    <!-- Main Dashboard Image -->
+                    <div class="relative z-20">
+                        <img src="assets/images/ondc-ecommerce/banner.png" alt="Dashboard" 
+                            class="w-full h-auto " />
+                        <div class="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-white to-transparent">
                         </div>
                     </div>
-        </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
         <!-- hero section ends -->
 
@@ -489,112 +494,117 @@
 
 
         <section class="py-10 md:pb-24 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto overflow-hidden">
-    <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 items-start">
-        <!-- Left Column - Heading -->
-        <div class="md:col-span-5 mb-10 md:mb-0" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
-            <div class="uppercase text-sm font-medium text-gray-500 tracking-wider mb-2">TESTIMONIALS</div>
-            <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-600 leading-tight">
-                What People Say<br>About Us.
-            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 items-start">
+                <!-- Left Column - Heading -->
+                <div class="md:col-span-5 mb-10 md:mb-0" data-aos="fade-right" data-aos-duration="1000"
+                    data-aos-once="true">
+                    <div class="uppercase text-sm font-medium text-gray-500 tracking-wider mb-2">TESTIMONIALS</div>
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-primary-600 leading-tight">
+                        What People Say<br>About Us.
+                    </h2>
 
-            <!-- Navigation Dots (Mobile and Desktop) -->
-            <div class="flex space-x-2 mt-8" id="dots-container" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">
-                <button class="w-3 h-3 rounded-full bg-secondary-500 transition-all duration-300"
-                    data-index="0"></button>
-                <button class="w-3 h-3 rounded-full bg-gray-300 transition-all duration-300"
-                    data-index="1"></button>
-                <button class="w-3 h-3 rounded-full bg-gray-300 transition-all duration-300"
-                    data-index="2"></button>
-            </div>
-        </div>
-
-        <!-- Right Column - Testimonials -->
-        <div class="md:col-span-7 relative" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
-            <!-- External Navigation Arrows -->
-            <div class="absolute right-0 -top-12 flex space-x-3 z-50" data-aos="fade-down" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
-                <button id="prev-arrow"
-                    class="w-8 h-8 rounded-full bg-white shadow-md flex items-center justify-center text-gray-500 hover:text-primary-600 transition-all duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
-                        fill="currentColor">
-                        <path fill-rule="evenodd"
-                            d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
-                            clip-rule="evenodd" />
-                    </svg>
-                </button>
-                <button id="next-arrow"
-                    class="w-8 h-8 rounded-full bg-white shadow-md flex items-center justify-center text-gray-500 hover:text-primary-600 transition-all duration-300">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
-                        fill="currentColor">
-                        <path fill-rule="evenodd"
-                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                            clip-rule="evenodd" />
-                    </svg>
-                </button>
-            </div>
-
-            <div class="testimonials-container relative min-h-[200px]">
-                <!-- Profile Image (Absolute Positioned) -->
-                <div class="absolute left-0 top-10 md:-left-12 z-30 transition-all duration-500"
-                    id="profile-image-container" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="800" data-aos-once="true">
-                    <img src="https://randomuser.me/api/portraits/men/3.jpg" alt="Profile"
-                        class="w-20 h-20 md:w-24 md:h-24 rounded-full border-4 border-white shadow-md object-cover transition-all duration-300"
-                        id="profile-image">
+                    <!-- Navigation Dots (Mobile and Desktop) -->
+                    <div class="flex space-x-2 mt-8" id="dots-container" data-aos="fade-up" data-aos-delay="300"
+                        data-aos-duration="800" data-aos-once="true">
+                        <button class="w-3 h-3 rounded-full bg-secondary-500 transition-all duration-300"
+                            data-index="0"></button>
+                        <button class="w-3 h-3 rounded-full bg-gray-300 transition-all duration-300"
+                            data-index="1"></button>
+                        <button class="w-3 h-3 rounded-full bg-gray-300 transition-all duration-300"
+                            data-index="2"></button>
+                    </div>
                 </div>
 
-                <!-- Active Testimonial Card -->
-                <div class="w-full bg-white p-6 md:p-8 rounded-lg shadow-lg opacity-100 mb-4 transition-all duration-500 transform translate-y-0"
-                    id="testimonial-0" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
-                    <div class="ml-20 md:ml-10 pt-2">
-                        <p class="text-gray-700 leading-relaxed mb-6">
-                            "On the Windows talking painted pasture yet its express parties use. Sure last upon
-                            he same as knew next. Of believed or diverted no."
-                        </p>
-                        <div class="flex justify-between items-center">
-                            <div>
-                                <h4 class="font-semibold text-primary-600">Mike taylor</h4>
-                                <p class="text-sm text-gray-500">Lahore, Pakistan</p>
+                <!-- Right Column - Testimonials -->
+                <div class="md:col-span-7 relative" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+                    <!-- External Navigation Arrows -->
+                    <div class="absolute right-0 -top-12 flex space-x-3 z-50" data-aos="fade-down" data-aos-delay="200"
+                        data-aos-duration="800" data-aos-once="true">
+                        <button id="prev-arrow"
+                            class="w-8 h-8 rounded-full bg-white shadow-md flex items-center justify-center text-gray-500 hover:text-primary-600 transition-all duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M14.707 12.707a1 1 0 01-1.414 0L10 9.414l-3.293 3.293a1 1 0 01-1.414-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 010 1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                        <button id="next-arrow"
+                            class="w-8 h-8 rounded-full bg-white shadow-md flex items-center justify-center text-gray-500 hover:text-primary-600 transition-all duration-300">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="testimonials-container relative min-h-[200px]">
+                        <!-- Profile Image (Absolute Positioned) -->
+                        <div class="absolute left-0 top-10 md:-left-12 z-30 transition-all duration-500"
+                            id="profile-image-container" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="800"
+                            data-aos-once="true">
+                            <img src="https://randomuser.me/api/portraits/men/3.jpg" alt="Profile"
+                                class="w-20 h-20 md:w-24 md:h-24 rounded-full border-4 border-white shadow-md object-cover transition-all duration-300"
+                                id="profile-image">
+                        </div>
+
+                        <!-- Active Testimonial Card -->
+                        <div class="w-full bg-white p-6 md:p-8 rounded-lg shadow-lg opacity-100 mb-4 transition-all duration-500 transform translate-y-0"
+                            id="testimonial-0" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800"
+                            data-aos-once="true">
+                            <div class="ml-20 md:ml-10 pt-2">
+                                <p class="text-gray-700 leading-relaxed mb-6">
+                                    "On the Windows talking painted pasture yet its express parties use. Sure last upon
+                                    he same as knew next. Of believed or diverted no."
+                                </p>
+                                <div class="flex justify-between items-center">
+                                    <div>
+                                        <h4 class="font-semibold text-primary-600">Mike taylor</h4>
+                                        <p class="text-sm text-gray-500">Lahore, Pakistan</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Second Testimonial Card (Initially Stacked) -->
+                        <div class="w-full bg-gray-100 p-6 md:p-8 rounded-lg shadow-md opacity-95 absolute top-0 transform translate-y-16 transition-all duration-500 hidden"
+                            id="testimonial-1">
+                            <div class="ml-20 md:ml-10 pt-2">
+                                <p class="text-gray-700 leading-relaxed mb-6">
+                                    "Smart homes are the future. The integration of IoT devices has transformed how we
+                                    interact with our living spaces."
+                                </p>
+                                <div class="flex justify-between items-center">
+                                    <div>
+                                        <h4 class="font-semibold text-primary-600">Chris Thomas</h4>
+                                        <p class="text-sm text-gray-500">CEO of Red Button</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Third Testimonial Card (Initially Hidden) -->
+                        <div class="w-full bg-gray-100 p-6 md:p-8 rounded-lg shadow-md opacity-0 absolute top-0 transform translate-y-16 transition-all duration-500 hidden"
+                            id="testimonial-2">
+                            <div class="ml-20 md:ml-10 pt-2">
+                                <p class="text-gray-700 leading-relaxed mb-6">
+                                    "The customer service was exceptional. They went above and beyond to ensure
+                                    everything was set up perfectly."
+                                </p>
+                                <div class="flex justify-between items-center">
+                                    <div>
+                                        <h4 class="font-semibold text-primary-600">Sarah Johnson</h4>
+                                        <p class="text-sm text-gray-500">New York, USA</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Second Testimonial Card (Initially Stacked) -->
-                <div class="w-full bg-gray-100 p-6 md:p-8 rounded-lg shadow-md opacity-95 absolute top-0 transform translate-y-16 transition-all duration-500 hidden"
-                    id="testimonial-1">
-                    <div class="ml-20 md:ml-10 pt-2">
-                        <p class="text-gray-700 leading-relaxed mb-6">
-                            "Smart homes are the future. The integration of IoT devices has transformed how we
-                            interact with our living spaces."
-                        </p>
-                        <div class="flex justify-between items-center">
-                            <div>
-                                <h4 class="font-semibold text-primary-600">Chris Thomas</h4>
-                                <p class="text-sm text-gray-500">CEO of Red Button</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Third Testimonial Card (Initially Hidden) -->
-                <div class="w-full bg-gray-100 p-6 md:p-8 rounded-lg shadow-md opacity-0 absolute top-0 transform translate-y-16 transition-all duration-500 hidden"
-                    id="testimonial-2">
-                    <div class="ml-20 md:ml-10 pt-2">
-                        <p class="text-gray-700 leading-relaxed mb-6">
-                            "The customer service was exceptional. They went above and beyond to ensure
-                            everything was set up perfectly."
-                        </p>
-                        <div class="flex justify-between items-center">
-                            <div>
-                                <h4 class="font-semibold text-primary-600">Sarah Johnson</h4>
-                                <p class="text-sm text-gray-500">New York, USA</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </div>
-    </div>
-</section>
+        </section>
 
         <!-- Join Section with Dark Blue Background -->
         <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
