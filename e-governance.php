@@ -26,53 +26,52 @@
 
         <!-- hero section -->
         <section class="bg-white px-4 sm:px-6 py-8 sm:py-12" data-aos="fade-up">
-    <div class="max-w-7xl mx-auto">
-        <div class="rounded-xl overflow-hidden">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-0">
-                <!-- Left Content - Services List -->
-                <div class="p-6 sm:p-8 md:p-12 flex flex-col justify-center" data-aos="fade-right">
-                    <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500 leading-tight">
-                        Make Government Services <br>
-                        Simple for Your Community
-                    </h1>
-                    <p class="text-gray-500 my-4 sm:mb-6 md:mb-8 text-sm sm:text-base">
-                        Partner with us to provide digital government <br> services to 50,000+ citizens in your
-                        area.
-                    </p>
-                    <a href="#"
-                        class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md w-full sm:w-auto sm:self-start"
-                        data-aos="zoom-in-up">
-                        Start Your Journey
-                    </a>
-                    <div
-                        class="mt-6 sm:mt-8 flex flex-wrap sm:flex-nowrap items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
-                        data-aos="fade-up">
-                        <div class="flex -space-x-2 overflow-hidden ml-1">
-                            <img src="https://randomuser.me/api/portraits/men/1.jpg"
-                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white" alt="Partner">
-                            <img src="https://randomuser.me/api/portraits/women/2.jpg"
-                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white" alt="Partner">
-                            <img src="https://randomuser.me/api/portraits/men/3.jpg"
-                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white" alt="Partner">
-                            <img src="https://randomuser.me/api/portraits/women/4.jpg"
-                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white" alt="Partner">
+            <div class="max-w-7xl mx-auto">
+                <div class="rounded-xl overflow-hidden">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-0">
+                        <!-- Left Content - Services List -->
+                        <div class="p-6 sm:p-8 md:p-12 flex flex-col justify-center" data-aos="fade-right">
+                            <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500 leading-tight">
+                                Make Government Services <br>
+                                Simple for Your Community
+                            </h1>
+                            <p class="text-gray-500 my-4 sm:mb-6 md:mb-8 text-sm sm:text-base">
+                                Partner with us to provide digital government <br> services to 50,000+ citizens in your
+                                area.
+                            </p>
+                            <a href="#"
+                                class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md w-full sm:w-auto sm:self-start"
+                                data-aos="zoom-in-up">
+                                Start Your Journey
+                            </a>
+                            <div class="mt-6 sm:mt-8 flex flex-wrap sm:flex-nowrap items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                                data-aos="fade-up">
+                                <div class="flex -space-x-2 overflow-hidden ml-1">
+                                    <img src="https://randomuser.me/api/portraits/men/1.jpg"
+                                        class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white" alt="Partner">
+                                    <img src="https://randomuser.me/api/portraits/women/2.jpg"
+                                        class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white" alt="Partner">
+                                    <img src="https://randomuser.me/api/portraits/men/3.jpg"
+                                        class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white" alt="Partner">
+                                    <img src="https://randomuser.me/api/portraits/women/4.jpg"
+                                        class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white" alt="Partner">
+                                </div>
+                                <span class="text-gray-600 text-xs sm:text-sm ml-1">1 Lac+ Retail partners across
+                                    India</span>
+                            </div>
                         </div>
-                        <span class="text-gray-600 text-xs sm:text-sm ml-1">1 Lac+ Retail partners across
-                            India</span>
-                    </div>
-                </div>
 
-                <!-- Right Content - Image -->
-                <div class="relative h-full" data-aos="fade-left">
-                    <div class="relative h-64 sm:h-80 md:h-full">
-                        <img src="assets/images/e-governance/banner.png" alt="Travel Business"
-                            class="w-full h-full object-cover object-center md:object-contain" />
+                        <!-- Right Content - Image -->
+                        <div class="relative h-full" data-aos="fade-left">
+                            <div class="relative h-64 sm:h-80 md:h-full">
+                                <img src="assets/images/e-governance/banner.png" alt="Travel Business"
+                                    class="w-full h-full object-cover object-center md:object-contain" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
+        </section>
 
 
         <!-- hero section ends -->
@@ -308,60 +307,76 @@
 
         <!-- E-Governance Platform Services Section -->
         <section class="bg-white py-10 px-4 md:px-24">
-    <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-primary-700 mb-8 text-center" data-aos="fade-up">Our E-Governance Platform Services</h2>
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-primary-700 mb-8 text-center" data-aos="fade-up">Our E-Governance
+                    Platform Services</h2>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <!-- PAN Card Services -->
-            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8" data-aos="fade-up" data-aos-delay="100">
-                <div class="text-left mb-4">
-                    <div class="text-red-500 mb-4">
-                        <img src="assets/images/e-governance/pan-icon.svg" alt="Pan Image">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    <!-- PAN Card Services -->
+                    <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8"
+                        data-aos="fade-up" data-aos-delay="100">
+                        <div class="text-left mb-4">
+                            <div class="text-red-500 mb-4">
+                                <img src="assets/images/e-governance/pan-icon.svg" alt="Pan Image">
+                            </div>
+                            <h2 class="text-xl font-semibold text-red-500">PAN Card Services</h2>
+                        </div>
+                        <ul class="space-y-2 text-left">
+                            <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span
+                                    class="text-gray-600">New applications</span></li>
+                            <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span
+                                    class="text-gray-600">Information updates</span></li>
+                            <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span
+                                    class="text-gray-600">Downloads</span></li>
+                            <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span
+                                    class="text-gray-600">Status verification</span></li>
+                        </ul>
                     </div>
-                    <h2 class="text-xl font-semibold text-red-500">PAN Card Services</h2>
-                </div>
-                <ul class="space-y-2 text-left">
-                    <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span class="text-gray-600">New applications</span></li>
-                    <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span class="text-gray-600">Information updates</span></li>
-                    <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span class="text-gray-600">Downloads</span></li>
-                    <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span class="text-gray-600">Status verification</span></li>
-                </ul>
-            </div>
 
-            <!-- GST Services -->
-            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8" data-aos="fade-up" data-aos-delay="200">
-                <div class="text-left mb-4">
-                    <div class="text-red-500 mb-4">
-                        <img src="assets/images/e-governance/gst-icon.svg" alt="GST Image">
+                    <!-- GST Services -->
+                    <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8"
+                        data-aos="fade-up" data-aos-delay="200">
+                        <div class="text-left mb-4">
+                            <div class="text-red-500 mb-4">
+                                <img src="assets/images/e-governance/gst-icon.svg" alt="GST Image">
+                            </div>
+                            <h2 class="text-xl font-semibold text-red-500">GST Services</h2>
+                        </div>
+                        <ul class="space-y-2 text-left">
+                            <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span
+                                    class="text-gray-600">Business registration</span></li>
+                            <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span
+                                    class="text-gray-600">Returns filing</span></li>
+                            <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span
+                                    class="text-gray-600">Payment processing</span></li>
+                            <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span
+                                    class="text-gray-600">Modification support</span></li>
+                        </ul>
                     </div>
-                    <h2 class="text-xl font-semibold text-red-500">GST Services</h2>
-                </div>
-                <ul class="space-y-2 text-left">
-                    <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span class="text-gray-600">Business registration</span></li>
-                    <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span class="text-gray-600">Returns filing</span></li>
-                    <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span class="text-gray-600">Payment processing</span></li>
-                    <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span class="text-gray-600">Modification support</span></li>
-                </ul>
-            </div>
 
-            <!-- Document Services -->
-            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8" data-aos="fade-up" data-aos-delay="300">
-                <div class="text-left mb-4">
-                    <div class="text-red-500 mb-4">
-                        <img src="assets/images/e-governance/document-icon.svg" alt="Document Image">
+                    <!-- Document Services -->
+                    <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8"
+                        data-aos="fade-up" data-aos-delay="300">
+                        <div class="text-left mb-4">
+                            <div class="text-red-500 mb-4">
+                                <img src="assets/images/e-governance/document-icon.svg" alt="Document Image">
+                            </div>
+                            <h2 class="text-xl font-semibold text-red-500">Document Services</h2>
+                        </div>
+                        <ul class="space-y-2 text-left">
+                            <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span
+                                    class="text-gray-600">Aadhaar updates</span></li>
+                            <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span
+                                    class="text-gray-600">Certificate copies</span></li>
+                            <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span
+                                    class="text-gray-600">Form submission</span></li>
+                            <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span
+                                    class="text-gray-600">Status monitoring</span></li>
+                        </ul>
                     </div>
-                    <h2 class="text-xl font-semibold text-red-500">Document Services</h2>
                 </div>
-                <ul class="space-y-2 text-left">
-                    <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span class="text-gray-600">Aadhaar updates</span></li>
-                    <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span class="text-gray-600">Certificate copies</span></li>
-                    <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span class="text-gray-600">Form submission</span></li>
-                    <li class="flex items-start"><span class="text-gray-700 mr-2">•</span><span class="text-gray-600">Status monitoring</span></li>
-                </ul>
             </div>
-        </div>
-    </div>
-</section>
+        </section>
 
 
 
@@ -655,64 +670,60 @@
 
         <!-- Join India's Growing -->
         <section class="bg-primary-700 text-white min-h-[300px] md:min-h-[400px] py-12 md:py-16">
-        <div class="container mx-auto px-4 md:px-24">
-            <div class="flex flex-col md:flex-row items-center space-y-10 md:space-y-0 md:space-x-10">
-                <!-- Left Column - Text and CTA -->
-                <div 
-                    class="w-full md:w-1/3" 
-                    data-aos="fade-right" 
-                    data-aos-duration="800"
-                >
-                    <h2 class="text-3xl md:text-4xl font-bold text-white leading-tight mb-4">
-                        Join India's Growing Travel Network
-                    </h2>
-                    <p class="text-white text-base md:text-lg mb-8 opacity-90">
-                        Sec2Pay Your Partner in Making Digital Business Growth Simple
-                    </p>
-                    <a href="#"
-                        class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-secondary-400"
-                    >
-                        Begin Your Journey
-                    </a>
-                </div>
+            <div class="container mx-auto px-4 md:px-24">
+                <div class="flex flex-col md:flex-row items-center space-y-10 md:space-y-0 md:space-x-10">
+                    <!-- Left Column - Text and CTA -->
+                    <div class="w-full md:w-1/3" data-aos="fade-right" data-aos-duration="800">
+                        <h2 class="text-3xl md:text-4xl font-bold text-white leading-tight mb-4">
+                            Join India's Growing Travel Network
+                        </h2>
+                        <p class="text-white text-base md:text-lg mb-8 opacity-90">
+                            Sec2Pay Your Partner in Making Digital Business Growth Simple
+                        </p>
+                        <a href="#"
+                            class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-secondary-400">
+                            Begin Your Journey
+                        </a>
+                    </div>
 
-                <!-- Right Column - Stats Grid -->
-                <div 
-                    class="w-full md:w-2/3 grid grid-cols-2 gap-4 md:border-l border-gray-500/30"
-                    data-aos="fade-left" 
-                    data-aos-duration="800"
-                >
-                    <!-- Stat Box 1 -->
-                    <div class="bg-primary-600/50 rounded-lg border border-gray-500/20 p-6 md:p-8 flex items-center justify-center">
-                        <p class="text-white text-center text-sm md:text-base leading-snug">
-                            Established network<br/> serving 1 Lac+ retail<br/> merchants
-                        </p>
-                    </div>
-                    
-                    <!-- Stat Box 2 -->
-                    <div class="bg-gradient-to-br from-indigo-500 to-red-400 rounded-lg p-6 md:p-8 flex items-center justify-center">
-                        <p class="text-white text-center text-sm md:text-base leading-snug">
-                            Partnerships with 20+<br/> government<br/> departments
-                        </p>
-                    </div>
-                    
-                    <!-- Stat Box 3 -->
-                    <div class="bg-primary-600/50 rounded-lg border border-gray-500/20 p-6 md:p-8 flex items-center justify-center">
-                        <p class="text-white text-center text-sm md:text-base leading-snug">
-                            Quick settlement<br/> cycles
-                        </p>
-                    </div>
-                    
-                    <!-- Stat Box 4 -->
-                    <div class="bg-primary-600/50 rounded-lg border border-gray-500/20 p-6 md:p-8 flex items-center justify-center">
-                        <p class="text-white text-center text-sm md:text-base leading-snug">
-                            24/7 Customer<br/> Support team
-                        </p>
+                    <!-- Right Column - Stats Grid -->
+                    <div class="w-full md:w-2/3 grid grid-cols-2 gap-4 md:border-l border-gray-500/30"
+                        data-aos="fade-left" data-aos-duration="800">
+                        <!-- Stat Box 1 -->
+                        <div
+                            class="bg-primary-600/50 rounded-lg border border-gray-500/20 p-6 md:p-8 flex items-center justify-center">
+                            <p class="text-white text-center text-sm md:text-base leading-snug">
+                                Established network<br /> serving 1 Lac+ retail<br /> merchants
+                            </p>
+                        </div>
+
+                        <!-- Stat Box 2 -->
+                        <div
+                            class="bg-gradient-to-br from-indigo-500 to-red-400 rounded-lg p-6 md:p-8 flex items-center justify-center">
+                            <p class="text-white text-center text-sm md:text-base leading-snug">
+                                Partnerships with 20+<br /> government<br /> departments
+                            </p>
+                        </div>
+
+                        <!-- Stat Box 3 -->
+                        <div
+                            class="bg-primary-600/50 rounded-lg border border-gray-500/20 p-6 md:p-8 flex items-center justify-center">
+                            <p class="text-white text-center text-sm md:text-base leading-snug">
+                                Quick settlement<br /> cycles
+                            </p>
+                        </div>
+
+                        <!-- Stat Box 4 -->
+                        <div
+                            class="bg-primary-600/50 rounded-lg border border-gray-500/20 p-6 md:p-8 flex items-center justify-center">
+                            <p class="text-white text-center text-sm md:text-base leading-snug">
+                                24/7 Customer<br /> Support team
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
 
 
