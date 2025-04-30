@@ -7,12 +7,11 @@
     <title>Sec2Pay - Banking Platform Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 
 </head>
@@ -29,13 +28,12 @@
 <section class="relative overflow-hidden py-10 pt-20 md:pt-24 md:py-10 bg-white">
     <!-- Top-left Circular Gradient (Pinkish) - Exactly 50% visible -->
     <div class="absolute top-[5%] -left-[20%] w-[50%] h-[100%] rounded-full"
-    style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 50%);">
+        style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);">
     </div>
 
     <!-- Top-right Circular Gradient (Bluish) - Exactly 50% visible -->
     <div class="absolute top-[5%] -right-[20%] w-[50%] h-[100%] rounded-full"
-    style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);">
-
+        style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 50%);">
     </div>
 
 
@@ -47,7 +45,7 @@
                 data-aos="fade-up" data-aos-duration="800" data-aos-mirror="true">
                 <span class="text-secondary-500">ONDC Credit</span>
             </h1>
-            <p class="text-base text-lg  text-gray-700 max-w-3xl mx-auto" data-aos="fade-up"
+            <p class="text-base sm:text-lg  text-gray-700 max-w-3xl mx-auto" data-aos="fade-up"
                 data-aos-duration="800" data-aos-delay="100" data-aos-mirror="true">
                 Simplify your operations with a comprehensive platform offering </br>essential financial, travel, and utility services tailored to your</br> business needs.  
             </p>

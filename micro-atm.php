@@ -7,12 +7,11 @@
     <title>Sec2Pay - Banking Platform Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 
 </head>
@@ -24,25 +23,27 @@
 
     <main>
 <!-- Micro ATM Section -->
-<section class="bg-white">
-    <div class="max-w-7xl mx-auto">
-        <div class="rounded-xl overflow-hidden">
+<section class=" bg-white">
+
+    <div class="max-w-7xl mx-auto ">
+        <div class="rounded-xl overflow-hidden  ">
             <div class="grid grid-cols-1 md:grid-cols-2">
                 <!-- Left Content - Services List -->
                 <div class="p-8 md:p-12 mt-12">
                     <p class="font-semi-bolder text-secondary-600 font-bold">Micro ATM</p>
-                    <h1 class="text-4xl font-bold text-secondary-500">Turn Your Shop into a Bank</h1>
+                    <h1 class="text-4xl font-bold text-secondary-500 ">Turn Your Shop into a Bank</h1>
                     <h1 class="text-4xl font-bold text-secondary-500 mb-4">Branch with MicroATM</h1>
                     <p class="text-gray-500 mb-8">Offer instant cash withdrawals and basic banking to your customers with our MicroATM services.</p>
 
                     <a href="#"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
                         Start Now
+
                     </a>
 
                     <div
                         class="mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm">
-                        <div class="flex -space-x-2">
+                        <div class="flex -space-x-2 ">
                             <img src="https://randomuser.me/api/portraits/men/1.jpg"
                                 class="w-8 h-8 rounded-full border-2 border-white">
                             <img src="https://randomuser.me/api/portraits/women/2.jpg"
@@ -55,21 +56,22 @@
                         <span class="text-gray-600 text-sm">1 Lac+ Retail partners across India</span>
                     </div>
                 </div>
+                <!-- Right Content - Image and Features -->
+                <!-- Diagonal Shapes for Design -->
 
-                <!-- Right Content - Image -->
-                <div class="relative flex items-center justify-center max-w-5xl mx-auto">
+                <!-- Person Image -->
+
+
+                <div class="relative max-w-5xl mx-auto  ">
                     <!-- Main Dashboard Image -->
                     <div class="relative z-20">
-                        <img src="assets/images/micro-atm/micro-atm-hero.png" alt="Dashboard" class="h-96 mx-auto" />
-                        <div class="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-t from-white to-transparent">
+                        <img src="assets/images/micro-atm/micro-atm-hero.png" alt="Dashboard" class=" h-auto" />
+                        <div class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 </section>
-
 
 
 <!-- Key Features Section with Split Background -->
