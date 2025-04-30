@@ -80,13 +80,8 @@
 <section class="w-full py-12">
     <div class="max-w-6xl mx-auto px-4">
         <div class="flex flex-col md:flex-row items-center gap-8">
-            <!-- Left side with illustration -->
-            <div class="w-full md:w-1/2">
-            <img src="assets/images/pan-nsdl/features.png" alt="Life Insurance">
-            </div>
-            
-            <!-- Right side with content -->
-            <div class="w-full md:w-1/2">
+               <!-- Right side with content -->
+               <div class="w-full md:w-1/2">
                 <h2 class="text-3xl font-bold text-gray-900 mb-6">Key Features</h2>
                 
                 <ul class="space-y-5 mb-8">
@@ -112,10 +107,10 @@
                     </li>
                     <?php endforeach; ?>
                 </ul>
-                
-                <button class="bg-[#F15744] hover:bg-[#E04A38] text-white font-medium py-2.5 px-6 rounded-md transition duration-300">
-                Read More
-                </button>
+            </div>
+            <!-- Left side with illustration -->
+            <div class="w-full md:w-1/2">
+            <img src="assets/images/pan-nsdl/features.png" alt="Life Insurance">
             </div>
         </div>
     </div>
@@ -168,10 +163,9 @@
                             <ul class="space-y-5 mb-8">
                     <?php
                     $lifePlans = [
-                        'Digital PAN Card Application',
-                        'Quick Processing Time',
-                        'Secure Documentation',
-                        'Real-time Status Updates'
+                        'Digital submission process',
+                        'Quick verification system',
+                        'Status tracking available'
                     ];
                     
                     foreach ($lifePlans as $plan) :
@@ -406,7 +400,7 @@
 
 
 <!-- Our Other Services Section -->
-<section class="w-full bg-primary-600 py-16 px-4">
+<section class="w-full bg-primary-500 py-16 px-4">
     <div class="max-w-6xl mx-auto">
         <div class="flex flex-col md:flex-row items-start">
             <!-- Section Title -->
@@ -525,7 +519,7 @@
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-primary-600 to-primary-500 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+        <div class="bg-gradient-to-br from-primary-700 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
             data-aos="fade-up" data-aos-duration="1000">
 
             <!-- Stars Background SVG -->

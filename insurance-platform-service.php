@@ -32,7 +32,7 @@
         <div class="p-8 md:p-12 mt-12 max-w-2xl">
           <h1 class="text-4xl font-bold text-secondary-600">Empower Your Business</h1>
           <h1 class="text-4xl font-bold text-secondary-600 mb-4">With Insurance Solutions</h1>
-          <p class="text-gray-500 mb-8">Offer comprehensive insurance services as part of your business offerings.</p>
+          <p class="text-gray-500 mb-8">Offer comprehensive insurance services as part of your</br> business offerings.</p>
           
           <a href="#"
             class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
