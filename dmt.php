@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SecuPay - Banking Platform Services</title>
+    <title>Sec2Pay - Banking Platform Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 
 </head>
@@ -61,12 +63,11 @@
 
                 <!-- Person Image -->
 
-
-                <div class="relative max-w-5xl mx-auto  ">
+                <div class="relative flex items-center justify-center max-w-5xl mx-auto">
                     <!-- Main Dashboard Image -->
                     <div class="relative z-20">
-                        <img src="assets/images/dmt/dmt-hero.png" alt="Dashboard" class=" h-auto" />
-                        <div class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
+                        <img src="assets\images\dmt\dmt-hero.png" alt="Dashboard" class="h-96 mx-auto" />
+                        <div class="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-t from-white to-transparent">
                         </div>
                     </div>
                 </div>
@@ -112,16 +113,12 @@
 <section class="bg-primary-600 py-10 px-4 md:px-24">
     <div class="container mx-auto px-6">
         <h2 class="text-3xl font-bold text-primary-100 my-8 text-center">Features & Functions</h2>
-        <p class="text-primary-100 mb-12 max-w-2xl mx-auto">
-            Building trust through partnerships that last. Creating
-            a network that serves millions.
-        </p>
-
+        
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <!-- Feature Card 1 -->
             <div
                 class="border border-gray-200  bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/dmt/quick-transfer1.png" alt="Real-Time Payment"
+                <img src="assets/images/dmt/quick-transfer.png" alt="Real-Time Payment"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left">
                     <h3 class="text-secondary-600 font-semibold text-xl mb-2">Quick
@@ -136,7 +133,7 @@
             <!-- Feature Card 2 -->
             <div
                 class="border border-gray-200  bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/dmt/quick-transfer1.png" alt="Real-Time Payment"
+                <img src="assets/images/dmt/status-tracking.png" alt="Real-Time Payment"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left ">
 
@@ -152,7 +149,7 @@
             <!-- Feature Card 3 -->
             <div
                 class="border border-gray-200  bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/dmt/quick-transfer1.png" alt="Real-Time Payment"
+                <img src="assets/images/dmt/commission-structure.png" alt="Real-Time Payment"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left ">
 
@@ -167,7 +164,7 @@
             <!-- Feature Card 4 -->
             <div
                 class="border border-gray-200 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/dmt/quick-transfer1.png" alt="Real-Time Payment"
+                <img src="assets/images/dmt/settlement-system.png" alt="Real-Time Payment"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left  ">
 
@@ -249,66 +246,58 @@
 <section class="w-full bg-primary-600 py-16 px-4">
     <div class="max-w-6xl mx-auto">
         <div class="flex flex-col md:flex-row items-start">
+            
             <!-- Section Title -->
-            <div class="text-white mb-10 md:mb-0 md:w-1/4 md:mr-8 md:pt-2">
+            <div class="text-white mb-10 md:mb-0 md:w-1/4 md:mr-8">
                 <h2 class="text-3xl font-bold leading-tight uppercase">
-                    OUR OTHER SERVICES
+                    Our Other Services
                 </h2>
             </div>
             
             <!-- Services Grid -->
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-8 md:w-3/4 w-full">
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 w-full md:w-3/4">
+                
                 <!-- AEPS -->
-                <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
-                        <img src="assets/images/pan-uti/icon1.svg" alt="AEPS" class="w-16 h-16">
-                    </div>
-                    <span class="text-white text-center font-medium">AEPS</span>
+                <div class="flex flex-col items-center text-center">
+                    <img src="assets/images/pan-uti/icon1.svg" alt="AEPS Service Icon" class="w-28 h-28 mb-2">
+                    <span class="text-white font-medium">AEPS</span>
                 </div>
                 
                 <!-- DMT -->
-                <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
-                        <img src="assets/images/pan-uti/icon2.svg" alt="DMT" class="w-16 h-16">
-                    </div>
-                    <span class="text-white text-center font-medium">DMT</span>
+                <div class="flex flex-col items-center text-center">
+                    <img src="assets/images/pan-uti/icon2.svg" alt="DMT Service Icon" class="w-28 h-28 mb-2">
+                    <span class="text-white font-medium">DMT</span>
                 </div>
                 
                 <!-- Micro ATM -->
-                <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
-                        <img src="assets/images/pan-uti/icon3.svg" alt="Micro ATM" class="w-16 h-16">
-                    </div>
-                    <span class="text-white text-center font-medium">Micro ATM</span>
+                <div class="flex flex-col items-center text-center">
+                    <img src="assets/images/pan-uti/icon3.svg" alt="Micro ATM Service Icon" class="w-28 h-28 mb-2">
+                    <span class="text-white font-medium">Micro ATM</span>
                 </div>
                 
                 <!-- mPOS -->
-                <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
-                        <img src="assets/images/pan-uti/icon4.svg" alt="mPOS" class="w-16 h-16">
-                    </div>
-                    <span class="text-white text-center font-medium">mPOS</span>
+                <div class="flex flex-col items-center text-center">
+                    <img src="assets/images/pan-uti/icon4.svg" alt="mPOS Service Icon" class="w-28 h-28 mb-2">
+                    <span class="text-white font-medium">mPOS</span>
                 </div>
                 
                 <!-- CMS -->
-                <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
-                        <img src="assets/images/pan-uti/icon5.svg" alt="CMS" class="w-16 h-16">
-                    </div>
-                    <span class="text-white text-center font-medium">CMS</span>
+                <div class="flex flex-col items-center text-center">
+                    <img src="assets/images/pan-uti/icon5.svg" alt="CMS Service Icon" class="w-28 h-28 mb-2">
+                    <span class="text-white font-medium">CMS</span>
                 </div>
                 
                 <!-- UPI QR Code -->
-                <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
-                        <img src="assets/images/pan-uti/icon6.svg" alt="UPI QR Code" class="w-16 h-16">
-                    </div>
-                    <span class="text-white text-center font-medium">UPI QR Code</span>
+                <div class="flex flex-col items-center text-center">
+                    <img src="assets/images/pan-uti/icon6.svg" alt="UPI QR Code Service Icon" class="w-28 h-28 mb-2">
+                    <span class="text-white font-medium">UPI QR Code</span>
                 </div>
+
             </div>
         </div>
     </div>
 </section>
+
 
 <!-- FAQ Section -->
 <section class="py-16 max-w-3xl mx-auto px-4">
@@ -365,7 +354,7 @@
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-primary-800 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+        <div class="bg-gradient-to-br from-secondary-600 to-secondary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
             data-aos="fade-up" data-aos-duration="1000">
 
             <!-- Stars Background SVG -->

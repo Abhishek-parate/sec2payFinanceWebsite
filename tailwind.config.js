@@ -21,7 +21,7 @@ export default {
           200: "#fbd3cf",
           300: "#f8a7a0",
           400: "#f47c70",
-          500: "#f15744", // Main secondary color (secupay-red)
+          500: "#f15744", // Main secondary color (Sec2Pay-red)
           600: "#d94e3c",
           700: "#b23c2f",
           800: "#8c2f25",

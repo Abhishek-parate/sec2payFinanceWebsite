@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SecuPay - Banking Platform Services</title>
+    <title>Sec2Pay - Banking Platform Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 
 </head>
@@ -24,22 +26,30 @@
 
 <!-- hero section -->
 
-<section class=" bg-white">
+<section class="relative overflow-hidden py-10 pt-20 md:pt-24 md:py-10 bg-white">
+     <!-- Top-left Circular Gradient (Pinkish) - Exactly 50% visible -->
+     <div class="absolute -bottom-[8%] -left-[23%] w-[50%] h-[50%] rounded-full"
+        style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 70%);">
+    </div>
+
+    <!-- Top-right Circular Gradient (Bluish) - Exactly 50% visible -->
+    <div class="absolute -top-[7%] -right-[20%] w-[50%] h-[60%] rounded-full"
+        style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 70%);">
+    </div>
 
     <div class="max-w-7xl mx-auto py-12  ">
-        <div class="rounded-xl overflow-hidden  ">
+        <div class="rounded-xl overflow-hidden z-20 relative">
             <div class="grid grid-cols-1 md:grid-cols-2 ">
                 <!-- Left Content - Services List -->
                 <div class="p-8 md:p-12">
-                    <p class="font-semi-bolder text-primary-600 font-bold">Utility Services</p>
-                    <h1 class="text-4xl font-bold text-secondary-600 ">Make Bill</h1>
-                    <h1 class="text-4xl font-bold text-secondary-600 mb-4">Payments Simple</h1>
-                    <p class="text-gray-500 mb-8">Join 1 lakh+ retailers offering instant
-                    utility payments</p>
+                    <p class="font-semi-bolder text-primary-600 font-bold">Mutual Fund Platform</p>
+                    <h1 class="text-4xl font-bold text-secondary-600 ">Launch Your Mutual Fund</h1>
+                    <h1 class="text-4xl font-bold text-secondary-600 mb-4">Distribution Business</h1>
+                    <p class="text-gray-500 mb-8">Build wealth for your customers with India's trusted mutual fund platform for financial advisors.</p>
 
                     <a href="#"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
-                        Start Your Journey
+                        Start your Business!
 
                     </a>
 
@@ -93,7 +103,7 @@
                         <!-- Feature Card 3 -->
                         <div
                             class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                            <img src="assets/images/utility-servises/auto.png"
+                            <img src="assets/images/mutual-fund/investment.png"
                                 alt="Real-Time Payment"
                                 class="w-full object-contain rounded-t-lg">
                             <div class="p-6 text-left">
@@ -108,7 +118,7 @@
                         <!-- Feature Card 3 -->
                         <div
                             class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                            <img src="assets/images/utility-servises/auto.png"
+                            <img src="assets/images/mutual-fund/quick.png"
                                 alt="Real-Time Payment"
                                 class="w-full object-contain rounded-t-lg">
                             <div class="p-6 text-left">
@@ -122,7 +132,7 @@
                         <!-- Feature Card 3 -->
                         <div
                             class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                            <img src="assets/images/utility-servises/auto.png"
+                            <img src="assets/images/mutual-fund/amc.png"
                                 alt="Real-Time Payment"
                                 class="w-full object-contain rounded-t-lg">
                             <div class="p-6 text-left">
@@ -136,7 +146,7 @@
                         <!-- Feature Card 3 -->
                         <div
                             class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                            <img src="assets/images/utility-servises/auto.png"
+                            <img src="assets/images/mutual-fund/goal.png"
                                 alt="Real-Time Payment"
                                 class="w-full object-contain rounded-t-lg">
                             <div class="p-6 text-left">
@@ -271,10 +281,10 @@
             <span class="mr-3 text-gray-700 font-medium">Monthly</span>
             <div class="relative inline-block w-12 align-middle select-none">
                 <input type="checkbox" id="billing-toggle"
-                    class="peer absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer checked:right-0 checked:border-secondary-500 border-gray-300"
+                    class="peer absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer checked:right-0 checked:border-primary-700 border-gray-300"
                     style="top: 0; bottom: 0; margin: auto 0; transition: right 0.2s ease-in-out, border-color 0.2s ease-in-out;">
                 <label for="billing-toggle"
-                    class="block h-6 overflow-hidden rounded-full bg-gray-300 cursor-pointer peer-checked:bg-secondary-400"
+                    class="block h-6 overflow-hidden rounded-full bg-gray-300 cursor-pointer peer-checked:bg-primary-600"
                     style="transition: background-color 0.2s ease-in-out;">
                 </label>
             </div>
@@ -292,7 +302,7 @@
                         <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
                             <div
                                 class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex">
-                                <img src="assets/images/banking/icon1.png" alt="Whitelabel Partner Icon">
+                                <img src="assets/images/mutual-fund/basic.png" alt="Whitelabel Partner Icon">
                             </div>
                         </div>
                         <div class="flex flex-col">
@@ -412,7 +422,7 @@
                     <div class="flex items-center mb-6">
                         <div class="w-16 h-16 bg-white rounded-lg flex items-center justify-center mr-4">
                             <div class="w-10 h-10 bg-gradient-to-r from-white to-secondary-300 overflow-hidden flex">
-                                <img src="assets/images/banking/icon2.png" alt="Whitelabel Reseller Icon">
+                                <img src="assets/images/mutual-fund/pro.png" alt="Whitelabel Reseller Icon">
                             </div>
                         </div>
                         <div class="flex flex-col">
@@ -498,7 +508,7 @@
                         <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
                             <div
                                 class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex">
-                                <img src="assets/images/banking/icon1.png" alt="Enterprise Partner Icon">
+                                <img src="assets/images/mutual-fund/enterprice.png" alt="Enterprise Partner Icon">
                             </div>
                         </div>
                         <div class="flex flex-col">

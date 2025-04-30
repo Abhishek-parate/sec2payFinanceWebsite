@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SecuPay - Banking Platform Services</title>
+    <title>Sec2Pay - Banking Platform Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 
 </head>
@@ -90,7 +92,7 @@
         <div class="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <!-- Feature Card 1 -->
             <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/aeps/cash.png"
+                <img src="assets\images\aeps\cash.png"
                     alt="Real-Time Payment"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left">
@@ -103,7 +105,7 @@
             
             <!-- Feature Card 2 -->
             <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/aeps/balance.png"
+                <img src="assets\images\aeps\bank.png"
                     alt="Real-Time Payment"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left">
@@ -116,7 +118,7 @@
             
             <!-- Feature Card 3 -->
             <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/aeps/mini.png"
+                <img src="assets\images\aeps\mini-statement.png"
                     alt="Real-Time Payment"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left">

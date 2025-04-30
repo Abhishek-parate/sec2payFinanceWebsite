@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SecuPay - Banking Platform Services</title>
+    <title>Sec2Pay - Banking Platform Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
@@ -32,49 +33,83 @@
             <h2 class="text-4xl font-bold text-secondary-500 mb-2">Let's Talk Business</h2>
             <p class="text-gray-800 text-lg">Get Started with Digital Financial Services</p>
         </div>
+        <form id="contactForm" method="POST" action="submit_form.php">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+        <div>
+            <label for="firstName" class="block text-sm font-medium text-gray-700 mb-1">First Name</label>
+            <input type="text" id="firstName" name="firstName" placeholder="First Name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary-500/50">
+        </div>
         
-        <!-- Contact Form -->
-        <form>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-                <!-- First Name -->
-                <div>
-                    <label for="firstName" class="block text-sm font-medium text-gray-700 mb-1">First Name</label>
-                    <input type="text" id="firstName" placeholder="First Name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary-500/50">
-                </div>
-                
-                <!-- Last Name -->
-                <div>
-                    <label for="lastName" class="block text-sm font-medium text-gray-700 mb-1">Last Name</label>
-                    <input type="text" id="lastName" placeholder="Last Name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary-500/50">
-                </div>
-            </div>
-            
-            <!-- Email Address -->
-            <div class="mb-4">
-                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
-                <input type="email" id="email" placeholder="Email Address" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary-500/50">
-            </div>
-            
-            <!-- Message -->
-            <div class="mb-6">
-                <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Your message</label>
-                <textarea id="message" rows="5" placeholder="Textarea" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary-500/50"></textarea>
-            </div>
-            
-            <!-- Terms Checkbox -->
-            <div class="flex items-center mb-6">
-                <div class="relative inline-block w-10 mr-2 align-middle select-none">
-                    <input type="checkbox" id="toggle" class="sr-only peer">
-                    <div class="w-10 h-5 bg-gray-300 rounded-full peer peer-checked:bg-primary-500 peer-checked:after:translate-x-full after:content-[''] after:absolute after:top-0.5 after:left-0.5 after:bg-white after:rounded-full after:h-4 after:w-4 after:transition-all"></div>
-                </div>
-                <label for="toggle" class="text-sm text-gray-700">I agree to the Terms and Conditions.</label>
-            </div>
-            
-            <!-- Submit Button -->
-            <button type="submit" class="w-full bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-4 rounded-md transition duration-300 uppercase text-sm tracking-wider">
-                Send Message
-            </button>
-        </form>
+        <div>
+            <label for="lastName" class="block text-sm font-medium text-gray-700 mb-1">Last Name</label>
+            <input type="text" id="lastName" name="lastName" placeholder="Last Name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary-500/50">
+        </div>
+    </div>
+    
+    <div class="mb-4">
+        <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Email Address" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary-500/50">
+    </div>
+    
+    <div class="mb-6">
+        <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Your message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your message" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-secondary-500/50"></textarea>
+    </div>
+    
+    <div class="flex items-center mb-6">
+        <!-- Visible checkbox styled with Tailwind CSS -->
+        <input type="checkbox" id="toggle" name="terms" class="w-5 h-5 border-2 border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 mr-2">
+        
+        <label for="toggle" class="text-sm text-gray-700">I agree to the Terms and Conditions.</label>
+    </div>
+    
+    <button type="submit" class="w-full bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-4 rounded-md transition duration-300 uppercase text-sm tracking-wider">
+        Send Message
+    </button>
+</form>
+
+<script>
+document.getElementById('contactForm').addEventListener('submit', function(e) {
+    e.preventDefault(); // Prevent default form submission
+
+    // Grab form values
+    const firstName = document.getElementById('firstName').value;
+    const lastName = document.getElementById('lastName').value;
+    const email = document.getElementById('email').value;
+    const message = document.getElementById('message').value;
+    const terms = document.getElementById('toggle').checked;
+
+    // Form validation
+    if (!firstName || !lastName || !email || !message || !terms) {
+        alert('Please fill out all fields and agree to the terms.');
+        return;
+    }
+
+    // Prepare form data to be sent via POST
+    const formData = new FormData();
+    formData.append('firstName', firstName);
+    formData.append('lastName', lastName);
+    formData.append('email', email);
+    formData.append('message', message);
+    formData.append('terms', terms);
+
+    // Now, submit form data to the PHP server (submit_form.php)
+    fetch('submit_form.php', {
+        method: 'POST',
+        body: formData,
+    })
+    .then(response => response.text())  // Assuming server sends plain text response
+    .then(data => {
+        alert('Message sent successfully!');
+        document.getElementById('contactForm').reset(); // Reset form on success
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('Error submitting the form!');
+    });
+});
+</script>
+
     </div>
 </section>
 
@@ -98,7 +133,7 @@
                     Join Sec2pay today
                 </h1>
 
-                <p class="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 relative z-10" data-aos="fade-up"
+                <p class="text-base sm:text-lg text-gray-300 relative z-10" data-aos="fade-up"
                     data-aos-delay="300">
                     Start for free — upgrade anytime.
                 </p>
