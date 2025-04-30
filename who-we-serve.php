@@ -13,14 +13,11 @@
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-
 </head>
 
 <body class="bg-white font-inter">
 
   <?php include_once('includes/header.php'); ?>
-
-
   <main>
     <!-- hero section -->
     <section class="relative overflow-hidden py-10 pt-20 md:pt-24 md:py-10 bg-white">
@@ -29,12 +26,10 @@
         style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);">
       </div>
 
-      <!-- Top-right Circular Gradient -->
       <div class="absolute top-[5%] -right-[30%] sm:-right-[20%] w-[80%] sm:w-[50%] h-[100%] rounded-full"
         style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 50%);">
       </div>
 
-      <!-- Main Content -->
       <div class="container mx-auto px-4 sm:px-6 relative z-20">
         <div class="max-w-4xl mx-auto text-center mb-8 md:mb-12 lg:mb-16">
           <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold mb-4 md:mb-6 text-gray-900 leading-tight"
@@ -54,95 +49,94 @@
       </div>
     </section>
 
-    <!-- Banking Services Section -->
     <section class="py-10 px-4 md:px-24 flex items-center">
-  <div class="container mx-auto px-4 md:px-6">
-    <h2 class="text-3xl font-bold text-primary-700 mb-8 text-center">We Cater to</h2>
+      <div class="container mx-auto px-4 md:px-6">
+        <h2 class="text-3xl font-bold text-primary-700 mb-8 text-center">We Cater to</h2>
 
-    <!-- Banking Services Tabs -->
-    <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-      <!-- Tab Content -->
-      <div class="relative min-h-[350px] overflow-hidden md:pl-24">
-        <!-- AePS Tab Content -->
-        <div class="tab-pane block opacity-100 transition-opacity duration-300" id="aeps">
-          <div class="flex flex-col md:flex-row items-center gap-8 text-primary-600">
-            <!-- Startups & Small Businesses Section -->
-            <div class="w-full md:w-2/4">
-              <div class="p-10 bg-secondary-100 rounded-2xl w-full md:w-4/5">
-                <h3 class="text-2xl md:text-3xl font-semibold mb-8">Startups & Small Businesses</h3>
-                <ul class="space-y-5 mb-4">
-                  <?php
-                  $Merchants = [
-                    'Quick setup in 7 days',
-                    'Low investment options',
-                    'Complete business toolkit',
-                    'Growth-focused solutions'
-                  ];
+        <!-- Banking Services Tabs -->
+        <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+          <!-- Tab Content -->
+          <div class="relative min-h-[350px] overflow-hidden md:pl-24">
+            <!-- AePS Tab Content -->
+            <div class="tab-pane block opacity-100 transition-opacity duration-300" id="aeps">
+              <div class="flex flex-col md:flex-row items-center gap-8 text-primary-600">
+                <!-- Startups & Small Businesses Section -->
+                <div class="w-full md:w-2/4">
+                  <div class="p-10 bg-secondary-100 rounded-2xl w-full md:w-4/5">
+                    <h3 class="text-2xl md:text-3xl font-semibold mb-8">Startups & Small Businesses</h3>
+                    <ul class="space-y-5 mb-4">
+                      <?php
+                      $Merchants = [
+                        'Quick setup in 7 days',
+                        'Low investment options',
+                        'Complete business toolkit',
+                        'Growth-focused solutions'
+                      ];
 
-                  foreach ($Merchants as $Merchant) :
-                  ?>
-                    <li class="flex items-start">
-                      <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                          <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
-                          <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                      </div>
-                      <span class="ml-3 "><?php echo $Merchant; ?></span>
-                    </li>
-                  <?php endforeach; ?>
-                </ul>
+                      foreach ($Merchants as $Merchant) :
+                      ?>
+                        <li class="flex items-start">
+                          <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                              <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
+                              <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                          </div>
+                          <span class="ml-3 "><?php echo $Merchant; ?></span>
+                        </li>
+                      <?php endforeach; ?>
+                    </ul>
+                  </div>
+                </div>
+
+                <!-- Enterprises Section -->
+                <div class="w-full md:w-2/4">
+                  <h3 class="text-2xl md:text-3xl font-semibold mb-8">Enterprises</h3>
+                  <ul class="space-y-5 mb-4">
+                    <?php
+                    $services = [
+                      'Custom API integration',
+                      'Scalable infrastructure',
+                      'Virtual fund management',
+                      'Dedicated support team'
+                    ];
+
+                    foreach ($services as $service) :
+                    ?>
+                      <li class="flex items-start">
+                        <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
+                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        </div>
+                        <span class="ml-3 "><?php echo $service; ?></span>
+                      </li>
+                    <?php endforeach; ?>
+                  </ul>
+                </div>
               </div>
             </div>
 
-            <!-- Enterprises Section -->
-            <div class="w-full md:w-2/4">
-              <h3 class="text-2xl md:text-3xl font-semibold mb-8">Enterprises</h3>
-              <ul class="space-y-5 mb-4">
-                <?php
-                $services = [
-                  'Custom API integration',
-                  'Scalable infrastructure',
-                  'Virtual fund management',
-                  'Dedicated support team'
-                ];
-
-                foreach ($services as $service) :
-                ?>
-                  <li class="flex items-start">
-                    <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                        <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
-                        <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                      </svg>
-                    </div>
-                    <span class="ml-3 "><?php echo $service; ?></span>
-                  </li>
-                <?php endforeach; ?>
-              </ul>
+            <!-- Contact Sales Button -->
+            <div class="relative z-10 flex justify-center items-center mt-6" data-aos="fade-up" data-aos-delay="400">
+              <a href="contact-us.php"
+                class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
+                data-aos="zoom-in" data-aos-delay="500">
+                Contact Sales
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2" viewBox="0 0 20 20"
+                  fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd" />
+                </svg>
+              </a>
             </div>
+
           </div>
         </div>
-
-        <!-- Contact Sales Button -->
-        <div class="relative z-10 flex justify-center items-center mt-6" data-aos="fade-up" data-aos-delay="400">
-          <a href="contact-us.php"
-            class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
-            data-aos="zoom-in" data-aos-delay="500">
-            Contact Sales
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2" viewBox="0 0 20 20"
-              fill="currentColor">
-              <path fill-rule="evenodd"
-                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                clip-rule="evenodd" />
-            </svg>
-          </a>
-        </div>
-
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
 
 

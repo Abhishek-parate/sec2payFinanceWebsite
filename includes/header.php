@@ -2,7 +2,7 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between relative">
     <!-- Logo -->
     <div class="w-2/7">
-      <a href="index">
+      <a href="index.php">
         <img src="./assets/images/logo.png" alt="Sec2Pay Logo">
       </a>
     </div>
@@ -61,7 +61,7 @@
                           <p class="text-sm text-gray-600">Build Your Travel Business</p>
                         </div>
                       </a>
-                      <a href="utility-service.php" target="_blank" class="flex items-start p-3 rounded-lg hover:bg-gray-50">
+                      <a href="utility-payment-patform-services.php" target="_blank" class="flex items-start p-3 rounded-lg hover:bg-gray-50">
                         <div class="p-3 bg-primary-50 rounded-lg"><i class="fas fa-mobile-alt text-primary-600 text-xl"></i></div>
                         <div>
                           <h4 class="font-semibold text-gray-900">Utility services Platform</h4>
@@ -70,14 +70,14 @@
                       </a>
                     </div>
                     <div class="space-y-4">
-                      <a href="e-governance.php" target="_blank" class="flex items-start p-3 rounded-lg hover:bg-gray-50">
+                      <a href="egovernance-platform-service.php" target="_blank" class="flex items-start p-3 rounded-lg hover:bg-gray-50">
                         <div class="p-3 bg-primary-50 rounded-lg"><i class="fas fa-id-card text-primary-600 text-xl"></i></div>
                         <div>
                           <h4 class="font-semibold text-gray-900">E-Governance</h4>
                           <p class="text-sm text-gray-600">PAN Card Applications</p>
                         </div>
                       </a>
-                      <a href="insurance.php" target="_blank" class="flex items-start p-3 rounded-lg hover:bg-gray-50">
+                      <a href="insurance-platform-service.php" target="_blank" class="flex items-start p-3 rounded-lg hover:bg-gray-50">
                         <div class="p-3 bg-primary-50 rounded-lg"><i class="fas fa-shield-alt text-primary-600 text-xl"></i></div>
                         <div>
                           <h4 class="font-semibold text-gray-900">Insurance Services</h4>
@@ -141,7 +141,7 @@
                   <h3 class="text-xs font-semibold text-gray-400 uppercase mb-4">Wealth Management</h3>
                   <div class="grid grid-cols-1 md:grid-cols-2">
                     <div class="space-y-1">
-                      <a href="multi-service.php" target="_blank" class="flex items-start gap-4 p-3 rounded-lg hover:bg-gray-50">
+                      <a href="mutual-fund.php" target="_blank" class="flex items-start gap-4 p-3 rounded-lg hover:bg-gray-50">
                         <div class="p-3 bg-primary-50 rounded-lg"><i class="fas fa-piggy-bank text-primary-600 text-xl"></i></div>
                         <div>
                           <h4 class="font-semibold text-gray-900">Mutual Fund Platform</h4>
@@ -600,7 +600,7 @@
             </button>
             <div class="mobile-submenu-content hidden pl-2">
               <div class="space-y-3 py-2">
-                <a href="multi-service.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
+                <a href="mutual-fund.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
                     <i class="fas fa-piggy-bank text-primary-600"></i>
                   </div>

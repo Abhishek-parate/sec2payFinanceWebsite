@@ -916,6 +916,11 @@ body {
   margin-right: 0.25rem;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -1072,6 +1077,10 @@ body {
 
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .mt-6 {
@@ -1409,6 +1418,10 @@ body {
   width: 150%;
 }
 
+.w-\[30\%\] {
+  width: 30%;
+}
+
 .w-\[50\%\] {
   width: 50%;
 }
@@ -1444,14 +1457,6 @@ body {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[60\%\] {
-  width: 60%;
-}
-
-.w-\[30\%\] {
-  width: 30%;
 }
 
 .min-w-\[280px\] {
@@ -3457,12 +3462,12 @@ body {
   padding-top: 1rem;
 }
 
-.pt-6 {
-  padding-top: 1.5rem;
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
-.pt-8 {
-  padding-top: 2rem;
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .text-left {
@@ -3540,6 +3545,11 @@ body {
   line-height: 2.5rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -3563,16 +3573,6 @@ body {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .font-bold {
@@ -4688,6 +4688,10 @@ body {
     display: block;
   }
 
+  .sm\:inline {
+    display: inline;
+  }
+
   .sm\:h-5 {
     height: 1.25rem;
   }
@@ -5263,10 +5267,6 @@ body {
     margin-right: 5rem;
   }
 
-  .lg\:mb-0 {
-    margin-bottom: 0px;
-  }
-
   .lg\:mb-16 {
     margin-bottom: 4rem;
   }
@@ -5317,10 +5317,6 @@ body {
 
   .lg\:flex-row {
     flex-direction: row;
-  }
-
-  .lg\:justify-end {
-    justify-content: flex-end;
   }
 
   .lg\:gap-6 {
