@@ -230,7 +230,7 @@
                                 <div
                                     class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mb-4 sm:mb-0 sm:mr-4">
                                     <div
-                                        class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex items-center justify-center">
+                                        class="w-10 h-10  overflow-hidden flex items-center justify-center">
                                         <img src="assets/images/banking/icon1.png" alt="Whitelabel Partner Icon"
                                             class="w-8 h-8 object-contain">
                                     </div>
@@ -324,7 +324,7 @@
                                 <div
                                     class="w-16 h-16 bg-white rounded-lg flex items-center justify-center mb-4 sm:mb-0 sm:mr-4">
                                     <div
-                                        class="w-10 h-10 bg-gradient-to-r from-white to-secondary-300 overflow-hidden flex items-center justify-center">
+                                        class="w-10 h-10   flex items-center justify-center">
                                         <img src="assets/images/banking/icon2.png" alt="Whitelabel Reseller Icon"
                                             class="w-8 h-8 object-contain">
                                     </div>
@@ -409,7 +409,7 @@
                                 <div
                                     class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mb-4 sm:mb-0 sm:mr-4">
                                     <div
-                                        class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex items-center justify-center">
+                                        class="w-10 h-10  overflow-hidden flex items-center justify-center">
                                         <img src="assets/images/banking/icon1.png" alt="Enterprise Partner Icon"
                                             class="w-8 h-8 object-contain">
                                     </div>

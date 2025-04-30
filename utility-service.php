@@ -441,7 +441,7 @@
                             <div class="flex items-center mb-6">
                                 <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
                                     <div
-                                        class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex">
+                                        class="w-10 h-10  overflow-hidden flex">
                                         <img src="assets/images/utility-services-page/icon1.png"
                                             alt="Basic Partner Icon">
                                     </div>
@@ -614,7 +614,7 @@
                     <div class="flex items-center mb-6">
                         <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
                             <div
-                                class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex">
+                                class="w-10 h-10  overflow-hidden flex">
                                 <img src="assets/images/banking/icon1.png" alt="Enterprise Partner Icon">
                             </div>
                         </div>

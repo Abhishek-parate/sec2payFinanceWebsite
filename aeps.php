@@ -25,54 +25,72 @@
 
 
 <!-- Utility Services Section with Circular Gradients -->
-<section class="relative overflow-hidden bg-white py-10">
-    <!-- Top-left Circular Gradient (Pinkish) - Exactly 50% visible -->
-    <div class="absolute top-[5%] -left-[20%] w-[50%] h-[100%] rounded-full"
-    style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 50%);">
+<section class="relative overflow-hidden bg-white py-6 sm:py-8 md:py-10">
+    <!-- Top-left Circular Gradient (Bluish) - Hidden on mobile -->
+    <div class="absolute top-[5%] -left-[20%] w-[50%] h-[100%] rounded-full hidden md:block"
+        style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
+        data-aos="fade" data-aos-duration="1500" data-aos-once="true">
     </div>
     
-    <!-- Top-right Circular Gradient (Bluish) - Exactly 50% visible -->
-    <div class="absolute -top-[20%] -right-[20%] w-[50%] h-[100%] rounded-full"
-   
-        style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);">
+    <!-- Top-right Circular Gradient (Pinkish) - Hidden on mobile -->
+    <div class="absolute -top-[20%] -right-[20%] w-[50%] h-[100%] rounded-full hidden md:block"
+        style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
+        data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
     </div>
 
-    <div class="max-w-7xl mx-auto relative z-10">
+    <div class="max-w-7xl mx-auto relative z-10 px-4 sm:px-6 lg:px-8">
         <div class="rounded-xl overflow-hidden">
-            <div class="grid grid-cols-1 md:grid-cols-2">
-                <!-- Left Content - Services List -->
-                <div class="p-8 md:p-12 mt-12">
-                    <p class="font-semi-bolder text-primary-600 font-bold">AEPS</p>
-                    <h1 class="text-4xl font-bold text-secondary-500">Your local banking point for</h1>
-                    <h1 class="text-4xl font-bold text-secondary-500 mb-4">instant cash transactions</h1>
-                    <p class="text-gray-500 mb-8">Join Sec2Pay's AEPS network to provide secure Aadhaar-based banking services in your area. Help your community access their bank accounts easily through fingerprint verification.</p>
+            <div class="flex flex-col md:flex-row md:items-center">
+                <!-- Content - Always First -->
+                <div class="w-full md:w-1/2 p-4 sm:p-6 md:p-8 lg:p-12 order-1" 
+                     data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+                    <p class="font-bold text-primary-600 text-sm sm:text-base mb-2" 
+                       data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-once="true">AEPS</p>
+                    <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500" 
+                       data-aos="fade-up" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
+                       Your local banking point for
+                    </h1>
+                    <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500 mb-3 sm:mb-4" 
+                       data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">
+                       instant cash transactions
+                    </h1>
+                    <p class="text-gray-500 mb-6 sm:mb-8 text-sm sm:text-base" 
+                       data-aos="fade-up" data-aos-delay="400" data-aos-duration="800" data-aos-once="true">
+                       Join Sec2Pay's AEPS network to provide secure Aadhaar-based banking services in your area. Help your community access their bank accounts easily through fingerprint verification.
+                    </p>
 
                     <a href="#"
-                        class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
+                        class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
+                        data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                         Start Your Banking Journey
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                        </svg>
                     </a>
 
-                    <div
-                        class="mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm">
+                    <div class="mt-6 sm:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                        data-aos="fade-up" data-aos-delay="600" data-aos-duration="800" data-aos-once="true">
                         <div class="flex -space-x-2">
                             <img src="https://randomuser.me/api/portraits/men/1.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
+                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white" alt="Retail partner">
                             <img src="https://randomuser.me/api/portraits/women/2.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
+                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white" alt="Retail partner">
                             <img src="https://randomuser.me/api/portraits/men/3.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
+                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white" alt="Retail partner">
                             <img src="https://randomuser.me/api/portraits/women/4.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
+                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white" alt="Retail partner">
                         </div>
-                        <span class="text-gray-600 text-sm">1 Lac+ Retail partners across India</span>
+                        <span class="text-gray-600 text-xs sm:text-sm">1 Lac+ Retail partners across India</span>
                     </div>
                 </div>
                 
-                <!-- Right Content - Image -->
-                <div class="relative">
+                <!-- Image - Always Second -->
+                <div class="w-full md:w-1/2 order-2 mt-6 md:mt-0" 
+                     data-aos="fade-left" data-aos-duration="1200" data-aos-once="true">
                     <!-- Main Image -->
                     <div class="relative z-20">
-                        <img src="assets/images/aeps/banner.png" alt="Dashboard" class="w-full h-auto" />
+                        <img src="assets/images/aeps/banner.png" alt="AEPS Banking Services" 
+                             class="w-full h-auto" />
                         <div class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
                         </div>
                     </div>
@@ -83,7 +101,9 @@
 </section>
 
 <!-- Features & Functions Section -->
-<section class="bg-white px-4 md:px-24 mb-12">
+<section class="bg-white px-4 md:px-24 mb-12"   data-aos="fade-up" 
+                 data-aos-duration="800" 
+                 data-aos-delay="100">
     <div class="container mx-auto px-6 text-center">
         <h2 class="text-3xl font-bold text-primary-700 mb-12">AePS Core Features</h2>
         
@@ -134,7 +154,9 @@
 
 
 <!-- Life Insurance Solutions Section -->
-<section class="w-full py-6">
+<section class="w-full py-6"   data-aos="fade-up" 
+                 data-aos-duration="800" 
+                 data-aos-delay="200">
     <div class="max-w-6xl mx-auto px-4">
     <h2 class="text-3xl font-bold text-primary-700 text-center">Benefits for AEPS Agents</h2>
 
@@ -180,7 +202,9 @@
 </section>
 
 <!-- Health Insurance Solutions Section -->
-<section class="w-full py-6">
+<section class="w-full py-6" data-aos="fade-up" 
+                 data-aos-duration="800" 
+                 data-aos-delay="200">
     <div class="max-w-6xl mx-auto px-4">
         <div class="flex flex-col md:flex-row items-center gap-8">
             <!-- Left side with content -->
@@ -225,7 +249,9 @@
     </div>
 </section>
 <!-- Life Insurance Solutions Section -->
-<section class="w-full py-12">
+<section class="w-full py-12" data-aos="fade-up" 
+                 data-aos-duration="800" 
+                 data-aos-delay="300">
     <div class="max-w-6xl mx-auto px-4">
         <div class="flex flex-col md:flex-row items-center gap-8">
             <!-- Left side with illustration -->
