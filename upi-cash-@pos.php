@@ -89,7 +89,7 @@
                 <div class="p-6 text-left">
                     <h3 class="text-secondary-600 font-semibold text-xl mb-2">Cash Point</h3>
                     <p class="text-gray-600 text-sm">
-                    Turn your store into a neighborhood cash point. Let customers withdraw cash during regular purchases through UPI.
+                    Turn your store into a neighborhood </br>cash point. Let customers withdraw </br>cash during regular purchases </br>through UPI.
                     </p>
                 </div>
             </div>
@@ -99,7 +99,7 @@
                 <div class="p-6 text-left">
                     <h3 class="text-secondary-600 font-semibold text-xl mb-2">Simple Process </h3>
                     <p class="text-gray-600 text-sm">
-                    Quick cash withdrawals through existing POS terminals. Customers pay via UPI and receive cash instantly.
+                    Quick cash withdrawals through </br>existing POS terminals. Customers</br> pay via UPI and receive cash</br> instantly.
                     </p>
                 </div>
             </div>
@@ -109,7 +109,7 @@
                 <div class="p-6 text-left">
                     <h3 class="text-secondary-600 font-semibold text-xl mb-2">Additional Income</h3>
                     <p class="text-gray-600 text-sm">
-                    Earn commission on each withdrawal transaction while providing an essential service to your community.
+                    Earn commission on each</br> withdrawal transaction while </br>providing an essential service </br>to your community.
                     </p>
                 </div>
             </div>
@@ -123,39 +123,38 @@
         <div class="flex flex-col md:flex-row items-center gap-8">
             <!-- Left side with content -->
             <div class="w-full md:w-1/2">
-                <h2 class="text-3xl font-bold text-gray-900 mb-6">Simple & easy
-                Setup</h2>
+                <h2 class="text-3xl font-bold text-secondary-600 mb-6">Benefits for Merchants</h2>
                 
                 <ul class="space-y-5 mb-8">
                     <?php
                     $healthPlans = [
-                        'Basic smartphone or computer',
-                        'Bio-metric device',
-                        'Internet connection'
+                        'No additional hardware needed - use your existing POS device',
+                        'Build customer loyalty through added services',
+                        'Regular settlement cycles',
+                        'Simple digital documentation',
+                        'Real-time transaction monitoring',
+                        'Dedicated support team',
                     ];
                     
                     foreach ($healthPlans as $plan) :
                     ?>
                     <li class="flex items-start">
-                        <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                        <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
                                 <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
                                 <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                         </div>
-                        <span class="ml-3 text-gray-700"><?php echo $plan; ?></span>
+                        <span class="ml-3 text-primary-500"><?php echo $plan; ?></span>
                     </li>
                     <?php endforeach; ?>
                 </ul>
                 
-                <button class="bg-[#5271B6] hover:bg-[#4560A0] text-white font-medium py-2.5 px-6 rounded-md transition duration-300">
-                    Read More
-                </button>
             </div>
             
             <!-- Right side with illustration -->
             <div class="w-full md:w-1/2">
-            <img src="assets/images/upi-cash/simple-easy.png" alt="Life Insurance">
+            <img src="assets/images/upi-cash/simple.png" alt="Life Insurance">
                     </div>
                 </div>
             </div>
@@ -163,91 +162,116 @@
     </div>
 </section>
 
-<!-- Banking Services Section --> 
-<section class="  py-10 px-4 md:px-24 flex items-center">
-    <div class="container mx-auto px-4 md:px-6">
-    <h2 class="text-3xl font-bold text-primary-700 mb-8 text-center"> Benefits of CMS Platform</h2>
 
-        <!-- Banking Services Tabs -->
-        <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-            <!-- Tab Content -->
-            <div class="relative min-h-[350px] overflow-hidden md:pl-24">
-                <!-- AePS Tab Content -->
-                <div class="tab-pane block opacity-100 transition-opacity duration-300" id="aeps">
-                <div>
+<!-- How It Works Section -->
+<section class="bg-primary-700 py-16">
+  <div class="container mx-auto px-6">
+    <!-- Section Title -->
+    <h2 class="text-4xl font-bold text-white mb-16">How It Works:</h2>
+    
+    <!-- Steps Timeline -->
+    <div class="relative">
+      <!-- Timeline Line -->
+      <div class="hidden md:block absolute top-6 left-0 right-0 h-0.5 border-t-2 border-dashed border-gray-600 z-10"></div>
+      
+      <!-- Steps Container -->
+      <div class="flex flex-col md:flex-row md:justify-between items-start relative z-20">
+        <!-- Step 1 -->
+        <div class="flex flex-col items-start mb-8 md:mb-0 md:w-1/5 ">
+          <div class="bg-navy-800 border-2 border-red-500 rounded-full h-10 w-10 flex items-center justify-center text-red-500 font-bold mb-4 bg-primary-700">
+            1
+          </div>
+          <p class="text-white font-medium">Customer requests<br>cash withdrawal</p>
+        </div>
+        
+        <!-- Step 2 -->
+        <div class="flex flex-col items-start mb-8 md:mb-0 md:w-1/5">
+          <div class="bg-navy-800 border-2 border-red-500 rounded-full h-10 w-10 flex items-center justify-center text-red-500 font-bold mb-4">
+            2
+          </div>
+          <p class="text-white font-medium">Enter withdrawal amount<br>in POS</p>
+        </div>
+        
+        <!-- Step 3 -->
+        <div class="flex flex-col items-start mb-8 md:mb-0 md:w-1/5">
+          <div class="bg-navy-800 border-2 border-red-500 rounded-full h-10 w-10 flex items-center justify-center text-red-500 font-bold mb-4">
+            3
+          </div>
+          <p class="text-white font-medium">Customer scans QR<br>or enters UPI ID</p>
+        </div>
+        
+        <!-- Step 4 -->
+        <div class="flex flex-col items-start mb-8 md:mb-0 md:w-1/5">
+          <div class="bg-navy-800 border-2 border-red-500 rounded-full h-10 w-10 flex items-center justify-center text-red-500 font-bold mb-4">
+            4
+          </div>
+          <p class="text-white font-medium">Verify transaction<br>completion</p>
+        </div>
+        
+        <!-- Step 5 -->
+        <div class="flex flex-col items-start md:w-1/5 bg-primary-700">
+          <div class="bg-navy-800 border-2 border-red-500 rounded-full h-10 w-10 flex items-center justify-center text-red-500 font-bold mb-4 ">
+            5
+          </div>
+          <p class="text-white font-medium">Hand over cash<br>to customer</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-                        </div>
-                    <div class="flex flex-col md:flex-row items-center gap-8 text-primary-600">
-                        
-                       
-                        <div class="w-full md:w-1/2 ">
-                            <div class="p-10 bg-secondary-100 rounded-2xl w-4/5">
 
-                            <h3 class="text-2xl md:text-3xl font-semibold mb-8">For Merchants</h3>
-                            <ul class="space-y-5 mb-8">
-                                <?php
-                                $Merchants = [
-                                    'Working capital loans',
-                                    'Stock purchase funding',
-                                    'Business expansion loans',
-                                    'All type of business loans',
-                                ];
-                                
-                                foreach ($Merchants as $Merchant) :
-                                ?>
-                                <li class="flex items-start">
-                                    <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
-                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                    </div>
-                                    <span class="ml-3 "><?php echo $Merchant; ?></span>
-                                </li>
-                                <?php endforeach; ?>
-                            </ul>
-                            </div>
-                        </div>
-                        <div class="w-full md:w-1/2">
-                            <h3 class="text-2xl md:text-3xl font-semibold mb-8"> For Consumers</h3>
-                            <ul class="space-y-5 mb-8">
-                                <?php
-                                $services = [
-                                    'Working capital loans',
-                                    'Stock purchase funding',
-                                    'Business expansion loans',
-                                    'All type of business loans',
-                                ];
-                                
-                                foreach ($services as $service) :
-                                ?>
-                                <li class="flex items-start">
-                                    <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
-                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                    </div>
-                                    <span class="ml-3 "><?php echo $service; ?></span>
-                                </li>
-                                <?php endforeach; ?>
-                            </ul>
-                         
-                        </div>
+<!-- Enhanced Hero Section with Bidirectional AOS Animations -->
+<section class="relative overflow-hidden py-6 mb-6 bg-white">
+
+    <!-- Main Content -->
+    <div class="container mx-auto px-4 sm:px-6 relative z-20">
+
+        <!-- Trusted By Section with Infinite Scroll -->
+        <div class="mt-12 md:mt-16 text-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400"
+            data-aos-mirror="true">
+            <p class="text-gray-700 font-bold text-lg mb-6 md:mb-8">Backed by leading banks and financial institutions</p>
+
+            <!-- Infinite Scroll Container -->
+            <div class="relative overflow-hidden w-full ">
+                <div class="logos-container flex whitespace-nowrap">
+                    <!-- First set of logos - will appear as one continuous stream -->
+                    <div class="logos-slide animate-scroll inline-flex items-center">
+                        <img src="./assets/images/home/hdfc.png" alt="HDFC Bank" class="h-8 md:h-10 w-auto mx-8" />
+                        <img src="./assets/images/home/idfc.png" alt="IDFC Bank" class="h-8 md:h-10 w-auto mx-8" />
+                        <img src="./assets/images/home/bom.png" alt="Bank of Maharashtra"
+                            class="h-8 md:h-10 w-auto mx-8" />
+                        <img src="./assets/images/home/sbi.png" alt="SBI" class="h-8 md:h-10 w-auto mx-8" />
+                        <img src="./assets/images/home/ib.png" alt="Indian Bank" class="h-8 md:h-10 w-auto mx-8" />
+                        <img src="./assets/images/home/icici.png" alt="ICICI Bank" class="h-8 md:h-10 w-auto mx-8" />
+                        <img src="./assets/images/home/bob.png" alt="Bank of Baroda" class="h-8 md:h-10 w-auto mx-8" />
+                        <img src="./assets/images/home/sc.png" alt="Standard Chartered"
+                            class="h-8 md:h-10 w-auto mx-8" />
+
+                        <!-- Duplicated for seamless loop -->
+                        <img src="./assets/images/home/hdfc.png" alt="HDFC Bank" class="h-8 md:h-10 w-auto mx-8" />
+                        <img src="./assets/images/home/idfc.png" alt="IDFC Bank" class="h-8 md:h-10 w-auto mx-8" />
+                        <img src="./assets/images/home/bom.png" alt="Bank of Maharashtra"
+                            class="h-8 md:h-10 w-auto mx-8" />
+                        <img src="./assets/images/home/sbi.png" alt="SBI" class="h-8 md:h-10 w-auto mx-8" />
+                        <img src="./assets/images/home/ib.png" alt="Indian Bank" class="h-8 md:h-10 w-auto mx-8" />
+                        <img src="./assets/images/home/icici.png" alt="ICICI Bank" class="h-8 md:h-10 w-auto mx-8" />
+                        <img src="./assets/images/home/bob.png" alt="Bank of Baroda" class="h-8 md:h-10 w-auto mx-8" />
+                        <img src="./assets/images/home/sc.png" alt="Standard Chartered"
+                            class="h-8 md:h-10 w-auto mx-8" />
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
-
 
 <!-- Our Other Services Section -->
 <section class="w-full bg-primary-100 py-16 px-4">
     <div class="max-w-6xl mx-auto">
         <div class="flex flex-col md:flex-row items-start">
             <!-- Section Title -->
-            <div class="text-white mb-10 md:mb-0 md:w-1/4 md:mr-8 md:pt-2">
+            <div class="text-primary-500 mb-10 md:mb-0 md:w-1/4 md:mr-8 md:pt-2">
                 <h2 class="text-3xl font-bold leading-tight uppercase">
                     OUR OTHER SERVICES
                 </h2>
@@ -257,50 +281,50 @@
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-8 md:w-3/4 w-full">
                 <!-- AEPS -->
                 <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-primary-600/70 flex items-center justify-center mb-4">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
                         <img src="assets/images/pan-nsdl/icon1.svg" alt="AEPS" class="w-16 h-16">
                     </div>
-                    <span class="text-white text-center font-medium">AEPS</span>
+                    <span class="text-primary-500 text-center font-medium">AEPS</span>
                 </div>
                 
                 <!-- DMT -->
                 <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-primary-600/70 flex items-center justify-center mb-4">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
                         <img src="assets/images/pan-nsdl/icon2.svg" alt="DMT" class="w-16 h-16">
                     </div>
-                    <span class="text-white text-center font-medium">DMT</span>
+                    <span class="text-primary-500 text-center font-medium">DMT</span>
                 </div>
                 
                 <!-- Micro ATM -->
                 <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-primary-600/70 flex items-center justify-center mb-4">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
                         <img src="assets/images/pan-nsdl/icon3.svg" alt="Micro ATM" class="w-16 h-16">
                     </div>
-                    <span class="text-white text-center font-medium">Micro ATM</span>
+                    <span class="text-primary-500 text-center font-medium">Micro ATM</span>
                 </div>
                 
                 <!-- mPOS -->
                 <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-primary-600/70 flex items-center justify-center mb-4">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
                         <img src="assets/images/pan-nsdl/icon4.svg" alt="mPOS" class="w-16 h-16">
                     </div>
-                    <span class="text-white text-center font-medium">mPOS</span>
+                    <span class="text-primary-500 text-center font-medium">mPOS</span>
                 </div>
                 
                 <!-- CMS -->
                 <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-primary-600/70 flex items-center justify-center mb-4">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
                         <img src="assets/images/pan-nsdl/icon5.svg" alt="CMS" class="w-16 h-16">
                     </div>
-                    <span class="text-white text-center font-medium">CMS</span>
+                    <span class="text-primary-500 text-center font-medium">CMS</span>
                 </div>
                 
                 <!-- UPI QR Code -->
                 <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-primary-600/70 flex items-center justify-center mb-4">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
                         <img src="assets/images/pan-nsdl/icon6.svg" alt="UPI QR Code" class="w-16 h-16">
                     </div>
-                    <span class="text-white text-center font-medium">UPI QR Code</span>
+                    <span class="text-primary-500 text-center font-medium">UPI QR Code</span>
                 </div>
             </div>
         </div>

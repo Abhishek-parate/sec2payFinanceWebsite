@@ -161,12 +161,12 @@
                 <ul class="space-y-5 mb-12">
                     <?php
                     $dmts = [
-                        'Daily earnings through commission',
-                        'Low setup investment',
-                        'Simple smartphone/computer operation',
-                        'Transaction completion under 1 minute',
-                        'Build customer trust as local banker',
-                        'Regular cash flow management',
+                        'Start with minimal setup costs',
+                        'Earn commission on each successful application',
+                        'Build trust in your community as an authorized agent',
+                        'Access detailed transaction reports',
+                        'Get real-time application status updates',
+                        'Dedicated support for query resolution',
                     ];
                     
                     foreach ($dmts as $dmt) :

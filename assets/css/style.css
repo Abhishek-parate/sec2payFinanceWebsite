@@ -705,6 +705,10 @@ body {
   top: -3rem;
 }
 
+.-top-\[20\%\] {
+  top: -20%;
+}
+
 .-top-\[4\%\] {
   top: -4%;
 }
@@ -811,6 +815,10 @@ body {
 
 .top-4 {
   top: 1rem;
+}
+
+.top-6 {
+  top: 1.5rem;
 }
 
 .top-6 {
@@ -1233,6 +1241,10 @@ body {
   display: none;
 }
 
+.h-0\.5 {
+  height: 0.125rem;
+}
+
 .h-1 {
   height: 0.25rem;
 }
@@ -1594,6 +1606,10 @@ body {
   border-collapse: separate;
 }
 
+.origin-left {
+  transform-origin: left;
+}
+
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -1906,6 +1922,10 @@ body {
 
 .list-outside {
   list-style-position: outside;
+}
+
+.list-disc {
+  list-style-type: disc;
 }
 
 .appearance-none {
@@ -2832,6 +2852,10 @@ body {
   border-top-width: 1px;
 }
 
+.border-t-2 {
+  border-top-width: 2px;
+}
+
 .border-solid {
   border-style: solid;
 }
@@ -2884,14 +2908,19 @@ body {
   border-color: rgb(107 114 128 / 0.3);
 }
 
-.border-orange-500 {
+.border-gray-600 {
   --tw-border-opacity: 1;
-  border-color: rgb(249 115 22 / var(--tw-border-opacity, 1));
+  border-color: rgb(75 85 99 / var(--tw-border-opacity, 1));
 }
 
 .border-primary-500 {
   --tw-border-opacity: 1;
   border-color: rgb(51 113 177 / var(--tw-border-opacity, 1));
+}
+
+.border-red-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(239 68 68 / var(--tw-border-opacity, 1));
 }
 
 .border-secondary-500 {
@@ -2985,6 +3014,10 @@ body {
 .bg-primary-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(51 113 177 / var(--tw-bg-opacity, 1));
+}
+
+.bg-primary-500\/70 {
+  background-color: rgb(51 113 177 / 0.7);
 }
 
 .bg-primary-600 {
@@ -3508,6 +3541,10 @@ body {
 
 .pl-4 {
   padding-left: 1rem;
+}
+
+.pl-5 {
+  padding-left: 1.25rem;
 }
 
 .pr-0 {
@@ -5221,6 +5258,10 @@ body {
     width: 25%;
   }
 
+  .md\:w-1\/5 {
+    width: 20%;
+  }
+
   .md\:w-2\/3 {
     width: 66.666667%;
   }
@@ -5307,6 +5348,10 @@ body {
 
   .md\:gap-0 {
     gap: 0px;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
   }
 
   .md\:gap-10 {

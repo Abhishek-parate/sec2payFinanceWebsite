@@ -91,30 +91,39 @@
                     <div class="text-red-500">
                     <img src="assets/images/ondc-ecommerce/icon1.svg" alt="Pan Image" class="mb-4">
                     </div>
-                    <h2 class="text-xl font-semibold text-red-500">Quick Setup</h2>
+                    <h2 class="text-xl font-semibold text-red-500">Quick Policy Issuance</h2>
                 </div>
-                <p>Seamlessly onboard sellers </br>and enable their growth.</p>
-            </div>
+                <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>Digital policy generation</li>
+                        <li>Real-time quotes</li>
+                        <li>Instant documentation</li>
+                    </ul>            </div>
             <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
                 <!-- Icon and Title - Vertical Alignment -->
                 <div class="text-left mb-2">
                     <div class="text-red-500">
                     <img src="assets/images/ondc-ecommerce/icon2.svg" alt="Pan Image" class="mb-4">
                     </div>
-                    <h2 class="text-xl font-semibold text-red-500">Simplified Management</h2>
+                    <h2 class="text-xl font-semibold text-red-500">Multiple Insurance Partners</h2>
                 </div>
-                <p>Access a centralized dashboard to</br>manage seller networks.</p>
-            </div>
+                <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>Wide range of insurers</li>
+                        <li>Competitive premiums</li>
+                        <li>Varied coverage options</li>
+                    </ul>            </div>
             <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
                 <!-- Icon and Title - Vertical Alignment -->
                 <div class="text-left mb-2">
                     <div class="text-red-500">
                     <img src="assets/images/ondc-ecommerce/icon3.svg" alt="Pan Image" class="mb-4">
                     </div>
-                    <h2 class="text-xl font-semibold text-red-500">Localized Tools</h2>
+                    <h2 class="text-xl font-semibold text-red-500">Simple Claims Process</h2>
                 </div>
-                <p>Multi-language support</br>tailored for Tier 2 and 3 cities.</p>
-            </div>
+                <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>Digital claim filing</li>
+                        <li>Status tracking</li>
+                        <li>Quick settlements</li>
+                    </ul>            </div>
             
         </div>
     </div>

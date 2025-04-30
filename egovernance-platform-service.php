@@ -77,6 +77,7 @@
 <section class="relative py-16">
     <!-- Top background - light blue -->
     <div class="absolute top-0 left-0 right-0 h-[60%] bg-primary-500"></div>
+    <div class="absolute top-0 left-0 right-0 h-[60%] bg-primary-500"></div>
     <!-- Bottom background - white -->
     <div class="absolute bottom-0 left-0 right-0 h-[40%] bg-white"></div>
     

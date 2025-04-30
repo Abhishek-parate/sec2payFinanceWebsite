@@ -32,16 +32,13 @@
             <div class="grid grid-cols-1 md:grid-cols-2 ">
                 <!-- Left Content - Services List -->
                 <div class="p-8 md:p-12">
-                    <p class="font-semi-bolder text-primary-600 font-bold">  Cash Management System (CMS)</p>
-                    <h1 class="text-4xl font-bold text-secondary-600 ">Transform Your
-                   </h1>
-                    <h1 class="text-4xl font-bold text-secondary-600 mb-4"> Business Banking</h1>
-                    <p class="text-gray-500 mb-8 w-96">Manage corporate transactions and collections seamlessly with our advanced Cash Management System platform.</p>
-
+                    <p class="font-semi-bolder text-primary-600 font-bold">Fastage Services</p>
+                    <h1 class="text-4xl font-bold text-secondary-600 ">Make Every Drive Count:</h1>
+                    <h1 class="text-4xl font-bold text-secondary-600 mb-4">Your Simple FASTag Solution</h1>
+                    <p class="text-gray-500 mb-8 w-96">Offer instant FASTag recharge services at your </br>store and expand your digital payment offerings</p>
                     <a href="#"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
-                        Book A Demo
-
+                        Get started now
                     </a>
 
                     <div
@@ -80,190 +77,163 @@
 
 
 <!-- E-Governance Platform Services Section -->
-<section class="bg-secondary-100 py-10 px-4 md:px-24">
+<section class="bg-secondary-100 py-12 px-4 md:px-24">
     <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-primary-700 my-8 text-center">Sec2Pay CMS Platform</h2>
+        <h2 class="text-3xl font-bold text-primary-700 my-8 text-center">Why Choose Sec2Pay <span class="text-secondary-500">FASTag Platform</span></h2>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <!-- Feature: Data-Driven Lending -->
             <div>
                 <div class="text-left mb-2">
-                    <h2 class="text-xl font-semibold text-secondary-600">Smart Collections</h2>
+                    <h2 class="text-xl font-semibold text-secondary-600">Instant Recharge</h2>
                 </div>
                 <p class="text-grey-500 pt-2">
-                Handle bulk collections from multiple sources through a single dashboard. Perfect for businesses managing high-volume daily transactions.
-                </p>
+                Instant Recharge Quick top-up </br>options for all bank FASTags Real-time</br> balance updates Direct bank</br> integration</p>
             </div>
 
             <!-- Feature: Pre-Integrated APIs -->
             <div>
                 <div class="text-left mb-2">
-                    <h2 class="text-xl font-semibold text-secondary-600">Digital Payments</h2>
+                    <h2 class="text-xl font-semibold text-secondary-600">Transaction History</h2>
                 </div>
-                <p class="text-grey-500 pt-2">
-                Process vendor payments, salary disbursements, and utility bills digitally. Reduce manual work and paper-based processes.                </p>
+                <p class="text-grey-500 pt-2">Complete Transaction History</br> Access detailed recharge records</br> Track customer transactions </br>Generate custom reports</p>
             </div>
 
             <!-- Feature: End-to-End Management -->
             <div>
                 <div class="text-left mb-2">
-                    <h2 class="text-xl font-semibold text-secondary-600">Real-time Tracking</h2>
+                    <h2 class="text-xl font-semibold text-secondary-600">Multi-Bank Support</h2>
                 </div>
-                <p class="text-grey-500 pt-2">
-                Monitor all transactions instantly with detailed reports and analytics. Stay updated on your business cash flow.                </p>
-            </div>
-
-            <!-- Feature: Regulatory Compliance -->
-            <div>
-                <div class="text-left mb-2">
-                    <h2 class="text-xl font-semibold text-secondary-600">Bank Integration</h2>
-                </div>
-                <p class="text-grey-500 pt-2">
-                Connect directly with leading banks for secure fund transfers and reconciliation. Maintain records automatically.                </p>
+                <p class="text-grey-500 pt-2">Multi-Bank Support Recharge any</br> bank's FASTag Single portal for all</br> transactions Unified payment </br>system</p>
             </div>
         </div>
     </div>
 </section>
 
 
-<!-- Banking Services Section --> 
-<section class="  py-10 px-4 md:px-24 flex items-center">
-    <div class="container mx-auto px-4 md:px-6">
-    <h2 class="text-3xl font-bold text-primary-700 mb-8 text-center"> Core Services</h2>
 
-        <!-- Banking Services Tabs -->
-        <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-            <!-- Tab Content -->
-            <div class="relative min-h-[350px] overflow-hidden md:pl-24">
-                <!-- AePS Tab Content -->
-                <div class="tab-pane block opacity-100 transition-opacity duration-300" id="aeps">
-                <div>
-
-                        </div>
-                    <div class="flex flex-col md:flex-row items-center gap-8 text-primary-600">
-                        
-                       
-                        <div class="w-full md:w-1/2 ">
-                            <div class="p-10 bg-secondary-100 rounded-2xl w-4/5">
-
-                            <h3 class="text-2xl md:text-3xl font-semibold mb-8">For Merchants</h3>
-                            <ul class="space-y-5 mb-8">
-                                <?php
-                                $Merchants = [
-                                    'Working capital loans',
-                                    'Stock purchase funding',
-                                    'Business expansion loans',
-                                    'All type of business loans',
-                                ];
-                                
-                                foreach ($Merchants as $Merchant) :
-                                ?>
-                                <li class="flex items-start">
-                                    <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
-                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                    </div>
-                                    <span class="ml-3 "><?php echo $Merchant; ?></span>
-                                </li>
-                                <?php endforeach; ?>
-                            </ul>
-                            </div>
-                        </div>
-                        <div class="w-full md:w-1/2">
-                            <h3 class="text-2xl md:text-3xl font-semibold mb-8"> For Consumer</h3>
-                            <ul class="space-y-5 mb-8">
-                                <?php
-                                $services = [
-                                    'Working capital loans',
-                                    'Stock purchase funding',
-                                    'Business expansion loans',
-                                    'All type of business loans',
-                                ];
-                                
-                                foreach ($services as $service) :
-                                ?>
-                                <li class="flex items-start">
-                                    <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
-                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                    </div>
-                                    <span class="ml-3 "><?php echo $service; ?></span>
-                                </li>
-                                <?php endforeach; ?>
-                            </ul>
-                         
-                        </div>
-                    </div>
-                </div>
-
+<!-- Life Insurance Solutions Section -->
+<section class="w-full py-6 mt-6">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex flex-col md:flex-row items-center gap-8">
+            <!-- Left side with illustration -->
+            <div class="w-full md:w-1/2">
+            <img src="assets/images/credit-card-bill-payment/business.png" alt="Life Insurance">
+            </div>
+            
+            <!-- Right side with content -->
+            <div class="w-full md:w-1/2">
+                <h2 class="text-3xl font-bold text-secondary-600 mb-6 mt-6">Benefits for FASTag Agents</h2>
                 
-                <div class="relative z-10 flex justify-center items-center mt-3 " data-aos="fade-up" data-aos-delay="400">
-    <a href="#"
-        class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5  sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
-        data-aos="zoom-in" data-aos-delay="500">
-        Explore Credit Solutions
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2" viewBox="0 0 20 20"
-            fill="currentColor">
-            <path fill-rule="evenodd"
-                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                clip-rule="evenodd" />
-        </svg>
-    </a>
-</div>
+                <ul class="space-y-5 mb-8">
+                    <?php
+                    $lifePlans = [
+                        'Start with minimal setup costs',
+                        'Only need a smartphone or computer',
+                        'Earn commission on every recharge',
+                        'Build regular customer base',
+                        'Quick transaction completion',
+                        'Simple verification process',
+                    ];
+                    
+                    foreach ($lifePlans as $plan) :
+                    ?>
+                    <li class="flex items-start">
+                        <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                        <svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_1700_1996)">
+                            <path d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z" fill="#FEEEEC" stroke="#F15744" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705" stroke="#F15744" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_1700_1996">
+                            <rect width="19" height="19" fill="white" transform="translate(0 3)"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
 
+                        </div>
+                        <span class="ml-3 text-primary-500"><?php echo $plan; ?></span>
+                    </li>
+                    <?php endforeach; ?>
+                </ul>
+                
             </div>
         </div>
     </div>
 </section>
 
 
-
-<!-- Service Coverage Section -->
-<section class="w-full py-16 bg-secondary-500">
-  <div class="max-w-6xl mx-auto px-4">
-    <!-- Section Title -->
-    <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-12">Service Coverage</h2>
-    
-    <!-- Stats Grid -->
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-      <!-- Stat 1 -->
-      <div class="flex flex-col items-center">
-        <p class="text-4xl md:text-5xl font-bold text-white mb-2">700+</p>
-        <p class="text-white text-sm md:text-base">Districts across India</p>
-      </div>
-      
-      <!-- Stat 2 -->
-      <div class="flex flex-col items-center">
-        <p class="text-4xl md:text-5xl font-bold text-white mb-2">5 Lakh+</p>
-        <p class="text-white text-sm md:text-base">Retail Points</p>
-      </div>
-      
-      <!-- Stat 3 -->
-      <div class="flex flex-col items-center">
-        <p class="text-4xl md:text-5xl font-bold text-white mb-2">40 Cr+</p>
-        <p class="text-white text-sm md:text-base">Daily Transactions</p>
-      </div>
-      
-      <!-- Stat 4 -->
-      <div class="flex flex-col items-center">
-        <p class="text-4xl md:text-5xl font-bold text-white mb-2">15 Lakh+</p>
-        <p class="text-white text-sm md:text-base">Monthly Customers</p>
-      </div>
+<!-- Our Other Services Section -->
+<section class="w-full bg-secondary-100 py-16 px-4">
+    <div class="max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row items-start">
+            <!-- Section Title -->
+            <div class="text-secondary-500 mb-10 md:mb-0 md:w-1/4 md:mr-8 md:pt-2">
+                <h2 class="text-3xl font-bold leading-tight uppercase">
+                    OUR OTHER SERVICES
+                </h2>
+            </div>
+            
+            <!-- Services Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-8 md:w-3/4 w-full">
+                <!-- AEPS -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-uti/icon1.svg" alt="AEPS" class="w-16 h-16">
+                    </div>
+                    <span class="text-secondary-500 text-center font-medium">AEPS</span>
+                </div>
+                
+                <!-- DMT -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-uti/icon2.svg" alt="DMT" class="w-16 h-16">
+                    </div>
+                    <span class="text-secondary-500 text-center font-medium">DMT</span>
+                </div>
+                
+                <!-- Micro ATM -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-uti/icon3.svg" alt="Micro ATM" class="w-16 h-16">
+                    </div>
+                    <span class="text-secondary-500 text-center font-medium">Micro ATM</span>
+                </div>
+                
+                <!-- mPOS -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-uti/icon4.svg" alt="mPOS" class="w-16 h-16">
+                    </div>
+                    <span class="text-secondary-500 text-center font-medium">mPOS</span>
+                </div>
+                
+                <!-- CMS -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-uti/icon5.svg" alt="CMS" class="w-16 h-16">
+                    </div>
+                    <span class="text-secondary-500 text-center font-medium">CMS</span>
+                </div>
+                
+                <!-- UPI QR Code -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-uti/icon6.svg" alt="UPI QR Code" class="w-16 h-16">
+                    </div>
+                    <span class="text-secondary-500 text-center font-medium">UPI QR Code</span>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
-
 
 
 <section class="py-16 max-w-3xl mx-auto px-4">
     <!-- Section Title -->
     <div class="text-center mb-12">
         <h2 class="text-4xl font-bold text-primary-800 mb-2">FAQ</h2>
-        <p class="text-gray-600">Using natural, conversational language appropriate for target audience</p>
     </div>
 
     <!-- FAQ Accordion -->
@@ -271,17 +241,17 @@
         <?php
         $faqItems = [
             [
-                'question' => 'What is a Cash Management System?',
-                'answer' => 'A: CMS is a digital platform that helps businesses manage their financial operations, including collections, payments, and reconciliation, through a single interface.',
+                'question' => 'What is FASTag recharge service?',
+                'answer' => 'FASTag recharge service lets you add money to any vehicles FASTag balance. As an agent, you can help customers recharge their FASTags instantly, making toll payments easier.',
                 'isOpen' => true
             ],
             [
-                'question' => 'How secure is the CMS platform?',
+                'question' => 'How long does it take to process a FASTag recharge? ',
                 'answer' => 'You can offer AEPS services once you\'ve completed the registration process and have the necessary equipment set up. This typically includes having a biometric device and completing the verification process.',
                 'isOpen' => false
             ],
             [
-                'question' => 'Can I integrate CMS with my existing business software?',
+                'question' => 'Which banks FASTags can I recharge? ',
                 'answer' => 'To start offering AEPS services, you\'ll need a smartphone or computer, a biometric device for fingerprint authentication, a reliable internet connection, and valid documentation for registration.',
                 'isOpen' => false
             ]
@@ -320,7 +290,7 @@
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-primary-600 to-primary-500 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+        <div class="bg-gradient-to-br from-primary-700 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
             data-aos="fade-up" data-aos-duration="1000">
 
             <!-- Stars Background SVG -->

@@ -89,7 +89,6 @@
 
       <div class="hidden md:flex items-center justify-end space-x-6 text-sm">
        
-        <div class="text-white/50">|</div>
         <div class="flex items-center">
           <span class="whitespace-nowrap">Utility Bill Payments</span>
         </div>
@@ -104,6 +103,10 @@
         <div class="text-white/50">|</div>
         <div class="flex items-center">
           <span class="whitespace-nowrap">Mobile/DTH Recharge</span>
+        </div>
+        <div class="text-white/50">|</div>
+        <div class="flex items-center">
+          <span class="whitespace-nowrap">Property Tax</span>
         </div>
       </div>
 
@@ -124,34 +127,63 @@
 </section>
 
 
-<!-- Key Features Section -->
-<section class="py-12 mb-12 mt-6">
-    <div class="max-w-6xl mx-auto px-4">
-        <h2 class="text-3xl md:text-4xl font-bold text-primary-800 mb-8">Key Features</h2>
+<section class="flex flex-col md:flex-row">
+    <!-- Left Side - Navy Blue Panel -->
+    <div class="bg-primary-800 text-white p-8 flex flex-col justify-center md:w-1/4">
+        <h2 class="text-4xl font-bold mb-2">Key</h2>
+        <h2 class="text-4xl font-bold">Features</h2>
         
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <!-- Feature 1 - Secure Payments -->
-            <div class="rounded-lg border border-secondary-500 bg-secondary-100 p-6">
-  <h3 class="text-xl font-semibold text-gray-800 mb-3">Secure Payments</h3>
-  <p class="text-gray-700">
-    Enable customers to pay directly from their Aadhar-linked bank accounts using fingerprint verification. Our platform ensures safe, reliable transactions.
-  </p>
-</div>
-            
-            <!-- Feature 2 - Simple Setup -->
-            <div class="rounded-lg border border-secondary-500 p-6">
-                <h3 class="text-xl font-semibold text-gray-800 mb-3">Simple Setup</h3>
-                <p class="text-gray-700">
-                    Start offering Aadhar Pay services with just a biometric device and smartphone. Perfect for small store owners looking to expand their services.
-                </p>
+        <div class="mt-6 text-3xl font-bold origin-left hidden md:block">
+            <img src="assets/images/bbps/bharat.png" alt="Dashboard" class="w-24 h-auto"/> <!-- Added w-24 class to make image smaller -->
+        </div>
+    </div>
+    
+    <!-- Right Side - Coral Panel with Grid -->
+    <div class="bg-secondary-500 p-8 md:w-3/4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Bill Payments -->
+            <div class="mb-6">
+                <div class="flex items-center mb-4">
+                    <img src="assets/images/bbps/icon1.svg" alt="Dashboard"/>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Bill Payments</h3>
+                <p class="text-white">Let customers pay electricity, water,</br> gas, and other utility bills instantly.</br> Our BBPS platform ensures secure </br>transactions with real-time </br>confirmations.</p>
             </div>
             
-            <!-- Feature 3 - Quick Settlements -->
-            <div class="rounded-lg border border-secondary-500 p-6">
-                <h3 class="text-xl font-semibold text-gray-800 mb-3">Quick Settlements</h3>
-                <p class="text-gray-700">
-                    Receive payments directly in your account with our fast settlement system. Track all transactions through our user-friendly dashboard.
-                </p>
+            <!-- Education Fees -->
+            <div class="mb-6">
+                <div class="flex items-center mb-4">
+                    <img src="assets/images/bbps/icon2.svg" alt="Dashboard"/>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Education Fees</h3>
+                <p class="text-white">Enable parents to pay school and </br>college fees directly. Simplified</br> interface makes education fee </br>payments hassle-free.</p>
+            </div>
+            
+            <!-- Tax Payments -->
+            <div class="mb-6">
+                <div class="flex items-center mb-4">
+                    <img src="assets/images/bbps/icon3.svg" alt="Dashboard"/>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Tax Payments</h3>
+                <p class="text-white">Provide property tax and other</br> municipal payment services. Quick </br>processing with digital receipts.</p>
+            </div>
+            
+            <!-- Insurance Premiums -->
+            <div class="mb-6">
+                <div class="flex items-center mb-4">
+                    <img src="assets/images/bbps/icon4.svg" alt="Dashboard"/>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Insurance Premiums</h3>
+                <p class="text-white">Help customers manage insurance</br> premium payments. Support for life, </br>health, and motor insurance.</p>
+            </div>
+            
+            <!-- Mobile/DTH Services -->
+            <div class="mb-6">
+                <div class="flex items-center mb-4">
+                    <img src="assets/images/bbps/icon5.svg" alt="Dashboard"/>
+                </div>
+                <h3 class="text-xl font-bold text-white mb-2">Mobile/DTH Services</h3>
+                <p class="text-white">Easy recharge options for prepaid</br> mobile and DTH services. Multiple </br>operator support across India.</p>
             </div>
         </div>
     </div>
@@ -159,39 +191,158 @@
 
 
 
-<!-- Service Coverage Section -->
-<section class="w-full py-16 bg-secondary-500">
-  <div class="max-w-6xl mx-auto px-4">
-    <!-- Section Title -->
-    <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-12">Service Coverage</h2>
-    
-    <!-- Stats Grid -->
-    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-      <!-- Stat 1 -->
-      <div class="flex flex-col items-center">
-        <p class="text-4xl md:text-5xl font-bold text-white mb-2">700+</p>
-        <p class="text-white text-sm md:text-base">Districts across India</p>
-      </div>
-      
-      <!-- Stat 2 -->
-      <div class="flex flex-col items-center">
-        <p class="text-4xl md:text-5xl font-bold text-white mb-2">5 Lakh+</p>
-        <p class="text-white text-sm md:text-base">Retail Points</p>
-      </div>
-      
-      <!-- Stat 3 -->
-      <div class="flex flex-col items-center">
-        <p class="text-4xl md:text-5xl font-bold text-white mb-2">40 Cr+</p>
-        <p class="text-white text-sm md:text-base">Daily Transactions</p>
-      </div>
-      
-      <!-- Stat 4 -->
-      <div class="flex flex-col items-center">
-        <p class="text-4xl md:text-5xl font-bold text-white mb-2">15 Lakh+</p>
-        <p class="text-white text-sm md:text-base">Monthly Customers</p>
-      </div>
+
+  <!-- Services Section with White Background -->
+  <section class="bg-white py-16 px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row">
+                <!-- Left Column - Services List -->
+                <div class="w-full md:w-1/2 pr-0 md:pr-8 mb-4 mt-4 md:mb-0">
+                    <h2 class="text-4xl font-bold text-primary-500 mb-8">Benefits for BBPS Agents:</h2>
+                    
+                    <ul class="space-y-4">
+                        <!-- Service Item 1 -->
+                        <li class="flex items-start">
+                            <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
+                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                            </div>
+                            <span class="ml-3 text-primary-500">Low investment, high returns</span>
+                        </li>
+                        
+                        <!-- Service Item 2 -->
+                        <li class="flex items-start">
+                        <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
+                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                            </div>
+                            <span class="ml-3 text-primary-500">Simple smartphone/computer setup</span>
+                        </li>
+                        
+                        <!-- Service Item 3 -->
+                        <li class="flex items-start">
+                        <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
+                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                            </div>
+                            <span class="ml-3 text-primary-500">Attractive commission per transaction</span>
+                        </li>
+                        
+                        <!-- Service Item 4 -->
+                        <li class="flex items-start">
+                        <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
+                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                            </div>
+                            <span class="ml-3 text-primary-500">Quick processing under 60 seconds</span>
+                        </li>
+                        <li class="flex items-start">
+                        <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
+                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                            </div>
+                            <span class="ml-3 text-primary-500">Growing customer base</span>
+                        </li>
+                        <li class="flex items-start">
+                        <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
+                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                            </div>
+                            <span class="ml-3 text-primary-500">Regular income through bill payments</span>
+                        </li>
+                    </ul>
+                    
+                </div>
+                
+                <!-- Right Column - Image -->
+                <div class="w-full md:w-1/2">
+                    <div class=" p-8 rounded-xl">
+                        <img src="assets/images/bbps/benefits.png" >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- FAQ Section -->
+
+<!-- Our Other Services Section -->
+<section class="w-full bg-primary-100 py-16 px-4">
+    <div class="max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row items-start">
+            <!-- Section Title -->
+            <div class="text-primary-500 mb-10 md:mb-0 md:w-1/4 md:mr-8 md:pt-2">
+                <h2 class="text-3xl font-bold leading-tight uppercase">
+                    OUR OTHER SERVICES
+                </h2>
+            </div>
+            
+            <!-- Services Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-8 md:w-3/4 w-full">
+                <!-- AEPS -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-nsdl/icon1.svg" alt="AEPS" class="w-16 h-16">
+                    </div>
+                    <span class="text-primary-500 text-center font-medium">AEPS</span>
+                </div>
+                
+                <!-- DMT -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-nsdl/icon2.svg" alt="DMT" class="w-16 h-16">
+                    </div>
+                    <span class="text-primary-500 text-center font-medium">DMT</span>
+                </div>
+                
+                <!-- Micro ATM -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-nsdl/icon3.svg" alt="Micro ATM" class="w-16 h-16">
+                    </div>
+                    <span class="text-primary-500 text-center font-medium">Micro ATM</span>
+                </div>
+                
+                <!-- mPOS -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-nsdl/icon4.svg" alt="mPOS" class="w-16 h-16">
+                    </div>
+                    <span class="text-primary-500 text-center font-medium">mPOS</span>
+                </div>
+                
+                <!-- CMS -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-nsdl/icon5.svg" alt="CMS" class="w-16 h-16">
+                    </div>
+                    <span class="text-primary-500 text-center font-medium">CMS</span>
+                </div>
+                
+                <!-- UPI QR Code -->
+                <div class="flex flex-col items-center justify-center">
+                    <div class="w-28 h-28 rounded-2xl bg-primary-500/70 flex items-center justify-center mb-4">
+                        <img src="assets/images/pan-nsdl/icon6.svg" alt="UPI QR Code" class="w-16 h-16">
+                    </div>
+                    <span class="text-primary-500 text-center font-medium">UPI QR Code</span>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 
 
@@ -290,7 +441,7 @@
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-primary-700 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+        <div class="bg-gradient-to-br from-secondary-700 to-secondary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
             data-aos="fade-up" data-aos-duration="1000">
 
             <!-- Stars Background SVG -->
