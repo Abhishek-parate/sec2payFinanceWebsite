@@ -7,12 +7,11 @@
     <title>Sec2Pay - Banking Platform Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 
     <style>
@@ -72,28 +71,20 @@
                                 <span class="text-gray-600 text-xs sm:text-sm">1 Lac+ Retail partners across India</span>
                             </div>
                         </div>
-                        <span class="text-gray-600 text-sm">1 Lac+ Retail partners across India</span>
-                    </div>
-                </div>
-                <!-- Right Content - Image and Features -->
-                <!-- Diagonal Shapes for Design -->
-
-                <!-- Person Image -->
-
-
-                <div class="relative flex items-center justify-center max-w-5xl mx-auto">
-                    <!-- Main Dashboard Image -->
-                    <div class="relative z-20">
-                        <img src="assets/images/banking-platform-service/banner.png" alt="Dashboard" class=" h-96 mx-auto" />
-                        <div class="absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-t from-white to-transparent">
+                        <!-- Right Content - Image -->
+                        <div class="relative flex items-center justify-center max-w-md mx-auto order-1 lg:order-2" 
+                            data-aos="fade-left" data-aos-duration="1200" data-aos-once="true">
+                            <!-- Main Dashboard Image -->
+                            <div class="relative z-10 w-full">
+                                <img src="assets/images/banking-platform-service/banner.png" alt="Dashboard" 
+                                    class="h-64 sm:h-80 md:h-96 mx-auto object-contain gradient-mask" />
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-</section>
-
-
-<!-- hero section ends -->
+        </section>
+        <!-- hero section ends -->
 
         <!-- Banking Overview Section with Split Background -->
         <section class="relative py-12 md:py-16">

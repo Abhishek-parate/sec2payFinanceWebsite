@@ -7,12 +7,11 @@
     <title>Sec2Pay - Banking Platform Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 
 </head>
@@ -26,65 +25,57 @@
 
 <!-- hero section -->
 
-<section class="bg-white px-4 sm:px-6 py-8 sm:py-12">
-    <div class="max-w-7xl mx-auto">
-        <div class="rounded-xl overflow-hidden">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-0">
-                <!-- Left Content - Services List -->
-                <div class="p-6 sm:p-8 md:p-12 flex flex-col justify-center">
-                    <!-- Breadcrumb - Responsive text size -->
-                    <p class="font-medium text-primary-900 text-xs sm:text-sm mb-4 truncate">
-                        <span class="text-primary-500">Home / Multi Services Platform /</span> Traveling Solutions
-                    </p>
-                    
-                    <!-- Heading - Responsive text size and spacing -->
-                    <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500 leading-tight">
-                        Build Your<br> Travel Business
-                    </h1>
-                    
-                    <!-- Subheading - Responsive text -->
-                    <p class="text-gray-500 my-4 sm:mb-6 md:mb-8 text-sm sm:text-base">
-                        Join 20,000+ travel retailers earning through India's trusted B2B travel platform
-                    </p>
+<section class=" bg-white">
 
-                    <!-- CTA Button - Full width on mobile, auto on larger screens -->
+    <div class="max-w-7xl mx-auto py-12  ">
+        <div class="rounded-xl overflow-hidden  ">
+            <div class="grid grid-cols-1 md:grid-cols-2 ">
+                <!-- Left Content - Services List -->
+                <div class="p-8 md:p-12">
+                    <p class="font-semi-bolder text-primary-900"><span class="text-primary-500">Home / Multi Services Platform /</span> Traveling Solutions</p>
+                    <h1 class="text-4xl font-bold text-secondary-500 ">Build Your</h1>
+                    <h1 class="text-4xl font-bold text-secondary-500 mb-4">Travel Business</h1>
+                    <p class="text-gray-500 mb-8">Join 20,000+ travel retailers earning through India's trusted B2B
+                        travel platform</p>
+
                     <a href="#"
-                        class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md w-full sm:w-auto sm:self-start">
+                        class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
                         Start Your Journey
+
                     </a>
 
-                    <!-- Partners section - Responsive spacing and sizing -->
                     <div
-                        class="mt-6 sm:mt-8 flex flex-wrap sm:flex-nowrap items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm">
-                        <div class="flex -space-x-2 overflow-hidden ml-1">
+                        class="mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm">
+                        <div class="flex -space-x-2 ">
                             <img src="https://randomuser.me/api/portraits/men/1.jpg"
-                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white" alt="Partner">
+                                class="w-8 h-8 rounded-full border-2 border-white">
                             <img src="https://randomuser.me/api/portraits/women/2.jpg"
-                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white" alt="Partner">
+                                class="w-8 h-8 rounded-full border-2 border-white">
                             <img src="https://randomuser.me/api/portraits/men/3.jpg"
-                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white" alt="Partner">
+                                class="w-8 h-8 rounded-full border-2 border-white">
                             <img src="https://randomuser.me/api/portraits/women/4.jpg"
-                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white" alt="Partner">
+                                class="w-8 h-8 rounded-full border-2 border-white">
                         </div>
-                        <span class="text-gray-600 text-xs sm:text-sm ml-1">1 Lac+ Retail partners across India</span>
+                        <span class="text-gray-600 text-sm">1 Lac+ Retail partners across India</span>
                     </div>
                 </div>
-                
-                <!-- Right Content - Image -->
-                <div class="relative h-full">
-                    <div class="relative h-64 sm:h-80 md:h-full">
-                        <!-- Main Image - Responsive sizing and object fitting -->
-                        <img src="assets/images/trevelling/hero.png" alt="Travel Business" 
-                            class="w-full h-full object-cover object-center md:object-contain" />
-                        
-                        <!-- Gradient Overlay -->
-                        <div class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent"></div>
+                <!-- Right Content - Image and Features -->
+                <!-- Diagonal Shapes for Design -->
+
+                <!-- Person Image -->
+
+
+                <div class="relative max-w-5xl mx-auto  ">
+                    <!-- Main Dashboard Image -->
+                    <div class="relative z-20">
+                        <img src="assets/images/trevelling/hero.png" alt="Dashboard" class=" h-auto" />
+                        <div class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 </section>
+
 <!-- hero section ends -->
 
 

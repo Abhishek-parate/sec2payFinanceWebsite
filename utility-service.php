@@ -7,12 +7,11 @@
     <title>Sec2Pay - Banking Platform Services</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@3"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
 
 </head>
@@ -190,74 +189,58 @@
                         </button>
                     </div>
 
-                    <!-- Tab Content -->
-                    <div class="relative  overflow-hidden">
-                        <!-- Essential Bills Tab Content -->
-                        <div class="tab-pane block opacity-100 transition-opacity duration-300" id="essential-bills">
-                            <div class="flex flex-col md:flex-row items-center gap-8">
-                                <div class="w-full md:w-1/3 p-6">
-                                    <h3 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-800">Utility &
-                                        Essential Bills</h3>
-                                    <p class="text-gray-600 mb-8 max-w-md">Earn money by paying your customers
-                                        </br>utility bill payments</p>
-                                    <ul class="space-y-1">
-                                        <li class="flex items-center">
-                                            <span
-                                                class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
-                                                    viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        stroke-width="2" d="M5 13l4 4L19 7" />
-                                                </svg>
-                                            </span>
-                                            <span class="text-gray-700">Electricity Bills</span>
-                                        </li>
-                                        <li class="flex items-center">
-                                            <span
-                                                class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
-                                                    viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        stroke-width="2" d="M5 13l4 4L19 7" />
-                                                </svg>
-                                            </span>
-                                            <span class="text-gray-700">Gas Payments</span>
-                                        </li>
-                                        <li class="flex items-center">
-                                            <span
-                                                class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
-                                                    viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        stroke-width="2" d="M5 13l4 4L19 7" />
-                                                </svg>
-                                            </span>
-                                            <span class="text-gray-700">Water Charges</span>
-                                        </li>
-                                        <li class="flex items-center">
-                                            <span
-                                                class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
-                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
-                                                    viewBox="0 0 24 24" stroke="currentColor">
-                                                    <path stroke-linecap="round" stroke-linejoin="round"
-                                                        stroke-width="2" d="M5 13l4 4L19 7" />
-                                                </svg>
-                                            </span>
-                                            <span class="text-gray-700">Internet Bills</span>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="w-full md:w-2/3 flex justify-center p-4">
-                                    <div class="relative flex justify-center" data-aos="fade-left"
-                                        data-aos-duration="1000">
-                                        <!-- Image -->
-                                        <img src="assets/images/utility-services-page/utility.png"
-                                            alt="Utility Services Illustration" class="w-5/6">
-
-                                    </div>
-                                </div>
+            <!-- Tab Content -->
+            <div class="relative  overflow-hidden">
+                <!-- Essential Bills Tab Content -->
+                <div class="tab-pane block opacity-100 transition-opacity duration-300" id="essential-bills">
+                    <div class="flex flex-col md:flex-row items-center gap-8">
+                        <div class="w-full md:w-1/3 p-6">
+                            <h3 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-800">Utility & Essential Bills</h3>
+                            <p class="text-gray-600 mb-8 max-w-md">Earn money by paying your customers </br>utility bill payments</p>
+                            <ul class="space-y-1">
+                                <li class="flex items-center">
+                                    <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-gray-700">Electricity Bills</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-gray-700">Gas Payments</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-gray-700">Water Charges</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                                        </svg>
+                                    </span>
+                                    <span class="text-gray-700">Internet Bills</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="w-full md:w-2/3 flex justify-center p-4">
+                            <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
+                                <!-- Image -->
+                                <img src="assets/images/utility-services-page/utility.png" alt="Utility Services Illustration" class="w-5/6">
+                                
                             </div>
                         </div>
+                    </div>
+                </div>
 
                         <!-- Mobile & DTH Tab Content -->
                         <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="mobile-dth">
@@ -544,18 +527,17 @@
                             </span>
                         </div>
 
-                        <div class="p-8 flex flex-col h-full">
-                            <!-- Plan Icon and Title -->
-                            <div class="flex items-center mb-6">
-                                <div class="w-16 h-16 bg-white rounded-lg flex items-center justify-center mr-4">
-                                    <div
-                                        class="w-10 h-10 bg-gradient-to-r from-white to-primary-300 overflow-hidden flex">
-                                        <img src="assets/images/utility-services-page/icon2.png"
-                                            alt="Primium partner Icon">
-                                    </div>
-                                </div>
-                                <h3 class="text-3xl font-semibold text-white">Premium Partner</h3>
+                <div class="p-8 flex flex-col h-full">
+                    <!-- Plan Icon and Title -->
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-white rounded-lg flex items-center justify-center mr-4">
+                            <div class="w-10 h-10 bg-gradient-to-r from-white to-primary-300 overflow-hidden flex">
+                                <img src="assets/images/banking/icon2.png" alt="Primium partner Icon">
                             </div>
+                        </div>
+                        <h3 class="text-3xl font-semibold  text-white">Premium 
+                        Partner</h3>
+                    </div>
 
                             <!-- Plan Details -->
                             <p class="text-sm text-white text-opacity-90 mb-6">For Growing Businesses</p>
@@ -624,21 +606,20 @@
                         </div>
                     </div>
 
-                    <!-- Plan 3 -->
-                    <div class="bg-white rounded-xl border-1 border-gray-100 shadow-xl overflow-hidden transform transition-all duration-300 hover:drop-shadow-2xl hover:-translate-y-1"
-                        data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">
-                        <div class="p-8 flex flex-col h-full">
-                            <!-- Plan Icon and Title -->
-                            <div class="flex items-center mb-6">
-                                <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
-                                    <div
-                                        class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex">
-                                        <img src="assets/images/utility-services-page/icon1.png"
-                                            alt="Enterprise Partner Icon">
-                                    </div>
-                                </div>
-                                <h3 class="text-3xl font-semibold text-gray-900">Enterprise Partner</h3>
+            <!-- Plan 3 -->
+            <div
+                class="bg-white rounded-xl border-1 border-gray-100 shadow-xl overflow-hidden transform transition-all duration-300 hover:drop-shadow-2xl hover:-translate-y-1">
+                <div class="p-8 flex flex-col h-full">
+                    <!-- Plan Icon and Title -->
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
+                            <div
+                                class="w-10 h-10 rounded-full bg-gradient-to-r from-primary-500 to-white overflow-hidden flex">
+                                <img src="assets/images/banking/icon1.png" alt="Enterprise Partner Icon">
                             </div>
+                        </div>
+                        <h3 class="text-3xl font-semibold text-gray-900">Enterprise Partner</h3>
+                    </div>
 
                             <!-- Plan Details -->
                             <p class="text-sm text-gray-600 mb-6">For Large Organizations</p>
