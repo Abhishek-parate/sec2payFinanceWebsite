@@ -35,7 +35,7 @@
                     <p class="font-semi-bolder text-primary-600 font-bold">Account Opening</p>
                     <h1 class="text-4xl font-bold text-secondary-500 ">Turn Your Store into</h1>
                     <h1 class="text-4xl font-bold text-secondary-500 mb-4">a Digital Bank Branch</h1>
-                    <p class="text-gray-500 mb-8">Help your customers open bank accounts instantly and earn additional income through our Account Opening Platform.</p>
+                    <p class="text-gray-500 mb-8">Help your customers open bank accounts instantly </br>and earn additional income through our Account</br> Opening Platform.</p>
 
                     <a href="#"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
@@ -88,8 +88,8 @@
         <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
             <!-- Feature 1 - Instant Account Creation -->
             <div class="p-4">
-                <h3 class="text-xl font-semibold text-primary-100 mb-3"> Instant Account Creation</h3>
-                <p class="text-gray-500">
+                <h3 class="text-xl font-semibold text-primary-100 mb-3">Instant Account Creation</h3>
+                <p class="text-white">
                 Open bank accounts for your customers in minutes
                 </p>
             </div>
@@ -97,23 +97,23 @@
             <!-- Feature 2 - Digital KYC Process -->
             <div class="p-4">
                 <h3 class="text-xl font-semibold text-primary-100 mb-3">Digital KYC Process</h3>
-                <p class="text-gray-500">
+                <p class="text-white">
                 Complete verification through video KYC
                 </p>
             </div>
 
             <!-- Feature 3 - Multiple Bank Options -->
             <div class=" p-4">
-                <h3 class="text-xl font-semibold text-primary-100 mb-3"> Multiple Bank Options</h3>
-                <p class="text-gray-500">
+                <h3 class="text-xl font-semibold text-primary-100 mb-3">Multiple Bank Options</h3>
+                <p class="text-white">
                 Partner with leading banks in India
                 </p>
             </div>
 
             <!-- Feature 4 - Zero-Balance Accounts -->
             <div class=" p-4">
-                <h3 class="text-xl font-semibold text-primary-100 mb-3">Zero-Balance Accounts </h3>
-                <p class="text-gray-500">
+                <h3 class="text-xl font-semibold text-primary-100 mb-3">Zero-Balance Accounts</h3>
+                <p class="text-white">
                     Offer accounts with no minimum balance requirement
                 </p>
             </div>

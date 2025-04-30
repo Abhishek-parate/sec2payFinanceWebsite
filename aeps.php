@@ -24,28 +24,37 @@
     <main>
 
 
-<!-- Utility Services Section -->
-<section class=" bg-white">
+<!-- Utility Services Section with Circular Gradients -->
+<section class="relative overflow-hidden bg-white py-10">
+    <!-- Top-left Circular Gradient (Pinkish) - Exactly 50% visible -->
+    <div class="absolute top-[5%] -left-[20%] w-[50%] h-[100%] rounded-full"
+    style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 50%);">
+    </div>
+    
+    <!-- Top-right Circular Gradient (Bluish) - Exactly 50% visible -->
+    <div class="absolute -top-[20%] -right-[20%] w-[50%] h-[100%] rounded-full"
+   
+        style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);">
+    </div>
 
-    <div class="max-w-7xl mx-auto ">
-        <div class="rounded-xl overflow-hidden  ">
+    <div class="max-w-7xl mx-auto relative z-10">
+        <div class="rounded-xl overflow-hidden">
             <div class="grid grid-cols-1 md:grid-cols-2">
                 <!-- Left Content - Services List -->
                 <div class="p-8 md:p-12 mt-12">
                     <p class="font-semi-bolder text-primary-600 font-bold">AEPS</p>
-                    <h1 class="text-4xl font-bold text-secondary-500 ">Your local banking point for</h1>
+                    <h1 class="text-4xl font-bold text-secondary-500">Your local banking point for</h1>
                     <h1 class="text-4xl font-bold text-secondary-500 mb-4">instant cash transactions</h1>
                     <p class="text-gray-500 mb-8">Join Sec2Pay's AEPS network to provide secure Aadhaar-based banking services in your area. Help your community access their bank accounts easily through fingerprint verification.</p>
 
                     <a href="#"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
                         Start Your Banking Journey
-
                     </a>
 
                     <div
                         class="mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm">
-                        <div class="flex -space-x-2 ">
+                        <div class="flex -space-x-2">
                             <img src="https://randomuser.me/api/portraits/men/1.jpg"
                                 class="w-8 h-8 rounded-full border-2 border-white">
                             <img src="https://randomuser.me/api/portraits/women/2.jpg"
@@ -58,21 +67,19 @@
                         <span class="text-gray-600 text-sm">1 Lac+ Retail partners across India</span>
                     </div>
                 </div>
-                <!-- Right Content - Image and Features -->
-                <!-- Diagonal Shapes for Design -->
-
-                <!-- Person Image -->
-
-
-                <div class="relative max-w-5xl mx-auto  ">
-                    <!-- Main Dashboard Image -->
+                
+                <!-- Right Content - Image -->
+                <div class="relative">
+                    <!-- Main Image -->
                     <div class="relative z-20">
-                        <img src="assets/images/aeps/banner.png" alt="Dashboard" class=" h-auto" />
+                        <img src="assets/images/aeps/banner.png" alt="Dashboard" class="w-full h-auto" />
                         <div class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
 </section>
 
 <!-- Features & Functions Section -->
@@ -88,7 +95,7 @@
                     alt="Real-Time Payment"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left">
-                    <h3 class="text-secondary-600 font-semibold text-xl mb-2">Cash Withdrawal</h3>
+                    <h3 class="font-semibold text-xl mb-2">Cash Withdrawal</h3>
                     <p class="text-gray-600 text-sm">
                     Make banking accessible in areas without ATMs. Your customers can withdraw cash using just their Aadhaar and fingerprint - quick, simple, and secure.
                     </p>
@@ -101,7 +108,7 @@
                     alt="Real-Time Payment"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left">
-                    <h3 class="text-secondary-600 font-semibold text-xl mb-2">Balance Check</h3>
+                    <h3 class="font-semibold text-xl mb-2">Balance Check</h3>
                     <p class="text-gray-600 text-sm">
                     Help customers stay on top of their finances. Instant balance updates through secure Aadhaar verification.
                     </p>
@@ -114,7 +121,7 @@
                     alt="Real-Time Payment"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left">
-                    <h3 class="text-secondary-600 font-semibold text-xl mb-2">Mini Statement</h3>
+                    <h3 class=" font-semibold text-xl mb-2">Mini Statement</h3>
                     <p class="text-gray-600 text-sm">
                     Print recent transaction details instantly. Give your customers their banking history at their fingertips.
                     </p>
@@ -127,7 +134,7 @@
 
 
 <!-- Life Insurance Solutions Section -->
-<section class="w-full py-12">
+<section class="w-full py-6">
     <div class="max-w-6xl mx-auto px-4">
     <h2 class="text-3xl font-bold text-primary-700 text-center">Benefits for AEPS Agents</h2>
 
@@ -173,7 +180,7 @@
 </section>
 
 <!-- Health Insurance Solutions Section -->
-<section class="w-full py-12">
+<section class="w-full py-6">
     <div class="max-w-6xl mx-auto px-4">
         <div class="flex flex-col md:flex-row items-center gap-8">
             <!-- Left side with content -->

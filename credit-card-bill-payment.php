@@ -77,72 +77,68 @@
 
 
 <!-- Features & Functions Section -->
-<section class="bg-white px-4 md:px-24 mb-12">
-    <div class="container mx-auto px-6 text-center mt-6">
-        
+<section class="bg-white px-4 md:px-24 my-12">
+    <div class="container mx-auto px-6 text-center">        
         <!-- Updated grid with proper centering -->
-        <div class="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            
             <!-- Feature Card 1 -->
             <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/utility-servises/auto.png"
-                    alt="Real-Time Payment"
+                <img src="assets/images/credit-card-bill-payment/multi.png"
+                    alt="Mobile Recharge"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left">
-                    <h3 class="text-primary-600 font-semibold text-xl mb-2">Multi-Bank Support</h3>
-                    <p class="text-gray-600 text-sm">
-                    Process payments for 50+ credit card issuers
-Real-time payment confirmation
-Direct bank integration
-                    </p>
+                    <h3 class="text-primary-600 font-semibold text-xl mb-4">Multi-Bank Support</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>Process payments for 50+ credit card issuers</li>
+                        <li>Real-time payment confirmation</li>
+                        <li>Direct bank integration</li>
+                    </ul>
                 </div>
             </div>
             
             <!-- Feature Card 2 -->
             <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/utility-servises/auto.png"
-                    alt="Real-Time Payment"
+                <img src="assets/images/credit-card-bill-payment/simple.png"
+                    alt="DTH Recharge"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left">
-                    <h3 class="text-primary-600 font-semibold text-xl mb-2">Simple Process</h3>
-                    <p class="text-gray-600 text-sm">
-                    Two-step verification
-Quick payment processing
-Digital receipt generation
-                    </p>
+                    <h3 class="text-primary-600 font-semibold text-xl mb-4">Simple Process</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>Two-step verification</li>
+                        <li>Quick payment processing</li>
+                        <li>Digital receipt generation</li>
+                    </ul>
                 </div>
             </div>
             
             <!-- Feature Card 3 -->
             <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/utility-servises/auto.png"
-                    alt="Real-Time Payment"
+                <img src="assets/images/credit-card-bill-payment/partner.png"
+                    alt="Data Card Recharge"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left">
-                    <h3 class="text-primary-600 font-semibold text-xl mb-2">Partner Benefits</h3>
-                    <p class="text-gray-600 text-sm">
-                    Competitive commission structure
-Instant settlement
-Real-time transaction tracking
-                    </p>
+                    <h3 class="text-primary-600 font-semibold text-xl mb-4">Partner Benefits</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>Competitive commission structure</li>
+                        <li>Instant settlement</li>
+                        <li>Real-time transaction tracking</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-
 <!-- Life Insurance Solutions Section -->
-<section class="w-full py-12 mb-12">
+<section class="w-full py-12">
     <div class="max-w-6xl mx-auto px-4">
         <div class="flex flex-col md:flex-row items-center gap-8">
-            <!-- Left side with illustration -->
-            <div class="w-full md:w-1/2">
-            <img src="assets/images/credit-card-bill-payment/benefits.png" alt="Life Insurance">
-            </div>
+        
             
             <!-- Right side with content -->
             <div class="w-full md:w-1/2">
-                <h2 class="text-3xl font-bold text-secondary-600 mb-6 mt-6">Benefits</h2>
+                <h2 class="text-3xl font-bold text-primary-500 mb-6 mt-6">Features</h2>
                 
                 <ul class="space-y-5 mb-8">
                     <?php
@@ -160,16 +156,73 @@ Real-time transaction tracking
                     <li class="flex items-start">
                         <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
                         <svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_1700_1996)">
-<path d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z" fill="#FEEEEC" stroke="#F15744" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705" stroke="#F15744" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<g clip-path="url(#clip0_2090_6342)">
+<path d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z" fill="#EDF0F7" stroke="#4B69B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705" stroke="#4B69B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
 <defs>
-<clipPath id="clip0_1700_1996">
+<clipPath id="clip0_2090_6342">
 <rect width="19" height="19" fill="white" transform="translate(0 3)"/>
 </clipPath>
 </defs>
 </svg>
+
+
+                        </div>
+                        <span class="ml-3 text-gray-700"><?php echo $plan; ?></span>
+                    </li>
+                    <?php endforeach; ?>
+                </ul>
+                
+            </div>
+                <!-- Left side with illustration -->
+                <div class="w-full md:w-1/2">
+            <img src="assets/images/credit-card-bill-payment/benefits.png" alt="Life Insurance">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Life Insurance Solutions Section -->
+<section class="w-full py-6 mb-12">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex flex-col md:flex-row items-center gap-8">
+            <!-- Left side with illustration -->
+            <div class="w-full md:w-1/2">
+            <img src="assets/images/credit-card-bill-payment/business.png" alt="Life Insurance">
+            </div>
+            
+            <!-- Right side with content -->
+            <div class="w-full md:w-1/2">
+                <h2 class="text-3xl font-bold text-secondary-600 mb-6 mt-6">Business Benefits</h2>
+                
+                <ul class="space-y-5 mb-8">
+                    <?php
+                    $lifePlans = [
+                        'Additional revenue stream ',
+                        'Zero infrastructure cost',
+                        'Instant merchant onboarding',
+                        'Real-time settlement',
+                        'Comprehensive reporting',
+                        'Dedicated support team',
+                    ];
+                    
+                    foreach ($lifePlans as $plan) :
+                    ?>
+                    <li class="flex items-start">
+                        <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                        <svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_1700_1996)">
+                            <path d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z" fill="#FEEEEC" stroke="#F15744" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705" stroke="#F15744" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_1700_1996">
+                            <rect width="19" height="19" fill="white" transform="translate(0 3)"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
 
                         </div>
                         <span class="ml-3 text-gray-700"><?php echo $plan; ?></span>
