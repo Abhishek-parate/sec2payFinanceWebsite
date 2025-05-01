@@ -86,9 +86,6 @@
             <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
                 <!-- Icon and Title - Vertical Alignment -->
                 <div class="text-left mb-2">
-                    <div class="text-red-500">
-                    <img src="assets/images/ondc-ecommerce/icon1.svg" alt="Pan Image" class="mb-4">
-                    </div>
                     <h2 class="text-xl font-semibold text-red-500">Quick Policy Issuance</h2>
                 </div>
                 <ul class="list-disc pl-5 space-y-2 text-gray-700">
@@ -99,9 +96,6 @@
             <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
                 <!-- Icon and Title - Vertical Alignment -->
                 <div class="text-left mb-2">
-                    <div class="text-red-500">
-                    <img src="assets/images/ondc-ecommerce/icon2.svg" alt="Pan Image" class="mb-4">
-                    </div>
                     <h2 class="text-xl font-semibold text-red-500">Multiple Insurance Partners</h2>
                 </div>
                 <ul class="list-disc pl-5 space-y-2 text-gray-700">
@@ -112,9 +106,6 @@
             <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
                 <!-- Icon and Title - Vertical Alignment -->
                 <div class="text-left mb-2">
-                    <div class="text-red-500">
-                    <img src="assets/images/ondc-ecommerce/icon3.svg" alt="Pan Image" class="mb-4">
-                    </div>
                     <h2 class="text-xl font-semibold text-red-500">Simple Claims Process</h2>
                 </div>
                 <ul class="list-disc pl-5 space-y-2 text-gray-700">
@@ -128,7 +119,7 @@
 </section>
 
 <!-- Banking Services Section --> 
-<section class="bg-gray-300 text-white min-h-[600px] py-12 flex items-center">
+<section class="bg-secondary-100 min-h-[600px] py-6 flex items-center">
     <div class="container mx-auto px-4 md:px-6">
         <!-- Banking Services Tabs -->
         <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
@@ -144,14 +135,16 @@
                             </div>
                         </div>
                         <div class="w-full md:w-1/2">
-                            <h3 class="text-2xl md:text-3xl font-semibold mb-8">Services</h3>
+                            <h3 class="text-2xl md:text-3xl font-semibold mb-8 text-secondary-600">Benefits for Partners:</h3>
                             <ul class="space-y-5 mb-8">
                                 <?php
                                 $lifePlans = [
-                                    'Catalog management tools',
-                                    'Order tracking and fulfillment systems',
-                                    'Secure payment integration',
-                                    'Business analytics dashboard'
+                                    'Attractive commission structure',
+                                    'No investment needed',
+                                    'Training and support provided',
+                                    'Simple digital process',
+                                    'Additional revenue stream',
+                                    'Growing customer base'
                                 ];
                                 
                                 foreach ($lifePlans as $plan) :
@@ -163,13 +156,10 @@
                                             <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                         </svg>
                                     </div>
-                                    <span class="ml-3 text-white"><?php echo $plan; ?></span>
+                                    <span class="ml-3 text-primary-500"><?php echo $plan; ?></span>
                                 </li>
                                 <?php endforeach; ?>
                             </ul>
-                            <div>
-                                <a href="#" class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-md transition duration-300">Explore Credit Solutions</a>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -178,6 +168,48 @@
     </div>
 </section>
 
+
+<!-- Support Promise Banner -->
+<section>
+  <div class="w-full bg-primary-700 py-12">
+    <div
+      class="max-w-7xl mx-auto flex flex-row items-center justify-evenly text-white px-4"
+    >
+      <div class="font-semibold text-md md:text-base whitespace-nowrap">
+      Partner Support:
+      </div>
+
+      <div class="hidden md:flex items-center justify-end space-x-6 text-sm">
+       
+        <div class="flex items-center">
+          <span class="whitespace-nowrap">Dedicated relationship manager</span>
+        </div>
+        <div class="flex items-center">
+          <span class="whitespace-nowrap">24/7 technical assistance</span>
+        </div>
+        <div class="flex items-center">
+          <span class="whitespace-nowrap">Marketing collateral</span>
+        </div>
+        <div class="flex items-center">
+          <span class="whitespace-nowrap">Regular training sessions</span>
+        </div>
+      </div>
+
+      <!-- Mobile version - scrollable -->
+      <div
+        class="md:hidden flex items-center overflow-x-auto whitespace-nowrap space-x-4 text-sm scrollbar-hide"
+      >
+        <span>Training for new agents</span>
+        <span class="text-white/50">|</span>
+        <span>Regular commission payments</span>
+        <span class="text-white/50">|</span>
+        <span>Dedicated relationship manager</span>
+        <span class="text-white/50">|</span>
+        <span>24/7 Technical assistance</span>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 <!-- FAQ Section -->
@@ -197,12 +229,12 @@
                 'isOpen' => true
             ],
             [
-                'question' => ' How secure is the CMS platform?',
+                'question' => 'How long does policy issuance take?',
                 'answer' => 'You can offer AEPS services once you\'ve completed the registration process and have the necessary equipment set up. This typically includes having a biometric device and completing the verification process.',
                 'isOpen' => false
             ],
             [
-                'question' => 'Can I integrate CMS with my existing business software?',
+                'question' => 'What commission can I earn?',
                 'answer' => 'To start offering AEPS services, you\'ll need a smartphone or computer, a biometric device for fingerprint authentication, a reliable internet connection, and valid documentation for registration.',
                 'isOpen' => false
             ]
