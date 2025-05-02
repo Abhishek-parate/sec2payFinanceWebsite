@@ -31,31 +31,31 @@
         <div class="rounded-xl overflow-hidden  ">
             <div class="grid grid-cols-1 md:grid-cols-2 ">
                 <!-- Left Content - Services List -->
-                <div class="p-8 md:p-12">
+                <div class="px-8 pt-8 md:px-12 md:pt-12 lg:px-16 lg:pt-16 ">
                     <p class="font-semi-bolder text-primary-600 font-bold">BANKING</p>
-                    <h1 class="text-4xl font-bold text-secondary-500 ">Turn Your Business Into</h1>
-                    <h1 class="text-4xl font-bold text-secondary-500 mb-4">a Banking Powerhouse</h1>
-                    <p class="text-gray-500 mb-8">Join 1 Lac+ retail partners offering essential banking services
+                    <h1 class="text-2xl md:text-4xl font-bold text-secondary-500 ">Turn Your Business Into</h1>
+                    <h1 class="text-2xl md:text-4xl font-bold text-secondary-500 mb-4">a Banking Powerhouse</h1>
+                    <p class="text-black mb-5">Join 1 Lac+ retail partners offering essential banking services
                         across
                         India</p>
 
                     <a href="#"
-                        class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
+                        class="inline-flex items-center justify-center px-5 py-3 md:mb-4 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
                         Start Your Journey
 
                     </a>
 
                     <div
-                        class="mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm">
+                        class="flex items-center gap-2 border-2 md:mt-8 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm">
                         <div class="flex -space-x-2 ">
                             <img src="https://randomuser.me/api/portraits/men/1.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
+                                class="w-6 h-6 sm:w-8 sm:h-8 md:w-8 md:h-8 rounded-full border-2 border-white">
                             <img src="https://randomuser.me/api/portraits/women/2.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
+                                class="w-6 h-6 sm:w-8 sm:h-8 md:w-8 md:h-8 rounded-full border-2 border-white">
                             <img src="https://randomuser.me/api/portraits/men/3.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
+                                class="w-6 h-6 sm:w-8 sm:h-8 md:w-8 md:h-8 rounded-full border-2 border-white">
                             <img src="https://randomuser.me/api/portraits/women/4.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
+                                class="w-6 h-6 sm:w-8 sm:h-8 md:w-8 md:h-8 rounded-full border-2 border-white">
                         </div>
                         <span class="text-gray-600 text-sm">1 Lac+ Retail partners across India</span>
                     </div>
@@ -149,7 +149,7 @@
 
 
 <!-- Banking Services Section -->
-<section class="bg-primary-600 text-white py-20 min-h-[650px] flex items-center">
+<section class="bg-primary-600 text-white py-20 flex items-center">
     <div class="container mx-auto px-4 md:px-6">
         <div class="md:pl-24">
             <h1 class="text-4xl md:text-5xl font-bold mb-10" data-aos="fade-up" data-aos-duration="800">Built for the Banking</h1>
@@ -185,10 +185,10 @@
                 </div>
 
                 <!-- Tab Content -->
-                <div class="relative min-h-[350px] overflow-hidden">
-                    <!-- AePS Tab Content -->
-                    <div class="tab-pane block opacity-100 transition-opacity duration-300" id="aeps">
-                        <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="relative overflow-hidden px-4 md:px-6">
+            <!-- AePS Tab Content -->
+            <div class="tab-pane block opacity-100 transition-opacity duration-300" id="aeps">
+              <div class="flex flex-col md:flex-row items-center gap-8">
                             <div class="w-full md:w-1/2">
                                 <h3 class="text-2xl md:text-3xl font-semibold mb-4">AePS</h3>
                                 <ul class="space-y-4">
@@ -513,12 +513,8 @@
 
                     <!-- Price -->
                     <div class="mt-auto">
-                        <p class="text-xl font-bold text-gray-700 mb-1">Starting at</p>
-                        <div class="flex items-end mb-6">
-                            <span class="text-4xl font-bold text-gray-900 monthly-price">₹25,000</span>
-                            <span class="text-4xl font-bold text-gray-900 annual-price hidden">₹20,000</span>
-                        </div>
-                        <a href="#"
+                         
+                                                <a href="#"
                             class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>
@@ -602,12 +598,7 @@
 
                     <!-- Price -->
                     <div class="mt-auto">
-                        <p class="text-xl font-bold text-white text-opacity-90 mb-1">Starting at</p>
-                        <div class="flex items-end mb-6">
-                            <span class="text-4xl font-bold text-white monthly-price">₹50,000</span>
-                            <span class="text-4xl font-bold text-white annual-price hidden">₹40,000</span>
-                        </div>
-                        <a href="#"
+                                                 <a href="#"
                             class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-secondary-600 font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>
@@ -684,12 +675,7 @@
 
                     <!-- Price -->
                     <div class="mt-auto">
-                        <p class="text-xl font-bold text-gray-700 mb-1">Starting at</p>
-                        <div class="flex items-end mb-6">
-                            <span class="text-4xl font-bold text-gray-900 monthly-price">₹1,00,000</span>
-                            <span class="text-4xl font-bold text-gray-900 annual-price hidden">₹80,000</span>
-                        </div>
-                        <a href="#"
+                                                 <a href="#"
                             class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>
@@ -810,51 +796,51 @@
 
 <!-- Join Section with Dark Blue Background -->
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
-    <div class="container mx-auto">
-        <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-secondary-700 to-secondary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
-            data-aos="fade-up" data-aos-duration="1000">
+            <div class="container mx-auto">
+                <!-- Join Panel with Starry Background -->
+                <div class="bg-gradient-to-br from-secondary-700 to-secondary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+                    data-aos="fade-up" data-aos-duration="1000">
 
-            <!-- Stars Background SVG -->
-            <div class="absolute z-0 opacity-30 right-0">
-                <img src="assets/images/home/svg/white-bg-dot-icon.svg" alt="background dots"
-                    class="w-full h-full object-cover">
-            </div>
+                    <!-- Stars Background SVG -->
+                    <div class="absolute z-0 opacity-30 right-0">
+                        <img src="assets/images/home/svg/white-bg-dot-icon.svg" alt="background dots"
+                            class="w-full h-full object-cover">
+                    </div>
 
-            <div class="max-w-4xl mx-auto text-center">
-                <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 relative z-10"
-                    data-aos="fade-up" data-aos-delay="200">
-                    Join Sec2pay today
-                </h1>
+                    <div class="max-w-4xl mx-auto text-center">
+                        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 relative z-10"
+                            data-aos="fade-up" data-aos-delay="200">
+                            Join Sec2Pay Today
+                        </h1>
 
-                <p class="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 relative z-10" data-aos="fade-up"
-                    data-aos-delay="300">
-                    Start for free — upgrade anytime.
-                </p>
+                        <p class="text-base sm:text-lg text-white relative z-10" data-aos="fade-up"
+                            data-aos-delay="300">
+                            Start for free — upgrade anytime.
+                        </p>
 
-                <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
-                    <p class="text-gray-300 mb-4 sm:mb-6">
-                        <a href="#" class="underline hover:text-white transition">
-                            Joining as an organization? Contact Sales
-                        </a>
-                    </p>
+                        <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
+                            <p class="text-white mb-4 sm:mb-6">
+                                <a href="/contact-us.php" class="underline hover:text-white transition">
+                                    Joining as an organization? Contact Sales
+                                </a>
+                            </p>
 
-                    <a href="#"
-                        class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
-                        data-aos="zoom-in" data-aos-delay="500">
-                        Sign up free
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2" viewBox="0 0 20 20"
-                            fill="currentColor">
-                            <path fill-rule="evenodd"
-                                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </a>
+                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
+                                class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
+                                data-aos="zoom-in" data-aos-delay="500">
+                                Sign up free
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2"
+                                    viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
+        </section>
 
 
 

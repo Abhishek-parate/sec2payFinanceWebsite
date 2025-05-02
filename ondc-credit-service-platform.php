@@ -395,14 +395,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                <p class="text-xl font-bold text-gray-700 mb-1">Starting at</p>
-                                <div class="flex items-end mb-6">
-                                    <span
-                                        class="text-3xl sm:text-4xl font-bold text-gray-900 monthly-price">₹25,000</span>
-                                    <span
-                                        class="text-3xl sm:text-4xl font-bold text-gray-900 annual-price hidden">₹20,000</span>
-                                </div>
-                                <a href="#"
+                                                                 <a href="#"
                                     class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-md">
                                     Get started
                                 </a>
@@ -489,13 +482,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                <p class="text-xl font-bold text-white text-opacity-90 mb-1">Starting at</p>
-                                <div class="flex items-end mb-6">
-                                    <span class="text-3xl sm:text-4xl font-bold text-white monthly-price">₹50,000</span>
-                                    <span
-                                        class="text-3xl sm:text-4xl font-bold text-white annual-price hidden">₹40,000</span>
-                                </div>
-                                <a href="#"
+                                                                 <a href="#"
                                     class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-secondary-600 font-medium text-center rounded-full transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-md">
                                     Get started
                                 </a>
@@ -574,14 +561,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                <p class="text-xl font-bold text-gray-700 mb-1">Starting at</p>
-                                <div class="flex items-end mb-6">
-                                    <span
-                                        class="text-3xl sm:text-4xl font-bold text-gray-900 monthly-price">₹1,00,000</span>
-                                    <span
-                                        class="text-3xl sm:text-4xl font-bold text-gray-900 annual-price hidden">₹80,000</span>
-                                </div>
-                                <a href="#"
+                                                                 <a href="#"
                                     class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-md">
                                     Get started
                                 </a>
