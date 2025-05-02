@@ -35,7 +35,7 @@
                     <p class="font-semi-bolder text-primary-600 font-bold">Utility Payment Platform services</p>
                     <h1 class="text-4xl font-bold text-secondary-600 ">Simplify Utility Payments</h1>
                     <h1 class="text-4xl font-bold text-secondary-600 mb-4">Through Your Business</h1>
-                    <p class="text-gray-500 mb-8">Integrate essential payment services into your business with Sec2Pay.</p>
+                    <p class="text-black mb-8">Integrate essential payment services into your business with Sec2Pay.</p>
 
                     <a href="#"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
@@ -88,7 +88,7 @@
         <!-- Section Header -->
         <div class="text-center mb-12 z-10 relative">
             <h2 class="text-4xl font-bold text-primary-800 mb-6">Utility overview</h2>
-            <p class="text-gray-600 max-w-4xl mx-auto text-center leading-relaxed">
+            <p class="text-black max-w-4xl mx-auto text-center leading-relaxed">
             Sec2Pay’s Utility Payment Platform enables enterprises to offer a one-stop solution for electricity, gas, water, internet bill payments, mobile recharges, and FASTag services. This integration allows businesses to support their customers’ everyday financial needs, customized by the selected service package.
             </p>
         </div>
@@ -97,21 +97,22 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 relative" style="top: calc(60% - 12rem);">
             <!-- Feature 1 -->
             <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-100">
-                <p class="text-gray-600">
-                Support for multiple utility providers through a unified interface..
+                <p class="text-gray-600 text-md">
+                Support for multiple utility providers through a unified interface.
                 </p>
             </div>
             
             <!-- Feature 2 -->
             <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-100">
-                <p class="text-gray-600">
+                <p class="text-gray-600 ">
+                <p class="text-gray-600 text-md">
                 Real-time payment status updates.
                 </p>
             </div>
             
             <!-- Feature 3 -->
             <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-100">
-                <p class="text-gray-600">
+                <p class="text-gray-600 text-md">
                 Secure transactions with quick settlements.
                 </p>
             </div>
@@ -145,13 +146,13 @@
                     Join Sec2pay today
                 </h1>
 
-                <p class="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 relative z-10" data-aos="fade-up"
+                <p class="text-base sm:text-lg text-white sm:mb-2 relative z-10" data-aos="fade-up"
                     data-aos-delay="300">
                     Start for free — upgrade anytime.
                 </p>
 
                 <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
-                    <p class="text-gray-300 mb-4 sm:mb-6">
+                    <p class="text-white mb-4 sm:mb-6">
                         <a href="#" class="underline hover:text-white transition">
                             Joining as an organization? Contact Sales
                         </a>

@@ -207,69 +207,71 @@
 
 <!-- Product/Solutions Section -->
 <section class="py-10 bg-white">
-    <div class="max-w-7xl mx-auto px-4 ">
+    <div class="max-w-7xl mx-auto px-4">
         <!-- Section Header -->
-        <div class="text-center mb-12">
+        <div class="text-center mb-4">
             <h2 class="text-4xl font-bold text-primary-800 mb-4">Our Product/Solutions</h2>
             <p class="text-lg text-gray-700 max-w-3xl mx-auto">Building trust through partnerships that last Creating a
                 network that serves millions"</p>
         </div>
 
-        <!-- Service Cards - Horizontal scrolling on mobile, grid on larger screens -->
-        <div
-            class="flex overflow-x-auto lg:grid lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 gap-4 lg:gap-6 pb-4 -mx-4 px-4 lg:mx-0 scrollbar-hide">
-            <!-- Banking Card -->
+        <!-- Service Cards - Fixed container to properly handle overflow -->
+        <div class="overflow-hidden">
             <div
-                class="product-tab bg-secondary-500 rounded-lg shadow-md px-6 py-4 flex flex-col items-center justify-center flex-shrink-0 w-40 sm:w-auto h-24 lg:h-auto transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden cursor-pointer">
-                <div class="flex justify-center items-center mb-4">
-                    <i class="fas fa-university text-2xl text-white"></i>
+                class="flex overflow-x-auto lg:grid lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 gap-4 lg:gap-6 scrollbar-hide">
+                <!-- Banking Card -->
+                <div
+                    class="product-tab bg-secondary-500 rounded-lg shadow-md px-6 py-4 flex flex-col items-center justify-center flex-shrink-0 w-40 sm:w-auto h-24 lg:h-auto transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden cursor-pointer">
+                    <div class="flex justify-center items-center mb-4">
+                        <i class="fas fa-university text-2xl text-white"></i>
+                    </div>
+                    <h3 class="font-semibold text-sm text-white text-center truncate w-full">Banking</h3>
                 </div>
-                <h3 class="font-semibold text-sm text-white text-center truncate w-full">Banking</h3>
-            </div>
 
-            <!-- Travel Booking Card -->
-            <div
-                class="product-tab bg-white rounded-lg shadow-sm border border-gray-200 px-6 py-4 flex flex-col items-center justify-center flex-shrink-0 w-40 sm:w-auto h-24 lg:h-auto transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden cursor-pointer">
-                <div class="flex justify-center items-center mb-4">
-                    <i class="fas fa-plane text-2xl text-primary-500"></i>
+                <!-- Travel Booking Card -->
+                <div
+                    class="product-tab bg-white rounded-lg shadow-sm border border-gray-200 px-6 py-4 flex flex-col items-center justify-center flex-shrink-0 w-40 sm:w-auto h-24 lg:h-auto transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden cursor-pointer">
+                    <div class="flex justify-center items-center mb-4">
+                        <i class="fas fa-plane text-2xl text-primary-500"></i>
+                    </div>
+                    <h3 class="font-semibold text-sm text-primary-600 text-center truncate w-full">Travel Booking</h3>
                 </div>
-                <h3 class="font-semibold text-sm text-primary-600 text-center truncate w-full">Travel Booking</h3>
-            </div>
 
-            <!-- Utility Payment Card -->
-            <div
-                class="product-tab bg-white rounded-lg shadow-sm border border-gray-200 px-6 py-4 flex flex-col items-center justify-center flex-shrink-0 w-40 sm:w-auto h-24 lg:h-auto transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden cursor-pointer">
-                <div class="flex justify-center items-center mb-4">
-                    <i class="fas fa-receipt text-2xl text-primary-500"></i>
+                <!-- Utility Payment Card -->
+                <div
+                    class="product-tab bg-white rounded-lg shadow-sm border border-gray-200 px-6 py-4 flex flex-col items-center justify-center flex-shrink-0 w-40 sm:w-auto h-24 lg:h-auto transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden cursor-pointer">
+                    <div class="flex justify-center items-center mb-4">
+                        <i class="fas fa-receipt text-2xl text-primary-500"></i>
+                    </div>
+                    <h3 class="font-semibold text-sm text-primary-600 text-center w-full break-words">Utility Payment</h3>
                 </div>
-                <h3 class="font-semibold text-sm text-primary-600 text-center truncate w-full">Utility Payment</h3>
-            </div>
 
-            <!-- E-Governance Card -->
-            <div
-                class="product-tab bg-white rounded-lg shadow-sm border border-gray-200 px-6 py-4 flex flex-col items-center justify-center flex-shrink-0 w-40 sm:w-auto h-24 lg:h-auto transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden cursor-pointer">
-                <div class="flex justify-center items-center mb-4">
-                    <i class="fas fa-landmark text-2xl text-primary-500"></i>
+                <!-- E-Governance Card -->
+                <div
+                    class="product-tab bg-white rounded-lg shadow-sm border border-gray-200 px-6 py-4 flex flex-col items-center justify-center flex-shrink-0 w-40 sm:w-auto h-24 lg:h-auto transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden cursor-pointer">
+                    <div class="flex justify-center items-center mb-4">
+                        <i class="fas fa-landmark text-2xl text-primary-500"></i>
+                    </div>
+                    <h3 class="font-semibold text-sm text-primary-600 text-center truncate w-full">E-Governance</h3>
                 </div>
-                <h3 class="font-semibold text-sm text-primary-600 text-center truncate w-full">E-Governance</h3>
-            </div>
 
-            <!-- Insurance Services Card -->
-            <div
-                class="product-tab bg-white rounded-lg shadow-sm border border-gray-200 px-6 py-4 flex flex-col items-center justify-center flex-shrink-0 w-40 sm:w-auto h-24 lg:h-auto transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden cursor-pointer">
-                <div class="flex justify-center items-center mb-4">
-                    <i class="fas fa-shield-alt text-2xl text-primary-500"></i>
+                <!-- Insurance Services Card -->
+                <div
+                    class="product-tab bg-white rounded-lg shadow-sm border border-gray-200 px-6 py-4 flex flex-col items-center justify-center flex-shrink-0 w-40 sm:w-auto h-24 lg:h-auto transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden cursor-pointer">
+                    <div class="flex justify-center items-center mb-4">
+                        <i class="fas fa-shield-alt text-2xl text-primary-500"></i>
+                    </div>
+                    <h3 class="font-semibold text-sm text-primary-600 text-center truncate w-full">Insurance Services</h3>
                 </div>
-                <h3 class="font-semibold text-sm text-primary-600 text-center truncate w-full">Insurance Services</h3>
-            </div>
 
-            <!-- ONDC Card -->
-            <div
-                class="product-tab bg-white rounded-lg shadow-sm border border-gray-200 px-6 py-4 flex flex-col items-center justify-center flex-shrink-0 w-40 sm:w-auto h-24 lg:h-auto transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden cursor-pointer">
-                <div class="flex justify-center items-center mb-4">
-                    <i class="fas fa-shopping-cart text-2xl text-primary-500"></i>
+                <!-- ONDC Card -->
+                <div
+                    class="product-tab bg-white rounded-lg shadow-sm border border-gray-200 px-6 py-4 flex flex-col items-center justify-center flex-shrink-0 w-40 sm:w-auto h-24 lg:h-auto transform transition-all duration-300 hover:shadow-lg hover:-translate-y-1 overflow-hidden cursor-pointer">
+                    <div class="flex justify-center items-center mb-4">
+                        <i class="fas fa-shopping-cart text-2xl text-primary-500"></i>
+                    </div>
+                    <h3 class="font-semibold text-sm text-primary-600 text-center truncate w-full">ONDC</h3>
                 </div>
-                <h3 class="font-semibold text-sm text-primary-600 text-center truncate w-full">ONDC</h3>
             </div>
         </div>
     </div>
@@ -277,7 +279,7 @@
     <!-- Content Sections - These will change when tabs are clicked -->
     <div class="mt-8">
         <!-- Banking Solutions Content -->
-        <div class="product-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="product-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="rounded-xl overflow-hidden bg-gradient-to-r from-red-50 to-red-100 shadow-md">
                 <div class="grid grid-cols-1 md:grid-cols-2">
                     <!-- Left Content - Services List -->
@@ -383,7 +385,7 @@
                 </div>
             </div>
         </div>
-        <!-- Banking Solutions Content -->
+        <!-- Travel Solutions Content -->
         <div class="product-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <div class="rounded-xl overflow-hidden bg-gradient-to-r from-red-50 to-red-100 shadow-md">
                 <div class="grid grid-cols-1 md:grid-cols-2">
@@ -406,7 +408,6 @@
                                 </div>
                                 <span class="ml-3 text-gray-700 font-medium">Train Ticket Bookings</span>
                             </div>
-                            <!-- More service items... (keep the rest of your banking services) -->
                             <div class="flex items-start">
                                 <div class="flex-shrink-0 mt-1">
                                     <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
@@ -454,7 +455,7 @@
                 </div>
             </div>
         </div>
-        <!-- Banking Solutions Content -->
+        <!-- Utility Solutions Content -->
         <div class="product-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <div class="rounded-xl overflow-hidden bg-gradient-to-r from-red-50 to-red-100 shadow-md">
                 <div class="grid grid-cols-1 md:grid-cols-2">
@@ -477,7 +478,6 @@
                                 </div>
                                 <span class="ml-3 text-gray-700 font-medium">Mobile Recharge</span>
                             </div>
-                            <!-- More service items... (keep the rest of your banking services) -->
                             <div class="flex items-start">
                                 <div class="flex-shrink-0 mt-1">
                                     <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
@@ -537,7 +537,7 @@
                 </div>
             </div>
         </div>
-        <!-- Banking Solutions Content -->
+        <!-- E-Governance Content -->
         <div class="product-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <div class="rounded-xl overflow-hidden bg-gradient-to-r from-red-50 to-red-100 shadow-md">
                 <div class="grid grid-cols-1 md:grid-cols-2">
@@ -560,7 +560,6 @@
                                 </div>
                                 <span class="ml-3 text-gray-700 font-medium">PAN Card (UTI)</span>
                             </div>
-                            <!-- More service items... (keep the rest of your banking services) -->
                             <div class="flex items-start">
                                 <div class="flex-shrink-0 mt-1">
                                     <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
@@ -584,7 +583,7 @@
                 </div>
             </div>
         </div>
-        <!-- Banking Solutions Content -->
+        <!-- Insurance Services Content -->
         <div class="product-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <div class="rounded-xl overflow-hidden bg-gradient-to-r from-red-50 to-red-100 shadow-md">
                 <div class="grid grid-cols-1 md:grid-cols-2">
@@ -607,7 +606,6 @@
                                 </div>
                                 <span class="ml-3 text-gray-700 font-medium">Motor Insurance</span>
                             </div>
-                            <!-- More service items... (keep the rest of your banking services) -->
                             <div class="flex items-start">
                                 <div class="flex-shrink-0 mt-1">
                                     <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
@@ -643,7 +641,7 @@
                 </div>
             </div>
         </div>
-        <!-- Banking Solutions Content -->
+        <!-- ONDC Platform Content -->
         <div class="product-content max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <div class="rounded-xl overflow-hidden bg-gradient-to-r from-red-50 to-red-100 shadow-md">
                 <div class="grid grid-cols-1 md:grid-cols-2">
@@ -655,7 +653,7 @@
                         <div class="space-y-4">
                             <!-- Service Items -->
                             <div class="flex items-start">
-                                <div class="flex-shrink-0 mt-1">
+                            <div class="flex-shrink-0 mt-1">
                                     <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
                                             viewBox="0 0 24 24" stroke="currentColor">
@@ -666,7 +664,6 @@
                                 </div>
                                 <span class="ml-3 text-gray-700 font-medium">E-Commerce Solutions</span>
                             </div>
-                            <!-- More service items... (keep the rest of your banking services) -->
                             <div class="flex items-start">
                                 <div class="flex-shrink-0 mt-1">
                                     <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
@@ -715,8 +712,6 @@
             </div>
         </div>
 
- 
-
         <!-- Continue with other sections... -->
     </div>
 </section>
@@ -737,9 +732,9 @@
         style="background: radial-gradient(circle, rgba(126, 194, 240, 0.7) 0%, rgba(222, 242, 255, 0.3) 40%, rgba(255, 255, 255, 0) 70%);">
     </div>
 
-    <div class="relative z-10 container px-4 sm:px-6 lg:px-8">
+    <div class="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8">
         <!-- Section Header -->
-        <div class="mx-0 sm:mx-4 md:mx-10 lg:mx-20">
+        <div class="mx-auto max-w-7xl">
             <div class="text-center mb-8 md:mb-12" data-aos="fade-up" data-aos-duration="800">
                 <h2 class="text-3xl md:text-4xl font-bold mb-3 md:mb-4">
                     <span class="text-primary-800">Why</span>

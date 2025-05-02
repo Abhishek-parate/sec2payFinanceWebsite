@@ -673,10 +673,6 @@ body {
   inset: 0px;
 }
 
-.-left-6 {
-  left: -1.5rem;
-}
-
 .-left-\[20\%\] {
   left: -20%;
 }
@@ -697,10 +693,6 @@ body {
   right: -2.5rem;
 }
 
-.-right-4 {
-  right: -1rem;
-}
-
 .-right-\[20\%\] {
   right: -20%;
 }
@@ -715,10 +707,6 @@ body {
 
 .-top-12 {
   top: -3rem;
-}
-
-.-top-6 {
-  top: -1.5rem;
 }
 
 .-top-\[20\%\] {
@@ -941,14 +929,13 @@ body {
   clear: none;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
 .-mx-4 {
   margin-left: -1rem;
   margin-right: -1rem;
-}
-
-.mx-0 {
-  margin-left: 0px;
-  margin-right: 0px;
 }
 
 .mx-1 {
@@ -3108,11 +3095,6 @@ body {
   background-color: rgb(253 233 231 / var(--tw-bg-opacity, 1));
 }
 
-.bg-secondary-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 167 160 / var(--tw-bg-opacity, 1));
-}
-
 .bg-secondary-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(241 87 68 / var(--tw-bg-opacity, 1));
@@ -3440,6 +3422,11 @@ body {
   padding: 2rem;
 }
 
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -3552,8 +3539,16 @@ body {
   padding-bottom: 1rem;
 }
 
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
 .pb-8 {
   padding-bottom: 2rem;
+}
+
+.pl-12 {
+  padding-left: 3rem;
 }
 
 .pl-2 {
@@ -3598,14 +3593,6 @@ body {
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pb-6 {
-  padding-bottom: 1.5rem;
-}
-
-.pl-12 {
-  padding-left: 3rem;
 }
 
 .text-left {
@@ -4049,10 +4036,6 @@ body {
 
 .opacity-50 {
   opacity: 0.5;
-}
-
-.opacity-60 {
-  opacity: 0.6;
 }
 
 .opacity-70 {
@@ -4899,17 +4882,16 @@ body {
     right: -20%;
   }
 
-  .sm\:mx-4 {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
   .sm\:mb-0 {
     margin-bottom: 0px;
   }
 
   .sm\:mb-12 {
     margin-bottom: 3rem;
+  }
+
+  .sm\:mb-2 {
+    margin-bottom: 0.5rem;
   }
 
   .sm\:mb-4 {
@@ -5216,11 +5198,6 @@ body {
   .md\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
-  }
-
-  .md\:mx-10 {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
   }
 
   .md\:mx-16 {
@@ -5637,16 +5614,6 @@ body {
 
   .lg\:col-span-7 {
     grid-column: span 7 / span 7;
-  }
-
-  .lg\:mx-0 {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
-  .lg\:mx-20 {
-    margin-left: 5rem;
-    margin-right: 5rem;
   }
 
   .lg\:mb-16 {
