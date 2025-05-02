@@ -161,7 +161,7 @@
           </li>
           <li class="flex items-start">
             <span class="mr-2">•</span>
-            <span>Quick settlement cycles</span>
+            <span>Bank-grade Security Standards</span>
           </li>
         </ul>
       </div>
