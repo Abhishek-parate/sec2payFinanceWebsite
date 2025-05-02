@@ -69,34 +69,43 @@
         <!-- Section Header -->
         <div class="text-center mb-12 z-10 relative">
             <h2 class="text-4xl font-bold text-primary-800 mb-6">Overview</h2>
-            <p class="text-gray-600 max-w-4xl mx-auto text-center leading-relaxed">
+            <p class="text-black text-xl max-w-4xl mx-auto text-center leading-relaxed">
             Sec2Pay’s Insurance Platform provides businesses with the ability to integrate a variety of insurance services, including health, motor, life, and specialty coverage. With tools for digital policy management and claims processing, businesses can deliver a seamless insurance experience to their customers.
             </p>
         </div>
         
-        <!-- Feature Cards positioned to straddle the boundary -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 relative" style="top: calc(60% - 12rem);">
-            <!-- Feature 1 -->
-            <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-100">
-                <p class="text-gray-600">
+        <!-- Feature Cards positioned to straddle the boundary -->         
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 relative" style="top: calc(60% - 12rem);">             
+    <!-- Feature 1 -->             
+    <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-100">                 
+        <div class="flex items-start">
+            <span class="text-primary-600 text-lg mr-3">•</span>
+            <p class="text-gray-600 text-xl">
                 Multi-product insurance offerings through a unified platform.
-                </p>
-            </div>
-            
-            <!-- Feature 2 -->
-            <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-100">
-                <p class="text-gray-600">
+            </p>
+        </div>           
+    </div>                          
+    
+    <!-- Feature 2 -->             
+    <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-100">                 
+        <div class="flex items-start">
+            <span class="text-primary-600 text-lg mr-3">•</span>
+            <p class="text-gray-600 text-xl">
                 Real-time policy issuance and claims tracking.
-                </p>
-            </div>
-            
-            <!-- Feature 3 -->
-            <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-100">
-                <p class="text-gray-600">
+            </p>
+        </div>             
+    </div>                          
+    
+    <!-- Feature 3 -->             
+    <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-100">                 
+        <div class="flex items-start">
+            <span class="text-primary-600 text-lg mr-3">•</span>
+            <p class="text-gray-600 text-xl">
                 End-to-end support for managing policies and customer inquiries.
-                </p>
-            </div>
-        </div>
+            </p>
+        </div>             
+    </div>             
+</div>
         
         <!-- CTA Button -->
         <div class="text-center relative" style="top: calc(60% - 12rem);">
@@ -126,7 +135,7 @@
                     Join Sec2pay today
                 </h1>
 
-                <p class="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 relative z-10" data-aos="fade-up"
+                <p class="text-base sm:text-lg text-gray-300 sm:mb-2 relative z-10" data-aos="fade-up"
                     data-aos-delay="300">
                     Start for free — upgrade anytime.
                 </p>

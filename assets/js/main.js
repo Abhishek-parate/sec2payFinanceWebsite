@@ -11,64 +11,73 @@ document.addEventListener('DOMContentLoaded', function() {
 /**
  * Initialize the mobile menu functionality
  */
+/**
+ * Initialize the mobile menu functionality
+ */
 function initMobileMenu() {
-    const menuButton = document.getElementById('mobile-menu-button');
-    const mobileMenuOverlay = document.getElementById('mobile-menu-overlay');
-    const mobileMenuPanel = document.getElementById('mobile-menu-panel');
-    const mobileMenuBackdrop = document.getElementById('mobile-menu-backdrop');
-    const closeMenuButton = document.getElementById('close-mobile-menu');
-    
-    // Function to open mobile menu
-    function openMobileMenu() {
-        // Prevent body scrolling when menu is open
-        document.body.style.overflow = 'hidden';
-        
-        // Show the menu overlay
-        mobileMenuOverlay.classList.remove('hidden');
-        
-        // Add animation classes
-        setTimeout(() => {
-            mobileMenuPanel.classList.add('translate-x-0');
-            mobileMenuPanel.classList.remove('translate-x-full');
-        }, 10);
-    }
-    
-    // Function to close mobile menu
-    function closeMobileMenu() {
-        // Add animation classes to slide out
-        mobileMenuPanel.classList.remove('translate-x-0');
-        mobileMenuPanel.classList.add('translate-x-full');
-        
-        // Hide the overlay after animation
-        setTimeout(() => {
-            mobileMenuOverlay.classList.add('hidden');
-            document.body.style.overflow = '';
-        }, 300);
-    }
-    
-    // Toggle menu on hamburger click
-    menuButton.addEventListener('click', openMobileMenu);
-    
-    // Close menu when clicking close button
-    closeMenuButton.addEventListener('click', closeMobileMenu);
-    
-    // Close menu when clicking backdrop
-    mobileMenuBackdrop.addEventListener('click', closeMobileMenu);
-    
-    // Close mobile menu on window resize
-    window.addEventListener('resize', function() {
-        if (window.innerWidth >= 768) {
-            closeMobileMenu();
-        }
-    });
-    
-    // Add initial transform class
-    mobileMenuPanel.classList.add('translate-x-full');
+  const menuButton = document.getElementById('mobile-menu-button');
+  const mobileMenuOverlay = document.getElementById('mobile-menu-overlay');
+  const mobileMenuPanel = document.getElementById('mobile-menu-panel');
+  const mobileMenuBackdrop = document.getElementById('mobile-menu-backdrop');
+  const closeMenuButton = document.getElementById('close-mobile-menu');
+  
+  // Check if necessary elements exist before proceeding
+  if (!menuButton || !mobileMenuOverlay || !mobileMenuPanel) {
+      console.log('Mobile menu elements not found in the DOM');
+      return; // Exit the function if elements don't exist
+  }
+  
+  // Function to open mobile menu
+  function openMobileMenu() {
+      // Prevent body scrolling when menu is open
+      document.body.style.overflow = 'hidden';
+      
+      // Show the menu overlay
+      mobileMenuOverlay.classList.remove('hidden');
+      
+      // Add animation classes
+      setTimeout(() => {
+          mobileMenuPanel.classList.add('translate-x-0');
+          mobileMenuPanel.classList.remove('translate-x-full');
+      }, 10);
+  }
+  
+  // Function to close mobile menu
+  function closeMobileMenu() {
+      // Add animation classes to slide out
+      mobileMenuPanel.classList.remove('translate-x-0');
+      mobileMenuPanel.classList.add('translate-x-full');
+      
+      // Hide the overlay after animation
+      setTimeout(() => {
+          mobileMenuOverlay.classList.add('hidden');
+          document.body.style.overflow = '';
+      }, 300);
+  }
+  
+  // Toggle menu on hamburger click
+  menuButton.addEventListener('click', openMobileMenu);
+  
+  // Close menu when clicking close button
+  if (closeMenuButton) {
+      closeMenuButton.addEventListener('click', closeMobileMenu);
+  }
+  
+  // Close menu when clicking backdrop
+  if (mobileMenuBackdrop) {
+      mobileMenuBackdrop.addEventListener('click', closeMobileMenu);
+  }
+  
+  // Close mobile menu on window resize
+  window.addEventListener('resize', function() {
+      if (window.innerWidth >= 768) {
+          closeMobileMenu();
+      }
+  });
+  
+  // Add initial transform class
+  mobileMenuPanel.classList.add('translate-x-full');
 }
-
-
-
-
 
 // Add this script to your website's JavaScript file or include it in a script tag at the end of your body
 
@@ -257,15 +266,19 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 
-
-     // This ensures the infinite scroll is perfectly seamless
-     document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function() {
       const logosSlide = document.querySelector('.logos-slide');
+      const logosContainer = document.querySelector('.logos-container');
       
-      // Check if there are enough logos to cover the width of the container
-      // If not, clone more sets until there are enough
+      // Only proceed if both elements exist
+      if (!logosSlide || !logosContainer) {
+          console.log('Logos slider elements not found');
+          return;
+      }
+      
+      // Function to ensure enough logos
       const ensureEnoughLogos = () => {
-          const containerWidth = document.querySelector('.logos-container').offsetWidth;
+          const containerWidth = logosContainer.offsetWidth;
           const slideWidth = logosSlide.offsetWidth;
           
           // If the slide is not at least twice as wide as the container, clone more logos
@@ -566,13 +579,34 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 });
 
-// Enhanced Tabbed Interface with Horizontal Scrolling
+// Product tabs navigation with fixes for white patch and proper scrolling
 document.addEventListener('DOMContentLoaded', function() {
   // Get all tab cards
   const tabCards = document.querySelectorAll('.product-tab');
-  
+  // Get the tab container
+  const tabsContainer = document.querySelector('.flex.overflow-x-auto');
   // Get all content sections
   const contentSections = document.querySelectorAll('.product-content');
+  
+  // Fix horizontal scrolling issues that cause white patch
+  if (tabsContainer) {
+    // Add Tailwind classes instead of inline styles
+    tabsContainer.classList.add('bg-white', 'relative', 'z-10', 'py-2', 'px-0', 'm-0', 'scrollbar-hide');
+    
+    // Remove problematic classes that might cause overflow issues
+    tabsContainer.classList.remove('px-4', '-mx-4', 'whitespace-nowrap');
+    
+    // Add proper containment to the parent
+    const parentContainer = tabsContainer.parentElement;
+    if (parentContainer) {
+      parentContainer.classList.add('bg-white', 'relative', 'overflow-hidden');
+    }
+    
+    // Add proper spacing to tab cards
+    tabCards.forEach(card => {
+      card.classList.add('mx-1', 'flex-shrink-0', 'z-20', 'relative');
+    });
+  }
   
   // Initialize - show only the first tab's content
   contentSections.forEach((section, index) => {
@@ -605,26 +639,39 @@ document.addEventListener('DOMContentLoaded', function() {
   }
   
   // Function to scroll tab into view when selected (for mobile)
-  const scrollTabIntoView = (tab) => {
-    if (window.innerWidth < 1024) { // Only for screens smaller than lg breakpoint
-      tab.scrollIntoView({
-        behavior: 'smooth',
-        block: 'nearest',
-        inline: 'center'
+  const scrollTabIntoView = (tab, event) => {
+    if (window.innerWidth < 1024 && tabsContainer) {
+      // Prevent default behavior that might cause page scroll
+      if (event) event.preventDefault();
+      
+      // Instead of using scrollIntoView, manually center the tab
+      const tabRect = tab.getBoundingClientRect();
+      const containerRect = tabsContainer.getBoundingClientRect();
+      
+      // Calculate the center position
+      const targetScrollLeft = tab.offsetLeft - (containerRect.width / 2) + (tabRect.width / 2);
+      
+      // Smooth scroll with native API
+      tabsContainer.scrollTo({
+        left: targetScrollLeft,
+        behavior: 'smooth'
       });
+      
+      // Prevent scrolling the entire page
+      return false;
     }
   };
   
   // Add click event to each tab
   tabCards.forEach((tab, index) => {
-    tab.addEventListener('click', () => {
+    tab.addEventListener('click', (event) => {
       // Skip if clicking the already active tab
       if (tab.classList.contains('bg-secondary-500')) {
         return;
       }
       
       // Scroll the tab into center view on mobile
-      scrollTabIntoView(tab);
+      scrollTabIntoView(tab, event);
       
       // Reset all tabs to inactive state
       tabCards.forEach(card => {
@@ -708,6 +755,22 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
+  
+  // Add the scrollbar-hide utility class if it doesn't exist
+  if (!document.getElementById('scrollbar-hide-style')) {
+    const style = document.createElement('style');
+    style.id = 'scrollbar-hide-style';
+    style.textContent = `
+      .scrollbar-hide {
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+      }
+      .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+      }
+    `;
+    document.head.appendChild(style);
+  }
 });
 
 
@@ -768,31 +831,35 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
-  // Toggle between monthly and annual pricing
+document.addEventListener('DOMContentLoaded', function() {
   const billingToggle = document.getElementById('billing-toggle');
   const monthlyPrices = document.querySelectorAll('.monthly-price');
   const annualPrices = document.querySelectorAll('.annual-price');
   
-  billingToggle.addEventListener('change', function() {
-      if (this.checked) {
-          // Annual pricing
-          monthlyPrices.forEach(el => el.classList.add('hidden'));
-          annualPrices.forEach(el => el.classList.remove('hidden'));
-      } else {
-          // Monthly pricing
-          monthlyPrices.forEach(el => el.classList.remove('hidden'));
-          annualPrices.forEach(el => el.classList.add('hidden'));
-      }
-      
-      // Add pulse animation to prices
-      const visiblePrices = this.checked ? annualPrices : monthlyPrices;
-      visiblePrices.forEach(el => {
-          el.classList.add('animate-pulse-scale');
-          setTimeout(() => {
-              el.classList.remove('animate-pulse-scale');
-          }, 400);
+  // Check if billing toggle exists before adding event listener
+  if (billingToggle) {
+      billingToggle.addEventListener('change', function() {
+          if (this.checked) {
+              // Annual pricing
+              monthlyPrices.forEach(el => el.classList.add('hidden'));
+              annualPrices.forEach(el => el.classList.remove('hidden'));
+          } else {
+              // Monthly pricing
+              monthlyPrices.forEach(el => el.classList.remove('hidden'));
+              annualPrices.forEach(el => el.classList.add('hidden'));
+          }
+          
+          // Add pulse animation to prices
+          const visiblePrices = this.checked ? annualPrices : monthlyPrices;
+          visiblePrices.forEach(el => {
+              el.classList.add('animate-pulse-scale');
+              setTimeout(() => {
+                  el.classList.remove('animate-pulse-scale');
+              }, 400);
+          });
       });
-  });
+  }
+});
 
 
   document.addEventListener('DOMContentLoaded', function() {
