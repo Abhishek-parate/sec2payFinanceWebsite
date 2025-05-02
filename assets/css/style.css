@@ -3281,6 +3281,10 @@ body {
   --tw-gradient-to: #f8a7a0 var(--tw-gradient-to-position);
 }
 
+.to-secondary-500 {
+  --tw-gradient-to: #f15744 var(--tw-gradient-to-position);
+}
+
 .to-secondary-600 {
   --tw-gradient-to: #d94e3c var(--tw-gradient-to-position);
 }
@@ -3594,6 +3598,14 @@ body {
 
 .pt-6 {
   padding-top: 1.5rem;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
+.pl-12 {
+  padding-left: 3rem;
 }
 
 .text-left {

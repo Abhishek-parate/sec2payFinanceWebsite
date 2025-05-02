@@ -77,112 +77,109 @@
 
 <!-- hero section ends -->
 
+<!-- E-Governance Platform Services Section -->
+<section class="bg-secondary-100 py-10 px-4 md:px-24">
+    <div class="container mx-auto px-6 ">
+        <h2 class="text-3xl font-bold text-primary-700 mb-8 text-center">Key Platform Features</h2>
 
-<!-- Why Choose Sec2Pay Account Opening Platform Service -->
-<section class="py-12 mb-12 mt-6 bg-secondary-100">
-    <div class="max-w-6xl mx-auto px-4">
-        <h2 class="text-3xl md:text-4xl font-bold text-primary-700 text-center mb-8">Features & Functions</h2>
-        
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-            <!-- Feature 1 - Instant Account Creation -->
-            <div class="p-4">
-                <h3 class="text-xl font-semibold text-primary-500 mb-3">Smart Shopping</h3>
-                <p class="text-primary-900">
-                Enable buyers to compare prices and purchase from trusted local stores.
-                </p>
-            </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <!-- PAN Card Services -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
+                <!-- Icon and Title - Vertical Alignment -->
+                <div class="text-left mb-2">
+                    <h2 class="text-xl font-semibold text-red-500">Digital Policy Issuance</h2>
+                </div>
+                <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>Real-time policy generation</li>
+                        <li>Paperless documentation</li>
+                        <li>Instant customer verification</li>
+                    </ul>            </div>
+            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
+                <!-- Icon and Title - Vertical Alignment -->
+                <div class="text-left mb-2">
+                    <h2 class="text-xl font-semibold text-red-500">Multi-insurer Integration</h2>
+                </div>
+                <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>Access multiple insurance providers</li>
+                        <li>Compare policy features</li>
+                        <li>Customized coverage options</li>
+                    </ul>            </div>
+            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
+                <!-- Icon and Title - Vertical Alignment -->
+                <div class="text-left mb-2">
+                    <h2 class="text-xl font-semibold text-red-500">Claim Processing Support</h2>
+                </div>
+                <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>Digital claim filing</li>
+                        <li>Status tracking</li>
+                        <li>Documentation assistance</li>
+                    </ul>            </div>
             
-            <!-- Feature 2 - Digital KYC Process -->
-            <div class="p-4">
-                <h3 class="text-xl font-semibold text-primary-500 mb-3">Secure Payments</h3>
-                <p class="text-primary-900">
-                Provide multiple payment options with secure transactions.
-                </p>
-            </div>
-            
-            <!-- Feature 3 - Multiple Bank Options -->
-            <div class="p-4">
-                <h3 class="text-xl font-semibold text-primary-500 mb-3">Real-Time Updates</h3>
-                <p class="text-primary-900">
-                Ensure buyers receive live updates on orders and deliveries.
-                </p>
-            </div>
         </div>
     </div>
 </section>
 
 
-  <!-- Services Section with White Background -->
-  <section class="bg-white py-16 px-4">
-        <div class="max-w-6xl mx-auto">
-            <div class="flex flex-col md:flex-row">
-                <!-- Left Column - Services List -->
-                <div class="w-full md:w-1/2 pr-0 md:pr-8 mb-8 md:mb-0">
-                    <h2 class="text-4xl font-bold text-[#1F3262] mb-8">Services</h2>
-                    
-                    <ul class="space-y-4">
-                        <!-- Service Item 1 -->
-                        <li class="flex items-start">
-                            <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center mt-0.5">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
-                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                            </div>
-                            <span class="ml-3 text-gray-700">Store and product discovery tools</span>
-                        </li>
-                        
-                        <!-- Service Item 2 -->
-                        <li class="flex items-start">
-                        <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center mt-0.5">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
-                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                            </div>
-                            <span class="ml-3 text-gray-700">Price comparison functionalities</span>
-                        </li>
-                        
-                        <!-- Service Item 3 -->
-                        <li class="flex items-start">
-                        <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center mt-0.5">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
-                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                            </div>
-                            <span class="ml-3 text-gray-700">Easy return and refund management</span>
-                        </li>
-                        
-                        <!-- Service Item 4 -->
-                        <li class="flex items-start">
-                        <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center mt-0.5">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
-                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                            </div>
-                            <span class="ml-3 text-gray-700">24/7 customer support</span>
-                        </li>
+<!-- Features & Functions Section -->
+<section class="bg-white px-4 md:px-24 my-12">
+    <div class="container mx-auto px-6 text-center">    
+        
+    <h2 class="text-3xl font-bold text-primary-700 mb-8 text-center">Key Platform Features</h2>
+    
+        <!-- Updated grid with proper centering -->
+        <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Feature Card 1 -->
+            <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <img src="assets/images/health-insurance/partner.png"
+                    alt="Mobile Recharge"
+                    class="w-full object-contain rounded-t-lg">
+                <div class="p-6 text-left">
+                    <h3 class="text-primary-600 font-semibold text-xl mb-4">Partner Benefits</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>Commission on every policy sold</li>
+                        <li>No infrastructure investment needed</li>
+                        <li>Complete training support</li>
+                        <li>Digital policy management tools</li>
+                        <li>Multiple insurance products access</li>
                     </ul>
-                    
-                    <!-- CTA Button -->
-                    <div>
-                                <a href="#" class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 mt-6 rounded-md transition duration-300">Shop Now</a>
-                            </div>
                 </div>
-                
-                <!-- Right Column - Image -->
-                <div class="w-full md:w-1/2">
-                    <div class=" p-8 rounded-xl">
-                        <img src="assets/images/ondc-ecommerce-buyer/service.png" alt="E-commerce services" class="w-full h-auto" onerror="this.onerror=null; this.src='/api/placeholder/550/350'; this.alt='E-commerce services placeholder'">
-                    </div>
+            </div>
+            
+            <!-- Feature Card 2 -->
+            <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <img src="assets/images/health-insurance/business.png"
+                    alt="DTH Recharge"
+                    class="w-full object-contain rounded-t-lg">
+                <div class="p-6 text-left">
+                    <h3 class="text-primary-600 font-semibold text-xl mb-4">Business Growth Metrics</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>50,000+ Active Insurance Partners</li>
+                        <li>₹10Cr+ Premium Processed Monthly</li>
+                        <li>98% Claims Settlement Rate</li>
+                        <li>Pan-India Coverage</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Feature Card 3 -->
+            <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <img src="assets/images/health-insurance/success.png"
+                    alt="Data Card Recharge"
+                    class="w-full object-contain rounded-t-lg">
+                <div class="p-6 text-left">
+                    <h3 class="text-primary-600 font-semibold text-xl mb-4">Partner Success Program</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>Comprehensive product training</li>
+                        <li>Marketing support materials</li>
+                        <li>Dedicated relationship manager</li>
+                        <li>Regular performance analysis</li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </section>
-
-
+    </div>
+</section>
 
 <!-- FAQ Section -->
 <section class="py-16 max-w-3xl mx-auto px-4">
@@ -196,17 +193,18 @@
         <?php
         $faqItems = [
             [
-                'question' => 'What is a Cash Management System?',
-                'answer' => 'A: CMS is a digital platform that helps businesses manage their financial operations, including collections, payments, and reconciliation, through a single interface.',
+                'question' => 'What documentation is needed to become an
+insurance partner?',
+                'answer' => 'Required documents include PAN card, Aadhar card, bank account details, and address proof. Our team guides you through the registration process.',
                 'isOpen' => true
             ],
             [
-                'question' => ' How secure is the CMS platform?',
+                'question' => 'How long does partner onboarding take?',
                 'answer' => 'You can offer AEPS services once you\'ve completed the registration process and have the necessary equipment set up. This typically includes having a biometric device and completing the verification process.',
                 'isOpen' => false
             ],
             [
-                'question' => 'Can I integrate CMS with my existing business software?',
+                'question' => 'What is the commission structure?',
                 'answer' => 'To start offering AEPS services, you\'ll need a smartphone or computer, a biometric device for fingerprint authentication, a reliable internet connection, and valid documentation for registration.',
                 'isOpen' => false
             ]
@@ -238,7 +236,7 @@
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-secondary-700 to-secondary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+        <div class="bg-gradient-to-br from-secondary-600 to-secondary-500 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
             data-aos="fade-up" data-aos-duration="1000">
 
             <!-- Stars Background SVG -->
