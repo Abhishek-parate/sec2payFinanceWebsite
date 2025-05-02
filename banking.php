@@ -149,46 +149,46 @@
 
 
 <!-- Banking Services Section -->
-<section class="bg-primary-600 text-white py-20 flex items-center">
-    <div class="container mx-auto px-4 md:px-6">
-        <div class="md:pl-24">
-            <h1 class="text-4xl md:text-5xl font-bold mb-10" data-aos="fade-up" data-aos-duration="800">Built for the Banking</h1>
+<section class="bg-primary-600 text-white py-16">
+    <div class="max-w-7xl mx-auto px-4 md:px-8">
+        <div class="md:px-6">
+            <h1 class="text-4xl md:text-5xl font-bold mb-10" data-aos="fade-up" data-aos-duration="800">Built for Banking</h1>
             <!-- Banking Services Tabs -->
             <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-                <!-- Tab Buttons -->
-                <div class="flex flex-wrap mb-8 gap-2 md:gap-3">
-                    <button
-                        class="tab-btn px-5 py-3 bg-secondary-500 text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none active"
-                        data-tab="aeps">
-                        <span>AePS: Aadhaar enable payment system</span>
-                    </button>
-                    <button
-                        class="tab-btn px-5 py-3 bg-transparent text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
-                        data-tab="aadhaar-pay">
-                        <span>Aadhaar Pay</span>
-                    </button>
-                    <button
-                        class="tab-btn px-5 py-3 bg-transparent text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
-                        data-tab="micro-atm">
-                        <span>Micro ATM Services</span>
-                    </button>
-                    <button
-                        class="tab-btn px-5 py-3 bg-transparent text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
-                        data-tab="money-transfer">
-                        <span>Domestic Money Transfer</span>
-                    </button>
-                    <button
-                        class="tab-btn px-5 py-3 bg-transparent text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
-                        data-tab="business-banking">
-                        <span>Business Banking</span>
-                    </button>
-                </div>
+               <!-- Tab Buttons -->
+<div class="flex flex-wrap mb-8 gap-2 md:gap-3">
+    <button
+        class="tab-btn px-5 py-3 bg-secondary-500 text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none active"
+        data-tab="aeps">
+        <span>AePS: Aadhaar enable payment system</span>
+    </button>
+    <button
+        class="tab-btn px-5 py-3 bg-primary-600 text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
+        data-tab="aadhaar-pay">
+        <span>Aadhaar Pay</span>
+    </button>
+    <button
+        class="tab-btn px-5 py-3 bg-primary-600 text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
+        data-tab="micro-atm">
+        <span>Micro ATM Services</span>
+    </button>
+    <button
+        class="tab-btn px-5 py-3 bg-primary-600 text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
+        data-tab="money-transfer">
+        <span>Domestic Money Transfer</span>
+    </button>
+    <button
+        class="tab-btn px-5 py-3 bg-primary-600 text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
+        data-tab="business-banking">
+        <span>Business Banking</span>
+    </button>
+</div>
 
                 <!-- Tab Content -->
-                <div class="relative overflow-hidden px-4 md:px-6">
-            <!-- AePS Tab Content -->
-            <div class="tab-pane block opacity-100 transition-opacity duration-300" id="aeps">
-              <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="relative overflow-hidden">
+                    <!-- AePS Tab Content -->
+                    <div class="tab-pane block opacity-100 transition-opacity duration-300" id="aeps">
+                        <div class="flex flex-col md:flex-row items-center gap-8">
                             <div class="w-full md:w-1/2">
                                 <h3 class="text-2xl md:text-3xl font-semibold mb-4">AePS</h3>
                                 <ul class="space-y-4">
@@ -281,7 +281,6 @@
                         <div class="flex flex-col md:flex-row items-center gap-8">
                             <div class="w-full md:w-1/2">
                                 <h3 class="text-2xl md:text-3xl font-semibold mb-4">Micro ATM Services</h3>
-
                                 <ul class="space-y-4">
                                     <li class="flex items-center">
                                         <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
@@ -327,7 +326,6 @@
                         <div class="flex flex-col md:flex-row items-center gap-8">
                             <div class="w-full md:w-1/2">
                                 <h3 class="text-2xl md:text-3xl font-semibold mb-4">Domestic Money Transfer</h3>
-
                                 <ul class="space-y-4">
                                     <li class="flex items-center">
                                         <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
@@ -370,7 +368,7 @@
 
                     <!-- Business Banking Tab Content -->
                     <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="business-banking">
-                        <div class="flex flex-col md:flex-row items-center ">
+                        <div class="flex flex-col md:flex-row items-center gap-8">
                             <div class="w-full md:w-1/2">
                                 <h3 class="text-2xl md:text-3xl font-semibold mb-4">Business Banking</h3>
                                 <ul class="space-y-4">
