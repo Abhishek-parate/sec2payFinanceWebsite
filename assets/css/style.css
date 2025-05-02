@@ -673,10 +673,6 @@ body {
   inset: 0px;
 }
 
-.-left-6 {
-  left: -1.5rem;
-}
-
 .-left-\[20\%\] {
   left: -20%;
 }
@@ -697,10 +693,6 @@ body {
   right: -2.5rem;
 }
 
-.-right-4 {
-  right: -1rem;
-}
-
 .-right-\[20\%\] {
   right: -20%;
 }
@@ -715,10 +707,6 @@ body {
 
 .-top-12 {
   top: -3rem;
-}
-
-.-top-6 {
-  top: -1.5rem;
 }
 
 .-top-\[20\%\] {
@@ -994,6 +982,10 @@ body {
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.-mt-1 {
+  margin-top: -0.25rem;
 }
 
 .-mt-48 {
@@ -1395,6 +1387,10 @@ body {
   width: 0.25rem;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -1554,10 +1550,6 @@ body {
 
 .max-w-\[1226px\] {
   max-width: 1226px;
-}
-
-.max-w-\[50\%\] {
-  max-width: 50%;
 }
 
 .max-w-full {
@@ -3108,11 +3100,6 @@ body {
   background-color: rgb(253 233 231 / var(--tw-bg-opacity, 1));
 }
 
-.bg-secondary-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 167 160 / var(--tw-bg-opacity, 1));
-}
-
 .bg-secondary-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(241 87 68 / var(--tw-bg-opacity, 1));
@@ -3552,8 +3539,16 @@ body {
   padding-bottom: 1rem;
 }
 
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
 .pb-8 {
   padding-bottom: 2rem;
+}
+
+.pl-12 {
+  padding-left: 3rem;
 }
 
 .pl-2 {
@@ -3600,12 +3595,8 @@ body {
   padding-top: 1.5rem;
 }
 
-.pb-6 {
-  padding-bottom: 1.5rem;
-}
-
-.pl-12 {
-  padding-left: 3rem;
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-left {
@@ -4049,10 +4040,6 @@ body {
 
 .opacity-50 {
   opacity: 0.5;
-}
-
-.opacity-60 {
-  opacity: 0.6;
 }
 
 .opacity-70 {
@@ -4992,10 +4979,6 @@ body {
     min-width: 0px;
   }
 
-  .sm\:max-w-full {
-    max-width: 100%;
-  }
-
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -5085,6 +5068,10 @@ body {
   .sm\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .sm\:pt-12 {
+    padding-top: 3rem;
   }
 
   .sm\:pt-20 {
@@ -5382,6 +5369,18 @@ body {
 
   .md\:w-\[80\%\] {
     width: 80%;
+  }
+
+  .md\:w-48 {
+    width: 12rem;
+  }
+
+  .md\:w-8 {
+    width: 2rem;
+  }
+
+  .md\:w-96 {
+    width: 24rem;
   }
 
   .md\:max-w-sm {

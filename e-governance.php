@@ -24,9 +24,9 @@
     <main>
 
         <!-- hero section -->
-        <section class="bg-white px-4 sm:px-6 py-8 sm:py-12" data-aos="fade-up">
+        <section class="bg-white px-4 sm:px-6 pt-8 sm:pt-12" data-aos="fade-up">
             <div class="max-w-7xl mx-auto">
-                <div class="rounded-xl overflow-hidden">
+                <div class="rounded-xl overflow-hidden mt-8">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-0">
                         <!-- Left Content - Services List -->
                         <div class="p-6 sm:p-8 md:p-12 flex flex-col justify-center" data-aos="fade-right">
@@ -413,8 +413,7 @@
                             <!-- Plan Icon and Title -->
                             <div class="flex items-center mb-6">
                                 <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
-                                    <div
-                                        class="w-10 h-10  overflow-hidden flex">
+                                    <div class="w-10 h-10  overflow-hidden flex">
                                         <img src="assets/images/utility-services-page/icon1.png"
                                             alt="Basic Partner Icon">
                                     </div>
@@ -476,11 +475,6 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                <p class="text-xl font-bold text-gray-700 mb-1">Starting at</p>
-                                <div class="flex items-end mb-6">
-                                    <span class="text-4xl font-bold text-gray-900 monthly-price">₹15,000</span>
-                                    <span class="text-4xl font-bold text-gray-900 annual-price hidden">₹20,000</span>
-                                </div>
                                 <a href="#"
                                     class="block w-full py-3 px-4 bg-primary-500 hover:bg-primary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                                     Get started
@@ -567,12 +561,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                <p class="text-xl font-bold text-white text-opacity-90 mb-1">Starting at</p>
-                                <div class="flex items-end mb-6">
-                                    <span class="text-4xl font-bold text-white monthly-price">₹50,000</span>
-                                    <span class="text-4xl font-bold text-white annual-price hidden">₹40,000</span>
-                                </div>
-                                <a href="#"
+                                 <a href="#"
                                     class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-primary-600 font-medium text-center rounded-full transition-colors duration-300">
                                     Get started
                                 </a>
@@ -587,8 +576,7 @@
                             <!-- Plan Icon and Title -->
                             <div class="flex items-center mb-6">
                                 <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
-                                    <div
-                                        class="w-10 h-10  overflow-hidden flex">
+                                    <div class="w-10 h-10  overflow-hidden flex">
                                         <img src="assets/images/utility-services-page/icon1.png"
                                             alt="Enterprise Partner Icon">
                                     </div>
@@ -650,11 +638,6 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                <p class="text-xl font-bold text-gray-700 mb-1">Starting at</p>
-                                <div class="flex items-end mb-6">
-                                    <span class="text-4xl font-bold text-gray-900 monthly-price">₹1,00,000</span>
-                                    <span class="text-4xl font-bold text-gray-900 annual-price hidden">₹80,000</span>
-                                </div>
                                 <a href="#"
                                     class="block w-full py-3 px-4 bg-primary-500 hover:bg-primary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                                     Get started
