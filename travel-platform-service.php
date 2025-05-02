@@ -35,7 +35,7 @@
                     <p class="font-semi-bolder text-primary-600 font-bold">Travel Platform Services</p>
                     <h1 class="text-4xl font-bold text-secondary-600 ">Turn Your Business Into a</h1>
                     <h1 class="text-4xl font-bold text-secondary-600 mb-4">Travel Booking Destination</h1>
-                    <p class="text-gray-500 mb-8">Enable your business to provide seamless travel booking services.</p>
+                    <p class=" mb-8">Enable your business to provide seamless travel booking services.</p>
 
                     <a href="#"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
@@ -89,7 +89,7 @@
         <!-- Section Header -->
         <div class="text-center mb-12 z-10 relative">
             <h2 class="text-4xl font-bold text-primary-800 mb-6">Overview</h2>
-            <p class="text-gray-600 max-w-4xl mx-auto text-center leading-relaxed">
+            <p class=" max-w-4xl mx-auto text-center leading-relaxed font-semibold  text-xl">
             Sec2Pay’s Travel Platform allows enterprises to incorporate travel booking solutions, including IRCTC train bookings, flight reservations, bus tickets, and hotel stays, into their services. With real-time booking capabilities and direct integrations, businesses can offer end-to-end travel solutions to their customers.
             </p>
         </div>
@@ -98,21 +98,21 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 relative" style="top: calc(60% - 12rem);">
             <!-- Feature 1 -->
             <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-100">
-                <p class="text-gray-600 text-center">
+                <p class=" text-center text-2xl">
                 Real-time ticketing for</br> trains, flights, and</br> buses.
                 </p>
             </div>
             
             <!-- Feature 2 -->
             <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-100">
-                <p class="text-gray-600 text-center">
+                <p class=" text-center text-2xl">
                 Multi-operator</br> support for streamlined </br>bookings.
                 </p>
             </div>
             
             <!-- Feature 3 -->
             <div class="bg-white rounded-xl p-8 shadow-sm border border-gray-100">
-                <p class="text-gray-600 text-center">
+                <p class=" text-center text-2xl">
                 Analytics tools</br> to track bookings </br>and revenue
                 </p>
             </div>

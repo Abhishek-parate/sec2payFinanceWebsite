@@ -929,14 +929,13 @@ body {
   clear: none;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
 .-mx-4 {
   margin-left: -1rem;
   margin-right: -1rem;
-}
-
-.mx-0 {
-  margin-left: 0px;
-  margin-right: 0px;
 }
 
 .mx-1 {
@@ -3417,6 +3416,11 @@ body {
   padding: 2rem;
 }
 
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -3583,14 +3587,6 @@ body {
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pt-8 {
-  padding-top: 2rem;
-}
-
-.pt-12 {
-  padding-top: 3rem;
 }
 
 .text-left {
@@ -4880,17 +4876,16 @@ body {
     right: -20%;
   }
 
-  .sm\:mx-4 {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
   .sm\:mb-0 {
     margin-bottom: 0px;
   }
 
   .sm\:mb-12 {
     margin-bottom: 3rem;
+  }
+
+  .sm\:mb-2 {
+    margin-bottom: 0.5rem;
   }
 
   .sm\:mb-4 {
@@ -5197,11 +5192,6 @@ body {
   .md\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
-  }
-
-  .md\:mx-10 {
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
   }
 
   .md\:mx-16 {
@@ -5639,16 +5629,6 @@ body {
 
   .lg\:col-span-7 {
     grid-column: span 7 / span 7;
-  }
-
-  .lg\:mx-0 {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
-  .lg\:mx-20 {
-    margin-left: 5rem;
-    margin-right: 5rem;
   }
 
   .lg\:mb-16 {

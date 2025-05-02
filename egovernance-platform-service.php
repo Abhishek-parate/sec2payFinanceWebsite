@@ -30,7 +30,7 @@
     <div class="rounded-xl overflow-hidden">
       <div class="flex flex-col items-center text-center">
         <!-- Left Content - Services List -->
-        <div class="p-8 md:p-12 mt-12 max-w-2xl">
+        <div class="p-8 md:p-12 mt-12 max-w-3xl">
           <h1 class="text-4xl font-bold text-secondary-600">Enable Access to Vital Government</h1>
           <h1 class="text-4xl font-bold text-secondary-600 mb-4">Services Through Your Business</h1>
           <p class="text-gray-500 mb-8">Integrate e-governance solutions to simplify services for citizens</p>
@@ -83,7 +83,7 @@
         <!-- Section Header -->
         <div class="text-center mb-12 z-10 relative">
             <h2 class="text-4xl font-bold text-primary-800 mb-6">Start Your E-Governance Journey</h2>
-            <p class="text-gray-600 max-w-4xl mx-auto text-center leading-relaxed">
+            <p class="text-white max-w-4xl mx-auto text-center leading-relaxed">
             Sec2Pay’s E-Governance Platform equips businesses to integrate critical government services, such as PAN card applications, Aadhaar updates, GST filings, and document verifications. With secure and scalable tools, enterprises can offer these essential services as part of their business operations.
             </p>
         </div>
@@ -114,7 +114,7 @@
         
         <!-- CTA Button -->
         <div class="text-center relative" style="top: calc(60% - 12rem);">
-            <a href="#" class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-md transition duration-300">
+            <a href="https://app.sec2pay.in/?src=website" target="_blank" class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-md transition duration-300">
             Learn More
             </a>
         </div>
@@ -140,14 +140,14 @@
                     Join Sec2pay today
                 </h1>
 
-                <p class="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 relative z-10" data-aos="fade-up"
+                <p class="text-base sm:text-lg text-gray-300 sm:mb-2 relative z-10" data-aos="fade-up"
                     data-aos-delay="300">
                     Start for free — upgrade anytime.
                 </p>
 
                 <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
                     <p class="text-gray-300 mb-4 sm:mb-6">
-                        <a href="#" class="underline hover:text-white transition">
+                        <a href="/contact-us.php" class="underline hover:text-white transition">
                             Joining as an organization? Contact Sales
                         </a>
                     </p>
