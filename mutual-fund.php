@@ -194,7 +194,7 @@
         </section>
 
         <!-- Platform Services Section -->
-        <section class="py-16 px-4 bg-white"   data-aos="fade-up" 
+        <section class="py-10 px-4 bg-white"   data-aos="fade-up" 
                  data-aos-duration="800" 
                  data-aos-delay="100">
             <!-- Increased max-width from max-w-6xl to max-w-7xl -->

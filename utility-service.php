@@ -686,7 +686,7 @@
 
         <!-- Join India's Growing -->
         <section class="bg-secondary-600 text-white min-h-[300px] md:min-h-[400px]">
-            <div class="container mx-auto px-4 md:px-6 py-16 lg:py-20">
+            <div class="container mx-auto px-4 md:px-6 py-10 lg:py-20">
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
                     <!-- Left Section - Heading and CTA -->
                     <div class="lg:col-span-5 space-y-6" data-aos="fade-right" data-aos-duration="800"

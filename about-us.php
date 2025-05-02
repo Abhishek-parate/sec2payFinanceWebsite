@@ -152,7 +152,7 @@
   </div>
 </section>
 
-    <section class="bg-red-500 w-full mx-auto px-4 py-16">
+    <section class="bg-red-500 w-full mx-auto px-4 py-10">
       <div class="max-w-[1226px] mx-auto px-6">
         <!-- Section Title -->
         <h3 class="text-white text-4xl font-bold leading-[51px]">

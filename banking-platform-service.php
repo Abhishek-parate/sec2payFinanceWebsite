@@ -90,7 +90,7 @@
         <!-- hero section ends -->
 
         <!-- Banking Overview Section with Split Background -->
-        <section class="relative py-12 md:py-16">
+        <section class="relative py-12 md:py-12">
             <!-- Top background - light blue -->
             <div class="absolute top-0 left-0 right-0 h-[60%] bg-primary-100"></div>
             <!-- Bottom background - white -->

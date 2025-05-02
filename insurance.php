@@ -320,7 +320,7 @@
 </section>
 
 
-<section class="py-16 px-4">
+<section class="py-10 px-4">
     <div class="max-w-6xl mx-auto">
         <!-- Header -->
         <div class="text-center mb-12">

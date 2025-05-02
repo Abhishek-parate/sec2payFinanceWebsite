@@ -25,7 +25,7 @@
 
         <!-- hero section -->
 <!-- Hero Section -->
-<section class="relative py-8 sm:py-12 md:py-16 bg-white overflow-hidden">
+<section class="relative py-8 sm:py-12 md:py-10 bg-white overflow-hidden">
     <!-- Background Gradients - Hidden on mobile -->
     <div class="absolute inset-0 overflow-hidden pointer-events-none hidden md:block">
         <!-- Top-left Circular Gradient (Bluish) -->
@@ -239,7 +239,7 @@
 
 
         <!-- Platform Services Section -->
-        <section class="py-16 px-4 bg-white">
+        <section class="py-10 px-4 bg-white">
             <!-- Increased max-width from max-w-6xl to max-w-7xl -->
             <div class="max-w-7xl mx-auto">
                 <!-- Container with light pink background -->

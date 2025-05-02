@@ -78,7 +78,7 @@
 <!-- Key Features Section with Split Background -->
 <section class="flex flex-col md:flex-row mt-12">
   <!-- Left Side - Dark Blue Background with Title -->
-  <div class="bg-primary-800 text-white py-16 px-8 md:w-1/4 flex items-center">
+  <div class="bg-primary-800 text-white py-10 px-8 md:w-1/4 flex items-center">
     <h2 class="text-4xl font-bold leading-tight">
       Key<br>Features
     </h2>
@@ -179,7 +179,7 @@
 
 
 <!-- FAQ Section -->
-<section class="py-16 max-w-3xl mx-auto px-4">
+<section class="py-10 max-w-3xl mx-auto px-4">
     <!-- Section Title -->
     <div class="text-center mb-12">
         <h2 class="text-4xl font-bold text-primary-800 mb-2">FAQ</h2>

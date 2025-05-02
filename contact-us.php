@@ -26,7 +26,7 @@
 
 
 <!-- Contact Form Section with Gradient Background -->
-<section class="py-16 px-4 bg-gradient-to-r from-pink-100 via-white to-blue-100">
+<section class="py-10 px-4 bg-gradient-to-r from-pink-100 via-white to-blue-100">
     <div class="max-w-2xl mx-auto">
         <!-- Form Header -->
         <div class="text-center mb-8">

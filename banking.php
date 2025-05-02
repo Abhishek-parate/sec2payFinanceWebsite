@@ -27,7 +27,7 @@
 <!-- Utility Services Section -->
 <section class=" bg-white">
 
-    <div class="max-w-7xl mx-auto py-12  ">
+    <div class="max-w-7xl mx-auto md:py-12 pt-12  ">
         <div class="rounded-xl overflow-hidden  ">
             <div class="grid grid-cols-1 md:grid-cols-2 ">
                 <!-- Left Content - Services List -->
@@ -84,7 +84,7 @@
     <div class="max-w-7xl mx-auto py-12  ">
 
         <div class="container mx-auto px-6 text-center">
-            <h2 class="text-3xl font-bold text-primary-700 mb-4">Our Banking Features</h2>
+            <h2 class="text-2xl md:text-3xl font-bold text-primary-700 mb-4">Our Banking Features</h2>
             <p class="text-gray-600 mb-12 max-w-2xl mx-auto">
             Building trust through partnerships that last Creating a network that serves millions
             </p>
@@ -419,7 +419,7 @@
 </section>
 
 
-<section class="py-16 px-4">
+<section class="py-10 px-4">
     <div class="max-w-6xl mx-auto">
         <!-- Header -->
         <div class="text-center mb-12">
@@ -688,7 +688,7 @@
 
 </section>
 
-<section class="py-16 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto overflow-hidden">
+<section class="py-10 px-4 md:px-8 lg:px-16 max-w-7xl mx-auto overflow-hidden">
     <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-10 items-start">
         <!-- Left Column - Heading -->
         <div class="md:col-span-5 mb-10 md:mb-0">

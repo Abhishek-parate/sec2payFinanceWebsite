@@ -156,7 +156,7 @@
 
 
         <!-- Services Section with White Background -->
-        <section class="bg-white py-10 sm:py-12 md:py-16 px-4 sm:px-6">
+        <section class="bg-white py-10 sm:py-12 md:py-10 px-4 sm:px-6">
     <div class="max-w-6xl mx-auto">
         <div class="flex flex-col md:flex-row items-center md:items-start">
             <!-- Left Column - Services List -->

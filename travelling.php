@@ -80,7 +80,7 @@
 
 
 
-<section class=" bg-primary-800 py-16 px-6  md:px-24 mx-auto">
+<section class=" bg-primary-800 py-10 px-6  md:px-24 mx-auto">
     <!-- Section Header -->
     <div class="max-w-md mb-10" data-aos="fade-up">
         <h2 class="text-2xl md:text-3xl text-white font-bold mb-2">Why Choose Sec2pay Travel Platform?</h2>
@@ -266,7 +266,7 @@
 
 
 <!-- pricing -->
-<section class="py-16 px-4">
+<section class="py-10 px-4">
     <div class="max-w-6xl mx-auto">
         <!-- Header -->
         <div class="text-center mb-12">
@@ -648,7 +648,7 @@
 
 <!-- Join India's Growing -->
 <section class="bg-primary-700 text-white min-h-[300px] md:min-h-[400px]">
-    <div class="container mx-auto px-4 md:px-24 py-16 lg:py-20">
+    <div class="container mx-auto px-4 md:px-24 py-10 lg:py-20">
     <div class="flex flex-col md:flex-row items-center">
       <!-- Left Column - Text and CTA -->
       <div class="w-full md:w-1/3 mb-10 md:mb-0">

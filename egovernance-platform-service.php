@@ -71,7 +71,7 @@
 <!-- hero section ends -->
 
 <!-- Banking Overview Section with Split Background -->
-<section class="relative py-16">
+<section class="relative py-10">
     <!-- Top background - light blue -->
     <div class="absolute top-0 left-0 right-0 h-[60%] bg-primary-500"></div>
     <div class="absolute top-0 left-0 right-0 h-[60%] bg-primary-500"></div>

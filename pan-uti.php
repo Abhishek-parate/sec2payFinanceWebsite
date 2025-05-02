@@ -204,7 +204,7 @@
 
 
 <!-- Our Other Services Section -->
-<section class="w-full bg-secondary-500 py-16 px-4">
+<section class="w-full bg-secondary-500 py-10 px-4">
     <div class="max-w-6xl mx-auto">
         <div class="flex flex-col md:flex-row items-start">
             <!-- Section Title -->
@@ -270,7 +270,7 @@
 
 
 <!-- FAQ Section -->
-<section class="py-16 max-w-3xl mx-auto px-4">
+<section class="py-10 max-w-3xl mx-auto px-4">
     <!-- Section Title -->
     <div class="text-center mb-12">
         <h2 class="text-4xl font-bold text-primary-800 mb-2">FAQ</h2>

@@ -164,7 +164,7 @@
 
 
 <!-- How It Works Section -->
-<section class="bg-primary-700 py-16">
+<section class="bg-primary-700 py-10">
   <div class="container mx-auto px-6">
     <!-- Section Title -->
     <h2 class="text-4xl font-bold text-white mb-16">How It Works:</h2>
@@ -267,7 +267,7 @@
 </section>
 
 <!-- Our Other Services Section -->
-<section class="w-full bg-primary-100 py-16 px-4">
+<section class="w-full bg-primary-100 py-10 px-4">
     <div class="max-w-6xl mx-auto">
         <div class="flex flex-col md:flex-row items-start">
             <!-- Section Title -->
@@ -333,7 +333,7 @@
 
 
 <!-- Service Coverage Section -->
-<section class="w-full py-16 bg-secondary-500">
+<section class="w-full py-10 bg-secondary-500">
   <div class="max-w-6xl mx-auto px-4">
     <!-- Section Title -->
     <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-12">Service Coverage</h2>
@@ -370,7 +370,7 @@
 
 
 <!-- FAQ Section -->
-<section class="py-16 max-w-3xl mx-auto px-4">
+<section class="py-10 max-w-3xl mx-auto px-4">
     <!-- Section Title -->
     <div class="text-center mb-12">
         <h2 class="text-4xl font-bold text-secondary-600 mb-2">FAQ</h2>

@@ -875,7 +875,7 @@
         </section>
 
         <!-- Getting Started Section -->
-        <section class="bg-gradient-to-r from-primary-800 to-primary-600 py-16 text-white overflow-hidden">
+        <section class="bg-gradient-to-r from-primary-800 to-primary-600 py-10 text-white overflow-hidden">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4" data-aos="fade-down" data-aos-duration="800">Getting
                     Started

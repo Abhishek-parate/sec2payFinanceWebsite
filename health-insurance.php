@@ -182,7 +182,7 @@
 </section>
 
 <!-- FAQ Section -->
-<section class="py-16 max-w-3xl mx-auto px-4">
+<section class="py-10 max-w-3xl mx-auto px-4">
     <!-- Section Title -->
     <div class="text-center mb-12">
         <h2 class="text-4xl font-bold text-primary-800 mb-2">FAQ</h2>

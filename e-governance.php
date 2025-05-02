@@ -651,7 +651,7 @@
 
 
         <!-- Join India's Growing -->
-        <section class="bg-primary-700 text-white min-h-[300px] md:min-h-[400px] py-12 md:py-16">
+        <section class="bg-primary-700 text-white min-h-[300px] md:min-h-[400px] py-12 md:py-10">
             <div class="container mx-auto px-4 md:px-24">
                 <div class="flex flex-col md:flex-row items-center space-y-10 md:space-y-0 md:space-x-10">
                     <!-- Left Column - Text and CTA -->
