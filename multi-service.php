@@ -294,7 +294,7 @@
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
             <div class="container mx-auto">
                 <!-- Join Panel with Starry Background -->
-                <div class="bg-gradient-to-br from-primary-800 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+                <div class="bg-gradient-to-br from-primary-600 to-primary-500 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
                     data-aos="fade-up" data-aos-duration="1000">
 
                     <!-- Stars Background SVG -->
@@ -336,12 +336,93 @@
                     </div>
                 </div>
             </div>
-        </section>
+</section>
 
  </main>
 
     <!-- Main Header Banner -->
 
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+  // Initialize AOS
+  AOS.init({
+    once: true,
+    offset: 50,
+    duration: 800,
+  });
+
+  // Get all tab buttons and content
+  const tabButtons = document.querySelectorAll(".tab-button");
+  const tabContents = document.querySelectorAll(".tab-content");
+
+  // Add click event to each tab button
+  tabButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      // Remove active class and styles from all buttons
+      tabButtons.forEach((btn) => {
+        btn.classList.remove("bg-red-100", "text-gray-900");
+        btn.classList.add("bg-transparent", "text-gray-700");
+      });
+
+      // Add active class and styles to clicked button
+      button.classList.add("bg-red-100", "text-gray-900");
+      button.classList.remove("bg-transparent", "text-gray-700");
+
+      // Animate content transition - first fade out all tabs
+      tabContents.forEach((content) => {
+        content.classList.add("opacity-0");
+        setTimeout(() => {
+          content.classList.add("hidden");
+          content.classList.remove("block");
+        }, 300); // Short delay to allow fade out animation
+      });
+
+      // After fade out, fade in the selected tab
+      const tabId = button.getAttribute("data-tab");
+      const activeContent = document.getElementById(`${tabId}-content`);
+
+      setTimeout(() => {
+        activeContent.classList.remove("hidden");
+        activeContent.classList.add("block");
+
+        // Small delay for the display change to take effect
+        setTimeout(() => {
+          activeContent.classList.remove("opacity-0");
+          activeContent.classList.add("opacity-100");
+        }, 50);
+      }, 350); // Slightly longer than the fade out to ensure proper sequence
+    });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const tabButtons = document.querySelectorAll("[data-tab]");
+
+  tabButtons.forEach((button) => {
+    button.addEventListener("click", function () {
+      // Remove active class from all buttons
+      tabButtons.forEach((btn) => {
+        btn.classList.remove("bg-red-500", "text-white");
+        btn.classList.add(
+          "bg-white",
+          "text-blue-600",
+          "border",
+          "border-gray-200"
+        );
+      });
+
+      // Add active class to clicked button
+      this.classList.remove(
+        "bg-white",
+        "text-blue-600",
+        "border",
+        "border-gray-200"
+      );
+      this.classList.add("bg-red-500", "text-white");
+    });
+  });
+});
+    </script>
 
     <?php include_once('includes/footer.php'); ?>
 

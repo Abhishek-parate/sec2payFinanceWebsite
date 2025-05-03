@@ -649,7 +649,37 @@
 
 
     <?php include_once('includes/footer.php'); ?>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+  const billingToggle = document.getElementById("billing-toggle");
+  const monthlyPrices = document.querySelectorAll(".monthly-price");
+  const annualPrices = document.querySelectorAll(".annual-price");
 
+  // Check if billing toggle exists before adding event listener
+  if (billingToggle) {
+    billingToggle.addEventListener("change", function () {
+      if (this.checked) {
+        // Annual pricing
+        monthlyPrices.forEach((el) => el.classList.add("hidden"));
+        annualPrices.forEach((el) => el.classList.remove("hidden"));
+      } else {
+        // Monthly pricing
+        monthlyPrices.forEach((el) => el.classList.remove("hidden"));
+        annualPrices.forEach((el) => el.classList.add("hidden"));
+      }
+
+      // Add pulse animation to prices
+      const visiblePrices = this.checked ? annualPrices : monthlyPrices;
+      visiblePrices.forEach((el) => {
+        el.classList.add("animate-pulse-scale");
+        setTimeout(() => {
+          el.classList.remove("animate-pulse-scale");
+        }, 400);
+      });
+    });
+  }
+});
+</script>
     <script src="./assets/js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </body>

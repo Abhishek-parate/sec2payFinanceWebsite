@@ -701,53 +701,53 @@
 <!-- Travel Network Section -->
 
 
-<!-- Join Section with Dark Blue Background -->
-<section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
-    <div class="container mx-auto">
-        <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-secondary-700 to-secondary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
-            data-aos="fade-up" data-aos-duration="1000">
+        <!-- Join Section with Dark Blue Background -->
+        <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
+            <div class="container mx-auto">
+                <!-- Join Panel with Starry Background -->
+                <div class="bg-gradient-to-br from-secondary-700 to-secondary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+                    data-aos="fade-up" data-aos-duration="1000">
 
-            <!-- Stars Background SVG -->
-            <div class="absolute z-0 opacity-30 right-0">
-                <img src="assets/images/home/svg/white-bg-dot-icon.svg" alt="background dots"
-                    class="w-full h-full object-cover">
-            </div>
+                    <!-- Stars Background SVG -->
+                    <div class="absolute z-0 opacity-30 right-0">
+                        <img src="assets/images/home/svg/white-bg-dot-icon.svg" alt="background dots"
+                            class="w-full h-full object-cover">
+                    </div>
 
-            <div class="max-w-4xl mx-auto text-center">
-                <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 relative z-10"
-                    data-aos="fade-up" data-aos-delay="200">
-                    Join Sec2pay today
-                </h1>
+                    <div class="max-w-4xl mx-auto text-center">
+                        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 relative z-10"
+                            data-aos="fade-up" data-aos-delay="200">
+                            Join Sec2Pay Today
+                        </h1>
 
-                <p class="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 relative z-10" data-aos="fade-up"
-                    data-aos-delay="300">
-                    Start for free — upgrade anytime.
-                </p>
+                        <p class="text-base sm:text-lg text-white relative z-10" data-aos="fade-up"
+                            data-aos-delay="300">
+                            Start for free — upgrade anytime.
+                        </p>
 
-                <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
-                    <p class="text-gray-300 mb-4 sm:mb-6">
-                        <a href="#" class="underline hover:text-white transition">
-                            Joining as an organization? Contact Sales
-                        </a>
-                    </p>
+                        <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
+                            <p class="text-white mb-4 sm:mb-6">
+                                <a href="/contact-us.php" class="underline hover:text-white transition">
+                                    Joining as an organization? Contact Sales
+                                </a>
+                            </p>
 
-                    <a href="#"
-                        class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
-                        data-aos="zoom-in" data-aos-delay="500">
-                        Sign up free
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2" viewBox="0 0 20 20"
-                            fill="currentColor">
-                            <path fill-rule="evenodd"
-                                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </a>
+                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
+                                class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
+                                data-aos="zoom-in" data-aos-delay="500">
+                                Sign up free
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2"
+                                    viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
+        </section>
 
 <!-- End of Join Section -->
 <!-- Footer Section -->
@@ -760,7 +760,168 @@
 
 
     <?php include_once('includes/footer.php'); ?>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+  const billingToggle = document.getElementById("billing-toggle");
+  const monthlyPrices = document.querySelectorAll(".monthly-price");
+  const annualPrices = document.querySelectorAll(".annual-price");
 
+  // Check if billing toggle exists before adding event listener
+  if (billingToggle) {
+    billingToggle.addEventListener("change", function () {
+      if (this.checked) {
+        // Annual pricing
+        monthlyPrices.forEach((el) => el.classList.add("hidden"));
+        annualPrices.forEach((el) => el.classList.remove("hidden"));
+      } else {
+        // Monthly pricing
+        monthlyPrices.forEach((el) => el.classList.remove("hidden"));
+        annualPrices.forEach((el) => el.classList.add("hidden"));
+      }
+
+      // Add pulse animation to prices
+      const visiblePrices = this.checked ? annualPrices : monthlyPrices;
+      visiblePrices.forEach((el) => {
+        el.classList.add("animate-pulse-scale");
+        setTimeout(() => {
+          el.classList.remove("animate-pulse-scale");
+        }, 400);
+      });
+    });
+  }
+});
+document.addEventListener("DOMContentLoaded", function () {
+  // All testimonial data
+  const testimonials = [
+    {
+      name: "Mike taylor",
+      location: "Lahore, Pakistan",
+      text: "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
+      profile: "https://randomuser.me/api/portraits/men/3.jpg",
+    },
+    {
+      name: "Chris Thomas",
+      location: "CEO of Red Button",
+      text: "Smart homes are the future. The integration of IoT devices has transformed how we interact with our living spaces.",
+      profile: "https://randomuser.me/api/portraits/women/3.jpg",
+    },
+    {
+      name: "Sarah Johnson",
+      location: "New York, USA",
+      text: "The customer service was exceptional. They went above and beyond to ensure everything was set up perfectly.",
+      profile: "https://randomuser.me/api/portraits/men/3.jpg",
+    },
+  ];
+
+  // Elements
+  const dots = document.querySelectorAll("#dots-container button");
+  const profileImage = document.getElementById("profile-image");
+  const prevArrow = document.getElementById("prev-arrow");
+  const nextArrow = document.getElementById("next-arrow");
+
+  let currentIndex = 0;
+
+  // Function to update the active testimonial
+  function updateTestimonial(newIndex) {
+    // Ensure index is within bounds
+    newIndex = (newIndex + testimonials.length) % testimonials.length;
+
+    // Store the previous index
+    const prevIndex = currentIndex;
+    currentIndex = newIndex;
+
+    // Update dots
+    dots.forEach((dot, index) => {
+      if (index === currentIndex) {
+        dot.classList.remove("bg-gray-300");
+        dot.classList.add("bg-secondary-500");
+      } else {
+        dot.classList.remove("bg-secondary-500");
+        dot.classList.add("bg-gray-300");
+      }
+    });
+
+    // Get all testimonial cards
+    const testimonialCards = [];
+    for (let i = 0; i < testimonials.length; i++) {
+      testimonialCards.push(document.getElementById(`testimonial-${i}`));
+    }
+
+    // Hide previous active testimonial
+    const prevCard = testimonialCards[prevIndex];
+    prevCard.classList.remove(
+      "opacity-100",
+      "translate-y-0",
+      "z-20",
+      "bg-white",
+      "shadow-lg"
+    );
+    prevCard.classList.add(
+      "opacity-0",
+      "translate-y-16",
+      "bg-gray-100",
+      "shadow-md"
+    );
+
+    // After a small delay, show the new one and hide the old one
+    setTimeout(() => {
+      // Hide all cards
+      testimonialCards.forEach((card) => {
+        card.classList.add("hidden");
+      });
+
+      // Show current card
+      const currentCard = testimonialCards[currentIndex];
+      currentCard.classList.remove(
+        "hidden",
+        "opacity-0",
+        "translate-y-16",
+        "bg-gray-100",
+        "shadow-md"
+      );
+      currentCard.classList.add(
+        "opacity-100",
+        "translate-y-0",
+        "z-20",
+        "bg-white",
+        "shadow-lg"
+      );
+
+      // Show next card below the current one (if there is a next card)
+      const nextIndex = (currentIndex + 1) % testimonials.length;
+      const nextCard = testimonialCards[nextIndex];
+      if (nextCard) {
+        nextCard.classList.remove("hidden", "opacity-0");
+        nextCard.classList.add("opacity-95", "translate-y-16", "z-10");
+      }
+
+      // Update profile image
+      profileImage.src = testimonials[currentIndex].profile;
+      profileImage.alt = testimonials[currentIndex].name;
+    }, 300);
+  }
+
+  // Add event listeners to dots
+  dots.forEach((dot, index) => {
+    dot.addEventListener("click", () => {
+      updateTestimonial(index);
+    });
+  });
+
+  // Add event listeners to navigation arrows
+  nextArrow.addEventListener("click", function () {
+    updateTestimonial(currentIndex + 1);
+  });
+
+  prevArrow.addEventListener("click", function () {
+    updateTestimonial(currentIndex - 1);
+  });
+
+  // Show initial testimonial setup (second card visible but stacked)
+  const secondCard = document.getElementById("testimonial-1");
+  secondCard.classList.remove("hidden");
+});
+</script>
     <script src="./assets/js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </body>

@@ -709,8 +709,8 @@
 
 
 
-        <!-- Join Section with Dark Blue Background -->
-        <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
+               <!-- Join Section with Dark Blue Background -->
+               <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
             <div class="container mx-auto">
                 <!-- Join Panel with Starry Background -->
                 <div class="bg-gradient-to-br from-secondary-700 to-secondary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
@@ -725,22 +725,22 @@
                     <div class="max-w-4xl mx-auto text-center">
                         <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 relative z-10"
                             data-aos="fade-up" data-aos-delay="200">
-                            Join Sec2pay today
+                            Join Sec2Pay Today
                         </h1>
 
-                        <p class="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 relative z-10" data-aos="fade-up"
+                        <p class="text-base sm:text-lg text-white relative z-10" data-aos="fade-up"
                             data-aos-delay="300">
                             Start for free — upgrade anytime.
                         </p>
 
                         <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
-                            <p class="text-gray-300 mb-4 sm:mb-6">
-                                <a href="#" class="underline hover:text-white transition">
+                            <p class="text-white mb-4 sm:mb-6">
+                                <a href="/contact-us.php" class="underline hover:text-white transition">
                                     Joining as an organization? Contact Sales
                                 </a>
                             </p>
 
-                            <a href="#"
+                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
                                 data-aos="zoom-in" data-aos-delay="500">
                                 Sign up free
@@ -769,7 +769,64 @@
 
 
     <?php include_once('includes/footer.php'); ?>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+  const billingToggle = document.getElementById("billing-toggle");
+  const monthlyPrices = document.querySelectorAll(".monthly-price");
+  const annualPrices = document.querySelectorAll(".annual-price");
 
+  // Check if billing toggle exists before adding event listener
+  if (billingToggle) {
+    billingToggle.addEventListener("change", function () {
+      if (this.checked) {
+        // Annual pricing
+        monthlyPrices.forEach((el) => el.classList.add("hidden"));
+        annualPrices.forEach((el) => el.classList.remove("hidden"));
+      } else {
+        // Monthly pricing
+        monthlyPrices.forEach((el) => el.classList.remove("hidden"));
+        annualPrices.forEach((el) => el.classList.add("hidden"));
+      }
+
+      // Add pulse animation to prices
+      const visiblePrices = this.checked ? annualPrices : monthlyPrices;
+      visiblePrices.forEach((el) => {
+        el.classList.add("animate-pulse-scale");
+        setTimeout(() => {
+          el.classList.remove("animate-pulse-scale");
+        }, 400);
+      });
+    });
+  }
+});
+document.addEventListener("DOMContentLoaded", function () {
+  const tabButtons = document.querySelectorAll("[data-tab]");
+
+  tabButtons.forEach((button) => {
+    button.addEventListener("click", function () {
+      // Remove active class from all buttons
+      tabButtons.forEach((btn) => {
+        btn.classList.remove("bg-red-500", "text-white");
+        btn.classList.add(
+          "bg-white",
+          "text-blue-600",
+          "border",
+          "border-gray-200"
+        );
+      });
+
+      // Add active class to clicked button
+      this.classList.remove(
+        "bg-white",
+        "text-blue-600",
+        "border",
+        "border-gray-200"
+      );
+      this.classList.add("bg-red-500", "text-white");
+    });
+  });
+});
+</script>
     <script src="./assets/js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </body>

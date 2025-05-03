@@ -473,7 +473,39 @@
  </main>
 
     <!-- Main Header Banner -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+  const logosSlide = document.querySelector(".logos-slide");
+  const logosContainer = document.querySelector(".logos-container");
 
+  // Only proceed if both elements exist
+  if (!logosSlide || !logosContainer) {
+    console.log("Logos slider elements not found");
+    return;
+  }
+
+  // Function to ensure enough logos
+  const ensureEnoughLogos = () => {
+    const containerWidth = logosContainer.offsetWidth;
+    const slideWidth = logosSlide.offsetWidth;
+
+    // If the slide is not at least twice as wide as the container, clone more logos
+    if (slideWidth < containerWidth * 2) {
+      const originalSet = logosSlide.innerHTML;
+      logosSlide.innerHTML = originalSet + originalSet;
+
+      // Recursive check if we need even more copies
+      ensureEnoughLogos();
+    }
+  };
+
+  // Run after images have loaded to get accurate widths
+  window.addEventListener("load", ensureEnoughLogos);
+
+  // Also adjust if window is resized
+  window.addEventListener("resize", ensureEnoughLogos);
+});
+</script>
 
     <?php include_once('includes/footer.php'); ?>
 
