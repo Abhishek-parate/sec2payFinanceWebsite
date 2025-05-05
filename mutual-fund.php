@@ -48,19 +48,19 @@
                             data-aos-duration="1200" data-aos-once="true">
                             <p class="font-bold text-primary-600 mb-2 text-sm sm:text-base" data-aos="fade-up"
                                 data-aos-delay="100" data-aos-duration="800" data-aos-once="true">
-                                Utility Services
+                                Mutual Fund Platform
                             </p>
                             <h1 class="text-3xl sm:text-4xl font-bold text-secondary-600" data-aos="fade-up"
                                 data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
-                                Make Bill
+                                Launch Your Mutual Fund
                             </h1>
                             <h1 class="text-3xl sm:text-4xl font-bold text-secondary-600 mb-3 sm:mb-4"
                                 data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">
-                                Payments Simple
+                                Distribution Business
                             </h1>
-                            <p class="text-gray-500 mb-6 sm:mb-8" data-aos="fade-up" data-aos-delay="400"
+                            <p class="text-black mb-6 sm:mb-8" data-aos="fade-up" data-aos-delay="400"
                                 data-aos-duration="800" data-aos-once="true">
-                                Join 1 lakh+ retailers offering instant utility payments
+                                Build wealth for your customers with India's trusted</br> mutual fund platform for financial advisors.
                             </p>
 
                             <a href="#"
@@ -131,7 +131,7 @@
                         data-aos="fade-up" 
                  data-aos-duration="800" 
                  data-aos-delay="100">
-                        <img src="assets/images/utility-servises/auto.png" alt="Real-Time Payment"
+                        <img src="assets/images/mutual-fund/investment.png" alt="Real-Time Payment"
                             class="w-full object-contain rounded-t-lg">
                         <div class="p-6 text-left">
                             <h3 class="text-secondary-600 font-semibold text-xl mb-2">Investment
@@ -148,7 +148,7 @@
                  data-aos-duration="800" 
                  data-aos-delay="200"
                  >
-                        <img src="assets/images/utility-servises/auto.png" alt="Real-Time Payment"
+                        <img src="assets/images/mutual-fund/quick.png" alt="Real-Time Payment"
                             class="w-full object-contain rounded-t-lg">
                         <div class="p-6 text-left">
                             <h3 class="text-secondary-600 font-semibold text-xl mb-2">Quick Digital Onboarding</h3>
@@ -163,7 +163,7 @@
                         data-aos="fade-up" 
                  data-aos-duration="800" 
                  data-aos-delay="300">
-                        <img src="assets/images/utility-servises/auto.png" alt="Real-Time Payment"
+                        <img src="assets/images/mutual-fund/amc.png" alt="Real-Time Payment"
                             class="w-full object-contain rounded-t-lg">
                         <div class="p-6 text-left">
                             <h3 class="text-secondary-600 font-semibold text-xl mb-2">Multi-AMC Connect</h3>
@@ -178,7 +178,7 @@
                         data-aos="fade-up" 
                  data-aos-duration="800" 
                  data-aos-delay="400">
-                        <img src="assets/images/utility-servises/auto.png" alt="Real-Time Payment"
+                        <img src="assets/images/mutual-fund/goal.png" alt="Real-Time Payment"
                             class="w-full object-contain rounded-t-lg">
                         <div class="p-6 text-left">
                             <h3 class="text-secondary-600 font-semibold text-xl mb-2">Goal Planning
@@ -452,11 +452,11 @@
 
 
 
-        <!-- Join Section with Dark Blue Background -->
-        <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
+          <!-- Join Section with Dark Blue Background -->
+          <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
             <div class="container mx-auto">
                 <!-- Join Panel with Starry Background -->
-                <div class="bg-gradient-to-br from-primary-600 to-primary-500 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+                <div class="bg-gradient-to-br from-primary-700 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
                     data-aos="fade-up" data-aos-duration="1000">
 
                     <!-- Stars Background SVG -->
@@ -468,22 +468,22 @@
                     <div class="max-w-4xl mx-auto text-center">
                         <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 relative z-10"
                             data-aos="fade-up" data-aos-delay="200">
-                            Join Sec2pay today
+                            Join Sec2Pay Today
                         </h1>
 
-                        <p class="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 relative z-10" data-aos="fade-up"
+                        <p class="text-base sm:text-lg text-white relative z-10" data-aos="fade-up"
                             data-aos-delay="300">
                             Start for free — upgrade anytime.
                         </p>
 
                         <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
-                            <p class="text-gray-300 mb-4 sm:mb-6">
-                                <a href="#" class="underline hover:text-white transition">
+                            <p class="text-white mb-4 sm:mb-6">
+                                <a href="/contact-us.php" class="underline hover:text-white transition">
                                     Joining as an organization? Contact Sales
                                 </a>
                             </p>
 
-                            <a href="#"
+                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
                                 data-aos="zoom-in" data-aos-delay="500">
                                 Sign up free

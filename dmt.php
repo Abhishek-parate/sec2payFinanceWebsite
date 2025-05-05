@@ -122,7 +122,7 @@
             <!-- Feature Card 1 -->
             <div
                 class="border border-gray-200  bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/dmt/quick-transfer1.png" alt="Real-Time Payment"
+                <img src="assets/images/dmt/quick-transfer.png" alt="Real-Time Payment"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left">
                     <h3 class="text-secondary-600 font-semibold text-xl mb-2">Quick
@@ -137,7 +137,7 @@
             <!-- Feature Card 2 -->
             <div
                 class="border border-gray-200  bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/dmt/quick-transfer1.png" alt="Real-Time Payment"
+                <img src="assets/images/dmt/status-tracking.png" alt="Real-Time Payment"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left ">
 
@@ -153,7 +153,7 @@
             <!-- Feature Card 3 -->
             <div
                 class="border border-gray-200  bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/dmt/quick-transfer1.png" alt="Real-Time Payment"
+                <img src="assets/images/dmt/commission-structure.png" alt="Real-Time Payment"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left ">
 
@@ -168,7 +168,7 @@
             <!-- Feature Card 4 -->
             <div
                 class="border border-gray-200 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/dmt/quick-transfer1.png" alt="Real-Time Payment"
+                <img src="assets/images/dmt/settlement-system.png" alt="Real-Time Payment"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left  ">
 
@@ -261,48 +261,48 @@
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-8 md:w-3/4 w-full">
                 <!-- AEPS -->
                 <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
-                        <img src="assets/images/pan-uti/icon1.svg" alt="AEPS" class="w-16 h-16">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-500 flex items-center justify-center mb-4">
+                        <img src="assets/images/dmt/icon1.svg" alt="AEPS" class="w-16 h-16">
                     </div>
                     <span class="text-white text-center font-medium">AEPS</span>
                 </div>
                 
                 <!-- DMT -->
                 <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
-                        <img src="assets/images/pan-uti/icon2.svg" alt="DMT" class="w-16 h-16">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-500 flex items-center justify-center mb-4">
+                        <img src="assets/images/dmt/icon2.svg" alt="DMT" class="w-16 h-16">
                     </div>
                     <span class="text-white text-center font-medium">DMT</span>
                 </div>
                 
                 <!-- Micro ATM -->
                 <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
-                        <img src="assets/images/pan-uti/icon3.svg" alt="Micro ATM" class="w-16 h-16">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-500 flex items-center justify-center mb-4">
+                        <img src="assets/images/dmt/icon3.svg" alt="Micro ATM" class="w-16 h-16">
                     </div>
                     <span class="text-white text-center font-medium">Micro ATM</span>
                 </div>
                 
                 <!-- mPOS -->
                 <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
-                        <img src="assets/images/pan-uti/icon4.svg" alt="mPOS" class="w-16 h-16">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-500 flex items-center justify-center mb-4">
+                        <img src="assets/images/dmt/icon4.svg" alt="mPOS" class="w-16 h-16">
                     </div>
                     <span class="text-white text-center font-medium">mPOS</span>
                 </div>
                 
                 <!-- CMS -->
                 <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
-                        <img src="assets/images/pan-uti/icon5.svg" alt="CMS" class="w-16 h-16">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-500 flex items-center justify-center mb-4">
+                        <img src="assets/images/dmt/icon5.svg" alt="CMS" class="w-16 h-16">
                     </div>
                     <span class="text-white text-center font-medium">CMS</span>
                 </div>
                 
                 <!-- UPI QR Code -->
                 <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
-                        <img src="assets/images/pan-uti/icon6.svg" alt="UPI QR Code" class="w-16 h-16">
+                    <div class="w-28 h-28 rounded-2xl bg-secondary-500 flex items-center justify-center mb-4">
+                        <img src="assets/images/dmt/icon6.svg" alt="UPI QR Code" class="w-16 h-16">
                     </div>
                     <span class="text-white text-center font-medium">UPI QR Code</span>
                 </div>
@@ -362,58 +362,59 @@
 
 
 
-<!-- Join Section with Dark Blue Background -->
-<section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
-    <div class="container mx-auto">
-        <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-primary-800 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
-            data-aos="fade-up" data-aos-duration="1000">
+   <!-- Join Section with Dark Blue Background -->
+   <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
+            <div class="container mx-auto">
+                <!-- Join Panel with Starry Background -->
+                <div class="bg-gradient-to-br from-primary-700 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+                    data-aos="fade-up" data-aos-duration="1000">
+            
+                    <!-- Stars Background SVG -->
+                    <div class="absolute z-0 opacity-30 right-0">
+                        <img src="assets/images/home/svg/white-bg-dot-icon.svg" alt="background dots"
+                            class="w-full h-full object-cover">
+                    </div>
 
-            <!-- Stars Background SVG -->
-            <div class="absolute z-0 opacity-30 right-0">
-                <img src="assets/images/home/svg/white-bg-dot-icon.svg" alt="background dots"
-                    class="w-full h-full object-cover">
-            </div>
+                    <div class="max-w-4xl mx-auto text-center">
+                        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 relative z-10"
+                            data-aos="fade-up" data-aos-delay="200">
+                            Join Sec2Pay Today
+                        </h1>
 
-            <div class="max-w-4xl mx-auto text-center">
-                <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 relative z-10"
-                    data-aos="fade-up" data-aos-delay="200">
-                    Join Sec2pay today
-                </h1>
+                        <p class="text-base sm:text-lg text-white relative z-10" data-aos="fade-up"
+                            data-aos-delay="300">
+                            Start for free — upgrade anytime.
+                        </p>
 
-                <p class="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 relative z-10" data-aos="fade-up"
-                    data-aos-delay="300">
-                    Start for free — upgrade anytime.
-                </p>
+                        <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
+                            <p class="text-white mb-4 sm:mb-6">
+                                <a href="/contact-us.php" class="underline hover:text-white transition">
+                                    Joining as an organization? Contact Sales
+                                </a>
+                            </p>
 
-                <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
-                    <p class="text-gray-300 mb-4 sm:mb-6">
-                        <a href="#" class="underline hover:text-white transition">
-                            Joining as an organization? Contact Sales
-                        </a>
-                    </p>
-
-                    <a href="#"
-                        class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
-                        data-aos="zoom-in" data-aos-delay="500">
-                        Sign up free
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2" viewBox="0 0 20 20"
-                            fill="currentColor">
-                            <path fill-rule="evenodd"
-                                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                clip-rule="evenodd" />
-                        </svg>
-                    </a>
+                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
+                                class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
+                                data-aos="zoom-in" data-aos-delay="500">
+                                Sign up free
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2"
+                                    viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
+        </section>
 
 
  </main>
 
     <!-- Main Header Banner -->
+
 
 
     <?php include_once('includes/footer.php'); ?>

@@ -599,14 +599,12 @@
                             class="w-full h-full object-cover">
                     </div>
 
-                    <div class="max-w-4xl mx-auto text-center">
+                    <div class="max-w-5xl mx-auto text-center">
                         <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 relative z-10"
-                            data-aos="fade-up" data-aos-delay="200">
-                             Join India's Digital Commerce Revolution
+                            data-aos="fade-up" data-aos-delay="200">Join India's Digital Commerce Revolution
                         </h1>
 
-                        <p class="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 relative z-10" data-aos="fade-up"
-                            data-aos-delay="300">
+                        <p class="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 relative z-10" data-aos="fade-up" data-aos-delay="300">
                             "Ready to expand your local business? Partner with Sec2Pay's ONDC platform"
                         </p>
 
