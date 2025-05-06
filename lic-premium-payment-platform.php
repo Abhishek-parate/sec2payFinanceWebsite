@@ -45,20 +45,18 @@
                         <div class="p-4 md:p-8 lg:p-12 pt-8" data-aos="fade-right" data-aos-duration="1000"
                             data-aos-once="true">
                             <p class="font-bold text-primary-600 text-sm sm:text-base mb-2" data-aos="fade-up"
-                                data-aos-delay="100" data-aos-duration="800" data-aos-once="true">AEPS</p>
+                                data-aos-delay="100" data-aos-duration="800" data-aos-once="true">LIC Premium Payment
+                                Platform</p>
                             <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500" data-aos="fade-up"
                                 data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
-                                Your local banking point for
-                            </h1>
+                                A reliable digital solution for </h1>
                             <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500 mb-3 sm:mb-4"
                                 data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">
-                                instant cash transactions
-                            </h1>
+                                LIC premium collections </h1>
                             <p class="black mb-6 sm:mb-8 text-sm sm:text-base" data-aos="fade-up" data-aos-delay="400"
                                 data-aos-duration="800" data-aos-once="true">
-                                Join Sec2Pay's AEPS network to provide secure Aadhaar-based banking services in your
-                                area. Help your community access their bank accounts easily through fingerprint
-                                verification.
+                                Transform your store into a trusted LIC premium collection center. Help <br>customers
+                                pay their insurance premiums easily while earning <br> commission on each transaction.
                             </p>
 
                             <a href="/contact-us.php"
@@ -95,8 +93,8 @@
                             data-aos-once="true">
                             <!-- Main Image -->
                             <div class="relative z-20">
-                                <img src="assets/images/aeps/banner.png" alt="AEPS Banking Services"
-                                    class="w-full h-auto" />
+                                <img src="assets/images/lic-insurence-payment/hero.png" alt="AEPS Banking Services"
+                                    class="w-auto h-96" />
                                 <div
                                     class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
                                 </div>
@@ -107,263 +105,209 @@
             </div>
         </section>
 
-        <!-- Features & Functions Section -->
-        <section class="bg-white px-4 md:px-24 mb-12" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-            <div class="container mx-auto px-6 text-center">
-                <h2 class="text-3xl font-bold text-primary-700 mb-12">AePS Core Features</h2>
+        <section class="bg-primary-500 py-12 px-4">
+            <div class="max-w-6xl mx-auto">
+                <!-- Section Heading -->
+                <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-10">Key Features</h2>
 
-                <!-- Updated grid with proper centering -->
-                <div class="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Features Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     <!-- Feature Card 1 -->
-                    <div
-                        class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                        <img src="assets/images/aeps/cash.png" alt="Real-Time Payment"
-                            class="w-full object-contain rounded-t-lg">
-                        <div class="p-6 text-left">
-                            <h3 class="font-semibold text-xl mb-2">Cash Withdrawal</h3>
-                            <p class="text-gray-600 text-sm">
-                                Make banking accessible in areas without ATMs. Your customers can withdraw cash using
-                                just their Aadhaar and fingerprint - quick, simple, and secure.
-                            </p>
-                        </div>
+                    <div class="bg-white rounded-lg p-6 shadow-md">
+                        <h3 class="text-xl font-semibold text-secondary-500 mb-4">Premium Collection</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <span class="text-gray-500 mr-2">•</span>
+                                <span class="text-gray-700">Accept LIC premium payments instantly</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-gray-500 mr-2">•</span>
+                                <span class="text-gray-700">Real-time payment confirmations</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-gray-500 mr-2">•</span>
+                                <span class="text-gray-700">Digital receipts for customers</span>
+                            </li>
+                        </ul>
                     </div>
 
                     <!-- Feature Card 2 -->
-                    <div
-                        class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                        <img src="assets/images/aeps/balance.png" alt="Real-Time Payment"
-                            class="w-full object-contain rounded-t-lg">
-                        <div class="p-6 text-left">
-                            <h3 class="font-semibold text-xl mb-2">Balance Check</h3>
-                            <p class="text-gray-600 text-sm">
-                                Help customers stay on top of their finances. Instant balance updates through secure
-                                Aadhaar verification.
-                            </p>
-                        </div>
+                    <div class="bg-white rounded-lg p-6 shadow-md">
+                        <h3 class="text-xl font-semibold text-secondary-500 mb-4">Policy Status Check</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <span class="text-gray-500 mr-2">•</span>
+                                <span class="text-gray-700">Quick policy status verification</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-gray-500 mr-2">•</span>
+                                <span class="text-gray-700">Premium due date reminders</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-gray-500 mr-2">•</span>
+                                <span class="text-gray-700">Payment history tracking</span>
+                            </li>
+                        </ul>
                     </div>
 
                     <!-- Feature Card 3 -->
-                    <div
-                        class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                        <img src="assets/images/aeps/mini-statement.png" alt="Real-Time Payment"
-                            class="w-full object-contain rounded-t-lg">
-                        <div class="p-6 text-left">
-                            <h3 class=" font-semibold text-xl mb-2">Mini Statement</h3>
-                            <p class="text-gray-600 text-sm">
-                                Print recent transaction details instantly. Give your customers their banking history at
-                                their fingertips.
-                            </p>
-                        </div>
+                    <div class="bg-white rounded-lg p-6 shadow-md">
+                        <h3 class="text-xl font-semibold text-secondary-500 mb-4">Commission Management</h3>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <span class="text-gray-500 mr-2">•</span>
+                                <span class="text-gray-700">Competitive commission rates</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-gray-500 mr-2">•</span>
+                                <span class="text-gray-700">Instant settlement system</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-gray-500 mr-2">•</span>
+                                <span class="text-gray-700">Transparent earnings reports</span>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
 
-
-        <!-- Life Insurance Solutions Section -->
-        <section class="w-full py-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+        
+               <!-- Life Insurance Solutions Section -->
+               <section class="w-full py-12 px-4" data-aos="fade" data-aos-duration="800" data-aos-once="true">
             <div class="max-w-6xl mx-auto px-4">
-                <h2 class="text-3xl font-bold text-primary-700 text-center">Benefits for AEPS Agents</h2>
-
+                <!-- Changed to flex-col (normal order) for mobile -->
                 <div class="flex flex-col md:flex-row items-center gap-8">
-                    <!-- Left side with illustration -->
-                    <div class="w-full md:w-1/2">
-                        <img src="assets/images/aeps/smart-small.png" alt="Life Insurance">
+                    <!-- Left side with illustration (first on mobile) -->
+                    <div class="w-full md:w-1/2 mb-8 md:mb-0 order-1 md:order-1" data-aos="fade-right"
+                        data-aos-duration="1000" data-aos-once="true">
+                        <img src="assets/images/lic-insurence-payment/business.png" alt="Benefits for Partners"
+                            class="w-full h-auto" data-aos="zoom-in" data-aos-delay="150" data-aos-duration="800"
+                            data-aos-once="true">
                     </div>
 
-                    <!-- Right side with content -->
-                    <div class="w-full md:w-1/2">
-                        <h2 class="text-3xl font-bold text-gray-900 mb-6">Start Small,
-                            Grow Big</h2>
+                    <!-- Right side with content (second on mobile) -->
+                    <div class="w-full md:w-1/2 order-2 md:order-2" data-aos="fade-left" data-aos-duration="1000"
+                        data-aos-once="true">
+                        <h2 class="text-3xl font-bold text-secondary-600 mb-6" data-aos="fade-up" data-aos-delay="100"
+                            data-aos-duration="800" data-aos-once="true">Benefits for Partners</h2>
 
                         <ul class="space-y-5 mb-8">
                             <?php
                     $lifePlans = [
-                        'Minimal setup cost',
-                        'High earning potential',
-                        'Regular commission payouts'
+                        'Zero infrastructure cost',
+                        'Simple digital onboarding',
+                        'Regular income through commissions',
+                        'Growing customer base',
+                        '24/7 transaction capability',
+                        'Trusted payment platform',
                     ];
                     
-                    foreach ($lifePlans as $plan) :
+                    foreach ($lifePlans as $index => $plan) :
+                        $delay = 200 + ($index * 100);
                     ?>
-                            <li class="flex items-start">
-                                <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                        <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
-                                        <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2"
-                                            stroke-linecap="round" stroke-linejoin="round" />
+                            <li class="flex items-start" data-aos="fade-up" data-aos-delay="<?php echo $delay; ?>"
+                                data-aos-duration="600" data-aos-once="true">
+                                <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1"
+                                    data-aos="zoom-in" data-aos-delay="<?php echo $delay + 50; ?>"
+                                    data-aos-duration="400" data-aos-once="true">
+                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1700_1996)">
+                                            <path
+                                                d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z"
+                                                fill="#FEEEEC" stroke="#F15744" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705"
+                                                stroke="#F15744" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1700_1996">
+                                                <rect width="19" height="19" fill="white" transform="translate(0 3)" />
+                                            </clipPath>
+                                        </defs>
                                     </svg>
                                 </div>
                                 <span class="ml-3 text-gray-700"><?php echo $plan; ?></span>
                             </li>
                             <?php endforeach; ?>
                         </ul>
-                        <a href="contact-us.php" class="inline-block">
-                            <span
-                                class="bg-secondary-600 hover:bg-secondary-500 text-white font-medium py-2.5 px-6 rounded-md transition duration-300 inline-flex items-center gap-2">
-                                Read More
-
-                            </span>
-                        </a>
-
                     </div>
                 </div>
             </div>
         </section>
-
-        <!-- Health Insurance Solutions Section -->
-        <section class="w-full py-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+        
+        <!-- Life Insurance Solutions Section with AOS and mobile-first image -->
+        <section class="w-full py-12" data-aos="fade" data-aos-duration="800" data-aos-once="true">
             <div class="max-w-6xl mx-auto px-4">
-                <div class="flex flex-col-reverse md:flex-row items-center gap-8">
-                    <!-- Left side with content - will appear second on mobile -->
-                    <div class="w-full md:w-1/2 mt-6 md:mt-0">
-                        <h2 class="text-3xl font-bold text-gray-900 mb-6">Simple & easy Setup</h2>
-
-                        <ul class="space-y-5 mb-8">
-                            <?php
-                    $healthPlans = [
-                        'Basic smartphone or computer',
-                        'Bio-metric device',
-                        'Internet connection'
-                    ];
-                    
-                    foreach ($healthPlans as $plan) :
-                    ?>
-                            <li class="flex items-start">
-                                <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                        <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
-                                        <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2"
-                                            stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
-                                </div>
-                                <span class="ml-3 text-gray-700"><?php echo $plan; ?></span>
-                            </li>
-                            <?php endforeach; ?>
-                        </ul>
-
-                        <a href="contact-us.php" class="inline-block">
-                            <span
-                                class="bg-primary-600 hover:bg-primary-500 text-white font-medium py-2.5 px-6 rounded-md transition duration-300 inline-flex items-center gap-2">
-                                Read More
-
-                            </span>
-                        </a>
-
-                    </div>
-
-                    <!-- Right side with illustration - will appear first on mobile -->
-                    <div class="w-full md:w-1/2">
-                        <img src="assets/images/aeps/simple-easy.png" alt="Simple Easy Setup" class="w-full h-auto">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Life Insurance Solutions Section -->
-        <section class="w-full py-12" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
-            <div class="max-w-6xl mx-auto px-4">
+                <!-- Changed from flex-col-reverse to flex-col for mobile (image first, then content) -->
                 <div class="flex flex-col md:flex-row items-center gap-8">
-                    <!-- Left side with illustration -->
-                    <div class="w-full md:w-1/2">
-                        <img src="assets/images/aeps/daily-income.png" alt="Life Insurance">
+                    <!-- Image section (first on mobile) -->
+                    <div class="w-full md:w-1/2 mb-8 md:mb-0 order-1 md:order-2" data-aos="fade-left"
+                        data-aos-duration="1000" data-aos-once="true">
+                        <img src="assets/images/lic-insurence-payment/platform.png"
+                            alt="Credit Card Bill Payment Features" class="w-full h-auto" data-aos="zoom-in"
+                            data-aos-delay="150" data-aos-duration="800" data-aos-once="true">
                     </div>
 
-                    <!-- Right side with content -->
-                    <div class="w-full md:w-1/2">
-                        <h2 class="text-3xl font-bold text-gray-900 mb-6">Daily assured
-                            Income</h2>
+                    <!-- Content section (second on mobile) -->
+                    <div class="w-full md:w-1/2 order-2 md:order-1" data-aos="fade-right" data-aos-duration="1000"
+                        data-aos-once="true">
+                        <h2 class="text-3xl font-bold text-primary-500 mb-6" data-aos="fade-up" data-aos-delay="100"
+                            data-aos-duration="800" data-aos-once="true">Our Platform Advantage</h2>
 
                         <ul class="space-y-5 mb-8">
                             <?php
                     $lifePlans = [
-                        'Fixed commission per transaction',
-                        'Additional incentives',
-                        'Quick settlements'
+                        'Instant premium processing ',
+                        'Real-time status updates',
+                        'Secure payment gateway',
+                        'Simple user interface',
+                        'Multi-language support',
+                        'Quick reconciliation',
                     ];
                     
-                    foreach ($lifePlans as $plan) :
+                    foreach ($lifePlans as $index => $plan) :
+                        $delay = 200 + ($index * 100);
                     ?>
-                            <li class="flex items-start">
-                                <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                        <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
-                                        <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2"
-                                            stroke-linecap="round" stroke-linejoin="round" />
+                            <li class="flex items-start" data-aos="fade-up" data-aos-delay="<?php echo $delay; ?>"
+                                data-aos-duration="600" data-aos-once="true">
+                                <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1"
+                                    data-aos="zoom-in" data-aos-delay="<?php echo $delay + 50; ?>"
+                                    data-aos-duration="400" data-aos-once="true">
+                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_2090_6342)">
+                                            <path
+                                                d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z"
+                                                fill="#EDF0F7" stroke="#4B69B2" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705"
+                                                stroke="#4B69B2" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_2090_6342">
+                                                <rect width="19" height="19" fill="white" transform="translate(0 3)" />
+                                            </clipPath>
+                                        </defs>
                                     </svg>
                                 </div>
                                 <span class="ml-3 text-gray-700"><?php echo $plan; ?></span>
                             </li>
                             <?php endforeach; ?>
                         </ul>
-
-                        <a href="contact-us.php" class="inline-block">
-                            <span
-                                class="bg-secondary-600 hover:bg-secondary-500 text-white font-medium py-2.5 px-6 rounded-md transition duration-300 inline-flex items-center gap-2">
-                                Read More
-
-                            </span>
-                        </a>
                     </div>
                 </div>
             </div>
         </section>
 
 
-        <!-- Support Promise Banner -->
-        <!-- Support Promise Banner -->
-        <section>
-            <div class="w-full bg-primary-600 py-12">
-                <div class="max-w-7xl mx-auto px-4">
-                    <!-- Desktop View -->
-                    <div class="hidden md:flex flex-row items-center justify-between text-white">
-                        <div class="font-bold text-base whitespace-nowrap">
-                            Our Support Promise
-                        </div>
 
-                        <div class="flex items-center justify-end space-x-6 text-sm">
-                            <div class="text-white/50">|</div>
-                            <div class="flex items-center">
-                                <span class="whitespace-nowrap">Training for new agents</span>
-                            </div>
-                            <div class="text-white/50">|</div>
-                            <div class="flex items-center">
-                                <span class="whitespace-nowrap">Regular commission payments</span>
-                            </div>
-                            <div class="text-white/50">|</div>
-                            <div class="flex items-center">
-                                <span class="whitespace-nowrap"> Dedicated relationship manager</span>
-                            </div>
-                            <div class="text-white/50">|</div>
-                            <div class="flex items-center">
-                                <span class="whitespace-nowrap"> 24/7 Technical assistance</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Mobile View - Improved -->
-                    <div class="md:hidden">
-                        <div class="font-bold text-sm text-white mb-4">
-                            Our Support Promise </div>
-
-                        <div class="scroll-snap-container overflow-x-scroll pb-2 w-full">
-                            <div class="flex items-center space-x-4 text-sm text-white min-w-max px-4">
-                                <span>Training for new agents</span>
-                                <span class="text-white/50">|</span>
-                                <span>Regular commission payments</span>
-                                <span class="text-white/50">|</span>
-                                <span>Dedicated relationship manager</span>
-                                <span class="text-white/50">|</span>
-                                <span> 24/7 Technical assistance</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <!-- FAQ Section -->
         <section class="py-10 max-w-3xl mx-auto px-4">
@@ -376,24 +320,24 @@
             <!-- FAQ Accordion -->
             <div class="space-y-4">
                 <?php
-       $faqItems = [
-        [
-            'question' => 'What exactly is AEPS?',
-            'answer' => 'It\'s a simple banking system that uses Aadhaar card and fingerprint to help customers withdraw cash, check balance, and get mini statements.',
-            'isOpen' => true
-        ],
-        [
-            'question' => 'When can I offer AEPS services?',
-            'answer' => 'You can serve customers any time - weekdays, weekends, or holidays. Just ensure you have internet connectivity.',
-            'isOpen' => false
-        ],
-        [
-            'question' => 'What do I need to start?',
-            'answer' => 'Basic requirements include a smartphone/computer, biometric device, and internet connection. We\'ll guide you through the setup.',
-            'isOpen' => false
-        ]
-    ];
-    
+$faqItems = [
+    [
+        'question' => 'What documents do I need to become a LIC premium collection partner?',
+        'answer' => 'Valid ID proof, business registration, and bank account details are required for partnership registration.',
+        'isOpen' => true
+    ],
+    [
+        'question' => 'How quickly are commissions credited?',
+        'answer' => 'Commissions are settled within 24 hours of successful transactions.',
+        'isOpen' => false
+    ],
+    [
+        'question' => 'Is technical knowledge required to use the platform?',
+        'answer' => 'Our platform features an easy-to-use interface suitable for partners with basic digital literacy.',
+        'isOpen' => false
+    ]
+];
+
 
         foreach ($faqItems as $index => $item) :
             $isOpen = $item['isOpen'];

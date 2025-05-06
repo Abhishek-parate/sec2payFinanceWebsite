@@ -29,7 +29,7 @@
                 <div class="rounded-xl overflow-hidden">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                         <!-- Left Content - Services List -->
-                        <div class="p-4 md:p-8 lg:p-12" data-aos="fade-right" data-aos-duration="1000"
+                        <div class="p-4 md:p-8 lg:p-12  pt-8 " data-aos="fade-right" data-aos-duration="1000"
                             data-aos-once="true">
                             <h1 class="text-3xl md:text-4xl font-bold text-secondary-600">Fuel Business Growth</h1>
                             <h1 class="text-3xl md:text-4xl font-bold text-secondary-600 mb-4">with Smart Credit
@@ -61,14 +61,13 @@
                         </div>
 
                         <!-- Right Content - Image -->
-                        <div class="relative order-first md:order-last" data-aos="fade-left" data-aos-duration="1200"
-                            data-aos-once="true">
+                          <div class="relative max-w-5xl mx-auto  ">
                             <!-- Main Dashboard Image -->
                             <div class="relative z-20">
-                                <img src="assets/images/ondc-credit-service-platform/banner.png" alt="Dashboard"
-                                    class="w-full h-auto" />
+                            <img src="assets/images/ondc-credit-service-platform/banner.png" 
+                            alt="Dashboard" class=" h-auto" />
                                 <div
-                                    class="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-white to-transparent">
+                                    class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
                                 </div>
                             </div>
                         </div>
@@ -81,7 +80,8 @@
 
 
         <!-- E-Governance Platform Services Section -->
-        <section class="bg-primary-100 py-10 px-4 md:px-24" data-aos="fade-up" data-aos-delay="50">
+        <section class="bg-primary-100 py-10 px-4 md:px-24" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"
+        data-aos-once="true">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl font-bold text-primary-700 my-8 text-center">Features & Functions</h2>
 

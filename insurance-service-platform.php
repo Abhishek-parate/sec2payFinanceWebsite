@@ -22,7 +22,7 @@
     <?php include_once('includes/header.php'); ?>
 
 
-    <main>
+    <main class="overflow-hidden">
 
 
         <!-- Utility Services Section -->
@@ -31,7 +31,7 @@
                 <div class="rounded-xl overflow-hidden">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-0">
                         <!-- Left Content - Services List -->
-                        <div class="p-6 sm:p-8 md:p-12 flex flex-col justify-center" data-aos="fade-right">
+                        <div class="px-8 pt-8 md:px-12 md:pt-12 lg:px-16 lg:pt-16" data-aos="fade-right">
                             <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500 leading-tight">
                                 Build Your Insurance<br>
                                 Business Portfolio

@@ -25,12 +25,13 @@
     <main>
 
         <!-- hero section -->
-        <section class="bg-white overflow-hidden hero-section py-10 sm:py-12">
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="rounded-xl">
-                    <div class="flex flex-col lg:grid lg:grid-cols-2 gap-8 items-center">
+        <section class=" bg-white">
+
+            <div class="max-w-7xl mx-auto md:py-12 pt-12  ">
+                <div class="rounded-xl overflow-hidden  ">
+                    <div class="grid grid-cols-1 md:grid-cols-2 ">
                         <!-- Content First on Mobile -->
-                        <div class="p-4 sm:p-6 lg:p-8 order-1" data-aos="fade-right" data-aos-duration="1000"
+                        <div class="px-8 pt-8 md:px-12 md:pt-14 md:mt-12 lg:px-16 lg:pt-16 " data-aos="fade-right" data-aos-duration="1000"
                             data-aos-once="true">
                             <p class="font-bold text-primary-600 text-sm sm:text-base">Banking Platform Services</p>
                             <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-600 mt-2">Transform
@@ -40,7 +41,7 @@
                             <p class="text-gray-500 mb-6">Empower your business to create seamless shopping experiences
                                 for buyers.</p>
 
-                            <a href="#"
+                            <a href="/contact-us.php"
                                 class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4"
                                 data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
                                 Explore Banking Services
@@ -101,7 +102,7 @@
                 <!-- Section Header -->
                 <div class="text-center mb-8 md:mb-12 z-10 relative" data-aos="fade-up" data-aos-duration="800">
                     <h2 class="text-3xl md:text-4xl font-bold text-primary-800 mb-4 md:mb-6">Banking overview</h2>
-                    <p class="text-gray-600 max-w-4xl mx-auto text-center leading-relaxed px-4">
+                    <p class="text-black max-w-4xl mx-auto text-center leading-relaxed px-4">
                         Sec2Pay's Banking Platform enables enterprises to integrate essential financial services into
                         their
                         business operations. By leveraging a range of solutions like AEPS, Aadhar Pay, Micro ATM, DMT,
@@ -141,7 +142,7 @@
                 <!-- CTA Button -->
                 <div class="text-center relative" style="top: calc(60% - 12rem);" data-aos="zoom-in"
                     data-aos-delay="400">
-                    <a href="#"
+                    <a href="/contact-us.php"
                         class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-6 md:px-8 rounded-md transition duration-300">
                         Discover More
                     </a>

@@ -21,43 +21,43 @@
     <?php include_once('includes/header.php'); ?>
 
 
-    <main>
+    <main class=" overflow-hidden">
 
 <!-- hero section -->
 
 <section class=" bg-white">
 
-    <div class="max-w-7xl mx-auto py-12  ">
-        <div class="rounded-xl overflow-hidden  ">
-            <div class="grid grid-cols-1 md:grid-cols-2 ">
+                <div class="max-w-7xl mx-auto md:py-12 pt-12  ">
+                <div class="rounded-xl overflow-hidden  ">
+                    <div class="grid grid-cols-1 md:grid-cols-2 ">
                 <!-- Left Content - Services List -->
                 <div class="p-8 md:p-12">
                     <p class="font-semi-bolder text-primary-900"><span class="text-primary-500">Home / Multi Services Platform /</span> Traveling Solutions</p>
-                    <h1 class="text-4xl font-bold text-secondary-500 ">Build Your</h1>
-                    <h1 class="text-4xl font-bold text-secondary-500 mb-4">Travel Business</h1>
-                    <p class="text-gray-500 mb-8">Join 20,000+ travel retailers earning through India's trusted B2B
+                    <h1 class="text-3xl md:text-4xl font-bold text-secondary-500">Build Your</h1>
+                    <h1 class="text-3xl md:text-4xl font-bold text-secondary-500 mb-4">Travel Business</h1>
+                    <p class="text-black mb-5">Join 20,000+ travel retailers earning through India's trusted B2B
                         travel platform</p>
 
-                    <a href="#"
-                        class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
-                        Start Your Journey
+                        <a href="#"
+                                class="inline-flex items-center justify-center px-5 py-3 md:mb-4 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
+                                Start Your Journey
 
-                    </a>
+                            </a>
 
-                    <div
-                        class="mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm">
-                        <div class="flex -space-x-2 ">
-                            <img src="https://randomuser.me/api/portraits/men/1.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
-                            <img src="https://randomuser.me/api/portraits/women/2.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
-                            <img src="https://randomuser.me/api/portraits/men/3.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
-                            <img src="https://randomuser.me/api/portraits/women/4.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
-                        </div>
-                        <span class="text-gray-600 text-sm">1 Lac+ Retail partners across India</span>
-                    </div>
+                            <div
+                                class="flex items-center gap-2 border-2 md:mt-8 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm">
+                                <div class="flex -space-x-2 ">
+                                    <img src="https://randomuser.me/api/portraits/men/1.jpg"
+                                        class="w-6 h-6 sm:w-8 sm:h-8 md:w-8 md:h-8 rounded-full border-2 border-white">
+                                    <img src="https://randomuser.me/api/portraits/women/2.jpg"
+                                        class="w-6 h-6 sm:w-8 sm:h-8 md:w-8 md:h-8 rounded-full border-2 border-white">
+                                    <img src="https://randomuser.me/api/portraits/men/3.jpg"
+                                        class="w-6 h-6 sm:w-8 sm:h-8 md:w-8 md:h-8 rounded-full border-2 border-white">
+                                    <img src="https://randomuser.me/api/portraits/women/4.jpg"
+                                        class="w-6 h-6 sm:w-8 sm:h-8 md:w-8 md:h-8 rounded-full border-2 border-white">
+                                </div>
+                                <span class="text-gray-600 text-sm">1 Lac+ Retail partners across India</span>
+                            </div>
                 </div>
                 <!-- Right Content - Image and Features -->
                 <!-- Diagonal Shapes for Design -->
