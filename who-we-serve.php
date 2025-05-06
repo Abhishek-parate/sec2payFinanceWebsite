@@ -82,7 +82,7 @@
                   foreach ($Merchants as $Merchant) :
                   ?>
                     <li class="flex items-start">
-                      <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                      <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
                           <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
                           <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -110,7 +110,7 @@
                 foreach ($services as $service) :
                 ?>
                   <li class="flex items-start">
-                    <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                    <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center">
                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
                         <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
                         <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -127,15 +127,9 @@
         <!-- Contact Sales Button -->
         <div class="relative z-10 flex justify-center items-center mt-6" data-aos="fade-up" data-aos-delay="400">
           <a href="contact-us.php"
-            class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
+            class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-12 sm:px-16 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
             data-aos="zoom-in" data-aos-delay="500">
             Contact Sales
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2" viewBox="0 0 20 20"
-              fill="currentColor">
-              <path fill-rule="evenodd"
-                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                clip-rule="evenodd" />
-            </svg>
           </a>
         </div>
 
@@ -526,11 +520,6 @@
           [
             'question' => "Do I need technical knowledge to use Sec2Pay's platform?",
             'answer' => "No, you don't need technical expertise. Our platform is built to be user-friendly, especially for businesses in smaller cities and towns. We provide complete training, and our support team is available 24/7 to help you with any questions.",
-            'isOpen' => false
-          ],
-          [
-            'question' => "How long does it take to start offering services through Sec2Pay?",
-            'answer' => "Most of our partners start their operations within 7 days of completing documentation. This includes platform setup, branding customization, and basic training. Our team guides you through each step to ensure a smooth launch.",
             'isOpen' => false
           ]
         ];

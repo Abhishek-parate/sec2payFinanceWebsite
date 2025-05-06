@@ -22,86 +22,73 @@
     <main class="overflow-hidden">
         <!-- hero section -->
 
-        <section class="relative overflow-hidden bg-white py-6 sm:py-8 md:py-10">
-            <div class="hidden sm:block absolute top-[5%] -left-[25%] w-[50%] h-[100%] rounded-full md:block"
-                style="background:radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
-                data-aos="fade" data-aos-duration="1500" data-aos-once="true">
-            </div>
+        <section class="relative overflow-hidden bg-white py-4 sm:py-8 md:py-10">
+    <div class="hidden sm:block absolute top-[5%] -left-[25%] w-[50%] h-[100%] rounded-full md:block"
+        style="background:radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
+        data-aos="fade" data-aos-duration="1500" data-aos-once="true">
+    </div>
 
-            <!-- Top-right Circular Gradient (Pinkish) - Hidden on mobile -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 md:py-12 relative z-10">
+        <div class="rounded-xl overflow-hidden">
+            <div class="flex flex-col md:flex-row md:items-center">
+                <!-- Content - Always First -->
+                <div class="p-4 md:p-8 lg:p-12 pt-8" data-aos="fade-right" data-aos-duration="1000"
+                    data-aos-once="true">
+                    <p class="font-bold text-primary-600 text-sm sm:text-base mb-2" data-aos="fade-up"
+                        data-aos-delay="100" data-aos-duration="800" data-aos-once="true">ONDC E-Commerce Seller Platform Services
+                    </p>
+                    <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500" data-aos="fade-up"
+                        data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
+                        Serve Buyers with Local
+                    </h1>
+                    <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500 mb-3 sm:mb-4"
+                        data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">
+                        Convenience
+                    </h1>
+                    <p class="black mb-6 sm:mb-8 text-sm sm:text-base" data-aos="fade-up" data-aos-delay="400"
+                        data-aos-duration="800" data-aos-once="true">
+                        Empower your business to bring local stores closer to</br> buyers through
+                    </p>
 
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 md:py-12 relative z-10">
-                <div class="rounded-xl overflow-hidden">
-                    <div class="flex flex-col md:flex-row md:items-center">
-                        <!-- Content - Always First -->
-                        <div class="p-4 md:p-8 lg:p-12 pt-8" data-aos="fade-right" data-aos-duration="1000"
-                            data-aos-once="true">
-                            <p class="font-bold text-primary-600 text-sm sm:text-base mb-2" data-aos="fade-up"
-                                data-aos-delay="100" data-aos-duration="800" data-aos-once="true">ONDC CREDIT SERVICE
-                                PLATFORM
+                    <a href="/contact-us.php"
+                        class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
+                        data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
+                        Start Exploring
+                    </a>
 
-                            </p>
-                            <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500" data-aos="fade-up"
-                                data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
-                                Credit Tailored for Your
-                            </h1>
-                            <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500 mb-3 sm:mb-4"
-                                data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">
-                                Business Growth
-                            </h1>
-                            <p class="black mb-6 sm:mb-8 text-sm sm:text-base" data-aos="fade-up" data-aos-delay="400"
-                                data-aos-duration="800" data-aos-once="true">
-                                Empowering your business to provide credit on the ONDC platform.
-
-
-                            </p>
-
-                            <a href="/contact-us.php"
-                                class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
-                                data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
-                                Join the Platform
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
-                                    fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </a>
-
-                            <div class="mt-6 md:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
-                                data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
-                                <div class="flex -space-x-2 ml-1">
-                                    <img src="https://randomuser.me/api/portraits/men/1.jpg"
-                                        class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
-                                    <img src="https://randomuser.me/api/portraits/women/2.jpg"
-                                        class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
-                                    <img src="https://randomuser.me/api/portraits/men/3.jpg"
-                                        class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
-                                    <img src="https://randomuser.me/api/portraits/women/4.jpg"
-                                        class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
-                                </div>
-                                <span class="text-gray-600 text-xs sm:text-sm">1 Lac+ Retail partners across
-                                    India</span>
-                            </div>
+                    <div class="mt-6 md:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                        data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
+                        <div class="flex -space-x-2 ml-1">
+                            <img src="https://randomuser.me/api/portraits/men/1.jpg"
+                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
+                            <img src="https://randomuser.me/api/portraits/women/2.jpg"
+                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
+                            <img src="https://randomuser.me/api/portraits/men/3.jpg"
+                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
+                            <img src="https://randomuser.me/api/portraits/women/4.jpg"
+                                class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
                         </div>
+                        <span class="text-gray-600 text-xs sm:text-sm">1 Lac+ Retail partners across
+                            India</span>
+                    </div>
+                </div>
 
-                        <!-- Image - Always Second -->
-                        <div class="relative mx-auto px-4 sm:px-0" data-aos="fade-left" data-aos-duration="1200"
-                            data-aos-once="true">
-                            <!-- Main Image -->
-                            <div class="relative z-20">
-                                <img src="assets/images/ondc-credit-service-platform/hero-image.png" alt="Dashboard"
-                                    class="w-full h-auto" />
-                                <div
-                                    class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
-                                </div>
-                            </div>
+                <!-- Image - Always Second (Now Smaller) -->
+                <div class="relative mx-auto px-4 md:px-0 md:w-2/5" data-aos="fade-left" data-aos-duration="1200"
+                    data-aos-once="true">
+                    <!-- Main Image - SMALLER SIZE -->
+                    <div class="relative z-20 flex justify-center">
+                        <img src="assets/images/ondc-e-commerce-seller-platform-services/hero-image.png" alt="Dashboard"
+                            class="w-auto h-auto max-w-full max-h-[380px] object-contain" />
+                        <div
+                            class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
                         </div>
                     </div>
                 </div>
             </div>
-
-        </section>
+        </div>
+    </div>
+</section>
 
         <!-- hero section ends -->
 
@@ -110,9 +97,8 @@
         <!-- Banking Services Section -->
         <section class="bg-rose-50 py-10 px-4 md:px-24 flex items-center">
             <div class="container mx-auto px-4 md:px-6">
-                <h2 class="text-3xl font-bold text-primary-700 mb-8 text-red-500 text-center" data-aos="zoom-in"
-                    data-aos-delay="100">ONDC Credit Platform
-                    Services</h2>
+                <h2 class="text-3xl font-bold mb-8 text-secondary-600 text-center" data-aos="zoom-in"
+                    data-aos-delay="100">ONDC E-Commerce Buyer Platform Services</h2>
 
                 <!-- Banking Services Tabs -->
                 <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
@@ -123,15 +109,15 @@
                             <div class="flex flex-col md:flex-row items-center gap-8 text-primary-600">
                                 <div class="w-full md:w-1/2" data-aos="fade-left" data-aos-delay="300">
                                     <div
-                                        class="p-6 bg-secondary-100 rounded-2xl bg-red-200 rounded-[32px] border border-slate-500">
+                                        class="p-6 bg-secondary-200 rounded-3xl  border border-slate-500">
 
                                         <h3 class="text-2xl md:text-3xl font-semibold mb-5">Features</h3>
                                         <ul class="space-y-2 mb-2">
                                             <?php
                       $Merchants = [
-                        'Multi-lender support for diverse credit needs',
-                        'Performance tracking dashboards',
-                        'Automated fraud detection tools'
+                        'Customized shopping experiences',
+                        'Easy deal comparisons',
+                        'Multiple payment options for convenience'
                       ];
 
                       foreach ($Merchants as $Merchant) :
@@ -159,9 +145,9 @@
                                     <ul class="space-y-2 mb-2">
                                         <?php
                     $services = [
-                      'Quick onboarding for your business',
-                      'Flexible repayment options for end users',
-                      'Streamlined documentation'
+                      'Strengthen local economies by supporting neighborhood businesses',
+                      'Provide buyers with exclusive deals and offers',
+                      'Enable hassle-free returns and refunds'
                     ];
 
                     foreach ($services as $service) :
@@ -213,23 +199,23 @@
             <!-- Left Side Image with AOS -->
             <div class="w-full md:w-1/2 flex justify-center" data-aos="fade-right" data-aos-duration="1000">
                 <div class="relative flex justify-center">
-                    <img src="assets/images/ondc-credit-service-platform/ondc-credit-service.png"
+                    <img src="assets/images/ondc-e-commerce-seller-platform-services/ondc-credit-service.png"
                         alt="AePS Banking" class="max-w-full h-auto max-h-[400px]">
                 </div>
             </div>
 
             <!-- Right Side Text Content with AOS -->
             <div class="w-full md:w-1/2" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
-                <h3 class="text-4xl font-bold mb-5 text-black">
-                    Why choose Sec2Pay <br> ONDC Buyer Service:
+                <h3 class="text-4xl font-bold mb-5 text-primary-500">
+                Why choose Sec2Pay <br> ONDC Buyer Service:
                 </h3>
                 <ul class="space-y-5 mb-8">
                     <?php
                     $lifePlans = [
-                        'Instant Credit Assessment',
-                        'Digital Documentation',
-                        'Real-time Monitoring',
-                        'Quick Disbursement',
+                        'Local Store Discovery',
+                        'Price Comparison ',
+                        'Direct Store Connect',
+                        'Secure Payments',
                         '24/7 Support System'
                     ];
                     foreach ($lifePlans as $index => $plan) :
@@ -243,7 +229,7 @@
                                     stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </div>
-                        <span class="ml-3 text-black"><?php echo $plan; ?></span>
+                        <span class="ml-3 text-primary-500"><?php echo $plan; ?></span>
                     </li>
                     <?php endforeach; ?>
                 </ul>
@@ -264,17 +250,17 @@
                 <?php
         $faqItems = [
           [
-              'question' => 'What is ONDC Credit Services platform?',
-              'answer' => 'Our platform enables lenders to offer credit products to ONDC network merchants through digital assessment and disbursement tools.',
+              'question' => 'What is ONDC shopping?',
+              'answer' => 'ONDC (Open Network for Digital Commerce) lets you shop from multiple sellers through a single platform, giving access to local stores and better prices.',
               'isOpen' => true
           ],
           [
-              'question' => 'How can I start offering credit through ONDC?',
+              'question' => 'How do I start shopping on ONDC?',
               'answer' => 'Register as a credit partner on our platform, complete integration, and start offering credit products to verified ONDC merchants.',
               'isOpen' => false
           ],
           [
-              'question' => 'What types of credit products can be offered?',
+              'question' => 'Is shopping through ONDC safe?',
               'answer' => 'Partners can offer working capital loans, invoice financing, and merchant cash advances based on ONDC transaction data.',
               'isOpen' => false
           ]
@@ -308,7 +294,7 @@
         <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
             <div class="container mx-auto">
                 <!-- Join Panel with Starry Background -->
-                <div class="bg-gradient-to-br from-primary-600 to-primary-500 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+                <div class="bg-gradient-to-br from-primary-700 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
                     data-aos="fade-up" data-aos-duration="1000">
 
                     <!-- Stars Background SVG -->
