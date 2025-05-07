@@ -21,119 +21,151 @@
     <?php include_once('includes/header.php'); ?>
 
 
-    <main>
-<!-- dmt Section -->
-<section class=" bg-white pt-16">
+    <main class="overflow-hidden">
+    <section class="relative overflow-hidden bg-white py-6 sm:py-8 md:py-10">
+            <!-- Top-left Circular Gradient (Bluish) - Hidden on mobile -->
+            <div class="absolute top-[5%] -left-[25%] w-[50%] h-[100%] rounded-full hidden md:block"
+                style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
+                data-aos="fade" data-aos-duration="1500" data-aos-once="true">
+            </div>
 
-    <div class="max-w-7xl mx-auto ">
-        <div class="rounded-xl overflow-hidden  ">
-            <div class="grid grid-cols-1 md:grid-cols-2">
-                <!-- Left Content - Services List -->
-                <div class="p-8 md:p-12 mt-12">
-                    <p class="font-semi-bolder text-primary-600 font-bold">PAN UTI</p>
-                    <h1 class="text-4xl font-bold text-secondary-500 ">Your Trusted PAN Card</h1>
-                    <h1 class="text-4xl font-bold text-secondary-500 mb-4">Service Partner</h1>
-                    <p class="text-gray-500 mb-8">Register as a PAN UTI agent and provide essential PAN card services to your customers</p>
+            <!-- Top-right Circular Gradient (Pinkish) - Hidden on mobile -->
+            <div class="absolute -top-[20%] -right-[20%] w-[50%] h-[100%] rounded-full hidden md:block"
+                style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
+                data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+            </div>
 
-                    <a href="#"
-                        class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
-                        Start Your Journey
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 md:py-12 relative z-10">
+                <div class="rounded-xl overflow-hidden">
+                    <div class="flex flex-col md:flex-row md:items-center">
+                        <!-- Content - Always First -->
+                        <div class="p-4 md:p-8 lg:p-12 pt-8" data-aos="fade-right" data-aos-duration="1000"
+                            data-aos-once="true">
+                            <p class="font-bold text-primary-600 text-sm sm:text-base mb-2" data-aos="fade-up"
+                                data-aos-delay="100" data-aos-duration="800" data-aos-once="true">PAN UTI
 
-                    </a>
+</p>
+                            <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500" data-aos="fade-up"
+                                data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
+                                Your Trusted PAN Card
+                                </h1>
+                            <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500 mb-3 sm:mb-4"
+                                data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">
+                                Service Partner
+                                </h1>
+                            <p class="black mb-6 sm:mb-8 text-sm sm:text-base" data-aos="fade-up" data-aos-delay="400"
+                                data-aos-duration="800" data-aos-once="true">
+                                Register as a PAN UTI agent and provide essential PAN card  <br>
+                                services to your customers
 
-                    <div
-                        class="mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm">
-                        <div class="flex -space-x-2 ">
-                            <img src="https://randomuser.me/api/portraits/men/1.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
-                            <img src="https://randomuser.me/api/portraits/women/2.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
-                            <img src="https://randomuser.me/api/portraits/men/3.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
-                            <img src="https://randomuser.me/api/portraits/women/4.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
+
+                            </p>
+
+                            <a href="contact-us.php"
+                                class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
+                                data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
+                                Start Your Journey                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+
+                            <div class="mt-6 md:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                                data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
+                                <div class="flex -space-x-2 ml-1">
+                                    <img src="https://randomuser.me/api/portraits/men/1.jpg"
+                                        class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
+                                    <img src="https://randomuser.me/api/portraits/women/2.jpg"
+                                        class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
+                                    <img src="https://randomuser.me/api/portraits/men/3.jpg"
+                                        class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
+                                    <img src="https://randomuser.me/api/portraits/women/4.jpg"
+                                        class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
+                                </div>
+                                <span class="text-gray-600 text-xs sm:text-sm">1 Lac+ Retail partners across
+                                    India</span>
+                            </div>
                         </div>
-                        <span class="text-gray-600 text-sm">1 Lac+ Retail partners across India</span>
-                    </div>
-                </div>
-                <!-- Right Content - Image and Features -->
-                <!-- Diagonal Shapes for Design -->
 
-                <!-- Person Image -->
-
-
-                <div class="relative max-w-5xl mx-auto  ">
-                    <!-- Main Dashboard Image -->
-                    <div class="relative z-20">
-                        <img src="assets/images/pan-uti/banner.png" alt="Dashboard" class=" h-auto" />
-                        <div class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
+                        <!-- Image - Always Second -->
+                        <div class="relative mx-auto px-4 sm:px-0" data-aos="fade-left" data-aos-duration="1200"
+                            data-aos-once="true">
+                            <!-- Main Image -->
+                            <div class="relative z-20">
+                                <img src="assets/images/pan-uti/banner.png" alt="AEPS Banking Services"
+                                    class="w-auto md:h-96" />
+                                <div
+                                    class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-</section>
+        </section>
 
 
 <!-- features & function Section  -->
 
 <section class="bg-primary-600 py-10 px-4 md:px-24">
     <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-primary-100 my-8 text-center">Features & Functions</h2>
-        
+        <h2 class="text-3xl font-bold text-primary-100 my-8 text-center" data-aos="fade-up">Features & Functions</h2>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <!-- Feature Card 1 -->
             <div
-                class="border border-gray-200  bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/pan-uti/digital.png" alt="Real-Time Payment"
+                class="border border-gray-200 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+                data-aos="fade-up" data-aos-delay="100">
+                <img src="assets/images/pan-uti/digital.png" alt="Digital PAN Applications"
                     class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left">
                     <h3 class="text-secondary-600 font-semibold text-xl mb-2">Digital PAN Applications</h3>
                     <p class="text-gray-600 text-sm">
-                    Help customers apply for new PAN cards through our digital platform. Our simple interface makes applications quick and error-free, with real-time status tracking.
+                        Help customers apply for new PAN cards through our digital platform. Our simple interface makes applications quick and error-free, with real-time status tracking.
                     </p>
                 </div>
             </div>
 
             <!-- Feature Card 2 -->
             <div
-                class="border border-gray-200  bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/pan-uti/pancard2.png" alt="Real-Time Payment"
+                class="border border-gray-200 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+                data-aos="fade-up" data-aos-delay="200">
+                <img src="assets/images/pan-uti/pancard2.png" alt="PAN Card Updates"
                     class="w-full object-contain rounded-t-lg">
-                <div class="p-6 text-left ">
-
-                    <h3 class="text-secondary-600 font-semibold text-xl mb-2">PAN Card
-                    Updates</h3>
+                <div class="p-6 text-left">
+                    <h3 class="text-secondary-600 font-semibold text-xl mb-2">PAN Card Updates</h3>
                     <p class="text-gray-600 text-sm">
-                    Support customers in updating their PAN card details, including name changes, address modifications, and demographic information updates.
+                        Support customers in updating their PAN card details, including name changes, address modifications, and demographic information updates.
                     </p>
                 </div>
             </div>
 
             <!-- Feature Card 3 -->
             <div
-                class="border border-gray-200  bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/pan-uti/corrections.png" alt="Real-Time Payment"
+                class="border border-gray-200 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+                data-aos="fade-up" data-aos-delay="300">
+                <img src="assets/images/pan-uti/corrections.png" alt="PAN Card Corrections"
                     class="w-full object-contain rounded-t-lg">
-                <div class="p-6 text-left ">
-
+                <div class="p-6 text-left">
                     <h3 class="text-secondary-600 font-semibold text-xl mb-2">PAN Card Corrections</h3>
                     <p class="text-gray-600 text-sm">
-                    Earn competitive commissions on every successful transaction. Watch your business grow with our tiered commission rates.
+                        Earn competitive commissions on every successful transaction. Watch your business grow with our tiered commission rates.
                     </p>
                 </div>
             </div>
 
             <!-- Feature Card 4 -->
             <div
-                class="border border-gray-200 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-                <img src="assets/images/pan-uti/linking.png" alt="Real-Time Payment"
+                class="border border-gray-200 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+                data-aos="fade-up" data-aos-delay="400">
+                <img src="assets/images/pan-uti/linking.png" alt="PAN-Aadhaar Linking"
                     class="w-full object-contain rounded-t-lg">
-                <div class="p-6 text-left  ">
-
+                <div class="p-6 text-left">
                     <h3 class="text-secondary-600 font-semibold text-xl mb-2">PAN-Aadhaar Linking</h3>
                     <p class="text-gray-600 text-sm">
-                    Guide customers through PAN-Aadhaar linking requirements. Our platform simplifies the entire process while ensuring compliance.
+                        Guide customers through PAN-Aadhaar linking requirements. Our platform simplifies the entire process while ensuring compliance.
                     </p>
                 </div>
             </div>
@@ -142,20 +174,19 @@
 </section>
 
 
+
 <!-- Life Insurance Solutions Section -->
 <section class="w-full py-12">
     <div class="max-w-6xl mx-auto px-4">
-
         <div class="flex flex-col md:flex-row items-center gap-8">
             <!-- Left side with illustration -->
-            <div class="w-full md:w-1/2">
+            <div class="w-full md:w-1/2" data-aos="fade-right" data-aos-delay="100">
                 <img src="assets/images/pan-uti/benefits.png" alt="Life Insurance">
             </div>
 
             <!-- Right side with content -->
-            <div class="w-full md:w-1/2">
-                <h2 class="text-3xl font-bold text-primary-600 mb-6 mt-6">Benefits to PAN UTI
-                Agents</h2>
+            <div class="w-full md:w-1/2" data-aos="fade-left" data-aos-delay="200">
+                <h2 class="text-3xl font-bold text-primary-600 mb-6 mt-6">Benefits to PAN UTI Agents</h2>
 
                 <ul class="space-y-5 mb-12">
                     <?php
@@ -167,10 +198,11 @@
                         'Get real-time application status updates',
                         'Dedicated support for query resolution',
                     ];
-                    
+
+                    $delay = 300;
                     foreach ($dmts as $dmt) :
                     ?>
-                    <li class="flex items-start">
+                    <li class="flex items-start" data-aos="fade-up" data-aos-delay="<?php echo $delay; ?>">
                         <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
                             <svg width="19" height="25" viewBox="0 0 19 25" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -190,83 +222,84 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-
                         </div>
                         <span class="ml-3 text-gray-700"><?php echo $dmt; ?></span>
                     </li>
-                    <?php endforeach; ?>
+                    <?php
+                        $delay += 100;
+                    endforeach;
+                    ?>
                 </ul>
-
             </div>
         </div>
     </div>
 </section>
 
 
-<!-- Our Other Services Section -->
-<section class="w-full bg-secondary-500 py-10 px-4">
-    <div class="max-w-6xl mx-auto">
-        <div class="flex flex-col md:flex-row items-start">
-            <!-- Section Title -->
-            <div class="text-white mb-10 md:mb-0 md:w-1/4 md:mr-8 md:pt-2">
-                <h2 class="text-3xl font-bold leading-tight uppercase">
-                    OUR OTHER SERVICES
-                </h2>
+<section class="w-full bg-secondary-500 py-16 px-4" data-aos="fade" data-aos-duration="1000"
+            data-aos-once="true">
+            <div class="max-w-6xl mx-auto">
+                <div class="flex flex-col md:flex-row items-start">
+                    <!-- Section Title -->
+                    <div class="text-white mb-10 md:mb-0 md:w-1/4 md:mr-8 md:pt-2" data-aos="fade-right"
+                        data-aos-duration="800" data-aos-once="true">
+                        <h2 class="text-3xl font-bold leading-tight uppercase">
+                            OUR OTHER SERVICES
+                        </h2>
+                    </div>
+
+                    <!-- Services Grid -->
+                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-8 md:w-3/4 w-full"
+                        data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                        <!-- AEPS -->
+                        <div class="flex flex-col items-center justify-center" data-aos="zoom-in" data-aos-delay="100"
+                            data-aos-duration="600" data-aos-once="true">
+                            <div
+                                class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
+                                <img src="assets/images/pan-uti/icon1.svg" alt="AEPS" class="w-28 h-28">
+                            </div>
+                            <span class="text-white text-center font-medium">AEPS</span>
+                        </div>
+
+                        <!-- DMT -->
+                        <div class="flex flex-col items-center justify-center" data-aos="zoom-in" data-aos-delay="200"
+                            data-aos-duration="600" data-aos-once="true">
+                            <img src="assets/images/pan-uti/icon2.svg" alt="DMT" class="w-28 h-28">
+                            <span class="text-white text-center font-medium">DMT</span>
+                        </div>
+
+                        <!-- Micro ATM -->
+                        <div class="flex flex-col items-center justify-center" data-aos="zoom-in" data-aos-delay="300"
+                            data-aos-duration="600" data-aos-once="true">
+                            <img src="assets/images/pan-uti/icon3.svg" alt="Micro ATM" class="w-28 h-28">
+                            <span class="text-white text-center font-medium">Micro ATM</span>
+                        </div>
+
+                        <!-- mPOS -->
+                        <div class="flex flex-col items-center justify-center" data-aos="zoom-in" data-aos-delay="400"
+                            data-aos-duration="600" data-aos-once="true">
+                            <img src="assets/images/pan-uti/icon4.svg" alt="mPOS" class="w-28 h-28">
+                            <span class="text-white text-center font-medium">mPOS</span>
+                        </div>
+
+                        <!-- CMS -->
+                        <div class="flex flex-col items-center justify-center" data-aos="zoom-in" data-aos-delay="500"
+                            data-aos-duration="600" data-aos-once="true">
+                            <img src="assets/images/pan-uti/icon5.svg" alt="CMS" class="w-28 h-28">
+                            <span class="text-white text-center font-medium">CMS</span>
+                        </div>
+
+                        <!-- UPI QR Code -->
+                        <div class="flex flex-col items-center justify-center" data-aos="zoom-in" data-aos-delay="600"
+                            data-aos-duration="600" data-aos-once="true">
+                            <img src="assets/images/pan-uti/icon6.svg" alt="UPI QR Code" class="w-28 h-28">
+                            <span class="text-white text-center font-medium">UPI QR Code</span>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
-            <!-- Services Grid -->
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-8 md:w-3/4 w-full">
-                <!-- AEPS -->
-                <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
-                        <img src="assets/images/pan-uti/icon1.svg" alt="AEPS" class="w-16 h-16">
-                    </div>
-                    <span class="text-white text-center font-medium">AEPS</span>
-                </div>
-                
-                <!-- DMT -->
-                <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
-                        <img src="assets/images/pan-uti/icon2.svg" alt="DMT" class="w-16 h-16">
-                    </div>
-                    <span class="text-white text-center font-medium">DMT</span>
-                </div>
-                
-                <!-- Micro ATM -->
-                <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
-                        <img src="assets/images/pan-uti/icon3.svg" alt="Micro ATM" class="w-16 h-16">
-                    </div>
-                    <span class="text-white text-center font-medium">Micro ATM</span>
-                </div>
-                
-                <!-- mPOS -->
-                <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
-                        <img src="assets/images/pan-uti/icon4.svg" alt="mPOS" class="w-16 h-16">
-                    </div>
-                    <span class="text-white text-center font-medium">mPOS</span>
-                </div>
-                
-                <!-- CMS -->
-                <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
-                        <img src="assets/images/pan-uti/icon5.svg" alt="CMS" class="w-16 h-16">
-                    </div>
-                    <span class="text-white text-center font-medium">CMS</span>
-                </div>
-                
-                <!-- UPI QR Code -->
-                <div class="flex flex-col items-center justify-center">
-                    <div class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
-                        <img src="assets/images/pan-uti/icon6.svg" alt="UPI QR Code" class="w-16 h-16">
-                    </div>
-                    <span class="text-white text-center font-medium">UPI QR Code</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+        </section>
+
 
 
 <!-- FAQ Section -->
@@ -286,16 +319,17 @@
                 'isOpen' => true
             ],
             [
-                'question' => ' How long does PAN card processing take?',
-                'answer' => 'You can offer AEPS services once you\'ve completed the registration process and have the necessary equipment set up. This typically includes having a biometric device and completing the verification process.',
+                'question' => 'How long does PAN card processing take?',
+                'answer' => 'Standard processing time is 7-10 working days. Agents can track application status through our dashboard.',
                 'isOpen' => false
             ],
             [
                 'question' => 'Can existing PAN cards be modified?',
-                'answer' => 'To start offering AEPS services, you\'ll need a smartphone or computer, a biometric device for fingerprint authentication, a reliable internet connection, and valid documentation for registration.',
+                'answer' => 'Yes, modifications including name changes, address updates, and corrections can be processed through our platform.',
                 'isOpen' => false
             ]
         ];
+        
 
         foreach ($faqItems as $index => $item) :
             $isOpen = $item['isOpen'];
@@ -369,6 +403,48 @@
 
 
  </main>
+
+     <!-- faq -->
+     <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const accordionButtons = document.querySelectorAll('.faq-toggle');
+
+        accordionButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const isHidden = content.classList.contains('hidden');
+                const plusMinus = button.querySelector('span');
+                const question = button.querySelector('h3');
+
+                // Close all
+                document.querySelectorAll('.faq-content').forEach(div => {
+                    div.classList.add('hidden');
+                });
+                document.querySelectorAll('.faq-toggle span').forEach(span => {
+                    span.textContent = '+';
+                    span.classList.remove('text-secondary-500');
+                    span.classList.add('text-primary-800');
+                });
+                document.querySelectorAll('.faq-toggle h3').forEach(h3 => {
+                    h3.classList.remove('text-secondary-500');
+                    h3.classList.add('text-primary-800');
+                });
+
+                // Open current if it was closed
+                if (isHidden) {
+                    content.classList.remove('hidden');
+                    plusMinus.textContent = '−';
+                    plusMinus.classList.remove('text-primary-800');
+                    plusMinus.classList.add('text-secondary-500');
+                    question.classList.remove('text-primary-800');
+                    question.classList.add('text-secondary-500');
+                }
+            });
+        });
+    });
+    </script>
+    <!-- FAQ Section Ends -->
+
 
     <!-- Main Header Banner -->
 

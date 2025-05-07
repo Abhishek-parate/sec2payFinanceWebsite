@@ -22,18 +22,18 @@
 
 
     <main class="overflow-hidden">
-<!-- hero section -->
-<section class="relative overflow-hidden bg-white py-6 sm:py-8 md:py-10">
+        <!-- hero section -->
+        <section class="relative overflow-hidden bg-white py-6 sm:py-8 md:py-10">
             <!-- Top-left Circular Gradient (Bluish) - Hidden on mobile -->
             <div class="absolute top-[5%] -left-[25%] w-[50%] h-[100%] rounded-full hidden md:block"
-            style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
-            data-aos="fade" data-aos-duration="1500" data-aos-once="true">
+                style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
+                data-aos="fade" data-aos-duration="1500" data-aos-once="true">
             </div>
 
             <!-- Top-right Circular Gradient (Pinkish) - Hidden on mobile -->
             <div class="absolute -top-[20%] -right-[20%] w-[50%] h-[100%] rounded-full hidden md:block"
-            style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
-            data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+                style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
+                data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
             </div>
 
             <div class="max-w-7xl mx-auto px-4 sm:px-6 md:py-12 relative z-10">
@@ -47,11 +47,11 @@
                             <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500" data-aos="fade-up"
                                 data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
                                 Make Every Drive Count:
-</h1>
+                            </h1>
                             <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500 mb-3 sm:mb-4"
                                 data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">
                                 Your Simple FASTag Solution
- </h1>
+                            </h1>
                             <p class="black mb-6 sm:mb-8 text-sm sm:text-base" data-aos="fade-up" data-aos-delay="400"
                                 data-aos-duration="800" data-aos-once="true">
                                 Offer instant FASTag recharge services at your <br>
@@ -104,73 +104,96 @@
             </div>
         </section>
 
-<!-- hero section ends -->
+        <!-- hero section ends -->
 
 
-<!-- E-Governance Platform Services Section -->
-<section class="bg-secondary-100 py-12 px-4 md:px-24" data-aos="fade" data-aos-duration="800" data-aos-once="true">
-    <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-primary-700 my-8 text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-            Why Choose Sec2Pay <span class="text-secondary-500">FASTag Platform</span>
-        </h2>
+        <!-- E-Governance Platform Services Section -->
+        <section class="bg-secondary-100 py-12 px-4 md:px-24" data-aos="fade" data-aos-duration="800"
+            data-aos-once="true">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-primary-700 my-8 text-center" data-aos="fade-up"
+                    data-aos-duration="1000" data-aos-once="true">
+                    Why Choose Sec2Pay <span class="text-secondary-500">FASTag Platform</span>
+                </h2>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <!-- Feature: Instant Recharge -->
-            <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-once="true">
-                <div class="text-left mb-2">
-                    <h2 class="text-xl font-semibold text-secondary-600" data-aos="fade-right" data-aos-delay="150" data-aos-duration="600" data-aos-once="true">Instant Recharge</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    <!-- Feature: Instant Recharge -->
+                    <div data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-once="true">
+                        <div class="text-left mb-2">
+                            <h2 class="text-xl font-semibold text-secondary-600" data-aos="fade-right"
+                                data-aos-delay="150" data-aos-duration="600" data-aos-once="true">Instant Recharge</h2>
+                        </div>
+                        <p class="text-grey-500 pt-2">
+                            <span data-aos="fade-up" data-aos-delay="200" data-aos-duration="500"
+                                data-aos-once="true">Instant Recharge Quick top-up options for all bank
+                                FASTags</span><br>
+                            <span data-aos="fade-up" data-aos-delay="300" data-aos-duration="500"
+                                data-aos-once="true">Real-time balance updates</span><br>
+                            <span data-aos="fade-up" data-aos-delay="400" data-aos-duration="500"
+                                data-aos-once="true">Direct bank integration</span>
+                        </p>
+                    </div>
+
+                    <!-- Feature: Transaction History -->
+                    <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
+                        <div class="text-left mb-2">
+                            <h2 class="text-xl font-semibold text-secondary-600" data-aos="fade-right"
+                                data-aos-delay="250" data-aos-duration="600" data-aos-once="true">Transaction History
+                            </h2>
+                        </div>
+                        <p class="text-grey-500 pt-2">
+                            <span data-aos="fade-up" data-aos-delay="300" data-aos-duration="500"
+                                data-aos-once="true">Complete Transaction History</span><br>
+                            <span data-aos="fade-up" data-aos-delay="400" data-aos-duration="500"
+                                data-aos-once="true">Access detailed recharge records</span><br>
+                            <span data-aos="fade-up" data-aos-delay="500" data-aos-duration="500"
+                                data-aos-once="true">Track customer transactions</span><br>
+                            <span data-aos="fade-up" data-aos-delay="600" data-aos-duration="500"
+                                data-aos-once="true">Generate custom reports</span>
+                        </p>
+                    </div>
+
+                    <!-- Feature: Multi-Bank Support -->
+                    <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">
+                        <div class="text-left mb-2">
+                            <h2 class="text-xl font-semibold text-secondary-600" data-aos="fade-right"
+                                data-aos-delay="350" data-aos-duration="600" data-aos-once="true">Multi-Bank Support
+                            </h2>
+                        </div>
+                        <p class="text-grey-500 pt-2">
+                            <span data-aos="fade-up" data-aos-delay="400" data-aos-duration="500"
+                                data-aos-once="true">Multi-Bank Support Recharge any bank's FASTag</span><br>
+                            <span data-aos="fade-up" data-aos-delay="500" data-aos-duration="500"
+                                data-aos-once="true">Single portal for all transactions</span><br>
+                            <span data-aos="fade-up" data-aos-delay="600" data-aos-duration="500"
+                                data-aos-once="true">Unified payment system</span>
+                        </p>
+                    </div>
                 </div>
-                <p class="text-grey-500 pt-2">
-                    <span data-aos="fade-up" data-aos-delay="200" data-aos-duration="500" data-aos-once="true">Instant Recharge Quick top-up options for all bank FASTags</span><br>
-                    <span data-aos="fade-up" data-aos-delay="300" data-aos-duration="500" data-aos-once="true">Real-time balance updates</span><br>
-                    <span data-aos="fade-up" data-aos-delay="400" data-aos-duration="500" data-aos-once="true">Direct bank integration</span>
-                </p>
             </div>
-
-            <!-- Feature: Transaction History -->
-            <div data-aos="fade-up" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
-                <div class="text-left mb-2">
-                    <h2 class="text-xl font-semibold text-secondary-600" data-aos="fade-right" data-aos-delay="250" data-aos-duration="600" data-aos-once="true">Transaction History</h2>
-                </div>
-                <p class="text-grey-500 pt-2">
-                    <span data-aos="fade-up" data-aos-delay="300" data-aos-duration="500" data-aos-once="true">Complete Transaction History</span><br>
-                    <span data-aos="fade-up" data-aos-delay="400" data-aos-duration="500" data-aos-once="true">Access detailed recharge records</span><br>
-                    <span data-aos="fade-up" data-aos-delay="500" data-aos-duration="500" data-aos-once="true">Track customer transactions</span><br>
-                    <span data-aos="fade-up" data-aos-delay="600" data-aos-duration="500" data-aos-once="true">Generate custom reports</span>
-                </p>
-            </div>
-
-            <!-- Feature: Multi-Bank Support -->
-            <div data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">
-                <div class="text-left mb-2">
-                    <h2 class="text-xl font-semibold text-secondary-600" data-aos="fade-right" data-aos-delay="350" data-aos-duration="600" data-aos-once="true">Multi-Bank Support</h2>
-                </div>
-                <p class="text-grey-500 pt-2">
-                    <span data-aos="fade-up" data-aos-delay="400" data-aos-duration="500" data-aos-once="true">Multi-Bank Support Recharge any bank's FASTag</span><br>
-                    <span data-aos="fade-up" data-aos-delay="500" data-aos-duration="500" data-aos-once="true">Single portal for all transactions</span><br>
-                    <span data-aos="fade-up" data-aos-delay="600" data-aos-duration="500" data-aos-once="true">Unified payment system</span>
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
+        </section>
 
 
 
-<section class="w-full py-6 mt-6" data-aos="fade" data-aos-duration="800" data-aos-once="true">
-    <div class="max-w-6xl mx-auto px-4">
-        <div class="flex flex-col md:flex-row items-center gap-8">
-            <!-- Left side with illustration -->
-            <div class="w-full md:w-1/2 order-1 md:order-1" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
-                <img src="assets/images/credit-card-bill-payment/business.png" alt="FASTag Agent Benefits" class="w-full h-auto" data-aos="zoom-in" data-aos-delay="150" data-aos-duration="800" data-aos-once="true">
-            </div>
-            
-            <!-- Right side with content -->
-            <div class="w-full md:w-1/2 order-2 md:order-2" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
-                <h2 class="text-3xl font-bold text-secondary-600 mb-6" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-once="true">Benefits for FASTag Agents</h2>
-                
-                <ul class="space-y-5 mb-8">
-                    <?php
+        <section class="w-full py-6 mt-6" data-aos="fade" data-aos-duration="800" data-aos-once="true">
+            <div class="max-w-6xl mx-auto px-4">
+                <div class="flex flex-col md:flex-row items-center gap-8">
+                    <!-- Left side with illustration -->
+                    <div class="w-full md:w-1/2 order-1 md:order-1" data-aos="fade-right" data-aos-duration="1000"
+                        data-aos-once="true">
+                        <img src="assets/images/credit-card-bill-payment/business.png" alt="FASTag Agent Benefits"
+                            class="w-full h-auto" data-aos="zoom-in" data-aos-delay="150" data-aos-duration="800"
+                            data-aos-once="true">
+                    </div>
+
+                    <!-- Right side with content -->
+                    <div class="w-full md:w-1/2 order-2 md:order-2" data-aos="fade-left" data-aos-duration="1000"
+                        data-aos-once="true">
+                        <h2 class="text-3xl font-bold text-secondary-600 mb-6" data-aos="fade-up" data-aos-delay="100"
+                            data-aos-duration="800" data-aos-once="true">Benefits for FASTag Agents</h2>
+
+                        <ul class="space-y-5 mb-8">
+                            <?php
                     $lifePlans = [
                         'Start with minimal setup costs',
                         'Only need a smartphone or computer',
@@ -183,94 +206,119 @@
                     foreach ($lifePlans as $index => $plan) :
                         $delay = 200 + ($index * 100);
                     ?>
-                    <li class="flex items-start" data-aos="fade-up" data-aos-delay="<?php echo $delay; ?>" data-aos-duration="600" data-aos-once="true">
-                        <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1"
-                             data-aos="zoom-in" data-aos-delay="<?php echo $delay + 50; ?>" data-aos-duration="400" data-aos-once="true">
-                            <svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_1700_1996)">
-                                    <path d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z" fill="#FEEEEC" stroke="#F15744" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705" stroke="#F15744" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_1700_1996">
-                                        <rect width="19" height="19" fill="white" transform="translate(0 3)"/>
-                                    </clipPath>
-                                </defs>
-                            </svg>
+                            <li class="flex items-start" data-aos="fade-up" data-aos-delay="<?php echo $delay; ?>"
+                                data-aos-duration="600" data-aos-once="true">
+                                <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1"
+                                    data-aos="zoom-in" data-aos-delay="<?php echo $delay + 50; ?>"
+                                    data-aos-duration="400" data-aos-once="true">
+                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1700_1996)">
+                                            <path
+                                                d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z"
+                                                fill="#FEEEEC" stroke="#F15744" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705"
+                                                stroke="#F15744" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1700_1996">
+                                                <rect width="19" height="19" fill="white" transform="translate(0 3)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <span class="ml-3 text-primary-500"><?php echo $plan; ?></span>
+                            </li>
+                            <?php endforeach; ?>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Other Services Section -->
+        <!-- Our Other Services Section -->
+        <section class="w-full bg-secondary-100 py-10 px-4" data-aos="fade" data-aos-duration="800"
+            data-aos-once="true">
+            <div class="max-w-6xl mx-auto">
+                <div class="flex flex-col md:flex-row items-start">
+                    <!-- Section Title -->
+                    <div class="text-secondary-500 mb-10 md:mb-0 md:w-1/4 md:mr-8 md:pt-2" data-aos="fade-right"
+                        data-aos-duration="1000" data-aos-once="true">
+                        <h2 class="text-3xl font-bold leading-tight uppercase" data-aos="fade-up" data-aos-delay="100"
+                            data-aos-duration="800" data-aos-once="true">
+                            OUR OTHER SERVICES
+                        </h2>
+                    </div>
+
+                    <!-- Services Grid -->
+                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-8 md:w-3/4 w-full"
+                        data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+                        <!-- AEPS -->
+                        <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="100"
+                            data-aos-duration="700" data-aos-once="true">
+                            <img src="assets/images/pan-uti/icon1.svg" alt="AEPS" class="w-28 h-28" data-aos="zoom-in"
+                                data-aos-delay="150" data-aos-duration="500" data-aos-once="true">
+                            <span class="text-secondary-500 text-center font-medium mt-2">AEPS</span>
                         </div>
-                        <span class="ml-3 text-primary-500"><?php echo $plan; ?></span>
-                    </li>
-                    <?php endforeach; ?>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
 
-<!-- Our Other Services Section -->
-<!-- Our Other Services Section -->
-<section class="w-full bg-secondary-100 py-10 px-4" data-aos="fade" data-aos-duration="800" data-aos-once="true">
-    <div class="max-w-6xl mx-auto">
-        <div class="flex flex-col md:flex-row items-start">
+                        <!-- DMT -->
+                        <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="200"
+                            data-aos-duration="700" data-aos-once="true">
+                            <img src="assets/images/pan-uti/icon2.svg" alt="DMT" class="w-28 h-28" data-aos="zoom-in"
+                                data-aos-delay="250" data-aos-duration="500" data-aos-once="true">
+                            <span class="text-secondary-500 text-center font-medium mt-2">DMT</span>
+                        </div>
+
+                        <!-- Micro ATM -->
+                        <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="300"
+                            data-aos-duration="700" data-aos-once="true">
+                            <img src="assets/images/pan-uti/icon3.svg" alt="Micro ATM" class="w-28 h-28"
+                                data-aos="zoom-in" data-aos-delay="350" data-aos-duration="500" data-aos-once="true">
+                            <span class="text-secondary-500 text-center font-medium mt-2">Micro ATM</span>
+                        </div>
+
+                        <!-- mPOS -->
+                        <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="400"
+                            data-aos-duration="700" data-aos-once="true">
+                            <img src="assets/images/pan-uti/icon4.svg" alt="mPOS" class="w-28 h-28" data-aos="zoom-in"
+                                data-aos-delay="450" data-aos-duration="500" data-aos-once="true">
+                            <span class="text-secondary-500 text-center font-medium mt-2">mPOS</span>
+                        </div>
+
+                        <!-- CMS -->
+                        <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="500"
+                            data-aos-duration="700" data-aos-once="true">
+                            <img src="assets/images/pan-uti/icon5.svg" alt="CMS" class="w-28 h-28" data-aos="zoom-in"
+                                data-aos-delay="550" data-aos-duration="500" data-aos-once="true">
+                            <span class="text-secondary-500 text-center font-medium mt-2">CMS</span>
+                        </div>
+
+                        <!-- UPI QR Code -->
+                        <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="600"
+                            data-aos-duration="700" data-aos-once="true">
+                            <img src="assets/images/pan-uti/icon6.svg" alt="UPI QR Code" class="w-28 h-28"
+                                data-aos="zoom-in" data-aos-delay="650" data-aos-duration="500" data-aos-once="true">
+                            <span class="text-secondary-500 text-center font-medium mt-2">UPI QR Code</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="py-10 max-w-3xl mx-auto px-4">
             <!-- Section Title -->
-            <div class="text-secondary-500 mb-10 md:mb-0 md:w-1/4 md:mr-8 md:pt-2" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
-                <h2 class="text-3xl font-bold leading-tight uppercase" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-once="true">
-                    OUR OTHER SERVICES
-                </h2>
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-primary-800 mb-2">FAQ</h2>
             </div>
-            
-            <!-- Services Grid -->
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-8 md:w-3/4 w-full" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
-                <!-- AEPS -->
-                <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="100" data-aos-duration="700" data-aos-once="true">
-                    <img src="assets/images/pan-uti/icon1.svg" alt="AEPS" class="w-28 h-28" data-aos="zoom-in" data-aos-delay="150" data-aos-duration="500" data-aos-once="true">
-                    <span class="text-secondary-500 text-center font-medium mt-2">AEPS</span>
-                </div>
-                
-                <!-- DMT -->
-                <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="200" data-aos-duration="700" data-aos-once="true">
-                    <img src="assets/images/pan-uti/icon2.svg" alt="DMT" class="w-28 h-28" data-aos="zoom-in" data-aos-delay="250" data-aos-duration="500" data-aos-once="true">
-                    <span class="text-secondary-500 text-center font-medium mt-2">DMT</span>
-                </div>
-                
-                <!-- Micro ATM -->
-                <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="300" data-aos-duration="700" data-aos-once="true">
-                    <img src="assets/images/pan-uti/icon3.svg" alt="Micro ATM" class="w-28 h-28" data-aos="zoom-in" data-aos-delay="350" data-aos-duration="500" data-aos-once="true">
-                    <span class="text-secondary-500 text-center font-medium mt-2">Micro ATM</span>
-                </div>
-                
-                <!-- mPOS -->
-                <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="400" data-aos-duration="700" data-aos-once="true">
-                    <img src="assets/images/pan-uti/icon4.svg" alt="mPOS" class="w-28 h-28" data-aos="zoom-in" data-aos-delay="450" data-aos-duration="500" data-aos-once="true">
-                    <span class="text-secondary-500 text-center font-medium mt-2">mPOS</span>
-                </div>
-                
-                <!-- CMS -->
-                <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="500" data-aos-duration="700" data-aos-once="true">
-                    <img src="assets/images/pan-uti/icon5.svg" alt="CMS" class="w-28 h-28" data-aos="zoom-in" data-aos-delay="550" data-aos-duration="500" data-aos-once="true">
-                    <span class="text-secondary-500 text-center font-medium mt-2">CMS</span>
-                </div>
-                
-                <!-- UPI QR Code -->
-                <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="600" data-aos-duration="700" data-aos-once="true">
-                    <img src="assets/images/pan-uti/icon6.svg" alt="UPI QR Code" class="w-28 h-28" data-aos="zoom-in" data-aos-delay="650" data-aos-duration="500" data-aos-once="true">
-                    <span class="text-secondary-500 text-center font-medium mt-2">UPI QR Code</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
-
-<section class="py-10 max-w-3xl mx-auto px-4">
-    <!-- Section Title -->
-    <div class="text-center mb-12">
-        <h2 class="text-4xl font-bold text-primary-800 mb-2">FAQ</h2>
-    </div>
-
-    <!-- FAQ Accordion -->
-    <div class="space-y-4">
-        <?php
+            <!-- FAQ Accordion -->
+            <div class="space-y-4">
+                <?php
         $faqItems = [
             [
                 'question' => 'What is FASTag recharge service?',
@@ -296,27 +344,28 @@
             $icon = $isOpen ? '−' : '+';
             $contentClass = $isOpen ? '' : 'hidden';
         ?>
-        <!-- FAQ Item -->
-        <div class="border-b border-gray-200 pb-4" id="faq-item-<?php echo $index; ?>">
-            <button class="flex justify-between items-center w-full text-left faq-toggle">
-                <h3 class="text-lg font-medium <?php echo $questionColor; ?>"><?php echo $item['question']; ?></h3>
-                <span class="<?php echo $iconColor; ?> text-2xl"><?php echo $icon; ?></span>
-            </button>
-            <div class="<?php echo $contentClass; ?> mt-3 text-gray-500 faq-content">
-                <p><?php echo $item['answer']; ?></p>
+                <!-- FAQ Item -->
+                <div class="border-b border-gray-200 pb-4" id="faq-item-<?php echo $index; ?>">
+                    <button class="flex justify-between items-center w-full text-left faq-toggle">
+                        <h3 class="text-lg font-medium <?php echo $questionColor; ?>"><?php echo $item['question']; ?>
+                        </h3>
+                        <span class="<?php echo $iconColor; ?> text-2xl"><?php echo $icon; ?></span>
+                    </button>
+                    <div class="<?php echo $contentClass; ?> mt-3 text-gray-500 faq-content">
+                        <p><?php echo $item['answer']; ?></p>
+                    </div>
+                </div>
+                <?php endforeach; ?>
             </div>
-        </div>
-        <?php endforeach; ?>
-    </div>
-</section>
+        </section>
 
 
 
 
-<!-- testimonials -->
+        <!-- testimonials -->
 
-   <!-- Join Section with Dark Blue Background -->
-   <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
+        <!-- Join Section with Dark Blue Background -->
+        <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
             <div class="container mx-auto">
                 <!-- Join Panel with Starry Background -->
                 <div class="bg-gradient-to-br from-primary-700 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
@@ -363,55 +412,55 @@
             </div>
         </section>
 
-<!-- End of Join Section -->
-<!-- Footer Section -->
+        <!-- End of Join Section -->
+        <!-- Footer Section -->
 
 
 
 
 
- </main>
+    </main>
 
- <!-- faq -->
- <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const accordionButtons = document.querySelectorAll('.faq-toggle');
+    <!-- faq -->
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const accordionButtons = document.querySelectorAll('.faq-toggle');
 
-            accordionButtons.forEach(button => {
-                button.addEventListener('click', () => {
-                    const content = button.nextElementSibling;
-                    const isHidden = content.classList.contains('hidden');
-                    const plusMinus = button.querySelector('span');
-                    const question = button.querySelector('h3');
+        accordionButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const isHidden = content.classList.contains('hidden');
+                const plusMinus = button.querySelector('span');
+                const question = button.querySelector('h3');
 
-                    // Close all
-                    document.querySelectorAll('.faq-content').forEach(div => {
-                        div.classList.add('hidden');
-                    });
-                    document.querySelectorAll('.faq-toggle span').forEach(span => {
-                        span.textContent = '+';
-                        span.classList.remove('text-secondary-500');
-                        span.classList.add('text-primary-800');
-                    });
-                    document.querySelectorAll('.faq-toggle h3').forEach(h3 => {
-                        h3.classList.remove('text-secondary-500');
-                        h3.classList.add('text-primary-800');
-                    });
-
-                    // Open current if it was closed
-                    if (isHidden) {
-                        content.classList.remove('hidden');
-                        plusMinus.textContent = '−';
-                        plusMinus.classList.remove('text-primary-800');
-                        plusMinus.classList.add('text-secondary-500');
-                        question.classList.remove('text-primary-800');
-                        question.classList.add('text-secondary-500');
-                    }
+                // Close all
+                document.querySelectorAll('.faq-content').forEach(div => {
+                    div.classList.add('hidden');
                 });
+                document.querySelectorAll('.faq-toggle span').forEach(span => {
+                    span.textContent = '+';
+                    span.classList.remove('text-secondary-500');
+                    span.classList.add('text-primary-800');
+                });
+                document.querySelectorAll('.faq-toggle h3').forEach(h3 => {
+                    h3.classList.remove('text-secondary-500');
+                    h3.classList.add('text-primary-800');
+                });
+
+                // Open current if it was closed
+                if (isHidden) {
+                    content.classList.remove('hidden');
+                    plusMinus.textContent = '−';
+                    plusMinus.classList.remove('text-primary-800');
+                    plusMinus.classList.add('text-secondary-500');
+                    question.classList.remove('text-primary-800');
+                    question.classList.add('text-secondary-500');
+                }
             });
         });
-        </script>
-        <!-- FAQ Section Ends -->
+    });
+    </script>
+    <!-- FAQ Section Ends -->
 
     <!-- Main Header Banner -->
 
