@@ -496,54 +496,100 @@
 
     </section>
 
-    <!-- FAQ Section -->
-    <section class="py-10 max-w-3xl mx-auto px-4">
-      <!-- Section Title -->
-      <div class="text-center mb-12">
+<!-- FAQ Section -->
+<section class="py-10 max-w-3xl mx-auto px-4">
+    <!-- Section Title -->
+    <div class="text-center mb-12">
         <h2 class="text-4xl font-bold text-primary-800 mb-2">FAQ</h2>
-      </div>
+        <p class="text-gray-600">Using natural, conversational language appropriate for target audience</p>
+    </div>
 
-      <!-- FAQ Accordion -->
-      <div class="space-y-4">
+    <!-- FAQ Accordion -->
+    <div class="space-y-4">
         <?php
-        $faqItems = [
-          [
-            'question' => "Who can start a business with Sec2Pay's platform?",
-            'answer' => "Individuals and businesses who want to offer financial services can partner with us. This includes aspiring entrepreneurs, existing shop owners, established businesses, and financial service providers. You don't need prior banking experience - we provide complete training and support.",
+       $faqItems = [
+        [
+            'question' => 'Who can start a business with Sec2Pay\'s platform?',
+            'answer' => 'Individuals and businesses who want to offer financial services can partner with us. This includes aspiring entrepreneurs, existing shop owners, established businesses, and financial service providers. You don\'t need prior banking experience – we provide complete training and support.',
             'isOpen' => true
-          ],
-          [
-            'question' => 'What kind of investment do I need to start? ',
-            'answer' => "We offer different partnership options to suit various business sizes. Whether you're a small shop owner or a large enterprise, we have packages that fit your budget. Our team will help you choose the right option based on your business goals and investment capacity.",
+        ],
+        [
+            'question' => 'What kind of investment do I need to start?',
+            'answer' => 'We offer different partnership options to suit various business sizes. Whether you\'re a small shop owner or a large enterprise, we have packages that fit your budget. Our team will help you choose the right option based on your business goals and investment capacity.',
             'isOpen' => false
-          ],
-          [
-            'question' => "Do I need technical knowledge to use Sec2Pay's platform?",
-            'answer' => "No, you don't need technical expertise. Our platform is built to be user-friendly, especially for businesses in smaller cities and towns. We provide complete training, and our support team is available 24/7 to help you with any questions.",
+        ],
+        [
+            'question' => 'Do I need technical knowledge to use Sec2Pay\'s platform?',
+            'answer' => 'No, you don\'t need technical expertise. Our platform is built to be user-friendly, especially for businesses in smaller cities and towns. We provide complete training, and our support team is available 24/7 to help you with any questions.',
             'isOpen' => false
-          ]
-        ];
-
+        ],
+        [
+            'question' => 'How long does it take to start offering services through Sec2Pay?',
+            'answer' => 'Most of our partners start their operations within 7 days of completing documentation. This includes platform setup, branding customization, and basic training. Our team guides you through each step to ensure a smooth launch.',
+            'isOpen' => false
+        ]
+    ];
+    
         foreach ($faqItems as $index => $item) :
-          $isOpen = $item['isOpen'];
-          $questionColor = $isOpen ? 'text-secondary-500' : 'text-primary-800';
-          $iconColor = $isOpen ? 'text-secondary-500' : 'text-primary-800';
-          $icon = $isOpen ? '−' : '+';
-          $contentClass = $isOpen ? '' : 'hidden';
+            $isOpen = $item['isOpen'];
+            $questionColor = $isOpen ? 'text-secondary-500' : 'text-primary-800';
+            $iconColor = $isOpen ? 'text-secondary-500' : 'text-primary-800';
+            $icon = $isOpen ? '−' : '+';
+            $contentClass = $isOpen ? '' : 'hidden';
         ?>
-          <!-- FAQ Item -->
-          <div class="border-b border-gray-200 pb-4" id="faq-item-<?php echo $index; ?>">
+        <!-- FAQ Item -->
+        <div class="border-b border-gray-200 pb-4" id="faq-item-<?php echo $index; ?>">
             <button class="flex justify-between items-center w-full text-left faq-toggle">
-              <h3 class="text-lg font-medium <?php echo $questionColor; ?>"><?php echo $item['question']; ?></h3>
-              <span class="<?php echo $iconColor; ?> text-2xl"><?php echo $icon; ?></span>
+                <h3 class="text-lg font-medium <?php echo $questionColor; ?>"><?php echo $item['question']; ?></h3>
+                <span class="<?php echo $iconColor; ?> text-2xl"><?php echo $icon; ?></span>
             </button>
             <div class="<?php echo $contentClass; ?> mt-3 text-gray-500 faq-content">
-              <p><?php echo $item['answer']; ?></p>
+                <p><?php echo $item['answer']; ?></p>
             </div>
-          </div>
+        </div>
         <?php endforeach; ?>
-      </div>
-    </section>
+    </div>
+</section>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const accordionButtons = document.querySelectorAll('.faq-toggle');
+        
+        accordionButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const isHidden = content.classList.contains('hidden');
+                const plusMinus = button.querySelector('span');
+                const question = button.querySelector('h3');
+                
+                // Close all
+                document.querySelectorAll('.faq-content').forEach(div => {
+                    div.classList.add('hidden');
+                });
+                document.querySelectorAll('.faq-toggle span').forEach(span => {
+                    span.textContent = '+';
+                    span.classList.remove('text-secondary-500');
+                    span.classList.add('text-primary-800');
+                });
+                document.querySelectorAll('.faq-toggle h3').forEach(h3 => {
+                    h3.classList.remove('text-secondary-500');
+                    h3.classList.add('text-primary-800');
+                });
+                
+                // Open current if it was closed
+                if (isHidden) {
+                    content.classList.remove('hidden');
+                    plusMinus.textContent = '−';
+                    plusMinus.classList.remove('text-primary-800');
+                    plusMinus.classList.add('text-secondary-500');
+                    question.classList.remove('text-primary-800');
+                    question.classList.add('text-secondary-500');
+                }
+            });
+        });
+    });
+</script>
+<!-- FAQ Section Ends -->
 
 
      <!-- Join Section with Dark Blue Background -->

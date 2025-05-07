@@ -23,6 +23,17 @@
 
     <!-- hero section -->
     <section class="bg-white">
+
+    <div class="absolute top-[5%] -left-[30%] sm:-left-[20%] w-[80%] sm:w-[50%] h-[100%] rounded-full"
+        style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
+        data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
+      </div>
+
+      <!-- Top-right Circular Gradient -->
+      <div class="absolute top-[5%] -right-[30%] sm:-right-[20%] w-[80%] sm:w-[50%] h-[100%] rounded-full"
+        style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
+        data-aos="fade-in" data-aos-duration="1500" data-aos-delay="300" data-aos-once="true">
+      </div>
       <div class="max-w-7xl mx-auto py-6">
         <div class="rounded-xl overflow-hidden">
           <div class="flex flex-col items-center text-center">

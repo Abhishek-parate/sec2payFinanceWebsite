@@ -23,10 +23,16 @@
         <!-- hero section -->
 
         <section class="relative overflow-hidden bg-white py-4 sm:py-8 md:py-10">
-    <div class="hidden sm:block absolute top-[5%] -left-[25%] w-[50%] h-[100%] rounded-full md:block"
-        style="background:radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
-        data-aos="fade" data-aos-duration="1500" data-aos-once="true">
-    </div>
+        <div class="absolute top-[5%] -left-[30%] sm:-left-[20%] w-[80%] sm:w-[50%] h-[100%] rounded-full"
+        style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
+        data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
+      </div>
+
+      <!-- Top-right Circular Gradient -->
+      <div class="absolute top-[5%] -right-[30%] sm:-right-[20%] w-[80%] sm:w-[50%] h-[100%] rounded-full"
+        style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
+        data-aos="fade-in" data-aos-duration="1500" data-aos-delay="300" data-aos-once="true">
+      </div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 md:py-12 relative z-10">
         <div class="rounded-xl overflow-hidden">
@@ -249,22 +255,28 @@
             <div class="space-y-4">
                 <?php
         $faqItems = [
-          [
-              'question' => 'What is ONDC shopping?',
-              'answer' => 'ONDC (Open Network for Digital Commerce) lets you shop from multiple sellers through a single platform, giving access to local stores and better prices.',
-              'isOpen' => true
-          ],
-          [
-              'question' => 'How do I start shopping on ONDC?',
-              'answer' => 'Register as a credit partner on our platform, complete integration, and start offering credit products to verified ONDC merchants.',
-              'isOpen' => false
-          ],
-          [
-              'question' => 'Is shopping through ONDC safe?',
-              'answer' => 'Partners can offer working capital loans, invoice financing, and merchant cash advances based on ONDC transaction data.',
-              'isOpen' => false
-          ]
-      ];
+            [
+                'question' => 'What is ONDC and how does it help sellers?',
+                'answer' => 'ONDC (Open Network for Digital Commerce) is a government-backed initiative designed to democratize e-commerce. For sellers, it provides a platform to reach a broader audience, manage their business digitally, and compete in the growing e-commerce space.',
+                'isOpen' => true
+            ],
+            [
+                'question' => 'How can I register as an ONDC seller?',
+                'answer' => 'Partner with Sec2Pay to onboard sellers. Once registered, sellers can list their products and start reaching customers through the ONDC network.',
+                'isOpen' => false
+            ],
+            [
+                'question' => 'What are the requirements to start selling on ONDC?',
+                'answer' => 'Sellers need basic business documentation like GST registration, bank account details, and a catalog of products or services. A smartphone or computer with internet access is also required for platform operations.',
+                'isOpen' => false
+            ],
+            [
+                'question' => 'How does payment settlement work?',
+                'answer' => 'Payments are processed through the ONDC system and settled directly into the seller’s bank account. Sellers can view detailed transaction reports and track settlements through the Sec2Pay dashboard.',
+                'isOpen' => false
+            ]
+        ];
+        
       
 
         foreach ($faqItems as $index => $item) :

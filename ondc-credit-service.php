@@ -23,10 +23,16 @@
         <!-- hero section -->
 
         <section class="relative overflow-hidden bg-white py-6 sm:py-6 md:py-6">
-    <div class="hidden sm:block absolute top-[5%] -left-[25%] w-[50%] h-[100%] rounded-full md:block"
-        style="background:radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
-        data-aos="fade" data-aos-duration="1500" data-aos-once="true">
-    </div>
+        <div class="absolute top-[5%] -left-[30%] sm:-left-[20%] w-[80%] sm:w-[50%] h-[100%] rounded-full"
+        style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
+        data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
+      </div>
+
+      <!-- Top-right Circular Gradient -->
+      <div class="absolute top-[5%] -right-[30%] sm:-right-[20%] w-[80%] sm:w-[50%] h-[100%] rounded-full"
+        style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
+        data-aos="fade-in" data-aos-duration="1500" data-aos-delay="300" data-aos-once="true">
+      </div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 md:py-12 relative z-10">
         <div class="rounded-xl overflow-hidden">
@@ -249,23 +255,25 @@
             <!-- FAQ Accordion -->
             <div class="space-y-4">
                 <?php
-        $faqItems = [
-          [
-              'question' => 'What is ONDC and how does it help sellers?',
-              'answer' => 'A: CMS is a digital platform that helps businesses manage their financial operations, including collections, payments, and reconciliation, through a single interface.',
-              'isOpen' => true
-          ],
-          [
-              'question' => 'How can I register as an ONDC seller?',
-              'answer' => 'Register as a credit partner on our platform, complete integration, and start offering credit products to verified ONDC merchants.',
-              'isOpen' => false
-          ],
-          [
-              'question' => 'What are the requirements to start selling on ONDC?',
-              'answer' => 'Partners can offer working capital loans, invoice financing, and merchant cash advances based on ONDC transaction data.',
-              'isOpen' => false
-          ]
-      ];
+     $faqItems = [
+        [
+            'question' => 'What is ONDC Credit Services platform?',
+            'answer' => 'Our platform enables lenders to offer credit products to ONDC network merchants through digital assessment and disbursement tools.',
+            'isOpen' => true
+        ],
+        [
+            'question' => 'How can I start offering credit through ONDC?',
+            'answer' => 'Register as a credit partner on our platform, complete integration, and start offering credit products to verified ONDC merchants.',
+            'isOpen' => false
+        ],
+        [
+            'question' => 'What types of credit products can be offered?',
+            'answer' => 'Partners can offer working capital loans, invoice financing, and merchant cash advances based on ONDC transaction data.',
+            'isOpen' => false
+        ]
+    ];
+    
+    
       
 
         foreach ($faqItems as $index => $item) :

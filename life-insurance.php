@@ -23,9 +23,21 @@
 
     <main>
 
-<!-- hero section -->
-<section class="bg-white" data-aos="fade" data-aos-duration="1000" data-aos-once="true">
-  <div class="max-w-7xl mx-auto py-12">
+<!-- Hero section with fixed gradients for mobile view -->
+<section class="bg-white relative overflow-hidden" data-aos="fade" data-aos-duration="1000" data-aos-once="true">
+  <!-- Left circular gradient - Fixed positioning for mobile -->
+  <div class="absolute top-[10%] -left-[40%] md:-left-[30%] w-[90%] md:w-[50%] h-[80%] rounded-full z-0"
+    style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
+    data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
+  </div>
+  
+  <!-- Right circular gradient - Fixed positioning for mobile -->
+  <div class="absolute top-[10%] -right-[40%] md:-right-[30%] w-[90%] md:w-[50%] h-[80%] rounded-full z-0"
+    style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
+    data-aos="fade-in" data-aos-duration="1500" data-aos-delay="300" data-aos-once="true">
+  </div>
+  
+  <div class="max-w-7xl mx-auto py-12 relative z-10">
     <div class="rounded-xl overflow-hidden">
       <div class="grid grid-cols-1 md:grid-cols-2">
         <!-- Left Content - Services List -->
@@ -323,23 +335,24 @@
     <!-- FAQ Accordion -->
     <div class="space-y-4">
         <?php
-        $faqItems = [
-            [
-                'question' => 'What documents are needed for life insurance?',
-                'answer' => 'Basic KYC documents including identity proof, address proof, age proof, and income proof are required. Our platform simplifies document collection and verification.',
-                'isOpen' => true
-            ],
-            [
-                'question' => 'How long does policy issuance take?',
-                'answer' => 'You can offer AEPS services once you\'ve completed the registration process and have the necessary equipment set up. This typically includes having a biometric device and completing the verification process.',
-                'isOpen' => false
-            ],
-            [
-                'question' => 'Can customers compare different insurance plans?',
-                'answer' => 'To start offering AEPS services, you\'ll need a smartphone or computer, a biometric device for fingerprint authentication, a reliable internet connection, and valid documentation for registration.',
-                'isOpen' => false
-            ]
-        ];
+       $faqItems = [
+        [
+            'question' => 'What documents are needed for life insurance?',
+            'answer' => 'Basic KYC documents including identity proof, address proof, age proof, and income proof are required. Our platform simplifies document collection and verification.',
+            'isOpen' => true
+        ],
+        [
+            'question' => 'How long does policy issuance take?',
+            'answer' => 'Through our digital platform, policies are typically issued within 24–48 hours after document verification.',
+            'isOpen' => false
+        ],
+        [
+            'question' => 'Can customers compare different insurance plans?',
+            'answer' => 'Yes, our platform allows easy comparison of various life insurance plans from multiple providers.',
+            'isOpen' => false
+        ]
+    ];
+    
 
         foreach ($faqItems as $index => $item) :
             $isOpen = $item['isOpen'];

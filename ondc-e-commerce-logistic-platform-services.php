@@ -255,23 +255,29 @@
             <!-- FAQ Accordion -->
             <div class="space-y-4">
                 <?php
-        $faqItems = [
-          [
-              'question' => 'What is ONDC logistics partnership?',
-              'answer' => 'ONDC logistics partnership connects delivery businesses to Indias open digital commerce network, enabling them to provide delivery services to e-commerce sellers and buyers.',
-              'isOpen' => true
-          ],
-          [
-              'question' => 'How do I start shopping on ONDC??',
-              'answer' => 'Register as a credit partner on our platform, complete integration, and start offering credit products to verified ONDC merchants.',
-              'isOpen' => false
-          ],
-          [
-              'question' => 'Is shopping through ONDC safe?',
-              'answer' => 'Partners can offer working capital loans, invoice financing, and merchant cash advances based on ONDC transaction data.',
-              'isOpen' => false
-          ]
-      ];
+     $faqItems = [
+        [
+            'question' => 'What is ONDC logistics partnership?',
+            'answer' => 'ONDC logistics partnership connects delivery businesses to India\'s open digital commerce network, enabling them to provide delivery services to e-commerce sellers and buyers.',
+            'isOpen' => true
+        ],
+        [
+            'question' => 'How do I become an ONDC logistics partner?',
+            'answer' => 'Register through Sec2Pay\'s platform, complete the verification process, and start accepting delivery orders after approval.',
+            'isOpen' => false
+        ],
+        [
+            'question' => 'What are the requirements to join?',
+            'answer' => 'You need an existing delivery business or fleet, necessary business documentation, and digital payment acceptance capability.',
+            'isOpen' => false
+        ],
+        [
+            'question' => 'How does the payment system work?',
+            'answer' => 'Partners receive automated settlements for completed deliveries directly to their registered bank accounts, with detailed transaction reports.',
+            'isOpen' => false
+        ]
+    ];
+    
       
 
         foreach ($faqItems as $index => $item) :

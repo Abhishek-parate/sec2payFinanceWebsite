@@ -689,6 +689,10 @@ body {
   left: -30%;
 }
 
+.-left-\[40\%\] {
+  left: -40%;
+}
+
 .-right-10 {
   right: -2.5rem;
 }
@@ -703,6 +707,10 @@ body {
 
 .-right-\[30\%\] {
   right: -30%;
+}
+
+.-right-\[40\%\] {
+  right: -40%;
 }
 
 .-top-12 {
@@ -833,6 +841,10 @@ body {
   top: -25%;
 }
 
+.top-\[10\%\] {
+  top: 10%;
+}
+
 .top-\[5\%\] {
   top: 5%;
 }
@@ -843,6 +855,10 @@ body {
 
 .isolation-auto {
   isolation: auto;
+}
+
+.-z-10 {
+  z-index: -10;
 }
 
 .z-0 {
@@ -1488,6 +1504,10 @@ body {
 
 .w-\[80\%\] {
   width: 80%;
+}
+
+.w-\[90\%\] {
+  width: 90%;
 }
 
 .w-\[this-is\\\\\] {
@@ -4704,14 +4724,14 @@ body {
   color: rgb(11 39 79 / var(--tw-text-opacity, 1));
 }
 
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
 .hover\:text-secondary-500:hover {
   --tw-text-opacity: 1;
   color: rgb(241 87 68 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .hover\:underline:hover {
@@ -5154,6 +5174,14 @@ body {
     left: -3rem;
   }
 
+  .md\:-left-\[30\%\] {
+    left: -30%;
+  }
+
+  .md\:-right-\[30\%\] {
+    right: -30%;
+  }
+
   .md\:bottom-0 {
     bottom: 0px;
   }
@@ -5390,6 +5418,10 @@ body {
 
   .md\:w-\[280px\] {
     width: 280px;
+  }
+
+  .md\:w-\[50\%\] {
+    width: 50%;
   }
 
   .md\:w-\[70\%\] {

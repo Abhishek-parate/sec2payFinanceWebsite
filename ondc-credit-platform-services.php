@@ -262,23 +262,24 @@
             <!-- FAQ Accordion -->
             <div class="space-y-4">
                 <?php
-        $faqItems = [
-          [
-              'question' => 'What is ONDC Credit Services platform?',
-              'answer' => 'Our platform enables lenders to offer credit products to ONDC network merchants through digital assessment and disbursement tools.',
-              'isOpen' => true
-          ],
-          [
-              'question' => 'How can I start offering credit through ONDC?',
-              'answer' => 'Register as a credit partner on our platform, complete integration, and start offering credit products to verified ONDC merchants.',
-              'isOpen' => false
-          ],
-          [
-              'question' => 'What types of credit products can be offered?',
-              'answer' => 'Partners can offer working capital loans, invoice financing, and merchant cash advances based on ONDC transaction data.',
-              'isOpen' => false
-          ]
-      ];
+      $faqItems = [
+        [
+            'question' => 'What is ONDC Credit Services platform?',
+            'answer' => 'Our platform enables lenders to offer credit products to ONDC network merchants through digital assessment and disbursement tools.',
+            'isOpen' => true
+        ],
+        [
+            'question' => 'How can I start offering credit through ONDC?',
+            'answer' => 'Register as a credit partner on our platform, complete integration, and start offering credit products to verified ONDC merchants.',
+            'isOpen' => false
+        ],
+        [
+            'question' => 'What types of credit products can be offered?',
+            'answer' => 'Partners can offer working capital loans, invoice financing, and merchant cash advances based on ONDC transaction data.',
+            'isOpen' => false
+        ]
+    ];
+    
       
 
         foreach ($faqItems as $index => $item) :
