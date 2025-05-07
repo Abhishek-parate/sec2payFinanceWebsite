@@ -39,7 +39,7 @@
                             <p class="text-gray-500 my-4 sm:mb-6 md:mb-8 text-sm sm:text-base">
                                 Join 10,000+ insurance partners offering <br> comprehensive coverage solutions.
                             </p>
-                            <a href="#"
+                            <a  href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md w-full sm:w-auto sm:self-start"
                                 data-aos="zoom-in-up">
                                 Start Your Journey
@@ -518,7 +518,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                                                 <a href="#"
+                                                                 <a  href="https://app.sec2pay.in/?src=website" target="_blank"
                                     class="block w-full py-3 px-4 bg-primary-500 hover:bg-primary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                                     Get started
                                 </a>
@@ -604,7 +604,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                                                 <a href="#"
+                                                                 <a  href="https://app.sec2pay.in/?src=website" target="_blank"
                                     class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-primary-600 font-medium text-center rounded-full transition-colors duration-300">
                                     Get started
                                 </a>
@@ -682,7 +682,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                                                 <a href="#"
+                                                                 <a  href="https://app.sec2pay.in/?src=website" target="_blank"
                                     class="block w-full py-3 px-4 bg-primary-500 hover:bg-primary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                                     Get started
                                 </a>
@@ -719,7 +719,7 @@
 
                         <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
                             <p class="text-white mb-4 sm:mb-6">
-                                <a href="/contact-us.php" class="underline hover:text-white transition">
+                                <a href="contact-us.php" class="underline hover:text-white transition">
                                     Joining as an organization? Contact Sales
                                 </a>
                             </p>

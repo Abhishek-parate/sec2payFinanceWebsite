@@ -45,9 +45,9 @@
                 <div class="p-4 sm:p-6 md:p-8 max-w-3xl" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
                     <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-600">Enable Access to Vital Government</h1>
                     <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-600 mb-2 sm:mb-4">Services Through Your Business</h1>
-                    <p class="text-gray-500 mb-4 sm:mb-6">Integrate e-governance solutions to simplify services for citizens</p>
+                    <p class="text-black mb-4 sm:mb-6">Integrate e-governance solutions to simplify services for citizens</p>
 
-                    <a href="#"
+                    <a  href="https://app.sec2pay.in/?src=website" target="_blank"
                         class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4"
                         data-aos="fade-up" data-aos-delay="200" data-aos-duration="600" data-aos-once="true">
                         Get Started Today!
@@ -157,7 +157,7 @@
                     <div class="max-w-4xl mx-auto text-center">
                         <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 relative z-10"
                             data-aos="fade-up" data-aos-delay="200">
-                            Join Sec2pay today
+                            Join Sec2pay Today
                         </h1>
 
                         <p class="text-base sm:text-lg text-gray-300 sm:mb-2 relative z-10" data-aos="fade-up"
@@ -167,12 +167,12 @@
 
                         <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
                             <p class="text-gray-300 mb-4 sm:mb-6">
-                                <a href="/contact-us.php" class="underline hover:text-white transition">
+                                <a href="contact-us.php" class="underline hover:text-white transition">
                                     Joining as an organization? Contact Sales
                                 </a>
                             </p>
 
-                            <a href="#"
+                            <a  href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
                                 data-aos="zoom-in" data-aos-delay="500">
                                 Sign up free

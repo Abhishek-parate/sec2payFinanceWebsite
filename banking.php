@@ -97,10 +97,11 @@
                             <img src="assets/images/banking/card1.png" alt="Real-Time Payment"
                                 class="w-full object-contain rounded-t-lg">
                             <div class="p-4 text-left">
-                                <h3 class="text-primary-500 font-semibold text-xl mb-2">Smart Security Suite
+                                <h3 class="text-secondary-500 font-semibold text-xl mb-2">Real-Time Payment Status
                                 </h3>
                                 <p class="text-gray-600 text-sm">
-                                Bank-grade protection with real-time monitoring and multi-level verification keeps your transactions safe
+                                    Track payments instantly with live status updates for electricity, gas, water, and
+                                    internet bills.
                                 </p>
                             </div>
                         </div>
@@ -111,10 +112,11 @@
                             <img src="assets/images/banking/card2.png" alt="Real-Time Payment"
                                 class="w-full object-contain rounded-t-lg">
                             <div class="p-4 text-left">
-                                <h3 class="text-primary-500 font-semibold text-xl mb-2">Custom Controls Hub
+                                <h3 class="text-secondary-500 font-semibold text-xl mb-2">Multi-Operator Support
                                 </h3>
                                 <p class="text-gray-600 text-sm">
-                                Set precise access levels for your team members - from owners to field agents
+                                    Process payments for all major utility providers across India through a single
+                                    dashboard.
                                 </p>
                             </div>
                         </div>
@@ -125,10 +127,11 @@
                             <img src="assets/images/banking/card3.png" alt="Real-Time Payment"
                                 class="w-full object-contain rounded-t-lg">
                             <div class="p-4 text-left">
-                                <h3 class="text-primary-500 font-semibold text-xl mb-2">Smart Transaction Monitor
+                                <h3 class="text-secondary-500 font-semibold text-xl mb-2">Auto Settlement System
                                 </h3>
                                 <p class="text-gray-600 text-sm">
-                                Track every transaction with detailed reports and instant settlement updates
+                                    Get payments settled directly to your bank account with our reliable processing
+                                    system.
                                 </p>
                             </div>
                         </div>
@@ -139,10 +142,11 @@
                             <img src="assets/images/banking/card4.png" alt="Real-Time Payment"
                                 class="w-full object-contain rounded-t-lg">
                             <div class="p-4 text-left">
-                                <h3 class="text-primary-500 font-semibold text-xl mb-2">Banking Standards Guard
+                                <h3 class="text-secondary-500 font-semibold text-xl mb-2">Smart Analytics Dashboard
                                 </h3>
                                 <p class="text-gray-600 text-sm">
-                                Built-in compliance features ensure your business meets all banking requirements                                </p>
+                                    Monitor transactions and gain insights to grow your business.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -194,7 +198,7 @@
                             <!-- AePS Tab Content -->
                             <div class="tab-pane block opacity-100 transition-opacity duration-300" id="aeps">
                                 <div class="flex flex-col md:flex-row items-center gap-8">
-                                    <div class="w-full md:w-1/3">
+                                    <div class="w-full md:w-1/2">
                                         <h3 class="text-2xl md:text-3xl font-semibold mb-4">AePS</h3>
                                         <ul class="space-y-4">
                                             <li class="flex items-center">
@@ -227,7 +231,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="w-full md:w-2/3 flex justify-center">
+                                    <div class="w-full md:w-1/2 flex justify-center">
                                         <div class="relative flex justify-center" data-aos="fade-left"
                                             data-aos-duration="1000">
                                             <img src="assets/images/banking/aps.png" alt="AePS Banking"
@@ -240,7 +244,7 @@
                             <!-- Aadhaar Pay Tab Content -->
                             <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="aadhaar-pay">
                                 <div class="flex flex-col md:flex-row items-center gap-8">
-                                    <div class="w-full md:w-1/3">
+                                    <div class="w-full md:w-1/2">
                                         <h3 class="text-2xl md:text-3xl font-semibold mb-4">Aadhaar Pay</h3>
                                         <ul class="space-y-4">
                                             <li class="flex items-center">
@@ -273,7 +277,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="w-full md:w-2/3 flex justify-center">
+                                    <div class="w-full md:w-1/2 flex justify-center">
                                         <div class="relative flex justify-center" data-aos="fade-left"
                                             data-aos-duration="1000">
                                             <img src="assets/images/banking/aps.png" alt="Aadhaar Pay"
@@ -286,7 +290,7 @@
                             <!-- Micro ATM Tab Content -->
                             <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="micro-atm">
                                 <div class="flex flex-col md:flex-row items-center gap-8">
-                                    <div class="w-full md:w-1/3">
+                                    <div class="w-full md:w-1/2">
                                         <h3 class="text-2xl md:text-3xl font-semibold mb-4">Micro ATM Services</h3>
 
                                         <ul class="space-y-4">
@@ -320,7 +324,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="w-full md:w-2/3 flex justify-center">
+                                    <div class="w-full md:w-1/2 flex justify-center">
                                         <div class="relative flex justify-center" data-aos="fade-left"
                                             data-aos-duration="1000">
                                             <img src="assets/images/banking/aps.png" alt="Micro ATM Services"
@@ -333,7 +337,7 @@
                             <!-- Money Transfer Tab Content -->
                             <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="money-transfer">
                                 <div class="flex flex-col md:flex-row items-center gap-8">
-                                    <div class="w-full md:w-1/3">
+                                    <div class="w-full md:w-1/2">
                                         <h3 class="text-2xl md:text-3xl font-semibold mb-4">Domestic Money Transfer</h3>
 
                                         <ul class="space-y-4">
@@ -367,7 +371,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="w-full md:w-2/3 flex justify-center">
+                                    <div class="w-full md:w-1/2 flex justify-center">
                                         <div class="relative flex justify-center" data-aos="fade-left"
                                             data-aos-duration="1000">
                                             <img src="assets/images/banking/aps.png" alt="Domestic Money Transfer"
@@ -381,7 +385,7 @@
                             <div class="tab-pane hidden opacity-0 transition-opacity duration-300"
                                 id="business-banking">
                                 <div class="flex flex-col md:flex-row items-center ">
-                                    <div class="w-full md:w-1/3">
+                                    <div class="w-full md:w-1/2">
                                         <h3 class="text-2xl md:text-3xl font-semibold mb-4">Business Banking</h3>
                                         <ul class="space-y-4">
                                             <li class="flex items-center">
@@ -414,7 +418,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    <div class="w-full md:w-2/3 flex justify-center">
+                                    <div class="w-full md:w-1/2 flex justify-center">
                                         <div class="relative flex justify-center" data-aos="fade-left"
                                             data-aos-duration="1000">
                                             <img src="assets/images/banking/aps.png" alt="Business Banking"
@@ -524,7 +528,7 @@
                             <!-- Price -->
                             <div class="mt-auto">
 
-                                <a href="#"
+                                <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                     class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                                     Get started
                                 </a>
@@ -608,7 +612,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                <a href="#"
+                                <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                     class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-secondary-600 font-medium text-center rounded-full transition-colors duration-300">
                                     Get started
                                 </a>
@@ -684,7 +688,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                <a href="#"
+                                <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                     class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                                     Get started
                                 </a>

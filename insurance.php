@@ -415,7 +415,7 @@
 
                     <!-- Price -->
                     <div class="mt-auto">
-                                                 <a href="#"
+                                                 <a href="https://app.sec2pay.in/?src=website" target="_blank"
                             class="block w-full py-3 px-4 bg-primary-500 hover:bg-primary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>
@@ -500,7 +500,7 @@
 
                     <!-- Price -->
                     <div class="mt-auto">
-                                                 <a href="#"
+                                                 <a href="https://app.sec2pay.in/?src=website" target="_blank"
                             class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-primary-600 font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>
@@ -578,7 +578,7 @@
 
                     <!-- Price -->
                     <div class="mt-auto">
-                                                 <a href="#"
+                                                 <a href="https://app.sec2pay.in/?src=website" target="_blank"
                             class="block w-full py-3 px-4 bg-primary-500 hover:bg-primary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>

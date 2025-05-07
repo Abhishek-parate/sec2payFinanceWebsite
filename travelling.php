@@ -38,7 +38,7 @@
                     <p class="text-black mb-5">Join 20,000+ travel retailers earning through India's trusted B2B
                         travel platform</p>
 
-                        <a href="#"
+                        <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-flex items-center justify-center px-5 py-3 md:mb-4 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
                                 Start Your Journey
 
@@ -360,7 +360,7 @@
 
                     <!-- Price -->
                     <div class="mt-auto">
-                                                 <a href="#"
+                                                 <a href="https://app.sec2pay.in/?src=website" target="_blank"
                             class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>
@@ -444,7 +444,7 @@
 
                     <!-- Price -->
                     <div class="mt-auto">
-                                                 <a href="#"
+                                                 <a href="https://app.sec2pay.in/?src=website" target="_blank"
                             class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-secondary-600 font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>
@@ -521,7 +521,7 @@
 
                     <!-- Price -->
                     <div class="mt-auto">
-                                                 <a href="#"
+                                                 <a href="https://app.sec2pay.in/?src=website" target="_blank"
                             class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                             Get started
                         </a>
@@ -654,7 +654,7 @@
       <div class="w-full md:w-1/3 mb-10 md:mb-0">
         <h2 class="text-4xl font-bold text-white leading-tight mb-4">Join India's Growing Travel Network</h2>
         <p class="text-white text-lg mb-8">Sec2Pay Your Partner in Making Digital Business Growth Simple</p>
-        <a href="#" class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-lg transition duration-300">
+        <a href="https://app.sec2pay.in/?src=website" target="_blank" class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-lg transition duration-300">
           Begin Your Journey
         </a>
       </div>
@@ -727,7 +727,7 @@
 
                         <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
                             <p class="text-white mb-4 sm:mb-6">
-                                <a href="/contact-us.php" class="underline hover:text-white transition">
+                                <a href="contact-us.php" class="underline hover:text-white transition">
                                     Joining as an organization? Contact Sales
                                 </a>
                             </p>

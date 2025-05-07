@@ -47,7 +47,7 @@
                             Join 1 lakh+ retailers offering instant<br class="hidden sm:block">
                             utility payments
                         </p>
-                        <a href="#"
+                        <a href="https://app.sec2pay.in/?src=website" target="_blank"
                             class="inline-flex items-center justify-center px-4 py-3 md:px-5 md:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
                             aria-label="Start your bill payment service journey today" data-aos="fade-up"
                             data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
@@ -518,7 +518,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                <a href="#"
+                                <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                     class="block w-full py-3 px-4 bg-primary-500 hover:bg-primary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                                     Get started
                                 </a>
@@ -604,7 +604,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                <a href="#"
+                                <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                     class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-primary-600 font-medium text-center rounded-full transition-colors duration-300">
                                     Get started
                                 </a>
@@ -680,7 +680,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                <a href="#"
+                                <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                     class="block w-full py-3 px-4 bg-primary-500 hover:bg-primary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                                     Get started
                                 </a>
@@ -711,7 +711,7 @@
                             data-aos-once="true">Interested in Growing Your Business?</p>
                         <div class="pt-4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600"
                             data-aos-once="true">
-                            <a href="#"
+                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-block bg-white text-secondary-600 font-medium py-3 px-8 rounded-md transition duration-300 hover:bg-gray-100">Partner
                                 With Us</a>
                         </div>
@@ -961,7 +961,7 @@
 
                         <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
                             <p class="text-white mb-4 sm:mb-6">
-                                <a href="/contact-us.php" class="underline hover:text-white transition">
+                                <a href="contact-us.php" class="underline hover:text-white transition">
                                     Joining as an organization? Contact Sales
                                 </a>
                             </p>

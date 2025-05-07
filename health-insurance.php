@@ -302,7 +302,7 @@
 
                 <div class="relative z-10" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000" data-aos-once="true">
                     <p class="text-white mb-4 sm:mb-6">
-                        <a href="/contact-us.php" class="underline hover:text-white transition">
+                        <a href="contact-us.php" class="underline hover:text-white transition">
                             Joining as an organization? Contact Sales
                         </a>
                     </p>

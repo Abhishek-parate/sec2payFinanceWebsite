@@ -63,7 +63,7 @@
 
                            
                             
-                            <a href="/contact-us.php"
+                            <a href="contact-us.php"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4"
                         data-aos="fade-up" data-aos-delay="400" data-aos-duration="800" data-aos-once="true">
                         Start Today                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
@@ -441,7 +441,7 @@
 
 
 
-                        <a href="/contact-us.php"
+                        <a href="contact-us.php"
                             class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 mt-10 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
                             data-aos="zoom-in" data-aos-delay="500">
                             Sign up free

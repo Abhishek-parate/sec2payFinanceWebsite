@@ -55,7 +55,7 @@
                         data-aos-duration="800" data-aos-once="true">Empower your business to support sellers in
                         thriving <br class="hidden sm:block"> on ONDC's digital network.</p>
 
-                    <a href="/contact-us.php"
+                    <a href="contact-us.php"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4"
                         data-aos="fade-up" data-aos-delay="400" data-aos-duration="800" data-aos-once="true">
                         Get Started Today!

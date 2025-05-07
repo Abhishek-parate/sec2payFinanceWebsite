@@ -53,7 +53,7 @@
                     <p class="black mb-6 sm:mb-8 text-sm sm:text-base" data-aos="fade-up" data-aos-delay="400"
                         data-aos-duration="800" data-aos-once="true">Support sellers in connecting to ONDC through your </br>platform.</p>
 
-                    <a href="/contact-us.php"
+                    <a href="contact-us.php"
                         class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
                         data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                         Start Selling
