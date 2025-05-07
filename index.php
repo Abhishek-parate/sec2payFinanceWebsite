@@ -21,29 +21,35 @@
 
     <main>
 
-<section class="relative overflow-hidden py-10 pt-20 md:pt-24 md:py-10 bg-white">
-    <div class="absolute -top-[4%] -left-[23%] w-[50%] h-[50%] rounded-full"
-        style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 70%);">
-    </div>
+<section class="relative overflow-hidden py-12 pt-20 md:pt-24 md:py-12 bg-white">
+   <!-- Left top gradient element - centered vertically on mobile -->
+<div class="absolute top-1/4 -translate-y-1/2 -left-[23%] w-[50%] h-[50%] rounded-full 
+            sm:-translate-y-0 sm:-top-[4%]"
+    style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 70%);">
+</div>
 
-    <div class="absolute -top-[4%] -right-[20%] w-[50%] h-[50%] rounded-full"
-        style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 70%);">
-    </div>
+<!-- Right top gradient element - centered vertically on mobile -->
+<div class="absolute top-1/4 -translate-y-1/2 -right-[20%] w-[50%] h-[50%] rounded-full
+            sm:-translate-y-0 sm:-top-[4%]"
+    style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 70%);">
+</div>
 
-    <div class="absolute top-10 md:top-[10%] left-2 md:left-10 lg:left-24 opacity-80 w-24 md:w-32 lg:w-auto z-10"
-        data-aos="fade-right" data-aos-duration="800" data-aos-mirror="true">
-        <img src="assets/images/home/svg/orange-icon.svg" alt="orange-icon" class="w-full h-auto">
-    </div>
+<!-- Left icon element - maintained on left -->
+<div class="absolute top-1/3 md:top-[10%] left-2 md:left-10 lg:left-24 opacity-80 w-24 md:w-32 lg:w-auto z-10"
+    data-aos="fade-right" data-aos-duration="800" data-aos-mirror="true">
+    <img src="assets/images/home/svg/orange-icon.svg" alt="orange-icon" class="w-full h-auto">
+</div>
 
-    <div class="absolute top-10 md:top-[10%] right-2 md:right-10 lg:right-24 opacity-80 w-24 md:w-32 lg:w-auto z-10"
-        data-aos="fade-left" data-aos-duration="800" data-aos-mirror="true">
-        <img src="assets/images/home/svg/blue-icon.svg" alt="blue-icon" class="w-full h-auto">
-    </div>
+<!-- Right icon element - maintained on right -->
+<div class="absolute top-1/3 md:top-[10%] right-2 md:right-10 lg:right-24 opacity-80 w-24 md:w-32 lg:w-auto z-10"
+    data-aos="fade-left" data-aos-duration="800" data-aos-mirror="true">
+    <img src="assets/images/home/svg/blue-icon.svg" alt="blue-icon" class="w-full h-auto">
+</div>
 
     <!-- Main Content -->
     <div class="container mx-auto px-4 sm:px-6 relative z-20">
         <!-- Hero Text with AOS animations -->
-        <div class="max-w-4xl mx-auto text-center mb-8 md:mb-12 lg:mb-16">
+        <div class="max-w-4xl mx-auto text-center mb-8 md:mb-12 lg:mb-16 mt-8">
             <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 text-gray-900 leading-tight"
                 data-aos="fade-up" data-aos-duration="800" data-aos-mirror="true">
                 Empowering <span class="text-secondary-500">MSMEs</span> to Deliver
@@ -55,7 +61,7 @@
                 <br class="hidden sm:block">services to 1 lakh+ retailers across India
             </p>
             <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-mirror="true">
-                <a href="#"
+                <a href="https://app.sec2pay.in/?src=website" target="_blank"
                     class="inline-block bg-secondary-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-md text-lg font-medium hover:bg-secondary-600 transition-all duration-300 hover:shadow-lg hover:scale-105 transform z-10">
                     Start Your Journey Today
                 </a>
@@ -80,7 +86,9 @@
         <!-- Trusted By Section with Infinite Scroll -->
         <div class="mt-12 md:mt-16 text-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400"
             data-aos-mirror="true">
-            <p class="text-gray-700 font-bold text-lg mb-6 md:mb-8">Trusted by India's Leading Banks</p>
+            <p class="text-gray-700 font-bold text-3xl my-2">Trusted Partnerships</p>
+
+            <p class="text-gray-600 text-lg mb-6 md:mb-8">Backed by India’s Leading Financial Institutions</p>
 
             <!-- Infinite Scroll Container -->
             <div class="relative overflow-hidden w-full ">
@@ -182,7 +190,7 @@
                 </div>
 
                 <!-- CTA Button -->
-                <a href="#" data-aos="fade-up" data-aos-delay="600"
+                <a href="https://app.sec2pay.in/?src=website" target="_blank" data-aos="fade-up" data-aos-delay="600"
                     class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 py-2 md:px-6 md:py-3 rounded-lg font-semibold transition-all">
                     Join today for free
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
@@ -212,7 +220,7 @@
         <div class="text-center mb-4">
             <h2 class="text-4xl font-bold text-primary-800 mb-4">Our Product/Solutions</h2>
             <p class="text-lg text-gray-700 max-w-3xl mx-auto">Building trust through partnerships that last Creating a
-                network that serves millions"</p>
+                network that serves millions</p>
         </div>
 
         <!-- Service Cards - Fixed container to properly handle overflow -->
@@ -897,7 +905,7 @@
 
         <!-- CTA Button -->
         <div class="flex justify-center" data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1000">
-            <a href="#"
+            <a href="https://app.sec2pay.in/?src=website" target="_blank"
                 class="bg-secondary-500 hover:bg-secondary-600 text-white px-8 py-3 rounded-lg font-medium inline-flex items-center transition-all transform hover:scale-105 hover:shadow-lg">
                 Begin now
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
@@ -912,8 +920,8 @@
 
 <section class="bg-white py-10">
     <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-center text-primary-600 mb-8" data-aos="fade-up">Testimonials</h2>
-        <p class="text-center font-semibold text-gray-600 mb-12" data-aos="fade-up" data-aos-delay="100">Hear from our
+        <h2 class="text-3xl font-bold text-center text-primary-600 mb-2" data-aos="fade-up">Testimonials</h2>
+        <p class="text-center font-semibold text-gray-600 mb-6" data-aos="fade-up" data-aos-delay="100">Hear from our
             partners across India</p>
 
         <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
@@ -1184,7 +1192,7 @@
 
                         <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
                             <p class="text-gray-300 mb-4 sm:mb-6">
-                                <a href="/contact-us.php" class="underline hover:text-white transition">
+                                <a href="contact-us.php" class="underline hover:text-white transition">
                                     Joining as an organization? Contact Sales
                                 </a>
                             </p>

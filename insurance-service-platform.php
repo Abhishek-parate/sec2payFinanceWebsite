@@ -22,7 +22,7 @@
     <?php include_once('includes/header.php'); ?>
 
 
-    <main>
+    <main class="overflow-hidden">
 
 
         <!-- Utility Services Section -->
@@ -31,7 +31,7 @@
                 <div class="rounded-xl overflow-hidden">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-0">
                         <!-- Left Content - Services List -->
-                        <div class="p-6 sm:p-8 md:p-12 flex flex-col justify-center" data-aos="fade-right">
+                        <div class="px-8 pt-8 md:px-12 md:pt-12 lg:px-16 lg:pt-16" data-aos="fade-right">
                             <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500 leading-tight">
                                 Build Your Insurance<br>
                                 Business Portfolio
@@ -39,7 +39,7 @@
                             <p class="text-gray-500 my-4 sm:mb-6 md:mb-8 text-sm sm:text-base">
                                 Join 10,000+ insurance partners offering <br> comprehensive coverage solutions.
                             </p>
-                            <a href="#"
+                            <a  href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md w-full sm:w-auto sm:self-start"
                                 data-aos="zoom-in-up">
                                 Start Your Journey
@@ -518,7 +518,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                                                 <a href="#"
+                                                                 <a  href="https://app.sec2pay.in/?src=website" target="_blank"
                                     class="block w-full py-3 px-4 bg-primary-500 hover:bg-primary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                                     Get started
                                 </a>
@@ -604,7 +604,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                                                 <a href="#"
+                                                                 <a  href="https://app.sec2pay.in/?src=website" target="_blank"
                                     class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-primary-600 font-medium text-center rounded-full transition-colors duration-300">
                                     Get started
                                 </a>
@@ -682,7 +682,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                                                 <a href="#"
+                                                                 <a  href="https://app.sec2pay.in/?src=website" target="_blank"
                                     class="block w-full py-3 px-4 bg-primary-500 hover:bg-primary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                                     Get started
                                 </a>
@@ -719,7 +719,7 @@
 
                         <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
                             <p class="text-white mb-4 sm:mb-6">
-                                <a href="/contact-us.php" class="underline hover:text-white transition">
+                                <a href="contact-us.php" class="underline hover:text-white transition">
                                     Joining as an organization? Contact Sales
                                 </a>
                             </p>

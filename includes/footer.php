@@ -2,7 +2,7 @@
 <footer class="bg-white pb-8">
   <div class="border-t border-b border-gray-200 py-4 mb-8 lg:px-20">
     <div class="flex items-center">
-      <img src="assets/images/site/logo.png" alt="Sec2Pay" class="h-10">
+      <img src="assets/images/site/logo.png" alt="Sec2Pay" class="h-10 ml-4">
       <h2 class="ml-4 text-navy-800 text-2xl font-bold">Sec2Pay Your Partner in Making Digital Business Growth Simple</h2>
     </div>
   </div>

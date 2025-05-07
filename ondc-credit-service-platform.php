@@ -29,7 +29,7 @@
                 <div class="rounded-xl overflow-hidden">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                         <!-- Left Content - Services List -->
-                        <div class="p-4 md:p-8 lg:p-12" data-aos="fade-right" data-aos-duration="1000"
+                        <div class="p-4 md:p-8 lg:p-12  pt-8 " data-aos="fade-right" data-aos-duration="1000"
                             data-aos-once="true">
                             <h1 class="text-3xl md:text-4xl font-bold text-secondary-600">Fuel Business Growth</h1>
                             <h1 class="text-3xl md:text-4xl font-bold text-secondary-600 mb-4">with Smart Credit
@@ -37,7 +37,7 @@
                             <p class="text-gray-500 mb-6 md:mb-8">Empowering your business to provide credit on the <br
                                     class="hidden sm:block">ONDC platform.</p>
 
-                            <a href="#"
+                            <a  href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4"
                                 data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
                                 Get Started Today!
@@ -61,14 +61,13 @@
                         </div>
 
                         <!-- Right Content - Image -->
-                        <div class="relative order-first md:order-last" data-aos="fade-left" data-aos-duration="1200"
-                            data-aos-once="true">
+                          <div class="relative max-w-5xl mx-auto  ">
                             <!-- Main Dashboard Image -->
                             <div class="relative z-20">
-                                <img src="assets/images/ondc-credit-service-platform/banner.png" alt="Dashboard"
-                                    class="w-full h-auto" />
+                            <img src="assets/images/ondc-credit-service-platform/banner.png" 
+                            alt="Dashboard" class=" h-auto" />
                                 <div
-                                    class="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-white to-transparent">
+                                    class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
                                 </div>
                             </div>
                         </div>
@@ -81,7 +80,8 @@
 
 
         <!-- E-Governance Platform Services Section -->
-        <section class="bg-primary-100 py-10 px-4 md:px-24" data-aos="fade-up" data-aos-delay="50">
+        <section class="bg-primary-100 py-10 px-4 md:px-24" data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"
+        data-aos-once="true">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl font-bold text-primary-700 my-8 text-center">Features & Functions</h2>
 
@@ -215,7 +215,7 @@
 
                         <div class="relative z-10 flex justify-center items-center mt-3 " data-aos="fade-up"
                             data-aos-delay="400">
-                            <a href="#"
+                            <a  href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5  sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
                                 data-aos="zoom-in" data-aos-delay="500">
                                 Explore Credit Solutions
@@ -286,7 +286,7 @@
                             <?php endforeach; ?>
                         </ul>
                         <div data-aos="fade-up" data-aos-delay="600" data-aos-duration="800" data-aos-once="true">
-                            <a href="#"
+                            <a  href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-2 sm:py-3 px-6 sm:px-8 rounded-md transition duration-300 shadow-md hover:shadow-lg transform hover:-translate-y-1">Explore
                                 Credit Solutions</a>
                         </div>
@@ -395,7 +395,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                                                 <a href="#"
+                                                                 <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                     class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-md">
                                     Get started
                                 </a>
@@ -482,7 +482,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                                                 <a href="#"
+                                                                 <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                     class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-secondary-600 font-medium text-center rounded-full transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-md">
                                     Get started
                                 </a>
@@ -561,7 +561,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                                                 <a href="#"
+                                                                 <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                     class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-md">
                                     Get started
                                 </a>
@@ -710,7 +710,7 @@
                         </p>
 
                         <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
-                            <a href="#"
+                            <a  href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
                                 data-aos="zoom-in" data-aos-delay="500">
                                 Sign up free

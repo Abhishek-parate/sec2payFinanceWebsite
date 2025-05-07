@@ -21,55 +21,55 @@
     <?php include_once('includes/header.php'); ?>
 
 
-    <main>
+    <main class="overflow-hidden ">
 
         <!-- hero section -->
 
-        <section class="bg-white " >
-            <div class="max-w-7xl mx-auto py-8 md:py-12 px-4 sm:px-6 lg:px-8">
-                <div class="rounded-xl overflow-hidden">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-                        <!-- Left Content - Services List -->
-                        <div class="p-6 md:p-12 md:mt-16 order-1" data-aos="fade-right" data-aos-duration="1000"
+        <div class="max-w-7xl mx-auto md:py-12 pt-12  ">
+            <div class="rounded-xl overflow-hidden  ">
+                <div class="grid grid-cols-1 md:grid-cols-2 ">
+                    <!-- Left Content - Services List -->
+                    <div class="px-8 pt-8 md:px-12 md:pt-12 lg:px-16 lg:pt-16 " data-aos="fade-right" data-aos-duration="1000"
+                        data-aos-once="true">
+                        <div class="mb-6" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800"
                             data-aos-once="true">
-                            <div class="mb-6" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800"
-                                data-aos-once="true">
-                                <p class="font-semibold text-sm md:text-base text-primary-900">
-                                    <span class="text-primary-500">Home / Multi Services Platform /</span> Utility
-                                </p>
-                            </div>
-                            <h1 class="text-3xl md:text-4xl font-bold text-secondary-600 leading-tight"
-                                data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">
-                                Make Bill <span class="block">Payments Simple</span>
-                            </h1>
-                            <p class="text-gray-500 my-6" data-aos="fade-up" data-aos-delay="400"
-                                data-aos-duration="800" data-aos-once="true">
-                                Join 1 lakh+ retailers offering instant<br class="hidden sm:block">
-                                utility payments
+                            <p class="font-semibold text-sm md:text-base text-primary-900">
+                                <span class="font-semi-bolder text-primary-500 font-bold">Home / Multi Services Platform /</span> Utility
                             </p>
-                            <a href="#"
-                                class="inline-flex items-center justify-center px-4 py-3 md:px-5 md:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
-                                aria-label="Start your bill payment service journey today" data-aos="fade-up"
-                                data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
-                                Start Your Journey
-                            </a>
                         </div>
+                       
 
-                        <!-- Right Content - Image -->
-                        <div class="relative w-full order-2" data-aos="fade-left" data-aos-duration="1200"
+                        <h1 class="text-3xl md:text-4xl font-bold text-secondary-500">Make Bill</h1>
+                        <h1 class="text-3xl md:text-4xl font-bold text-secondary-500 mb-4">Payments Simple</h1>
+
+                        <p class="text-gray-500 my-6" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800"
                             data-aos-once="true">
-                            <div class="relative z-20">
-                                <img src="assets/images/utility-services-page/hero.png"
-                                    alt="Bill payment dashboard interface showing utility payment options"
-                                    class="w-full h-auto" loading="eager" width="600" height="450" />
-                                <div
-                                    class="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-white to-transparent">
-                                </div>
+                            Join 1 lakh+ retailers offering instant<br class="hidden sm:block">
+                            utility payments
+                        </p>
+                        <a href="https://app.sec2pay.in/?src=website" target="_blank"
+                            class="inline-flex items-center justify-center px-4 py-3 md:px-5 md:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
+                            aria-label="Start your bill payment service journey today" data-aos="fade-up"
+                            data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
+                            Start Your Journey
+                        </a>
+                    </div>
+
+                    <!-- Right Content - Image -->
+                    <div class="relative w-full order-2" data-aos="fade-left" data-aos-duration="1200"
+                        data-aos-once="true">
+                        <div class="relative z-20">
+                            <img src="assets/images/utility-services-page/hero.png"
+                                alt="Bill payment dashboard interface showing utility payment options"
+                                class="w-full h-auto" loading="eager" width="600" height="450" />
+                            <div
+                                class="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-white to-transparent">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
         </section>
 
         <!-- hero section ends -->
@@ -189,58 +189,74 @@
                         </button>
                     </div>
 
-            <!-- Tab Content -->
-            <div class="relative  overflow-hidden">
-                <!-- Essential Bills Tab Content -->
-                <div class="tab-pane block opacity-100 transition-opacity duration-300" id="essential-bills">
-                    <div class="flex flex-col md:flex-row items-center gap-8">
-                        <div class="w-full md:w-1/3 p-6">
-                            <h3 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-800">Utility & Essential Bills</h3>
-                            <p class="text-gray-600 mb-8 max-w-md">Earn money by paying your customers </br>utility bill payments</p>
-                            <ul class="space-y-1">
-                                <li class="flex items-center">
-                                    <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                        </svg>
-                                    </span>
-                                    <span class="text-gray-700">Electricity Bills</span>
-                                </li>
-                                <li class="flex items-center">
-                                    <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                        </svg>
-                                    </span>
-                                    <span class="text-gray-700">Gas Payments</span>
-                                </li>
-                                <li class="flex items-center">
-                                    <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                        </svg>
-                                    </span>
-                                    <span class="text-gray-700">Water Charges</span>
-                                </li>
-                                <li class="flex items-center">
-                                    <span class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                                        </svg>
-                                    </span>
-                                    <span class="text-gray-700">Internet Bills</span>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="w-full md:w-2/3 flex justify-center p-4">
-                            <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
-                                <!-- Image -->
-                                <img src="assets/images/utility-services-page/utility.png" alt="Utility Services Illustration" class="w-5/6">
-                                
+                    <!-- Tab Content -->
+                    <div class="relative  overflow-hidden">
+                        <!-- Essential Bills Tab Content -->
+                        <div class="tab-pane block opacity-100 transition-opacity duration-300" id="essential-bills">
+                            <div class="flex flex-col md:flex-row items-center gap-8">
+                                <div class="w-full md:w-1/3 p-6">
+                                    <h3 class="text-2xl md:text-3xl font-semibold mb-4 text-gray-800">Utility &
+                                        Essential Bills</h3>
+                                    <p class="text-gray-600 mb-8 max-w-md">Earn money by paying your customers
+                                        </br>utility bill payments</p>
+                                    <ul class="space-y-1">
+                                        <li class="flex items-center">
+                                            <span
+                                                class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                                    viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M5 13l4 4L19 7" />
+                                                </svg>
+                                            </span>
+                                            <span class="text-gray-700">Electricity Bills</span>
+                                        </li>
+                                        <li class="flex items-center">
+                                            <span
+                                                class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                                    viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M5 13l4 4L19 7" />
+                                                </svg>
+                                            </span>
+                                            <span class="text-gray-700">Gas Payments</span>
+                                        </li>
+                                        <li class="flex items-center">
+                                            <span
+                                                class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                                    viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M5 13l4 4L19 7" />
+                                                </svg>
+                                            </span>
+                                            <span class="text-gray-700">Water Charges</span>
+                                        </li>
+                                        <li class="flex items-center">
+                                            <span
+                                                class="inline-flex items-center justify-center w-6 h-6 bg-primary-600 text-white rounded-full mr-3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                                    viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M5 13l4 4L19 7" />
+                                                </svg>
+                                            </span>
+                                            <span class="text-gray-700">Internet Bills</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="w-full md:w-2/3 flex justify-center p-4">
+                                    <div class="relative flex justify-center" data-aos="fade-left"
+                                        data-aos-duration="1000">
+                                        <!-- Image -->
+                                        <img src="assets/images/utility-services-page/utility.png"
+                                            alt="Utility Services Illustration" class="w-5/6">
+
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
 
                         <!-- Mobile & DTH Tab Content -->
                         <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="mobile-dth">
@@ -440,8 +456,7 @@
                             <!-- Plan Icon and Title -->
                             <div class="flex items-center mb-6">
                                 <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
-                                    <div
-                                        class="w-10 h-10  overflow-hidden flex">
+                                    <div class="w-10 h-10  overflow-hidden flex">
                                         <img src="assets/images/utility-services-page/icon1.png"
                                             alt="Basic Partner Icon">
                                     </div>
@@ -503,7 +518,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                                                 <a href="#"
+                                <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                     class="block w-full py-3 px-4 bg-primary-500 hover:bg-primary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                                     Get started
                                 </a>
@@ -522,17 +537,18 @@
                             </span>
                         </div>
 
-                <div class="p-8 flex flex-col h-full">
-                    <!-- Plan Icon and Title -->
-                    <div class="flex items-center mb-6">
-                        <div class="w-16 h-16 bg-white rounded-lg flex items-center justify-center mr-4">
-                            <div class="w-10 h-10 bg-gradient-to-r from-white to-primary-300 overflow-hidden flex">
-                                <img src="assets/images/banking/icon2.png" alt="Primium partner Icon">
+                        <div class="p-8 flex flex-col h-full">
+                            <!-- Plan Icon and Title -->
+                            <div class="flex items-center mb-6">
+                                <div class="w-16 h-16 bg-white rounded-lg flex items-center justify-center mr-4">
+                                    <div
+                                        class="w-10 h-10 bg-gradient-to-r from-white to-primary-300 overflow-hidden flex">
+                                        <img src="assets/images/utility-services-page/icon2.png" alt="Primium partner Icon">
+                                    </div>
+                                </div>
+                                <h3 class="text-3xl font-semibold  text-white">Premium
+                                    Partner</h3>
                             </div>
-                        </div>
-                        <h3 class="text-3xl font-semibold  text-white">Premium 
-                        Partner</h3>
-                    </div>
 
                             <!-- Plan Details -->
                             <p class="text-sm text-white text-opacity-90 mb-6">For Growing Businesses</p>
@@ -588,7 +604,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                                                 <a href="#"
+                                <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                     class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-primary-600 font-medium text-center rounded-full transition-colors duration-300">
                                     Get started
                                 </a>
@@ -596,20 +612,19 @@
                         </div>
                     </div>
 
-            <!-- Plan 3 -->
-            <div
-                class="bg-white rounded-xl border-1 border-gray-100 shadow-xl overflow-hidden transform transition-all duration-300 hover:drop-shadow-2xl hover:-translate-y-1">
-                <div class="p-8 flex flex-col h-full">
-                    <!-- Plan Icon and Title -->
-                    <div class="flex items-center mb-6">
-                        <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
-                            <div
-                                class="w-10 h-10  overflow-hidden flex">
-                                <img src="assets/images/banking/icon1.png" alt="Enterprise Partner Icon">
+                    <!-- Plan 3 -->
+                    <div
+                        class="bg-white rounded-xl border-1 border-gray-100 shadow-xl overflow-hidden transform transition-all duration-300 hover:drop-shadow-2xl hover:-translate-y-1">
+                        <div class="p-8 flex flex-col h-full">
+                            <!-- Plan Icon and Title -->
+                            <div class="flex items-center mb-6">
+                                <div class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mr-4">
+                                    <div class="w-10 h-10  overflow-hidden flex">
+                                        <img src="assets/images/utility-services-page/icon1.png" alt="Enterprise Partner Icon">
+                                    </div>
+                                </div>
+                                <h3 class="text-3xl font-semibold text-gray-900">Enterprise Partner</h3>
                             </div>
-                        </div>
-                        <h3 class="text-3xl font-semibold text-gray-900">Enterprise Partner</h3>
-                    </div>
 
                             <!-- Plan Details -->
                             <p class="text-sm text-gray-600 mb-6">For Large Organizations</p>
@@ -665,7 +680,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                                                 <a href="#"
+                                <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                     class="block w-full py-3 px-4 bg-primary-500 hover:bg-primary-600 text-white font-medium text-center rounded-full transition-colors duration-300">
                                     Get started
                                 </a>
@@ -696,7 +711,7 @@
                             data-aos-once="true">Interested in Growing Your Business?</p>
                         <div class="pt-4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600"
                             data-aos-once="true">
-                            <a href="#"
+                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-block bg-white text-secondary-600 font-medium py-3 px-8 rounded-md transition duration-300 hover:bg-gray-100">Partner
                                 With Us</a>
                         </div>
@@ -920,8 +935,8 @@
         </section>
 
 
-           <!-- Join Section with Dark Blue Background -->
-           <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
+        <!-- Join Section with Dark Blue Background -->
+        <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
             <div class="container mx-auto">
                 <!-- Join Panel with Starry Background -->
                 <div class="bg-gradient-to-br from-primary-600 to-primary-500 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
@@ -946,7 +961,7 @@
 
                         <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
                             <p class="text-white mb-4 sm:mb-6">
-                                <a href="/contact-us.php" class="underline hover:text-white transition">
+                                <a href="contact-us.php" class="underline hover:text-white transition">
                                     Joining as an organization? Contact Sales
                                 </a>
                             </p>
@@ -980,194 +995,193 @@
 
     <?php include_once('includes/footer.php'); ?>
     <script>
-    document.addEventListener("DOMContentLoaded", function () {
-  const billingToggle = document.getElementById("billing-toggle");
-  const monthlyPrices = document.querySelectorAll(".monthly-price");
-  const annualPrices = document.querySelectorAll(".annual-price");
+    document.addEventListener("DOMContentLoaded", function() {
+        const billingToggle = document.getElementById("billing-toggle");
+        const monthlyPrices = document.querySelectorAll(".monthly-price");
+        const annualPrices = document.querySelectorAll(".annual-price");
 
-  // Check if billing toggle exists before adding event listener
-  if (billingToggle) {
-    billingToggle.addEventListener("change", function () {
-      if (this.checked) {
-        // Annual pricing
-        monthlyPrices.forEach((el) => el.classList.add("hidden"));
-        annualPrices.forEach((el) => el.classList.remove("hidden"));
-      } else {
-        // Monthly pricing
-        monthlyPrices.forEach((el) => el.classList.remove("hidden"));
-        annualPrices.forEach((el) => el.classList.add("hidden"));
-      }
+        // Check if billing toggle exists before adding event listener
+        if (billingToggle) {
+            billingToggle.addEventListener("change", function() {
+                if (this.checked) {
+                    // Annual pricing
+                    monthlyPrices.forEach((el) => el.classList.add("hidden"));
+                    annualPrices.forEach((el) => el.classList.remove("hidden"));
+                } else {
+                    // Monthly pricing
+                    monthlyPrices.forEach((el) => el.classList.remove("hidden"));
+                    annualPrices.forEach((el) => el.classList.add("hidden"));
+                }
 
-      // Add pulse animation to prices
-      const visiblePrices = this.checked ? annualPrices : monthlyPrices;
-      visiblePrices.forEach((el) => {
-        el.classList.add("animate-pulse-scale");
-        setTimeout(() => {
-          el.classList.remove("animate-pulse-scale");
-        }, 400);
-      });
+                // Add pulse animation to prices
+                const visiblePrices = this.checked ? annualPrices : monthlyPrices;
+                visiblePrices.forEach((el) => {
+                    el.classList.add("animate-pulse-scale");
+                    setTimeout(() => {
+                        el.classList.remove("animate-pulse-scale");
+                    }, 400);
+                });
+            });
+        }
     });
-  }
-});
-document.addEventListener("DOMContentLoaded", function () {
-  // All testimonial data
-  const testimonials = [
-    {
-      name: "Mike taylor",
-      location: "Lahore, Pakistan",
-      text: "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
-      profile: "https://randomuser.me/api/portraits/men/3.jpg",
-    },
-    {
-      name: "Chris Thomas",
-      location: "CEO of Red Button",
-      text: "Smart homes are the future. The integration of IoT devices has transformed how we interact with our living spaces.",
-      profile: "https://randomuser.me/api/portraits/women/3.jpg",
-    },
-    {
-      name: "Sarah Johnson",
-      location: "New York, USA",
-      text: "The customer service was exceptional. They went above and beyond to ensure everything was set up perfectly.",
-      profile: "https://randomuser.me/api/portraits/men/3.jpg",
-    },
-  ];
+    document.addEventListener("DOMContentLoaded", function() {
+        // All testimonial data
+        const testimonials = [{
+                name: "Mike taylor",
+                location: "Lahore, Pakistan",
+                text: "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
+                profile: "https://randomuser.me/api/portraits/men/3.jpg",
+            },
+            {
+                name: "Chris Thomas",
+                location: "CEO of Red Button",
+                text: "Smart homes are the future. The integration of IoT devices has transformed how we interact with our living spaces.",
+                profile: "https://randomuser.me/api/portraits/women/3.jpg",
+            },
+            {
+                name: "Sarah Johnson",
+                location: "New York, USA",
+                text: "The customer service was exceptional. They went above and beyond to ensure everything was set up perfectly.",
+                profile: "https://randomuser.me/api/portraits/men/3.jpg",
+            },
+        ];
 
-  // Elements
-  const dots = document.querySelectorAll("#dots-container button");
-  const profileImage = document.getElementById("profile-image");
-  const prevArrow = document.getElementById("prev-arrow");
-  const nextArrow = document.getElementById("next-arrow");
+        // Elements
+        const dots = document.querySelectorAll("#dots-container button");
+        const profileImage = document.getElementById("profile-image");
+        const prevArrow = document.getElementById("prev-arrow");
+        const nextArrow = document.getElementById("next-arrow");
 
-  let currentIndex = 0;
+        let currentIndex = 0;
 
-  // Function to update the active testimonial
-  function updateTestimonial(newIndex) {
-    // Ensure index is within bounds
-    newIndex = (newIndex + testimonials.length) % testimonials.length;
+        // Function to update the active testimonial
+        function updateTestimonial(newIndex) {
+            // Ensure index is within bounds
+            newIndex = (newIndex + testimonials.length) % testimonials.length;
 
-    // Store the previous index
-    const prevIndex = currentIndex;
-    currentIndex = newIndex;
+            // Store the previous index
+            const prevIndex = currentIndex;
+            currentIndex = newIndex;
 
-    // Update dots
-    dots.forEach((dot, index) => {
-      if (index === currentIndex) {
-        dot.classList.remove("bg-gray-300");
-        dot.classList.add("bg-secondary-500");
-      } else {
-        dot.classList.remove("bg-secondary-500");
-        dot.classList.add("bg-gray-300");
-      }
+            // Update dots
+            dots.forEach((dot, index) => {
+                if (index === currentIndex) {
+                    dot.classList.remove("bg-gray-300");
+                    dot.classList.add("bg-secondary-500");
+                } else {
+                    dot.classList.remove("bg-secondary-500");
+                    dot.classList.add("bg-gray-300");
+                }
+            });
+
+            // Get all testimonial cards
+            const testimonialCards = [];
+            for (let i = 0; i < testimonials.length; i++) {
+                testimonialCards.push(document.getElementById(`testimonial-${i}`));
+            }
+
+            // Hide previous active testimonial
+            const prevCard = testimonialCards[prevIndex];
+            prevCard.classList.remove(
+                "opacity-100",
+                "translate-y-0",
+                "z-20",
+                "bg-white",
+                "shadow-lg"
+            );
+            prevCard.classList.add(
+                "opacity-0",
+                "translate-y-16",
+                "bg-gray-100",
+                "shadow-md"
+            );
+
+            // After a small delay, show the new one and hide the old one
+            setTimeout(() => {
+                // Hide all cards
+                testimonialCards.forEach((card) => {
+                    card.classList.add("hidden");
+                });
+
+                // Show current card
+                const currentCard = testimonialCards[currentIndex];
+                currentCard.classList.remove(
+                    "hidden",
+                    "opacity-0",
+                    "translate-y-16",
+                    "bg-gray-100",
+                    "shadow-md"
+                );
+                currentCard.classList.add(
+                    "opacity-100",
+                    "translate-y-0",
+                    "z-20",
+                    "bg-white",
+                    "shadow-lg"
+                );
+
+                // Show next card below the current one (if there is a next card)
+                const nextIndex = (currentIndex + 1) % testimonials.length;
+                const nextCard = testimonialCards[nextIndex];
+                if (nextCard) {
+                    nextCard.classList.remove("hidden", "opacity-0");
+                    nextCard.classList.add("opacity-95", "translate-y-16", "z-10");
+                }
+
+                // Update profile image
+                profileImage.src = testimonials[currentIndex].profile;
+                profileImage.alt = testimonials[currentIndex].name;
+            }, 300);
+        }
+
+        // Add event listeners to dots
+        dots.forEach((dot, index) => {
+            dot.addEventListener("click", () => {
+                updateTestimonial(index);
+            });
+        });
+
+        // Add event listeners to navigation arrows
+        nextArrow.addEventListener("click", function() {
+            updateTestimonial(currentIndex + 1);
+        });
+
+        prevArrow.addEventListener("click", function() {
+            updateTestimonial(currentIndex - 1);
+        });
+
+        // Show initial testimonial setup (second card visible but stacked)
+        const secondCard = document.getElementById("testimonial-1");
+        secondCard.classList.remove("hidden");
     });
+    document.addEventListener("DOMContentLoaded", function() {
+        const tabButtons = document.querySelectorAll("[data-tab]");
 
-    // Get all testimonial cards
-    const testimonialCards = [];
-    for (let i = 0; i < testimonials.length; i++) {
-      testimonialCards.push(document.getElementById(`testimonial-${i}`));
-    }
+        tabButtons.forEach((button) => {
+            button.addEventListener("click", function() {
+                // Remove active class from all buttons
+                tabButtons.forEach((btn) => {
+                    btn.classList.remove("bg-red-500", "text-white");
+                    btn.classList.add(
+                        "bg-white",
+                        "text-blue-600",
+                        "border",
+                        "border-gray-200"
+                    );
+                });
 
-    // Hide previous active testimonial
-    const prevCard = testimonialCards[prevIndex];
-    prevCard.classList.remove(
-      "opacity-100",
-      "translate-y-0",
-      "z-20",
-      "bg-white",
-      "shadow-lg"
-    );
-    prevCard.classList.add(
-      "opacity-0",
-      "translate-y-16",
-      "bg-gray-100",
-      "shadow-md"
-    );
-
-    // After a small delay, show the new one and hide the old one
-    setTimeout(() => {
-      // Hide all cards
-      testimonialCards.forEach((card) => {
-        card.classList.add("hidden");
-      });
-
-      // Show current card
-      const currentCard = testimonialCards[currentIndex];
-      currentCard.classList.remove(
-        "hidden",
-        "opacity-0",
-        "translate-y-16",
-        "bg-gray-100",
-        "shadow-md"
-      );
-      currentCard.classList.add(
-        "opacity-100",
-        "translate-y-0",
-        "z-20",
-        "bg-white",
-        "shadow-lg"
-      );
-
-      // Show next card below the current one (if there is a next card)
-      const nextIndex = (currentIndex + 1) % testimonials.length;
-      const nextCard = testimonialCards[nextIndex];
-      if (nextCard) {
-        nextCard.classList.remove("hidden", "opacity-0");
-        nextCard.classList.add("opacity-95", "translate-y-16", "z-10");
-      }
-
-      // Update profile image
-      profileImage.src = testimonials[currentIndex].profile;
-      profileImage.alt = testimonials[currentIndex].name;
-    }, 300);
-  }
-
-  // Add event listeners to dots
-  dots.forEach((dot, index) => {
-    dot.addEventListener("click", () => {
-      updateTestimonial(index);
+                // Add active class to clicked button
+                this.classList.remove(
+                    "bg-white",
+                    "text-blue-600",
+                    "border",
+                    "border-gray-200"
+                );
+                this.classList.add("bg-red-500", "text-white");
+            });
+        });
     });
-  });
-
-  // Add event listeners to navigation arrows
-  nextArrow.addEventListener("click", function () {
-    updateTestimonial(currentIndex + 1);
-  });
-
-  prevArrow.addEventListener("click", function () {
-    updateTestimonial(currentIndex - 1);
-  });
-
-  // Show initial testimonial setup (second card visible but stacked)
-  const secondCard = document.getElementById("testimonial-1");
-  secondCard.classList.remove("hidden");
-});
-document.addEventListener("DOMContentLoaded", function () {
-  const tabButtons = document.querySelectorAll("[data-tab]");
-
-  tabButtons.forEach((button) => {
-    button.addEventListener("click", function () {
-      // Remove active class from all buttons
-      tabButtons.forEach((btn) => {
-        btn.classList.remove("bg-red-500", "text-white");
-        btn.classList.add(
-          "bg-white",
-          "text-blue-600",
-          "border",
-          "border-gray-200"
-        );
-      });
-
-      // Add active class to clicked button
-      this.classList.remove(
-        "bg-white",
-        "text-blue-600",
-        "border",
-        "border-gray-200"
-      );
-      this.classList.add("bg-red-500", "text-white");
-    });
-  });
-});
-</script>
+    </script>
     <script src="./assets/js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </body>

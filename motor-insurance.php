@@ -21,124 +21,164 @@
     <?php include_once('includes/header.php'); ?>
 
 
-    <main>
+    <main class="overflow-hidden">
 
-<!-- hero section -->
+        <!-- hero section -->
 
-<section class=" bg-white">
+     <!-- hero section -->
+     <section class="relative overflow-hidden bg-white py-6 sm:py-8 md:py-10">
+            <!-- Top-left Circular Gradient (Reddish) - Visible on sm screens and up -->
+            <div class="absolute top-[5%] -left-[20%] w-[50%] h-[100%] rounded-full hidden sm:block"
+                style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
+                data-aos="fade" data-aos-duration="1500" data-aos-once="true">
+            </div>
 
-    <div class="max-w-7xl mx-auto py-12  ">
-        <div class="rounded-xl overflow-hidden  ">
-            <div class="grid grid-cols-1 md:grid-cols-2 ">
-                <!-- Left Content - Services List -->
-                <div class="p-8 md:p-12 mt-16">
-                    <p class="font-semi-bolder text-primary-600 font-bold">Motor Insurance</p>
-                    <h1 class="text-4xl font-bold text-secondary-600 ">Grow Your Business with</h1>
-                    <h1 class="text-4xl font-bold text-secondary-600 mb-4">Motor Insurance Services</h1>
-                    <p class="text-gray-500 mb-8">Partner with Sec2Pay to offer comprehensive motor insurance solutions to your customers.</p>
+            <!-- Top-right Circular Gradient (Bluish) - Visible on sm screens and up -->
+            <div class="absolute -top-[20%] -right-[20%] w-[50%] h-[100%] rounded-full hidden sm:block"
+                style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
+                data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+            </div>
 
-                    <a href="#"
-                        class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
-                        Partner With Us
-                    </a>
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 md:py-12 relative z-10">
+                <div class="rounded-xl overflow-hidden">
+                    <div class="flex flex-col md:flex-row md:items-center">
+                        <!-- Content - Always First -->
+                        <div class="p-4 md:p-8 lg:p-10 pt-8 md:w-2/5" data-aos="fade-right" data-aos-duration="1000"
+                            data-aos-once="true">
+                            <p class="font-bold text-primary-600 text-sm sm:text-base mb-2" data-aos="fade-up"
+                                data-aos-delay="100" data-aos-duration="800" data-aos-once="true">
+                                Utility Payment Platform Services
+                            </p>
+                            <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500" data-aos="fade-up"
+                                data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
+                                Simplify Utility Payments
+                            </h1>
+                            <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500 mb-3 sm:mb-4"
+                                data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">
+                                Through Your Business
+                            </h1>
+                            <p class="text-black mb-6 sm:mb-8 text-sm sm:text-base" data-aos="fade-up"
+                                data-aos-delay="400" data-aos-duration="800" data-aos-once="true">
+                                Integrate essential payment services into your business with Sec2Pay.
+                            </p>
 
-                    <div
-                        class="mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm">
-                        <div class="flex -space-x-2 ">
-                            <img src="https://randomuser.me/api/portraits/men/1.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
-                            <img src="https://randomuser.me/api/portraits/women/2.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
-                            <img src="https://randomuser.me/api/portraits/men/3.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
-                            <img src="https://randomuser.me/api/portraits/women/4.jpg"
-                                class="w-8 h-8 rounded-full border-2 border-white">
+                            <a href="contact-us.php"
+                                class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
+                                data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
+                                Start offering Utility Services
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+
+                            <div class="mt-6 md:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                                data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
+                                <div class="flex -space-x-2 ml-1">
+                                    <img src="https://randomuser.me/api/portraits/men/1.jpg"
+                                        class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
+                                    <img src="https://randomuser.me/api/portraits/women/2.jpg"
+                                        class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
+                                    <img src="https://randomuser.me/api/portraits/men/3.jpg"
+                                        class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
+                                    <img src="https://randomuser.me/api/portraits/women/4.jpg"
+                                        class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
+                                </div>
+                                <span class="text-gray-600 text-xs sm:text-sm">1 Lac+ Retail partners across
+                                    India</span>
+                            </div>
                         </div>
-                        <span class="text-gray-600 text-sm">1 Lac+ Retail partners across India</span>
-                    </div>
-                </div>
-                <!-- Right Content - Image and Features -->
-                <!-- Diagonal Shapes for Design -->
 
-                <!-- Person Image -->
-
-
-                <div class="relative max-w-5xl mx-auto  ">
-                    <!-- Main Dashboard Image -->
-                    <div class="relative z-20">
-                        <img src="assets/images/motor-insurance/banner.png" alt="Dashboard" class=" h-auto" />
-                        <div class="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-white to-transparent">
+                        <!-- Image Section - Always Second - Larger Size -->
+                        <div class="relative mx-auto px-4 sm:px-0" data-aos="fade-left" data-aos-duration="1200"
+                            data-aos-once="true">
+                            <!-- Main Dashboard Image -->
+                            <div class="relative z-20 w-96 md:w-[80%] lg:w-[90%] mx-auto">
+                                <img src="assets/images/motor-insurance/banner.png"
+                                    alt="Utility Payment Platform Dashboard"
+                                    class="w-full md:h-96 h-64 object-contain lg:max-h-[600px]" />
+                                <div
+                                    class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-</section>
+        </section>
 
-<!-- hero section ends -->
+        <!-- hero section ends -->
 
 
-<!-- E-Governance Platform Services Section -->
-<section class="bg-white py-10 px-4 md:px-24">
-    <div class="container mx-auto px-6 ">
-        <h2 class="text-3xl font-bold text-primary-700 mb-8 text-center">Why Choose Sec2Pay?</h2>
+        <!-- E-Governance Platform Services Section -->
+        <section class="bg-white py-10 px-4 md:px-24">
+            <div class="container mx-auto px-6 ">
+                <h2 class="text-3xl font-bold text-primary-700 mb-8 text-center">Why Choose Sec2Pay?</h2>
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <!-- PAN Card Services -->
-            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
-                <!-- Icon and Title - Vertical Alignment -->
-                <div class="text-left mb-2">
-                    <h2 class="text-xl font-semibold text-red-500">Quick Policy Issuance</h2>
-                </div>
-                <ul class="list-disc pl-5 space-y-2 text-gray-700">
-                        <li>Digital policy generation</li>
-                        <li>Real-time quotes</li>
-                        <li>Instant documentation</li>
-                    </ul>            </div>
-            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
-                <!-- Icon and Title - Vertical Alignment -->
-                <div class="text-left mb-2">
-                    <h2 class="text-xl font-semibold text-red-500">Multiple Insurance Partners</h2>
-                </div>
-                <ul class="list-disc pl-5 space-y-2 text-gray-700">
-                        <li>Wide range of insurers</li>
-                        <li>Competitive premiums</li>
-                        <li>Varied coverage options</li>
-                    </ul>            </div>
-            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
-                <!-- Icon and Title - Vertical Alignment -->
-                <div class="text-left mb-2">
-                    <h2 class="text-xl font-semibold text-red-500">Simple Claims Process</h2>
-                </div>
-                <ul class="list-disc pl-5 space-y-2 text-gray-700">
-                        <li>Digital claim filing</li>
-                        <li>Status tracking</li>
-                        <li>Quick settlements</li>
-                    </ul>            </div>
-            
-        </div>
-    </div>
-</section>
-
-<!-- Banking Services Section --> 
-<section class="bg-secondary-100 min-h-[600px] py-6 flex items-center">
-    <div class="container mx-auto px-4 md:px-6">
-        <!-- Banking Services Tabs -->
-        <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-            <!-- Tab Content -->
-            <div class="relative min-h-[350px] overflow-hidden md:pl-24">
-                <!-- AePS Tab Content -->
-                <div class="tab-pane block opacity-100 transition-opacity duration-300" id="aeps">
-                    <div class="flex flex-col md:flex-row items-center gap-8">
-                        <div class="w-full md:w-1/2 flex justify-center">
-                            <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
-                                <img src="assets/images/motor-insurance/service.png" alt="AePS Banking"
-                                    class="max-w-full h-auto max-h-[400px]">
-                            </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    <!-- PAN Card Services -->
+                    <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
+                        <!-- Icon and Title - Vertical Alignment -->
+                        <div class="text-left mb-2">
+                            <h2 class="text-xl font-semibold text-red-500">Quick Policy Issuance</h2>
                         </div>
-                        <div class="w-full md:w-1/2">
-                            <h3 class="text-2xl md:text-3xl font-semibold mb-8 text-secondary-600">Benefits for Partners:</h3>
-                            <ul class="space-y-5 mb-8">
-                                <?php
+                        <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                            <li>Digital policy generation</li>
+                            <li>Real-time quotes</li>
+                            <li>Instant documentation</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
+                        <!-- Icon and Title - Vertical Alignment -->
+                        <div class="text-left mb-2">
+                            <h2 class="text-xl font-semibold text-red-500">Multiple Insurance Partners</h2>
+                        </div>
+                        <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                            <li>Wide range of insurers</li>
+                            <li>Competitive premiums</li>
+                            <li>Varied coverage options</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8">
+                        <!-- Icon and Title - Vertical Alignment -->
+                        <div class="text-left mb-2">
+                            <h2 class="text-xl font-semibold text-red-500">Simple Claims Process</h2>
+                        </div>
+                        <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                            <li>Digital claim filing</li>
+                            <li>Status tracking</li>
+                            <li>Quick settlements</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Banking Services Section -->
+        <section class="bg-secondary-100 min-h-[600px] py-6 flex items-center">
+            <div class="container mx-auto px-4 md:px-6">
+                <!-- Banking Services Tabs -->
+                <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+                    <!-- Tab Content -->
+                    <div class="relative min-h-[350px] overflow-hidden md:pl-24">
+                        <!-- AePS Tab Content -->
+                        <div class="tab-pane block opacity-100 transition-opacity duration-300" id="aeps">
+                            <div class="flex flex-col md:flex-row items-center gap-8">
+                                <div class="w-full md:w-1/2 flex justify-center">
+                                    <div class="relative flex justify-center" data-aos="fade-left"
+                                        data-aos-duration="1000">
+                                        <img src="assets/images/motor-insurance/service.png" alt="AePS Banking"
+                                            class="max-w-full h-auto max-h-[400px]">
+                                    </div>
+                                </div>
+                                <div class="w-full md:w-1/2">
+                                    <h3 class="text-2xl md:text-3xl font-semibold mb-8 text-secondary-600">Benefits for
+                                        Partners:</h3>
+                                    <ul class="space-y-5 mb-8">
+                                        <?php
                                 $lifePlans = [
                                     'Attractive commission structure',
                                     'No investment needed',
@@ -150,96 +190,112 @@
                                 
                                 foreach ($lifePlans as $plan) :
                                 ?>
-                                <li class="flex items-start">
-                                    <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                            <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none"/>
-                                            <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                        </svg>
-                                    </div>
-                                    <span class="ml-3 text-primary-500"><?php echo $plan; ?></span>
-                                </li>
-                                <?php endforeach; ?>
-                            </ul>
+                                        <li class="flex items-start">
+                                            <div
+                                                class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                                    <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2"
+                                                        fill="none" />
+                                                    <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                            <span class="ml-3 text-primary-500"><?php echo $plan; ?></span>
+                                        </li>
+                                        <?php endforeach; ?>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
+        </section>
 
 
-<!-- Support Promise Banner -->
-<section>
-  <div class="w-full bg-primary-700 py-12">
-    <div
-      class="max-w-7xl mx-auto flex flex-row items-center justify-evenly text-white px-4"
-    >
-      <div class="font-semibold text-md md:text-base whitespace-nowrap">
-      Partner Support:
-      </div>
+        <section>
+            <div class="w-full bg-primary-700 py-12">
+                <div class="max-w-7xl mx-auto px-4">
+                    <!-- Desktop View -->
+                    <div class="hidden md:flex flex-row items-center justify-between text-white" data-aos="fade-up"
+                        data-aos-delay="100">
+                        <div class="font-bold text-base whitespace-nowrap">
+                        Partner Support:                        </div>
 
-      <div class="hidden md:flex items-center justify-end space-x-6 text-sm">
-       
-        <div class="flex items-center">
-          <span class="whitespace-nowrap">Dedicated relationship manager</span>
-        </div>
-        <div class="flex items-center">
-          <span class="whitespace-nowrap">24/7 technical assistance</span>
-        </div>
-        <div class="flex items-center">
-          <span class="whitespace-nowrap">Marketing collateral</span>
-        </div>
-        <div class="flex items-center">
-          <span class="whitespace-nowrap">Regular training sessions</span>
-        </div>
-      </div>
+                        <div class="flex items-center justify-end space-x-6 text-sm">
+                            <div class="text-white/50">|</div>
+                            <div class="flex items-center">
+                                <span class="whitespace-nowrap">Dedicated relationship manager</span>
+                            </div>
+                            <div class="text-white/50">|</div>
+                            <div class="flex items-center">
+                                <span class="whitespace-nowrap">24/7 technical assistance</span>
+                            </div>
+                            <div class="text-white/50">|</div>
+                            <div class="flex items-center">
+                                <span class="whitespace-nowrap">Marketing collateral</span>
+                            </div>
+                            <div class="text-white/50">|</div>
+                            <div class="flex items-center">
+                                <span class="whitespace-nowrap">Regular training sessions</span>
+                            </div>
+                        </div>
+                    </div>
 
-      <!-- Mobile version - scrollable -->
-      <div
-        class="md:hidden flex items-center overflow-x-auto whitespace-nowrap space-x-4 text-sm scrollbar-hide"
-      >
-        <span>Training for new agents</span>
-        <span class="text-white/50">|</span>
-        <span>Regular commission payments</span>
-        <span class="text-white/50">|</span>
-        <span>Dedicated relationship manager</span>
-        <span class="text-white/50">|</span>
-        <span>24/7 Technical assistance</span>
-      </div>
-    </div>
-  </div>
-</section>
+                    <!-- Mobile View -->
+                    <div class="md:hidden" data-aos="fade-up" data-aos-delay="200">
+                        <div class="font-bold text-sm text-white mb-4">
+                            Why choose us?
+                        </div>
+
+                        <div class="scroll-snap-container overflow-x-scroll pb-2 w-full">
+                            <div class="flex items-center space-x-4 text-sm text-white min-w-max px-4">
+                                <span>Dedicated relationship manager</span>
+                                <span class="text-white/50">|</span>
+                                <span>24/7 technical assistance</span>
+                                <span class="text-white/50">|</span>
+                                <span>Marketing collateral</span>
+                                <span class="text-white/50">|</span>
+                                <span>Regular training sessions</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
-<!-- FAQ Section -->
-<section class="py-10 max-w-3xl mx-auto px-4">
-    <!-- Section Title -->
-    <div class="text-center mb-12">
-        <h2 class="text-4xl font-bold text-primary-800 mb-2">FAQ</h2>
-    </div>
 
-    <!-- FAQ Accordion -->
-    <div class="space-y-4">
-        <?php
-        $faqItems = [
-            [
-                'question' => 'What documents are needed to sell motor insurance?',
-                'answer' => 'A: CMS is a digital platform that helps businesses manage their financial operations, including collections, payments, and reconciliation, through a single interface.',
-                'isOpen' => true
-            ],
-            [
-                'question' => 'How long does policy issuance take?',
-                'answer' => 'You can offer AEPS services once you\'ve completed the registration process and have the necessary equipment set up. This typically includes having a biometric device and completing the verification process.',
-                'isOpen' => false
-            ],
-            [
-                'question' => 'What commission can I earn?',
-                'answer' => 'To start offering AEPS services, you\'ll need a smartphone or computer, a biometric device for fingerprint authentication, a reliable internet connection, and valid documentation for registration.',
-                'isOpen' => false
-            ]
-        ];
+
+        <!-- FAQ Section -->
+        <section class="py-10 max-w-3xl mx-auto px-4">
+            <!-- Section Title -->
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-primary-800 mb-2">FAQ</h2>
+            </div>
+
+            <!-- FAQ Accordion -->
+            <div class="space-y-4">
+                <?php
+      $faqItems = [
+        [
+            'question' => 'What documents are needed to sell motor insurance?',
+            'answer' => 'As our partner, you\'ll need basic KYC documents and a computer/smartphone with internet connectivity. We\'ll guide you through the registration process.',
+            'isOpen' => true
+        ],
+        [
+            'question' => 'How long does policy issuance take?',
+            'answer' => 'Our digital platform enables instant policy issuance, typically within 5-10 minutes of customer information submission.',
+            'isOpen' => false
+        ],
+        [
+            'question' => 'What commission can I earn?',
+            'answer' => 'Partners earn competitive commissions on each policy sold. Commission rates vary based on insurance type and premium amount.',
+            'isOpen' => false
+        ]
+    ];
+    
 
         foreach ($faqItems as $index => $item) :
             $isOpen = $item['isOpen'];
@@ -248,23 +304,24 @@
             $icon = $isOpen ? '−' : '+';
             $contentClass = $isOpen ? '' : 'hidden';
         ?>
-        <!-- FAQ Item -->
-        <div class="border-b border-gray-200 pb-4" id="faq-item-<?php echo $index; ?>">
-            <button class="flex justify-between items-center w-full text-left faq-toggle">
-                <h3 class="text-lg font-medium <?php echo $questionColor; ?>"><?php echo $item['question']; ?></h3>
-                <span class="<?php echo $iconColor; ?> text-2xl"><?php echo $icon; ?></span>
-            </button>
-            <div class="<?php echo $contentClass; ?> mt-3 text-gray-500 faq-content">
-                <p><?php echo $item['answer']; ?></p>
+                <!-- FAQ Item -->
+                <div class="border-b border-gray-200 pb-4" id="faq-item-<?php echo $index; ?>">
+                    <button class="flex justify-between items-center w-full text-left faq-toggle">
+                        <h3 class="text-lg font-medium <?php echo $questionColor; ?>"><?php echo $item['question']; ?>
+                        </h3>
+                        <span class="<?php echo $iconColor; ?> text-2xl"><?php echo $icon; ?></span>
+                    </button>
+                    <div class="<?php echo $contentClass; ?> mt-3 text-gray-500 faq-content">
+                        <p><?php echo $item['answer']; ?></p>
+                    </div>
+                </div>
+                <?php endforeach; ?>
             </div>
-        </div>
-        <?php endforeach; ?>
-    </div>
-</section>
+        </section>
 
 
-   <!-- Join Section with Dark Blue Background -->
-   <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
+        <!-- Join Section with Dark Blue Background -->
+        <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
             <div class="container mx-auto">
                 <!-- Join Panel with Starry Background -->
                 <div class="bg-gradient-to-br from-primary-700 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
@@ -289,7 +346,7 @@
 
                         <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
                             <p class="text-white mb-4 sm:mb-6">
-                                <a href="/contact-us.php" class="underline hover:text-white transition">
+                                <a href="contact-us.php" class="underline hover:text-white transition">
                                     Joining as an organization? Contact Sales
                                 </a>
                             </p>
@@ -311,14 +368,57 @@
             </div>
         </section>
 
-<!-- End of Join Section -->
-<!-- Footer Section -->
+        <!-- End of Join Section -->
+        <!-- Footer Section -->
 
 
 
- </main>
+    </main>
 
     <!-- Main Header Banner -->
+
+        <!-- Main Header Banner -->
+         <!-- faq -->
+         <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const accordionButtons = document.querySelectorAll('.faq-toggle');
+
+        accordionButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const isHidden = content.classList.contains('hidden');
+                const plusMinus = button.querySelector('span');
+                const question = button.querySelector('h3');
+
+                // Close all
+                document.querySelectorAll('.faq-content').forEach(div => {
+                    div.classList.add('hidden');
+                });
+                document.querySelectorAll('.faq-toggle span').forEach(span => {
+                    span.textContent = '+';
+                    span.classList.remove('text-secondary-500');
+                    span.classList.add('text-primary-800');
+                });
+                document.querySelectorAll('.faq-toggle h3').forEach(h3 => {
+                    h3.classList.remove('text-secondary-500');
+                    h3.classList.add('text-primary-800');
+                });
+
+                // Open current if it was closed
+                if (isHidden) {
+                    content.classList.remove('hidden');
+                    plusMinus.textContent = '−';
+                    plusMinus.classList.remove('text-primary-800');
+                    plusMinus.classList.add('text-secondary-500');
+                    question.classList.remove('text-primary-800');
+                    question.classList.add('text-secondary-500');
+                }
+            });
+        });
+    });
+    </script>
+    <!-- FAQ Section Ends -->
+
 
 
     <?php include_once('includes/footer.php'); ?>

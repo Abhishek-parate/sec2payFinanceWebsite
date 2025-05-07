@@ -25,107 +25,157 @@
 
 
         <!-- Utility Services Section -->
-        <section class=" bg-white pt-16">
+        <section class="relative overflow-hidden bg-white py-6 sm:py-8 md:py-10">
+            <!-- Top-left Circular Gradient (Bluish) - Visible on all devices with adjusted opacity -->
+            <div class=" hidden absolute top-[5%] -left-[25%] w-[50%] h-[100%] rounded-full opacity-30 md:opacity-80"
+                style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
+                data-aos="fade" data-aos-duration="1500" data-aos-once="true">
+            </div>
 
-            <div class="max-w-7xl mx-auto ">
-                <div class="rounded-xl overflow-hidden ">
-                    <div class="grid grid-cols-1 md:grid-cols-2">
-                        <!-- Left Content - Services List -->
-                        <div class="p-8 md:p-12 mt-12">
-                            <p class="font-semi-bolder text-primary-600 font-bold">Aadhar pay</p>
-                            <h1 class="text-4xl font-bold text-secondary-500 ">Turn your shop into a</h1>
-                            <h1 class="text-4xl font-bold text-secondary-500 mb-4">digital banking point</h1>
-                            <p class="text-gray-500 mb-8">Help customers make secure payments using just their Aadhar
-                                Card and fingerprint.</p>
+            <!-- Top-right Circular Gradient (Pinkish) - Visible on all devices with adjusted opacity -->
 
-                            <a href="#"
-                                class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
+
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 md:py-12 relative z-10">
+                <div class="rounded-xl overflow-hidden">
+                    <div class="flex flex-col md:flex-row md:items-center gap-6 md:gap-4 lg:gap-0">
+                        <!-- Content Section -->
+                        <div class="p-4 md:p-8 lg:p-12 pt-8 md:w-1/2" data-aos="fade-right" data-aos-duration="1000"
+                            data-aos-once="true">
+                            <p class="font-bold text-primary-600 text-sm sm:text-base mb-2" data-aos="fade-up"
+                                data-aos-delay="100" data-aos-duration="800" data-aos-once="true">
+                                Aadhar Pay
+                            </p>
+                            <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500" data-aos="fade-up"
+                                data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
+                                Turn your shop into a
+                            </h1>
+                            <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500 mb-3 sm:mb-4"
+                                data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">
+                                digital banking point
+                            </h1>
+                            <p class="text-gray-700 mb-6 sm:mb-8 text-sm sm:text-base" data-aos="fade-up"
+                                data-aos-delay="400" data-aos-duration="800" data-aos-once="true">
+                                Help customers make secure payments using just their Aadhar Card and fingerprint.
+                            </p>
+
+                            <a href="contact-us.php"
+                                class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-6 sm:mb-8"
+                                data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 Start Your Journey
-
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
+                                    fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
                             </a>
 
-                            <div
-                                class="mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm">
-                                <div class="flex -space-x-2 ">
+                            <div class="flex items-center gap-2 border-2 border-gray-200 rounded-full p-2 w-full max-w-sm shadow-sm"
+                                data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
+                                <div class="flex -space-x-2 ml-1">
                                     <img src="https://randomuser.me/api/portraits/men/1.jpg"
-                                        class="w-8 h-8 rounded-full border-2 border-white">
+                                        class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
                                     <img src="https://randomuser.me/api/portraits/women/2.jpg"
-                                        class="w-8 h-8 rounded-full border-2 border-white">
+                                        class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
                                     <img src="https://randomuser.me/api/portraits/men/3.jpg"
-                                        class="w-8 h-8 rounded-full border-2 border-white">
+                                        class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
                                     <img src="https://randomuser.me/api/portraits/women/4.jpg"
-                                        class="w-8 h-8 rounded-full border-2 border-white">
+                                        class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
                                 </div>
-                                <span class="text-gray-600 text-sm">1 Lac+ Retail partners across India</span>
+                                <span class="text-gray-600 text-xs sm:text-sm">1 Lac+ Retail partners across
+                                    India</span>
                             </div>
                         </div>
-                        <!-- Right Content - Image and Features -->
-                        <!-- Diagonal Shapes for Design -->
 
-                        <!-- Person Image -->
-
-
-                        <div class="relative max-w-5xl mx-auto  ">
-                            <!-- Main Dashboard Image -->
+                        <!-- Image Section -->
+                        <div class="relative md:w-1/2" data-aos="fade-left" data-aos-duration="1200"
+                            data-aos-once="true">
+                            <!-- Main Image -->
                             <div class="relative z-20">
-                                <img src="assets/images/aadhar/aadhar-hero.png" alt="Dashboard" class=" h-auto" />
+                                <img src="assets/images/aadhar/aadhar-hero.png" alt="Aadhar Pay Banking Solution"
+                                    class="w-full h-auto object-contain mx-auto" />
                                 <div
                                     class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
         </section>
 
 
         <!-- Support Promise Banner -->
+
+        <!-- Support Promise Banner -->
         <section>
-            <div class="w-full bg-primary-500 py-12">
-                <div class="max-w-7xl mx-auto flex flex-row items-center justify-evenly text-white px-4">
-                    <div class="font-semibold text-md md:text-base whitespace-nowrap">
-                        Why choose us?
+            <div class="w-full bg-primary-500 py-12" data-aos="fade-up" data-aos-delay="600" data-aos-duration="800"
+                data-aos-once="true">>
+                <div class="max-w-7xl mx-auto px-4">
+                    <!-- Desktop View -->
+                    <div class="hidden md:flex flex-row items-center justify-between text-white">
+                        <div class="font-bold text-base whitespace-nowrap">
+                            Why choose us?
+                        </div>
+
+                        <div class="flex items-center justify-end space-x-6 text-sm">
+                            <div class="text-white/50">|</div>
+                            <div class="flex items-center">
+                                <span class="whitespace-nowrap">Biometric Transactions
+                                </span>
+                            </div>
+                            <div class="text-white/50">|</div>
+                            <div class="flex items-center">
+                                <span class="whitespace-nowrap">Direct Bank Transfers
+                                </span>
+                            </div>
+                            <div class="text-white/50">|</div>
+                            <div class="flex items-center">
+                                <span class="whitespace-nowrap">Real-time Processing
+                                </span>
+                            </div>
+                            <div class="text-white/50">|</div>
+
+                        </div>
                     </div>
 
-                    <div class="hidden md:flex items-center justify-end space-x-6 text-sm">
+                    <!-- Mobile View - Improved -->
+                    <div class="md:hidden">
+                        <div class="font-bold text-sm text-white mb-4">
+                            Why choose Sec2Pay
+                        </div>
 
-                        <div class="text-white/50">|</div>
-                        <div class="flex items-center">
-                            <span class="whitespace-nowrap">Biometric Transactions</span>
+                        <div class="scroll-snap-container overflow-x-scroll pb-2 w-full">
+                            <div class="flex items-center space-x-4 text-sm text-white min-w-max px-4">
+                                <span>Biometric Transactions
+                                </span>
+                                <span class="text-white/50">|</span>
+                                <span>Direct Bank Transfers
+                                </span>
+                                <span class="text-white/50">|</span>
+                                <span>Real-time Processing
+                                </span>
+                            </div>
                         </div>
-                        <div class="text-white/50">|</div>
-                        <div class="flex items-center">
-                            <span class="whitespace-nowrap">Direct Bank Transfers </span>
-                        </div>
-                        <div class="text-white/50">|</div>
-                        <div class="flex items-center">
-                            <span class="whitespace-nowrap">Real-time Processing</span>
-                        </div>
-                    </div>
-
-                    <!-- Mobile version - scrollable -->
-                    <div
-                        class="md:hidden flex items-center overflow-x-auto whitespace-nowrap space-x-4 text-sm scrollbar-hide">
-                        <span>Training for new agents</span>
-                        <span class="text-white/50">|</span>
-                        <span>Regular commission payments</span>
-                        <span class="text-white/50">|</span>
-                        <span>Dedicated relationship manager</span>
-                        <span class="text-white/50">|</span>
-                        <span>24/7 Technical assistance</span>
                     </div>
                 </div>
             </div>
         </section>
 
 
-        <!-- Key Features Section -->
-        <section class="py-12 mb-12 mt-6">
+
+
+
+        <section class="py-12  mt-6" data-aos="fade-up">
             <div class="max-w-6xl mx-auto px-4">
-                <h2 class="text-3xl md:text-4xl font-bold text-primary-800 mb-8">Key Features</h2>
+                <h2 class="text-3xl md:text-4xl font-bold text-primary-800 mb-8" data-aos="fade-right">
+                    Key Features
+                </h2>
 
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <!-- Feature 1 - Secure Payments -->
-                    <div class="rounded-lg border border-secondary-500 bg-secondary-100 p-6">
+                    <div class="rounded-lg border border-secondary-500 bg-secondary-100 p-6" data-aos="zoom-in"
+                        data-aos-delay="100">
                         <h3 class="text-xl font-semibold text-gray-800 mb-3">Secure Payments</h3>
                         <p class="text-gray-700">
                             Enable customers to pay directly from their Aadhar-linked bank accounts using fingerprint
@@ -134,7 +184,7 @@
                     </div>
 
                     <!-- Feature 2 - Simple Setup -->
-                    <div class="rounded-lg border border-secondary-500 p-6">
+                    <div class="rounded-lg border border-secondary-500 p-6" data-aos="zoom-in" data-aos-delay="200">
                         <h3 class="text-xl font-semibold text-gray-800 mb-3">Simple Setup</h3>
                         <p class="text-gray-700">
                             Start offering Aadhar Pay services with just a biometric device and smartphone. Perfect for
@@ -143,7 +193,7 @@
                     </div>
 
                     <!-- Feature 3 - Quick Settlements -->
-                    <div class="rounded-lg border border-secondary-500 p-6">
+                    <div class="rounded-lg border border-secondary-500 p-6" data-aos="zoom-in" data-aos-delay="300">
                         <h3 class="text-xl font-semibold text-gray-800 mb-3">Quick Settlements</h3>
                         <p class="text-gray-700">
                             Receive payments directly in your account with our fast settlement system. Track all
@@ -153,6 +203,7 @@
                 </div>
             </div>
         </section>
+
 
 
 
@@ -264,23 +315,24 @@
             <!-- FAQ Accordion -->
             <div class="space-y-4">
                 <?php
-        $faqItems = [
-            [
-                'question' => 'What is Aadhar Pay?',
-                'answer' => 'Aadhar Pay lets merchants accept payments from customers using their Aadhar number and fingerprint verification.',
-                'isOpen' => true
-            ],
-            [
-                'question' => 'What do I need to start?',
-                'answer' => 'You can offer AEPS services once you\'ve completed the registration process and have the necessary equipment set up. This typically includes having a biometric device and completing the verification process.',
-                'isOpen' => false
-            ],
-            [
-                'question' => 'How secure are the transactions?',
-                'answer' => 'To start offering AEPS services, you\'ll need a smartphone or computer, a biometric device for fingerprint authentication, a reliable internet connection, and valid documentation for registration.',
-                'isOpen' => false
-            ]
-        ];
+$faqItems = [
+    [
+        'question' => 'What is Aadhar Pay?',
+        'answer' => 'Aadhar Pay lets merchants accept payments from customers using their Aadhar number and fingerprint verification.',
+        'isOpen' => true
+    ],
+    [
+        'question' => 'What do I need to start?',
+        'answer' => 'You need a smartphone/computer and a biometric device. Our team helps with complete setup.',
+        'isOpen' => false
+    ],
+    [
+        'question' => 'How secure are the transactions?',
+        'answer' => 'All transactions use UIDAI-approved biometric authentication and are processed through banking networks.',
+        'isOpen' => false
+    ]
+];
+
 
         foreach ($faqItems as $index => $item) :
             $isOpen = $item['isOpen'];
@@ -345,8 +397,8 @@
 
 
 
-       <!-- Join Section with Dark Blue Background -->
-       <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
+        <!-- Join Section with Dark Blue Background -->
+        <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
             <div class="container mx-auto">
                 <!-- Join Panel with Starry Background -->
                 <div class="bg-gradient-to-br from-secondary-700 to-secondary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
@@ -371,7 +423,7 @@
 
                         <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
                             <p class="text-white mb-4 sm:mb-6">
-                                <a href="/contact-us.php" class="underline hover:text-white transition">
+                                <a href="contact-us.php" class="underline hover:text-white transition">
                                     Joining as an organization? Contact Sales
                                 </a>
                             </p>

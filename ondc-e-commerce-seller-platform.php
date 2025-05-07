@@ -21,43 +21,50 @@
     <?php include_once('includes/header.php'); ?>
 
 
-    <main>
+    <main class="overflow-hidden">
 
         <!-- hero section -->
         <section class="relative overflow-hidden py-10 pt-16 sm:pt-20 md:pt-24 md:py-10 bg-white">
-    <!-- Background Gradient Overlays -->
+    <!-- Background Gradient Overlays - Optimized for mobile -->
     <div class="absolute inset-0 overflow-hidden pointer-events-none">
-        <!-- Top-left Circular Gradient (Bluish) -->
-        <div class="absolute top-[5%] -left-[25%] w-[50%] h-[100%] rounded-full opacity-50"
+        <!-- Top-left Circular Gradient (Bluish) - Adjusted positioning for mobile -->
+        <div class="absolute top-[5%] -left-[30%] sm:-left-[25%] w-[60%] sm:w-[50%] h-[80%] sm:h-[100%] rounded-full opacity-50"
             style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 10%, rgba(222, 242, 255, 0.4) 50%, rgba(255, 255, 255, 0) 60%);"
             data-aos="fade" data-aos-duration="1500" data-aos-once="true">
         </div>
 
-        <!-- Top-right Circular Gradient (Pinkish) -->
-        <div class="absolute -top-[6%] -right-[25%] w-[50%] h-[100%] rounded-full opacity-50"
+        <!-- Top-right Circular Gradient (Pinkish) - Adjusted positioning for mobile -->
+        <div class="absolute -top-[10%] sm:-top-[6%] -right-[30%] sm:-right-[25%] w-[60%] sm:w-[50%] h-[80%] sm:h-[100%] rounded-full opacity-50"
             style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 10%, rgba(242, 219, 219, 0.4) 50%, rgba(255, 255, 255, 0) 60%);"
             data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
         </div>
     </div>
 
-    <div class="max-w-7xl mx-auto py-6 md:py-8 px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 md:py-12 relative z-10">
         <div class="rounded-xl overflow-hidden">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 items-center">
                 <!-- Left Content - Services List -->
-                <div class="p-4 md:p-8 lg:p-12" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
-                    <h1 class="text-3xl sm:text-4xl font-bold text-secondary-600" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-once="true">Help Sellers Reach</h1>
-                    <h1 class="text-3xl sm:text-4xl font-bold text-secondary-600 mb-4" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">New Markets</h1>
-                    <p class="text-gray-500 mb-6 md:mb-8" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">Empower your business to support sellers in thriving <br class="hidden sm:block"> on ONDC's digital network.</p>
+                <div class="p-4 md:p-8 lg:p-12 pt-8" data-aos="fade-right" data-aos-duration="1000"
+                    data-aos-once="true">
+                    <h1 class="text-3xl sm:text-4xl font-bold text-secondary-600" data-aos="fade-up"
+                        data-aos-delay="100" data-aos-duration="800" data-aos-once="true">Help Sellers Reach
+                    </h1>
+                    <h1 class="text-3xl sm:text-4xl font-bold text-secondary-600 mb-4" data-aos="fade-up"
+                        data-aos-delay="200" data-aos-duration="800" data-aos-once="true">New Markets</h1>
+                    <p class="text-gray-500 mb-6 md:mb-8" data-aos="fade-up" data-aos-delay="300"
+                        data-aos-duration="800" data-aos-once="true">Empower your business to support sellers in
+                        thriving <br class="hidden sm:block"> on ONDC's digital network.</p>
 
-                    <a href="#"
+                    <a href="contact-us.php"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4"
                         data-aos="fade-up" data-aos-delay="400" data-aos-duration="800" data-aos-once="true">
                         Get Started Today!
                     </a>
 
+                    <!-- User avatars & count - Improved mobile display -->
                     <div class="mt-6 md:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
                         data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
-                        <div class="flex -space-x-2">
+                        <div class="flex -space-x-2 ml-1">
                             <img src="https://randomuser.me/api/portraits/men/1.jpg"
                                 class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
                             <img src="https://randomuser.me/api/portraits/women/2.jpg"
@@ -67,17 +74,19 @@
                             <img src="https://randomuser.me/api/portraits/women/4.jpg"
                                 class="w-6 h-6 sm:w-8 sm:h-8 rounded-full border-2 border-white">
                         </div>
-                        <span class="text-gray-600 text-xs sm:text-sm">1 Lac+ Retail partners across India</span>
+                        <span class="text-gray-600 text-xs sm:text-sm">1 Lac+ Retail partners across
+                            India</span>
                     </div>
                 </div>
-                
+
                 <!-- Right Content - Image -->
-                <div class="relative order-first md:order-last" data-aos="fade-left" data-aos-duration="1200" data-aos-once="true">
-                    <!-- Main Dashboard Image -->
+                <div class="relative mx-auto px-4 sm:px-0">
+                    <!-- Main Dashboard Image - Improved responsive handling -->
                     <div class="relative z-20">
-                        <img src="assets/images/ondc-ecommerce/banner.png" alt="Dashboard" 
-                            class="w-full h-auto " />
-                        <div class="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-white to-transparent">
+                        <img src="assets/images/ondc-ecommerce/banner.png" alt="Dashboard"
+                            class="w-full h-auto object-contain" />
+                        <div
+                            class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
                         </div>
                     </div>
                 </div>
@@ -229,8 +238,7 @@
                             <div class="flex flex-col sm:flex-row sm:items-center mb-6">
                                 <div
                                     class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mb-4 sm:mb-0 sm:mr-4">
-                                    <div
-                                        class="w-10 h-10  overflow-hidden flex items-center justify-center">
+                                    <div class="w-10 h-10  overflow-hidden flex items-center justify-center">
                                         <img src="assets/images/banking/icon1.png" alt="Whitelabel Partner Icon"
                                             class="w-8 h-8 object-contain">
                                     </div>
@@ -292,7 +300,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                                                 <a href="#"
+                                <a href="#"
                                     class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-md">
                                     Get started
                                 </a>
@@ -316,8 +324,7 @@
                             <div class="flex flex-col sm:flex-row sm:items-center mb-6">
                                 <div
                                     class="w-16 h-16 bg-white rounded-lg flex items-center justify-center mb-4 sm:mb-0 sm:mr-4">
-                                    <div
-                                        class="w-10 h-10   flex items-center justify-center">
+                                    <div class="w-10 h-10   flex items-center justify-center">
                                         <img src="assets/images/banking/icon2.png" alt="Whitelabel Reseller Icon"
                                             class="w-8 h-8 object-contain">
                                     </div>
@@ -379,7 +386,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                                                 <a href="#"
+                                <a href="#"
                                     class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-secondary-600 font-medium text-center rounded-full transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-md">
                                     Get started
                                 </a>
@@ -395,8 +402,7 @@
                             <div class="flex flex-col sm:flex-row sm:items-center mb-6">
                                 <div
                                     class="w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center mb-4 sm:mb-0 sm:mr-4">
-                                    <div
-                                        class="w-10 h-10  overflow-hidden flex items-center justify-center">
+                                    <div class="w-10 h-10  overflow-hidden flex items-center justify-center">
                                         <img src="assets/images/banking/icon1.png" alt="Enterprise Partner Icon"
                                             class="w-8 h-8 object-contain">
                                     </div>
@@ -458,7 +464,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                                                 <a href="#"
+                                <a href="#"
                                     class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-md">
                                     Get started
                                 </a>
@@ -604,7 +610,8 @@
                             data-aos="fade-up" data-aos-delay="200">Join India's Digital Commerce Revolution
                         </h1>
 
-                        <p class="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 relative z-10" data-aos="fade-up" data-aos-delay="300">
+                        <p class="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 relative z-10" data-aos="fade-up"
+                            data-aos-delay="300">
                             "Ready to expand your local business? Partner with Sec2Pay's ONDC platform"
                         </p>
 
@@ -638,167 +645,166 @@
 
     <?php include_once('includes/footer.php'); ?>
     <script>
-    document.addEventListener("DOMContentLoaded", function () {
-  const billingToggle = document.getElementById("billing-toggle");
-  const monthlyPrices = document.querySelectorAll(".monthly-price");
-  const annualPrices = document.querySelectorAll(".annual-price");
+    document.addEventListener("DOMContentLoaded", function() {
+        const billingToggle = document.getElementById("billing-toggle");
+        const monthlyPrices = document.querySelectorAll(".monthly-price");
+        const annualPrices = document.querySelectorAll(".annual-price");
 
-  // Check if billing toggle exists before adding event listener
-  if (billingToggle) {
-    billingToggle.addEventListener("change", function () {
-      if (this.checked) {
-        // Annual pricing
-        monthlyPrices.forEach((el) => el.classList.add("hidden"));
-        annualPrices.forEach((el) => el.classList.remove("hidden"));
-      } else {
-        // Monthly pricing
-        monthlyPrices.forEach((el) => el.classList.remove("hidden"));
-        annualPrices.forEach((el) => el.classList.add("hidden"));
-      }
+        // Check if billing toggle exists before adding event listener
+        if (billingToggle) {
+            billingToggle.addEventListener("change", function() {
+                if (this.checked) {
+                    // Annual pricing
+                    monthlyPrices.forEach((el) => el.classList.add("hidden"));
+                    annualPrices.forEach((el) => el.classList.remove("hidden"));
+                } else {
+                    // Monthly pricing
+                    monthlyPrices.forEach((el) => el.classList.remove("hidden"));
+                    annualPrices.forEach((el) => el.classList.add("hidden"));
+                }
 
-      // Add pulse animation to prices
-      const visiblePrices = this.checked ? annualPrices : monthlyPrices;
-      visiblePrices.forEach((el) => {
-        el.classList.add("animate-pulse-scale");
-        setTimeout(() => {
-          el.classList.remove("animate-pulse-scale");
-        }, 400);
-      });
+                // Add pulse animation to prices
+                const visiblePrices = this.checked ? annualPrices : monthlyPrices;
+                visiblePrices.forEach((el) => {
+                    el.classList.add("animate-pulse-scale");
+                    setTimeout(() => {
+                        el.classList.remove("animate-pulse-scale");
+                    }, 400);
+                });
+            });
+        }
     });
-  }
-});
-document.addEventListener("DOMContentLoaded", function () {
-  // All testimonial data
-  const testimonials = [
-    {
-      name: "Mike taylor",
-      location: "Lahore, Pakistan",
-      text: "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
-      profile: "https://randomuser.me/api/portraits/men/3.jpg",
-    },
-    {
-      name: "Chris Thomas",
-      location: "CEO of Red Button",
-      text: "Smart homes are the future. The integration of IoT devices has transformed how we interact with our living spaces.",
-      profile: "https://randomuser.me/api/portraits/women/3.jpg",
-    },
-    {
-      name: "Sarah Johnson",
-      location: "New York, USA",
-      text: "The customer service was exceptional. They went above and beyond to ensure everything was set up perfectly.",
-      profile: "https://randomuser.me/api/portraits/men/3.jpg",
-    },
-  ];
+    document.addEventListener("DOMContentLoaded", function() {
+        // All testimonial data
+        const testimonials = [{
+                name: "Mike taylor",
+                location: "Lahore, Pakistan",
+                text: "On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.",
+                profile: "https://randomuser.me/api/portraits/men/3.jpg",
+            },
+            {
+                name: "Chris Thomas",
+                location: "CEO of Red Button",
+                text: "Smart homes are the future. The integration of IoT devices has transformed how we interact with our living spaces.",
+                profile: "https://randomuser.me/api/portraits/women/3.jpg",
+            },
+            {
+                name: "Sarah Johnson",
+                location: "New York, USA",
+                text: "The customer service was exceptional. They went above and beyond to ensure everything was set up perfectly.",
+                profile: "https://randomuser.me/api/portraits/men/3.jpg",
+            },
+        ];
 
-  // Elements
-  const dots = document.querySelectorAll("#dots-container button");
-  const profileImage = document.getElementById("profile-image");
-  const prevArrow = document.getElementById("prev-arrow");
-  const nextArrow = document.getElementById("next-arrow");
+        // Elements
+        const dots = document.querySelectorAll("#dots-container button");
+        const profileImage = document.getElementById("profile-image");
+        const prevArrow = document.getElementById("prev-arrow");
+        const nextArrow = document.getElementById("next-arrow");
 
-  let currentIndex = 0;
+        let currentIndex = 0;
 
-  // Function to update the active testimonial
-  function updateTestimonial(newIndex) {
-    // Ensure index is within bounds
-    newIndex = (newIndex + testimonials.length) % testimonials.length;
+        // Function to update the active testimonial
+        function updateTestimonial(newIndex) {
+            // Ensure index is within bounds
+            newIndex = (newIndex + testimonials.length) % testimonials.length;
 
-    // Store the previous index
-    const prevIndex = currentIndex;
-    currentIndex = newIndex;
+            // Store the previous index
+            const prevIndex = currentIndex;
+            currentIndex = newIndex;
 
-    // Update dots
-    dots.forEach((dot, index) => {
-      if (index === currentIndex) {
-        dot.classList.remove("bg-gray-300");
-        dot.classList.add("bg-secondary-500");
-      } else {
-        dot.classList.remove("bg-secondary-500");
-        dot.classList.add("bg-gray-300");
-      }
+            // Update dots
+            dots.forEach((dot, index) => {
+                if (index === currentIndex) {
+                    dot.classList.remove("bg-gray-300");
+                    dot.classList.add("bg-secondary-500");
+                } else {
+                    dot.classList.remove("bg-secondary-500");
+                    dot.classList.add("bg-gray-300");
+                }
+            });
+
+            // Get all testimonial cards
+            const testimonialCards = [];
+            for (let i = 0; i < testimonials.length; i++) {
+                testimonialCards.push(document.getElementById(`testimonial-${i}`));
+            }
+
+            // Hide previous active testimonial
+            const prevCard = testimonialCards[prevIndex];
+            prevCard.classList.remove(
+                "opacity-100",
+                "translate-y-0",
+                "z-20",
+                "bg-white",
+                "shadow-lg"
+            );
+            prevCard.classList.add(
+                "opacity-0",
+                "translate-y-16",
+                "bg-gray-100",
+                "shadow-md"
+            );
+
+            // After a small delay, show the new one and hide the old one
+            setTimeout(() => {
+                // Hide all cards
+                testimonialCards.forEach((card) => {
+                    card.classList.add("hidden");
+                });
+
+                // Show current card
+                const currentCard = testimonialCards[currentIndex];
+                currentCard.classList.remove(
+                    "hidden",
+                    "opacity-0",
+                    "translate-y-16",
+                    "bg-gray-100",
+                    "shadow-md"
+                );
+                currentCard.classList.add(
+                    "opacity-100",
+                    "translate-y-0",
+                    "z-20",
+                    "bg-white",
+                    "shadow-lg"
+                );
+
+                // Show next card below the current one (if there is a next card)
+                const nextIndex = (currentIndex + 1) % testimonials.length;
+                const nextCard = testimonialCards[nextIndex];
+                if (nextCard) {
+                    nextCard.classList.remove("hidden", "opacity-0");
+                    nextCard.classList.add("opacity-95", "translate-y-16", "z-10");
+                }
+
+                // Update profile image
+                profileImage.src = testimonials[currentIndex].profile;
+                profileImage.alt = testimonials[currentIndex].name;
+            }, 300);
+        }
+
+        // Add event listeners to dots
+        dots.forEach((dot, index) => {
+            dot.addEventListener("click", () => {
+                updateTestimonial(index);
+            });
+        });
+
+        // Add event listeners to navigation arrows
+        nextArrow.addEventListener("click", function() {
+            updateTestimonial(currentIndex + 1);
+        });
+
+        prevArrow.addEventListener("click", function() {
+            updateTestimonial(currentIndex - 1);
+        });
+
+        // Show initial testimonial setup (second card visible but stacked)
+        const secondCard = document.getElementById("testimonial-1");
+        secondCard.classList.remove("hidden");
     });
-
-    // Get all testimonial cards
-    const testimonialCards = [];
-    for (let i = 0; i < testimonials.length; i++) {
-      testimonialCards.push(document.getElementById(`testimonial-${i}`));
-    }
-
-    // Hide previous active testimonial
-    const prevCard = testimonialCards[prevIndex];
-    prevCard.classList.remove(
-      "opacity-100",
-      "translate-y-0",
-      "z-20",
-      "bg-white",
-      "shadow-lg"
-    );
-    prevCard.classList.add(
-      "opacity-0",
-      "translate-y-16",
-      "bg-gray-100",
-      "shadow-md"
-    );
-
-    // After a small delay, show the new one and hide the old one
-    setTimeout(() => {
-      // Hide all cards
-      testimonialCards.forEach((card) => {
-        card.classList.add("hidden");
-      });
-
-      // Show current card
-      const currentCard = testimonialCards[currentIndex];
-      currentCard.classList.remove(
-        "hidden",
-        "opacity-0",
-        "translate-y-16",
-        "bg-gray-100",
-        "shadow-md"
-      );
-      currentCard.classList.add(
-        "opacity-100",
-        "translate-y-0",
-        "z-20",
-        "bg-white",
-        "shadow-lg"
-      );
-
-      // Show next card below the current one (if there is a next card)
-      const nextIndex = (currentIndex + 1) % testimonials.length;
-      const nextCard = testimonialCards[nextIndex];
-      if (nextCard) {
-        nextCard.classList.remove("hidden", "opacity-0");
-        nextCard.classList.add("opacity-95", "translate-y-16", "z-10");
-      }
-
-      // Update profile image
-      profileImage.src = testimonials[currentIndex].profile;
-      profileImage.alt = testimonials[currentIndex].name;
-    }, 300);
-  }
-
-  // Add event listeners to dots
-  dots.forEach((dot, index) => {
-    dot.addEventListener("click", () => {
-      updateTestimonial(index);
-    });
-  });
-
-  // Add event listeners to navigation arrows
-  nextArrow.addEventListener("click", function () {
-    updateTestimonial(currentIndex + 1);
-  });
-
-  prevArrow.addEventListener("click", function () {
-    updateTestimonial(currentIndex - 1);
-  });
-
-  // Show initial testimonial setup (second card visible but stacked)
-  const secondCard = document.getElementById("testimonial-1");
-  secondCard.classList.remove("hidden");
-});
-</script>
+    </script>
     <script src="./assets/js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 </body>
