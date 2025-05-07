@@ -21,8 +21,7 @@
   <?php include_once('includes/header.php'); ?>
 
 
-  <main>
-    <!-- hero section -->
+  <main class="overflow-hidden">    <!-- hero section -->
     <section class="relative overflow-hidden py-10 pt-20 md:pt-24 md:py-10 bg-white">
       <!-- Top-left Circular Gradient -->
       <div class="absolute top-[5%] -left-[30%] sm:-left-[20%] w-[80%] sm:w-[50%] h-[100%] rounded-full"

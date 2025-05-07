@@ -19,7 +19,7 @@
 
   <?php include_once('includes/header.php'); ?>
 
-  <main>
+  <main class="overflow-hidden">
 
     <section class="relative overflow-hidden py-10 pt-20 md:pt-24 md:py-10 bg-white">
       <!-- Top-left Circular Gradient -->

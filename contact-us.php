@@ -21,7 +21,7 @@
     <?php include_once('includes/header.php'); ?>
 
 
-    <main>
+  <main class="overflow-hidden">
 
 <!-- Contact Form Section with Gradient Background -->
 <section class="py-10 px-4 bg-gradient-to-r from-pink-100 via-white to-blue-100 pt-16">

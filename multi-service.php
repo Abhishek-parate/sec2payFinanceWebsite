@@ -25,7 +25,7 @@
 
 <!-- Hero Section with Circular Corner Gradients -->
 <!-- Enhanced Hero Section with Bidirectional AOS Animations -->
-<section class="relative overflow-hidden  pt-20 md:pt-24 md:py-10 bg-white">
+<section class="relative overflow-hidden pt-20 md:pt-24 md:py-10 bg-white">
     <!-- Top-left Circular Gradient (Pinkish) - Exactly 50% visible -->
     <div class="absolute top-[5%] -left-[20%] w-[50%] h-[100%] rounded-full"
         style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);">
@@ -41,11 +41,11 @@
     <div class="container mx-auto px-4 sm:px-6 relative z-20">
         <!-- Hero Text with AOS animations -->
         <div class="max-w-4xl mx-auto text-center mb-8 md:mb-12 lg:mb-16">
-            <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 text-gray-900 leading-tight"
+            <h1 class="text-2xl xs:text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 text-gray-900 leading-tight"
                 data-aos="fade-up" data-aos-duration="800" data-aos-mirror="true">
-                <span class="text-secondary-500">Multi- Service Platform</span>
+                <span class="text-secondary-500">Multi-Service Platform</span>
             </h1>
-            <p class="text-base sm:text-lg md:text-xl mb-6 md:mb-8 text-gray-700 max-w-3xl mx-auto" data-aos="fade-up"
+            <p class="text-sm xs:text-sm sm:text-base md:text-xl mb-6 md:mb-8 text-gray-700 max-w-3xl mx-auto" data-aos="fade-up"
                 data-aos-duration="800" data-aos-delay="100" data-aos-mirror="true">
                 Simplify your operations with a comprehensive platform
                 <br class="hidden sm:block">offering essential financial, travel, and utility services tailored to
@@ -53,28 +53,22 @@
             </p>
             <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-mirror="true">
                 <a href="#"
-                    class="inline-block bg-secondary-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-md text-lg font-medium hover:bg-secondary-600 transition-all duration-300 hover:shadow-lg hover:scale-105 transform z-10">
+                    class="inline-block bg-secondary-500 text-white px-4 xs:px-5 sm:px-6 md:px-8 py-2 xs:py-2 sm:py-3 md:py-4 rounded-md text-sm sm:text-base md:text-lg font-medium hover:bg-secondary-600 transition-all duration-300 hover:shadow-lg hover:scale-105 transform z-10">
                     View All Services
                 </a>
             </div>
             <div class="flex justify-center w-full" data-aos="fade-up" data-aos-duration="900" data-aos-delay="300"
                 data-aos-mirror="true">
                 <div class="flex items-center mt-4">
-                    <span class="text-gray-500 font-medium mr-2">Trusted by</span>
-                    <div class="flex items-center mx-1 text-yellow-500">
-
+                    <span class="text-gray-500 text-xs sm:text-sm md:text-md font-medium mr-2">Trusted by</span>
+                    <div class="flex items-center mx-1 text-yellow-500 text-xs sm:text-sm md:text-base">
                         <i class="fa fa-star" aria-hidden="true"></i>
                         <i class="fa fa-star" aria-hidden="true"></i>
-
                         <i class="fa fa-star" aria-hidden="true"></i>
-
                         <i class="fa fa-star" aria-hidden="true"></i>
-
                         <i class="fa fa-star-half" aria-hidden="true"></i>
-
-
                     </div>
-                    <span class="text-gray-500 font-medium ml-2">300K Retail Merchants</span>
+                    <span class="text-gray-500 text-xs sm:text-xs md:text-sm font-medium ml-2">300K Retail Merchants</span>
                 </div>
             </div>
         </div>
@@ -107,7 +101,7 @@
                         </button>
 
                         <button
-                            class="tab-button w-full flex items-center p-4 rounded-lg text-gray-700 hover:bg-gray-50 focus:outline-none transition-all duration-300 transform hover:scale-[1.02] bg-transparent"
+                            class="tab-button w-full flex items-center p-4 rounded-lg text-gray-700 hover:bg-red-50 hover:text-gray-900 focus:outline-none transition-all duration-300 transform hover:scale-[1.02] bg-transparent"
                             data-tab="travel" data-aos="fade-up" data-aos-delay="400">
                             <div class="flex-shrink-0 mr-3">
                                 <svg class="w-6 h-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -120,7 +114,7 @@
                         </button>
 
                         <button
-                            class="tab-button w-full flex items-center p-4 rounded-lg text-gray-700 hover:bg-gray-50 focus:outline-none transition-all duration-300 transform hover:scale-[1.02] bg-transparent"
+                            class="tab-button w-full flex items-center p-4 rounded-lg text-gray-700 hover:bg-red-50 hover:text-gray-900 focus:outline-none transition-all duration-300 transform hover:scale-[1.02] bg-transparent"
                             data-tab="utility" data-aos="fade-up" data-aos-delay="500">
                             <div class="flex-shrink-0 mr-3">
                                 <svg class="w-6 h-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -133,7 +127,7 @@
                         </button>
 
                         <button
-                            class="tab-button w-full flex items-center p-4 rounded-lg text-gray-700 hover:bg-gray-50 focus:outline-none transition-all duration-300 transform hover:scale-[1.02] bg-transparent"
+                            class="tab-button w-full flex items-center p-4 rounded-lg text-gray-700 hover:bg-red-50 hover:text-gray-900 focus:outline-none transition-all duration-300 transform hover:scale-[1.02] bg-transparent"
                             data-tab="governance" data-aos="fade-up" data-aos-delay="600">
                             <div class="flex-shrink-0 mr-3">
                                 <svg class="w-6 h-6 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none"

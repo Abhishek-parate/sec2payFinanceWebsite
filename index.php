@@ -148,37 +148,37 @@
 
             <!-- Right Panel - Statistics with Starry Background -->
             <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="200"
-                class="col-span-1 md:col-span-3 bg-gradient-to-br from-[#142344] to-[#3258AA] rounded-xl p-6 md:p-10 text-white relative overflow-hidden mt-6 md:mt-0">
+                class="col-span-1 md:col-span-3 bg-gradient-to-br from-primary-800 to-primary-600 rounded-xl p-6 md:p-10 text-white relative overflow-hidden mt-6 md:mt-0">
                 <!-- Stars Background SVG - Adjusted for mobile -->
                 <div class="absolute z-0 opacity-30 right-0 max-w-full">
                     <img src="assets/images/home/svg/white-bg-bot.svg" alt="Background pattern" class="w-full h-auto">
                 </div>
 
-                <div class="relative z-10 mb-6 md:mb-8">
+                <div class="relative z-10 mb-6 md:mb-8 md:w-96">
                     <h4 class="text-xl font-semibold mb-6 md:mb-8" data-aos="fade-left" data-aos-delay="100">Making
                         Financial Services Accessible Since 2017</h4>
 
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8">
-                        <!-- Stats Row 1 -->
-                        <div data-aos="fade-up" data-aos-delay="200">
-                            <p class="text-2xl md:text-3xl font-bold">1 Lacs+</p>
-                            <p class="text-blue-200/70">Active retailers</p>
-                        </div>
-                        <div data-aos="fade-up" data-aos-delay="300">
-                            <p class="text-2xl md:text-3xl font-bold">1000+</p>
-                            <p class="text-blue-200/70">Business Partners</p>
-                        </div>
+                        <div class="grid grid-cols-2 gap-x-6 gap-y-6 mb-8">
+                            <!-- Stats Row 1 -->
+                            <div class="flex flex-col">
+                                <p class="text-2xl font-bold">1 Lacs+</p>
+                                <p class="text-blue-200/70 text-sm">Active retailers</p>
+                            </div>
+                            <div class="flex flex-col">
+                                <p class="text-2xl font-bold">1000+</p>
+                                <p class="text-blue-200/70 text-sm">Business Partners</p>
+                            </div>
 
-                        <!-- Stats Row 2 -->
-                        <div data-aos="fade-up" data-aos-delay="400">
-                            <p class="text-2xl md:text-3xl font-bold">20+</p>
-                            <p class="text-blue-200/70">Banking Partners</p>
+                            <!-- Stats Row 2 -->
+                            <div class="flex flex-col">
+                                <p class="text-2xl font-bold">20+</p>
+                                <p class="text-blue-200/70 text-sm">Banking Partners</p>
+                            </div>
+                            <div class="flex flex-col">
+                                <p class="text-2xl font-bold">1 Cr+</p>
+                                <p class="text-blue-200/70 text-sm">End Customers served</p>
+                            </div>
                         </div>
-                        <div data-aos="fade-up" data-aos-delay="500">
-                            <p class="text-2xl md:text-3xl font-bold">1 Cr+</p>
-                            <p class="text-blue-200/70">End Customers served</p>
-                        </div>
-                    </div>
                 </div>
 
                 <!-- CTA Button -->

@@ -21,7 +21,7 @@
     <?php include_once('includes/header.php'); ?>
 
 
-    <main>
+  <main class="overflow-hidden">
 
 <!-- hero section -->
 <section class="bg-white relative overflow-hidden" data-aos="fade" data-aos-duration="1000" data-aos-once="true">
