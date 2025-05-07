@@ -21,7 +21,9 @@
     <?php include_once('includes/header.php'); ?>
 
 
-    <main class="overflow-hidden">
+  <main class="overflow-hidden">
+
+
 <!-- Hero section with fixed gradients for mobile view -->
 <section class="bg-white relative overflow-hidden" data-aos="fade" data-aos-duration="1000" data-aos-once="true">
   <!-- Left circular gradient - Fixed positioning for mobile -->

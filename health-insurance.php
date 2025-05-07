@@ -21,33 +21,36 @@
     <?php include_once('includes/header.php'); ?>
 
 
-    <main class="overflow-hidden">
-<!-- Hero section with fixed gradients for mobile view -->
+  <main class="overflow-hidden">
+
+<!-- hero section -->
 <section class="bg-white relative overflow-hidden" data-aos="fade" data-aos-duration="1000" data-aos-once="true">
-  <!-- Left circular gradient - Fixed positioning for mobile -->
-  <div class="absolute top-[10%] -left-[40%] md:-left-[30%] w-[90%] md:w-[50%] h-[80%] rounded-full z-0"
+  <!-- Left circular gradient - Positioned behind all content with negative z-index -->
+  <div class="absolute top-[10%] -left-[40%] md:-left-[30%] w-[90%] md:w-[50%] h-[80%] rounded-full -z-10"
     style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
     data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
   </div>
   
-  <!-- Right circular gradient - Fixed positioning for mobile -->
-  <div class="absolute top-[10%] -right-[40%] md:-right-[30%] w-[90%] md:w-[50%] h-[80%] rounded-full z-0"
+  <!-- Right circular gradient - Positioned behind all content with negative z-index -->
+  <div class="absolute top-[10%] -right-[40%] md:-right-[30%] w-[90%] md:w-[50%] h-[80%] rounded-full -z-10"
     style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
     data-aos="fade-in" data-aos-duration="1500" data-aos-delay="300" data-aos-once="true">
   </div>
   
-  <div class="max-w-7xl mx-auto py-12 relative z-10">
-    <div class="rounded-xl overflow-hidden">
+  <div class="max-w-7xl mx-auto py-12 relative">
+    <div class="rounded-xl overflow-hidden relative">
       <div class="grid grid-cols-1 md:grid-cols-2">
         <!-- Left Content - Services List -->
-        <div class="p-8 md:p-12" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">
-          <h1 class="text-4xl font-bold text-secondary-500" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-once="true">Life Insurance Platform</h1>
-          <h1 class="text-4xl font-bold text-secondary-500 mb-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" data-aos-once="true">Services</h1>
-          <p class="text-black mb-8" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" data-aos-once="true">Secure your customers' future with our </br>comprehensive Life Insurance platform</p>
+        <div class="p-8 md:p-12 mt-12 relative" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">
+          <p class="font-semi-bolder text-primary-600 font-bold" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100" data-aos-once="true">Health Insurance</p>
+          <h1 class="text-4xl font-bold text-secondary-600" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-once="true">Secure Your Customers' Future</h1>
+          <h1 class="text-4xl font-bold text-secondary-600 mb-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" data-aos-once="true">With Digital Health Insurance Solutions</h1>
+          <p class="text-gray-500 mb-8" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" data-aos-once="true">Transform your business into a health insurance hub. Our platform lets you offer comprehensive health coverage solutions to your customers.</p>
+          
           <a href="#"
             class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4"
             data-aos="zoom-in" data-aos-duration="800" data-aos-delay="500" data-aos-once="true">
-            Book A Demo!
+            Start Your Insurance Journey
           </a>
           
           <div
@@ -68,15 +71,10 @@
         </div>
         
         <!-- Right Content - Image -->
-        <div class="relative" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="300" data-aos-once="true">
-          <!-- Main Dashboard Image with controlled height -->
-          <div class="relative z-20">
-            <img 
-              src="assets/images/life-insurance/banner.png" 
-              alt="Dashboard" 
-              class="max-h-[400px] w-auto object-contain mx-auto" 
-              style="height: auto; max-height: 400px;"
-            />
+        <div class="relative max-w-5xl mx-auto" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="300" data-aos-once="true">
+          <!-- Main Dashboard Image -->
+          <div class="relative z-0">
+            <img src="assets/images/health-insurance/banner.png" alt="Dashboard" class="h-auto" />
             <div class="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-white to-transparent">
             </div>
           </div>
@@ -85,243 +83,145 @@
     </div>
   </div>
 </section>
-<!-- hero section ends -->
-
-<!-- Support Promise Banner -->
-<section data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-  <div class="w-full bg-primary-600 py-12">
-    <div class="max-w-7xl mx-auto px-4">
-      <!-- Desktop View -->
-      <div class="hidden md:flex flex-row items-center justify-between text-white">
-        <div class="font-medium text-base whitespace-nowrap" data-aos="fade-right" data-aos-duration="800" data-aos-once="true">
-          Why choose Sec2Pay</br> Life Insurance Platform
-        </div>
-        
-        <div class="flex items-center justify-end space-x-6 text-sm">
-          <div class="text-white/50">|</div>
-          <div class="flex items-center" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100" data-aos-once="true">
-            <span class="whitespace-nowrap">Policy Comparison</span>
-          </div>
-          <div class="text-white/50">|</div>
-          <div class="flex items-center" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200" data-aos-once="true">
-            <span class="whitespace-nowrap">Quick Premium Calculation</span>
-          </div>
-          <div class="text-white/50">|</div>
-          <div class="flex items-center" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300" data-aos-once="true">
-            <span class="whitespace-nowrap">Real-time Status Updates</span>
-          </div>
-          <div class="text-white/50">|</div>
-          <div class="flex items-center" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400" data-aos-once="true">
-            <span class="whitespace-nowrap">24/7 Technical assistance</span>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Mobile View - Improved -->
-      <div class="md:hidden">
-        <div class="font-medium text-sm text-white mb-4" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">
-          Why choose Sec2Pay</br> Life Insurance Platform
-        </div>
-        
-        <div class="scroll-snap-container overflow-x-scroll pb-2 w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-once="true">
-          <div class="flex items-center space-x-4 text-sm text-white min-w-max px-4">
-            <span>Policy Comparison</span>
-            <span class="text-white/50">|</span>
-            <span>Quick Premium Calculation</span>
-            <span class="text-white/50">|</span>
-            <span>Real-time Status Updates</span>
-            <span class="text-white/50">|</span>
-            <span>24/7 Technical assistance</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <style>
-  /* Hide scrollbar for Chrome, Safari and Opera */
-  .overflow-x-auto::-webkit-scrollbar {
-    display: none;
-  }
-  
-  /* Hide scrollbar for IE, Edge and Firefox */
-  .overflow-x-auto {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-  }
-
-  /* Hide scrollbar for Chrome, Safari and Opera */
-  .scroll-snap-container::-webkit-scrollbar {
-    display: none;
-  }
-
-  /* Hide scrollbar for IE, Edge and Firefox */
-  .scroll-snap-container {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
-    scroll-snap-type: x mandatory;
-    -webkit-overflow-scrolling: touch;
-  }
-  
-  .scroll-snap-container > div {
-    scroll-snap-align: start;
+  /* Additional styling to ensure gradient patches appear behind content in all browsers */
+  @supports not (z-index: -1) {
+    section.relative:before,
+    section.relative:after {
+      position: absolute;
+      content: '';
+      top: 10%;
+      height: 80%;
+      width: 90%;
+      border-radius: 50%;
+      pointer-events: none;
+    }
+    
+    section.relative:before {
+      left: -40%;
+      background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);
+    }
+    
+    section.relative:after {
+      right: -40%;
+      background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 50%);
+    }
   }
 </style>
-
+<!-- hero section ends -->
 
 <!-- E-Governance Platform Services Section -->
-<section class="py-10 px-4 md:px-24" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+<section class="bg-secondary-100 py-10 px-4 md:px-24" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
     <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-primary-700 mb-8 text-center" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">Services</h2>
+        <h2 class="text-3xl font-bold text-primary-700 mb-8 text-center" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">Key Platform Features</h2>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <!-- PAN Card Services -->
-            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8 transform hover:-translate-y-1 transition-transform" 
+            <!-- Feature Card 1 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 p-8 transform hover:-translate-y-1" 
                  data-aos="fade-up" data-aos-duration="800" data-aos-delay="100" data-aos-once="true">
-                <!-- Icon and Title - Vertical Alignment -->
                 <div class="text-left mb-2">
-                    <h2 class="text-xl font-semibold text-red-500">Term Life Insurance</h2>
+                    <h2 class="text-xl font-semibold text-red-500">Digital Policy Issuance</h2>
                 </div>
-                <p>Our platform enables your customers to compare and choose from multiple term insurance plans. Simple documentation process with quick policy issuance.</p>
+                <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                    <li>Real-time policy generation</li>
+                    <li>Paperless documentation</li>
+                    <li>Instant customer verification</li>
+                </ul>
             </div>
-            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8 transform hover:-translate-y-1 transition-transform" 
+            
+            <!-- Feature Card 2 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 p-8 transform hover:-translate-y-1" 
                  data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-once="true">
-                <!-- Icon and Title - Vertical Alignment -->
                 <div class="text-left mb-2">
-                    <h2 class="text-xl font-semibold text-red-500">Whole Life Insurance</h2>
+                    <h2 class="text-xl font-semibold text-red-500">Multi-insurer Integration</h2>
                 </div>
-                <p>Help customers build a financial safety net with whole life insurance plans that offer lifelong protection and savings benefits.</p>
+                <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                    <li>Access multiple insurance providers</li>
+                    <li>Compare policy features</li>
+                    <li>Customized coverage options</li>
+                </ul>
             </div>
-            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300 p-8 transform hover:-translate-y-1 transition-transform" 
+            
+            <!-- Feature Card 3 -->
+            <div class="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-300 p-8 transform hover:-translate-y-1" 
                  data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" data-aos-once="true">
-                <!-- Icon and Title - Vertical Alignment -->
                 <div class="text-left mb-2">
-                    <h2 class="text-xl font-semibold text-red-500">Child Insurance Plans</h2>
+                    <h2 class="text-xl font-semibold text-red-500">Claim Processing Support</h2>
                 </div>
-                <p>Offer specialized plans designed to secure children's future education and life goals, with flexible premium payment options.</p>
+                <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                    <li>Digital claim filing</li>
+                    <li>Status tracking</li>
+                    <li>Documentation assistance</li>
+                </ul>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Banking Services Section --> 
-<section class="min-h-[350px] py-12 flex items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-    <div class="container mx-auto px-4 md:px-6">
-        <!-- Banking Services Tabs -->
-        <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-once="true">
-            <!-- Tab Content -->
-            <div class="relative min-h-[350px] overflow-hidden md:pl-24">
-                <!-- AePS Tab Content -->
-                <div class="tab-pane block opacity-100 transition-opacity duration-300" id="aeps">
-                    <div class="flex flex-col md:flex-row items-center gap-8">
-                        <div class="w-full md:w-1/2 flex justify-center" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">
-                            <div class="relative flex justify-center">
-                                <img src="assets/images/life-insurance/service.png" alt="AePS Banking"
-                                    class="max-w-full h-auto max-h-[400px] rounded-lg shadow-lg transition-transform hover:scale-[1.02] duration-500">
-                            </div>
-                        </div>
-                        <div class="w-full md:w-1/2" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200" data-aos-once="true">
-                            <h3 class="text-2xl md:text-4xl font-bold mb-8 text-secondary-600" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">Benefits for Partners:</h3>
-                            <ul class="space-y-5 mb-4">
-                                <?php
-                                $lifePlans = [
-                                    'Zero infrastructure cost',
-                                    'Higher commission rates',
-                                    'Quick customer onboarding',
-                                    'Easy claim support',
-                                    'Complete business analyticsg',
-                                    'Training and certification support'
-                                ];
-                                
-                                foreach ($lifePlans as $index => $plan) :
-                                    $delay = 400 + ($index * 100);
-                                ?>
-                                <li class="flex items-start" data-aos="fade-up" data-aos-duration="600" data-aos-delay="<?php echo $delay; ?>" data-aos-once="true">
-                                    <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center">
-                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_2168_17923)">
-                                    <path d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z" fill="#FEEEEC" stroke="#F15744" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <path d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705" stroke="#F15744" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                    </g>
-                                    <defs>
-                                    <clipPath id="clip0_2168_17923">
-                                    <rect width="19" height="19" fill="white" transform="translate(0 3)"/>
-                                    </clipPath>
-                                    </defs>
-                                    </svg>
-                                    </div>
-                                    <span class="ml-3 text-primary-500"><?php echo $plan; ?></span>
-                                </li>
-                                <?php endforeach; ?>
-                            </ul>
-                        </div>
-                    </div>
+
+<!-- Features & Functions Section -->
+<section class="bg-white px-4 md:px-24 my-12" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+    <div class="container mx-auto px-6 text-center">    
+        
+        <h2 class="text-3xl font-bold text-primary-700 mb-8 text-center" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">Key Platform Features</h2>
+    
+        <!-- Updated grid with proper centering -->
+        <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <!-- Feature Card 1 -->
+            <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1" 
+                 data-aos="fade-up" data-aos-duration="800" data-aos-delay="100" data-aos-once="true">
+                <img src="assets/images/health-insurance/partner.png"
+                    alt="Mobile Recharge"
+                    class="w-full object-contain rounded-t-lg">
+                <div class="p-6 text-left">
+                    <h3 class="text-primary-600 font-semibold text-xl mb-4">Partner Benefits</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>Commission on every policy sold</li>
+                        <li>No infrastructure investment needed</li>
+                        <li>Complete training support</li>
+                        <li>Digital policy management tools</li>
+                        <li>Multiple insurance products access</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Feature Card 2 -->
+            <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1" 
+                 data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-once="true">
+                <img src="assets/images/health-insurance/business.png"
+                    alt="DTH Recharge"
+                    class="w-full object-contain rounded-t-lg">
+                <div class="p-6 text-left">
+                    <h3 class="text-primary-600 font-semibold text-xl mb-4">Business Growth Metrics</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>50,000+ Active Insurance Partners</li>
+                        <li>₹10Cr+ Premium Processed Monthly</li>
+                        <li>98% Claims Settlement Rate</li>
+                        <li>Pan-India Coverage</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Feature Card 3 -->
+            <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1" 
+                 data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" data-aos-once="true">
+                <img src="assets/images/health-insurance/success.png"
+                    alt="Data Card Recharge"
+                    class="w-full object-contain rounded-t-lg">
+                <div class="p-6 text-left">
+                    <h3 class="text-primary-600 font-semibold text-xl mb-4">Partner Success Program</h3>
+                    <ul class="list-disc pl-5 space-y-2 text-gray-700">
+                        <li>Comprehensive product training</li>
+                        <li>Marketing support materials</li>
+                        <li>Dedicated relationship manager</li>
+                        <li>Regular performance analysis</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-</section>
-
-<!-- Features Section -->
-<section class="min-h-[350px] pb-6 flex items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-  <div class="container mx-auto px-4 md:px-6">
-    <!-- Banking Services Tabs -->
-    <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-once="true">
-      <!-- Tab Content -->
-      <div class="relative min-h-[350px] overflow-hidden md:pl-24">
-        <!-- AePS Tab Content -->
-        <div class="tab-pane block opacity-100 transition-opacity duration-300" id="aeps">
-          <div class="flex flex-col md:flex-row items-center gap-8">
-            
-            <!-- Image Section - Appears first on mobile, second on desktop -->
-            <div class="w-full md:w-1/2 flex justify-center order-first md:order-last" data-aos="fade-left" data-aos-duration="1200" data-aos-once="true">
-              <div class="relative flex justify-center">
-                <img src="assets/images/life-insurance/features.png" alt="Life Insurance Features" class="max-w-full h-auto max-h-[400px] rounded-lg shadow-lg transition-transform hover:scale-[1.02] duration-500">
-              </div>
-            </div>
-            
-            <!-- Content Section - Appears second on mobile, first on desktop -->
-            <div class="w-full md:w-1/2 pl-0 md:pl-12 order-last md:order-first mt-8 md:mt-0" data-aos="fade-right" data-aos-duration="1200" data-aos-delay="200" data-aos-once="true">
-              <h3 class="text-2xl md:text-4xl font-bold mb-8 text-primary-500" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">Key Features:</h3>
-              <ul class="space-y-5 mb-4">
-                <?php
-                $features = [
-                  'Multi-insurer integration',
-                  'Real-time premium calculation',
-                  'Digital documentation',
-                  'Instant policy issuance',
-                  'Claims assistance',
-                  '24/7 support system'
-                ];
-                
-                foreach ($features as $index => $feature) :
-                  $delay = 400 + ($index * 100);
-                ?>
-                <li class="flex items-start" data-aos="fade-up" data-aos-duration="600" data-aos-delay="<?php echo $delay; ?>" data-aos-once="true">
-                  <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center">
-                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg"> 
-                      <g clip-path="url(#clip0_2168_18692)">
-                        <path d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z" fill="#EDF0F7" stroke="#4B69B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        <path d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705" stroke="#4B69B2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                      </g>
-                      <defs>
-                        <clipPath id="clip0_2168_18692">
-                          <rect width="19" height="19" fill="white" transform="translate(0 3)"/>
-                        </clipPath>
-                      </defs>
-                    </svg>
-                  </div>
-                  <span class="ml-3 text-primary-500"><?php echo $feature; ?></span>
-                </li>
-                <?php endforeach; ?>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
 
 <!-- FAQ Section -->
@@ -334,24 +234,24 @@
     <!-- FAQ Accordion -->
     <div class="space-y-4">
         <?php
-       $faqItems = [
-        [
-            'question' => 'What documents are needed for life insurance?',
-            'answer' => 'Basic KYC documents including identity proof, address proof, age proof, and income proof are required. Our platform simplifies document collection and verification.',
-            'isOpen' => true
-        ],
-        [
-            'question' => 'How long does policy issuance take?',
-            'answer' => 'Through our digital platform, policies are typically issued within 24–48 hours after document verification.',
-            'isOpen' => false
-        ],
-        [
-            'question' => 'Can customers compare different insurance plans?',
-            'answer' => 'Yes, our platform allows easy comparison of various life insurance plans from multiple providers.',
-            'isOpen' => false
-        ]
-    ];
-    
+        $faqItems = [
+            [
+                'question' => 'What documentation is needed to become an insurance partner?',
+                'answer' => 'Required documents include PAN card, Aadhar card, bank account details, and address proof. Our team guides you through the registration process.',
+                'isOpen' => true
+            ],
+            [
+                'question' => 'How long does partner onboarding take?',
+                'answer' => 'Partner onboarding typically takes 3–5 working days, including verification and basic training.',
+                'isOpen' => false
+            ],
+            [
+                'question' => 'What is the commission structure?',
+                'answer' => 'Partners earn competitive commissions ranging from 15–25% on premium value, varying by insurance product and provider.',
+                'isOpen' => false
+            ]
+        ];
+        
 
         foreach ($faqItems as $index => $item) :
             $isOpen = $item['isOpen'];
@@ -375,11 +275,12 @@
     </div>
 </section>
 
+
 <!-- Join Section with Dark Blue Background -->
 <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
     <div class="container mx-auto">
         <!-- Join Panel with Starry Background -->
-        <div class="bg-gradient-to-br from-primary-700 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+        <div class="bg-gradient-to-br from-secondary-700 to-secondary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
             data-aos="fade-up" data-aos-duration="1000" data-aos-offset="200" data-aos-once="true">
 
             <!-- Stars Background SVG -->
@@ -391,27 +292,27 @@
             <div class="max-w-4xl mx-auto text-center">
                 <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 relative z-10"
                     data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true">
-                    Join Sec2pay today
+                    Join Sec2Pay Today
                 </h1>
 
-                <p class="text-base sm:text-lg text-gray-300 mb-2 sm:mb-2 relative z-10" 
+                <p class="text-base sm:text-lg text-white relative z-10" 
                    data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true">
                     Start for free — upgrade anytime.
                 </p>
 
                 <div class="relative z-10" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000" data-aos-once="true">
-                    <p class="text-gray-300 mb-4 sm:mb-6">
-                        <a href="#" class="underline hover:text-white transition">
+                    <p class="text-white mb-4 sm:mb-6">
+                        <a href="/contact-us.php" class="underline hover:text-white transition">
                             Joining as an organization? Contact Sales
                         </a>
                     </p>
 
-                    <a href="#"
+                    <a href="https://app.sec2pay.in/?src=website" target="_blank"
                         class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
                         data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1000" data-aos-once="true">
                         Sign up free
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2" viewBox="0 0 20 20"
-                            fill="currentColor">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2"
+                            viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd"
                                 d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
                                 clip-rule="evenodd" />
