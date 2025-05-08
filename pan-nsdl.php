@@ -68,7 +68,7 @@
 
                             </p>
 
-                            <a href="contact-us.php"
+                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                Apply Now <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2"
@@ -169,7 +169,7 @@
                         </li>
                     </ul>
                     
-                    <a href="https://app.sec2pay.in/?src=website" target="_blank" class="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1" 
+                    <a href="#" class="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1" 
                        data-aos="fade-up" data-aos-delay="500" data-aos-once="true">
                         Learn More
                     </a>

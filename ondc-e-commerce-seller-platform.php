@@ -46,23 +46,23 @@
                 <!-- Left Content - Services List -->
                 <div class="p-4 md:p-8 lg:p-12 pt-8" data-aos="fade-right" data-aos-duration="1000"
                     data-aos-once="true">
-                    <h1 class="text-3xl sm:text-4xl font-bold text-secondary-600" data-aos="fade-up"
+                    <h1 class="text-3xl sm:text-4xl font-bold text-secondary-500" data-aos="fade-up"
                         data-aos-delay="100" data-aos-duration="800" data-aos-once="true">Help Sellers Reach
                     </h1>
-                    <h1 class="text-3xl sm:text-4xl font-bold text-secondary-600 mb-4" data-aos="fade-up"
+                    <h1 class="text-3xl sm:text-4xl font-bold text-secondary-500 mb-4" data-aos="fade-up"
                         data-aos-delay="200" data-aos-duration="800" data-aos-once="true">New Markets</h1>
-                    <p class="text-gray-500 mb-6 md:mb-8" data-aos="fade-up" data-aos-delay="300"
+                    <p class="text-black mb-6 md:mb-8" data-aos="fade-up" data-aos-delay="300"
                         data-aos-duration="800" data-aos-once="true">Empower your business to support sellers in
                         thriving <br class="hidden sm:block"> on ONDC's digital network.</p>
 
                     <a href="contact-us.php"
-                        class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4"
+                        class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
                         data-aos="fade-up" data-aos-delay="400" data-aos-duration="800" data-aos-once="true">
                         Get Started Today!
                     </a>
 
                     <!-- User avatars & count - Improved mobile display -->
-                    <div class="mt-6 md:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                    <div class="mt-2 md:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
                         data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                         <div class="flex -space-x-2 ml-1">
                             <img src="https://randomuser.me/api/portraits/men/1.jpg"
@@ -174,20 +174,25 @@
                                         <li class="flex items-start">
                                             <div
                                                 class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                                    <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2"
-                                                        fill="none" />
-                                                    <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
+                                                <svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_232_3896)">
+<path d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z" fill="#24223E" fill-opacity="0.1" stroke="#EDF0F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705" stroke="#EDF0F7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_232_3896">
+<rect width="19" height="19" fill="white" transform="translate(0 3)"/>
+</clipPath>
+</defs>
+</svg>
+
                                             </div>
                                             <span class="ml-3 text-white"><?php echo $plan; ?></span>
                                         </li>
                                         <?php endforeach; ?>
                                     </ul>
                                     <div>
-                                        <a href="https://app.sec2pay.in/?src=website" target="_blank"
+                                        <a href="#"
                                             class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-md transition duration-300">Explore
                                             Credit Solutions</a>
                                     </div>
@@ -300,7 +305,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                <a href="https://app.sec2pay.in/?src=website" target="_blank"
+                                <a href="#"
                                     class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-md">
                                     Get started
                                 </a>
@@ -386,7 +391,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                <a href="https://app.sec2pay.in/?src=website" target="_blank"
+                                <a href="#"
                                     class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-secondary-600 font-medium text-center rounded-full transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-md">
                                     Get started
                                 </a>
@@ -464,7 +469,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                <a href="https://app.sec2pay.in/?src=website" target="_blank"
+                                <a href="#"
                                     class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-md">
                                     Get started
                                 </a>
@@ -612,7 +617,7 @@
 
                         <p class="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 relative z-10" data-aos="fade-up"
                             data-aos-delay="300">
-                            "Ready to expand your local business? Partner with Sec2Pay's ONDC platform"
+                            Ready to expand your local business? Partner with Sec2Pay's ONDC platform
                         </p>
 
                         <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">

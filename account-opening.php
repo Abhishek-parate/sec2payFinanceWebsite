@@ -64,7 +64,7 @@
                                 our Account <br> Opening Platform.
                             </p>
 
-                            <a href="contact-us.php"
+                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 Get Started Today! <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2"
@@ -175,7 +175,7 @@
 
                     <!-- Right side with content -->
                     <div class="w-full md:w-1/2" data-aos="fade-left" data-aos-duration="1200" data-aos-once="true">
-                        <h2 class="text-3xl font-bold text-secondary-600 mt-6" data-aos="fade-up" data-aos-delay="100"
+                        <h2 class="text-3xl font-bold text-secondary-500 mt-6" data-aos="fade-up" data-aos-delay="100"
                             data-aos-duration="800" data-aos-once="true">Benefits for Partners</h2>
                         <p class="text-mid font-semibold text-primary-900 mb-6" data-aos="fade-up" data-aos-delay="200"
                             data-aos-duration="800" data-aos-once="true">Grow Your Banking Business</p>
@@ -234,7 +234,7 @@
                     <!-- Content Second on Mobile, First on Desktop -->
                     <div class="w-full md:w-1/2 order-2 md:order-1" data-aos="fade-right" data-aos-duration="1200"
                         data-aos-once="true">
-                        <h2 class="text-3xl font-bold text-secondary-600 mt-6" data-aos="fade-up" data-aos-delay="100"
+                        <h2 class="text-3xl font-bold text-secondary-500 mt-6" data-aos="fade-up" data-aos-delay="100"
                             data-aos-duration="800" data-aos-once="true">Features</h2>
                         <p class="text-mid font-semibold text-primary-900 mb-6" data-aos="fade-up" data-aos-delay="200"
                             data-aos-duration="800" data-aos-once="true">Complete Account Opening Solution</p>
@@ -288,53 +288,135 @@
 
 
 
-        <!-- Building Trust Across India Section -->
-        <section class="w-full py-16 bg-primary-700" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
-            <div class="max-w-6xl mx-auto px-4">
-                <!-- Section Title -->
-                <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-12" data-aos="fade-up"
-                    data-aos-delay="100" data-aos-duration="800" data-aos-once="true">Building Trust Across India</h2>
-
-                <!-- Stats Grid -->
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-                    <!-- Stat 1 -->
-                    <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="200"
-                        data-aos-duration="600" data-aos-once="true">
-                        <p class="text-4xl md:text-5xl font-bold text-white mb-2" data-aos="zoom-in"
-                            data-aos-delay="250" data-aos-duration="500" data-aos-once="true">1 Lacs+</p>
-                        <p class="text-white text-sm md:text-base">Retail Partners</p>
-                    </div>
-
-                    <!-- Stat 2 -->
-                    <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="300"
-                        data-aos-duration="600" data-aos-once="true">
-                        <p class="text-4xl md:text-5xl font-bold text-white mb-2" data-aos="zoom-in"
-                            data-aos-delay="350" data-aos-duration="500" data-aos-once="true">20+</p>
-                        <p class="text-white text-sm md:text-base">Banking Partners</p>
-                    </div>
-
-                    <!-- Stat 3 -->
-                    <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="400"
-                        data-aos-duration="600" data-aos-once="true">
-                        <p class="text-4xl md:text-5xl font-bold text-white mb-2" data-aos="zoom-in"
-                            data-aos-delay="450" data-aos-duration="500" data-aos-once="true">150+</p>
-                        <p class="text-white text-sm md:text-base">Expert Team Members</p>
-                    </div>
-
-                    <!-- Stat 4 -->
-                    <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="500"
-                        data-aos-duration="600" data-aos-once="true">
-                        <p class="text-4xl md:text-5xl font-bold text-white mb-2" data-aos="zoom-in"
-                            data-aos-delay="550" data-aos-duration="500" data-aos-once="true">1 Cr+</p>
-                        <p class="text-white text-sm md:text-base">Happy Customers</p>
-                    </div>
-                </div>
+    <!-- Building Trust Across India Section -->
+<section class="w-full py-16" style="background-color: #192a59;" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+    <div class="max-w-6xl mx-auto px-4">
+        <!-- Section Title -->
+        <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-once="true">
+            Building Trust Across India
+        </h2>
+        
+        <!-- Stats Grid -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <!-- Stat 1 - Retail Partners -->
+            <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600" data-aos-once="true">
+                <p class="text-4xl md:text-5xl font-bold text-white mb-2" data-aos="zoom-in" data-aos-delay="250" data-aos-duration="500" data-aos-once="true">
+                    <span id="retail-partners-count">0</span><span> Lacs+</span>
+                </p>
+                <p class="text-white text-sm md:text-base">Retail Partners</p>
             </div>
-        </section>
+            
+            <!-- Stat 2 - Banking Partners -->
+            <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600" data-aos-once="true">
+                <p class="text-4xl md:text-5xl font-bold text-white mb-2" data-aos="zoom-in" data-aos-delay="350" data-aos-duration="500" data-aos-once="true">
+                    <span id="banking-partners-count">0</span><span> +</span>
+                </p>
+                <p class="text-white text-sm md:text-base">Banking Partners</p>
+            </div>
+            
+            <!-- Stat 3 - Expert Team Members -->
+            <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="400" data-aos-duration="600" data-aos-once="true">
+                <p class="text-4xl md:text-5xl font-bold text-white mb-2" data-aos="zoom-in" data-aos-delay="450" data-aos-duration="500" data-aos-once="true">
+                    <span id="team-members-count">0</span><span>+</span>
+                </p>
+                <p class="text-white text-sm md:text-base">Expert Team Members</p>
+            </div>
+            
+            <!-- Stat 4 - Happy Customers -->
+            <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="500" data-aos-duration="600" data-aos-once="true">
+                <p class="text-4xl md:text-5xl font-bold text-white mb-2" data-aos="zoom-in" data-aos-delay="550" data-aos-duration="500" data-aos-once="true">
+                    <span id="customers-count">0</span><span> Cr+</span>
+                </p>
+                <p class="text-white text-sm md:text-base">Happy Customers</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+// Counter animation function for Indian number format
+function animateCounter(elementId, start, end, duration) {
+    const obj = document.getElementById(elementId);
+    if (!obj) return;
+    
+    // Start with 0 for animating
+    obj.textContent = '0';
+    
+    let startTimestamp = null;
+    const step = (timestamp) => {
+        if (!startTimestamp) startTimestamp = timestamp;
+        const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+        const currentValue = Math.floor(progress * end);
+        
+        // Update the counter text
+        obj.textContent = currentValue;
+        
+        if (progress < 1) {
+            window.requestAnimationFrame(step);
+        }
+    };
+    
+    window.requestAnimationFrame(step);
+}
+
+// Set up intersection observer for counter section
+document.addEventListener('DOMContentLoaded', function() {
+    const counters = [
+        { id: 'retail-partners-count', value: 1 },  // 1 Lacs+
+        { id: 'banking-partners-count', value: 20 }, // 20+
+        { id: 'team-members-count', value: 150 },   // 150+
+        { id: 'customers-count', value: 1 }         // 1 Cr+
+    ];
+    
+    // Initialize all counters to 0
+    counters.forEach(counter => {
+        const element = document.getElementById(counter.id);
+        if (element) {
+            element.textContent = '0';
+        }
+    });
+    
+    // Create intersection observer
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            // When section becomes visible
+            if (entry.isIntersecting) {
+                // Start all animations with a small delay between each
+                counters.forEach((counter, index) => {
+                    setTimeout(() => {
+                        animateCounter(counter.id, 0, counter.value, 2000);
+                    }, 250 + (index * 150));
+                });
+                
+                // Only trigger once
+                observer.disconnect();
+            }
+        });
+    }, { threshold: 0.1 });
+    
+    // Observe the section itself
+    const trustSection = document.querySelector('section[style*="background-color: #192a59;"]');
+    if (trustSection) {
+        observer.observe(trustSection);
+    }
+    
+    // Fallback animation trigger if intersection observer doesn't work
+    setTimeout(() => {
+        counters.forEach((counter, index) => {
+            const element = document.getElementById(counter.id);
+            if (element && element.textContent === '0') {
+                setTimeout(() => {
+                    animateCounter(counter.id, 0, counter.value, 2000);
+                }, 250 + (index * 150));
+            }
+        });
+    }, 1000);
+});
+</script>
 
 
         <!-- Our Other Services Section -->
-        <section class="w-full bg-secondary-500 py-16 px-4" data-aos="fade" data-aos-duration="1000"
+        <section class="w-full bg-secondary-500 py-12 px-4" data-aos="fade" data-aos-duration="1000"
             data-aos-once="true">
             <div class="max-w-6xl mx-auto">
                 <div class="flex flex-col md:flex-row items-start">
@@ -353,44 +435,59 @@
                         <div class="flex flex-col items-center justify-center" data-aos="zoom-in" data-aos-delay="100"
                             data-aos-duration="600" data-aos-once="true">
                             <div
-                                class="w-28 h-28 rounded-2xl bg-secondary-600/70 flex items-center justify-center mb-4">
+                                class="w-28 h-28 rounded-2xl flex items-center justify-center mb-2">
                                 <img src="assets/images/pan-uti/icon1.svg" alt="AEPS" class="w-28 h-28">
                             </div>
                             <span class="text-white text-center font-medium">AEPS</span>
-                        </div>
+                            </div>
 
                         <!-- DMT -->
                         <div class="flex flex-col items-center justify-center" data-aos="zoom-in" data-aos-delay="200"
                             data-aos-duration="600" data-aos-once="true">
+                            <div
+                                class="w-28 h-28 rounded-2xl flex items-center justify-center mb-2">
                             <img src="assets/images/pan-uti/icon2.svg" alt="DMT" class="w-28 h-28">
-                            <span class="text-white text-center font-medium">DMT</span>
+                        </div>
+                        <span class="text-white text-center font-medium">DMT</span>
                         </div>
 
                         <!-- Micro ATM -->
                         <div class="flex flex-col items-center justify-center" data-aos="zoom-in" data-aos-delay="300"
                             data-aos-duration="600" data-aos-once="true">
+                            <div
+                                class="w-28 h-28 rounded-2xl flex items-center justify-center mb-2">
                             <img src="assets/images/pan-uti/icon3.svg" alt="Micro ATM" class="w-28 h-28">
+                        </div>
                             <span class="text-white text-center font-medium">Micro ATM</span>
                         </div>
 
                         <!-- mPOS -->
                         <div class="flex flex-col items-center justify-center" data-aos="zoom-in" data-aos-delay="400"
                             data-aos-duration="600" data-aos-once="true">
+                            <div
+                                class="w-28 h-28 rounded-2xl flex items-center justify-center mb-2">
                             <img src="assets/images/pan-uti/icon4.svg" alt="mPOS" class="w-28 h-28">
+                        </div>
                             <span class="text-white text-center font-medium">mPOS</span>
                         </div>
 
                         <!-- CMS -->
                         <div class="flex flex-col items-center justify-center" data-aos="zoom-in" data-aos-delay="500"
                             data-aos-duration="600" data-aos-once="true">
+                            <div
+                                class="w-28 h-28 rounded-2xl flex items-center justify-center mb-2">
                             <img src="assets/images/pan-uti/icon5.svg" alt="CMS" class="w-28 h-28">
+                        </div>
                             <span class="text-white text-center font-medium">CMS</span>
                         </div>
 
                         <!-- UPI QR Code -->
                         <div class="flex flex-col items-center justify-center" data-aos="zoom-in" data-aos-delay="600"
                             data-aos-duration="600" data-aos-once="true">
+                            <div
+                                class="w-28 h-28 rounded-2xl flex items-center justify-center mb-2">
                             <img src="assets/images/pan-uti/icon6.svg" alt="UPI QR Code" class="w-28 h-28">
+                        </div>
                             <span class="text-white text-center font-medium">UPI QR Code</span>
                         </div>
                     </div>

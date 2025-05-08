@@ -132,7 +132,7 @@
                             class="w-full object-contain rounded-t-lg" data-aos="zoom-in" data-aos-delay="200"
                             data-aos-duration="600" data-aos-once="true">
                         <div class="p-6 text-left">
-                            <h3 class="text-primary-700 font-semibold text-xl mb-4">Multi-Bank Support</h3>
+                            <h3 class="text-primary-600 font-semibold text-xl mb-4">Multi-Bank Support</h3>
                             <ul class="list-disc pl-5 space-y-2 text-gray-700">
                                 <li data-aos="fade-right" data-aos-delay="300" data-aos-duration="500"
                                     data-aos-once="true">Process payments for 50+ credit card issuers</li>
@@ -151,7 +151,7 @@
                             class="w-full object-contain rounded-t-lg" data-aos="zoom-in" data-aos-delay="300"
                             data-aos-duration="600" data-aos-once="true">
                         <div class="p-6 text-left">
-                            <h3 class="text-primary-700 font-semibold text-xl mb-4">Simple Process</h3>
+                            <h3 class="text-primary-600 font-semibold text-xl mb-4">Simple Process</h3>
                             <ul class="list-disc pl-5 space-y-2 text-gray-700">
                                 <li data-aos="fade-right" data-aos-delay="400" data-aos-duration="500"
                                     data-aos-once="true">Two-step verification</li>
@@ -170,7 +170,7 @@
                             class="w-full object-contain rounded-t-lg" data-aos="zoom-in" data-aos-delay="400"
                             data-aos-duration="600" data-aos-once="true">
                         <div class="p-6 text-left">
-                            <h3 class="text-primary-700 font-semibold text-xl mb-4">Partner Benefits</h3>
+                            <h3 class="text-primary-600 font-semibold text-xl mb-4">Partner Benefits</h3>
                             <ul class="list-disc pl-5 space-y-2 text-gray-700">
                                 <li data-aos="fade-right" data-aos-delay="500" data-aos-duration="500"
                                     data-aos-once="true">Competitive commission structure</li>
@@ -245,7 +245,7 @@
                                         </defs>
                                     </svg>
                                 </div>
-                                <span class="ml-3 text-primary-500"><?php echo $plan; ?></span>
+                                <span class="ml-3 text-gray-700"><?php echo $plan; ?></span>
                             </li>
                             <?php endforeach; ?>
                         </ul>
@@ -270,7 +270,7 @@
                     <!-- Right side with content (second on mobile) -->
                     <div class="w-full md:w-1/2 order-2 md:order-2" data-aos="fade-left" data-aos-duration="1000"
                         data-aos-once="true">
-                        <h2 class="text-3xl font-bold text-secondary-500 mb-6" data-aos="fade-up" data-aos-delay="100"
+                        <h2 class="text-3xl font-bold text-secondary-600 mb-6" data-aos="fade-up" data-aos-delay="100"
                             data-aos-duration="800" data-aos-once="true">Business Benefits</h2>
 
                         <ul class="space-y-5 mb-8">
@@ -311,7 +311,7 @@
                                         </defs>
                                     </svg>
                                 </div>
-                                <span class="ml-3 text-secondary-500"><?php echo $plan; ?></span>
+                                <span class="ml-3 text-gray-700"><?php echo $plan; ?></span>
                             </li>
                             <?php endforeach; ?>
                         </ul>
@@ -326,30 +326,30 @@
             <!-- Section Title -->
             <div class="text-center mb-12">
                 <h2 class="text-4xl font-bold text-primary-800 mb-2">FAQ</h2>
-                <p class="text-gray-600">audience</p>
+                <p class="text-gray-600">Using natural, conversational language appropriate for target audience</p>
             </div>
 
             <!-- FAQ Accordion -->
             <div class="space-y-4">
                 <?php
-      $faqItems = [
-        [
-            'question' => 'What bank\'s credit cards can be paid through this platform?',
-            'answer' => 'Our platform supports credit card payments for all major banks including HDFC, SBI, ICICI, Axis, and more.',
-            'isOpen' => true
-        ],
-        [
-            'question' => 'How long does it take for payment processing?',
-            'answer' => 'Payments are processed instantly with real-time confirmation.',
-            'isOpen' => false
-        ],
-        [
-            'question' => 'What are the documentation requirements for merchant registration?',
-            'answer' => 'Basic KYC documents including PAN, Aadhaar, and business proof are required.',
-            'isOpen' => false
-        ]
-    ];
-    
+        $faqItems = [
+            [
+                'question' => 'What banks credit cards can be paid through this
+platform?',
+                'answer' => 'Our platform supports credit card payments for all major banks including HDFC, SBI, ICICI, Axis, and more.',
+                'isOpen' => true
+            ],
+            [
+                'question' => 'How much can customers withdraw?',
+                'answer' => 'You can offer AEPS services once you\'ve completed the registration process and have the necessary equipment set up. This typically includes having a biometric device and completing the verification process.',
+                'isOpen' => false
+            ],
+            [
+                'question' => 'What do I need to start?',
+                'answer' => 'To start offering AEPS services, you\'ll need a smartphone or computer, a biometric device for fingerprint authentication, a reliable internet connection, and valid documentation for registration.',
+                'isOpen' => false
+            ]
+        ];
 
         foreach ($faqItems as $index => $item) :
             $isOpen = $item['isOpen'];

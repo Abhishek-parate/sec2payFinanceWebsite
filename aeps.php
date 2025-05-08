@@ -164,7 +164,7 @@
         <!-- Life Insurance Solutions Section -->
         <section class="w-full py-6" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
             <div class="max-w-6xl mx-auto px-4">
-                <h2 class="text-3xl font-bold text-primary-700 text-center">Benefits for AEPS Agents</h2>
+                <h2 class="text-3xl font-bold text-primary-700 text-center mb-4">Benefits for AEPS Agents</h2>
 
                 <div class="flex flex-col md:flex-row items-center gap-8">
                     <!-- Left side with illustration -->
@@ -370,7 +370,7 @@
             <!-- Section Title -->
             <div class="text-center mb-12">
                 <h2 class="text-4xl font-bold text-primary-800 mb-2">FAQ</h2>
-                <p class="text-gray-600">audience</p>
+                <p class="text-gray-600">Using natural, conversational language appropriate for target audience</p>
             </div>
 
             <!-- FAQ Accordion -->

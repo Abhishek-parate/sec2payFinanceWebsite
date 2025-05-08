@@ -125,7 +125,7 @@
 
         <!-- Contact Sales Button -->
         <div class="relative z-10 flex justify-center items-center mt-6" data-aos="fade-up" data-aos-delay="400">
-          <a href="contact-us.php"
+          <a href="https://app.sec2pay.in/?src=website" target="_blank"
             class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-12 sm:px-16 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
             data-aos="zoom-in" data-aos-delay="500">
             Contact Sales
@@ -500,7 +500,7 @@
     <!-- Section Title -->
     <div class="text-center mb-12">
         <h2 class="text-4xl font-bold text-primary-800 mb-2">FAQ</h2>
-        <p class="text-gray-600">audience</p>
+        <p class="text-gray-600">Using natural, conversational language appropriate for target audience</p>
     </div>
 
     <!-- FAQ Accordion -->

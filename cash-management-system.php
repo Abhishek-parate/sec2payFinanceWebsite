@@ -27,13 +27,13 @@
         <section class="relative overflow-hidden bg-white py-6 sm:py-8 md:py-10">
 
 
-            <div class="hidden sm:block absolute top-[5%] -left-[20%] w-[50%] h-[100%] rounded-full hidden md:block"
+            <div class="hidden sm:block absolute top-[5%] -left-[20%] w-[50%] h-[100%] rounded-full md:block"
                 style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
                 data-aos="fade" data-aos-duration="1500" data-aos-once="true">
             </div>
 
             <!-- Top-right Circular Gradient (Pinkish) - Hidden on mobile -->
-            <div class="hidden sm:block absolute -top-[20%] -right-[20%] w-[50%] h-[100%] rounded-full hidden md:block"
+            <div class="hidden sm:block absolute -top-[20%] -right-[20%] w-[50%] h-[100%] rounded-full md:block"
                 style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
                 data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
             </div>
@@ -48,9 +48,6 @@
                             <p class="font-bold text-primary-600 text-sm sm:text-base mb-2" data-aos="fade-up"
                                 data-aos-delay="100" data-aos-duration="800" data-aos-once="true"> Cash Management
                                 System (CMS)
-
-
-
                             </p>
                             <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500" data-aos="fade-up"
                                 data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
@@ -62,12 +59,11 @@
                             </h1>
                             <p class="black mb-6 sm:mb-8 text-sm sm:text-base" data-aos="fade-up" data-aos-delay="400"
                                 data-aos-duration="800" data-aos-once="true">
-                                Manage corporate transactions and collections seamlessly with our advanced Cash
+                                Manage corporate transactions and collections</br> seamlessly with our advanced Cash
                                 Management System platform.
-
                             </p>
 
-                            <a href="contact-us.php"
+                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 Get Started Today!
@@ -341,22 +337,22 @@
        $faqItems = [
         [
             'question' => 'What is a Cash Management System?',
-            'answer' => 'A: CMS is a digital platform that helps businesses manage their financial operations, including collections, payments, and reconciliation, through a single interface.',
+            'answer' => 'CMS is a digital platform that helps businesses manage their financial operations, including collections, payments, and reconciliation, through a single interface.',
             'isOpen' => true
         ],
         [
             'question' => 'How secure is the CMS platform?',
-            'answer' => 'A: Our platform uses bank-grade security protocols and follows RBI guidelines for all transactions. Each transaction requires multi-factor authentication.',
+            'answer' => 'Our platform uses bank-grade security protocols and follows RBI guidelines for all transactions. Each transaction requires multi-factor authentication.',
             'isOpen' => false
         ],
         [
             'question' => 'Can I integrate CMS with my existing business software?',
-            'answer' => 'A: Yes, our CMS platform offers API integration capabilities to connect with your accounting software and ERP systems.',
+            'answer' => 'Yes, our CMS platform offers API integration capabilities to connect with your accounting software and ERP systems.',
             'isOpen' => false
         ],
         [
             'question' => 'What types of businesses can benefit from CMS?',
-            'answer' => 'A: Any business handling regular payments and collections can benefit, particularly retail chains, educational institutions, and distribution networks.',
+            'answer' => 'Any business handling regular payments and collections can benefit, particularly retail chains, educational institutions, and distribution networks.',
             'isOpen' => false
         ]
     ];

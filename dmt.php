@@ -34,7 +34,7 @@
                     <h1 class="text-2xl md:text-4xl font-bold text-secondary-500 mb-4">Platform</h1>
                     <p class="text-black mb-5">Transform your store into a secure money transfer hub with our DMT platform.</p>
 
-                    <a href="contact-us.php"
+                    <a href="https://app.sec2pay.in/?src=website" target="_blank"
                         class="inline-flex items-center justify-center px-5 py-3 md:mb-4 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
                         Book A Demo
                     </a>
@@ -64,7 +64,7 @@
 </section>
 
         <!-- Why Choose Sec2Pay DMT Platform Service -->
-        <section class="py-12 mb-12 mt-6 bg-primary-100">
+        <section class="py-12 mt-6 bg-primary-100">
     <div class="max-w-6xl mx-auto px-4">
         <h2 class="text-3xl md:text-4xl font-bold text-primary-500 mb-8" data-aos="fade-up" data-aos-duration="1000">Why Choose Sec2Pay DMT Platform Service</h2>
 
@@ -100,17 +100,14 @@
         <!-- features & function Section  -->
         <section class="bg-primary-600 py-10 px-4 md:px-24">
     <div class="container mx-auto px-6">
-        <h2 class="text-3xl font-bold text-primary-100 my-8 text-center" data-aos="fade-up" data-aos-duration="1000">Features & Functions</h2>
-        <p class="text-primary-100 mb-12 max-w-2xl mx-auto" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-            Building trust through partnerships that last. Creating a network that serves millions.
-        </p>
+        <h2 class="text-3xl font-bold text-white my-8 text-center" data-aos="fade-up" data-aos-duration="1000">Features & Functions</h2>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <!-- Feature Card 1 -->
             <div class="border border-gray-200 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                 <img src="assets/images/dmt/quick-transfer.png" alt="Real-Time Payment" class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left">
-                    <h3 class="text-secondary-600 font-semibold text-xl mb-2">Quick Transfer</h3>
+                    <h3 class="text-secondary-500 font-semibold text-xl mb-2">Quick Transfer</h3>
                     <p class="text-gray-600 text-sm">
                         Process domestic money transfers swiftly with minimal steps. Your customers can send money to any bank account across India.
                     </p>
@@ -121,7 +118,7 @@
             <div class="border border-gray-200 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                 <img src="assets/images/dmt/status-tracking.png" alt="Real-Time Payment" class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left">
-                    <h3 class="text-secondary-600 font-semibold text-xl mb-2">Status Tracking</h3>
+                    <h3 class="text-secondary-500 font-semibold text-xl mb-2">Status Tracking</h3>
                     <p class="text-gray-600 text-sm">
                         Monitor transfer status in real-time. Get instant updates on successful transfers or any issues that need attention.
                     </p>
@@ -132,7 +129,7 @@
             <div class="border border-gray-200 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
                 <img src="assets/images/dmt/commission-structure.png" alt="Real-Time Payment" class="w-full object-contain rounded-t-lg">
                 <div class="p-6 text-left">
-                    <h3 class="text-secondary-600 font-semibold text-xl mb-2">Commission Structure</h3>
+                    <h3 class="text-secondary-500 font-semibold text-xl mb-2">Commission Structure</h3>
                     <p class="text-gray-600 text-sm">
                         Earn competitive commissions on every successful transaction. Watch your business grow with our tiered commission rates.
                     </p>
@@ -168,7 +165,7 @@
 
             <!-- Right side with content -->
             <div class="w-full md:w-1/2 text-center md:text-left">
-                <h2 class="text-3xl font-bold text-secondary-600 mb-6 mt-6">Benefits to DMT Agents</h2>
+                <h2 class="text-3xl font-bold text-secondary-500 mb-6 mt-6">Benefits to DMT Agents</h2>
 
                 <ul class="space-y-5 mb-8">
                     <?php
@@ -201,9 +198,6 @@
                         </li>
                     <?php endforeach; ?>
                 </ul>
-
-                <!-- CTA Button -->
-                <a href="/signup" class="inline-block mt-6 px-6 py-3 bg-primary-600 text-white rounded-lg text-lg hover:bg-primary-700 transition-colors duration-300">Get Started</a>
             </div>
         </div>
     </div>

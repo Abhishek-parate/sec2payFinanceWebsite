@@ -55,7 +55,7 @@
                                 data-aos="fade-up" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
                                 Delivery Network
                             </h1>
-                            <p class="text-gray-500 mb-6 sm:mb-8" data-aos="fade-up" data-aos-delay="300"
+                            <p class="text-black mb-6 sm:mb-8" data-aos="fade-up" data-aos-delay="300"
                                 data-aos-duration="800" data-aos-once="true">
                                 Enable your business to provide efficient logistics<br class="hidden sm:block">
                                 solutions on ONDC
@@ -63,7 +63,7 @@
 
                            
                             
-                            <a href="contact-us.php"
+                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
                         class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4"
                         data-aos="fade-up" data-aos-delay="400" data-aos-duration="800" data-aos-once="true">
                         Start Today                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
@@ -420,11 +420,11 @@
         </section>
 
 
-        <!-- Join Section with Dark Blue Background -->
-        <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
+  <!-- Join Section with Dark Blue Background -->
+  <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
             <div class="container mx-auto">
                 <!-- Join Panel with Starry Background -->
-                <div class="bg-gradient-to-br from-primary-800 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
+                <div class="bg-gradient-to-br from-primary-700 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"
                     data-aos="fade-up" data-aos-duration="1000">
 
                     <!-- Stars Background SVG -->
@@ -433,28 +433,33 @@
                             class="w-full h-full object-cover">
                     </div>
 
-                    <div class="max-w-4xl mx-auto text-center">
-                        <h1 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-3 sm:mb-4 relative z-10"
+                    <div class="max-w-5xl mx-auto text-center">
+                        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 relative z-10"
                             data-aos="fade-up" data-aos-delay="200">
-                            Ready to build your delivery network?
+                            Join India's Digital Commerce Revolution
                         </h1>
 
+                        <p class="text-base sm:text-lg text-white sm:mb-2 relative z-10 " data-aos="fade-up"
+                            data-aos-delay="300">
+                            Ready to expand your local business? Partner with Sec2Pay's ONDC platform
+                        </p>
 
+                        <div class="relative z-10  mt-6" data-aos="fade-up" data-aos-delay="400">
 
-                        <a href="contact-us.php"
-                            class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 mt-10 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
-                            data-aos="zoom-in" data-aos-delay="500">
-                            Sign up free
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2"
-                                viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd"
-                                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </a>
+                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
+                                class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
+                                data-aos="zoom-in" data-aos-delay="500">
+                                Sign up free
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2"
+                                    viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd"
+                                        d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </section>
 

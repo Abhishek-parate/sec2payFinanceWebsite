@@ -60,7 +60,7 @@
                                 Integrate essential payment services into your business with Sec2Pay.
                             </p>
 
-                            <a href="contact-us.php"
+                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 Start offering Utility Services
@@ -195,7 +195,7 @@
 
                         <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
                             <p class="text-white mb-4 sm:mb-6">
-                                <a href="contact-us.php" class="underline hover:text-white transition">
+                                <a href="https://app.sec2pay.in/?src=website" target="_blank" class="underline hover:text-white transition">
                                     Joining as an organization? Contact Sales
                                 </a>
                             </p>

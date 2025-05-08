@@ -44,13 +44,13 @@
                         <!-- Left Content - Services List -->
                         <div class="px-8 pt-8 md:px-12 md:pt-12 lg:px-16 lg:pt-16" data-aos="fade-right"
                             data-aos-duration="1000">
-                            <p class="font-semi-bolder text-secondary-500 font-bold">Micro ATM</p>
+                            <p class="font-semi-bolder text-black font-bold">Micro ATM</p>
                             <h1 class="text-2xl md:text-4xl font-bold text-secondary-500">Turn Your Shop into a Bank
                             </h1>
                             <h1 class="text-2xl md:text-4xl font-bold text-secondary-500 mb-4">Branch with MicroATM</h1>
                             <p class="text-black mb-5">Offer instant cash withdrawals and basic banking to your
                                 customers with our MicroATM services.</p>
-                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
+                            <a href="#"
                                 class="inline-flex items-center justify-center px-5 py-3 md:mb-4 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
                                 Start Your Journey
                             </a>
@@ -95,9 +95,9 @@
             MicroATM<br>Platform
         </h2>
 
-        <a href="https://app.sec2pay.in/?src=website" target="_blank"
+        <a href="#"
             class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md">
-            Start Now
+            Read More
         </a>
     </div>
 
@@ -211,12 +211,12 @@
 
 
         <!-- Platform Features Section -->
-        <section class="max-w-7xl mx-auto my-12 px-4">
+        <section class="max-w-7xl mx-auto px-4">
             <div class="bg-primary-500 rounded-3xl overflow-hidden relative">
                 <!-- Content Container -->
                 <div class="flex flex-col md:flex-row">
                     <!-- Left side content -->
-                    <div class="p-8 md:p-12 lg:p-16 md:w-1/2 z-10">
+                    <div class="p-4 md:p-4 lg:p-10 md:w-1/2 z-10">
                         <!-- Section Heading -->
                         <h2 class="text-3xl md:text-4xl font-bold text-white mb-8 mt-12">
                             Platform<br>Features

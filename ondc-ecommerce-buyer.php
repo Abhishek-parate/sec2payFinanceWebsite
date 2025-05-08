@@ -48,22 +48,22 @@
                         <!-- Left Content - Services List -->
                         <div class="p-4 md:p-8 lg:p-12 mt-6 md:mt-16 lg:mt-24 order-1 md:order-1" data-aos="fade-right"
                             data-aos-duration="1000" data-aos-once="true">
-                            <h1 class="text-3xl sm:text-4xl font-bold text-secondary-600" data-aos="fade-up"
+                            <h1 class="text-3xl sm:text-4xl font-bold text-secondary-500" data-aos="fade-up"
                                 data-aos-delay="100" data-aos-duration="800" data-aos-once="true">Bring Local Stores to
                             </h1>
-                            <h1 class="text-3xl sm:text-4xl font-bold text-secondary-600 mb-4" data-aos="fade-up"
+                            <h1 class="text-3xl sm:text-4xl font-bold text-secondary-500 mb-4" data-aos="fade-up"
                                 data-aos-delay="200" data-aos-duration="800" data-aos-once="true">Buyers Everywhere</h1>
-                            <p class="text-gray-500 mb-6 md:mb-8" data-aos="fade-up" data-aos-delay="300"
+                            <p class="text-black mb-6 md:mb-8" data-aos="fade-up" data-aos-delay="300"
                                 data-aos-duration="800" data-aos-once="true">Empower your business to create seamless
                                 shopping<br class="hidden sm:block"> experiences for buyers.</p>
 
                             <a href="https://app.sec2pay.in/?src=website" target="_blank"
-                                class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4"
+                                class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
                                 data-aos="fade-up" data-aos-delay="400" data-aos-duration="800" data-aos-once="true">
                                 Start Shopping Today!
                             </a>
 
-                            <div class="mt-6 md:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                            <div class="mt-6 md:mt-4 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 <div class="flex -space-x-2">
                                     <img src="https://randomuser.me/api/portraits/men/1.jpg"
@@ -248,7 +248,7 @@
                     <div class="w-full md:w-1/2" data-aos="fade-left" data-aos-duration="1200" data-aos-once="true">
                         <div class="p-4 sm:p-6 md:p-8 rounded-xl">
                             <img src="assets/images/ondc-ecommerce-buyer/service.png" alt="E-commerce services"
-                                class="w-full h-auto rounded-lg shadow-lg"
+                                class="w-full h-auto rounded-lg"
                                 onerror="this.onerror=null; this.src='/api/placeholder/550/350'; this.alt='E-commerce services placeholder'">
                         </div>
                     </div>

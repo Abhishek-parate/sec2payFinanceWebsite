@@ -50,8 +50,8 @@
                     <div class="flex flex-col items-center text-center">
                         <!-- Left Content - Services List -->
                         <div class="p-8 md:p-12  max-w-2xl">
-                            <h1 class="text-3xl md:text-4xl font-bold text-secondary-600">Empower Your Business</h1>
-                            <h1 class="text-3xl md:text-4xl font-bold text-secondary-600 mb-4">With Insurance Solutions</h1>
+                            <h1 class="text-3xl md:text-3xl font-bold text-secondary-500">Empower Your Business</h1>
+                            <h1 class="text-3xl md:text-3xl font-bold text-secondary-500 mb-4">With Insurance Solutions</h1>
                             <p class="text-black mb-8">Offer comprehensive insurance services as part of your business offerings.</p>
 
                             <a href="https://app.sec2pay.in/?src=website" target="_blank"
@@ -105,7 +105,6 @@
                  data-aos="fade-up" 
                  data-aos-delay="100">
                 <div class="flex items-start">
-                    <span class="text-primary-600 text-lg mr-3">•</span>
                     <p class="text-gray-600 text-xl">
                         Multi-product insurance offerings through a unified platform.
                     </p>
@@ -117,7 +116,6 @@
                  data-aos="fade-up" 
                  data-aos-delay="200">
                 <div class="flex items-start">
-                    <span class="text-primary-600 text-lg mr-3">•</span>
                     <p class="text-gray-600 text-xl">
                         Real-time policy issuance and claims tracking.
                     </p>
@@ -129,7 +127,6 @@
                  data-aos="fade-up" 
                  data-aos-delay="300">
                 <div class="flex items-start">
-                    <span class="text-primary-600 text-lg mr-3">•</span>
                     <p class="text-gray-600 text-xl">
                         End-to-end support for managing policies and customer inquiries.
                     </p>
@@ -166,14 +163,14 @@
                             Join Sec2pay today
                         </h1>
 
-                        <p class="text-base sm:text-lg text-white sm:mb-2 relative z-10" data-aos="fade-up"
+                        <p class="text-base sm:text-lg text-gray-300 sm:mb-2 relative z-10" data-aos="fade-up"
                             data-aos-delay="300">
                             Start for free — upgrade anytime.
                         </p>
 
                         <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
-                            <p class="text-bold mb-4 sm:mb-6">
-                                <a href="contact-us.php" class="underline hover:text-white transition">
+                            <p class="text-gray-300 mb-4 sm:mb-6">
+                                <a href="https://app.sec2pay.in/?src=website" target="_blank" class="underline hover:text-white transition">
                                     Joining as an organization? Contact Sales
                                 </a>
                             </p>

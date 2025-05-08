@@ -58,7 +58,7 @@
                                 Help customers make secure payments using just their Aadhar Card and fingerprint.
                             </p>
 
-                            <a href="contact-us.php"
+                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-6 sm:mb-8"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 Start Your Journey
@@ -110,8 +110,8 @@
         <!-- Support Promise Banner -->
         <section>
             <div class="w-full bg-primary-500 py-12" data-aos="fade-up" data-aos-delay="600" data-aos-duration="800"
-                data-aos-once="true">>
-                <div class="max-w-7xl mx-auto px-4">
+                data-aos-once="true">
+                <div class="max-w-5xl mx-auto px-4">
                     <!-- Desktop View -->
                     <div class="hidden md:flex flex-row items-center justify-between text-white">
                         <div class="font-bold text-base whitespace-nowrap">
@@ -219,7 +219,7 @@
 
                     <!-- Right side with content -->
                     <div class="w-full md:w-1/2">
-                        <h2 class="text-3xl font-bold text-secondary-600 mb-6 mt-6">Benefits for Business
+                        <h2 class="text-3xl font-bold text-secondary-500 mb-6 mt-6">Benefits for Business
                             Partners</h2>
 
                         <ul class="space-y-5 mb-8">
@@ -268,40 +268,135 @@
         </section>
 
 
-        <!-- Service Coverage Section -->
-        <section class="w-full py-10 bg-secondary-500">
-            <div class="max-w-6xl mx-auto px-4">
-                <!-- Section Title -->
-                <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-12">Service Coverage</h2>
-
-                <!-- Stats Grid -->
-                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-                    <!-- Stat 1 -->
-                    <div class="flex flex-col items-center">
-                        <p class="text-4xl md:text-5xl font-bold text-white mb-2">700+</p>
-                        <p class="text-white text-sm md:text-base">Districts across India</p>
-                    </div>
-
-                    <!-- Stat 2 -->
-                    <div class="flex flex-col items-center">
-                        <p class="text-4xl md:text-5xl font-bold text-white mb-2">5 Lakh+</p>
-                        <p class="text-white text-sm md:text-base">Retail Points</p>
-                    </div>
-
-                    <!-- Stat 3 -->
-                    <div class="flex flex-col items-center">
-                        <p class="text-4xl md:text-5xl font-bold text-white mb-2">40 Cr+</p>
-                        <p class="text-white text-sm md:text-base">Daily Transactions</p>
-                    </div>
-
-                    <!-- Stat 4 -->
-                    <div class="flex flex-col items-center">
-                        <p class="text-4xl md:text-5xl font-bold text-white mb-2">15 Lakh+</p>
-                        <p class="text-white text-sm md:text-base">Monthly Customers</p>
-                    </div>
-                </div>
+    <!-- Service Coverage Section with Animations - Indian Number Format -->
+<section class="w-full py-10" style="background-color: #f75a4b;">
+    <div class="max-w-6xl mx-auto px-4">
+        <!-- Section Title -->
+        <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-12" data-aos="fade-down" data-aos-duration="800" data-aos-once="true">Service Coverage</h2>
+        
+        <!-- Stats Grid -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+            <!-- Stat 1 -->
+            <div class="flex flex-col items-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100" data-aos-once="true">
+                <p class="text-4xl md:text-5xl font-bold text-white mb-2">
+                    <span id="district-count">0</span><span>+</span>
+                </p>
+                <p class="text-white text-sm md:text-base">Districts across India</p>
             </div>
-        </section>
+            
+            <!-- Stat 2 -->
+            <div class="flex flex-col items-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-once="true">
+                <p class="text-4xl md:text-5xl font-bold text-white mb-2">
+                    <span id="retail-count">0</span><span> Lakh +</span>
+                </p>
+                <p class="text-white text-sm md:text-base">Retail Points</p>
+            </div>
+            
+            <!-- Stat 3 -->
+            <div class="flex flex-col items-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" data-aos-once="true">
+                <p class="text-4xl md:text-5xl font-bold text-white mb-2">
+                    <span id="transaction-count">0</span><span> Cr+</span>
+                </p>
+                <p class="text-white text-sm md:text-base">Daily Transactions</p>
+            </div>
+            
+            <!-- Stat 4 -->
+            <div class="flex flex-col items-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" data-aos-once="true">
+                <p class="text-4xl md:text-5xl font-bold text-white mb-2">
+                    <span id="customer-count">0</span><span> Lakh+</span>
+                </p>
+                <p class="text-white text-sm md:text-base">Monthly Customers</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+// Counter animation function for Indian number format
+function animateValue(elementId, start, end, duration, format) {
+  const obj = document.getElementById(elementId);
+  if (!obj) return;
+  
+  // Start with 0 for animating
+  obj.textContent = '0';
+  
+  let startTimestamp = null;
+  const step = (timestamp) => {
+    if (!startTimestamp) startTimestamp = timestamp;
+    const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+    const currentValue = Math.floor(progress * end);
+    
+    // Display number based on format
+    if (format === 'regular') {
+      obj.textContent = currentValue;
+    } else if (format === 'lakh') {
+      obj.textContent = currentValue;
+    } else if (format === 'crore') {
+      obj.textContent = currentValue;
+    }
+    
+    if (progress < 1) {
+      window.requestAnimationFrame(step);
+    }
+  };
+  
+  window.requestAnimationFrame(step);
+}
+
+// Set up intersection observer for counter section
+document.addEventListener('DOMContentLoaded', function() {
+  const counters = [
+    { id: 'district-count', value: 700, format: 'regular' },
+    { id: 'retail-count', value: 5, format: 'lakh' },
+    { id: 'transaction-count', value: 40, format: 'crore' },
+    { id: 'customer-count', value: 15, format: 'lakh' }
+  ];
+  
+  // Initialize all counters to 0
+  counters.forEach(counter => {
+    const element = document.getElementById(counter.id);
+    if (element) {
+      element.textContent = '0';
+    }
+  });
+  
+  // Create intersection observer
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      // When section becomes visible
+      if (entry.isIntersecting) {
+        // Start all animations with a small delay between each
+        counters.forEach((counter, index) => {
+          setTimeout(() => {
+            animateValue(counter.id, 0, counter.value, 2000, counter.format);
+          }, index * 100);
+        });
+        
+        // Only trigger once
+        observer.disconnect();
+      }
+    });
+  }, { threshold: 0.1 });
+  
+  // Observe the section itself
+  const counterSection = document.querySelector('section');
+  if (counterSection) {
+    observer.observe(counterSection);
+  }
+  
+  // Immediate animation if observer doesn't work (fallback)
+  setTimeout(() => {
+    counters.forEach((counter, index) => {
+      const element = document.getElementById(counter.id);
+      if (element && element.textContent === '0') {
+        setTimeout(() => {
+          animateValue(counter.id, 0, counter.value, 2000, counter.format);
+        }, index * 100);
+      }
+    });
+  }, 1000);
+});
+</script>
 
 
         <!-- FAQ Section -->
@@ -309,7 +404,6 @@
             <!-- Section Title -->
             <div class="text-center mb-12">
                 <h2 class="text-4xl font-bold text-primary-800 mb-2">FAQ</h2>
-                <p class="text-gray-600">audience</p>
             </div>
 
             <!-- FAQ Accordion -->

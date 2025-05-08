@@ -133,36 +133,36 @@
                     <!-- Feature Card 1 -->
                     <div class="p-6 text-left" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
                         data-aos-once="true">
-                        <h3 class="text-secondary-600 font-semibold text-xl mb-4">Real-Time Transfers</h3>
+                        <h3 class="text-secondary-500 font-semibold text-xl mb-4">Real-Time Transfers</h3>
                         <p class="text-gray-600 text-sm">
-                            Send money instantly to bank accounts across Nepal through our trusted banking network.
+                        Send money instantly to bank accounts across Nepal through our trusted banking network.
                         </p>
                     </div>
 
                     <!-- Feature Card 2 -->
                     <div class="p-6 text-left" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800"
                         data-aos-once="true">
-                        <h3 class="text-secondary-600 font-semibold text-xl mb-4">Multiple Bank Support</h3>
+                        <h3 class="text-secondary-500 font-semibold text-xl mb-4">Multiple Bank Support</h3>
                         <p class="text-gray-600 text-sm">
-                            Direct transfers to major Nepali banks including Nepal Bank, NIC Asia, Global IME Bank.
+                        Direct transfers to major Nepali banks including Nepal Bank, NIC Asia, Global IME Bank.
                         </p>
                     </div>
 
                     <!-- Feature Card 3 -->
                     <div class="p-6 text-left" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800"
                         data-aos-once="true">
-                        <h3 class="text-secondary-600 font-semibold text-xl mb-4">Simple Process</h3>
+                        <h3 class="text-secondary-500 font-semibold text-xl mb-4">Simple Process</h3>
                         <p class="text-gray-600 text-sm">
-                            Complete transfers in under 2 minutes with just basic sender and recipient details.
+                        Complete transfers in under 2 minutes with just basic sender and recipient details.
                         </p>
                     </div>
 
                     <!-- Feature Card 4 -->
                     <div class="p-6 text-left" data-aos="fade-up" data-aos-delay="400" data-aos-duration="800"
                         data-aos-once="true">
-                        <h3 class="text-secondary-600 font-semibold text-xl mb-4">Low Fees & Best Rates</h3>
+                        <h3 class="text-secondary-500 font-semibold text-xl mb-4">Competitive Rates</h3>
                         <p class="text-gray-600 text-sm">
-                            Best-in-market exchange rates and minimal transfer fees.
+                        Best-in-market exchange rates and minimal transfer fees
                         </p>
                     </div>
                 </div>
@@ -366,37 +366,37 @@
                         <!-- AEPS -->
                         <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="100">
                             <img src="assets/images/pan-nsdl/icon1.svg" alt="AEPS" class="w-28 h-28 ">
-                            <span class="text-primary-500 text-center font-medium">AEPS</span>
+                            <span class="text-primary-500 text-center font-medium mt-2">AEPS</span>
                         </div>
 
                         <!-- DMT -->
                         <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="200">
                             <img src="assets/images/pan-nsdl/icon2.svg" alt="DMT" class="w-28 h-28 ">
-                            <span class="text-primary-500 text-center font-medium">DMT</span>
+                            <span class="text-primary-500 text-center font-medium mt-2">DMT</span>
                         </div>
 
                         <!-- Micro ATM -->
                         <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="300">
                             <img src="assets/images/pan-nsdl/icon3.svg" alt="Micro ATM" class="w-28 h-28 ">
-                            <span class="text-primary-500 text-center font-medium">Micro ATM</span>
+                            <span class="text-primary-500 text-center font-medium mt-2">Micro ATM</span>
                         </div>
 
                         <!-- mPOS -->
                         <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="400">
                             <img src="assets/images/pan-nsdl/icon4.svg" alt="mPOS" class="w-28 h-28 ">
-                            <span class="text-primary-500 text-center font-medium">mPOS</span>
+                            <span class="text-primary-500 text-center font-medium mt-2">mPOS</span>
                         </div>
 
                         <!-- CMS -->
                         <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="500">
                             <img src="assets/images/pan-nsdl/icon5.svg" alt="CMS" class="w-28 h-28 ">
-                            <span class="text-primary-500 text-center font-medium">CMS</span>
+                            <span class="text-primary-500 text-center font-medium mt-2">CMS</span>
                         </div>
 
                         <!-- UPI QR Code -->
                         <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="600">
                             <img src="assets/images/pan-nsdl/icon6.svg" alt="UPI QR Code" class="w-28 h-28 ">
-                            <span class="text-primary-500 text-center font-medium">UPI QR Code</span>
+                            <span class="text-primary-500 text-center font-medium mt-2">UPI QR Code</span>
                         </div>
                     </div>
                 </div>
