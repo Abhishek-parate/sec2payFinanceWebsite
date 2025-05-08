@@ -45,7 +45,7 @@
                         <div class="p-4 md:p-8 lg:p-12 pt-8" data-aos="fade-right" data-aos-duration="1000"
                             data-aos-once="true">
                             <p class="font-bold text-primary-600 text-sm sm:text-base mb-2" data-aos="fade-up"
-                                data-aos-delay="100" data-aos-duration="800" data-aos-once="true"> Account Opening
+                                data-aos-delay="100" data-aos-duration="800" data-aos-once="true">Recharge & Payment 
 
 
 
@@ -59,17 +59,14 @@
                                 Platform </h1>
                             <p class="text-black mb-6 sm:mb-8 text-sm sm:text-base" data-aos="fade-up"
                                 data-aos-delay="400" data-aos-duration="800" data-aos-once="true">
-                                Join Sec2Pay's AEPS network to provide secure Aadhaar-based <br> banking services in
-                                your area. Help your community access their <br> bank accounts easily through
-                                fingerprint verification.
+                                Give your customers quick top-ups for their mobile phones and DTH services
 
                             </p>
 
-                            <a href="contact-us.php"
+                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
-                                Start Now
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
+                                Start Now                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
                                     fill="currentColor">
                                     <path fill-rule="evenodd"
                                         d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
@@ -100,7 +97,7 @@
                             <!-- Main Image -->
                             <div class="relative z-20">
                             <img src="assets/images/recharge-payment/banner.png" alt="Dashboard" 
-                          class="w-full md:h-96" />
+                          class="w-full md:h-[35rem]" />
                                 <div
                                     class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
                                 </div>
@@ -185,7 +182,7 @@
 
             <!-- Right side with content -->
             <div class="w-full md:w-1/2" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
-                <h2 class="text-3xl font-bold text-secondary-600 mb-6 mt-6" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-once="true">
+                <h2 class="text-3xl font-bold text-secondary-500 mb-6 mt-6" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-once="true">
                     Benefits for Business Partners
                 </h2>
 

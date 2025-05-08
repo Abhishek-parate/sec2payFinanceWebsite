@@ -40,22 +40,19 @@
                             data-aos-once="true">
                             <p class="font-bold text-primary-600 text-sm sm:text-base mb-2" data-aos="fade-up"
                                 data-aos-delay="100" data-aos-duration="800" data-aos-once="true">
-                                ONDC CREDIT SERVICE PLATFORM
+                                BBPS
                             </p>
                             <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500" data-aos="fade-up"
                                 data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
-                                Credit Tailored for Your
-                            </h1>
+                                One-stop bill payment                            </h1>
                             <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500 mb-3 sm:mb-4"
                                 data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">
-                                Business Growth
-                            </h1>
+                                platform for business growth                            </h1>
                             <p class="text-gray-700 mb-6 sm:mb-8 text-sm sm:text-base" data-aos="fade-up"
                                 data-aos-delay="400" data-aos-duration="800" data-aos-once="true">
-                                Empowering your business to provide credit on the ONDC platform.
-                            </p>
+                                Register for BBPS services to provide bill payment solutions. <br>    Help customers pay utility bills, education fees, and more <br> through a single platform.                            </p>
 
-                            <a href="contact-us.php"
+                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 Join the Platform
@@ -101,7 +98,64 @@
             </div>
         </section>
 
-     
+        <section>
+            <div class="w-full bg-primary-500 py-12">
+                <div class="max-w-7xl mx-auto px-4">
+                    <!-- Desktop View -->
+                    <div class="hidden md:flex flex-row items-center justify-between text-white" data-aos="fade-up"
+                        data-aos-delay="100">
+                        <div class="font-bold text-base whitespace-nowrap">
+                            Why choose us?
+                        </div>
+
+                        <div class="flex items-center justify-end space-x-6 text-sm">
+                            <div class="text-white/50">|</div>
+                            <div class="flex items-center">
+                                <span class="whitespace-nowrap">Utility Bill Payments </span>
+                            </div>
+                            <div class="text-white/50">|</div>
+                            <div class="flex items-center">
+                                <span class="whitespace-nowrap">Education Fees</span>
+                            </div>
+                            <div class="text-white/50">|</div>
+                            <div class="flex items-center">
+                                <span class="whitespace-nowrap">Insurance Premiums</span>
+                            </div>
+                            <div class="text-white/50">|</div>
+                            <div class="flex items-center">
+                                <span class="whitespace-nowrap">Mobile/DTH Recharge</span>
+                            </div>
+                            <div class="text-white/50">|</div>
+
+                            <div class="flex items-center">
+                                <span class="whitespace-nowrap">Property Tax</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mobile View -->
+                    <div class="md:hidden" data-aos="fade-up" data-aos-delay="200">
+                        <div class="font-bold text-sm text-white mb-4">
+                            Why choose us?
+                        </div>
+
+                        <div class="scroll-snap-container overflow-x-scroll pb-2 w-full">
+                            <div class="flex items-center space-x-4 text-sm text-white min-w-max px-4">
+                                <span>Utility Bill Payments </span>
+                                <span class="text-white/50">|</span>
+                                <span>Education Fees</span>
+                                <span class="text-white/50">|</span>
+                                <span>Insurance Premiums</span>
+                                <span class="text-white/50">|</span>
+                                <span>Mobile/DTH Recharge</span>
+                                <span class="text-white/50">|</span>
+                                <span>Property Tax</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
    
 

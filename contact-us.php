@@ -138,12 +138,12 @@
 
                 <div class="relative z-10" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
                     <p class="text-gray-300 mb-4 sm:mb-6" data-aos="fade-up" data-aos-delay="800" data-aos-duration="800">
-                        <a href="#" class="underline hover:text-white transition">
+                        <a href="contact-us.php" class="underline hover:text-white transition">
                             Joining as an organization? Contact Sales
                         </a>
                     </p>
 
-                    <a href="#"
+                    <a href="https://app.sec2pay.in/?src=website" target="_blank"
                         class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
                         data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="1000">
                         Sign up free

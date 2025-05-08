@@ -46,7 +46,7 @@
           <h1 class="text-4xl font-bold text-secondary-500" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-once="true">Life Insurance Platform</h1>
           <h1 class="text-4xl font-bold text-secondary-500 mb-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" data-aos-once="true">Services</h1>
           <p class="text-black mb-8" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" data-aos-once="true">Secure your customers' future with our </br>comprehensive Life Insurance platform</p>
-          <a href="#"
+          <a href="https://app.sec2pay.in/?src=website" target="_blank"
             class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4"
             data-aos="zoom-in" data-aos-duration="800" data-aos-delay="500" data-aos-once="true">
             Book A Demo!
@@ -403,12 +403,12 @@
 
                 <div class="relative z-10" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000" data-aos-once="true">
                     <p class="text-gray-300 mb-4 sm:mb-6">
-                        <a href="#" class="underline hover:text-white transition">
+                        <a href="contact-us.php" class="underline hover:text-white transition">
                             Joining as an organization? Contact Sales
                         </a>
                     </p>
 
-                    <a href="#"
+                    <a href="https://app.sec2pay.in/?src=website" target="_blank"
                         class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
                         data-aos="zoom-in" data-aos-delay="800" data-aos-duration="1000" data-aos-once="true">
                         Sign up free

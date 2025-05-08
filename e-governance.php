@@ -38,7 +38,7 @@
                                 Partner with us to provide digital government <br> services to 50,000+ citizens in your
                                 area.
                             </p>
-                            <a href="#"
+                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md w-full sm:w-auto sm:self-start"
                                 data-aos="zoom-in-up">
                                 Start Your Journey
@@ -662,7 +662,7 @@
                         <p class="text-white text-base md:text-lg mb-8 opacity-90">
                             Sec2Pay Your Partner in Making Digital Business Growth Simple
                         </p>
-                        <a href="#"
+                        <a href="https://app.sec2pay.in/?src=website" target="_blank"
                             class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105 active:scale-95 focus:outline-none focus:ring-2 focus:ring-secondary-400">
                             Begin Your Journey
                         </a>

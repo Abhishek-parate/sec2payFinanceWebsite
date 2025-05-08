@@ -47,7 +47,7 @@
           <h1 class="text-4xl font-bold text-secondary-600 mb-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" data-aos-once="true">With Digital Health Insurance Solutions</h1>
           <p class="text-gray-500 mb-8" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" data-aos-once="true">Transform your business into a health insurance hub. Our platform lets you offer comprehensive health coverage solutions to your customers.</p>
           
-          <a href="#"
+          <a href="https://app.sec2pay.in/?src=website" target="_blank"
             class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4"
             data-aos="zoom-in" data-aos-duration="800" data-aos-delay="500" data-aos-once="true">
             Start Your Insurance Journey

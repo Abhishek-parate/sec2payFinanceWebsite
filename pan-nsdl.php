@@ -169,7 +169,7 @@
                         </li>
                     </ul>
                     
-                    <a href="#" class="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1" 
+                    <a href="https://app.sec2pay.in/?src=website" target="_blank" class="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1" 
                        data-aos="fade-up" data-aos-delay="500" data-aos-once="true">
                         Learn More
                     </a>

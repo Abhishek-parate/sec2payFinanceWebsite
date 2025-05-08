@@ -50,7 +50,7 @@
                             <h1 class="text-2xl md:text-4xl font-bold text-secondary-500 mb-4">Branch with MicroATM</h1>
                             <p class="text-black mb-5">Offer instant cash withdrawals and basic banking to your
                                 customers with our MicroATM services.</p>
-                            <a href="#"
+                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-flex items-center justify-center px-5 py-3 md:mb-4 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
                                 Start Your Journey
                             </a>
@@ -95,7 +95,7 @@
             MicroATM<br>Platform
         </h2>
 
-        <a href="#"
+        <a href="https://app.sec2pay.in/?src=website" target="_blank"
             class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md">
             Start Now
         </a>

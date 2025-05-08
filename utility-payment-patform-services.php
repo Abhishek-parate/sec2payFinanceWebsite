@@ -161,7 +161,7 @@
                 <!-- CTA Button -->
                 <div class="text-center relative" style="top: calc(60% - 12rem);" data-aos="fade-up"
                     data-aos-delay="600" data-aos-duration="800" data-aos-once="true">
-                    <a href="#"
+                    <a href="https://app.sec2pay.in/?src=website" target="_blank"
                         class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-md transition duration-300">
                         Explore Services
                     </a>
@@ -195,12 +195,12 @@
 
                         <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
                             <p class="text-white mb-4 sm:mb-6">
-                                <a href="#" class="underline hover:text-white transition">
+                                <a href="contact-us.php" class="underline hover:text-white transition">
                                     Joining as an organization? Contact Sales
                                 </a>
                             </p>
 
-                            <a href="#"
+                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
                                 data-aos="zoom-in" data-aos-delay="500">
                                 Sign up free

@@ -386,7 +386,7 @@
                     </div>
 
                     <!-- Right Content - Image -->
-                    <div class="relative h-48 sm:h-64 md:h-auto">
+                    <div class="relative h-96">
                         <img src="assets/images/home/image.png" alt="Man using banking services on smartphone"
                             class="w-full h-full object-cover md:object-contain md:absolute md:bottom-0 md:right-0" />
                     </div>
@@ -440,24 +440,13 @@
                                 </div>
                                 <span class="ml-3 text-gray-700 font-medium">Bus Tickets</span>
                             </div>
-                            <div class="flex items-start">
-                                <div class="flex-shrink-0 mt-1">
-                                    <div class="w-5 h-5 rounded-full bg-primary-600 flex items-center justify-center">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 text-white" fill="none"
-                                            viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M5 13l4 4L19 7" />
-                                        </svg>
-                                    </div>
-                                </div>
-                                <span class="ml-3 text-gray-700 font-medium">UPI Cash@POS</span>
-                            </div>
+                          
                         </div>
                     </div>
 
                     <!-- Right Content - Image -->
-                    <div class="relative h-48 sm:h-64 md:h-auto">
-                        <img src="assets/images/home/image.png" alt="Man using banking services on smartphone"
+                    <div class="relative h-96">
+                        <img src="assets/images/home/travell-booking.png" alt="Man using banking services on smartphone"
                             class="w-full h-full object-cover md:object-contain md:absolute md:bottom-0 md:right-0" />
                     </div>
                 </div>
@@ -538,8 +527,8 @@
                     </div>
 
                     <!-- Right Content - Image -->
-                    <div class="relative h-48 sm:h-64 md:h-auto">
-                        <img src="assets/images/home/image.png" alt="Man using banking services on smartphone"
+                    <div class="relative h-96">
+                        <img src="assets/images/home/utility.png" alt="Man using banking services on smartphone"
                             class="w-full h-full object-cover md:object-contain md:absolute md:bottom-0 md:right-0" />
                     </div>
                 </div>
@@ -584,8 +573,8 @@
                     </div>
 
                     <!-- Right Content - Image -->
-                    <div class="relative h-48 sm:h-64 md:h-auto">
-                        <img src="assets/images/home/image.png" alt="Man using banking services on smartphone"
+                    <div class="relative h-96">
+                        <img src="assets/images/home/e-gor.png" alt="Man using banking services on smartphone"
                             class="w-full h-full object-cover md:object-contain md:absolute md:bottom-0 md:right-0" />
                     </div>
                 </div>
@@ -642,8 +631,8 @@
                     </div>
 
                     <!-- Right Content - Image -->
-                    <div class="relative h-48 sm:h-64 md:h-auto">
-                        <img src="assets/images/home/image.png" alt="Man using banking services on smartphone"
+                    <div class="relative h-96">
+                        <img src="assets/images/home/insurence-service.png" alt="Man using banking services on smartphone"
                             class="w-full h-full object-cover md:object-contain md:absolute md:bottom-0 md:right-0" />
                     </div>
                 </div>
@@ -712,8 +701,8 @@
                     </div>
 
                     <!-- Right Content - Image -->
-                    <div class="relative h-48 sm:h-64 md:h-auto">
-                        <img src="assets/images/home/image.png" alt="Man using banking services on smartphone"
+                    <div class="relative h-96">
+                        <img src="assets/images/home/ondc.png" alt="Man using banking services on smartphone"
                             class="w-full h-full object-cover md:object-contain md:absolute md:bottom-0 md:right-0" />
                     </div>
                 </div>

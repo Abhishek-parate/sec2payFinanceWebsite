@@ -500,7 +500,7 @@
     <!-- Section Title -->
     <div class="text-center mb-12">
         <h2 class="text-4xl font-bold text-primary-800 mb-2">FAQ</h2>
-        <p class="text-gray-600">Using natural, conversational language appropriate for target audience</p>
+        <p class="text-gray-600">audience</p>
     </div>
 
     <!-- FAQ Accordion -->

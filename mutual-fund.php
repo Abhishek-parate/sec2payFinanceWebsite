@@ -63,7 +63,7 @@
                                 Build wealth for your customers with India's trusted</br> mutual fund platform for financial advisors.
                             </p>
 
-                            <a href="#"
+                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 Start Your Journey

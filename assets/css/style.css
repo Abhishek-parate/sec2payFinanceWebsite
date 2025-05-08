@@ -3243,12 +3243,6 @@ body {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-\[\#142344\] {
-  --tw-gradient-from: #142344 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(20 35 68 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .via-white {
   --tw-gradient-to: rgb(255 255 255 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), #fff var(--tw-gradient-via-position), var(--tw-gradient-to);
@@ -3304,10 +3298,6 @@ body {
 
 .to-transparent {
   --tw-gradient-to: transparent var(--tw-gradient-to-position);
-}
-
-.to-\[\#3258AA\] {
-  --tw-gradient-to: #3258AA var(--tw-gradient-to-position);
 }
 
 .decoration-slice {
@@ -4954,6 +4944,10 @@ body {
     right: -25%;
   }
 
+  .sm\:-top-\[4\%\] {
+    top: -4%;
+  }
+
   .sm\:-top-\[6\%\] {
     top: -6%;
   }
@@ -5060,6 +5054,11 @@ body {
 
   .sm\:max-w-full {
     max-width: 100%;
+  }
+
+  .sm\:-translate-y-0 {
+    --tw-translate-y: -0px;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
   .sm\:grid-cols-2 {
@@ -5209,11 +5208,6 @@ body {
   .sm\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
-  }
-
-  .sm\:text-xs {
-    font-size: 0.75rem;
-    line-height: 1rem;
   }
 
   .sm\:underline {
@@ -5407,6 +5401,10 @@ body {
 
   .md\:h-\[150\%\] {
     height: 150%;
+  }
+
+  .md\:h-\[35rem\] {
+    height: 35rem;
   }
 
   .md\:h-auto {
@@ -5677,11 +5675,6 @@ body {
     padding-bottom: 0.75rem;
   }
 
-  .md\:py-4 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
   .md\:py-6 {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -5759,11 +5752,6 @@ body {
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .md\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
   }
 
   .md\:text-xl {

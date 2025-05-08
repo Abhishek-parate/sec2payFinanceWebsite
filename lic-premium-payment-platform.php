@@ -59,7 +59,7 @@
                                 pay their insurance premiums easily while earning <br> commission on each transaction.
                             </p>
 
-                            <a href="contact-us.php"
+                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 Start Your Banking Journey
@@ -190,10 +190,10 @@
                     <!-- Right side with content (second on mobile) -->
                     <div class="w-full md:w-1/2 order-2 md:order-2" data-aos="fade-left" data-aos-duration="1000"
                         data-aos-once="true">
-                        <h2 class="text-3xl font-bold text-secondary-600 mb-6" data-aos="fade-up" data-aos-delay="100"
+                        <h2 class="text-3xl font-bold text-secondary-500 mb-6" data-aos="fade-up" data-aos-delay="100"
                             data-aos-duration="800" data-aos-once="true">Benefits for Partners</h2>
 
-                        <ul class="space-y-5 mb-8">
+                        <ul class="space-y-5 mb-8 ">
                             <?php
                     $lifePlans = [
                         'Zero infrastructure cost',
@@ -231,7 +231,7 @@
                                         </defs>
                                     </svg>
                                 </div>
-                                <span class="ml-3 text-gray-700"><?php echo $plan; ?></span>
+                                <span class="ml-3 text-secondary-500 "><?php echo $plan; ?></span>
                             </li>
                             <?php endforeach; ?>
                         </ul>
@@ -297,7 +297,7 @@
                                         </defs>
                                     </svg>
                                 </div>
-                                <span class="ml-3 text-gray-700"><?php echo $plan; ?></span>
+                                <span class="ml-3 text-primary-500"><?php echo $plan; ?></span>
                             </li>
                             <?php endforeach; ?>
                         </ul>
@@ -314,7 +314,6 @@
             <!-- Section Title -->
             <div class="text-center mb-12">
                 <h2 class="text-4xl font-bold text-primary-800 mb-2">FAQ</h2>
-                <p class="text-gray-600">Using natural, conversational language appropriate for target audience</p>
             </div>
 
             <!-- FAQ Accordion -->

@@ -263,7 +263,7 @@
                         <!-- CTA Button -->
                         <div class="mt-8" data-aos="fade-up" data-aos-delay="600" data-aos-duration="800"
                             data-aos-once="true">
-                            <a href="#"
+                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-block bg-secondary-500 hover:bg-secondary-600 text-white font-medium py-3 px-8 rounded-lg transition duration-300">
                                 Start Your Journey
                             </a>

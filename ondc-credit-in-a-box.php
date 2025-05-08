@@ -199,7 +199,7 @@
 
                 <!-- CTA Button -->
                 <div class="flex justify-center mt-16" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
-                    <a href="#"
+                    <a href="https://app.sec2pay.in/?src=website" target="_blank"
                         class="bg-red-500 hover:bg-red-600 text-white font-medium py-3 px-8 rounded-md transition duration-300">
                         Discover All Services
                     </a>
