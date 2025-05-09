@@ -1,4 +1,4 @@
-<header id="main-header" class="fixed top-0 left-0 right-0 z-50 bg-white-500 backdrop-blur-lg py-2 border-b border-white/20 transition-shadow duration-300">
+<header id="main-header" class="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md py-2 transition-shadow duration-300">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between relative">
     <!-- Logo -->
     <div class="w-2/7">
@@ -169,7 +169,7 @@
                 </li>
                 <li data-target="ondc-ser" class="menu-item text-gray-700 flex justify-between items-center cursor-pointer">
                   <span class="w-full text-right">ONDC services</span><i class="fas fa-chevron-right text-xs ml-2"></i>
-                </li>                
+                </li>
                 <li data-target="wealth" class="menu-item text-gray-700 flex justify-between items-center cursor-pointer">
                   <span class="w-full text-right">Wealth Management Services</span><i class="fas fa-chevron-right text-xs ml-2"></i>
                 </li>
@@ -190,7 +190,7 @@
                         </div>
                       </a>
                       <a href="aadhar.php" target="_blank" class="flex items-center gap-4 rounded-lg hover:bg-gray-50">
-                        <div class="p-3 bg-primary-50 rounded-lg"><img src="assets/icons/menu/travel-platform.svg" alt=""></div>
+                        <div class="p-3 bg-primary-50 rounded-lg"><img src="assets/icons/menu/aadhar-pay.svg" alt=""></div>
                         <div>
                           <h4 class="font-semibold text-gray-900">Aadhar Pay</h4>
                           <p class="text-sm text-gray-600">Turn your shop into a digital banking point</p>
@@ -259,7 +259,7 @@
                     </div>
                     <div class="space-y-1">
                       <a href="travel-booking-platform.php" target="_blank" class="flex items-center gap-4 rounded-lg hover:bg-gray-50">
-                        <div class="p-3 bg-primary-50 rounded-lg"><img src="assets/icons/menu/travel-platform.svg" alt=""></div>
+                        <div class="p-3 bg-primary-50 rounded-lg"><img src="assets/icons/menu/flight-bus-icon.svg" alt=""></div>
                         <div>
                           <h4 class="font-semibold text-gray-900">Flight /Bus Booking</h4>
                           <p class="text-sm text-gray-600">Travel Booking Platform</p>
@@ -330,7 +330,7 @@
                     </div>
                     <div class="space-y-1">
                       <a href="pan-nsdl.php" target="_blank" class="flex items-center gap-4 rounded-lg hover:bg-gray-50">
-                        <div class="p-3 bg-primary-50 rounded-lg"><img src="assets/icons/menu/e-governance.svg" alt=""></div>
+                        <div class="p-3 bg-primary-50 rounded-lg"><img src="assets/icons/menu/nsdl-pan-icon.svg" alt=""></div>
                         <div>
                           <h4 class="font-semibold text-gray-900">NSDL PAN</h4>
                           <p class="text-sm text-gray-600">PAN Card Application Made Simple</p>
@@ -346,14 +346,14 @@
                   <div class="grid grid-cols-1 gap-3 py-3 md:grid-cols-2">
                     <div class="space-y-1">
                       <a href="motor-insurance.php" target="_blank" class="flex items-center gap-4 rounded-lg hover:bg-gray-50">
-                        <div class="p-3 bg-primary-50 rounded-lg"><img src="assets/icons/menu/insurance.svg" alt=""></div>
+                        <div class="p-3 bg-primary-50 rounded-lg"><img src="assets/icons/menu/motor-insurance.svg" alt=""></div>
                         <div>
                           <h4 class="font-semibold text-gray-900">Motor Insurance</h4>
                           <p class="text-sm text-gray-600">Grow Your Business with Motor Insurance Services</p>
                         </div>
                       </a>
                       <a href="life-insurance.php" target="_blank" class="flex items-center gap-4 rounded-lg hover:bg-gray-50">
-                        <div class="p-3 bg-primary-50 rounded-lg"><img src="assets/icons/menu/insurance.svg" alt=""></div>
+                        <div class="p-3 bg-primary-50 rounded-lg"><img src="assets/icons/menu/life-insurance.svg" alt=""></div>
                         <div>
                           <h4 class="font-semibold text-gray-900">Life Insurance</h4>
                           <p class="text-sm text-gray-600">Life Insurance Platform Services</p>
@@ -378,14 +378,14 @@
                   <div class="grid grid-cols-1 gap-3 py-3 md:grid-cols-2">
                     <div class="space-y-1">
                       <a href="ondc-e-commerce-seller-platform.php" target="_blank" class="flex items-center gap-4 rounded-lg hover:bg-gray-50">
-                        <div class="p-3 bg-primary-50 rounded-lg"><img src="assets/icons/menu/ondc.svg" alt=""></div>
+                        <div class="p-3 bg-primary-50 rounded-lg"><img src="assets/icons/menu/seller-onbodring.svg" alt=""></div>
                         <div>
                           <h4 class="font-semibold text-gray-900">ONDC E-Commerce Seller Onboarding</h4>
                           <p class="text-sm text-gray-600">Empowering Sellers Through Your Business</p>
                         </div>
                       </a>
                       <a href="ondc-ecommerce-buyer.php" target="_blank" class="flex items-center gap-4 rounded-lg hover:bg-gray-50">
-                        <div class="p-3 bg-primary-50 rounded-lg"><img src="assets/icons/menu/ondc.svg" alt=""></div>
+                        <div class="p-3 bg-primary-50 rounded-lg"><img src="assets/icons/menu/buyer-refer.svg" alt=""></div>
                         <div>
                           <h4 class="font-semibold text-gray-900">ONDC E-Commerce Buyer Refer</h4>
                           <p class="text-sm text-gray-600">Serve Buyers with Local Convenience</p>
@@ -394,14 +394,14 @@
                     </div>
                     <div class="space-y-1">
                       <a href="ondc-e-commerce-logistic-franchise.php" target="_blank" class="flex items-center gap-4 rounded-lg hover:bg-gray-50">
-                        <div class="p-3 bg-primary-50 rounded-lg"><img src="assets/icons/menu/ondc.svg" alt=""></div>
+                        <div class="p-3 bg-primary-50 rounded-lg"><img src="assets/icons/menu/logistics-franchise.svg" alt=""></div>
                         <div>
                           <h4 class="font-semibold text-gray-900">ONDC Logistics Franchise</h4>
                           <p class="text-sm text-gray-600">Deliver Smarter Through Your Platform</p>
                         </div>
                       </a>
                       <a href="ondc-credit-in-a-box.php" target="_blank" class="flex items-center gap-4 rounded-lg hover:bg-gray-50">
-                        <div class="p-3 bg-primary-50 rounded-lg"><img src="assets/icons/menu/ondc.svg" alt=""></div>
+                        <div class="p-3 bg-primary-50 rounded-lg"><img src="assets/icons/menu/credit-services.svg" alt=""></div>
                         <div>
                           <h4 class="font-semibold text-gray-900">ONDC Credit Services</h4>
                           <p class="text-sm text-gray-600">Credit Tailored for Your Business Growth</p>
@@ -434,7 +434,36 @@
 
         <!-- Simple Menu Items -->
         <li><a href="who-we-serve.php" target="_blank" class="text-gray-700 hover:text-primary-600 font-medium">Who We Serve</a></li>
-        <li><a href="about-us.php" target="_blank" class="text-gray-700 hover:text-primary-600 font-medium">About Us</a></li>
+
+        <li class="group relative">
+          <button id="dropdownNavbarLink" class="text-gray-700 hover:text-primary-600 font-medium">
+            Company<i class="fas fa-chevron-down ml-1 text-xs transition-transform duration-200 group-hover:rotate-180"></i>
+          </button>
+          <!-- Dropdown menu -->
+          <div id="dropdownNavbar" class="absolute hidden group-hover:block z-10 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700 dark:divide-gray-600">
+            <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownLargeButton">
+              <li>
+                <a href="about-us.php" target="_blank" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">About Us</a>
+              </li>
+              <li>
+                <a href="careers.php" target="_blank" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Career</a>
+              </li>
+              <!-- <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Blogs</a>
+              </li>
+              <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Case Study</a>
+              </li>
+              <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Testimonials</a>
+              </li>
+              <li>
+                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Media</a>
+              </li> -->
+            </ul>
+          </div>
+        </li>
+
         <li><a href="contact-us.php" target="_blank" class="text-gray-700 hover:text-primary-600 font-medium">Contact Us</a></li>
       </ul>
     </nav>
@@ -457,12 +486,12 @@
 
 <!-- Mobile Menu -->
 <div id="mobile-menu" class="fixed inset-0 z-40 bg-white p-4 transform translate-x-full transition-transform duration-300 overflow-y-auto">
-  <div class="flex justify-between items-center mb-6">
+  <div class="flex justify-between items-center mb-2 z-50">
     <a href="index">
-      <img src="./assets/images/logo.png" alt="Sec2Pay Logo" class="h-8">
+      <img src="./assets/images/logo.png" alt="Sec2Pay Logo">
     </a>
-    <button id="mobile-close" class="text-gray-700 focus:outline-none">
-      <i class="fas fa-times text-2xl"></i>
+    <button id="mobile-close" class="absolute right-4 text-3xl text-black ">
+      &times;
     </button>
   </div>
 
@@ -486,7 +515,7 @@
                 <!-- BEGIN MOBILE PLATFORM CONTENT - MULTI SERVICES -->
                 <a href="banking-platform-service.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-university text-primary-600"></i>
+                    <img src="assets/icons/menu/bank.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">Banking services Platform</h4>
@@ -495,7 +524,7 @@
                 </a>
                 <a href="travel-platform-service.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-plane text-primary-600"></i>
+                    <img src="assets/icons/menu/travel-platform.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">Travel services Platform</h4>
@@ -504,7 +533,7 @@
                 </a>
                 <a href="utility-service.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-mobile-alt text-primary-600"></i>
+                    <img src="assets/icons/menu/utility-&-bill.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">Utility services Platform</h4>
@@ -513,7 +542,7 @@
                 </a>
                 <a href="e-governance.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-id-card text-primary-600"></i>
+                    <img src="assets/icons/menu/e-governance.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">E-Governance</h4>
@@ -522,7 +551,7 @@
                 </a>
                 <a href="insurance.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-shield-alt text-primary-600"></i>
+                    <img src="assets/icons/menu/insurance.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">Insurance Services</h4>
@@ -545,7 +574,7 @@
                 <!-- BEGIN MOBILE PLATFORM CONTENT - ONDC CREDIT -->
                 <a href="ondc-credit-service-platform.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-chart-line text-primary-600"></i>
+                    <img src="assets/icons/menu/credit-services.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">ONDC Credit Services Platform</h4>
@@ -565,7 +594,7 @@
               <div class="space-y-3 py-2">
                 <a href="ondc-e-commerce-seller-platform.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-store text-primary-600"></i>
+                    <img src="assets/icons/menu/bank.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">ONDC E-Commerce Seller</h4>
@@ -574,7 +603,7 @@
                 </a>
                 <a href="ondc-ecommerce-buyer.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-shopping-bag text-primary-600"></i>
+                    <img src="assets/icons/menu/travel-platform.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">ONDC E-Commerce Buyer</h4>
@@ -583,7 +612,7 @@
                 </a>
                 <a href="ondc-e-commerce-logistic-franchise.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-truck text-primary-600"></i>
+                    <img src="assets/icons/menu/logistics-franchise.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">ONDC Logistics Franchise Platform</h4>
@@ -648,7 +677,7 @@
                 <!-- BEGIN MOBILE SERVICES CONTENT - BANKING -->
                 <a href="aeps.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-university text-primary-600"></i>
+                    <img src="assets/icons/menu/aeps.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">AEPS</h4>
@@ -657,7 +686,7 @@
                 </a>
                 <a href="aadhar.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-credit-card text-primary-600"></i>
+                    <img src="assets/icons/menu/aadhar-pay.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">Aadhar Pay</h4>
@@ -666,7 +695,7 @@
                 </a>
                 <a href="micro-atm.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-atm text-primary-600"></i>
+                    <img src="assets/icons/menu/micro-atm.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">Micro ATM</h4>
@@ -675,7 +704,7 @@
                 </a>
                 <a href="dmt.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-exchange-alt text-primary-600"></i>
+                    <img src="assets/icons/menu/dmt.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">DMT</h4>
@@ -684,7 +713,7 @@
                 </a>
                 <a href="cash-management-system.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-money-bill-wave text-primary-600"></i>
+                    <img src="assets/icons/menu/cms.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">CMS</h4>
@@ -693,7 +722,7 @@
                 </a>
                 <a href="account-opening.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-user-plus text-primary-600"></i>
+                    <img src="assets/icons/menu/acc-open.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">Account Opening</h4>
@@ -702,7 +731,7 @@
                 </a>
                 <a href="upi-cash-@pos.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-qrcode text-primary-600"></i>
+                    <img src="assets/icons/menu/upi-cash.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">UPI Cash @POS</h4>
@@ -711,7 +740,7 @@
                 </a>
                 <a href="indo-nepal-dmt.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-globe-asia text-primary-600"></i>
+                    <img src="assets/icons/menu/insurance.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">INDO-NEPAL DMT</h4>
@@ -734,7 +763,7 @@
                 <!-- BEGIN MOBILE SERVICES CONTENT - TRAVEL -->
                 <a href="irctc.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-train text-primary-600"></i>
+                    <img src="assets/icons/menu/travel-platform.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">IRCTC Agent ID</h4>
@@ -743,7 +772,7 @@
                 </a>
                 <a href="travel-booking-platform.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-plane-departure text-primary-600"></i>
+                    <img src="assets/icons/menu/flight-bus-icon.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">Flight /Bus Booking</h4>
@@ -766,7 +795,7 @@
                 <!-- BEGIN MOBILE SERVICES CONTENT - UTILITY -->
                 <a href="recharge-payment.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-mobile-alt text-primary-600"></i>
+                    <img src="assets/icons/menu/utility-&-bill.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">Recharge</h4>
@@ -802,7 +831,7 @@
                 </a>
                 <a href="credit-card-bill-payment.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-credit-card text-primary-600"></i>
+                    <img src="assets/icons/menu/e-governance.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">CC Bill Pay</h4>
@@ -825,7 +854,7 @@
                 <!-- BEGIN MOBILE SERVICES CONTENT - E-GOVERNANCE -->
                 <a href="pan-uti.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-id-card text-primary-600"></i>
+                    <img src="assets/icons/menu/e-governance.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">PAN UTI</h4>
@@ -834,7 +863,7 @@
                 </a>
                 <a href="pan-nsdl.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-id-card-alt text-primary-600"></i>
+                    <img src="assets/icons/menu/nsdl-pan-icon.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">NSDL PAN</h4>
@@ -857,7 +886,7 @@
                 <!-- BEGIN MOBILE SERVICES CONTENT - INSURANCE -->
                 <a href="motor-insurance.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-car text-primary-600"></i>
+                    <img src="assets/icons/menu/motor-insurance.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">Motor Insurance</h4>
@@ -866,7 +895,7 @@
                 </a>
                 <a href="life-insurance.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-heartbeat text-primary-600"></i>
+                    <img src="assets/icons/menu/life-insurance.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">Life Insurance</h4>
@@ -875,7 +904,7 @@
                 </a>
                 <a href="health-insurance.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-hospital text-primary-600"></i>
+                    <img src="assets/icons/menu/insurance.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">Health Insurance</h4>
@@ -898,7 +927,7 @@
                 <!-- BEGIN MOBILE SERVICES CONTENT - ONDC -->
                 <a href="ondc-e-commerce-seller-platform.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-store text-primary-600"></i>
+                    <img src="assets/icons/menu/seller-onbodring.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">ONDC E-Commerce Seller Onboarding</h4>
@@ -907,7 +936,7 @@
                 </a>
                 <a href="ondc-ecommerce-buyer.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-shopping-cart text-primary-600"></i>
+                    <img src="assets/icons/menu/buyer-refer.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">ONDC E-Commerce Buyer Refer</h4>
@@ -916,7 +945,7 @@
                 </a>
                 <a href="ondc-e-commerce-logistic-franchise.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-truck text-primary-600"></i>
+                    <img src="assets/icons/menu/logistics-franchise.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">ONDC Logistics Franchise</h4>
@@ -925,7 +954,7 @@
                 </a>
                 <a href="ondc-credit-in-a-box.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
                   <div class="p-2 bg-primary-50 rounded-lg mr-3">
-                    <i class="fas fa-credit-card text-primary-600"></i>
+                    <img src="assets/icons/menu/credit-services.svg" alt="">
                   </div>
                   <div>
                     <h4 class="font-semibold text-gray-900">ONDC Credit Services</h4>
@@ -940,9 +969,38 @@
       </div>
     </div>
 
+
     <!-- Simple Menu Items -->
     <a href="who-we-serve.php" target="_blank" class="block py-3 px-2 text-gray-700 font-medium border-b border-gray-100">Who We Serve</a>
-    <a href="about-us.php" target="_blank" class="block py-3 px-2 text-gray-700 font-medium border-b border-gray-100">About us</a>
+    <div class="mobile-menu-group border-b border-gray-100 pb-2">
+      <button class="mobile-menu-toggle w-full flex justify-between items-center py-3 px-2 text-gray-700 font-medium">
+        <span>Company</span>
+        <i class="fas fa-chevron-down text-xs transition-transform duration-200"></i>
+      </button>
+      <div class="mobile-submenu hidden pl-4">
+        <div class="space-y-3 py-2">
+          <a href="about-us.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
+            <h4 class="text-gray-900">About Us</h4>
+          </a>
+          <a href="careers.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
+            <h4 class="text-gray-900">Career</h4>
+          </a>
+          <!-- <a href="ondc-credit-in-a-box.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
+            <h4 class="text-gray-900">Blogs</h4>
+          </a>
+          <a href="ondc-credit-in-a-box.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
+            <h4 class="text-gray-900">Case Study</h4>
+          </a>
+          <a href="ondc-credit-in-a-box.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
+            <h4 class="text-gray-900">Testimonials</h4>
+          </a>
+          <a href="ondc-credit-in-a-box.php" target="_blank" class="flex items-start p-2 rounded-lg hover:bg-gray-50">
+            <h4 class="text-gray-900">Media</h4>
+          </a> -->
+        </div>
+      </div>
+    </div>
+
     <a href="contact-us.php" target="_blank" class="block py-3 px-2 text-gray-700 font-medium border-b border-gray-100">Contact Us</a>
   </nav>
 
@@ -954,6 +1012,12 @@
 </div>
 
 <script>
+  // dropdown on hover
+  document.getElementById('dropdownNavbarLink').addEventListener('click', function() {
+    const dropdownMenu = document.getElementById('dropdownNavbar');
+    dropdownMenu.classList.toggle('hidden'); // Toggle the visibility of the dropdown
+  });
+
   // Initialize active tabs for both menus
   function initializeMenu(menuId) {
     const menu = document.querySelector(`#${menuId}`);
@@ -1055,6 +1119,20 @@
       mobileMenu.classList.add('translate-x-full');
       document.body.style.overflow = '';
     }
+  });
+
+  const header = document.getElementById('main-header');
+
+  mobileToggle.addEventListener('click', () => {
+    mobileMenu.classList.remove('translate-x-full');
+    document.body.style.overflow = 'hidden';
+    header.classList.add('hidden'); // hide header
+  });
+
+  mobileClose.addEventListener('click', () => {
+    mobileMenu.classList.add('translate-x-full');
+    document.body.style.overflow = '';
+    header.classList.remove('hidden'); // show header
   });
 </script>
 

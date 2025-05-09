@@ -40,20 +40,18 @@
                             data-aos-once="true">
                             <p class="font-bold text-primary-600 text-sm sm:text-base mb-2" data-aos="fade-up"
                                 data-aos-delay="100" data-aos-duration="800" data-aos-once="true">
-                                ONDC CREDIT SERVICE PLATFORM
+                                BBPS
                             </p>
                             <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500" data-aos="fade-up"
                                 data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
-                                Credit Tailored for Your
-                            </h1>
+                                One-stop bill payment </h1>
                             <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500 mb-3 sm:mb-4"
                                 data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">
-                                Business Growth
-                            </h1>
+                                platform for business growth </h1>
                             <p class="text-gray-700 mb-6 sm:mb-8 text-sm sm:text-base" data-aos="fade-up"
                                 data-aos-delay="400" data-aos-duration="800" data-aos-once="true">
-                                Empowering your business to provide credit on the ONDC platform.
-                            </p>
+                                Register for BBPS services to provide bill payment solutions. <br> Help customers pay
+                                utility bills, education fees, and more <br> through a single platform. </p>
 
                             <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
@@ -101,192 +99,264 @@
             </div>
         </section>
 
-     
+        <section>
+            <div class="w-full bg-primary-500 py-12">
+                <div class="max-w-7xl mx-auto px-4">
+                    <!-- Desktop View -->
+                    <div class="hidden md:flex flex-row items-center justify-between text-white" data-aos="fade-up"
+                        data-aos-delay="100">
+                        <div class="font-bold text-base whitespace-nowrap">
+                            Why choose us?
+                        </div>
 
-   
+                        <div class="flex items-center justify-end space-x-6 text-sm">
+                            <div class="text-white/50">|</div>
+                            <div class="flex items-center">
+                                <span class="whitespace-nowrap">Utility Bill Payments </span>
+                            </div>
+                            <div class="text-white/50">|</div>
+                            <div class="flex items-center">
+                                <span class="whitespace-nowrap">Education Fees</span>
+                            </div>
+                            <div class="text-white/50">|</div>
+                            <div class="flex items-center">
+                                <span class="whitespace-nowrap">Insurance Premiums</span>
+                            </div>
+                            <div class="text-white/50">|</div>
+                            <div class="flex items-center">
+                                <span class="whitespace-nowrap">Mobile/DTH Recharge</span>
+                            </div>
+                            <div class="text-white/50">|</div>
 
-
-            <section class="flex flex-col md:flex-row">
-                <!-- Left Side - Navy Blue Panel -->
-                <div class="bg-primary-800 text-white p-8 flex flex-col justify-center md:w-1/4">
-                    <h2 class="text-4xl font-bold mb-2">Key</h2>
-                    <h2 class="text-4xl font-bold">Features</h2>
-
-                    <div class="mt-6 text-3xl font-bold origin-left hidden md:block">
-                        <img src="assets/images/bbps/bharat.png" alt="Dashboard" class="w-24 h-auto" />
-                        <!-- Added w-24 class to make image smaller -->
+                            <div class="flex items-center">
+                                <span class="whitespace-nowrap">Property Tax</span>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <!-- Right Side - Coral Panel with Grid -->
-                <div class="bg-secondary-500 p-8 md:w-3/4">
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        <!-- Bill Payments -->
-                        <div class="mb-6">
-                            <div class="flex items-center mb-4">
-                                <img src="assets/images/bbps/icon1.svg" alt="Dashboard" />
-                            </div>
-                            <h3 class="text-xl font-bold text-white mb-2">Bill Payments</h3>
-                            <p class="text-white">Let customers pay electricity, water,</br> gas, and other utility bills
-                                instantly.</br> Our BBPS platform ensures secure </br>transactions with real-time
-                                </br>confirmations.</p>
+                    <!-- Mobile View -->
+                    <div class="md:hidden" data-aos="fade-up" data-aos-delay="200">
+                        <div class="font-bold text-sm text-white mb-4">
+                            Why choose us?
                         </div>
 
-                        <!-- Education Fees -->
-                        <div class="mb-6">
-                            <div class="flex items-center mb-4">
-                                <img src="assets/images/bbps/icon2.svg" alt="Dashboard" />
+                        <div class="scroll-snap-container overflow-x-scroll pb-2 w-full">
+                            <div class="flex items-center space-x-4 text-sm text-white min-w-max px-4">
+                                <span>Utility Bill Payments </span>
+                                <span class="text-white/50">|</span>
+                                <span>Education Fees</span>
+                                <span class="text-white/50">|</span>
+                                <span>Insurance Premiums</span>
+                                <span class="text-white/50">|</span>
+                                <span>Mobile/DTH Recharge</span>
+                                <span class="text-white/50">|</span>
+                                <span>Property Tax</span>
                             </div>
-                            <h3 class="text-xl font-bold text-white mb-2">Education Fees</h3>
-                            <p class="text-white">Enable parents to pay school and </br>college fees directly.
-                                Simplified</br> interface makes education fee </br>payments hassle-free.</p>
-                        </div>
-
-                        <!-- Tax Payments -->
-                        <div class="mb-6">
-                            <div class="flex items-center mb-4">
-                                <img src="assets/images/bbps/icon3.svg" alt="Dashboard" />
-                            </div>
-                            <h3 class="text-xl font-bold text-white mb-2">Tax Payments</h3>
-                            <p class="text-white">Provide property tax and other</br> municipal payment services. Quick
-                                </br>processing with digital receipts.</p>
-                        </div>
-
-                        <!-- Insurance Premiums -->
-                        <div class="mb-6">
-                            <div class="flex items-center mb-4">
-                                <img src="assets/images/bbps/icon4.svg" alt="Dashboard" />
-                            </div>
-                            <h3 class="text-xl font-bold text-white mb-2">Insurance Premiums</h3>
-                            <p class="text-white">Help customers manage insurance</br> premium payments. Support for life,
-                                </br>health, and motor insurance.</p>
-                        </div>
-
-                        <!-- Mobile/DTH Services -->
-                        <div class="mb-6">
-                            <div class="flex items-center mb-4">
-                                <img src="assets/images/bbps/icon5.svg" alt="Dashboard" />
-                            </div>
-                            <h3 class="text-xl font-bold text-white mb-2">Mobile/DTH Services</h3>
-                            <p class="text-white">Easy recharge options for prepaid</br> mobile and DTH services. Multiple
-                                </br>operator support across India.</p>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
+
+
+
+
+        <section class="flex flex-col md:flex-row">
+            <!-- Left Side - Navy Blue Panel -->
+            <div class="bg-primary-800 text-white p-8 flex flex-col justify-center md:w-1/4">
+                <h2 class="text-4xl font-bold mb-2">Key</h2>
+                <h2 class="text-4xl font-bold">Features</h2>
+
+                <div class="mt-6 text-3xl font-bold origin-left hidden md:block">
+                    <img src="assets/images/bbps/bharat.png" alt="Dashboard" class="w-24 h-auto" />
+                    <!-- Added w-24 class to make image smaller -->
+                </div>
+            </div>
+
+            <!-- Right Side - Coral Panel with Grid -->
+            <div class="bg-secondary-500 p-8 md:w-3/4">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Bill Payments -->
+                    <div class="mb-6">
+                        <div class="flex items-center mb-4">
+                            <img src="assets/images/bbps/icon1.svg" alt="Dashboard" />
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Bill Payments</h3>
+                        <p class="text-white">Let customers pay electricity, water,</br> gas, and other utility bills
+                            instantly.</br> Our BBPS platform ensures secure </br>transactions with real-time
+                            </br>confirmations.</p>
+                    </div>
+
+                    <!-- Education Fees -->
+                    <div class="mb-6">
+                        <div class="flex items-center mb-4">
+                            <img src="assets/images/bbps/icon2.svg" alt="Dashboard" />
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Education Fees</h3>
+                        <p class="text-white">Enable parents to pay school and </br>college fees directly.
+                            Simplified</br> interface makes education fee </br>payments hassle-free.</p>
+                    </div>
+
+                    <!-- Tax Payments -->
+                    <div class="mb-6">
+                        <div class="flex items-center mb-4">
+                            <img src="assets/images/bbps/icon3.svg" alt="Dashboard" />
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Tax Payments</h3>
+                        <p class="text-white">Provide property tax and other</br> municipal payment services. Quick
+                            </br>processing with digital receipts.</p>
+                    </div>
+
+                    <!-- Insurance Premiums -->
+                    <div class="mb-6">
+                        <div class="flex items-center mb-4">
+                            <img src="assets/images/bbps/icon4.svg" alt="Dashboard" />
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Insurance Premiums</h3>
+                        <p class="text-white">Help customers manage insurance</br> premium payments. Support for life,
+                            </br>health, and motor insurance.</p>
+                    </div>
+
+                    <!-- Mobile/DTH Services -->
+                    <div class="mb-6">
+                        <div class="flex items-center mb-4">
+                            <img src="assets/images/bbps/icon5.svg" alt="Dashboard" />
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Mobile/DTH Services</h3>
+                        <p class="text-white">Easy recharge options for prepaid</br> mobile and DTH services. Multiple
+                            </br>operator support across India.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
 
 
         <!-- Services Section with White Background -->
         <section class="bg-white py-10 px-4" data-aos="fade" data-aos-duration="800" data-aos-once="true">
-    <div class="max-w-6xl mx-auto">
-        <div class="flex flex-col md:flex-row">
-            <!-- Left Column - Services List -->
-            <div class="w-full md:w-1/2 pr-0 md:pr-8 mb-4 mt-4 md:mb-0" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
-                <h2 class="text-4xl font-bold text-primary-500 mb-8" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-once="true">
-                    Benefits for BBPS Agents:
-                </h2>
+            <div class="max-w-6xl mx-auto">
+                <div class="flex flex-col md:flex-row">
+                    <!-- Left Column - Services List -->
+                    <div class="w-full md:w-1/2 pr-0 md:pr-8 mb-4 mt-4 md:mb-0" data-aos="fade-right"
+                        data-aos-duration="1000" data-aos-once="true">
+                        <h2 class="text-4xl font-bold text-primary-500 mb-8" data-aos="fade-up" data-aos-delay="100"
+                            data-aos-duration="800" data-aos-once="true">
+                            Benefits for BBPS Agents:
+                        </h2>
 
-                <ul class="space-y-4">
-                    <!-- Service Item 1 -->
-                    <li class="flex items-start" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600" data-aos-once="true">
-                        <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center mt-1" 
-                             data-aos="zoom-in" data-aos-delay="250" data-aos-duration="400" data-aos-once="true">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
-                                <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </div>
-                        <span class="ml-3 text-primary-500">Low investment, high returns</span>
-                    </li>
+                        <ul class="space-y-4">
+                            <!-- Service Item 1 -->
+                            <li class="flex items-start" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600"
+                                data-aos-once="true">
+                                <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center mt-1"
+                                    data-aos="zoom-in" data-aos-delay="250" data-aos-duration="400"
+                                    data-aos-once="true">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                        <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
+                                        <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <span class="ml-3 text-primary-500">Low investment, high returns</span>
+                            </li>
 
-                    <!-- Service Item 2 -->
-                    <li class="flex items-start" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600" data-aos-once="true">
-                        <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center mt-1"
-                             data-aos="zoom-in" data-aos-delay="350" data-aos-duration="400" data-aos-once="true">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
-                                <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </div>
-                        <span class="ml-3 text-primary-500">Simple smartphone/computer setup</span>
-                    </li>
+                            <!-- Service Item 2 -->
+                            <li class="flex items-start" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600"
+                                data-aos-once="true">
+                                <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center mt-1"
+                                    data-aos="zoom-in" data-aos-delay="350" data-aos-duration="400"
+                                    data-aos-once="true">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                        <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
+                                        <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <span class="ml-3 text-primary-500">Simple smartphone/computer setup</span>
+                            </li>
 
-                    <!-- Service Item 3 -->
-                    <li class="flex items-start" data-aos="fade-up" data-aos-delay="400" data-aos-duration="600" data-aos-once="true">
-                        <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center mt-1"
-                             data-aos="zoom-in" data-aos-delay="450" data-aos-duration="400" data-aos-once="true">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
-                                <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </div>
-                        <span class="ml-3 text-primary-500">Attractive commission per transaction</span>
-                    </li>
+                            <!-- Service Item 3 -->
+                            <li class="flex items-start" data-aos="fade-up" data-aos-delay="400" data-aos-duration="600"
+                                data-aos-once="true">
+                                <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center mt-1"
+                                    data-aos="zoom-in" data-aos-delay="450" data-aos-duration="400"
+                                    data-aos-once="true">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                        <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
+                                        <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <span class="ml-3 text-primary-500">Attractive commission per transaction</span>
+                            </li>
 
-                    <!-- Service Item 4 -->
-                    <li class="flex items-start" data-aos="fade-up" data-aos-delay="500" data-aos-duration="600" data-aos-once="true">
-                        <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center mt-1"
-                             data-aos="zoom-in" data-aos-delay="550" data-aos-duration="400" data-aos-once="true">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
-                                <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </div>
-                        <span class="ml-3 text-primary-500">Quick processing under 60 seconds</span>
-                    </li>
+                            <!-- Service Item 4 -->
+                            <li class="flex items-start" data-aos="fade-up" data-aos-delay="500" data-aos-duration="600"
+                                data-aos-once="true">
+                                <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center mt-1"
+                                    data-aos="zoom-in" data-aos-delay="550" data-aos-duration="400"
+                                    data-aos-once="true">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                        <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
+                                        <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <span class="ml-3 text-primary-500">Quick processing under 60 seconds</span>
+                            </li>
 
-                    <!-- Service Item 5 -->
-                    <li class="flex items-start" data-aos="fade-up" data-aos-delay="600" data-aos-duration="600" data-aos-once="true">
-                        <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center mt-1"
-                             data-aos="zoom-in" data-aos-delay="650" data-aos-duration="400" data-aos-once="true">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
-                                <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </div>
-                        <span class="ml-3 text-primary-500">Growing customer base</span>
-                    </li>
-                    
-                    <!-- Service Item 6 -->
-                    <li class="flex items-start" data-aos="fade-up" data-aos-delay="700" data-aos-duration="600" data-aos-once="true">
-                        <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center mt-1"
-                             data-aos="zoom-in" data-aos-delay="750" data-aos-duration="400" data-aos-once="true">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
-                                <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </div>
-                        <span class="ml-3 text-primary-500">Regular income through bill payments</span>
-                    </li>
-                </ul>
-            </div>
+                            <!-- Service Item 5 -->
+                            <li class="flex items-start" data-aos="fade-up" data-aos-delay="600" data-aos-duration="600"
+                                data-aos-once="true">
+                                <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center mt-1"
+                                    data-aos="zoom-in" data-aos-delay="650" data-aos-duration="400"
+                                    data-aos-once="true">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                        <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
+                                        <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <span class="ml-3 text-primary-500">Growing customer base</span>
+                            </li>
 
-            <!-- Right Column - Image -->
-            <div class="w-full md:w-1/2" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
-                <div class="p-8 rounded-xl">
-                    <img src="assets/images/bbps/benefits.png" alt="BBPS Agent Benefits" class="w-full h-auto" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
+                            <!-- Service Item 6 -->
+                            <li class="flex items-start" data-aos="fade-up" data-aos-delay="700" data-aos-duration="600"
+                                data-aos-once="true">
+                                <div class="flex-shrink-0 h-6 w-6 rounded-full flex items-center justify-center mt-1"
+                                    data-aos="zoom-in" data-aos-delay="750" data-aos-duration="400"
+                                    data-aos-once="true">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                        <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
+                                        <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <span class="ml-3 text-primary-500">Regular income through bill payments</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Right Column - Image -->
+                    <div class="w-full md:w-1/2" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true">
+                        <div class="p-8 rounded-xl">
+                            <img src="assets/images/bbps/benefits.png" alt="BBPS Agent Benefits" class="w-full h-auto"
+                                data-aos="zoom-in" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
+        </section>
 
 
- 
+
 
 
         <!-- FAQ Section -->
