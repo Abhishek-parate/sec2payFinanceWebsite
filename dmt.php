@@ -22,24 +22,44 @@
 
 
     <main>
-        <!-- dmt Section -->
-        <section class="bg-white">
-    <div class="max-w-7xl mx-auto md:py-12 pt-12">
-        <div class="rounded-xl overflow-hidden">
-            <div class="grid grid-cols-1 md:grid-cols-2">
-                <!-- Left Content - Services List -->
-                <div class="px-8 pt-8 md:px-12 md:pt-12 lg:px-16 lg:pt-16" data-aos="fade-right" data-aos-duration="1000">
+
+<section class="relative overflow-hidden bg-white py-6 sm:py-4 md:py-4">
+
+
+            <!-- Background Gradients - Hidden on mobile -->
+            <div class="absolute inset-0 overflow-hidden pointer-events-none hidden md:block">
+                <!-- Top-left Circular Gradient (Bluish) -->
+                <div class="absolute top-[5%] -left-[25%] w-[50%] h-[100%] rounded-full opacity-50"
+                    style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 10%, rgba(222, 242, 255, 0.4) 50%, rgba(255, 255, 255, 0) 60%);"
+                    data-aos="fade" data-aos-duration="1500" data-aos-once="true">
+                </div>
+
+                <!-- Top-right Circular Gradient (Pinkish) -->
+                <div class="absolute top-0 -right-[25%] w-[50%] h-[70%] rounded-full opacity-50"
+                    style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 10%, rgba(242, 219, 219, 0.4) 50%, rgba(255, 255, 255, 0) 60%);"
+                    data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+                </div>
+            </div>
+
+
+            <!-- Top-right Circular Gradient (Pinkish) - Hidden on mobile -->
+
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 md:py-12 relative z-10">
+                <div class="rounded-xl overflow-hidden">
+                    <div class="flex flex-col md:flex-row md:items-center">
+                        <!-- Content - Always First -->
+                        <div class="px-8 pt-8 md:px-12 md:pt-12 lg:px-16 lg:pt-16" data-aos="fade-right" data-aos-duration="1000">
                     <p class="font-semi-bolder text-primary-600 font-bold">DMT - Domestic Money transfer</p>
                     <h1 class="text-2xl md:text-4xl font-bold text-secondary-500">Money Transfer</h1>
                     <h1 class="text-2xl md:text-4xl font-bold text-secondary-500 mb-4">Platform</h1>
                     <p class="text-black mb-5">Transform your store into a secure money transfer hub with our DMT platform.</p>
 
                     <a href="https://app.sec2pay.in/?src=website" target="_blank"
-                        class="inline-flex items-center justify-center px-5 py-3 md:mb-4 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
+                        class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md">
                         Book A Demo
                     </a>
 
-                    <div class="flex items-center gap-2 border-2 md:mt-8 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm">
+                    <div class="flex items-center gap-2 border-2 md:mt-4 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm">
                         <div class="flex -space-x-2">
                             <img src="https://randomuser.me/api/portraits/men/1.jpg" class="w-6 h-6 sm:w-8 sm:h-8 md:w-8 md:h-8 rounded-full border-2 border-white">
                             <img src="https://randomuser.me/api/portraits/women/2.jpg" class="w-6 h-6 sm:w-8 sm:h-8 md:w-8 md:h-8 rounded-full border-2 border-white">
@@ -50,18 +70,22 @@
                     </div>
                 </div>
 
-                <!-- Right Content - Image and Features -->
-                <div class="relative max-w-5xl mx-auto" data-aos="fade-left" data-aos-duration="1000">
-                    <!-- Main Dashboard Image -->
-                    <div class="relative z-20">
-                        <img src="assets/images/dmt/dmt-hero.png" alt="Dashboard" class="h-auto" />
-                        <div class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent"></div>
+                        <!-- Image - Always Second -->
+                         <div class="w-full md:w-1/2 order-2" data-aos="fade-left" data-aos-duration="1200"
+                            data-aos-once="true">
+                            <!-- Main Dashboard Image -->
+                            <div class="relative z-20">
+                                <img src="assets/images/dmt/dmt-hero.png" alt="Dashboard" class="h-auto" />
+                               <div
+                                    class="absolute bottom-0 left-0 right-0 h-2/5 bg-gradient-to-t from-white to-transparent">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
+
+        </section>
 
         <!-- Why Choose Sec2Pay DMT Platform Service -->
         <section class="py-12 mt-6 bg-primary-100">
@@ -165,8 +189,7 @@
 
             <!-- Right side with content -->
             <div class="w-full md:w-1/2 text-center md:text-left">
-                <h2 class="text-3xl font-bold text-secondary-500 mb-6 mt-6">Benefits to DMT Agents</h2>
-
+                <h2 class="text-4xl font-bold text-secondary-500 mb-6 mt-6">Benefits to DMT Agents</h2>
                 <ul class="space-y-5 mb-8">
                     <?php
                     $dmts = [
@@ -198,6 +221,10 @@
                         </li>
                     <?php endforeach; ?>
                 </ul>
+                     <a href="https://app.sec2pay.in/?src=website" target="_blank"
+                        class="inline-flex items-center justify-center px-5 py-3 md:mb-4 bg-primary-700 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
+                        Get Started
+                    </a>
             </div>
         </div>
     </div>
@@ -320,6 +347,95 @@
                 <?php endforeach; ?>
             </div>
         </section>
+
+
+                <!-- FAQ Section -->
+        <section class="py-10 max-w-3xl mx-auto px-4">
+            <!-- Section Title -->
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-primary-800 mb-2">FAQ</h2>
+            </div>
+
+            <!-- FAQ Accordion -->
+            <div class="space-y-4">
+                <?php
+$faqItems = [
+    [
+        'question' => 'What is DMT service?',
+        'answer' => 'DMT (Domestic Money Transfer) is a secure platform that enables money transfers between bank accounts within India. Its designed for retailers to offer quick transfer services to customers.',
+        'isOpen' => true
+    ],
+    [
+        'question' => 'How long does a transfer take?',
+        'answer' => 'You can offer AEPS services once you\'ve completed the registration process and have the necessary equipment set up. This typically includes having a biometric device and completing the verification process.',
+        'isOpen' => false
+    ],
+    [
+        'question' => 'What are the transfer limits?',
+        'answer' => 'To start offering AEPS services, you\'ll need a smartphone or computer, a biometric device for fingerprint authentication, a reliable internet connection, and valid documentation for registration.',
+        'isOpen' => false
+    ]
+];
+        foreach ($faqItems as $index => $item) :
+            $isOpen = $item['isOpen'];
+            $questionColor = $isOpen ? 'text-secondary-500' : 'text-primary-800';
+            $iconColor = $isOpen ? 'text-secondary-500' : 'text-primary-800';
+            $icon = $isOpen ? '−' : '+';
+            $contentClass = $isOpen ? '' : 'hidden';
+        ?>
+                <!-- FAQ Item -->
+                <div class="border-b border-gray-200 pb-4" id="faq-item-<?php echo $index; ?>">
+                    <button class="flex justify-between items-center w-full text-left faq-toggle">
+                        <h3 class="text-lg font-medium <?php echo $questionColor; ?>"><?php echo $item['question']; ?>
+                        </h3>
+                        <span class="<?php echo $iconColor; ?> text-2xl"><?php echo $icon; ?></span>
+                    </button>
+                    <div class="<?php echo $contentClass; ?> mt-3 text-gray-500 faq-content">
+                        <p><?php echo $item['answer']; ?></p>
+                    </div>
+                </div>
+                <?php endforeach; ?>
+            </div>
+        </section>
+
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const accordionButtons = document.querySelectorAll('.faq-toggle');
+
+            accordionButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const content = button.nextElementSibling;
+                    const isHidden = content.classList.contains('hidden');
+                    const plusMinus = button.querySelector('span');
+                    const question = button.querySelector('h3');
+
+                    // Close all
+                    document.querySelectorAll('.faq-content').forEach(div => {
+                        div.classList.add('hidden');
+                    });
+                    document.querySelectorAll('.faq-toggle span').forEach(span => {
+                        span.textContent = '+';
+                        span.classList.remove('text-secondary-500');
+                        span.classList.add('text-primary-800');
+                    });
+                    document.querySelectorAll('.faq-toggle h3').forEach(h3 => {
+                        h3.classList.remove('text-secondary-500');
+                        h3.classList.add('text-primary-800');
+                    });
+
+                    // Open current if it was closed
+                    if (isHidden) {
+                        content.classList.remove('hidden');
+                        plusMinus.textContent = '−';
+                        plusMinus.classList.remove('text-primary-800');
+                        plusMinus.classList.add('text-secondary-500');
+                        question.classList.remove('text-primary-800');
+                        question.classList.add('text-secondary-500');
+                    }
+                });
+            });
+        });
+        </script>
 
 
 

@@ -181,7 +181,7 @@
           <div class="max-w-4xl mx-auto text-center">
             <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 relative z-10"
               data-aos="fade-up" data-aos-delay="200">
-              Join Sec2pay today
+              Join Sec2pay Today
             </h1>
 
             <p class="text-base sm:text-lg text-gray-300  relative z-10" data-aos="fade-up"
@@ -191,7 +191,7 @@
 
             <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
               <p class="text-gray-300 mb-4 sm:mb-6">
-                <a href="#" class="underline hover:text-white transition">
+                <a href="https://app.sec2pay.in/?src=website" target="_blank" class="underline hover:text-white transition">
                   Joining as an organization? Contact Sales
                 </a>
               </p>

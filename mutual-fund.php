@@ -50,11 +50,11 @@
                                 data-aos-delay="100" data-aos-duration="800" data-aos-once="true">
                                 Mutual Fund Platform
                             </p>
-                            <h1 class="text-3xl sm:text-4xl font-bold text-secondary-600" data-aos="fade-up"
+                            <h1 class="text-3xl sm:text-4xl font-bold text-secondary-500" data-aos="fade-up"
                                 data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
                                 Launch Your Mutual Fund
                             </h1>
-                            <h1 class="text-3xl sm:text-4xl font-bold text-secondary-600 mb-3 sm:mb-4"
+                            <h1 class="text-3xl sm:text-4xl font-bold text-secondary-500 mb-3 sm:mb-4"
                                 data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">
                                 Distribution Business
                             </h1>
@@ -64,7 +64,7 @@
                             </p>
 
                             <a href="https://app.sec2pay.in/?src=website" target="_blank"
-                                class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
+                                class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 Start Your Journey
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
@@ -75,7 +75,7 @@
                                 </svg>
                             </a>
 
-                            <div class="mt-6 sm:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                            <div class="mt-6 sm:mt-4 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
                                 data-aos="fade-up" data-aos-delay="600" data-aos-duration="800" data-aos-once="true">
                                 <div class="flex -space-x-2">
                                     <img src="https://randomuser.me/api/portraits/men/1.jpg"

@@ -62,7 +62,7 @@
                     </a>
 
                     <!-- User avatars & count - Improved mobile display -->
-                    <div class="mt-2 md:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                    <div class="mt-2 md:mt-4 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
                         data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                         <div class="flex -space-x-2 ml-1">
                             <img src="https://randomuser.me/api/portraits/men/1.jpg"
@@ -305,7 +305,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                <a href="#"
+                                <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                     class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-md">
                                     Get started
                                 </a>
@@ -391,7 +391,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                <a href="#"
+                                <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                     class="block w-full py-3 px-4 bg-white hover:bg-gray-100 text-secondary-600 font-medium text-center rounded-full transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-md">
                                     Get started
                                 </a>
@@ -469,7 +469,7 @@
 
                             <!-- Price -->
                             <div class="mt-auto">
-                                <a href="#"
+                                <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                     class="block w-full py-3 px-4 bg-secondary-500 hover:bg-secondary-600 text-white font-medium text-center rounded-full transition-all duration-300 transform hover:-translate-y-0.5 hover:shadow-md">
                                     Get started
                                 </a>

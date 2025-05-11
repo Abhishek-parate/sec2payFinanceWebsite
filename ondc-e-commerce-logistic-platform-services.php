@@ -47,19 +47,13 @@
                     <p class="black mb-6 sm:mb-8 text-sm sm:text-base" data-aos="fade-up" data-aos-delay="400"
                         data-aos-duration="800" data-aos-once="true">Empower your business to create seamless shopping</br> experiences for buyers.</p>
 
-                    <a href="contact-us.php"
-                        class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
+                    <a href="https://app.sec2pay.in/?src=website" target="_blank"
+                        class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg"
                         data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                         Start Shopping Today!
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
-                            fill="currentColor">
-                            <path fill-rule="evenodd"
-                                d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
-                                clip-rule="evenodd" />
-                        </svg>
                     </a>
 
-                    <div class="mt-6 md:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                    <div class="mt-6 md:mt-4 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
                         data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                         <div class="flex -space-x-2 ml-1">
                             <img src="https://randomuser.me/api/portraits/men/1.jpg"
@@ -208,7 +202,7 @@
 
             <!-- Right Side Text Content with AOS -->
             <div class="w-full md:w-1/2" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
-                <h3 class="text-4xl font-bold mb-5 text-secondary-600">
+                <h3 class="text-4xl font-bold mb-5 text-secondary-500">
                 Why choose Sec2Pay <br> ONDC Buyer Service:
                 </h3>
                 <ul class="space-y-5 mb-8">

@@ -35,7 +35,7 @@
           <div class="flex flex-col items-center text-center">
             <!-- Left Content - Services List -->
             <div class="p-8 md:p-12 lg:mt-12 lg:max-w-8xl">
-              <h1 class="sm:text-xl lg:text-5xl md:text-3xl  font-bold text-secondary-500">Join Our Mission to Transform Financial Services</h1>
+              <h1 class="sm:text-xl lg:text-5xl md:text-3xl text-2xl  font-bold text-secondary-500">Join Our Mission to Transform Financial Services</h1>
               <h2 class="text-primary-500 lg:text-3xl md:text-2xl my-4 font-bold">We help, We grow, We prosper</h2>
               <p class="mb-8">At Sec2Pay, we're bringing financial services closer to millions across India. <br> As we grow, we're looking for passionate individuals who want to make a real <br> difference in how businesses serve their communities.</p>
 

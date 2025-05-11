@@ -47,13 +47,13 @@
           <h1 class="text-4xl font-bold text-secondary-500 mb-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" data-aos-once="true">Services</h1>
           <p class="text-black mb-8" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" data-aos-once="true">Secure your customers' future with our </br>comprehensive Life Insurance platform</p>
           <a href="https://app.sec2pay.in/?src=website" target="_blank"
-            class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4"
+            class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
             data-aos="zoom-in" data-aos-duration="800" data-aos-delay="500" data-aos-once="true">
             Book A Demo!
           </a>
           
           <div
-            class="mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+            class="mt-4 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
             data-aos="fade-up" data-aos-duration="800" data-aos-delay="600" data-aos-once="true">
             <div class="flex -space-x-2">
               <img src="https://randomuser.me/api/portraits/men/1.jpg"
@@ -72,7 +72,7 @@
         <!-- Right Content - Image -->
         <div class="relative" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="300" data-aos-once="true">
           <!-- Main Dashboard Image with controlled height -->
-          <div class="relative z-20">
+          <div class="relative z-20 mt-6">
             <img 
               src="assets/images/life-insurance/banner.png" 
               alt="Dashboard" 
@@ -224,7 +224,7 @@
                             </div>
                         </div>
                         <div class="w-full md:w-1/2" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200" data-aos-once="true">
-                            <h3 class="text-2xl md:text-4xl font-bold mb-8 text-secondary-600" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">Benefits for Partners:</h3>
+                            <h3 class="text-2xl md:text-4xl font-bold mb-8 text-secondary-500" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">Benefits for Partners:</h3>
                             <ul class="space-y-5 mb-4">
                                 <?php
                                 $lifePlans = [
@@ -393,7 +393,7 @@
             <div class="max-w-4xl mx-auto text-center">
                 <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 relative z-10"
                     data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true">
-                    Join Sec2pay today
+                    Join Sec2pay Today
                 </h1>
 
                 <p class="text-base sm:text-lg text-gray-300 mb-2 sm:mb-2 relative z-10" 
@@ -403,7 +403,7 @@
 
                 <div class="relative z-10" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000" data-aos-once="true">
                     <p class="text-gray-300 mb-4 sm:mb-6">
-                        <a href="contact-us.php" class="underline hover:text-white transition">
+                        <a href="https://app.sec2pay.in/?src=website" target="_blank" class="underline hover:text-white transition">
                             Joining as an organization? Contact Sales
                         </a>
                     </p>

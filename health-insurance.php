@@ -23,38 +23,40 @@
 
   <main class="overflow-hidden">
 
-<!-- hero section -->
-<section class="bg-white relative overflow-hidden" data-aos="fade" data-aos-duration="1000" data-aos-once="true">
-  <!-- Left circular gradient - Positioned behind all content with negative z-index -->
-  <div class="absolute top-[10%] -left-[40%] md:-left-[30%] w-[90%] md:w-[50%] h-[80%] rounded-full -z-10"
-    style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
-    data-aos="fade-in" data-aos-duration="1500" data-aos-once="true">
-  </div>
-  
-  <!-- Right circular gradient - Positioned behind all content with negative z-index -->
-  <div class="absolute top-[10%] -right-[40%] md:-right-[30%] w-[90%] md:w-[50%] h-[80%] rounded-full -z-10"
-    style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
-    data-aos="fade-in" data-aos-duration="1500" data-aos-delay="300" data-aos-once="true">
-  </div>
-  
-  <div class="max-w-7xl mx-auto py-12 relative">
-    <div class="rounded-xl overflow-hidden relative">
-      <div class="grid grid-cols-1 md:grid-cols-2">
-        <!-- Left Content - Services List -->
-        <div class="p-8 md:p-12 mt-12 relative" data-aos="fade-right" data-aos-duration="1200" data-aos-once="true">
-          <p class="font-semi-bolder text-primary-600 font-bold" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100" data-aos-once="true">Health Insurance</p>
-          <h1 class="text-4xl font-bold text-secondary-600" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-once="true">Secure Your Customers' Future</h1>
-          <h1 class="text-4xl font-bold text-secondary-600 mb-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" data-aos-once="true">With Digital Health Insurance Solutions</h1>
-          <p class="text-gray-500 mb-8" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" data-aos-once="true">Transform your business into a health insurance hub. Our platform lets you offer comprehensive health coverage solutions to your customers.</p>
+  <section class="relative overflow-hidden bg-white py-6 sm:py-8 md:py-10">
+
+
+            <div class="hidden sm:block absolute top-[5%] -left-[25%] w-[50%] h-[100%] rounded-full md:block"
+                style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
+                data-aos="fade" data-aos-duration="1500" data-aos-once="true">
+            </div>
+
+            <!-- Top-right Circular Gradient (Pinkish) - Hidden on mobile -->
+            <div class="hidden sm:block absolute -top-[20%] -right-[20%] w-[50%] h-[100%] rounded-full hidden md:block"
+                style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
+                data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+            </div>
+            <!-- Top-right Circular Gradient (Pinkish) - Hidden on mobile -->
+
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 md:pt-12 relative z-10">
+                <div class="rounded-xl overflow-hidden">
+                    <div class="flex flex-col md:flex-row md:items-center">
+                        <!-- Content - Always First -->
+                        <div class="p-4 md:p-8 lg:p-12 pt-8" data-aos="fade-right" data-aos-duration="1000"
+                            data-aos-once="true">
+                           <p class="font-semi-bolder text-primary-600 font-bold" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100" data-aos-once="true">Health Insurance</p>
+          <h1 class="text-3xl font-bold text-secondary-500" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200" data-aos-once="true">Secure Your Customers' Future</h1>
+          <h1 class="text-3xl font-bold text-secondary-500 mb-4" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300" data-aos-once="true">With Digital Health Insurance Solutions</h1>
+          <p class="text-black mb-8" data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" data-aos-once="true">Transform your business into a health insurance hub. Our platform lets you offer comprehensive health coverage solutions to your customers.</p>
           
           <a href="https://app.sec2pay.in/?src=website" target="_blank"
-            class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4"
+            class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
             data-aos="zoom-in" data-aos-duration="800" data-aos-delay="500" data-aos-once="true">
             Start Your Insurance Journey
           </a>
           
           <div
-            class="mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+            class="mt-4 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
             data-aos="fade-up" data-aos-duration="800" data-aos-delay="600" data-aos-once="true">
             <div class="flex -space-x-2">
               <img src="https://randomuser.me/api/portraits/men/1.jpg"
@@ -68,48 +70,22 @@
             </div>
             <span class="text-gray-600 text-sm">1 Lac+ Retail partners across India</span>
           </div>
-        </div>
-        
-        <!-- Right Content - Image -->
-        <div class="relative max-w-5xl mx-auto" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="300" data-aos-once="true">
-          <!-- Main Dashboard Image -->
-          <div class="relative z-0">
-            <img src="assets/images/health-insurance/banner.png" alt="Dashboard" class="h-auto" />
-            <div class="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-white to-transparent">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+                        </div>
 
-<style>
-  /* Additional styling to ensure gradient patches appear behind content in all browsers */
-  @supports not (z-index: -1) {
-    section.relative:before,
-    section.relative:after {
-      position: absolute;
-      content: '';
-      top: 10%;
-      height: 80%;
-      width: 90%;
-      border-radius: 50%;
-      pointer-events: none;
-    }
-    
-    section.relative:before {
-      left: -40%;
-      background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);
-    }
-    
-    section.relative:after {
-      right: -40%;
-      background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 50%);
-    }
-  }
-</style>
-<!-- hero section ends -->
+                        <div class="relative max-w-5xl mx-auto  ">
+                            <!-- Main Dashboard Image -->
+                            <div class="relative z-20 w-96 md:w-[80%] lg:w-[90%] mx-auto">
+                                <img src="assets/images/health-insurance/banner.png" alt="Dashboard" class="h-auto" />
+                                <div
+                                    class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
 
 <!-- E-Governance Platform Services Section -->
 <section class="bg-secondary-100 py-10 px-4 md:px-24" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">

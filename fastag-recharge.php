@@ -59,7 +59,7 @@
                             </p>
 
                             <a href="https://app.sec2pay.in/?src=website" target="_blank"
-                                class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
+                                class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 Get started now
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
@@ -70,7 +70,7 @@
                                 </svg>
                             </a>
 
-                            <div class="mt-6 md:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                            <div class="mt-6 md:mt-4 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 <div class="flex -space-x-2 ml-1">
                                     <img src="https://randomuser.me/api/portraits/men/1.jpg"
@@ -126,7 +126,7 @@
                         <p class="text-grey-500 pt-2">
                             <span data-aos="fade-up" data-aos-delay="200" data-aos-duration="500"
                                 data-aos-once="true">Instant Recharge Quick top-up options for all bank
-                                FASTags</span><br>
+                                FASTags</span>
                             <span data-aos="fade-up" data-aos-delay="300" data-aos-duration="500"
                                 data-aos-once="true">Real-time balance updates</span><br>
                             <span data-aos="fade-up" data-aos-delay="400" data-aos-duration="500"
@@ -162,7 +162,7 @@
                         </div>
                         <p class="text-grey-500 pt-2">
                             <span data-aos="fade-up" data-aos-delay="400" data-aos-duration="500"
-                                data-aos-once="true">Multi-Bank Support Recharge any bank's FASTag</span><br>
+                                data-aos-once="true">Multi-Bank Support Recharge any bank's FASTag</span>
                             <span data-aos="fade-up" data-aos-delay="500" data-aos-duration="500"
                                 data-aos-once="true">Single portal for all transactions</span><br>
                             <span data-aos="fade-up" data-aos-delay="600" data-aos-duration="500"
@@ -189,7 +189,7 @@
                     <!-- Right side with content -->
                     <div class="w-full md:w-1/2 order-2 md:order-2" data-aos="fade-left" data-aos-duration="1000"
                         data-aos-once="true">
-                        <h2 class="text-3xl font-bold text-secondary-600 mb-6" data-aos="fade-up" data-aos-delay="100"
+                        <h2 class="text-3xl font-bold text-secondary-500 mb-6" data-aos="fade-up" data-aos-delay="100"
                             data-aos-duration="800" data-aos-once="true">Benefits for FASTag Agents</h2>
 
                         <ul class="space-y-5 mb-8">
@@ -326,13 +326,8 @@
                 'isOpen' => true
             ],
             [
-                'question' => 'How long does it take to process a FASTag recharge? ',
-                'answer' => 'You can offer AEPS services once you\'ve completed the registration process and have the necessary equipment set up. This typically includes having a biometric device and completing the verification process.',
-                'isOpen' => false
-            ],
-            [
-                'question' => 'Which banks FASTags can I recharge? ',
-                'answer' => 'To start offering AEPS services, you\'ll need a smartphone or computer, a biometric device for fingerprint authentication, a reliable internet connection, and valid documentation for registration.',
+                'question' => 'How long does it take to process a FASTag recharge?',
+                'answer' => 'The recharge happens instantly once payment is confirmed. Your customers can use their updated FASTag balance right away.',
                 'isOpen' => false
             ]
         ];

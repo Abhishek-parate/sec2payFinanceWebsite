@@ -28,7 +28,7 @@
     <div class="max-w-2xl mx-auto">
         <!-- Form Header with Animation -->
         <div class="text-center mb-8" data-aos="fade-down" data-aos-duration="800">
-            <h2 class="text-4xl font-bold text-secondary-500 mb-2">Let's Talk Business</h2>
+            <h2 class="text-4xl font-bold text-secondary-500 mb-2 mt-12">Let's Talk Business</h2>
             <p class="text-gray-800 text-lg" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">Get Started with Digital Financial Services</p>
         </div>
         <form id="contactForm" method="POST" action="submit_form.php" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
@@ -128,7 +128,7 @@
             <div class="max-w-4xl mx-auto text-center">
                 <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 relative z-10"
                     data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
-                    Join Sec2pay today
+                    Join Sec2pay Today
                 </h1>
 
                 <p class="text-base sm:text-lg text-gray-300 relative z-10" data-aos="fade-up"
@@ -138,7 +138,7 @@
 
                 <div class="relative z-10" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1000">
                     <p class="text-gray-300 mb-4 sm:mb-6" data-aos="fade-up" data-aos-delay="800" data-aos-duration="800">
-                        <a href="contact-us.php" class="underline hover:text-white transition">
+                        <a href="https://app.sec2pay.in/?src=website" target="_blank" class="underline hover:text-white transition">
                             Joining as an organization? Contact Sales
                         </a>
                     </p>

@@ -59,7 +59,7 @@
                             </p>
 
                             <a href="https://app.sec2pay.in/?src=website" target="_blank"
-                                class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-6 sm:mb-8"
+                                class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-6 sm:mb-4"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 Start Your Journey
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
@@ -426,8 +426,6 @@ $faqItems = [
         'isOpen' => false
     ]
 ];
-
-
         foreach ($faqItems as $index => $item) :
             $isOpen = $item['isOpen'];
             $questionColor = $isOpen ? 'text-secondary-500' : 'text-primary-800';

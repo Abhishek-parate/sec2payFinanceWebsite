@@ -65,7 +65,7 @@
                                 </svg>
                             </a>
 
-                            <div class="mt-6 md:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                            <div class="flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 <div class="flex -space-x-2 ml-1">
                                     <img src="https://randomuser.me/api/portraits/men/1.jpg"

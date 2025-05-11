@@ -24,12 +24,22 @@
     <main class="overflow-hidden">
         <!-- hero section -->
 
-        <section class="relative overflow-hidden bg-white py-6 sm:py-8 md:py-10">
+        <section class="relative overflow-hidden bg-white py-6 sm:py-8 md:py-10 mt-6">
 
 
-            <div class="hidden sm:block absolute top-[5%] -left-[25%] w-[50%] h-[100%] rounded-full md:block"
-                style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
-                data-aos="fade" data-aos-duration="1500" data-aos-once="true">
+            <!-- Background Gradients - Hidden on mobile -->
+            <div class="absolute inset-0 overflow-hidden pointer-events-none hidden md:block">
+                <!-- Top-left Circular Gradient (Bluish) -->
+                <div class="absolute top-[5%] -left-[25%] w-[50%] h-[100%] rounded-full opacity-50"
+                    style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 10%, rgba(222, 242, 255, 0.4) 50%, rgba(255, 255, 255, 0) 60%);"
+                    data-aos="fade" data-aos-duration="1500" data-aos-once="true">
+                </div>
+
+                <!-- Top-right Circular Gradient (Pinkish) -->
+                <div class="absolute top-0 -right-[25%] w-[50%] h-[70%] rounded-full opacity-50"
+                    style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 10%, rgba(242, 219, 219, 0.4) 50%, rgba(255, 255, 255, 0) 60%);"
+                    data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+                </div>
             </div>
 
 
@@ -43,11 +53,6 @@
                             data-aos-once="true">
                             <p class="font-bold text-primary-600 text-sm sm:text-base mb-2" data-aos="fade-up"
                                 data-aos-delay="100" data-aos-duration="800" data-aos-once="true">UPI Cash @POS
-
-
-
-
-
                             </p>
                             <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500" data-aos="fade-up"
                                 data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
@@ -66,7 +71,7 @@
                             </p>
 
                             <a href="https://app.sec2pay.in/?src=website" target="_blank"
-                                class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
+                                class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 Start Now
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
@@ -77,7 +82,7 @@
                                 </svg>
                             </a>
 
-                            <div class="mt-6 md:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                            <div class="mt-6 md:mt-4 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 <div class="flex -space-x-2 ml-1">
                                     <img src="https://randomuser.me/api/portraits/men/1.jpg"
@@ -95,12 +100,13 @@
                         </div>
 
                         <!-- Image - Always Second -->
-                        <div class="relative mx-auto px-4 sm:px-0" data-aos="fade-left" data-aos-duration="1200"
+                         <div class="w-full md:w-1/2 order-2" data-aos="fade-left" data-aos-duration="1200"
                             data-aos-once="true">
-                            <!-- Main Image -->
+                            <!-- Main Dashboard Image -->
                             <div class="relative z-20">
-                                <img src="assets/images/upi-cash/banner.png" alt="Dashboard" class="w-full h-96" />
-                                <div
+                                <img src="assets/images/upi-cash/banner.png" alt="Dashboard"
+                                    class="w-full h-auto" />
+                               <div
                                     class="absolute bottom-0 left-0 right-0 h-2/5 bg-gradient-to-t from-white to-transparent">
                                 </div>
                             </div>
@@ -111,176 +117,180 @@
 
         </section>
 
+        <!-- Why Choose Sec2Pay DMT Platform Service -->
+        <section class="py-12 mb-6 mt-6 bg-primary-100">
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-center text-primary-700 mb-8" data-aos="fade-up" data-aos-duration="1000">Why Choose Sec2Pay UPI Cash @POS Platform</h2>
 
-        <!-- hero section ends -->
-
-        <!-- Features & Functions Section -->
-        <section class="bg-primary-100 px-4 md:px-24 mb-12 py-12" data-aos="fade-up">
-            <div class="container mx-auto px-6 text-center">
-                <h2 class="text-3xl font-bold text-primary-700 mb-12" data-aos="fade-up">Why Choose Sec2Pay UPI Cash
-                    @POS Platform</h2>
-
-                <!-- Updated grid with proper centering -->
-                <div class="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Feature Card 1 -->
-                    <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 bg-white"
-                        data-aos="fade-up" data-aos-delay="100">
-                        <div class="p-6 text-left">
-                            <h3 class="text-secondary-600 font-semibold text-xl mb-2">Cash Point</h3>
-                            <p class="text-gray-600 text-sm">
-                                Turn your store into a neighborhood </br>cash point. Let customers withdraw </br>cash
-                                during regular purchases </br>through UPI.
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- Feature Card 2 -->
-                    <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 bg-white"
-                        data-aos="fade-up" data-aos-delay="200">
-                        <div class="p-6 text-left">
-                            <h3 class="text-secondary-600 font-semibold text-xl mb-2">Simple Process </h3>
-                            <p class="text-gray-600 text-sm">
-                                Quick cash withdrawals through </br>existing POS terminals. Customers</br> pay via UPI
-                                and receive cash</br> instantly.
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- Feature Card 3 -->
-                    <div class="border border-gray-200 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 bg-white"
-                        data-aos="fade-up" data-aos-delay="300">
-                        <div class="p-6 text-left">
-                            <h3 class="text-secondary-600 font-semibold text-xl mb-2">Additional Income</h3>
-                            <p class="text-gray-600 text-sm">
-                                Earn commission on each</br> withdrawal transaction while </br>providing an essential
-                                service </br>to your community.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Health Insurance Solutions Section -->
-        <section class="w-full py-12" data-aos="fade" data-aos-duration="800" data-aos-once="true">
-            <div class="max-w-6xl mx-auto px-4">
-                <div class="flex flex-col md:flex-row items-center gap-8">
-                    <!-- Left side with content -->
-                    <div class="w-full md:w-1/2" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
-                        <h2 class="text-3xl font-bold text-secondary-600 mb-6" data-aos="fade-up" data-aos-delay="100"
-                            data-aos-duration="700" data-aos-once="true">Benefits for Merchants</h2>
-
-                        <ul class="space-y-5 mb-8">
-                            <?php
-                    $healthPlans = [
-                        'No additional hardware needed - use your existing POS device',
-                        'Build customer loyalty through added services',
-                        'Regular settlement cycles',
-                        'Simple digital documentation',
-                        'Real-time transaction monitoring',
-                        'Dedicated support team',
-                    ];
-                    
-                    foreach ($healthPlans as $index => $plan) :
-                        $delay = 200 + ($index * 100);
-                    ?>
-                            <li class="flex items-start" data-aos="fade-up" data-aos-delay="<?php echo $delay; ?>"
-                                data-aos-duration="600" data-aos-once="true">
-                                <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                        <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
-                                        <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2"
-                                            stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
-                                </div>
-                                <span class="ml-3 text-primary-500"><?php echo $plan; ?></span>
-                            </li>
-                            <?php endforeach; ?>
-                        </ul>
-                    </div>
-
-                    <!-- Right side with illustration -->
-                    <div class="w-full md:w-1/2" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200"
-                        data-aos-once="true">
-                        <img src="assets/images/upi-cash/simple.png" alt="Benefits Illustration" class="w-full h-auto">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- How It Works Section -->
-        <section class="bg-primary-700 py-10 md:py-16" data-aos="fade" data-aos-duration="800" data-aos-once="true">
-    <div class="container mx-auto px-4 sm:px-6">
-        <!-- Section Title - Centered -->
-        <h2 class="text-3xl md:text-4xl font-bold text-white mb-10 md:mb-16 text-center" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">How It Works</h2>
-
-        <!-- Steps Timeline -->
-        <div class="relative max-w-5xl mx-auto">
-            <!-- Timeline Line -->
-            <div class="hidden md:block absolute top-6 left-0 right-0 h-0.5 border-t-2 border-dashed border-gray-600 z-10"
-                data-aos="fade-right" data-aos-duration="1200" data-aos-delay="300" data-aos-once="true">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Feature 1 - Secure Payments -->
+            <div class="rounded-lg border bg-white p-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <h3 class="text-xl font-semibold text-secondary-500 mb-3">Cash Point</h3>
+                <p class="text-gray-700">
+                    Turn your store into a neighborhood cash point. Let customers withdraw cash during regular purchases through UPI.
+                </p>
             </div>
 
-            <!-- Steps Container - Now centered -->
-            <div class="flex flex-col md:flex-row md:justify-between items-center md:items-start relative z-20">
-                <!-- Step 1 -->
-                <div class="flex flex-col items-center text-center mb-10 md:mb-0 md:w-1/5" 
-                    data-aos="fade-up" data-aos-delay="100" data-aos-duration="700" data-aos-once="true">
-                    <div class="bg-navy-800 border-2 border-red-500 rounded-full h-12 w-12 flex items-center justify-center text-red-500 font-bold mb-4 bg-primary-700"
-                        data-aos="zoom-in" data-aos-delay="400" data-aos-duration="500" data-aos-once="true">
-                        1
-                    </div>
-                    <p class="text-white font-medium">Customer requests<br>cash withdrawal</p>
-                </div>
+            <!-- Feature 2 - Simple Setup -->
+            <div class="rounded-lg border p-6 bg-white" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                <h3 class="text-xl font-semibold text-secondary-500 mb-3">Simple Process</h3>
+                <p class="text-gray-700">
+                    Quick cash withdrawals through existing POS terminals. Customers pay via UPI and receive cash instantly.
+                </p>
+            </div>
 
-                <!-- Step 2 -->
-                <div class="flex flex-col items-center text-center mb-10 md:mb-0 md:w-1/5"
-                    data-aos="fade-up" data-aos-delay="200" data-aos-duration="700" data-aos-once="true">
-                    <div class="bg-navy-800 border-2 border-red-500 rounded-full h-12 w-12 flex items-center justify-center text-red-500 font-bold mb-4"
-                        data-aos="zoom-in" data-aos-delay="600" data-aos-duration="500" data-aos-once="true">
-                        2
-                    </div>
-                    <p class="text-white font-medium">Enter withdrawal<br>amount in POS</p>
-                </div>
-
-                <!-- Step 3 -->
-                <div class="flex flex-col items-center text-center mb-10 md:mb-0 md:w-1/5"
-                    data-aos="fade-up" data-aos-delay="300" data-aos-duration="700" data-aos-once="true">
-                    <div class="bg-navy-800 border-2 border-red-500 rounded-full h-12 w-12 flex items-center justify-center text-red-500 font-bold mb-4"
-                        data-aos="zoom-in" data-aos-delay="800" data-aos-duration="500" data-aos-once="true">
-                        3
-                    </div>
-                    <p class="text-white font-medium">Customer scans QR<br>or enters UPI ID</p>
-                </div>
-
-                <!-- Step 4 -->
-                <div class="flex flex-col items-center text-center mb-10 md:mb-0 md:w-1/5"
-                    data-aos="fade-up" data-aos-delay="400" data-aos-duration="700" data-aos-once="true">
-                    <div class="bg-navy-800 border-2 border-red-500 rounded-full h-12 w-12 flex items-center justify-center text-red-500 font-bold mb-4"
-                        data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="500" data-aos-once="true">
-                        4
-                    </div>
-                    <p class="text-white font-medium">Verify transaction<br>completion</p>
-                </div>
-
-                <!-- Step 5 -->
-                <div class="flex flex-col items-center text-center md:w-1/5"
-                    data-aos="fade-up" data-aos-delay="500" data-aos-duration="700" data-aos-once="true">
-                    <div class="bg-navy-800 border-2 border-red-500 rounded-full h-12 w-12 flex items-center justify-center text-red-500 font-bold mb-4"
-                        data-aos="zoom-in" data-aos-delay="1200" data-aos-duration="500" data-aos-once="true">
-                        5
-                    </div>
-                    <p class="text-white font-medium">Hand over cash<br>to customer</p>
-                </div>
+            <!-- Feature 3 - Quick Settlements -->
+            <div class="rounded-lg border p-6 bg-white" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                <h3 class="text-xl font-semibold text-secondary-500 mb-3">Additional Income</h3>
+                <p class="text-gray-700">
+                    Earn commission on each withdrawal transaction while providing an essential service to your community.
+                </p>
             </div>
         </div>
     </div>
 </section>
 
+        <!-- Life Insurance Solutions Section with AOS Animations -->
+        <section class="w-full py-4" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+
+            <div class="max-w-6xl mx-auto px-4 py-2">
+                <div class="flex flex-col md:flex-row items-center gap-8">
+                    <!-- Image First on Mobile, Second on Desktop -->
+                    <div class="w-full md:w-1/2 order-1 md:order-2" data-aos="fade-left" data-aos-duration="1200"
+                        data-aos-once="true">
+                        <img src="assets/images/upi-cash/merchant.png" alt="Account Features"
+                            class="w-full h-auto">
+                    </div>
+                    <!-- Content Second on Mobile, First on Desktop -->
+                    <div class="w-full md:w-1/2 order-2 md:order-1" data-aos="fade-right" data-aos-duration="1200"
+                        data-aos-once="true">
+                        <h2 class="text-3xl font-bold text-secondary-500 mt-6 mb-4" data-aos="fade-up" data-aos-delay="100"
+                            data-aos-duration="800" data-aos-once="true">Benefits for Merchants</h2>
+                        <ul class="space-y-5 mb-8">
+                            <?php
+                $benefits = [
+                    'No additional hardware needed - use your existing POS device',
+                    'Build customer loyalty through added services',
+                    'Regular settlement cycles',
+                    'Simple digital documentation',
+                    'Real-time transaction monitoring',
+                    'Dedicated support team',
+                ];
+                
+                foreach ($benefits as $index => $benefit) :
+                    $delay = 300 + ($index * 100);
+                ?>
+                            <li class="flex items-start" data-aos="fade-up" data-aos-delay="<?php echo $delay; ?>"
+                                data-aos-duration="800" data-aos-once="true">
+                                <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                                    <!-- SVG icon -->
+                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1700_1996)">
+                                            <path
+                                                d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z"
+                                                fill="#FEEEEC" stroke="#F15744" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705"
+                                                stroke="#F15744" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1700_1996">
+                                                <rect width="19" height="19" fill="white" transform="translate(0 3)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <span class="ml-3 text-primary-500"><?php echo $benefit; ?></span>
+                            </li>
+                            <?php endforeach; ?>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- How It Works Section -->
+        <section class="bg-primary-600 py-10 md:py-16" data-aos="fade" data-aos-duration="800" data-aos-once="true">
+            <div class="container mx-auto px-4 sm:px-6">
+                <!-- Section Title - Centered -->
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-12 pl-12 md:mb-10 text-start" data-aos="fade-up"
+                    data-aos-duration="800" data-aos-once="true">How It Works :</h2>
+
+                <!-- Steps Timeline -->
+                <div class="relative max-w-6xl mx-auto">
+                    <!-- Timeline Line -->
+                    <div class="hidden md:block absolute top-6 left-0 right-0 h-0.5 border-t-2 border-dashed border-white z-10"
+                        data-aos="fade-right" data-aos-duration="1200" data-aos-delay="300" data-aos-once="true">
+                    </div>
+
+                    <!-- Steps Container - Now centered -->
+                    <div class="flex flex-col md:flex-row md:justify-between items-center md:items-start relative z-20">
+                        <!-- Step 1 -->
+                        <div class="flex flex-col items-start text-center mb-12 md:mb-0 md:w-1/5" data-aos="fade-up"
+                            data-aos-delay="100" data-aos-duration="700" data-aos-once="true">
+                            <div class="bg-white border-2 border-secondary-500 rounded-full h-12 w-12 flex items-center justify-center text-secondary-500 font-bold mb-4"
+                                data-aos="zoom-in" data-aos-delay="400" data-aos-duration="500" data-aos-once="true">
+                                1
+                            </div>
+                            <p class="text-white font-medium text-start">Customer requests</br>
+cash withdrawal</p>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="flex flex-col items-start text-center mb-12 md:mb-0 md:w-1/5" data-aos="fade-up"
+                            data-aos-delay="200" data-aos-duration="700" data-aos-once="true">
+                            <div class="bg-white border-2 border-secondary-500 rounded-full h-12 w-12 flex items-center justify-center text-secondary-500 font-bold mb-4"
+                                data-aos="zoom-in" data-aos-delay="600" data-aos-duration="500" data-aos-once="true">
+                                2
+                            </div>
+                            <p class="text-white font-medium text-start">Enter withdrawal amount</br>
+in POS</p>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="flex flex-col items-start text-center mb-12 md:mb-0 md:w-1/5" data-aos="fade-up"
+                            data-aos-delay="300" data-aos-duration="700" data-aos-once="true">
+                            <div class="bg-white border-2 border-secondary-500 rounded-full h-12 w-12 flex items-center justify-center text-secondary-500 font-bold mb-4"
+                                data-aos="zoom-in" data-aos-delay="800" data-aos-duration="500" data-aos-once="true">
+                                3
+                            </div>
+                            <p class="text-white font-medium text-start">Customer scans QR</br>
+or enters UPI ID</p>
+                        </div>
+
+                        <!-- Step 4 -->
+                        <div class="flex flex-col items-start text-center mb-12 md:mb-0 md:w-1/5" data-aos="fade-up"
+                            data-aos-delay="400" data-aos-duration="700" data-aos-once="true">
+                            <div class="bg-white border-2 border-secondary-500 rounded-full h-12 w-12 flex items-center justify-center text-secondary-500 font-bold mb-4"
+                                data-aos="zoom-in" data-aos-delay="1000" data-aos-duration="500" data-aos-once="true">
+                                4
+                            </div>
+                            <p class="text-white font-medium text-start">Verify transaction</br>
+completion</p>
+                        </div>
+
+                        <!-- Step 5 -->
+                        <div class="flex flex-col items-start text-center md:w-1/5" data-aos="fade-up"
+                            data-aos-delay="500" data-aos-duration="700" data-aos-once="true">
+                            <div class="bg-white border-2 border-secondary-500 rounded-full h-12 w-12 flex items-center justify-center text-secondary-500 font-bold mb-4"
+                                data-aos="zoom-in" data-aos-delay="1200" data-aos-duration="500" data-aos-once="true">
+                                5
+                            </div>
+                            <p class="text-white font-medium text-start">Hand over cash</br>
+to customer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </section>
 
         <!-- Enhanced Hero Section with Bidirectional AOS Animations -->
-        <section class="relative overflow-hidden py-6 mb-6 bg-white">
+        <section class="relative overflow-hidden py-2 mb-6 bg-white">
 
             <!-- Main Content -->
             <div class="container mx-auto px-4 sm:px-6 relative z-20">
@@ -388,73 +398,161 @@
             </div>
         </section>
 
-
-        <!-- Service Coverage Section -->
-        <section class="w-full py-10 bg-secondary-500" data-aos="fade" data-aos-duration="800" data-aos-once="true">
+    <!-- Building Trust Across India Section -->
+<section class="w-full py-16 bg-secondary-600" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
     <div class="max-w-6xl mx-auto px-4">
         <!-- Section Title -->
-        <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-12" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">Service Coverage</h2>
-
+        <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-12" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-once="true">
+            Service Coverage
+        </h2>
+        
         <!-- Stats Grid -->
         <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-            <!-- Stat 1 -->
-            <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="100" data-aos-duration="600" data-aos-once="true">
-                <p class="text-4xl md:text-5xl font-bold text-white mb-2" data-aos="zoom-in" data-aos-delay="150" data-aos-duration="500" data-aos-once="true">700+</p>
-                <p class="text-white text-sm md:text-base">Districts across India</p>
-            </div>
-
-            <!-- Stat 2 -->
+            <!-- Stat 1 - Retail Partners -->
             <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="200" data-aos-duration="600" data-aos-once="true">
-                <p class="text-4xl md:text-5xl font-bold text-white mb-2" data-aos="zoom-in" data-aos-delay="250" data-aos-duration="500" data-aos-once="true">5 Lakh+</p>
+                <p class="text-4xl md:text-5xl font-bold text-white mb-2" data-aos="zoom-in" data-aos-delay="250" data-aos-duration="500" data-aos-once="true">
+                    <span id="retail-partners-count">700</span><span>+</span>
+                </p>
+                <p class="text-white text-sm md:text-base">Districts across India </p>
+            </div>
+            
+            <!-- Stat 2 - Banking Partners -->
+            <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600" data-aos-once="true">
+                <p class="text-4xl md:text-5xl font-bold text-white mb-2" data-aos="zoom-in" data-aos-delay="350" data-aos-duration="500" data-aos-once="true">
+                    <span id="banking-partners-count">5</span><span>Lakh +</span>
+                </p>
                 <p class="text-white text-sm md:text-base">Retail Points</p>
             </div>
-
-            <!-- Stat 3 -->
-            <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600" data-aos-once="true">
-                <p class="text-4xl md:text-5xl font-bold text-white mb-2" data-aos="zoom-in" data-aos-delay="350" data-aos-duration="500" data-aos-once="true">40 Cr+</p>
+            
+            <!-- Stat 3 - Expert Team Members -->
+            <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="400" data-aos-duration="600" data-aos-once="true">
+                <p class="text-4xl md:text-5xl font-bold text-white mb-2" data-aos="zoom-in" data-aos-delay="450" data-aos-duration="500" data-aos-once="true">
+                    <span id="team-members-count">40</span><span>Cr+</span>
+                </p>
                 <p class="text-white text-sm md:text-base">Daily Transactions</p>
             </div>
-
-            <!-- Stat 4 -->
-            <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="400" data-aos-duration="600" data-aos-once="true">
-                <p class="text-4xl md:text-5xl font-bold text-white mb-2" data-aos="zoom-in" data-aos-delay="450" data-aos-duration="500" data-aos-once="true">15 Lakh+</p>
+            
+            <!-- Stat 4 - Happy Customers -->
+            <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="500" data-aos-duration="600" data-aos-once="true">
+                <p class="text-4xl md:text-5xl font-bold text-white mb-2" data-aos="zoom-in" data-aos-delay="550" data-aos-duration="500" data-aos-once="true">
+                    <span id="customers-count">15</span><span>Lakh+</span>
+                </p>
                 <p class="text-white text-sm md:text-base">Monthly Customers</p>
             </div>
         </div>
     </div>
 </section>
+<script>
+// Counter animation function for Indian number format
+function animateCounter(elementId, start, end, duration) {
+    const obj = document.getElementById(elementId);
+    if (!obj) return;
+    
+    // Start with 0 for animating
+    obj.textContent = '0';
+    
+    let startTimestamp = null;
+    const step = (timestamp) => {
+        if (!startTimestamp) startTimestamp = timestamp;
+        const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+        const currentValue = Math.floor(progress * end);
+        
+        // Update the counter text
+        obj.textContent = currentValue;
+        
+        if (progress < 1) {
+            window.requestAnimationFrame(step);
+        }
+    };
+    
+    window.requestAnimationFrame(step);
+}
+
+// Set up intersection observer for counter section
+document.addEventListener('DOMContentLoaded', function() {
+    const counters = [
+        { id: 'retail-partners-count', value: 1 },  // 1 Lacs+
+        { id: 'banking-partners-count', value: 20 }, // 20+
+        { id: 'team-members-count', value: 150 },   // 150+
+        { id: 'customers-count', value: 15 }         // 1 Cr+
+    ];
+    
+    // Initialize all counters to 0
+    counters.forEach(counter => {
+        const element = document.getElementById(counter.id);
+        if (element) {
+            element.textContent = '0';
+        }
+    });
+    
+    // Create intersection observer
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            // When section becomes visible
+            if (entry.isIntersecting) {
+                // Start all animations with a small delay between each
+                counters.forEach((counter, index) => {
+                    setTimeout(() => {
+                        animateCounter(counter.id, 0, counter.value, 2000);
+                    }, 250 + (index * 150));
+                });
+                
+                // Only trigger once
+                observer.disconnect();
+            }
+        });
+    }, { threshold: 0.1 });
+    
+    // Observe the section itself
+    const trustSection = document.querySelector('section[style*="background-color: #192a59;"]');
+    if (trustSection) {
+        observer.observe(trustSection);
+    }
+    
+    // Fallback animation trigger if intersection observer doesn't work
+    setTimeout(() => {
+        counters.forEach((counter, index) => {
+            const element = document.getElementById(counter.id);
+            if (element && element.textContent === '0') {
+                setTimeout(() => {
+                    animateCounter(counter.id, 0, counter.value, 2000);
+                }, 250 + (index * 150));
+            }
+        });
+    }, 1000);
+});
+</script>
 
 
 
-        <!-- FAQ Section -->
+
+                <!-- FAQ Section -->
         <section class="py-10 max-w-3xl mx-auto px-4">
             <!-- Section Title -->
             <div class="text-center mb-12">
-                <h2 class="text-4xl font-bold text-secondary-600 mb-2">FAQ</h2>
-
+                <h2 class="text-4xl font-bold text-primary-800 mb-2">FAQ</h2>
             </div>
 
             <!-- FAQ Accordion -->
             <div class="space-y-4">
                 <?php
-        $faqItems = [
-            [
-                'question' => 'What is UPI Cash @POS service?',
-                'answer' => 'This service lets customers withdraw cash from merchant stores using UPI payments through POS terminals.',
-                'isOpen' => true
-            ],
-            [
-                'question' => 'What are the transaction limits?',
-                'answer' => 'Daily withdrawal limit is ₹2000 per customer as per RBI guidelines.',
-                'isOpen' => false
-            ],
-            [
-                'question' => 'How do merchants receive settlement?',
-                'answer' => 'Settlements happen automatically within 24-48 hours directly to your registered bank account.',
-                'isOpen' => false
-            ]
-        ];
-        
+$faqItems = [
+    [
+        'question' => 'What is UPI Cash @POS service?',
+        'answer' => 'This service lets customers withdraw cash from merchant stores using UPI payments through POS terminals.',
+        'isOpen' => true
+    ],
+    [
+        'question' => 'What are the transaction limits?',
+        'answer' => 'Daily withdrawal limit is ₹2000 per customer as per RBI guidelines.',
+        'isOpen' => false
+    ],
+    [
+        'question' => ' How do merchants receive settlement?',
+        'answer' => 'Settlements happen automatically within 24-48 hours directly to your registered bank account.',
+        'isOpen' => false
+    ]
+];
         foreach ($faqItems as $index => $item) :
             $isOpen = $item['isOpen'];
             $questionColor = $isOpen ? 'text-secondary-500' : 'text-primary-800';
@@ -476,6 +574,45 @@
                 <?php endforeach; ?>
             </div>
         </section>
+
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const accordionButtons = document.querySelectorAll('.faq-toggle');
+
+            accordionButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const content = button.nextElementSibling;
+                    const isHidden = content.classList.contains('hidden');
+                    const plusMinus = button.querySelector('span');
+                    const question = button.querySelector('h3');
+
+                    // Close all
+                    document.querySelectorAll('.faq-content').forEach(div => {
+                        div.classList.add('hidden');
+                    });
+                    document.querySelectorAll('.faq-toggle span').forEach(span => {
+                        span.textContent = '+';
+                        span.classList.remove('text-secondary-500');
+                        span.classList.add('text-primary-800');
+                    });
+                    document.querySelectorAll('.faq-toggle h3').forEach(h3 => {
+                        h3.classList.remove('text-secondary-500');
+                        h3.classList.add('text-primary-800');
+                    });
+
+                    // Open current if it was closed
+                    if (isHidden) {
+                        content.classList.remove('hidden');
+                        plusMinus.textContent = '−';
+                        plusMinus.classList.remove('text-primary-800');
+                        plusMinus.classList.add('text-secondary-500');
+                        question.classList.remove('text-primary-800');
+                        question.classList.add('text-secondary-500');
+                    }
+                });
+            });
+        });
+        </script>
 
 
 

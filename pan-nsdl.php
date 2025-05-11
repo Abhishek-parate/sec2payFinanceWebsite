@@ -64,12 +64,12 @@
                                 </h1>
                             <p class="black mb-6 sm:mb-8 text-sm sm:text-base" data-aos="fade-up" data-aos-delay="400"
                                 data-aos-duration="800" data-aos-once="true">
-                                Get your PAN card through NSDL's authorized service center network. <br> Start your application today.
+                                Get your PAN card through NSDL's authorized service center network. Start your application today.
 
                             </p>
 
                             <a href="https://app.sec2pay.in/?src=website" target="_blank"
-                                class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
+                                class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                Apply Now <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2"
                                     viewBox="0 0 20 20" fill="currentColor">
@@ -79,7 +79,7 @@
                                 </svg>
                             </a>
 
-                            <div class="mt-6 md:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                            <div class="mt-6 md:mt-4 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 <div class="flex -space-x-2 ml-1">
                                     <img src="https://randomuser.me/api/portraits/men/1.jpg"
@@ -169,7 +169,7 @@
                         </li>
                     </ul>
                     
-                    <a href="#" class="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1" 
+                    <a href="https://app.sec2pay.in/?src=website" target="_blank" class="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700 transition-all duration-300 hover:shadow-lg transform hover:-translate-y-1" 
                        data-aos="fade-up" data-aos-delay="500" data-aos-once="true">
                         Learn More
                     </a>
@@ -191,312 +191,628 @@
     </section>
 
         <!-- Banking Services Section -->
-        <section class=" text-white py-20 min-h-[650px] flex items-center">
-            <div class="container mx-4 md:mx-20 px-4 md:px-6 bg-primary-600 py-12 rounded-lg">
-                <h1 class="text-4xl md:text-5xl font-bold mb-10 md:pl-24" data-aos="fade-up" data-aos-duration="800">
-                    Built for the</h1>
+<section class=" text-white py-20 min-h-[650px] flex items-center">
+    <div class="container mx-4 md:mx-20 px-4 md:px-6 bg-primary-600 py-12 rounded-lg">
+        <h1 class="text-4xl md:text-5xl font-bold mb-10 md:pl-12" data-aos="fade-up" data-aos-duration="800">
+            Built for the</h1>
 
-                <!-- Banking Services Tabs -->
-                <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-                    <!-- Tab Buttons -->
-                    <div class="flex flex-wrap mb-8 gap-2 md:gap-3 md:pl-24">
-                        <button
-                            class="tab-btn px-5 py-3 bg-secondary-600 text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none active"
-                            data-tab="fast-processing">
-                            <span>Fast Processing</span>
-                        </button>
-                        <button
-                            class="tab-btn px-5 py-3 bg-transparent text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
-                            data-tab="secure-documentation">
-                            <span>Secure Documentation</span>
-                        </button>
-                        <button
-                            class="tab-btn px-5 py-3 bg-transparent text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
-                            data-tab="expert-support">
-                            <span>Expert Support</span>
-                        </button>
-                        <button
-                            class="tab-btn px-5 py-3 bg-transparent text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
-                            data-tab="service-options">
-                            <span>Service Options</span>
-                        </button>
-                        <button
-                            class="tab-btn px-5 py-3 bg-transparent text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
-                            data-tab="agent-benefits">
-                            <span>Agent Benefits</span>
-                        </button>
+        <!-- Banking Services Tabs -->
+        <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+            <!-- Tab Buttons -->
+            <div class="flex flex-wrap mb-8 gap-2 md:gap-3 md:pl-12">
+                <button
+                    class="tab-btn px-5 py-3 bg-secondary-600 text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none active"
+                    data-tab="fast-processing">
+                    <span>Fast Processing</span>
+                </button>
+                <button
+                    class="tab-btn px-5 py-3 bg-transparent text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
+                    data-tab="secure-documentation">
+                    <span>Secure Documentation</span>
+                </button>
+                <button
+                    class="tab-btn px-5 py-3 bg-transparent text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
+                    data-tab="expert-support">
+                    <span>Expert Support</span>
+                </button>
+                <button
+                    class="tab-btn px-5 py-3 bg-transparent text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
+                    data-tab="service-options">
+                    <span>Service Options</span>
+                </button>
+                <button
+                    class="tab-btn px-5 py-3 bg-transparent text-white border border-white/30 rounded-full cursor-pointer text-sm font-medium transition-all duration-300 outline-none"
+                    data-tab="agent-benefits">
+                    <span>Agent Benefits</span>
+                </button>
+            </div>
+
+
+            <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="fast-processing">
+                <div class="flex flex-col md:flex-row items-start gap-8 md:px-12 px-4">
+                    <div class="w-full md:w-1/2">
+
+
+                        <ul class="space-y-4">
+                            <li class="flex items-center">
+                                <span class="inline-block w-5 h-5 rounded-full mr-3 relative mb-1">
+                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_3032_15669)">
+                                            <path
+                                                d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z"
+                                                fill="#24223E" fill-opacity="0.1" stroke="#EDF0F7" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705"
+                                                stroke="#EDF0F7" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_3032_15669">
+                                                <rect width="19" height="19" fill="white" transform="translate(0 3)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </span>
+                                Digital submission process
+                            <li class="flex items-center">
+                                <span class="inline-block w-5 h-5 rounded-full mr-3 relative mb-1">
+                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_3032_15669)">
+                                            <path
+                                                d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z"
+                                                fill="#24223E" fill-opacity="0.1" stroke="#EDF0F7" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705"
+                                                stroke="#EDF0F7" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_3032_15669">
+                                                <rect width="19" height="19" fill="white" transform="translate(0 3)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </span>
+                                Quick verification system
+                            <li class="flex items-center">
+                                <span class="inline-block w-5 h-5 rounded-full mr-3 relative mb-1">
+                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_3032_15669)">
+                                            <path
+                                                d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z"
+                                                fill="#24223E" fill-opacity="0.1" stroke="#EDF0F7" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705"
+                                                stroke="#EDF0F7" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_3032_15669">
+                                                <rect width="19" height="19" fill="white" transform="translate(0 3)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </span>
+                                Status tracking available
+                            </li>
+
+                        </ul>
                     </div>
-
-
-                    <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="fast-processing">
-                        <div class="flex flex-col md:flex-row items-center gap-8 md:px-12 px-4">
-                            <div class="w-full md:w-1/2">
-
-
-                                <ul class="space-y-4">
-                                    <li class="flex items-center">
-                                        <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                            <span
-                                                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                        </span>
-                                        Digital submission process
-                                    <li class="flex items-center">
-                                        <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                            <span
-                                                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                        </span>
-                                        Quick verification system
-                                    <li class="flex items-center">
-                                        <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                            <span
-                                                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                        </span>
-                                        Status tracking available
-                                    </li>
-
-                                </ul>
-                            </div>
-                            <div class="w-full md:w-1/2 flex justify-center">
-                                <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
-                                    <img src="assets/images/pan-nsdl/fast-processing.png" alt="Aadhaar Pay"
-                                        class="max-w-full h-auto max-h-[400px]">
-                                </div>
-                            </div>
+                    <div class="w-full md:w-1/2 flex justify-center">
+                        <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
+                            <img src="assets/images/pan-nsdl/fast-processing.png" alt="Aadhaar Pay"
+                                class="max-w-full h-auto max-h-[400px]">
                         </div>
                     </div>
-
-                    <!-- Aadhaar Pay Tab Content -->
-                    <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="secure-documentation">
-                        <div class="flex flex-col md:flex-row items-center gap-8">
-                            <div class="w-full md:w-1/2">
-
-
-                                <ul class="space-y-4">
-                                    <li class="flex items-center">
-                                        <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                            <span
-                                                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                        </span>
-                                        Protected data handling
-                                    <li class="flex items-center">
-                                        <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                            <span
-                                                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                        </span>
-                                        Verified document storage
-                                    <li class="flex items-center">
-                                        <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                            <span
-                                                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                        </span>
-                                        Compliant with regulatory standards
-                                    </li>
-
-                                </ul>
-                            </div>
-                            <div class="w-full md:w-1/2 flex justify-center">
-                                <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
-                                    <img src="assets/images/pan-nsdl/secure-documentation.png" alt="Aadhaar Pay"
-                                        class="max-w-full h-auto max-h-[400px]">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Micro ATM Tab Content -->
-                    <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="expert-support">
-                        <div class="flex flex-col md:flex-row items-center gap-8">
-                            <div class="w-full md:w-1/2">
-
-
-                                <ul class="space-y-4">
-                                    <li class="flex items-center">
-                                        <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                            <span
-                                                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                        </span>
-                                        Guided application process
-                                    </li>
-                                    <li class="flex items-center">
-                                        <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                            <span
-                                                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                        </span>
-                                        Query resolution
-                                    </li>
-                                    <li class="flex items-center">
-                                        <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                            <span
-                                                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                        </span>
-                                        Document verification assistance
-                                    </li>
-
-                                </ul>
-                            </div>
-                            <div class="w-full md:w-1/2 flex justify-center">
-                                <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
-                                    <img src="assets/images/pan-nsdl/expert-support.png" alt="Micro ATM Services"
-                                        class="max-w-full h-auto max-h-[400px]">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Money Transfer Tab Content -->
-                    <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="service-options">
-                        <div class="flex flex-col md:flex-row items-center gap-8">
-                            <div class="w-full md:w-1/2">
-
-
-                                <ul class="space-y-4">
-                                    <li class="flex items-center">
-                                        <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                            <span
-                                                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                        </span>
-                                        New PAN Card Application
-                                    </li>
-                                    <li class="flex items-center">
-                                        <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                            <span
-                                                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                        </span>
-                                        PAN Card Correction
-                                    </li>
-                                    <li class="flex items-center">
-                                        <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                            <span
-                                                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                        </span>
-                                        Reprint PAN Card
-                                    </li>
-                                    <li class="flex items-center">
-                                        <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                            <span
-                                                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                        </span>
-                                        PAN Verification
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="w-full md:w-1/2 flex justify-center">
-                                <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
-                                    <img src="assets/images/pan-nsdl/service-options.png" alt="Domestic Money Transfer"
-                                        class="max-w-full h-auto max-h-[400px]">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Business Banking Tab Content -->
-                    <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="agent-benefits">
-                        <div class="flex flex-col md:flex-row items-center ">
-                            <div class="w-full md:w-1/2">
-
-
-                                <ul class="space-y-4">
-                                    <li class="flex items-center">
-                                        <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                            <span
-                                                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                        </span>
-                                        Competitive commission structure
-                                    </li>
-                                    <li class="flex items-center">
-                                        <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                            <span
-                                                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                        </span>
-                                        Minimal setup requirements
-                                    </li>
-                                    <li class="flex items-center">
-                                        <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                            <span
-                                                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                        </span>
-                                        Regular payment cycles
-                                    </li>
-                                    <li class="flex items-center">
-                                        <span class="inline-block w-5 h-5 bg-white rounded-full mr-3 relative">
-                                            <span
-                                                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-2 h-2 bg-secondary-500 rounded-full"></span>
-                                        </span>
-                                        Business loans
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="w-full md:w-1/2 flex justify-center">
-                                <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
-                                    <img src="assets/images/pan-nsdl/agent-benefits.png" alt="Business Banking"
-                                        class="max-w-full h-auto max-h-[400px]">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
                 </div>
-
             </div>
+
+            <!-- Aadhaar Pay Tab Content -->
+            <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="secure-documentation">
+                <div class="flex flex-col md:flex-row items-start gap-8 md:pl-12">
+                    <div class="w-full md:w-1/2">
+
+
+                        <ul class="space-y-4">
+                            <li class="flex items-center">
+                                <span class="inline-block w-5 h-5 rounded-full mr-3 relative mb-1">
+                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_3032_15669)">
+                                            <path
+                                                d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z"
+                                                fill="#24223E" fill-opacity="0.1" stroke="#EDF0F7" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705"
+                                                stroke="#EDF0F7" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_3032_15669">
+                                                <rect width="19" height="19" fill="white" transform="translate(0 3)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </span>
+                                Protected data handling
+                            <li class="flex items-center">
+                                <span class="inline-block w-5 h-5 rounded-full mr-3 relative mb-1">
+                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_3032_15669)">
+                                            <path
+                                                d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z"
+                                                fill="#24223E" fill-opacity="0.1" stroke="#EDF0F7" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705"
+                                                stroke="#EDF0F7" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_3032_15669">
+                                                <rect width="19" height="19" fill="white" transform="translate(0 3)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </span>
+                                Verified document storage
+                            <li class="flex items-center">
+                                <span class="inline-block w-5 h-5 rounded-full mr-3 relative mb-1">
+                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_3032_15669)">
+                                            <path
+                                                d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z"
+                                                fill="#24223E" fill-opacity="0.1" stroke="#EDF0F7" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705"
+                                                stroke="#EDF0F7" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_3032_15669">
+                                                <rect width="19" height="19" fill="white" transform="translate(0 3)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </span>
+                                Compliant with regulatory standards
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="w-full md:w-1/2 flex justify-center">
+                        <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
+                            <img src="assets/images/pan-nsdl/secure-documentation.png" alt="Aadhaar Pay"
+                                class="max-w-full h-auto max-h-[400px]">
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
+
+            <!-- Micro ATM Tab Content -->
+            <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="expert-support">
+                <div class="flex flex-col md:flex-row items-start gap-8 md:pl-12">
+                    <div class="w-full md:w-1/2">
 
 
+                        <ul class="space-y-4">
+                            <li class="flex items-center">
+                                <span class="inline-block w-5 h-5 rounded-full mr-3 relative mb-1">
+                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_3032_15669)">
+                                            <path
+                                                d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z"
+                                                fill="#24223E" fill-opacity="0.1" stroke="#EDF0F7" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705"
+                                                stroke="#EDF0F7" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_3032_15669">
+                                                <rect width="19" height="19" fill="white" transform="translate(0 3)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </span>
+                                Guided application process
+                            </li>
+                            <li class="flex items-center">
+                                <span class="inline-block w-5 h-5 rounded-full mr-3 relative mb-1">
+                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_3032_15669)">
+                                            <path
+                                                d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z"
+                                                fill="#24223E" fill-opacity="0.1" stroke="#EDF0F7" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705"
+                                                stroke="#EDF0F7" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_3032_15669">
+                                                <rect width="19" height="19" fill="white" transform="translate(0 3)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </span>
+                                Query resolution
+                            </li>
+                            <li class="flex items-center">
+                                <span class="inline-block w-5 h-5 rounded-full mr-3 relative mb-1">
+                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_3032_15669)">
+                                            <path
+                                                d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z"
+                                                fill="#24223E" fill-opacity="0.1" stroke="#EDF0F7" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705"
+                                                stroke="#EDF0F7" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_3032_15669">
+                                                <rect width="19" height="19" fill="white" transform="translate(0 3)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </span>
+                                Document verification assistance
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="w-full md:w-1/2 flex justify-center">
+                        <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
+                            <img src="assets/images/pan-nsdl/expert-support.png" alt="Micro ATM Services"
+                                class="max-w-full h-auto max-h-[400px]">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Money Transfer Tab Content -->
+            <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="service-options">
+                <div class="flex flex-col md:flex-row items-start gap-8 md:pl-12">
+                    <div class="w-full md:w-1/2">
 
 
-     <!-- Our Other Services Section -->
-     <section class="w-full bg-primary-500 py-10 px-4">
+                        <ul class="space-y-4">
+                            <li class="flex items-center">
+                                <span class="inline-block w-5 h-5 rounded-full mr-3 relative mb-1">
+                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_3032_15669)">
+                                            <path
+                                                d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z"
+                                                fill="#24223E" fill-opacity="0.1" stroke="#EDF0F7" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705"
+                                                stroke="#EDF0F7" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_3032_15669">
+                                                <rect width="19" height="19" fill="white" transform="translate(0 3)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </span>
+                                New PAN Card Application
+                            </li>
+                            <li class="flex items-center">
+                                <span class="inline-block w-5 h-5 rounded-full mr-3 relative mb-1">
+                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_3032_15669)">
+                                            <path
+                                                d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z"
+                                                fill="#24223E" fill-opacity="0.1" stroke="#EDF0F7" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705"
+                                                stroke="#EDF0F7" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_3032_15669">
+                                                <rect width="19" height="19" fill="white" transform="translate(0 3)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </span>
+                                PAN Card Correction
+                            </li>
+                            <li class="flex items-center">
+                                <span class="inline-block w-5 h-5 rounded-full mr-3 relative mb-1">
+                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_3032_15669)">
+                                            <path
+                                                d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z"
+                                                fill="#24223E" fill-opacity="0.1" stroke="#EDF0F7" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705"
+                                                stroke="#EDF0F7" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_3032_15669">
+                                                <rect width="19" height="19" fill="white" transform="translate(0 3)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </span>
+                                Reprint PAN Card
+                            </li>
+                            <li class="flex items-center">
+                                <span class="inline-block w-5 h-5 rounded-full mr-3 relative mb-1">
+                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_3032_15669)">
+                                            <path
+                                                d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z"
+                                                fill="#24223E" fill-opacity="0.1" stroke="#EDF0F7" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705"
+                                                stroke="#EDF0F7" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_3032_15669">
+                                                <rect width="19" height="19" fill="white" transform="translate(0 3)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </span>
+                                PAN Verification
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="w-full md:w-1/2 flex justify-center">
+                        <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
+                            <img src="assets/images/pan-nsdl/service-options.png" alt="Domestic Money Transfer"
+                                class="max-w-full h-auto max-h-[400px]">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Business Banking Tab Content -->
+            <div class="tab-pane hidden opacity-0 transition-opacity duration-300" id="agent-benefits">
+                <div class="flex flex-col md:flex-row items-start md:pl-12">
+                    <div class="w-full md:w-1/2">
+
+
+                        <ul class="space-y-4">
+                            <li class="flex items-center">
+                                <span class="inline-block w-5 h-5 rounded-full mr-3 relative mb-1">
+                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_3032_15669)">
+                                            <path
+                                                d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z"
+                                                fill="#24223E" fill-opacity="0.1" stroke="#EDF0F7" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705"
+                                                stroke="#EDF0F7" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_3032_15669">
+                                                <rect width="19" height="19" fill="white" transform="translate(0 3)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </span>
+                                Competitive commission structure
+                            </li>
+                            <li class="flex items-center">
+                                <span class="inline-block w-5 h-5 rounded-full mr-3 relative mb-1">
+                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_3032_15669)">
+                                            <path
+                                                d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z"
+                                                fill="#24223E" fill-opacity="0.1" stroke="#EDF0F7" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705"
+                                                stroke="#EDF0F7" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_3032_15669">
+                                                <rect width="19" height="19" fill="white" transform="translate(0 3)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </span>
+                                Minimal setup requirements
+                            </li>
+                            <li class="flex items-center">
+                                <span class="inline-block w-5 h-5 rounded-full mr-3 relative mb-1">
+                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_3032_15669)">
+                                            <path
+                                                d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z"
+                                                fill="#24223E" fill-opacity="0.1" stroke="#EDF0F7" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705"
+                                                stroke="#EDF0F7" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_3032_15669">
+                                                <rect width="19" height="19" fill="white" transform="translate(0 3)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </span>
+                                Regular payment cycles
+                            </li>
+                            <li class="flex items-center">
+                                <span class="inline-block w-5 h-5 rounded-full mr-3 relative mb-1">
+                                    <svg width="19" height="25" viewBox="0 0 19 25" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_3032_15669)">
+                                            <path
+                                                d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z"
+                                                fill="#24223E" fill-opacity="0.1" stroke="#EDF0F7" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705"
+                                                stroke="#EDF0F7" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_3032_15669">
+                                                <rect width="19" height="19" fill="white" transform="translate(0 3)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                </span>
+                                Business loans
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="w-full md:w-1/2 flex justify-center">
+                        <div class="relative flex justify-center" data-aos="fade-left" data-aos-duration="1000">
+                            <img src="assets/images/pan-nsdl/agent-benefits.png" alt="Business Banking"
+                                class="max-w-full h-auto max-h-[400px]">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    </div>
+</section>
+
+
+<section class="w-full bg-primary-500 py-16 px-4" data-aos="fade" data-aos-duration="1000"
+            data-aos-once="true">
             <div class="max-w-6xl mx-auto">
                 <div class="flex flex-col md:flex-row items-start">
                     <!-- Section Title -->
-                    <div class="text-white mb-10 md:mb-0 md:w-1/4 md:mr-8 md:pt-2" data-aos="fade-right">
+                    <div class="text-white mb-10 md:mb-0 md:w-1/4 md:mr-8 md:pt-2" data-aos="fade-right"
+                        data-aos-duration="800" data-aos-once="true">
                         <h2 class="text-3xl font-bold leading-tight uppercase">
                             OUR OTHER SERVICES
                         </h2>
                     </div>
 
                     <!-- Services Grid -->
-                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-8 md:w-3/4 w-full">
+                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-8 md:w-3/4 w-full"
+                        data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
                         <!-- AEPS -->
-                        <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="100">
-                            <img src="assets/images/pan-nsdl/icon1.svg" alt="AEPS" class="w-28 h-28 ">
-                            <span class="text-primary-500 text-center font-medium">AEPS</span>
+                        <div class="flex flex-col items-center justify-center" data-aos="zoom-in" data-aos-delay="100"
+                            data-aos-duration="600" data-aos-once="true">
+                            <div
+                                class="w-28 h-28 rounded-2xl flex items-center justify-center mb-4">
+                                <img src="assets/images/pan-nsdl/icon1.svg" alt="AEPS" class="w-28 h-28 ">
+                            </div>
+                            <span class="text-white text-center font-medium">AEPS</span>
                         </div>
 
                         <!-- DMT -->
-                        <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="200">
+                        <div class="flex flex-col items-center justify-center" data-aos="zoom-in" data-aos-delay="100"
+                            data-aos-duration="600" data-aos-once="true">
+                            <div
+                                class="w-28 h-28 rounded-2xl flex items-center justify-center mb-4">
                             <img src="assets/images/pan-nsdl/icon2.svg" alt="DMT" class="w-28 h-28 ">
-                            <span class="text-primary-500 text-center font-medium">DMT</span>
+                        </div>
+                        <span class="text-white text-center font-medium">DMT</span>
                         </div>
 
                         <!-- Micro ATM -->
-                        <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="300">
+                        <div class="flex flex-col items-center justify-center" data-aos="zoom-in" data-aos-delay="300"
+                            data-aos-duration="600" data-aos-once="true">
+                             <div
+                                class="w-28 h-28 rounded-2xl flex items-center justify-center mb-4">
                             <img src="assets/images/pan-nsdl/icon3.svg" alt="Micro ATM" class="w-28 h-28 ">
-                            <span class="text-primary-500 text-center font-medium">Micro ATM</span>
+                        </div>
+                            <span class="text-white text-center font-medium">Micro ATM</span>
                         </div>
 
                         <!-- mPOS -->
-                        <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="400">
+                        <div class="flex flex-col items-center justify-center" data-aos="zoom-in" data-aos-delay="400"
+                            data-aos-duration="600" data-aos-once="true">
+                             <div
+                                class="w-28 h-28 rounded-2xl flex items-center justify-center mb-4">
                             <img src="assets/images/pan-nsdl/icon4.svg" alt="mPOS" class="w-28 h-28 ">
-                            <span class="text-primary-500 text-center font-medium">mPOS</span>
+                        </div>
+                            <span class="text-white text-center font-medium">mPOS</span>
                         </div>
 
                         <!-- CMS -->
-                        <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="500">
+                        <div class="flex flex-col items-center justify-center" data-aos="zoom-in" data-aos-delay="500"
+                            data-aos-duration="600" data-aos-once="true">
+                             <div
+                                class="w-28 h-28 rounded-2xl flex items-center justify-center mb-4">
                             <img src="assets/images/pan-nsdl/icon5.svg" alt="CMS" class="w-28 h-28 ">
-                            <span class="text-primary-500 text-center font-medium">CMS</span>
+                        </div>
+                            <span class="text-white text-center font-medium">CMS</span>
                         </div>
 
                         <!-- UPI QR Code -->
-                        <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-delay="600">
+                        <div class="flex flex-col items-center justify-center" data-aos="zoom-in" data-aos-delay="600"
+                            data-aos-duration="600" data-aos-once="true">
+                             <div
+                                class="w-28 h-28 rounded-2xl flex items-center justify-center mb-4">
                             <img src="assets/images/pan-nsdl/icon6.svg" alt="UPI QR Code" class="w-28 h-28 ">
-                            <span class="text-primary-500 text-center font-medium">UPI QR Code</span>
+                        </div>
+                            <span class="text-white text-center font-medium">UPI QR Code</span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+
+
 
 
         <!-- FAQ Section -->
@@ -576,7 +892,7 @@
 
                         <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
                             <p class="text-white mb-4 sm:mb-6">
-                                <a href="contact-us.php" class="underline hover:text-white transition">
+                                <a href="https://app.sec2pay.in/?src=website" target="_blank" class="underline hover:text-white transition">
                                     Joining as an organization? Contact Sales
                                 </a>
                             </p>

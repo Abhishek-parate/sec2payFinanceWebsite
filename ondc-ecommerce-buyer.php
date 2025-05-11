@@ -110,54 +110,34 @@
 
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 max-w-4xl mx-auto">
                     <!-- Feature 1 - AI-Optimized Routes -->
-                    <div class="p-4 sm:p-5 md:p-6 rounded-lg hover:bg-secondary-700 transition-colors duration-300"
+                     <!-- Feature 1 - AI-Optimized Routes -->
+                    <div class="sm:px-6 rounded-xl"
                         data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-once="true">
                         <div class="flex items-center mb-4">
-                            <div class="bg-primary-100 rounded-full p-2 mr-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-secondary-600" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
-                                </svg>
-                            </div>
                             <h3 class="text-lg sm:text-xl font-semibold text-white">Smart Shopping</h3>
                         </div>
-                        <p class="text-white text-sm sm:text-base ml-12">
-                        Enable buyers to compare prices and purchase from trusted local stores.                        </p>
+                        <p class="text-white">
+                            Enable buyers to compare prices and purchase from trusted local stores.
+                        </p>
                     </div>
 
-                    <!-- Feature 2 - Real-Time Tracking -->
-                    <div class="p-4 sm:p-5 md:p-6 rounded-lg hover:bg-secondary-700 transition-colors duration-300"
-                        data-aos="fade-up" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
+                   <div class="sm:px-6 rounded-xl"
+                        data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-once="true">
                         <div class="flex items-center mb-4">
-                            <div class="bg-primary-100 rounded-full p-2 mr-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-secondary-600" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                                </svg>
-                            </div>
                             <h3 class="text-lg sm:text-xl font-semibold text-white">Secure Payments</h3>
                         </div>
-                        <p class="text-white text-sm sm:text-base ml-12">
-                        Provide multiple payment options with secure transactions.                        </p>
+                        <p class="text-white">
+                            Provide multiple payment options with secure transactions.
+                        </p>
                     </div>
-
-                    <!-- Feature 3 - Seamless Integrations -->
-                    <div class="p-4 sm:p-5 md:p-6 rounded-lg hover:bg-secondary-700 transition-colors duration-300"
-                        data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">
+                   <div class="sm:px-6 rounded-xl"
+                        data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-once="true">
                         <div class="flex items-center mb-4">
-                            <div class="bg-primary-100 rounded-full p-2 mr-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-secondary-600" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M13 10V3L4 14h7v7l9-11h-7z" />
-                                </svg>
-                            </div>
                             <h3 class="text-lg sm:text-xl font-semibold text-white">Real-Time Updates</h3>
                         </div>
-                        <p class="text-white text-sm sm:text-base ml-12">
-                        Ensure buyers receive live updates on orders and deliveries.                        </p>
+                        <p class="text-white">
+                            Ensure buyers receive live updates on orders and deliveries.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -165,7 +145,7 @@
 
 
         <!-- Services Section with White Background -->
-        <section class="bg-white py-10 sm:py-12 md:py-10 px-4 sm:px-6">
+        <section class="bg-white py-10 sm:py-12 md:py-12 px-4 sm:px-6">
             <div class="max-w-6xl mx-auto">
                 <div class="flex flex-col md:flex-row items-center md:items-start">
                     <!-- Left Column - Services List -->

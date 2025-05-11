@@ -35,8 +35,9 @@
                 </div>
 
                 <!-- Top-right Circular Gradient (Pinkish) -->
-                <div class="absolute -top-[6%] -right-[25%] w-[50%] h-[100%] rounded-full opacity-50"
-                    style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 10%, rgba(242, 219, 219, 0.4) 50%, rgba(255, 255, 255, 0) 60%);"
+                <div class="absolute top-10
+                 -right-[20%] w-[40%] h-[60%] opacity-40"
+                    style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 10%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 60%);"
                     data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
                 </div>
             </div>
@@ -64,7 +65,7 @@
                            
                             
                             <a href="https://app.sec2pay.in/?src=website" target="_blank"
-                        class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4"
+                        class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
                         data-aos="fade-up" data-aos-delay="400" data-aos-duration="800" data-aos-once="true">
                         Start Today                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
                                     fill="currentColor">
@@ -74,7 +75,7 @@
                                 </svg>
                     </a>
 
-                            <div class="mt-6 md:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                            <div class="mt-6 md:mt-4 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
                         data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                         <div class="flex -space-x-2 ml-1">
                             <img src="https://randomuser.me/api/portraits/men/1.jpg"
@@ -98,8 +99,8 @@
                             <div class="relative z-20">
                                 <img src="assets/images/odnc-e-commerce-lfp/odnc-e-com-lfp-hero.png" alt="Dashboard"
                                     class="w-full h-auto" />
-                                <div
-                                    class="absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-white to-transparent">
+                               <div
+                                    class="absolute bottom-0 left-0 right-0 h-2/5 bg-gradient-to-t from-white to-transparent">
                                 </div>
                             </div>
                         </div>
@@ -109,7 +110,7 @@
         </section>
 
         <!-- Features Section -->
-        <section class="py-8 sm:py-10 md:py-12 mt-6 bg-primary-600" data-aos="fade-up" data-aos-duration="1000"
+        <section class="py-8 sm:py-10 md:py-6 mt-6 bg-primary-600" data-aos="fade-up" data-aos-duration="1000"
             data-aos-once="true">
             <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold text-primary-100 text-center mb-6 md:mb-8"
@@ -119,55 +120,32 @@
 
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8 max-w-4xl mx-auto">
                     <!-- Feature 1 - AI-Optimized Routes -->
-                    <div class="p-4 sm:p-6 bg-primary-700 bg-opacity-30 rounded-xl hover:bg-primary-800 hover:bg-opacity-40 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg"
+                    <div class="sm:px-6 rounded-xl"
                         data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-once="true">
                         <div class="flex items-center mb-4">
-                            <div class="bg-secondary-500 rounded-full p-2 mr-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
-                                </svg>
-                            </div>
                             <h3 class="text-lg sm:text-xl font-semibold text-secondary-500">AI-Optimized Routes</h3>
                         </div>
-                        <p class="text-white ml-11">
+                        <p class="text-white">
                             Save costs with intelligent route planning tools.
                         </p>
                     </div>
-
-                    <!-- Feature 2 - Real-Time Tracking -->
-                    <div class="p-4 sm:p-6 bg-primary-700 bg-opacity-30 rounded-xl hover:bg-primary-800 hover:bg-opacity-40 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg"
-                        data-aos="fade-up" data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
+                    <!-- Feature 1 - AI-Optimized Routes -->
+                     <div class="sm:p-6 rounded-xl"
+                        data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-once="true">
                         <div class="flex items-center mb-4">
-                            <div class="bg-secondary-500 rounded-full p-2 mr-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                                </svg>
-                            </div>
                             <h3 class="text-lg sm:text-xl font-semibold text-secondary-500">Real-Time Tracking</h3>
                         </div>
-                        <p class="text-white ml-11">
-                            Offer live tracking for all deliveries.
+                        <p class="text-white">
+                            Offer live tracking for all deliveries
                         </p>
                     </div>
-
-                    <!-- Feature 3 - Seamless Integrations -->
-                    <div class="p-4 sm:p-6 bg-primary-700 bg-opacity-30 rounded-xl hover:bg-primary-800 hover:bg-opacity-40 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg"
-                        data-aos="fade-up" data-aos-delay="300" data-aos-duration="800" data-aos-once="true">
+                    <!-- Feature 1 - AI-Optimized Routes -->
+                      <div class="sm:p-6 rounded-xl"
+                        data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-once="true">
                         <div class="flex items-center mb-4">
-                            <div class="bg-secondary-500 rounded-full p-2 mr-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none"
-                                    viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M13 10V3L4 14h7v7l9-11h-7z" />
-                                </svg>
-                            </div>
                             <h3 class="text-lg sm:text-xl font-semibold text-secondary-500">Seamless Integrations</h3>
                         </div>
-                        <p class="text-white ml-11">
+                        <p class="text-white">
                             Connect directly with sellers and buyers for smooth operations.
                         </p>
                     </div>

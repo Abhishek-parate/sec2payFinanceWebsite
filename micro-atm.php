@@ -33,7 +33,7 @@
                 </div>
 
                 <!-- Top-right Circular Gradient (Pinkish) -->
-                <div class="hidden sm:block absolute -top-[6%] -right-[25%] w-[50%] h-[100%] rounded-full opacity-50"
+                <div class="hidden sm:block absolute top-0 -right-[25%] w-[50%] h-[70%] rounded-full opacity-50"
                     style="background:radial-gradient(circle, rgba(230, 120, 120, 0.8) 10%, rgba(242, 219, 219, 0.4) 50%, rgba(255, 255, 255, 0) 60%);"
                     data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
                 </div>
@@ -50,11 +50,11 @@
                             <h1 class="text-2xl md:text-4xl font-bold text-secondary-500 mb-4">Branch with MicroATM</h1>
                             <p class="text-black mb-5">Offer instant cash withdrawals and basic banking to your
                                 customers with our MicroATM services.</p>
-                            <a href="#"
-                                class="inline-flex items-center justify-center px-5 py-3 md:mb-4 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
+                            <a href="https://app.sec2pay.in/?src=website" target="_blank"
+                                class="inline-flex items-center justify-center px-5 py-3 md:mb-4 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md">
                                 Start Your Journey
                             </a>
-                            <div class="flex items-center gap-2 border-2 md:mt-8 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                            <div class="flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
                                 data-aos="fade-up" data-aos-delay="200">
                                 <div class="flex -space-x-2">
                                     <img src="https://randomuser.me/api/portraits/men/1.jpg"
@@ -84,6 +84,7 @@
                 </div>
         </section>
 
+        
 
 
         <!-- Key Features Section with Split Background -->
@@ -91,11 +92,11 @@
     <!-- Left Side - Dark Blue Background with Title -->
     <div class="bg-primary-800 text-white py-10 px-8 md:w-1/4 flex flex-col items-start justify-center"
         data-aos="fade-right" data-aos-duration="1000">
-        <h2 class="text-4xl font-bold leading-tight mb-6">
+        <h2 class="text-4xl text-white font-bold leading-tight mb-6">
             MicroATM<br>Platform
         </h2>
 
-        <a href="#"
+        <a href="https://app.sec2pay.in/?src=website" target="_blank"
             class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md">
             Read More
         </a>
@@ -110,11 +111,11 @@
                 <div class="mb-4">
                     <img src="assets/images/micro-atm/icon1.svg" alt="Dashboard" class="mt-4 mb-2" />
                 </div>
-                <h3 class="text-xl font-bold mb-3">Card-based Transactions</h3>
+                <h3 class="text-xl font-bold mb-3 text-white">Card-based Transactions</h3>
                 <ul class="space-y-2">
-                    <li class="flex items-start"><span class="mr-2">•</span><span>Accept debit cards for cash withdrawals</span></li>
-                    <li class="flex items-start"><span class="mr-2">•</span><span>Support for all major banks</span></li>
-                    <li class="flex items-start"><span class="mr-2">•</span><span>Real-time balance checks</span></li>
+                    <li class="flex items-start text-white"><span class="mr-2">•</span><span>Accept debit cards for cash withdrawals</span></li>
+                    <li class="flex items-start text-white"><span class="mr-2">•</span><span>Support for all major banks</span></li>
+                    <li class="flex items-start text-white"><span class="mr-2">•</span><span>Real-time balance checks</span></li>
                 </ul>
             </div>
 
@@ -123,11 +124,11 @@
                 <div class="mb-4">
                     <img src="assets/images/micro-atm/icon2.svg" alt="Dashboard" class="mt-4 mb-2" />
                 </div>
-                <h3 class="text-xl font-bold mb-3">Simple Operations</h3>
+                <h3 class="text-xl font-bold mb-3 text-white">Simple Operations</h3>
                 <ul class="space-y-2">
-                    <li class="flex items-start"><span class="mr-2">•</span><span>Easy-to-use device interface</span></li>
-                    <li class="flex items-start"><span class="mr-2">•</span><span>Quick transaction processing</span></li>
-                    <li class="flex items-start"><span class="mr-2">•</span><span>Minimal training needed</span></li>
+                    <li class="flex items-start text-white"><span class="mr-2">•</span><span>Easy-to-use device interface</span></li>
+                    <li class="flex items-start text-white"><span class="mr-2">•</span><span>Quick transaction processing</span></li>
+                    <li class="flex items-start text-white"><span class="mr-2">•</span><span>Minimal training needed</span></li>
                 </ul>
             </div>
 
@@ -136,11 +137,11 @@
                 <div class="mb-4">
                     <img src="assets/images/micro-atm/icon3.svg" alt="Dashboard" class="mt-4 mb-2" />
                 </div>
-                <h3 class="text-xl font-bold mb-3">Secure Payments</h3>
+                <h3 class="text-xl font-bold mb-3 text-white">Secure Payments</h3>
                 <ul class="space-y-2">
-                    <li class="flex items-start"><span class="mr-2">•</span><span>PIN-based authentication</span></li>
-                    <li class="flex items-start"><span class="mr-2">•</span><span>End-to-end encryption</span></li>
-                    <li class="flex items-start"><span class="mr-2">•</span><span>Bank-grade Security Standards</span></li>
+                    <li class="flex items-start text-white"><span class="mr-2">•</span><span>PIN-based authentication</span></li>
+                    <li class="flex items-start text-white"><span class="mr-2">•</span><span>End-to-end encryption</span></li>
+                    <li class="flex items-start text-white"><span class="mr-2">•</span><span>Bank-grade Security Standards</span></li>
                 </ul>
             </div>
         </div>
@@ -216,7 +217,7 @@
                 <!-- Content Container -->
                 <div class="flex flex-col md:flex-row">
                     <!-- Left side content -->
-                    <div class="p-4 md:p-4 lg:p-10 md:w-1/2 z-10">
+                    <div class="p-4 md:p-4 lg:px-10 md:w-1/2 z-10">
                         <!-- Section Heading -->
                         <h2 class="text-3xl md:text-4xl font-bold text-white mb-8 mt-12">
                             Platform<br>Features
@@ -387,7 +388,7 @@
 
 
 
-                        <div class="relative flex justify-center items-end h-full p-8 z-10">
+                        <div class="relative flex justify-center items-end h-full px-8 z-10">
                             <!-- Using a placeholder for the POS machine -->
                             <div class="relative w-64 h-96 mx-auto mb-0 mt-auto">
                                 <!-- Phone body -->
@@ -478,7 +479,7 @@
 
                         <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
                             <p class="text-white mb-4 sm:mb-6">
-                                <a href="contact-us.php" class="underline hover:text-white transition">
+                                <a href="https://app.sec2pay.in/?src=website" target="_blank" class="underline hover:text-white transition">
                                     Joining as an organization? Contact Sales
                                 </a>
                             </p>

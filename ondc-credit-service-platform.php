@@ -38,12 +38,12 @@
                                     class="hidden sm:block">ONDC platform.</p>
 
                             <a  href="https://app.sec2pay.in/?src=website" target="_blank"
-                                class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4"
+                                class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md"
                                 data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
                                 Get Started Today!
                             </a>
 
-                            <div class="mt-6 md:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                            <div class="mt-6 md:mt-4 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
                                 data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">
                                 <div class="flex -space-x-2">
                                     <img src="https://randomuser.me/api/portraits/men/1.jpg"
@@ -130,108 +130,116 @@
         </section>
 
 
-        <!-- Banking Services Section -->
-        <section class="  py-10 px-4 md:px-24 flex items-center" data-aos="fade-up" data-aos-duration="800"
-            data-aos-delay="50">
-            <div class="container mx-auto px-4 md:px-6">
-                <h2 class="text-3xl font-bold text-primary-700 mb-8 text-center">Core Services</h2>
+      <!-- Banking Services Section -->
+<section class="py-10 px-4 md:px-24 flex items-center" data-aos="fade-up" data-aos-duration="800" data-aos-delay="50">
+    <div class="container mx-auto px-4 md:px-6">
+        <h2 class="text-3xl font-bold text-primary-700 mb-8 text-center">Core Services</h2>
 
-                <!-- Banking Services Tabs -->
-                <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-                    <!-- Tab Content -->
-                    <div class="relative min-h-[350px] overflow-hidden md:pl-24">
-                        <!-- AePS Tab Content -->
-                        <div class="tab-pane block opacity-100 transition-opacity duration-300" id="aeps">
-                            <div>
-
-                            </div>
-                            <div class="flex flex-col md:flex-row items-center gap-8 text-primary-600">
-
-
-                                <div class="w-full md:w-1/2 ">
-                                    <div class="p-10 bg-secondary-100 rounded-2xl w-4/5">
-
-                                        <h3 class="text-2xl md:text-3xl font-semibold mb-8">For Merchants</h3>
-                                        <ul class="space-y-5 mb-8">
-                                            <?php
-                                $Merchants = [
-                                    'Working capital loans',
-                                    'Stock purchase funding',
-                                    'Business expansion loans',
-                                ];
-                                
-                                foreach ($Merchants as $Merchant) :
-                                ?>
-                                            <li class="flex items-start">
-                                                <div
-                                                    class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
-                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                                        <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2"
-                                                            fill="none" />
-                                                        <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6"
-                                                            stroke-width="2" stroke-linecap="round"
-                                                            stroke-linejoin="round" />
-                                                    </svg>
-                                                </div>
-                                                <span class="ml-3 "><?php echo $Merchant; ?></span>
-                                            </li>
-                                            <?php endforeach; ?>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="w-full md:w-1/2">
-                                    <h3 class="text-2xl md:text-3xl font-semibold mb-8">For Consumers</h3>
-                                    <ul class="space-y-5 mb-8">
-                                        <?php
-                                $services = [
-                                    'Flexible EMIs',
-                                    'Digital personal loans',
-                                    'Buy Now Pay Later options',
-                                ];
-                                
-                                foreach ($services as $service) :
-                                ?>
-                                        <li class="flex items-start">
-                                            <div
-                                                class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
-                                                    <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2"
-                                                        fill="none" />
-                                                    <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2"
-                                                        stroke-linecap="round" stroke-linejoin="round" />
-                                                </svg>
-                                            </div>
-                                            <span class="ml-3 "><?php echo $service; ?></span>
-                                        </li>
-                                        <?php endforeach; ?>
-                                    </ul>
-
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="relative z-10 flex justify-center items-center mt-3 " data-aos="fade-up"
-                            data-aos-delay="400">
-                            <a  href="https://app.sec2pay.in/?src=website" target="_blank"
-                                class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5  sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
-                                data-aos="zoom-in" data-aos-delay="500">
-                                Explore Credit Solutions
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2"
-                                    viewBox="0 0 20 20" fill="currentColor">
-                                    <path fill-rule="evenodd"
-                                        d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </a>
-                        </div>
+        <!-- Banking Services Tabs -->
+        <div class="w-full" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+            <!-- Tab Content -->
+            <div class="relative min-h-[350px] overflow-hidden md:pl-24">
+                <!-- AePS Tab Content -->
+                <div class="tab-pane block opacity-100 transition-opacity duration-300" id="aeps">
+                    <div>
 
                     </div>
+                    <div class="flex flex-col md:flex-row items-center gap-8 text-primary-600">
+
+                        <!-- For Merchants (Card to be centered) -->
+                        <div class="w-full md:w-1/2 flex justify-center">
+                            <div class="p-10 bg-secondary-100 rounded-2xl w-full md:w-4/5 text-left">
+                                <h3 class="text-2xl md:text-3xl font-semibold mb-8">For Merchants</h3>
+                                <ul class="space-y-5 mb-8">
+                                    <!-- PHP code simplified for HTML example -->
+                                    <li class="flex items-start">
+                                        <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                                <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
+                                                <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <span class="ml-3">Working capital loans</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                                <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
+                                                <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <span class="ml-3">Stock purchase funding</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                                <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
+                                                <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <span class="ml-3">Business expansion loans</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- For Consumers -->
+                        <div class="w-full md:w-1/2 flex justify-center">
+                            <div class="w-full md:w-4/5 text-left">
+                                <h3 class="text-2xl md:text-3xl font-semibold mb-8">For Consumers</h3>
+                                <ul class="space-y-5 mb-8">
+                                    <!-- PHP code simplified for HTML example -->
+                                    <li class="flex items-start">
+                                        <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                                <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
+                                                <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <span class="ml-3">Flexible EMIs</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                                <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
+                                                <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <span class="ml-3">Digital personal loans</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center mt-1">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5">
+                                                <circle cx="12" cy="12" r="10" stroke="#5271B6" stroke-width="2" fill="none" />
+                                                <path d="M7 12.5L10 15.5L17 8.5" stroke="#5271B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </div>
+                                        <span class="ml-3">Buy Now Pay Later options</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="relative z-10 flex justify-center items-center mt-3" data-aos="fade-up" data-aos-delay="400">
+                    <a href="https://app.sec2pay.in/?src=website" target="_blank"
+                        class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
+                        data-aos="zoom-in" data-aos-delay="500">
+                        Explore Credit Solutions
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2" viewBox="0 0 20 20"
+                            fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+
             </div>
-        </section>
+        </div>
+    </div>
+</section>
 
 
 
@@ -239,7 +247,7 @@
         <!--Why Choose Sec2Pay
      ONDC Credit Platform-->
 
-        <section class="py-10 px-4 sm:px-6 lg:px-8 overflow-hidden">
+        <section class="py-6 px-4 sm:px-6 lg:px-8 overflow-hidden">
             <div class="tab-pane block opacity-100 transition-opacity duration-300" id="aeps">
                 <div class="flex flex-col md:flex-row items-center gap-6 lg:gap-12 max-w-7xl mx-auto">
                     <div class="w-full md:w-1/2 flex justify-center mb-8 md:mb-0" data-aos="fade-right"

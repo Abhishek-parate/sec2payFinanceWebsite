@@ -57,7 +57,7 @@
                             </p>
 
                             <a href="https://app.sec2pay.in/?src=website" target="_blank"
-                                class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
+                                class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 Join the Platform
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
@@ -68,7 +68,7 @@
                                 </svg>
                             </a>
 
-                            <div class="mt-6 md:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                            <div class="mt-6 md:mt-4 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 <div class="flex -space-x-2 ml-1">
                                     <img src="https://randomuser.me/api/portraits/men/1.jpg"
@@ -220,7 +220,7 @@
 
             <!-- Right Side Text Content with AOS -->
             <div class="w-full md:w-1/2" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
-                <h3 class="text-4xl font-bold mb-5 text-black">
+                <h3 class="text-4xl font-bold mb-4 text-primary-500">
                     Why choose Sec2Pay <br> ONDC Buyer Service:
                 </h3>
                 <ul class="space-y-5 mb-8">
@@ -320,13 +320,15 @@
 
                     <div class="max-w-4xl mx-auto text-center">
                         <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-3 sm:mb-4 relative z-10"
-                            data-aos="fade-up" data-aos-delay="200">Join Sec2Pay today</h1>
+                            data-aos="fade-up" data-aos-delay="200">Join Sec2Pay Today</h1>
 
                         <p class="text-base sm:text-lg text-gray-300  relative z-10" data-aos="fade-up"
                             data-aos-delay="300">Start for free — upgrade anytime.</p>
-                        <p class="text-base sm:text-lg text-gray-300 mb-6 sm:mb-8 relative z-10" data-aos="fade-up"
-                            data-aos-delay="300">Joining as an organization? Contact Sales</p>
-
+                       <p class="text-gray-300 mb-4 sm:mb-6">
+                                <a href="https://app.sec2pay.in/?src=website" target="_blank" class="underline hover:text-white transition">
+                                    Joining as an organization? Contact Sales
+                                </a>
+                            </p>
                         <div class="relative z-10" data-aos="fade-up" data-aos-delay="400">
                             <a href="https://app.sec2pay.in/?src=website" target="_blank"
                                 class="inline-flex items-center bg-secondary-500 hover:bg-secondary-600 text-white px-5 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-all transform hover:scale-105"
@@ -335,7 +337,7 @@
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 sm:h-5 sm:w-5 ml-2"
                                     viewBox="0 0 20 20" fill="currentColor">
                                     <path fill-rule="evenodd"
-                                        d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                                        d="M12.293 55.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
                                         clip-rule="evenodd" />
                                 </svg>
                             </a>

@@ -43,7 +43,7 @@
                                 data-aos="zoom-in-up">
                                 Start Your Journey
                             </a>
-                            <div class="mt-6 sm:mt-8 flex flex-wrap sm:flex-nowrap items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                            <div class="mt-6 sm:mt-4 flex flex-wrap sm:flex-nowrap items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
                                 data-aos="fade-up">
                                 <div class="flex -space-x-2 overflow-hidden ml-1">
                                     <img src="https://randomuser.me/api/portraits/men/1.jpg"

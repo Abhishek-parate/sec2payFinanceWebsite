@@ -37,13 +37,12 @@
                     <p class="text-gray-500 mb-8">Join 10,000+ insurance partners offering</br>comprehensive coverage solutions.</p>
 
                     <a href="https://app.sec2pay.in/?src=website" target="_blank"
-                        class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
+                        class="inline-flex items-center justify-center px-5 py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md">
                         Partner Today
-
                     </a>
 
                     <div
-                        class="mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm">
+                        class="mt-4 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm">
                         <div class="flex -space-x-2 ">
                             <img src="https://randomuser.me/api/portraits/men/1.jpg"
                                 class="w-8 h-8 rounded-full border-2 border-white">

@@ -63,7 +63,7 @@
                             </p>
 
                             <a href="https://app.sec2pay.in/?src=website" target="_blank"
-                                class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
+                                class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 Start offering Utility Services
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
@@ -74,7 +74,7 @@
                                 </svg>
                             </a>
 
-                            <div class="mt-6 md:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                            <div class="mt-6 md:mt-4 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 <div class="flex -space-x-2 ml-1">
                                     <img src="https://randomuser.me/api/portraits/men/1.jpg"
@@ -175,7 +175,7 @@
                                     </div>
                                 </div>
                                 <div class="w-full md:w-1/2">
-                                    <h3 class="text-2xl md:text-3xl font-semibold mb-8 text-secondary-600">Benefits for
+                                    <h3 class="text-2xl md:text-3xl font-semibold mb-8 text-secondary-500">Benefits for
                                         Partners:</h3>
                                     <ul class="space-y-5 mb-8">
                                         <?php
@@ -216,15 +216,14 @@
 
         <section>
             <div class="w-full bg-primary-700 py-12">
-                <div class="max-w-7xl mx-auto px-4">
+                <div class="max-w-5xl mx-auto px-4">
                     <!-- Desktop View -->
                     <div class="hidden md:flex flex-row items-center justify-between text-white" data-aos="fade-up"
                         data-aos-delay="100">
                         <div class="font-bold text-base whitespace-nowrap">
-                        Partner Support:                        </div>
+                        Partner Support:</div>
 
                         <div class="flex items-center justify-end space-x-6 text-sm">
-                            <div class="text-white/50">|</div>
                             <div class="flex items-center">
                                 <span class="whitespace-nowrap">Dedicated relationship manager</span>
                             </div>
@@ -265,6 +264,135 @@
             </div>
         </section>
 
+
+           <!-- Key Features Section -->
+    <section class="w-full py-12">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <!-- Content side -->
+                <div class="w-full md:w-1/2" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+                    <h2 class="text-4xl font-bold text-primary-700 mb-6">Insurance Types Available</h2>
+
+                    <ul class="space-y-5 mb-8">
+                        <li class="flex items-start" data-aos="fade-up" data-aos-delay="100" data-aos-once="true">
+                            <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center">
+                                <svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2107_19036)">
+<path d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z" fill="#EDF0F7" stroke="#1B2E5A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705" stroke="#1B2E5A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_2107_19036">
+<rect width="19" height="19" fill="white" transform="translate(0 3)"/>
+</clipPath>
+</defs>
+</svg>
+
+                            </div>
+                            <span class="ml-3 text-primary-500 transform transition-transform duration-300 hover:translate-x-1">Two-wheeler insurance</span>
+                        </li>
+                        <li class="flex items-start" data-aos="fade-up" data-aos-delay="200" data-aos-once="true">
+                            <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center">
+                                <svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2107_19036)">
+<path d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z" fill="#EDF0F7" stroke="#1B2E5A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705" stroke="#1B2E5A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_2107_19036">
+<rect width="19" height="19" fill="white" transform="translate(0 3)"/>
+</clipPath>
+</defs>
+</svg>
+
+                            </div>
+                            <span class="ml-3 text-primary-500 transform transition-transform duration-300 hover:translate-x-1">Four-wheeler insurance</span>
+                        </li>
+                        <li class="flex items-start" data-aos="fade-up" data-aos-delay="300" data-aos-once="true">
+                            <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center">
+                                <svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2107_19036)">
+<path d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z" fill="#EDF0F7" stroke="#1B2E5A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705" stroke="#1B2E5A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_2107_19036">
+<rect width="19" height="19" fill="white" transform="translate(0 3)"/>
+</clipPath>
+</defs>
+</svg>
+
+                            </div>
+                            <span class="ml-3 text-primary-500 transform transition-transform duration-300 hover:translate-x-1">Commercial vehicle coverage</span>
+                        </li>
+                        <li class="flex items-start" data-aos="fade-up" data-aos-delay="400" data-aos-once="true">
+                            <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center">
+                                <svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2107_19036)">
+<path d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z" fill="#EDF0F7" stroke="#1B2E5A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705" stroke="#1B2E5A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_2107_19036">
+<rect width="19" height="19" fill="white" transform="translate(0 3)"/>
+</clipPath>
+</defs>
+</svg>
+
+                            </div>
+                            <span class="ml-3 text-primary-500 transform transition-transform duration-300 hover:translate-x-1">Long-term policies</span>
+                        </li>
+                        <li class="flex items-start" data-aos="fade-up" data-aos-delay="400" data-aos-once="true">
+                            <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center">
+                                <svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2107_19036)">
+<path d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z" fill="#EDF0F7" stroke="#1B2E5A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705" stroke="#1B2E5A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_2107_19036">
+<rect width="19" height="19" fill="white" transform="translate(0 3)"/>
+</clipPath>
+</defs>
+</svg>
+
+                            </div>
+                            <span class="ml-3 text-primary-500 transform transition-transform duration-300 hover:translate-x-1">Third-party liability</span>
+                        </li>
+                        <li class="flex items-start" data-aos="fade-up" data-aos-delay="400" data-aos-once="true">
+                            <div class="flex-shrink-0 h-5 w-5 rounded-full flex items-center justify-center">
+                                <svg width="19" height="25" viewBox="0 0 19 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2107_19036)">
+<path d="M9.5 4C14.3731 4 18 7.62693 18 12.5C18 17.4003 14.4003 21 9.5 21C4.5997 21 1 17.4003 1 12.5C1 7.62693 4.62693 4 9.5 4Z" fill="#EDF0F7" stroke="#1B2E5A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M5.57812 14.3943C7.20478 15.3973 7.84749 16.3676 7.84749 16.3676C7.84749 16.3676 8.77121 14.58 10.4029 12.5476C12.1604 10.3584 13.3887 9.47705 13.3887 9.47705" stroke="#1B2E5A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_2107_19036">
+<rect width="19" height="19" fill="white" transform="translate(0 3)"/>
+</clipPath>
+</defs>
+</svg>
+
+                            </div>
+                            <span class="ml-3 text-primary-500 transform transition-transform duration-300 hover:translate-x-1">Comprehensive coverage</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Image side -->
+                <div class="w-full md:w-1/2" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-aos-once="true">
+                    <div class="relative overflow-hidden ">
+                        <!-- Main image with hover effect -->
+                        <img src="assets/images/motor-insurance/type.png" alt="Key Features" 
+                             class="w-full h-auto ">
+                        
+                        <!-- Decorative elements -->
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 

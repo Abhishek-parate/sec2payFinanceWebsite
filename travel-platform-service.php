@@ -75,7 +75,7 @@ Turn Your Business Into a
                             </p>
 
                             <a href="https://app.sec2pay.in/?src=website" target="_blank"
-                                class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
+                                class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 Start Your Travel Business
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20"
@@ -86,7 +86,7 @@ Turn Your Business Into a
                                 </svg>
                             </a>
 
-                            <div class="mt-6 md:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                            <div class="mt-6 md:mt-4 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 <div class="flex -space-x-2 ml-1">
                                     <img src="https://randomuser.me/api/portraits/men/1.jpg"
@@ -109,7 +109,7 @@ Turn Your Business Into a
                             <!-- Main Image -->
                             <div class="relative z-20">
                             <img src="assets/images/travel-platform-services/tps-hero.png" alt="Dashboard" 
-                            class="w-full h-96" />
+                            class="w-auto md:w-full h-auto md:h-96" />
                                 <div
                                     class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
                                 </div>
@@ -124,7 +124,7 @@ Turn Your Business Into a
 <!-- hero section ends -->
 
 <!-- Banking Overview Section with Split Background -->
-<section class="relative py-10" data-aos="fade" data-aos-duration="800" data-aos-once="true">
+<section class="relative py-4" data-aos="fade" data-aos-duration="800" data-aos-once="true">
     <!-- Top background - light blue -->
     <div class="absolute top-0 left-0 right-0 h-[60%] bg-secondary-100"></div>
     <!-- Bottom background - white -->
@@ -135,7 +135,7 @@ Turn Your Business Into a
         <!-- Section Header -->
         <div class="text-center mb-12 z-10 relative">
             <h2 class="text-4xl font-bold text-primary-800 mb-6">Overview</h2>
-            <p class=" max-w-4xl mx-auto text-center leading-relaxed font-semibold  text-xl">
+            <p class=" max-w-4xl mx-auto text-center leading-relaxed text-l">
             Sec2Pay’s Travel Platform allows enterprises to incorporate travel booking solutions, including IRCTC train bookings, flight reservations, bus tickets, and hotel stays, into their services. With real-time booking capabilities and direct integrations, businesses can offer end-to-end travel solutions to their customers.
             </p>
         </div>
@@ -169,7 +169,7 @@ Turn Your Business Into a
 
 
    <!-- Join Section with Dark Blue Background -->
-   <section class="relative py-10 px-4 sm:px-8 md:px-16 lg:px-20">
+   <section class="relative px-4 sm:px-8 md:px-16 lg:px-20">
             <div class="container mx-auto">
                 <!-- Join Panel with Starry Background -->
                 <div class="bg-gradient-to-br from-primary-700 to-primary-600 rounded-xl p-6 sm:p-8 md:p-10 text-white relative overflow-hidden"

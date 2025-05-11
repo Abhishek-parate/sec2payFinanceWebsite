@@ -57,12 +57,12 @@
                     </p>
 
                     <a href="https://app.sec2pay.in/?src=website" target="_blank"
-                        class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
+                        class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg"
                         data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                         Start Exploring
                     </a>
 
-                    <div class="mt-6 md:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                    <div class="mt-6 md:mt-4 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
                         data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                         <div class="flex -space-x-2 ml-1">
                             <img src="https://randomuser.me/api/portraits/men/1.jpg"
@@ -103,7 +103,7 @@
         <!-- Banking Services Section -->
         <section class="bg-rose-50 py-10 px-4 md:px-24 flex items-center">
             <div class="container mx-auto px-4 md:px-6">
-                <h2 class="text-3xl font-bold mb-8 text-secondary-600 text-center" data-aos="zoom-in"
+                <h2 class="text-3xl font-bold mb-8 text-secondary-500 text-center" data-aos="zoom-in"
                     data-aos-delay="100">ONDC E-Commerce Buyer Platform Services</h2>
 
                 <!-- Banking Services Tabs -->
@@ -199,6 +199,7 @@
             </div>
         </section>
 
+        
         <section class="py-10 px-4">
     <div class="tab-pane block opacity-100 transition-opacity duration-300" id="aeps">
         <div class="flex flex-col md:flex-row items-center gap-8">

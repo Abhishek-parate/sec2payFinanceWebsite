@@ -126,11 +126,11 @@
                 </div>
 
                 <!-- Discover all services button -->
-                <div class="mt-6 flex justify-start" data-aos="fade-up" data-aos-delay="700">
-                    <button
-                        class="w-auto bg-secondary-500 hover:bg-secondary-600 text-white py-3 px-6 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-md font-medium">
+                <div class="flex mt-4" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
+                    <a href="https://app.sec2pay.in/?src=website" target="_blank"
+                        class="bg-red-500 hover:bg-red-600 text-white font-medium py-3 px-8 rounded-md transition duration-300">
                         Discover All Services
-                    </button>
+                    </a>
                 </div>
             </div>
 

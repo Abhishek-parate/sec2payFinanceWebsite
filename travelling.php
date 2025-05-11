@@ -39,13 +39,13 @@
                         travel platform</p>
 
                         <a href="https://app.sec2pay.in/?src=website" target="_blank"
-                                class="inline-flex items-center justify-center px-5 py-3 md:mb-4 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md mb-4">
+                                class="inline-flex items-center justify-center px-5 py-3 md:mb-4 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-md">
                                 Start Your Journey
 
                             </a>
 
                             <div
-                                class="flex items-center gap-2 border-2 md:mt-8 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm">
+                                class="flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm">
                                 <div class="flex -space-x-2 ">
                                     <img src="https://randomuser.me/api/portraits/men/1.jpg"
                                         class="w-6 h-6 sm:w-8 sm:h-8 md:w-8 md:h-8 rounded-full border-2 border-white">

@@ -22,37 +22,37 @@
 
 
     <main class="overflow-hidden">
-        <!-- dmt Section -->
 
-        <section class="relative overflow-hidden bg-white py-6 sm:py-8 md:py-10">
+<section class="relative overflow-hidden bg-white py-6 sm:py-4 md:py-4">
 
 
-            <div class="hidden sm:block absolute top-[5%] -left-[20%] w-[50%] h-[100%] rounded-full hidden md:block"
-                style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 0%, rgba(242, 219, 219, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
-                data-aos="fade" data-aos-duration="1500" data-aos-once="true">
+            <!-- Background Gradients - Hidden on mobile -->
+            <div class="absolute inset-0 overflow-hidden pointer-events-none hidden md:block">
+                <!-- Top-left Circular Gradient (Bluish) -->
+                <div class="absolute top-[5%] -left-[25%] w-[50%] h-[100%] rounded-full opacity-50"
+                    style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 10%, rgba(222, 242, 255, 0.4) 50%, rgba(255, 255, 255, 0) 60%);"
+                    data-aos="fade" data-aos-duration="1500" data-aos-once="true">
+                </div>
+
+                <!-- Top-right Circular Gradient (Pinkish) -->
+                <div class="absolute top-0 -right-[25%] w-[50%] h-[70%] rounded-full opacity-50"
+                    style="background: radial-gradient(circle, rgba(230, 120, 120, 0.8) 10%, rgba(242, 219, 219, 0.4) 50%, rgba(255, 255, 255, 0) 60%);"
+                    data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
+                </div>
             </div>
 
-            <!-- Top-right Circular Gradient (Pinkish) - Hidden on mobile -->
-            <div class="hidden sm:block absolute -top-[20%] -right-[20%] w-[50%] h-[100%] rounded-full hidden md:block"
-                style="background: radial-gradient(circle, rgba(126, 194, 240, 0.8) 0%, rgba(222, 242, 255, 0.4) 40%, rgba(255, 255, 255, 0) 50%);"
-                data-aos="fade" data-aos-duration="1500" data-aos-delay="200" data-aos-once="true">
-            </div>
+
             <!-- Top-right Circular Gradient (Pinkish) - Hidden on mobile -->
 
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 md:pt-12 relative z-10">
-                <div class="rounded-xl overflow-hidden">
-                    <div class="flex flex-col md:flex-row md:items-center">
-                        <!-- Content - Always First -->
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 md:py-12 relative z-10">
+  <div class="rounded-xl overflow-hidden">
+    <div class="flex flex-col md:flex-row md:items-center">
+      <!-- Content - Always First -->
                         <div class="p-4 md:p-8 lg:p-12 pt-8" data-aos="fade-right" data-aos-duration="1000"
                             data-aos-once="true">
                             <p class="font-bold text-primary-600 text-sm sm:text-base mb-2" data-aos="fade-up"
                                 data-aos-delay="100" data-aos-duration="800" data-aos-once="true"> Travel Booking
                                 Platform
-
-
-
-
-
                             </p>
                             <h1 class="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-500" data-aos="fade-up"
                                 data-aos-delay="200" data-aos-duration="800" data-aos-once="true">
@@ -70,7 +70,7 @@
                             </p>
 
                             <a href="https://app.sec2pay.in/?src=website" target="_blank"
-                                class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg mb-4"
+                                class="inline-flex items-center justify-center px-4 sm:px-5 py-2 sm:py-3 bg-secondary-500 text-white rounded-lg font-semibold text-sm transition-all hover:-translate-y-0.5 hover:shadow-lg"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 Start Your Travel Business <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2"
                                     viewBox="0 0 20 20" fill="currentColor">
@@ -80,7 +80,7 @@
                                 </svg>
                             </a>
 
-                            <div class="mt-6 md:mt-8 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
+                            <div class="mt-6 md:mt-4 flex items-center gap-2 border-2 border-gray-200 rounded-full p-1 w-full max-w-sm shadow-sm"
                                 data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-once="true">
                                 <div class="flex -space-x-2 ml-1">
                                     <img src="https://randomuser.me/api/portraits/men/1.jpg"
@@ -97,22 +97,64 @@
                             </div>
                         </div>
 
-                        <div class="relative max-w-5xl mx-auto  ">
-                            <!-- Main Dashboard Image -->
-                            <div class="relative z-20 w-96 md:w-[80%] lg:w-[90%] mx-auto">
-                                <img src="assets/images/travel-booking-platform/banner.png" alt="Dashboard"
-                                    class=" w-full" />
-                                <div
-                                    class="absolute bottom-0 left-0 right-0 h-1/5 bg-gradient-to-t from-white to-transparent">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      <!-- Image - Always Second -->
+      <div
+        class="w-full md:w-1/2 order-2"
+        data-aos="fade-left"
+        data-aos-duration="1200"
+        data-aos-once="true"
+      >
+        <!-- Main Dashboard Image -->
+        <div class="relative z-20">
+          <img
+            src="assets/images/travel-booking-platform/banner.png"
+            alt="Dashboard"
+            class="w-full"
+          />
+          <div
+            class="absolute bottom-0 left-0 right-0 h-2/5 bg-gradient-to-t from-white to-transparent"
+          ></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
         </section>
 
+        <!-- Why Choose Sec2Pay DMT Platform Service -->
+        <section class="py-12 mt-6 bg-primary-100">
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-primary-500 mb-8" data-aos="fade-up" data-aos-duration="1000">Why Choose Sec2Pay DMT Platform Service</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Feature 1 - Secure Payments -->
+            <div class="rounded-lg border border-primary-500 bg-primary-200 p-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <h3 class="text-xl font-semibold text-gray-800 mb-3">Instant Bank Transfers</h3>
+                <p class="text-gray-700">
+                    Send money directly to any bank account in India within seconds.
+                </p>
+            </div>
+
+            <!-- Feature 2 - Simple Setup -->
+            <div class="rounded-lg border p-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                <h3 class="text-xl font-semibold text-gray-800 mb-3">Multi-Bank Support</h3>
+                <p class="text-gray-700">
+                    Connect with 20+ banking partners for reliable transfers.
+                </p>
+            </div>
+
+            <!-- Feature 3 - Quick Settlements -->
+            <div class="rounded-lg border p-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                <h3 class="text-xl font-semibold text-gray-800 mb-3">Real-Time Status</h3>
+                <p class="text-gray-700">
+                    Track transfer status instantly through SMS alerts.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
 
         <!-- Key Features Section with Split Background -->
         <section class="flex flex-col md:flex-row mt-12" data-aos="fade" data-aos-duration="800" data-aos-once="true">
